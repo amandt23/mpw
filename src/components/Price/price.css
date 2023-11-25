@@ -1,0 +1,237 @@
+.price {
+    padding: 100px 70px;
+    background: linear-gradient(to bottom, #DEE2C1 50%, #F2F2F2 50%);
+}
+
+.pricTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricTop h3 {
+    color: #21383E;
+    text-align: center;
+    font-size: 35.454px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pricTop p {
+    color: #68797E;
+    text-align: center;
+    font-size: 22.295px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 770px;
+}
+
+.priceLeft {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 19px;
+    row-gap: 34px;
+    margin-top: 77px;
+    justify-content: center;
+}
+
+.priceCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px 33px;
+    /* width: fit-content; */
+    max-width: 247px;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.40);
+}
+
+.priceCard h4 {
+    margin: 16px 0px;
+    color: #21383E;
+    font-size: 12.214px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.priceCard p {
+    margin-bottom: 26px;
+    color: #21383E;
+    text-align: center;
+    font-size: 13.387px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.priceBottom {
+    display: flex;
+
+}
+
+.priceRightCard {
+    border-radius: 27.07px;
+    background: white;
+    box-shadow: 0px 0px 19.33555px 0px #000;
+    /* max-width: 402px; */
+    padding: 33px 29px 22px 19px;
+    max-height: 725px;
+    margin-top: 32px;
+}
+
+.priceRightCard h3 {
+    color: #1C1C1B;
+    text-align: center;
+    font-size: 33.837px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 25px;
+    padding: 0px 7px;
+}
+
+.cardContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cardOneSect {
+    display: flex;
+    column-gap: 90px;
+    justify-content: space-between;
+    margin-top: 14px;
+    width: 100%;
+}
+
+.cardOneLeft {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    /* background-color: aqua; */
+
+}
+
+.cardOneLeft p {
+    color: #01593A;
+    /* text-align: center; */
+    font-size: 17.402px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.cardOneRight {
+    display: flex;
+    align-items: center;
+    column-gap: 8.8px;
+    /* background-color: aqua; */
+}
+
+.cardOneRight p {
+    color: #68797E;
+    font-size: 15.7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: line-through;
+}
+
+.cardOneRight h2 {
+    color: #FF5C00;
+    text-align: center;
+    font-size: 21.051px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.priceRightCard hr {
+    /* width: 353.841px; */
+    height: 0.967px;
+    background: #01593A;
+    margin-top: 2px;
+}
+
+.allFeatures h4 {
+    color: #1C1C1B;
+    text-align: center;
+    font-size: 18.797px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.allFeatures p {
+    color: #68797E;
+    font-family: Inter;
+    font-size: 17.415px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: line-through;
+    margin-left: 30px;
+}
+
+.allFeatures {
+    display: flex;
+    /* column-gap: 30px; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.allFeatures h2 {
+    color: #FF5C00;
+    text-align: center;
+    font-size: 23.351px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+
+}
+
+.doBtn button {
+    padding: 8px 20px;
+    margin-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20.828px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 6px;
+    background: #01593A;
+}
+
+@media (max-width: 950px) {
+    .priceBottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .cardOneSect {
+        column-gap: 40px;
+        
+    }
+}
+@media (max-width: 550px) {
+    .cardOneSect {
+        column-gap: 20px;
+        
+    }
+}

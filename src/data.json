@@ -1,0 +1,107 @@
+{
+    "lecturers": [
+        {
+            "name": "John Doe",
+            "university": "Example University",
+            "role": "Professor",
+            "education": "Ph.D. in Computer Science",
+            "totalOrders": 50,
+            "english": 70,
+            "poetry": 20,
+            "classics": 90
+        },
+        {
+            "name": "Jane Smith",
+            "university": "Another University",
+            "role": "Associate Professor",
+            "education": "M.Sc. in Physics",
+            "totalOrders": 30,
+            "english": 10,
+            "poetry": 90,
+            "classics": 90
+        },
+        {
+            "name": "Alex Johnson",
+            "university": "University of Science",
+            "role": "Assistant Professor",
+            "education": "B.A. in Chemistry",
+            "totalOrders": 20,
+            "english": 90,
+            "poetry": 30,
+            "classics": 70
+        },
+        {
+            "name": "Emily White",
+            "university": "Science and Tech Institute",
+            "role": "Lecturer",
+            "education": "M.A. in Mathematics",
+            "totalOrders": 15,
+            "english": 50,
+            "poetry": 60,
+            "classics": 20
+        },
+        {
+            "name": "Michael Brown",
+            "university": "Tech University",
+            "role": "Senior Lecturer",
+            "education": "Ph.D. in Electrical Engineering",
+            "totalOrders": 40,
+            "english": 70,
+            "poetry": 60,
+            "classics": 90
+        },
+        {
+            "name": "Michael Brown",
+            "university": "Tech University",
+            "role": "Senior Lecturer",
+            "education": "Ph.D. in Electrical Engineering",
+            "totalOrders": 40,
+            "english": 70,
+            "poetry": 60,
+            "classics": 90
+          },
+          {
+            "name": "Emma Johnson",
+            "university": "Arts College",
+            "role": "Associate Professor",
+            "education": "M.A. in Literature",
+            "totalOrders": 35,
+            "english": 80,
+            "poetry": 50,
+            "classics": 70
+          },
+          {
+            "name": "Daniel White",
+            "university": "Science Academy",
+            "role": "Assistant Professor",
+            "education": "B.Sc. in Biology",
+            "totalOrders": 25,
+            "english": 60,
+            "poetry": 40,
+            "classics": 80
+          },
+          {
+            "name": "Sophie Smith",
+            "university": "Liberal Arts Institute",
+            "role": "Professor",
+            "education": "Ph.D. in History",
+            "totalOrders": 55,
+            "english": 90,
+            "poetry": 75,
+            "classics": 95
+          },
+          {
+            "name": "David Taylor",
+            "university": "Engineering College",
+            "role": "Lecturer",
+            "education": "M.Eng. in Computer Science",
+            "totalOrders": 20,
+            "english": 50,
+            "poetry": 30,
+            "classics": 60
+            
+          }
+    ]
+
+}
+

@@ -1,0 +1,329 @@
+/* Header  */
+.header {
+    /* background: linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%); */
+    display: flex;
+    /* flex-direction: column; */
+    padding-top: 70px;
+    box-shadow: 0px 11.84375px 5.26389px 0px rgba(60, 52, 101, 0.47);
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.header .headerTop {
+    padding-top: 94px;
+    /* padding-left: 108px; */
+    max-width: 1080px;
+}
+
+
+.headerTop h3 {
+    color: #21383E;
+    font-size: 60.882px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* .top{
+    background-color: #01593A;
+} */
+.headerTop p {
+    color: #68797E;
+    font-size: 43.555px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headerLeft {
+    /* background: url(images/bakimg.png), lightgray 50% / cover no-repeat; */
+    /* width: 897.493px;
+    height: 897.493px; */
+    float: right;
+}
+
+.headerLeft img {
+    /* top: 95px;
+    right: 148px; */
+    /* left: 10px; */
+    /* position: absolute; */
+    width: 555.486px;
+    height: 846.521px;
+    /* flex-shrink: 0; */
+    /* background: #000; */
+}
+
+.headerBottom {
+    margin-top: 70px;
+    display: flex;
+    column-gap: 53px;
+    /* background-color: red; */
+}
+
+.headerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+    border-radius: 32.575px;
+    /* background: linear-gradient(180deg, #D9D9D9 0%, #D9D9D9 48.96%, #D9D9D9 100%); */
+    box-shadow: 0px 0px 9.30717px 0px #21383E;
+    margin-bottom: 90px;
+}
+
+.headerCardContents {
+    padding: 49px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.upper {
+    padding-bottom: 10px;
+}
+
+.headerCardContents .upperInputs {
+    border-radius: 4.654px;
+    border: 1.163px solid #605454;
+    background: #F6F4F4;
+    color: rgba(131, 125, 125, 0.80);
+    font-family: Inter;
+    font-size: 18.614px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 12px;
+    padding-left: 34px;
+    height: 51.323px;
+    padding-bottom: 14px;
+    outline: none;
+    width: 100%;
+}
+
+.headerInputs {
+    margin-top: 43px;
+    width: 100%;
+}
+
+.inputContents {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.inputContents2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 22px;
+}
+
+.inputContents label {
+    color: #01593A;
+
+    font-family: Inter;
+    font-size: 18.614px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.headerCard h4 {
+    color: #21383E;
+
+    text-align: center;
+    font-size: 34.305px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.headerCard p {
+    color: #21383E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24.556px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Page-input {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-top: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.counter p {
+    color: #21383E;
+    text-align: center;
+    text-shadow: 0px 4.972321510314941px 4.972321510314941px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 47.106px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#counterInput {
+    border-radius: 4.654px;
+    border: 1.163px solid #605454;
+    background: #F6F4F4;
+    color: rgba(131, 125, 125, 0.80);
+    font-family: Inter;
+    font-size: 18.614px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: 51.323px;
+    outline: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headerCardBott {
+    padding: 20px 80px;
+    border-radius: 0px 0px 32.575px 32.575px;
+    background: linear-gradient(177deg, #303A4F 2.72%, #21383E 69.5%, #10141F 139.12%);
+    box-shadow: 0px 0px 9.30717px 0px #21383E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 92px;
+
+}
+
+.headerCardBott button {
+    border-radius: 92.664px;
+    background: #528975;
+    outline: none;
+    /* padding: 19px 17px; */
+    border: none;
+    width: 159.233px;
+    height: 69.747px;
+}
+
+#totalInput {
+    height: 30px;
+    width: 90px;
+    border-radius: 10.528px;
+    border: 0.993px solid #605454;
+    background: #F6F4F4;
+}
+
+.headerBottom .headerRight {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerRight p {
+    color: #21383E;
+    font-family: Inter;
+    font-size: 30.829px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightContents {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.rightBTN {
+    border-radius: 49.489px;
+    background: #305F63;
+    padding: 24px 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25.854px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-top: 61px;
+}
+
+
+@media (max-width: 1380px) {
+    .headerBottom {
+        flex-direction: column;
+        /* row-gap: 30px; */
+        /* background-color: red; */
+        align-items: center;
+    }
+
+    .headerRight {
+        row-gap: 10px;
+    }
+
+    .headerLeft img {
+        display: none;
+    }
+
+    .header .headerTop {
+        padding-top: 20px;
+        padding-left: 0px;
+        max-width: 1080px;
+    }
+
+    .header {
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    .headerCardContents {
+        padding: 29px;
+        width: 400px;
+
+    }
+
+    .upper {
+        margin-left: -20px;
+
+    }
+
+    .headerCard {
+        width: 400px;
+    }
+
+    .headerCardBott {
+        width: 400px;
+
+    }
+
+}
+
+@media (max-width: 470px) {
+
+
+    .headerCard {
+        width: 360px;
+    }
+
+    .headerCardBott {
+        width: 360px;
+
+    }
+
+}

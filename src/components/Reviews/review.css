@@ -1,0 +1,311 @@
+.review {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reviewTop {
+    /* margin-top: 60px; */
+    margin: 60px 0px;
+
+}
+
+.reviewTop h3 {
+    color: #21383E;
+    text-align: center;
+    font-size: 35.102px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.reviewTop p {
+    color: #21383E;
+    text-align: center;
+    font-size: 25.463px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.privacy-cards {
+    display: flex;
+    padding: 0px 72px;
+    column-gap: 65px;
+    row-gap: 45px;
+    padding-bottom: 29px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.privacy-card {
+    padding: 20px 22px 44px 22px;
+    border-radius: 34.902px;
+    background: #FFF;
+    box-shadow: 0px 0px 36.29846px 0px rgba(0, 0, 0, 0.40);
+    max-width: 389px;
+}
+
+.pcardTop {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+}
+
+.pcardTop h3 {
+    color: #21383E;
+    text-align: center;
+    font-size: 25.15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pcardTop p {
+    color: #21383E;
+    text-align: center;
+    font-size: 15.149px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.privacy-card p {
+    margin-top: 21px;
+}
+
+/* review section  */
+
+.reviewSect {
+    /* width: 90%; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+    margin: 43px 0px;
+    padding: 31px 70px;
+    background: #F3F3F3;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    max-height: 500px;
+    overflow: auto;
+    /* width: fit-content; */
+}
+
+/* .reviewCards {
+    background-color: rgb(211, 126, 23);
+    border-radius: 0px 9px 9px 0px;
+    border: 1px solid #626262;
+    background: #E1E1E1;
+    max-width: 1500px;
+} */
+
+.reviewCard {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* width: 90%; */
+    border-radius: 0px 9px 9px 0px;
+    border: 1px solid #626262;
+    background: #E1E1E1;
+
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    padding: 8px 10px;
+    border: 1px solid #626262;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px #000;
+}
+
+.sec1Top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec1Mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec1Bottom {
+    display: flex;
+    column-gap: 10px;
+}
+
+.sec1 h3 {
+    color: #000;
+    text-align: center;
+    font-size: 11.989px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sec1 p {
+    color: #00A12D;
+    font-size: 11.989px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sect2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sect2 img {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+}
+
+.sect3 {
+    /* max-width: 660px; */
+    /* background-color: #00A12D; */
+
+}
+
+.sect3Top {
+    border-radius: 11px;
+    border: 1px solid #626262;
+    background: #FFF;
+    padding: 9.5px;
+    width: 660px;
+}
+
+.sect3Top .input {
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 9px; */
+    /* width: 560px; */
+}
+
+.input h3 {
+    color: #060606;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 11px;
+}
+
+.input hr {
+    background: #626262;
+    margin: 6px 0px;
+}
+
+.input p {
+    color: #8F8F8F;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 12px;
+}
+
+.sect3Tags {
+    display: flex;
+    column-gap: 7px;
+    margin-top: 7px;
+
+}
+
+.sect3Tags h3 {
+    color: #000;
+    font-size: 12.006px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sect3Tags button {
+    border-radius: 4px;
+    background: #BFBDBF;
+    padding: 4px 10px;
+    border: none;
+    color: #FFF;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sect4Top {
+    border-radius: 11px;
+    border: 1px solid #626262;
+    background: #FFF;
+    padding: 9.5px;
+    max-width: 560px;
+}
+
+.sect4Top .input {
+    width: 270px;
+}
+.sect4Bott{
+    /* background-color: #00A12D; */
+    float: right;
+    padding-right: 10px;
+}
+
+.sect4Bott p {
+    color: #535353;
+    font-size: 8.994px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-top: 16px; */
+    /* padding-top: 7px; */
+}
+
+
+@media (max-width: 1315px) {
+    .sect3Top {
+        max-width: 350px;
+    }
+
+    .sect4Top .input {
+        width: 150px;
+    }
+}
+@media (max-width: 900px) {
+    
+.reviewCard {
+   flex-direction: column;
+   row-gap: 20px;
+   padding: 10px 0px;
+   /* justify-content: center; */
+   /* align-items: center; */
+
+}
+.sect3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 700px; */
+
+}
+.sect3Top {
+    width: 200px;
+}
+.sect3Tags{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.reviewSect{
+    padding: 50px 40px;
+}
+}
+
