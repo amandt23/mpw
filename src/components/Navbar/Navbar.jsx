@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './navbar.css'
 import { RxHamburgerMenu } from "react-icons/rx";
 
-export const Navbar = () => {
+ const Navbar = () => {
 
   const [isNavVisible, setIsNavVisible] = useState(false);
 
@@ -29,3 +29,5 @@ export const Navbar = () => {
     </div>
   )
 }
+
+export default Navbar;
