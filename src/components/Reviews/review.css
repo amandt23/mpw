@@ -238,7 +238,7 @@
 }
 
 .input p {
-    color: #323131;
+    color: black;
     font-size: 9px;
     font-style: normal;
     font-weight: 500;
@@ -266,7 +266,7 @@
     background: #BFBDBF;
     padding: 4px 10px;
     border: none;
-    color: #FFF;
+    color: black;
     font-size: 9px;
     font-style: normal;
     font-weight: 600;

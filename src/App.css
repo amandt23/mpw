@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* body {
-    transform: scale(0.7); 
-    transform-origin: 0 0; 
-  } */
+body {
+    zoom: 75%;
+  }
