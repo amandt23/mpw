@@ -21,8 +21,8 @@
 }
 
 .left img {
-    /* width: 109.241px;
-    height: 163.862px; */
+    width: 90.241px;
+    height: 90.862px;
     border-radius: 50%;
 
 }
@@ -34,7 +34,7 @@
 
 .right h2 {
 
-    font-size: 26.943px;
+    font-size: 23.943px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -120,7 +120,7 @@ hr {
 
 .slider label {
     color: #000;
-    font-size: 7.544px;
+    font-size: 10.544px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

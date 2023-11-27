@@ -33,7 +33,7 @@ const Card = ({ lecturer }) => {
         <div className='card'>
             <div className="top">
                 <div className="left">
-                    <img src="./images/profile.png" alt="" />
+                    <img src={`./images/${lecturer.image}`} alt="" />
                 </div>
                 <div className="right">
                     <div className="right-top">

@@ -29,7 +29,7 @@ const CardCrousel = () => {
     return (
         <>
             <div className="crousel">
-                <Carousel showDots={true} responsive={responsive}>
+                <Carousel autoPlay={true } showDots={true} responsive={responsive} >
                 {lecturersData.lecturers.map((lecturer, index) => (
                     <Card  key={index} lecturer={lecturer}/>
                 ))}

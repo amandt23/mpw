@@ -14,8 +14,8 @@ const Navbar = () => {
   return (
     <div class="topnavBar" id="myTopnav">
       <img src="./images/logo.png" alt="" />
-      <div className={`navLinks ${isNavVisible ? 'visible' : 'hidden'}`}>
-        <RxCross2 className='crossIcon' onClick={toggleNav}/>
+      <div className={`navLinks ${isNavVisible ? 'visible' : ''}`}>
+        <RxCross2 className='crossIcon' onClick={toggleNav} />
         <a href="#home" >Pricing</a>
         <a href="#news">Company</a>
         <a href="#contact">Services</a>

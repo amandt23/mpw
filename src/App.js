@@ -10,6 +10,7 @@ import Navbar from './components/Navbar/Navbar';
 import Price from './components/Price/Price';
 import Review from './components/Reviews/Review';
 import Footer from './components/Footer/Footer';
+import MidSection from './components/MidSection/MidSection';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Price />
       <Faqs />
       <OnlineAcademic />
+      <MidSection />
       <Social />
       <Review />
       <PlaceOrder />

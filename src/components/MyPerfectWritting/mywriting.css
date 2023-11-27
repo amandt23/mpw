@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   /* padding-bottom: 50px; */
+  /* max-width: 1480px; */
 }
 
 .paperBtn {
@@ -54,13 +55,10 @@
   /* background-color: red; */
   width: 90%;
   /* padding: 0px 20px; */
-  /* max-width: 1100px; */
+  max-width: 1480px;
   border-radius: 18px;
   background: #FFF;
-  /* overflow-y: auto;
-    height: 700px; */
-    /* background-color: #12D83F; */
-    /* column-gap: -10px; */
+  
 }
 
 .leftText::-webkit-scrollbar {
@@ -112,7 +110,7 @@
 
 .leftText {
   display: flex;
-  max-width: 549px;
+  max-width: 1000x;
   flex-direction: column;
   align-items: center;
   padding: 34px;

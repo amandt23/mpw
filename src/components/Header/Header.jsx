@@ -51,7 +51,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="headerCardBott">
-                            <button>Total Price</button>
+                            <button id='totalBtn'>Total Price</button>
                             <input  id='totalInput' type="number" />
                         </div>
                     </div>
@@ -104,7 +104,7 @@ const Header = () => {
             </div>
 
             <div class="headerLeft">
-                <img src="./images/headerImg.jpg" alt="" />
+                <img src="./images/headerImg.png" alt="" />
             </div>
         </div>
     )
