@@ -87,9 +87,11 @@ const MyWriting = () => {
 
             </div>
             <div className="notice">
-                <h3>Notice Regarding Al-Generated Content</h3>
-                <p>We want to be transparent with our readers: certain portions of our content are generated using advanced artificial intelligence. However, please rest assured that all Al-generated content is thoroughly reviewed and refined by our experienced and professional proofreaders and editors to ensure accuracy, relevance, and quality.</p>
-                <p>Our commitment to providing high-quality and trustworthy content remains our top priority. If you have any questions or need further clarification, please learn more here or contact our support team.</p>
+                <div className="noticeContent">
+                    <h3>Notice Regarding Al-Generated Content</h3>
+                    <p>We want to be transparent with our readers: certain portions of our content are generated using advanced artificial intelligence. However, please rest assured that all Al-generated content is thoroughly reviewed and refined by our experienced and professional proofreaders and editors to ensure accuracy, relevance, and quality.</p>
+                    <p>Our commitment to providing high-quality and trustworthy content remains our top priority. If you have any questions or need further clarification, please learn more here or contact our support team.</p>
+                </div>
             </div>
             <div className="disclimar">
                 {/* <div className="h3">

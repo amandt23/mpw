@@ -189,6 +189,11 @@
   padding: 20px 52px 10px 52px;
   background: #8FB5DB;
   margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .notice h3 {
@@ -198,6 +203,8 @@
   font-weight: 600;
   line-height: normal;
   padding-bottom: 24px;
+  max-width: 1480px;
+
 }
 
 .notice p {
@@ -207,6 +214,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  max-width: 1480px;
+
 }
 
 .disclimar {

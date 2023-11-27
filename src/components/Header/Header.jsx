@@ -104,7 +104,7 @@ const Header = () => {
             </div>
 
             <div class="headerLeft">
-                <img src="./images/headerImg.png" alt="" />
+                <img src="./images/headerImg.jpg" alt="" />
             </div>
         </div>
     )

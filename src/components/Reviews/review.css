@@ -79,9 +79,7 @@
 /* review section  */
 
 .reviewSect {
-    /* width: 90%; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     row-gap: 40px;
@@ -91,27 +89,20 @@
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     max-height: 500px;
     overflow: auto;
-    /* width: fit-content; */
+
 }
 
-/* .reviewCards {
-    background-color: rgb(211, 126, 23);
-    border-radius: 0px 9px 9px 0px;
-    border: 1px solid #626262;
-    background: #E1E1E1;
-    max-width: 1500px;
-} */
+
 
 .reviewCard {
     display: flex;
     column-gap: 20px;
     justify-content: center;
     align-items: center;
-    /* width: 90%; */
     border-radius: 0px 9px 9px 0px;
     border: 1px solid #626262;
     background: #E1E1E1;
-
+    /* max-width: 1230px; */
 }
 
 .sec1 {
@@ -123,6 +114,7 @@
     border: 1px solid #626262;
     background: #FFF;
     box-shadow: 0px 0px 4px 0px #000;
+    
 }
 
 .sec1Top {
@@ -246,12 +238,12 @@
     border-radius: 11px;
     border: 1px solid #626262;
     background: #FFF;
-    padding: 9.5px;
+    padding: 0px 5px;
     max-width: 560px;
 }
 
 .sect4Top .input {
-    width: 270px;
+    /* width: 270px; */
 }
 .sect4Bott{
     /* background-color: #00A12D; */

@@ -118,7 +118,7 @@ const Price = () => {
                     <div className="cardContents">
                         <div className="cardOneSect">
                             <div className="cardOneLeft">
-                                <FaRegCheckCircle style={{ color: '#004E5F', fontSize: '50px' }} />
+                                <FaRegCheckCircle className='BigCardICon' style={{ color: '#004E5F', fontSize: '50px' }} />
                                 <p>Content + AI Plagiarism Reports</p>
                             </div>
                             <div className="cardOneRight">
@@ -129,7 +129,7 @@ const Price = () => {
                         <hr />
                         <div className="cardOneSect">
                             <div className="cardOneLeft">
-                                <FaRegCheckCircle style={{ color: '#004E5F', fontSize: '50px' }} />
+                                <FaRegCheckCircle className='BigCardICon' style={{ color: '#004E5F', fontSize: '50px' }} />
                                 <p>Title Page</p>
                             </div>
                             <div className="cardOneRight">
@@ -140,7 +140,7 @@ const Price = () => {
                         <hr />
                         <div className="cardOneSect">
                             <div className="cardOneLeft">
-                                <FaRegCheckCircle style={{ color: '#004E5F', fontSize: '50px' }} />
+                                <FaRegCheckCircle className='BigCardICon' style={{ color: '#004E5F', fontSize: '50px' }} />
                                 <p>Academic Formatting</p>
                             </div>
                             <div className="cardOneRight">
@@ -151,7 +151,7 @@ const Price = () => {
                         <hr />
                         <div className="cardOneSect">
                             <div className="cardOneLeft">
-                                <FaRegCheckCircle style={{ color: '#004E5F', fontSize: '50px' }} />
+                                <FaRegCheckCircle className='BigCardICon' style={{ color: '#004E5F', fontSize: '50px' }} />
                                 <p>Unlimited Revisions</p>
                             </div>
                             <div className="cardOneRight">
@@ -162,7 +162,7 @@ const Price = () => {
                         <hr />
                         <div className="cardOneSect">
                             <div className="cardOneLeft">
-                                <FaRegCheckCircle style={{ color: '#004E5F', fontSize: '50px' }} />
+                                <FaRegCheckCircle className='BigCardICon' style={{ color: '#004E5F', fontSize: '50px' }} />
                                 <p>Academic Referencing </p>
                             </div>
                             <div className="cardOneRight">
@@ -173,7 +173,7 @@ const Price = () => {
                         <hr />
                         <div className="cardOneSect">
                             <div className="cardOneLeft">
-                                <FaRegCheckCircle style={{ color: '#004E5F', fontSize: '50px' }} />
+                                <FaRegCheckCircle className='BigCardICon' style={{ color: '#004E5F', fontSize: '50px' }} />
                                 <p>1-Page Basic Outline</p>
                             </div>
                             <div className="cardOneRight">
