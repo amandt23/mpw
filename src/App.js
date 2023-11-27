@@ -13,6 +13,9 @@ import Review from './components/Reviews/Review';
 import Footer from './components/Footer/Footer';
 import MidSection from './components/MidSection/MidSection';
 import TermsAndCondition from './pages/TermAndConditions/TermsAndCondition';
+import RefundPolicy from './pages/RefundPolicy/RefundPolicy';
+import CookiePolicy from './pages/CookiePolicy/CookiePolicy';
+import AcademicIntegrity from './pages/AcademicIntegrity/AcademicIntegrity';
 import Home from './pages/home/Home';
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/termsAndConditions" element={<TermsAndCondition />} />
+          <Route path="/refundpolicy" element={<RefundPolicy />} />
+          <Route path="/cookiepolicy" element={<CookiePolicy />} />
+          <Route path="/academicintegrity" element={<AcademicIntegrity />} />
         </Routes>
         <Footer />
       </Router>

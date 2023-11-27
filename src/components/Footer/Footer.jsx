@@ -43,11 +43,11 @@ const Footer = () => {
                             <h3>Legal & Policies</h3>
                             <ul>
                                 <li><Link to="/termsAndConditions">Terms and Conditions</Link></li>
-                                <li><a href="#">Refund plicy</a></li>
+                                <li><Link to="/refundpolicy">Refund Policy</Link></li>
                                 <li><a href="#">Privacy policy</a></li>
-                                <li><a href="#">Cookies policy</a></li>
-                                <li><a href="#">Academic integrity</a></li>
-                                
+                                <li><Link to="/cookiepolicy">Cookies Policy</Link></li>
+                                <li><Link to="/academicintegrity">Academic Integrity</Link></li>
+
                             </ul>
                         </div>
                         <div class="vertical-line2"></div>
