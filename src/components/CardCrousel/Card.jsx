@@ -6,21 +6,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 // import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-const Card = ({lecturer}) => {
-    
-    // const [sliderValue, setSliderValue] = useState(80);
-    // const [sliderValue1, setSliderValue1] = useState(70);
-    // const [sliderValue2, setSliderValue2] = useState(90);
+const Card = ({ lecturer }) => {
 
-    // const handleSliderChange = (event) => {
-    //     setSliderValue(event.target.value);
+    // let gradientColor;
+    // let thumbColor;
+
+    // if (lecturer.english > 80) {
+    //     gradientColor = '#12D83F';
+    //     thumbColor = '#AAFEBB';
+    // } else if (lecturer.english <= 80 && lecturer.english >= 50) {
+    //     gradientColor = '#EBC807';
+    //     thumbColor = '#EFDD7D';
+
+    // } else {
+    //     gradientColor = '#F50E0A';
+    //     thumbColor = '#FF9290'
+    // }
+    // const gradientStyle = {
+    //     background: `linear-gradient(90deg, ${gradientColor} ${lecturer.english}%, #e0e0e0 0%)`,
     // };
-    // const handleSliderChange1 = (event) => {
-    //     setSliderValue1(event.target.value);
+    // const thumbStyle = {
+    //     background: thumbColor,
     // };
-    // const handleSliderChange2 = (event) => {
-    //     setSliderValue2(event.target.value);
-    // };
+
     return (
         <div className='card'>
             <div className="top">
@@ -39,7 +47,7 @@ const Card = ({lecturer}) => {
                             <path d="M28.0981 10.6436L29.0005 6.9453L26 4.45887L29.9524 4.13171L31.5004 0.643616L33.0483 4.13102L37 4.45818L34.0002 6.9446L34.9026 10.6429L31.5004 8.67995L28.0981 10.6436Z" fill="#00A22D" />
                             <path d="M41.8611 9.62594L42.4863 7.06383L42.5604 6.75991L42.3196 6.56031L40.2629 4.85605L42.9937 4.63001L43.2892 4.60555L43.4095 4.33453L44.5004 1.87617L45.5913 4.33386L45.7116 4.60485L46.007 4.62931L48.7373 4.85535L46.6811 6.55965L46.4403 6.75926L46.5145 7.06313L47.1397 9.62548L44.7502 8.24687L44.5003 8.10267L44.2504 8.2469L41.8611 9.62594Z" fill="black" fill-opacity="0.01" stroke="black" />
                             <path d="M54.8611 9.62594L55.4863 7.06383L55.5604 6.75991L55.3196 6.56031L53.2629 4.85605L55.9937 4.63001L56.2892 4.60555L56.4095 4.33453L57.5004 1.87617L58.5913 4.33386L58.7116 4.60485L59.007 4.62931L61.7373 4.85535L59.6811 6.55965L59.4403 6.75926L59.5145 7.06313L60.1397 9.62548L57.7502 8.24687L57.5003 8.10267L57.2504 8.2469L54.8611 9.62594Z" fill="black" fill-opacity="0.01" stroke="black" />
-                        </svg> 
+                        </svg>
                         {/* <FontAwesomeIcon icon={faStar} /> */}
                         {/* <CiStar /> */}
                     </div>
@@ -96,9 +104,15 @@ const Card = ({lecturer}) => {
                         min="0"
                         max="100"
                         value={lecturer.english}
-                        // onChange={handleSliderChange}
-                        className="range"
+                        style={{ background: `linear-gradient(90deg, #12D83F ${lecturer.english}% ,#e0e0e0 0%)` }}
+                        // style={gradientStyle}
+                        // style={{background: `linear-gradient(90deg, ${gradientColor} ${lecturer.english}%, #e0e0e0 0%)`,}}
+                        className="range range1"
                     />
+                    {/* <style>
+                        {`.range1::-webkit-slider-thumb {
+                      background: ${thumbStyle.background};}`}
+                    </style> */}
                 </div>
                 <div className="slider">
                     <label>Poetry -{lecturer.poetry}%</label>
@@ -107,9 +121,10 @@ const Card = ({lecturer}) => {
                         min="0"
                         max="100"
                         value={lecturer.poetry}
-                        // onChange={handleSliderChange1}
-                        className="range"
+                        style={{ background: `linear-gradient(90deg, #F50E0A ${lecturer.poetry}% ,#e0e0e0 0%)` }}
+                        className="range range2"
                     />
+
                 </div>
                 <div className="slider">
                     <label>Classics -{lecturer.classics}%</label>
@@ -118,8 +133,8 @@ const Card = ({lecturer}) => {
                         min="0"
                         max="100"
                         value={lecturer.classics}
-                        // onChange={handleSliderChange2}
-                        className="range"
+                        style={{ background: `linear-gradient(90deg, #EBC807 ${lecturer.classics}% ,#e0e0e0 0%)` }}
+                        className="range range3"
                     />
                 </div>
             </div>

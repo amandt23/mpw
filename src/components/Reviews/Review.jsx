@@ -161,8 +161,8 @@ const Review = () => {
             </div>
 
             <div className="reviewSect">
-                {Reviews.map(item => (
-                    <div className="reviewCard">
+                {Reviews.map((item, index) => (
+                    <div className="reviewCard" key={index}>
                         <div className="sec1">
                             <div className="sec1Top">
                                 <h3>Service Type:</h3>

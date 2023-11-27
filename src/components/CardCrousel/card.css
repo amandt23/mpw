@@ -10,7 +10,10 @@
     width: fit-content;
     padding: 10px;
     margin: 10px 0px;
+    width: 301px;
+    /* height: 383px; */
 }
+
 
 .top {
     display: flex;
@@ -31,7 +34,7 @@
 
 .right h2 {
 
-    font-size: 27.943px;
+    font-size: 26.943px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -125,18 +128,23 @@ hr {
 
 .slider .range {
     appearance: none;
-    height: 10px;
+    height: 14px;
     border-radius: 5px;
     background: #e0e0e0;
     outline: none;
 }
+/* .slider .range::-moz-range-progress{
+    -webkit-appearance: none;
+    background: red;
+  
+} */
 
 
 
   
   
 
-.range::-webkit-slider-thumb {
+.range1::-webkit-slider-thumb {
     appearance: none;
     width: 20px;
     height: 20px;
@@ -144,11 +152,28 @@ hr {
     background: #AAFEBB;
     cursor: pointer;
 }
+.range2::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FF9290;
+    cursor: pointer;
+}
+.range3::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #EFDD7D;
+    cursor: pointer;
+}
 
 .crousel {
-    width: 90%;
+    max-width: 1377px;
     margin: 0 auto;
-
+    padding: 0px 20px;
+    
 }
 
 /* Team  */

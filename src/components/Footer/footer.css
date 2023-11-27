@@ -1,6 +1,8 @@
 .footer {
     background: #232323;
     display: flex;
+    justify-content: center;
+
 }
 
 .fLeft {
@@ -8,6 +10,7 @@
     display: flex;
     flex-direction: column;
     /* background-color: red; */
+    
 }
 
 .fLeft .Btns {
@@ -110,6 +113,8 @@
 
 .RContents {
     display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
@@ -185,6 +190,7 @@
 .BottomLogo {
     /* background-color: rgb(138, 138, 223); */
     align-items: flex-start;
+    margin-top: 50px;
 
 }
 
@@ -193,6 +199,7 @@
     width: 383px;
     height: 1px;
     margin-top: 23px;
+    margin-bottom: 20px;
 }
 
 .footerBottomPay {
@@ -286,4 +293,23 @@
     row-gap: 20px;
     flex-direction: column;
   }
+}
+@media (max-width: 485px) {
+    .fLeft {
+        padding: 0px;
+       
+        
+    }
+    .RContents {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        /* justify-content: center; */
+    }
+    .BottomLogo{
+        margin-top: 30px;
+    }
+    .RContents {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }

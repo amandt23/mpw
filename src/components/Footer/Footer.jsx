@@ -18,7 +18,6 @@ const Footer = () => {
     return (
         <>
             <div className="footer">
-
                 <div className="fLeft">
                     <h3>DONT MISS OUT</h3>
                     <p>Sign up for the latest beauty news, product samples and coupons</p>

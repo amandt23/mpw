@@ -22,7 +22,7 @@ const CardCrousel = () => {
             items: 2
         },
         mobile: {
-            breakpoint: { max: 464, min: 0 },
+            breakpoint: { max: 700, min: 0 },
             items: 1
         }
     };
@@ -32,7 +32,6 @@ const CardCrousel = () => {
                 <Carousel showDots={true} responsive={responsive}>
                 {lecturersData.lecturers.map((lecturer, index) => (
                     <Card  key={index} lecturer={lecturer}/>
-
                 ))}
                     
                 </Carousel>

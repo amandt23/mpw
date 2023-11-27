@@ -1,6 +1,6 @@
 /* Header  */
 .header {
-    /* background: linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%); */
+    background: linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%);
     display: flex;
     /* flex-direction: column; */
     padding-top: 70px;
