@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './footer.css';
 import { IoIosArrowDropdownCircle } from "react-icons/io";
+import { BrowserRouter, Link } from 'react-router-dom';
 
 const Footer = () => {
     const [selectedOption, setSelectedOption] = useState(null);
@@ -41,11 +42,12 @@ const Footer = () => {
                         <div className="rSection">
                             <h3>Legal & Policies</h3>
                             <ul>
-                                <li><a href="#">Terms and Conditions</a></li>
+                                <li><Link to="/termsAndConditions">Terms and Conditions</Link></li>
                                 <li><a href="#">Refund plicy</a></li>
                                 <li><a href="#">Privacy policy</a></li>
                                 <li><a href="#">Cookies policy</a></li>
                                 <li><a href="#">Academic integrity</a></li>
+                                
                             </ul>
                         </div>
                         <div class="vertical-line2"></div>
