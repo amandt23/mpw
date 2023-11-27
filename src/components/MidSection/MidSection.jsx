@@ -54,13 +54,14 @@ const MidSection = () => {
             </div>
             <div className="Midmain">
                 <FontAwesomeIcon className='icon-burger' icon={faBars} onClick={handleToggleSidebar} />
-                <nav className="midNav">
+                <nav className={`midNav ${isVisible ? 'visibleMidNav' : ''}`}>
+                
                     <ul>
-                        <li><a onClick={() => { setActiveTab('academic'); if (window.innerWidth < 600) { setIsVisible(false) } }} href="#academic">Academic</a></li>
-                        <li><a onClick={() => { setActiveTab('creative'); if (window.innerWidth < 600) { setIsVisible(false) } }} href="#creative">Creative Writing</a></li>
-                        <li><a onClick={() => { setActiveTab('review'); if (window.innerWidth < 600) { setIsVisible(false) } }} href="#reviews">Reviews</a></li>
-                        <li><a onClick={() => { setActiveTab('academic'); if (window.innerWidth < 600) { setIsVisible(false) } }} href="#representation">Business Writing</a></li>
-                        <li><a onClick={() => { setActiveTab('academic'); if (window.innerWidth < 600) { setIsVisible(false) } }} href="#representation">Presentation</a></li>
+                        <li><a onClick={() => { setActiveTab('academic'); setIsVisible(false) }} href="#academic">Academic</a></li>
+                        <li><a onClick={() => { setActiveTab('creative'); setIsVisible(false) }} href="#creative">Creative Writing</a></li>
+                        <li><a onClick={() => { setActiveTab('review');  setIsVisible(false) }} href="#reviews">Reviews</a></li>
+                        <li><a onClick={() => { setActiveTab('academic'); setIsVisible(false)  }} href="#representation">Business Writing</a></li>
+                        <li><a onClick={() => { setActiveTab('academic');  setIsVisible(false) }} href="#representation">Presentation</a></li>
                     </ul>
                 </nav>
                 <div className="MidnavContents">

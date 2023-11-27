@@ -48,7 +48,7 @@ const PlaceOrder = () => {
                 </div>
             <div className="video" >
                 <video controls> 
-                    <source src="example.mp4" type="video/mp4"/>
+                    <source src="./images/orderPlace.mp4" type="video/mp4"/>
                 </video>
             </div>
             </div>

@@ -14,8 +14,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-.navLinks svg:hover{
+
+/* .navLinks svg {
+    min-width: 120px;
+} */
+.navLinks svg:hover {
     cursor: pointer;
 }
 
@@ -51,15 +56,22 @@
     background: #528975;
     border: none;
     margin: 0px 20px;
+    color: #FFF;
+    font-size: 24.723px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.NavOrderbtn:hover{
+
+.NavOrderbtn:hover {
     cursor: pointer;
 }
 
-.hamburgur{
+.hamburgur {
     display: none;
 }
-.hamburgur:hover{
+
+.hamburgur:hover {
     cursor: pointer;
 }
 
@@ -86,7 +98,6 @@
 
     .topnavBar {
         justify-content: space-between;
-        /* align-items: center; */
         padding: 0px 25px;
 
     }
@@ -102,17 +113,17 @@
         z-index: 11;
         row-gap: 5px;
         max-width: 500px;
-        /* display: none; */
         transition: left 0.3s ease;
 
 
     }
-    .navLinks.visible{
-        /* display: block; */
+
+    .navLinks.visible {
         left: 0px;
-    
+
     }
-    .crossIcon{
+
+    .crossIcon {
         color: white;
         font-size: 40px;
         position: absolute;
@@ -129,17 +140,19 @@
         border-radius: 10px;
         color: white;
     }
-    .NavOrderbtn{
+
+    .NavOrderbtn {
         margin: 30px 0px;
     }
 }
 
 @media (max-width: 480px) {
-    .topnavBar img{
+    .topnavBar img {
         width: 220px;
         height: 100px;
     }
-    .topnavBar{
+
+    .topnavBar {
         padding: 0px 15px;
     }
-}
+} 

@@ -8,7 +8,8 @@
             "totalOrders": 50,
             "english": 70,
             "poetry": 20,
-            "classics": 90
+            "classics": 90,
+            "image": "profile.png"
         },
         {
             "name": "Jane Smith",
@@ -18,7 +19,9 @@
             "totalOrders": 30,
             "english": 10,
             "poetry": 90,
-            "classics": 90
+            "classics": 90,
+            "image": "slideImg2.png"
+
         },
         {
             "name": "Alex Johnson",
@@ -28,7 +31,9 @@
             "totalOrders": 20,
             "english": 90,
             "poetry": 30,
-            "classics": 70
+            "classics": 70,
+            "image": "slideImg3.jpg"
+
         },
         {
             "name": "Emily White",
@@ -38,7 +43,9 @@
             "totalOrders": 15,
             "english": 50,
             "poetry": 60,
-            "classics": 20
+            "classics": 70,
+            "image": "slideImg4.jpg"
+
         },
         {
             "name": "Michael Brown",
@@ -48,7 +55,10 @@
             "totalOrders": 40,
             "english": 70,
             "poetry": 60,
-            "classics": 90
+            "classics": 90,
+
+            "image": "slideImg5.jpg"
+
         },
         {
             "name": "Michael Brown",
@@ -58,7 +68,9 @@
             "totalOrders": 40,
             "english": 70,
             "poetry": 60,
-            "classics": 90
+            "classics": 90,
+            "image": "slideImg6.jpg"
+
           },
           {
             "name": "Emma Johnson",
@@ -68,7 +80,8 @@
             "totalOrders": 35,
             "english": 80,
             "poetry": 50,
-            "classics": 70
+            "classics": 70,
+            "image": "slideImg7.jpg"
           },
           {
             "name": "Daniel White",
@@ -78,7 +91,8 @@
             "totalOrders": 25,
             "english": 60,
             "poetry": 40,
-            "classics": 80
+            "classics": 80,
+            "image": "slideImg1.png"
           },
           {
             "name": "Sophie Smith",
@@ -88,7 +102,9 @@
             "totalOrders": 55,
             "english": 90,
             "poetry": 75,
-            "classics": 95
+            "classics": 95,
+            "image": "slideImg8.jpg"
+
           },
           {
             "name": "David Taylor",
@@ -98,7 +114,9 @@
             "totalOrders": 20,
             "english": 50,
             "poetry": 30,
-            "classics": 60
+            "classics": 60,
+            "image": "slideImg9.jpg"
+
             
           }
     ]
