@@ -39,7 +39,7 @@
 }
 
 /* Change the color of links on hover */
-.topnavBar a:hover {
+.topnavBar .links:hover {
     background-color: #ddd;
     color: black;
     cursor: pointer;
