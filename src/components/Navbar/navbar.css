@@ -51,8 +51,9 @@
 
 
 .NavOrderbtn {
-    width: 121.069px;
-    height: 50.007px;
+    /* width: 121.069px;
+    height: 50.007px; */
+    padding: 15px 10px;
     justify-content: center;
     align-items: center;
     border-radius: 14.476px;
