@@ -44,7 +44,7 @@ const Footer = () => {
                             <ul>
                                 <li><Link to="/termsAndConditions">Terms and Conditions</Link></li>
                                 <li><Link to="/refundpolicy">Refund Policy</Link></li>
-                                <li><a href="#">Privacy policy</a></li>
+                                <li><Link to="privacy-policy">Privacy policy</Link></li>
                                 <li><Link to="/cookiepolicy">Cookies Policy</Link></li>
                                 <li><Link to="/academicintegrity">Academic Integrity</Link></li>
 
@@ -62,27 +62,27 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="rDropdown">
-                            <div className="dropdown">
+                            <div className="rdropdown2">
                                 <button onClick={toggleDropdown}>
                                     {selectedOption ? selectedOption : 'Homework Services'}
                                     <IoIosArrowDropdownCircle style={{ color: '#01593A' }} />
                                 </button>
                                 {isOpen && (
-                                    <div className="dropdown-content">
+                                    <div className="Rdropdown-content">
                                         <a href="#" onClick={() => handleOptionSelect('Item 1')}>Item 1</a>
                                         <a href="#" onClick={() => handleOptionSelect('Item 2')}>Item 2</a>
                                         <a href="#" onClick={() => handleOptionSelect('Item 3')}>Item 3</a>
                                     </div>
                                 )}
                             </div>
-                            <div className="dropdown">
+                            <div className="rdropdown2">
                                 <button onClick={toggleDropdown}>
                                     {selectedOption ? selectedOption : 'Homework Services'}
                                     <IoIosArrowDropdownCircle style={{ color: '#01593A' }} />
 
                                 </button>
                                 {isOpen && (
-                                    <div className="dropdown-content">
+                                    <div className="Rdropdown-content">
                                         <a href="#" onClick={() => handleOptionSelect('Item 1')}>Item 1</a>
                                         <a href="#" onClick={() => handleOptionSelect('Item 2')}>Item 2</a>
                                         <a href="#" onClick={() => handleOptionSelect('Item 3')}>Item 3</a>
@@ -144,8 +144,9 @@ const Footer = () => {
                     <h3>Others: </h3>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Why Us</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><Link to="why-us">Why Us</Link></li>
+                    <li><Link to="about-us">About Us</Link></li>
+                    <li><Link to="blog">Blog</Link></li>
                     <li><a href="#">Become an Expert</a></li>
                 </ul>
 

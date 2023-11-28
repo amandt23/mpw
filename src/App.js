@@ -1,22 +1,17 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MyTeam from './components/CardCrousel/MyTeam';
-import MyWriting from './components/MyPerfectWritting/MyWriting';
-import PlaceOrder from './components/PlaceOrder/PlaceOrder';
-import Social from './components/Social/Social';
-import Header from './components/Header/Header';
-import Faqs from './components/FAQS/Faqs';
-import OnlineAcademic from './components/onlineAcademic/OnlineAcademic';
 import Navbar from './components/Navbar/Navbar';
-import Price from './components/Price/Price';
-import Review from './components/Reviews/Review';
 import Footer from './components/Footer/Footer';
-import MidSection from './components/MidSection/MidSection';
 import TermsAndCondition from './pages/TermAndConditions/TermsAndCondition';
 import RefundPolicy from './pages/RefundPolicy/RefundPolicy';
 import CookiePolicy from './pages/CookiePolicy/CookiePolicy';
 import AcademicIntegrity from './pages/AcademicIntegrity/AcademicIntegrity';
 import Home from './pages/home/Home';
+import Blog from './pages/Blogs/Blog';
+import AboutUs from './pages/AboutUs/AboutUs';
+import SingleBlog from './pages/Blogs/SingleBlog/SingleBlog';
+import WhyUs from './pages/WhyUs/WhyUs';
+import Privacy from './pages/PrivacyPolicy/Privacy';
 
 function App() {
   return (
@@ -29,8 +24,14 @@ function App() {
           <Route path="/refundpolicy" element={<RefundPolicy />} />
           <Route path="/cookiepolicy" element={<CookiePolicy />} />
           <Route path="/academicintegrity" element={<AcademicIntegrity />} />
+          <Route path="/blog" element={<Blog />} />
+          {/* <Route path="/singl-blog" element={<SingleBlog />} /> */}
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/why-us" element={<WhyUs />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
         </Routes>
         <Footer />
+        {/* <SingleBlog /> */}
       </Router>
 
 
