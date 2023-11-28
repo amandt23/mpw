@@ -1,0 +1,167 @@
+.whyUsContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-us {
+    max-width: 1450px;
+    padding: 80px 30px;
+    display: flex;
+    column-gap: 100px;
+    justify-content: space-between;
+
+}
+
+.whyUsTop h3 {
+    color: #21383E;
+    font-size: 35.102px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 5px
+}
+
+.whyUsTop h2 {
+    color: #1276CE;
+    font-size: 25.102px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+
+.whyUsTop p {
+    padding-bottom: 20px;
+}
+
+.whyUsRight h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #21383E;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+.whyUsSection2 {
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 80px;
+}
+
+.section2One {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.whyUsLeftImages img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.whyUsfaqTop h3{
+    color: #21383E;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.whyUsfaq-item {
+    margin-bottom: 30px;
+}
+
+
+@media(max-width: 700px) {
+    .whyUsLeftImages {
+        display: none;
+    }
+}
+@media(max-width: 480px) {
+    .whyUsSection2 {
+       flex-direction: column;
+    }
+}
+
+.WhyUsfaqs {
+    /* background: #D7D8D8; */
+    margin-top: 20px;
+    padding: 0px;
+
+}
+
+.faqTop {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* justify-content: center; */
+}
+
+.faqTop h3 {
+    color: #21383E;
+    padding-bottom: 7px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.faqTop p {
+    color: #68797E;
+    text-align: center;
+    font-size: 22.295px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 770px;
+}
+
+.faqBottom {
+    /* margin-top: 31px; */
+   
+}
+
+.faqLeft h3 {
+    color: #21383E;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+
+.faqLeft hr {
+    max-width: 431px;
+}
+
+.insured {
+    margin-top: 20px;
+}
+
+.insured p {
+    color: #465256;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+/* FAQ.css */
+
+
+@media (max-width: 1000px){
+    .faqBottom{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

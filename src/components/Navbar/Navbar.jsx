@@ -21,9 +21,29 @@ const Navbar = () => {
         <RxCross2 className='crossIcon' onClick={toggleNav} />
         <a className='links' href="#home" >Pricing</a>
         <a className='links' href="#news">Company</a>
-        <a className='links' href="#contact">Services</a>
+        <div className="dropdown">
+          <a className='links' href="#contact">Services</a>
+          <div className="dropdown-content">
+            <div className="dropMenu">
+
+              <a href="#service1">Service 1</a>
+              <a href="#service2">Service 2</a>
+              <a href="#service3">Service 3</a>
+              <a href="#service3">Service 3</a>
+            </div>
+
+            {/* <div className="dropContent1">
+              <a href="#service1">Service 1</a>
+              <a href="#service2">Service 2</a>
+              <a href="#service3">Service 3</a>
+              <a href="#service3">Service 3</a>
+            </div> */}
+
+          </div>
+        </div>
+
         <a className='links' href="#about">All Course Guide</a>
-        <a className='links' href="#about">Examples</a>
+          <a className='links' href="#about">Examples</a>
         <Link to="https://myperfectwriting.co.uk/portal/public/login">
           <button class="NavOrderbtn">Order Now</button>
 
