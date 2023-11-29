@@ -13,6 +13,8 @@ const Navbar = () => {
   };
 
   return (
+    // <div className="NavbarContainer">
+
     <div class="topnavBar" id="myTopnav">
       <Link to="/">
         <img src="./images/logo.png" alt="" />
@@ -54,6 +56,8 @@ const Navbar = () => {
       </div>
       <RxHamburgerMenu onClick={toggleNav} className='hamburgur' style={{ color: "white", fontSize: "50px" }} />
     </div>
+    // </div>
+
   )
 }
 

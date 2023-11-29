@@ -1,3 +1,12 @@
+/* .NavbarContainer{
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
 .topnavBar {
     background: #000;
     overflow: hidden;
@@ -6,9 +15,10 @@
     align-items: center;
     height: 105.278px;
     box-shadow: 0px 5.26389px 5.26389px 0px rgba(0, 0, 0, 0.25);
-    padding: 0px 53px;
+    padding: 0px 0px;
     /* transform: scaleY(0.8);  */
     /* transform-origin: 0 0; */
+    /* max-width: 1480px; */
 
 
 }

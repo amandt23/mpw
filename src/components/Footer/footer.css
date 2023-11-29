@@ -6,11 +6,11 @@
 }
 
 .fLeft {
-    padding: 68px 97px 109px 51px;
+    padding: 68px 90px 109px 0px;
     display: flex;
     flex-direction: column;
     /* background-color: red; */
-    
+
 }
 
 .fLeft .Btns {
@@ -89,6 +89,20 @@
     margin-right: 33px;
 }
 
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.footer-social-icon {
+    color: white;
+    font-size: 35px;
+}
+.footer-social-icon:hover {
+   cursor: pointer;
+}
+
 .rSection h3 {
     color: #FFF;
     font-size: 19.264px;
@@ -100,6 +114,11 @@
 
 .rSection ul li {
     list-style: none;
+    margin-top: 20px;
+}
+
+.rSection ul {
+    margin-top: 10px;
 }
 
 .rSection ul li a {
@@ -288,27 +307,31 @@
 }
 
 @media (max-width: 1000px) {
-  .footer2 ul{
-    justify-content: center;
-    align-items: center;
-    row-gap: 20px;
-    flex-direction: column;
-  }
+    .footer2 ul {
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        flex-direction: column;
+    }
 }
+
 @media (max-width: 485px) {
     .fLeft {
         padding: 0px;
-       
-        
+
+
     }
+
     .RContents {
         flex-wrap: wrap;
         row-gap: 20px;
         /* justify-content: center; */
     }
-    .BottomLogo{
+
+    .BottomLogo {
         margin-top: 30px;
     }
+
     .RContents {
         margin-right: 10px;
         margin-left: 10px;

@@ -30,16 +30,18 @@
     font-weight: 400;
     line-height: normal;
 }
-.cards{
+
+.cards {
     display: flex;
     margin-top: 170px;
     justify-content: center;
     column-gap: 71px;
     row-gap: 110px;
     flex-wrap: wrap;
-    margin: 170px 132px 156px 132px;
-    
+    margin: 170px 132px 16px 132px;
+
 }
+
 .sCard {
     border-radius: 34.902px;
     background: #FFF;
@@ -96,4 +98,15 @@
     background: #01593A;
     padding: 10px 51px;
     margin-bottom: 18px;
+    color: #FFF;
+    text-align: center;
+    font-size: 22.872px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+.social button:hover{
+    background-color: #05764e;
+
 }

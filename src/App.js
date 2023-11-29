@@ -12,6 +12,7 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import SingleBlog from './pages/Blogs/SingleBlog/SingleBlog';
 import WhyUs from './pages/WhyUs/WhyUs';
 import Privacy from './pages/PrivacyPolicy/Privacy';
+import ContactUs from './components/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/why-us" element={<WhyUs />} />
           <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />
         {/* <SingleBlog /> */}
