@@ -114,7 +114,7 @@ const Price = () => {
 
                 <div className="priceRightCard">
                     {/* <div className="card"> */}
-                    <h3>Enjoy Our Essay Writing Service in Just £6.99/Page- Including</h3>
+                    <h3>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</h3>
                     <div className="cardContents">
                         <div className="cardOneSect">
                             <div className="cardOneLeft">

@@ -19,6 +19,10 @@
   background: #194C3B;
   padding: 16px 31px;
   color: white;
+  font-size: 19.65px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .wTop {
@@ -58,7 +62,7 @@
   max-width: 1480px;
   border-radius: 18px;
   background: #FFF;
-  
+
 }
 
 .leftText::-webkit-scrollbar {
@@ -184,7 +188,7 @@
 }
 
 .notice {
-  padding: 20px 52px 10px 52px;
+  padding: 20px 52px 10px 92px;
   background: #8FB5DB;
   margin-top: 50px;
   width: 100%;
@@ -202,6 +206,8 @@
   line-height: normal;
   padding-bottom: 24px;
   max-width: 1480px;
+  animation: moveRightLeft 2s linear infinite;
+
 
 }
 
@@ -215,6 +221,17 @@
   max-width: 1480px;
 
 }
+@keyframes moveRightLeft {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px); /* Adjust the distance you want to move */
+  }
+}
+
+
+
 
 .disclimar {
   background: #464646;
@@ -227,7 +244,7 @@
   width: 100%;
 }
 
-.disclimar .h3  {
+.disclimar .h3 {
   color: #12D83F;
   font-size: 20px;
   font-style: normal;
@@ -241,7 +258,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-/* 
+  /* 
   animation-name: animateText;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -253,10 +270,11 @@
 
 @keyframes slideText {
   from {
-      transform: translateX(70%);
+    transform: translateX(70%);
   }
+
   to {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
 

@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './mywriting.css'
 
 const MyWriting = () => {
+
+   
+
     return (
         <div className='writing'>
             <div className="paperBtn">

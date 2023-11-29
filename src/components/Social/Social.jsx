@@ -50,7 +50,7 @@ const Social = () => {
                         <p>Followers</p>
                     </div>
                     <div className="contents">
-                        <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
+                        <p>Uncover a treasure trove of writing tips, tricks, and exclusive discounts. Join our vibrant community today and let's embark on a journey of words together.</p>
                     </div>
                     <div className="btn">
                         <button>FOllow</button>
@@ -89,7 +89,8 @@ const Social = () => {
                         <p>Followers</p>
                     </div>
                     <div className="contents">
-                        <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
+                        <p>Uncover a treasure trove of writing tips, tricks, and exclusive discounts. Join our vibrant community today and let's embark on a journey of words together.</p>
+
                     </div>
                     <div className="btn">
                         <button>FOllow</button>
@@ -126,7 +127,7 @@ const Social = () => {
                         <p>Followers</p>
                     </div>
                     <div className="contents">
-                        <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
+                        <p>Uncover a treasure trove of writing tips, tricks, and exclusive discounts. Join our vibrant community today and let's embark on a journey of words together</p>
                     </div>
                     <div className="btn">
                         <button>FOllow</button>

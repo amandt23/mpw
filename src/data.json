@@ -60,18 +60,7 @@
             "image": "slideImg5.jpg"
 
         },
-        {
-            "name": "Michael Brown",
-            "university": "Tech University",
-            "role": "Senior Lecturer",
-            "education": "Ph.D. in Electrical Engineering",
-            "totalOrders": 40,
-            "english": 70,
-            "poetry": 60,
-            "classics": 90,
-            "image": "slideImg6.jpg"
-
-          },
+      
           {
             "name": "Emma Johnson",
             "university": "Arts College",
@@ -92,7 +81,7 @@
             "english": 60,
             "poetry": 40,
             "classics": 80,
-            "image": "slideImg1.png"
+            "image": "slideImg7.jpeg"
           },
           {
             "name": "Sophie Smith",

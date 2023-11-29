@@ -2,16 +2,24 @@ import React, { useState } from 'react'
 import './header.css'
 
 const Header = () => {
-    const [counter, setCounter] = useState(1)
+    // const [counter, setCounter] = useState(1)
+    const [numberOfPages, setNumberOfPages] = useState(1);
+
+    const pricePerPage = 6.99;
+    const totalAmount = numberOfPages * pricePerPage;
 
     const handleClick1 = () => {
         // Counter state is incremented 
-        setCounter(counter + 1)
+        // setCounter(counter + 1)
+        setNumberOfPages(numberOfPages + 1);
 
     }
     const handleClick2 = () => {
         // Counter state is decremented 
-        setCounter(counter - 1)
+        if (numberOfPages > 0) {
+            // setCounter(counter - 1)
+            setNumberOfPages(numberOfPages - 1);
+        }
     }
     return (
         <div class="header">
@@ -26,10 +34,10 @@ const Header = () => {
                         <div className="headerCardContents">
 
                             <h4>Do Not Trust Us; Test Us</h4>
-                            <p>(£6.99/Page For Everyone)</p>
+                            <p><span className='blinking-price'>(£6.99/Page For Everyone)</span> </p>
                             <div class="headerInputs">
                                 <div class="inputContents">
-                                    <label for="Academic Level">academic-level</label>
+                                    <label for="Academic Level">Academic Level</label>
                                     <input className='upperInputs' placeholder="Any" type="text" />
                                 </div>
                                 <div class="inputContents2">
@@ -40,10 +48,10 @@ const Header = () => {
                                 <div class="Pages">
                                     <label for="Number of Pages"></label>
                                     <div class="Page-input">
-                                        <label htmlFor="">Number of pages</label>
+                                        <label htmlFor="">Number of Pages</label>
                                         <div className='counter'>
                                             <p onClick={handleClick2}>-</p>
-                                            <input id='counterInput' value={counter} type="number" />
+                                            <input id='counterInput' value={numberOfPages} type="number" />
                                             <p onClick={handleClick1}>+</p>
                                         </div>
                                     </div>
@@ -52,12 +60,11 @@ const Header = () => {
                         </div>
                         <div className="headerCardBott">
                             <button id='totalBtn'>Total Price</button>
-                            <input  id='totalInput' type="number" />
+                            <input id='totalInput' readOnly value={totalAmount.toFixed(2)} type="number" />
                         </div>
                     </div>
 
                     <div className="headerRight">
-                        <div></div>
                         <div className="rightContents">
                             <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
                                 <g clip-path="url(#clip0_237_39013)">
@@ -98,7 +105,11 @@ const Header = () => {
                             <p>Expert Team with Proven Expertise</p>
                         </div>
                         <button className='rightBTN'>Get Started Today!</button>
+                        <div className="RightContentBottom">
+                            <p><strong>Service Benefits: </strong> Unlock academic success with My Perfect Writing! Our transparent pricing and inclusive services ensure you get the best value for your investment. Experience stress-free submissions with our reliable and efficient essay writing service, tailored specifically for the UK’s educational standards</p>
+                            <p><strong>Commitment to Quality: </strong> At My Perfect Writing, quality is at the forefront of our services. Each essay is meticulously crafted by our team of experienced writers, ensuring adherence to the highest academic standards. Trust us to deliver excellence, ensuring your academic journey is nothing short of perfect.</p>
 
+                        </div>
                     </div>
                 </div>
             </div>

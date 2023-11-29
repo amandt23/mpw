@@ -1,8 +1,10 @@
 .faqs {
+    display: flex;
     background: #D7D8D8;
     padding: 45px;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
 
 }
 
@@ -35,9 +37,10 @@
 .faqBottom {
     margin-top: 31px;
     display: flex;
-    column-gap: 30px;
+    column-gap: 50px;
     align-items: center;
     justify-content: center;
+    width: fit-content;
 }
 
 .faqLeft h3 {
@@ -135,7 +138,11 @@
     display: block;
     /* border-top: 1px solid #ddd; */
     margin-left: 43px;
+    max-width: 600px;
+    /* transition: left 0.3s ease; */
+
 }
+
 
 @media (max-width: 1000px){
     .faqBottom{

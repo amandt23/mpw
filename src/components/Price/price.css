@@ -45,18 +45,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 7px 33px;
+
+    padding: 12px 20px;
     /* width: fit-content; */
-    max-width: 247px;
+    max-width: 270px;
+    /* max-height: 00px; */
     border-radius: 25px;
     background: #FFF;
     box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.40);
+    transition: transform 0.3s ease-in-out;
+}
+
+.priceCard:hover {
+    transform: scale(1.06);
+    cursor: pointer;
 }
 
 .priceCard h4 {
     margin: 16px 0px;
     color: #21383E;
-    font-size: 12.214px;
+    font-size: 18.214px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -67,7 +75,7 @@
     margin-bottom: 26px;
     color: #21383E;
     text-align: center;
-    font-size: 13.387px;
+    font-size: 17.387px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -84,20 +92,26 @@
     border-radius: 27.07px;
     background: white;
     box-shadow: 0px 0px 19.33555px 0px #000;
-    max-width: 550px;
+    /* max-width: 730px; */
     padding: 33px 29px 22px 19px;
     max-height: 925px;
     margin-top: 32px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.priceRightCard:hover {
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 .priceRightCard h3 {
     color: #1C1C1B;
     text-align: center;
-    font-size: 33.837px;
+    font-size: 25.837px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    margin-bottom: 25px;
+    line-height: 40px;
+    margin-bottom: 15px;
     padding: 0px 7px;
 }
 
@@ -106,6 +120,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 430px;
 
 }
 
@@ -115,6 +130,7 @@
     justify-content: space-between;
     margin-top: 14px;
     width: 100%;
+    /* width: 30px; */
 }
 
 .cardOneLeft {
@@ -141,7 +157,8 @@
     column-gap: 8.8px;
     /* background-color: aqua; */
 }
-.BigCardICon{
+
+.BigCardICon {
     max-width: 70px;
     min-width: 50px;
 }
@@ -169,6 +186,10 @@
     height: 0.967px;
     background: #01593A;
     margin-top: 2px;
+}
+.priceRightCard-price{
+    background-color: rgb(255, 153, 0);
+    padding: 3px 8px;
 }
 
 .allFeatures h4 {
@@ -213,7 +234,7 @@
 
 .doBtn button {
     padding: 8px 20px;
-    margin-top: 10px;
+    margin-top: 30px;
     color: #FFF;
     text-align: center;
     font-size: 20.828px;
@@ -222,6 +243,13 @@
     line-height: normal;
     border-radius: 6px;
     background: #01593A;
+    transition: transform 0.3s ease-in-out;
+}
+
+.doBtn button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(36, 74, 60);
 }
 
 @media (max-width: 1100px) {
@@ -230,17 +258,21 @@
         justify-content: center;
         align-items: center;
     }
+    .priceRightCard{
+        max-width: 500px;
+    }
 }
 
 @media (max-width: 550px) {
     .cardOneSect {
         column-gap: 40px;
-        
+
     }
 }
+
 @media (max-width: 550px) {
     .cardOneSect {
         column-gap: 20px;
-        
+
     }
 }
