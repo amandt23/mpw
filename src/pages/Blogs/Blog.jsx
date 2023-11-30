@@ -1,8 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './blog.css'
 import BlogCard from './BlogCard'
+import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 const Blog = () => {
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    // Function to fetch data from the API using Axios
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getAllBlogs');
+        setBlogs(response.data); // Assuming data is an array of blogs
+      } catch (error) {
+        console.error('Error fetching blogs:', error);
+      }
+    };
+
+    fetchData(); // Call the fetchData function when the component mounts
+  }, []); // Empty dependency array ensures useEffect runs once when the component mounts
+
+  console.log("blogs al", blogs);
+
   return (
     <div className="blogSection">
       <div className="blogHeader">
@@ -80,21 +100,24 @@ const Blog = () => {
                   <p>tag3</p>
                 </div>
               </div>
-              <div className="read-more-button">
+              <Link to="/blog/:id" className="read-more-button">
                 <button>Read more</button>
-              </div>
+              </Link>
             </div>
           </div>
 
           <div className="all-blog-list">
+            {blogs.map((blog) => (
+              <BlogCard key={blog.id} blog={blog} />
+           
+          ))}
+            {/* <BlogCard />
             <BlogCard />
             <BlogCard />
             <BlogCard />
             <BlogCard />
             <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+            <BlogCard /> */}
           </div>
 
           <div className="all-blog-top bottom-Big-card">

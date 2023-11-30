@@ -115,6 +115,9 @@
     flex-direction: column;
     row-gap: 23px;
 }
+.blogSidebar ul li:hover{
+  cursor: pointer;
+}
 
 .blog-sidebar-vertical-line {
     width: 1px;
@@ -366,6 +369,14 @@
         display: none;
     }
 
+}
 
-
+@media(max-width: 400px){
+    .big-blog-Img img {
+        width: 400px;
+        height: 250px;
+        border-radius: 20px 20px 0px 0px;
+        
+    } 
+    
 }

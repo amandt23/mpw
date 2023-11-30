@@ -25,12 +25,13 @@ function App() {
           <Route path="/refundpolicy" element={<RefundPolicy />} />
           <Route path="/cookiepolicy" element={<CookiePolicy />} />
           <Route path="/academicintegrity" element={<AcademicIntegrity />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blogs" element={<Blog />} />
           {/* <Route path="/singl-blog" element={<SingleBlog />} /> */}
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/why-us" element={<WhyUs />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/blog/:title" element={<SingleBlog />} />
         </Routes>
         <Footer />
         {/* <SingleBlog /> */}

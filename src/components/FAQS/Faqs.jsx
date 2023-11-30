@@ -72,7 +72,7 @@ const Faqs = () => {
                                     {/* </div> */}
                                 </div>
                                 {openIndex === index && (
-                                    <div className="faq-answer">
+                                    <div className="faq-answer ">
                                         {item.answer}
                                     </div>
                                 )}

@@ -150,8 +150,8 @@ const Footer = () => {
                     <li><Link to="contact-us">Contact Us</Link></li>
                     <li><a href="#">FAQ</a></li>
                     <li><Link to="#">Why Us</Link></li>
-                    <li><Link to="#">About Us</Link></li>
-                    <li><Link to="#">Blog</Link></li>
+                    <li><Link to="about-us">About Us</Link></li>
+                    <li><Link to="blogs">Blog</Link></li>
                 </ul>
 
             </div>

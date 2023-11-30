@@ -26,7 +26,7 @@ const ContactUs = () => {
 
         try {
             const response = await axios.post(
-                "https://settletogether.com/api/sendEmail1.php",
+                "https://myperfectwriting.co.uk/api/sendEmail.php",
                 formData
             );
 
