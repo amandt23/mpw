@@ -90,7 +90,7 @@ const Price = () => {
         },
     ]
     return (
-        <div className="price">
+        <div className="price " id="pricing-section">
             <div className="pricTop">
                 <h3>Why Choose My Perfect Writing?</h3>
                 <p>Unlock unparalleled academic support with My Perfect Writing, where quality meets affordability, backed by a dedicated team ensuring your academic success.</p>

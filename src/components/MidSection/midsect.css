@@ -92,7 +92,6 @@
 }
 
 
-
 .midNav ul li a {
     color: white;
     text-decoration: none;
@@ -146,6 +145,7 @@
 .sidebar ul li:hover {
     background-color: rgb(147, 143, 143);
     color: black;
+    cursor: pointer;
 
 
 }

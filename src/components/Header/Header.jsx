@@ -104,7 +104,7 @@ const Header = () => {
                             </svg>
                             <p>Expert Team with Proven Expertise</p>
                         </div>
-                        <button className='rightBTN'>Get Started Today!</button>
+                        <button className='rightBTN pulse'>Get Started Today!</button>
                         <div className="RightContentBottom">
                             <p><strong>Service Benefits: </strong> Unlock academic success with My Perfect Writing! Our transparent pricing and inclusive services ensure you get the best value for your investment. Experience stress-free submissions with our reliable and efficient essay writing service, tailored specifically for the UK’s educational standards</p>
                             <p><strong>Commitment to Quality: </strong> At My Perfect Writing, quality is at the forefront of our services. Each essay is meticulously crafted by our team of experienced writers, ensuring adherence to the highest academic standards. Trust us to deliver excellence, ensuring your academic journey is nothing short of perfect.</p>

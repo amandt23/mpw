@@ -258,7 +258,10 @@
 .big-blog-Img .list-card-img {
     width: 304px;
     height: 202px;
+    /* width: 100%;
+    height: 100%; */
     border-radius: 20px 20px 0px 0px;
+   
     
 } 
 
@@ -316,13 +319,14 @@
 
 .list-read-more-button button{
     color: #96AFCE;
-    font-size: 8.54px;
+    font-size: 12.54px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     padding: 7px 19px;
     float: right;
 }
+
  /* bottom big card  */
 .bottom-Big-card{
     flex-direction: row-reverse;

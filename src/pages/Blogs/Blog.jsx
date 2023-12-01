@@ -73,7 +73,7 @@ const Blog = () => {
         </div>
 
         <div className="allBlogs">
-          <div className="all-blog-top">
+          {/* <div className="all-blog-top">
             <div className="big-blog-Img">
               <img src="./images/blog1.png" alt="" />
             </div>
@@ -104,7 +104,7 @@ const Blog = () => {
                 <button>Read more</button>
               </Link>
             </div>
-          </div>
+          </div> */}
 
           <div className="all-blog-list">
             {blogs.map((blog) => (
@@ -120,7 +120,7 @@ const Blog = () => {
             <BlogCard /> */}
           </div>
 
-          <div className="all-blog-top bottom-Big-card">
+          {/* <div className="all-blog-top bottom-Big-card">
             <div className="big-blog-Img">
               <img src="./images/blog1.png" alt="" />
             </div>
@@ -184,7 +184,7 @@ const Blog = () => {
                 <button>Read more</button>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

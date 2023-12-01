@@ -1,16 +1,13 @@
 import React from 'react'
 import './SidebarContents.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
 
-const SidebarContents = ({activeBar}) => {
+const SidebarContents = () => {
+ 
   return (
     <div className="sidbarContents">
       <div className="Sidecard">
-        <h1>{activeBar}</h1>
+        <h1>simple title</h1>
         <div className="Sidetopper">
-
-
           <div className="cardHeader">
             <div className="HeadContents">
               <h2>Subjec: </h2>

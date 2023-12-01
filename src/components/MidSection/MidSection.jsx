@@ -21,27 +21,28 @@ const MidSection = () => {
 
     };
 
-    // const handleResize = () => {
-    //     setIsVisible(window.innerWidth > 600);
-    // };
-    // const closeMenu = () => {
-    //     setIsVisible(false);
-    //   };
-    // useEffect(() => {
-    //     window.addEventListener('resize', handleResize);
-    //     return () => {
-    //         window.removeEventListener('resize', handleResize);
-    //     };
-    // }, []);
+  
 
     const renderContent = () => {
         switch (activeTab) {
             case 'academic':
                 return <Academic />;
+           
+            case 'academic':
+                return <Academic />;
+           
             case 'creative':
-                return <Createive />;
-            //   case 'review':
-            //     return <Review />;
+                return <Academic />;
+           
+            case 'review':
+                return <Academic />;
+           
+            case 'business':
+                return <Academic />;
+           
+            case 'presentation':
+                return <Academic />;
+           
             default:
                 return null;
         }
@@ -55,19 +56,18 @@ const MidSection = () => {
             <div className="Midmain">
                 <FontAwesomeIcon className='icon-burger' icon={faBars} onClick={handleToggleSidebar} />
                 <nav className={`midNav ${isVisible ? 'visibleMidNav' : ''}`}>
-                
                     <ul>
                         <li><a onClick={() => { setActiveTab('academic'); setIsVisible(false) }} href="#academic">Academic</a></li>
                         <li><a onClick={() => { setActiveTab('creative'); setIsVisible(false) }} href="#creative">Creative Writing</a></li>
                         <li><a onClick={() => { setActiveTab('review');  setIsVisible(false) }} href="#reviews">Reviews</a></li>
-                        <li><a onClick={() => { setActiveTab('academic'); setIsVisible(false)  }} href="#representation">Business Writing</a></li>
-                        <li><a onClick={() => { setActiveTab('academic');  setIsVisible(false) }} href="#representation">Presentation</a></li>
+                        <li><a onClick={() => { setActiveTab('business'); setIsVisible(false)  }} href="#representation">Business Writing</a></li>
+                        <li><a onClick={() => { setActiveTab('presentation');  setIsVisible(false) }} href="#representation">Presentation</a></li>
                     </ul>
                 </nav>
-                <div className="MidnavContents">
+                {/* <div className="MidnavContents">
                     <div className="sidebar">
                         <ul>
-                            <li onClick={() => handleClick('Research Paper')}>Research Paper</li>
+                            <li onClick={() => handleClick('Research Paper')}>Admission Essay</li>
                             <li onClick={() => handleClick('Term Paper')}>Term Paper</li>
                             <li onClick={() => handleClick('Admission Essay')}>Admission Essay</li>
                             <li onClick={() => handleClick('Annotated ')}>Annotated Bibliography</li>
@@ -78,9 +78,9 @@ const MidSection = () => {
                         </ul>
                     </div>
                     <div className="MidsideContents">
-                        <SideBarContents activeBar={activeSidebar} />
+                        
                     </div>
-                </div>
+                </div> */}
 
                 {renderContent()}
             </div>

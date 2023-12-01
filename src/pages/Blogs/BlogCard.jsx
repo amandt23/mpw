@@ -7,7 +7,7 @@ const BlogCard = ({blog}) => {
 
         <div key={blog.id} className="blog-card">
             <div className="big-blog-Img">
-                <img className='list-card-img' src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${blog.image}`} alt="" />
+                <img className='list-card-img' src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${blog.image}`} alt="blog-image" />
             </div>
             <div className="big-blog-desc list-card">
                 <p>Lifestyle</p>
@@ -32,6 +32,7 @@ const BlogCard = ({blog}) => {
                         <p>tag3</p>
                     </div>
                 </div>
+                
                 <div className="list-read-more-button">
                     <Link className='Link' to={`/blog/${blog.blog_single_title}`}>
                         <button>Read more</button>

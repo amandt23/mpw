@@ -227,7 +227,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: -2px;
     padding-top: 21px;
@@ -259,8 +259,10 @@
 .footer2 {
     background: #232323;
     margin-top: -2px;
-    border: 1px solid #FFF;
+    border-top: 1px solid #FFF;
     padding: 31px;
+    display: flex;
+    justify-content: space-between;
 
 
 }
@@ -288,6 +290,11 @@
     line-height: normal;
 }
 
+.copy-wright p{
+    color: white;
+    text-align: center;
+}
+
 
 @media (max-width: 1000px) {
     .footer {
@@ -296,7 +303,14 @@
         padding: 0px 20px;
         align-items: center;
     }
-
+    .footer2 {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       row-gap: 20px;
+    
+    
+    }
     .BottomLogo hr {
         width: 383px;
     }

@@ -22,7 +22,7 @@
 .Sidecard h1 {
     color: #FFF;
     text-align: center;
-    font-size: 43.076px;
+    font-size: 25.076px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -63,6 +63,10 @@
     font-weight: 100;
     line-height: normal;
 }
+.star-icon{
+    color: #00A12D;
+    font-size: 25px;
+}
 
 .cardFooter {
     margin-top: 47px;
@@ -70,10 +74,11 @@
 
 .tags {
     display: flex;
-    margin-top: 67px;
+    flex-direction: column;
+    margin-top: 25px;
     align-items: center;
-    padding: 0px 26px;
-    padding-bottom: 74px;
+    padding: 14px 26px;
+    /* padding-bottom: 74px; */
 }
 
 .tags h3 {
@@ -102,6 +107,11 @@
 .btns {
     display: flex;
     column-gap: 4px;
+    margin-top: 20px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    
+
 }
 
 .vertical-line {

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './singleBlog.css'
-import blog1Img from '../../../BlogImages/blog1Img.png'
 import blog1Profile from '../../../BlogImages/blogProfile.png'
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
@@ -12,25 +11,7 @@ const SingleBlog = () => {
     
     const decodedTitle = decodeURIComponent(title.replace(/-/g, ' '));
     console.log("decoded title", decodedTitle);
-    console.log("after decoded");
 
-    // useEffect(() => {
-    //     console.log("useeffec");
-    //     const fetchSingleBlog = async () => {
-    //         console.log("fech single");
-    //         try {
-    //             // Fetch data by title
-    //                 console.log("inside useeffect");
-    //             // const decodedTitle = decodeURIComponent(title.replace(/-/g, ' '));
-    //             const response = await axios.get(`https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getBlogByTitle&title=${decodedTitle}`);
-    //             setSingleBlog(response.data);
-    //         } catch (error) {
-    //             console.error('Error fetching single blog:', error);
-    //         }
-    //     };
-
-    //     fetchSingleBlog();
-    // }, [title]);
 
     useEffect(() => {
         const apiUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getBlogByTitle&title=${decodedTitle}`;
@@ -54,7 +35,6 @@ const SingleBlog = () => {
         return <div>Loading...</div>;
     }
 
-console.log("blog", singleBlog);
 
 
     return (

@@ -32,12 +32,12 @@ const ContactUs = () => {
 
             toast.success('Message sent successfully!', {
                 position: toast.POSITION.TOP_CENTER,
-              });
+            });
 
             // console.log(response.data);
             // if (response.data[0] === '200') {
             //     // Registration was successful
-               
+
             // } else if (response.data[0] === '400') {
 
             // }
@@ -51,26 +51,24 @@ const ContactUs = () => {
             <ToastContainer />
             <div className="contactUs-container">
 
-                <div class="container">
+                <div class="contact-container">
                     <div class="content">
                         <div class="left-side">
                             <div class="address details">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <div class="topic">Address</div>
-                                <div class="text-one">Surkhet, NP12</div>
-                                <div class="text-two">Birendranagar 06</div>
+                                <div class="text-one">124 City Road, London,</div>
+                                <div class="text-two">EC1V 2NX United Kingdom</div>
                             </div>
                             <div class="phone details">
                                 <i class="fas fa-phone-alt"></i>
                                 <div class="topic">Phone</div>
-                                <div class="text-one">+0098 9893 5647</div>
-                                <div class="text-two">+0096 3434 5678</div>
+                                <div class="text-one">+447488818219 </div>
                             </div>
                             <div class="email details">
                                 <i class="fas fa-envelope"></i>
                                 <div class="topic">Email</div>
-                                <div class="text-one">codinglab@gmail.com</div>
-                                <div class="text-two">info.codinglab@gmail.com</div>
+                                <div class="text-one">support@myperfectwriting.co.uk</div>
                             </div>
                         </div>
                         <div class="right-side">
