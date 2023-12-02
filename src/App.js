@@ -33,7 +33,7 @@ function App() {
           <Route path="/why-us" element={<WhyUs />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/faqs" element={<Faqs />} />
+          {/* <Route path="/faqs" element={<Faqs />} /> */}
           
         </Routes>
         <Footer />

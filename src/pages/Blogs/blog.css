@@ -90,11 +90,18 @@
     margin-top: 74px;
     display: flex;
     column-gap: 67px;
+    background-color: red;
 }
 
 .blogSidebar {
     display: flex;
     column-gap: 12px;
+    background-color: aqua;
+    /* position: absolute; */
+    /* top: 600px; */
+    position: sticky;
+    top: 400px;
+
 }
 
 .blogSidebar h3 {
@@ -128,7 +135,6 @@
 
 .all-posts-left {
     width: 183px;
-
 }
 
 /* All blog section css  */
@@ -193,6 +199,10 @@
     display: flex;
     column-gap: 7.5px;
     align-items: center;
+}
+.allBlogs{
+    background-color: aquamarine;
+    /* margin-left: 190px; */
 }
 
 .blog-all-tags {

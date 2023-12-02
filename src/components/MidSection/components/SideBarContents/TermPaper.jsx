@@ -1,5 +1,7 @@
 import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
+import pdf from '../../../../pdf/academic/Term Paper.pdf'
+
 
 const TermPaper = () => {
     return (
@@ -74,8 +76,8 @@ const TermPaper = () => {
                 </div>
             </div>
             <div class="vertical-line"></div>
-            <div className="pdf">
-                <img src="./images/pdf.png" alt="" />
+            <div className="pdf-container">
+                <embed className="pdf" src={pdf} type="application/pdf" />
             </div>
         </div>
     )

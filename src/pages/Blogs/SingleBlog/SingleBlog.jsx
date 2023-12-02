@@ -8,7 +8,7 @@ const SingleBlog = () => {
     const { title } = useParams();
     const [singleBlog, setSingleBlog] = useState();
     const [loading, setLoading] = useState(true);
-    
+
     const decodedTitle = decodeURIComponent(title.replace(/-/g, ' '));
     console.log("decoded title", decodedTitle);
 
@@ -16,22 +16,22 @@ const SingleBlog = () => {
     useEffect(() => {
         const apiUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getBlogByTitle&title=${decodedTitle}`;
         console.log("hello api inside");
-    
+
         axios.get(apiUrl)
-          .then((response) => {
-            const data = response.data; // Extract the array of client data
-            setSingleBlog(data);
-           
-          })
-          .catch((error) => {
-            console.error("Error fetching client data:", error);
-          })
-          .finally(() => {
-            setLoading(false); // Set loading to false regardless of success or failure
-        });
-      }, []);
-      
-      if (loading) {
+            .then((response) => {
+                const data = response.data; // Extract the array of client data
+                setSingleBlog(data);
+
+            })
+            .catch((error) => {
+                console.error("Error fetching client data:", error);
+            })
+            .finally(() => {
+                setLoading(false); // Set loading to false regardless of success or failure
+            });
+    }, []);
+
+    if (loading) {
         return <div>Loading...</div>;
     }
 
@@ -59,7 +59,7 @@ const SingleBlog = () => {
                         </div>
                     </div>
 
-                    <div className="Single-blogSidebar sidebarBottomSect">
+                    {/* <div className="Single-blogSidebar sidebarBottomSect">
                         <div className="single-all-posts-left">
                             <h3>References</h3>
                             <p>Citation: APA</p>
@@ -72,12 +72,12 @@ const SingleBlog = () => {
 
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
 
                 {/* blog section  */}
-                
+
                 <div className="singlBlogSection">
 
                     <div className="singleBlogTop">
@@ -100,6 +100,7 @@ const SingleBlog = () => {
                             </div>
                         </div>
                         <hr />
+
                         <div className="blogDetails">
                             <div className="published">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -123,19 +124,44 @@ const SingleBlog = () => {
                                 <p>10 minutes</p>
                             </div>
                         </div>
+
                         <hr className='blogDetailHr' />
-                        <div className="profileTop">
-                            <h3>Written By</h3>
-                            <img src={blog1Profile} alt="" />
-                            <h2>Me Blacky</h2>
+
+                        <div className="blog-profile">
+
+                            <div className="profileTop">
+                                <div className="profile-top1">
+                                    <h3>Written By</h3>
+                                    <img src={blog1Profile} alt="" />
+                                    <h2>Me Blacky</h2>
+                                </div>
+                                <h2>Founder and CEO</h2>
+                            </div>
+                            <div className="profile-refrence">
+                                {/* <div className="Single-blogSidebar sidebarBottomSect"> */}
+                                <div className="single-all-posts-left">
+                                    <h3>References</h3>
+                                    <p>Citation: APA</p>
+                                    {/* <hr /> */}
+                                    <ul>
+                                        <li>Overview</li>
+                                        <li>How Do You Write a Phd Essay?</li>
+                                        <li>Have a Strong Personal Statement</li>
+                                        <li>PhD Essay Format</li>
+
+                                    </ul>
+                                </div>
+                                {/* </div> */}
+                            </div>
+
                         </div>
+
                         <div className="profileDesc">
-                            <h2>Founder and CEO, Finicial Health Center</h2>
                             <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. </p>
                         </div>
 
                         <div className="blogContents">
-                        <div dangerouslySetInnerHTML={{ __html: singleBlog[0].blogtext }} />
+                            <div dangerouslySetInnerHTML={{ __html: singleBlog[0].blogtext }} />
                         </div>
 
 

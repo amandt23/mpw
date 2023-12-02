@@ -54,8 +54,8 @@ const WhyUs = () => {
                             (Add Icon) Decisions, Decisions…: Contemplating whether a PhD-level masterpiece can really be the same price as a high school essay? Spoiler alert: it can’t. But we’ve got the crème de la crème of writers ready for you, at a price that won’t break the bank.
                         </p>
                     </div>
-                    <h4>Other assurances offered by MyPerfectWords.com include:</h4>
-                    <div className="whyUsSection2">
+                    <h4>Other assurances offered by Myperfectwriting.com include:</h4>
+                    {/* <div className="whyUsSection2">
                         <div className="section2Single">
                             <div className="section2One">
                                 <CiCircleCheck />
@@ -93,7 +93,7 @@ const WhyUs = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </div> */}
                     <div className="whyUsFAQS">
                         <div className="WhyUsfaqs">
                             <div className="whyUsfaqTop">

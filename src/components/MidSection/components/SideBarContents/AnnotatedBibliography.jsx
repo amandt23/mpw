@@ -1,5 +1,6 @@
 import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
+import pdf from '../../../../pdf/academic/Annotated Bibliography.pdf'
 
 
 const AnnotatedBibliography = () => {
@@ -76,9 +77,9 @@ const AnnotatedBibliography = () => {
         </div>
       </div>
       <div class="vertical-line"></div>
-      <div className="pdf">
-        <img src="./images/pdf.png" alt="" />
-      </div>
+      <div className="pdf-container">
+                <embed className="pdf" src={pdf} type="application/pdf" />
+            </div>
     </div>
   )
 }

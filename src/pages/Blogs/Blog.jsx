@@ -28,7 +28,7 @@ const Blog = () => {
       <div className="blogHeader">
         <div className="blogHeaderTop">
           <p>Home<span> / Blog</span></p>
-          <div className="blogHeaderSearch">
+          {/* <div className="blogHeaderSearch">
             <div className="HeaderSearch">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                 <path d="M35.0003 34.9999L27.762 27.7615M27.762 27.7615C29.0002 26.5234 29.9823 25.0535 30.6524 23.4358C31.3225 21.818 31.6674 20.0842 31.6674 18.3332C31.6674 16.5822 31.3225 14.8483 30.6524 13.2306C29.9823 11.6129 29.0002 10.143 27.762 8.90486C26.5239 7.66671 25.054 6.68456 23.4363 6.01448C21.8185 5.3444 20.0847 4.99951 18.3337 4.99951C16.5827 4.99951 14.8488 5.3444 13.2311 6.01448C11.6134 6.68456 10.1435 7.66671 8.90534 8.90486C6.40479 11.4054 5 14.7969 5 18.3332C5 21.8695 6.40479 25.261 8.90534 27.7615C11.4059 30.2621 14.7974 31.6669 18.3337 31.6669C21.87 31.6669 25.2615 30.2621 27.762 27.7615Z" stroke="#96AFCE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -36,7 +36,7 @@ const Blog = () => {
               <input type="text" placeholder='Search...' />
             </div>
             <hr />
-          </div>
+          </div> */}
         </div>
         <div className="blogHBottom">
           <h3>Essay writing with EssayPro</h3>
@@ -109,15 +109,9 @@ const Blog = () => {
           <div className="all-blog-list">
             {blogs.map((blog) => (
               <BlogCard key={blog.id} blog={blog} />
-           
-          ))}
-            {/* <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard /> */}
+
+            ))}
+
           </div>
 
           {/* <div className="all-blog-top bottom-Big-card">

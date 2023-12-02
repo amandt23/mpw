@@ -148,15 +148,16 @@ const Footer = () => {
             <div className="footer2">
                 <ul>
                     <h3>Others: </h3>
+                    <li><Link to="blog">Blog</Link></li>
                     <li><Link to="contact-us">Contact Us</Link></li>
+                    <li><Link to="about-our-service">About Us</Link></li>
                     <li><Link to="faqs">FAQs</Link></li>
                     <li><Link to="why-us">Why Us</Link></li>
-                    <li><Link to="about-our-service">About Us</Link></li>
-                    <li><Link to="blog">Blog</Link></li>
                 </ul>
                 <di className="copy-wright">
-                    <p>© 2023 EssayPro. All rights reserved.
-                        Devellux Inc, 8 The Green, Ste A, Dover, Kent, DE, 19901, the USA</p>
+                    <p>© 2023 My Perfect Writing. All rights reserved.
+                        124 City Road, London,
+                        EC1V 2NX United Kingdom</p>
                 </di>
 
             </div>

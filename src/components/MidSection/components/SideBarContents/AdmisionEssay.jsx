@@ -1,5 +1,6 @@
 import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
+import pdf from '../../../../pdf/academic/Admissionessay.pdf'
 
 const AdmisionEssay = () => {
     return (
@@ -35,11 +36,11 @@ const AdmisionEssay = () => {
                         <div className="HeadContents">
                             <h2>Rating: </h2>
                             <p style={{ marginTop: "-3px" }}>
-                            <RiStarSFill className='star-icon' />
-                            <RiStarSFill className='star-icon' />
-                            <RiStarSFill className='star-icon' />
-                            <RiStarSFill className='star-icon' />
-                            <RiStarSFill className='star-icon' />
+                                <RiStarSFill className='star-icon' />
+                                <RiStarSFill className='star-icon' />
+                                <RiStarSFill className='star-icon' />
+                                <RiStarSFill className='star-icon' />
+                                <RiStarSFill className='star-icon' />
 
                             </p>
                         </div>
@@ -73,8 +74,8 @@ const AdmisionEssay = () => {
                 </div>
             </div>
             <div class="vertical-line"></div>
-            <div className="pdf">
-                <img src="./images/pdf.png" alt="" />
+            <div className="pdf-container">
+                <embed className="pdf" src={pdf} type="application/pdf" />
             </div>
         </div>
     )

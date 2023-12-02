@@ -243,7 +243,8 @@
     line-height: normal;
     border-radius: 6px;
     background: #01593A;
-    transition: transform 0.3s ease-in-out;
+    animation: borderPulse 1000ms infinite ease-out;
+
 }
 
 .doBtn button:hover {
@@ -251,6 +252,8 @@
     transform: scale(1.1);
     background-color: rgb(36, 74, 60);
 }
+
+
 
 @media (max-width: 1100px) {
     .priceBottom {

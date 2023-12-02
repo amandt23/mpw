@@ -7,7 +7,7 @@ const MyWriting = () => {
 
     return (
         <div className='writing'>
-            <div className="paperBtn">
+            <div className="paperBtn pulse-button">
                 <button>Get your Custom Paper Now</button>
             </div>
             <div className="wTop">
