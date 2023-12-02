@@ -90,13 +90,11 @@
     margin-top: 74px;
     display: flex;
     column-gap: 67px;
-    background-color: red;
 }
 
 .blogSidebar {
     display: flex;
     column-gap: 12px;
-    background-color: aqua;
     /* position: absolute; */
     /* top: 600px; */
     position: sticky;
@@ -201,7 +199,6 @@
     align-items: center;
 }
 .allBlogs{
-    background-color: aquamarine;
     /* margin-left: 190px; */
 }
 
