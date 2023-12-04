@@ -63,15 +63,11 @@ const TermPaper = () => {
                     <h3>Tags:</h3>
                     <div className="btns">
 
-                        <button>#EducationManagement </button>
                         <button>#SchoolStrategy </button>
                         <button>#PupilProgress </button>
                         <button>#UKHighSchools </button>
-                        <button>#TeachingEfficiency </button>
-                        <button>#PostgraduateResearch </button>
-                        <button>#EducationalReform </button>
                         <button>#BritishGrammar </button>
-                        <button>#AcademicExcellence</button>
+                       
                     </div>
                 </div>
             </div>

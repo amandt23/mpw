@@ -63,15 +63,11 @@ const LiteratureReview = () => {
                     <h3>Tags:</h3>
                     <div className="btns">
 
-                        <button>#SocialMediaAddiction </button>
-                        <button>#Teenagers </button>
-                        <button>#Psychology </button>
-                        <button>#LiteratureReview </button>
-                        <button>#GlobalStudies </button>
-                        <button>#MastersLevel </button>
+                        
                         <button>#MentalHealth </button>
+                        <button>#LiteratureReview </button>
                         <button>#AcademicAnalysis </button>
-                        <button>#BritishGrammar</button>
+                        <button>#MastersLexxxvel </button>
                     </div>
                 </div>
             </div>

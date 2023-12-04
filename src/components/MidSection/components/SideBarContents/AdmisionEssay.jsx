@@ -63,12 +63,10 @@ const AdmisionEssay = () => {
                     <h3>Tags:</h3>
                     <div className="btns">
                         <button>#ComputerScience</button>
-                        <button>#UniversityAdmission</button>
-                        <button>#BostonUniversity</button>
-                        <button>#AdmissionEssay</button>
-                        <button>#AcademicExcellence</button>
+                        {/* <button>#BostonUniversity</button> */}
                         <button>#Technology</button>
-                        <button>#StudentAspirations </button>
+                        <button>#AdmissionEssay</button>
+                        {/* <button>#StudentAspirations </button> */}
                         <button>#BritishGrammar</button>
                     </div>
                 </div>

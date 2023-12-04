@@ -66,12 +66,8 @@ const CaseStudy = () => {
                         <button>#Psychology </button>
                         <button>#CaseStudy </button>
                         <button>#MilitaryVeteran </button>
-                        <button>#ProfessionalChallenges </button>
-                        <button>#PostgraduateLevel </button>
-                        <button>#MentalHealth </button>
-                        <button>#AcademicWriting </button>
                         <button>#BritishGrammar </button>
-                        <button>#PsychologicalAnalysis</button>
+                  
                     </div>
                 </div>
             </div>

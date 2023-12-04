@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './academic.css'
+// import './academic.css'
 import SidebarContents from '../SideBarContents/SidebarContents';
 import AdmisionEssay from '../SideBarContents/AdmisionEssay';
 import AnnotatedBibliography from '../SideBarContents/AnnotatedBibliography';

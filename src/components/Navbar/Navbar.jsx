@@ -25,18 +25,19 @@ const Navbar = () => {
   return (
     // <div className="NavbarContainer">
 
-    <div class="topnavBar" id="myTopnav">
-      <Link to="/">
-        <img src={logo} alt="" />
-      </Link>
+    <div class="topnavBar">
+      <div className="navLeft">
+
+        <Link to="/">
+          <img src={logo} alt="" />
+        </Link>
+      </div>
+
       <div className={`navLinks ${isNavVisible ? 'visible' : ''}`}>
         <RxCross2 className='crossIcon' onClick={toggleNav} />
-
         <a onClick={scrollToPricing} className='aLink' >Pricing</a>
-
-
         <div className="dropdown dropdown1">
-          <a href="#contact">Company</a>
+          <a href="#contact" >Company</a>
           <IoMdArrowDropdown className='navArroIcon' />
           <div className="dropdown-content">
             <Link to="about-our-service">About Us</Link>
@@ -148,14 +149,12 @@ const Navbar = () => {
 
           </div>
         </div>
+        <Link className='aLink' to="blog">Blog</Link>
+      </div>
 
-
-
-
-        <Link className='aLink' to="blog">Blogs</Link>
+      <div className="navRight">
         <a href="https://myperfectwriting.co.uk/portal/public/login">
           <button class="NavOrderbtn pulse-button">Order Now</button>
-
         </a>
         <div className="profileIcon">
           <svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
@@ -167,8 +166,8 @@ const Navbar = () => {
           </div>
 
         </div>
+        <RxHamburgerMenu onClick={toggleNav} className='hamburgur' style={{ color: "white", fontSize: "50px" }} />
       </div>
-      <RxHamburgerMenu onClick={toggleNav} className='hamburgur' style={{ color: "white", fontSize: "50px" }} />
 
     </div>
 

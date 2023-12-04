@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import './footer.css';
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
@@ -20,12 +20,22 @@ const Footer = () => {
         setIsOpen(!isOpen);
     };
 
+    // scrolling to top 
+    const topRef = useRef(null);
+
+    const scrollToTop = () => {
+        if (topRef.current) {
+            topRef.current.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
 
 
 
     return (
         <>
-            <div className="footer">
+            <div ref={topRef} className="footer">
                 <div className="fLeft">
                     <h3>DONT MISS OUT</h3>
                     <p>Sign up for the latest beauty news, product samples and coupons</p>
@@ -148,7 +158,7 @@ const Footer = () => {
             <div className="footer2">
                 <ul>
                     <h3>Others: </h3>
-                    <li><Link to="blog">Blog</Link></li>
+                    <li><Link to="blog" onClick={scrollToTop}>Blog</Link></li>
                     <li><Link to="contact-us">Contact Us</Link></li>
                     <li><Link to="about-our-service">About Us</Link></li>
                     <li><Link to="faqs">FAQs</Link></li>

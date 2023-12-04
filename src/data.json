@@ -70,7 +70,7 @@
             "english": 80,
             "poetry": 50,
             "classics": 70,
-            "image": "slideImg7.jpg"
+            "image": "slideImg7.jpeg"
           },
           {
             "name": "Daniel White",
@@ -81,7 +81,7 @@
             "english": 60,
             "poetry": 40,
             "classics": 80,
-            "image": "slideImg7.jpeg"
+            "image": "slideImg8.jpg"
           },
           {
             "name": "Sophie Smith",
@@ -92,22 +92,10 @@
             "english": 90,
             "poetry": 75,
             "classics": 95,
-            "image": "slideImg8.jpg"
-
-          },
-          {
-            "name": "David Taylor",
-            "university": "Engineering College",
-            "role": "Lecturer",
-            "education": "M.Eng. in Computer Science",
-            "totalOrders": 20,
-            "english": 50,
-            "poetry": 30,
-            "classics": 60,
             "image": "slideImg9.jpg"
 
-            
           }
+       
     ]
 
 }

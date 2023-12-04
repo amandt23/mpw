@@ -65,14 +65,10 @@ const AnnotatedBibliography = () => {
           <div className="btns">
 
             <button>#SocialMovements </button>
-            <button>#RacialJustice </button>
             <button>#ProtestInSports </button>
             <button>#AcademicWriting </button>
-            <button>#UndergraduateLevel </button>
-            <button>#Sociology </button>
-            <button>#PoliticalScience </button>
-            <button>#AnnotatedBibliography </button>
             <button>#BritishGrammar</button>
+            
           </div>
         </div>
       </div>

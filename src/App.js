@@ -14,6 +14,7 @@ import WhyUs from './pages/WhyUs/WhyUs';
 import Privacy from './pages/PrivacyPolicy/Privacy';
 import ContactUs from './components/ContactUs/ContactUs';
 import Faqs from './pages/FAQs/Faqs';
+import PageNotFound from './pages/PageNotFound/PageNotFound';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
           <Route path="/why-us" element={<WhyUs />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          {/* <Route path="/faqs" element={<Faqs />} /> */}
+          <Route path="/faqs" element={<Faqs />} />
+          <Route path='*' element={<PageNotFound />} />
           
         </Routes>
         <Footer />

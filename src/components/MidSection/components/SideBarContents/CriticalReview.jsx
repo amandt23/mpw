@@ -64,14 +64,11 @@ const CriticalReview = () => {
                     <h3>Tags:</h3>
                     <div className="btns">
 
-                        <button>#JFK </button>
                         <button>#InauguralAddress </button>
-                        <button>#CriticalReview </button>
                         <button>#PoliticalScience </button>
                         <button>##UniversityLevel  </button>
-                        <button>#RhetoricalAnalysis </button>
-                        <button>#BritishGrammar </button>
                         <button>#PoliticalOratory</button>
+                     
                     </div>
                 </div>
             </div>

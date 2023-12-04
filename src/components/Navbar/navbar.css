@@ -2,16 +2,11 @@
     background: #000;
     overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 105.278px;
     box-shadow: 0px 5.26389px 5.26389px 0px rgba(0, 0, 0, 0.25);
-    padding: 0px 0px;
-    /* transform: scaleY(0.8);  */
-    /* transform-origin: 0 0; */
-    /* max-width: 1480px; */
-
-
+    padding: 0px 10px;
 }
 
 .navLinks {
@@ -20,16 +15,22 @@
     align-items: center;
 
 }
+.navRight{
+    display: flex;
+    align-items: center;
+}
 
 /* .navLinks svg {
     min-width: 120px;
 } */
 
 .aLink:hover {
-    background-color: #ddd;
-    color: black;
+   
     border-radius: 30px;
     cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: yellow;
 }
 
 /* Style the links inside the navigation bar */
@@ -50,9 +51,7 @@
     height: 102.646px;
 }
 
-.profileIcon{
-    /* position: relative; */
-}
+
 .profileIcon:hover .hamburgerDropdown {
     display: block;
 }
@@ -158,23 +157,13 @@
 
 
 .dropdown:hover {
-    background-color: #ddd;
-    color: black;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: yellow;
     border-radius: 30px;
 
 
-}
-
-.dropdown:hover a {
-    color: black;
-}
-
-.dropdown:hover .navArroIcon {
-    color: black;
-}
-
-.dropdown a:hover {
-    color: black;
 }
 
 .navArroIcon {
@@ -182,9 +171,7 @@
     font-size: 50px;
 }
 
-.navArroIcon:hover {
-    color: black;
-}
+
 
 .dropdown-content {
     display: none;
@@ -491,15 +478,18 @@
     justify-content: center;
 }
 
-@media (max-width: 1188px) {
+@media (max-width: 888px) {
     .hamburgur {
         display: block;
     }
 
     .topnavBar {
         justify-content: space-between;
-        padding: 0px 25px;
+        /* padding: 0px 25px; */
 
+    }
+    .hamburgur{
+        margin-left: 20px;
     }
 
     .navLinks {

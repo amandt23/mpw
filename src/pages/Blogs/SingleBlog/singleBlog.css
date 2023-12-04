@@ -21,7 +21,9 @@
 .Single-blogSidebar {
     display: flex;
     column-gap: 12px;
-    margin-top: 598px;
+    margin-top: 606px;
+    position: sticky;
+    top: 150px;
     /* max-width: 300px; */
 
 }
@@ -33,6 +35,19 @@
     font-weight: 400;
     line-height: normal;
     margin-bottom: 23px;
+}
+
+.singleBlogSocialIcon{
+    display: flex;
+    column-gap: 20px;
+}
+.singleBlogSocialIcon .BlogSingleIcon{
+    font-size: 33px ;
+    color: rgb(30, 63, 30);
+}
+.singleBlogSocialIcon .BlogSingleIcon:hover{
+   cursor: pointer;
+    color: rgb(87, 111, 87);
 }
 
 .single-all-posts-left ul {
