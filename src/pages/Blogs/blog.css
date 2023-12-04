@@ -95,6 +95,11 @@
 .blogSidebar {
     display: flex;
     column-gap: 12px;
+    /* position: absolute; */
+    /* top: 600px; */
+    position: sticky;
+    top: 400px;
+
 }
 
 .blogSidebar h3 {
@@ -115,6 +120,9 @@
     flex-direction: column;
     row-gap: 23px;
 }
+.blogSidebar ul li:hover{
+  cursor: pointer;
+}
 
 .blog-sidebar-vertical-line {
     width: 1px;
@@ -125,7 +133,6 @@
 
 .all-posts-left {
     width: 183px;
-
 }
 
 /* All blog section css  */
@@ -191,6 +198,9 @@
     column-gap: 7.5px;
     align-items: center;
 }
+.allBlogs{
+    /* margin-left: 190px; */
+}
 
 .blog-all-tags {
     display: flex;
@@ -255,7 +265,10 @@
 .big-blog-Img .list-card-img {
     width: 304px;
     height: 202px;
+    /* width: 100%;
+    height: 100%; */
     border-radius: 20px 20px 0px 0px;
+   
     
 } 
 
@@ -313,13 +326,14 @@
 
 .list-read-more-button button{
     color: #96AFCE;
-    font-size: 8.54px;
+    font-size: 12.54px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     padding: 7px 19px;
     float: right;
 }
+
  /* bottom big card  */
 .bottom-Big-card{
     flex-direction: row-reverse;
@@ -366,6 +380,14 @@
         display: none;
     }
 
+}
 
-
+@media(max-width: 400px){
+    .big-blog-Img img {
+        width: 400px;
+        height: 250px;
+        border-radius: 20px 20px 0px 0px;
+        
+    } 
+    
 }

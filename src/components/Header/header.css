@@ -299,6 +299,10 @@
     border: none;
     margin-top: 60px;
     margin-bottom: 60px;
+    transition: transition 0.3s ease-in-out;
+}
+.rightBTN:hover{
+    transform: scale(1.1);
 }
 
 .RightContentBottom p {
@@ -312,6 +316,31 @@
     font-weight: 400;
     line-height: normal;
     max-width: 660px;
+}
+
+
+
+button.pulse-button {
+    animation: borderPulse 1000ms infinite ease-out;
+}
+
+
+/* Declare border pulse animation */
+
+@keyframes borderPulse {
+
+  0% {
+
+    box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255,.4), 0px 0px 0px 0px rgb(42, 100, 46);
+
+  }
+
+  100% {
+
+    box-shadow: inset 0px 0px 0px 3px rgba(117, 117, 255,.2), 0px 0px 0px 15px rgba(255,255,255,0);
+
+  }
+
 }
 
 

@@ -21,7 +21,7 @@ const Footer = () => {
     };
 
 
-  
+
 
     return (
         <>
@@ -47,11 +47,11 @@ const Footer = () => {
                         <div className="rSection">
                             <h3>Legal & Policies</h3>
                             <ul>
-                                <li><Link to="/termsAndConditions">Terms and Conditions</Link></li>
-                                <li><Link to="/refundpolicy">Refund Policy</Link></li>
+                                <li><Link to="/terms-and-conditions">Terms and Conditions</Link></li>
+                                <li><Link to="/refund-policy">Refund Policy</Link></li>
                                 <li><Link to="privacy-policy">Privacy policy</Link></li>
-                                <li><Link to="/cookiepolicy">Cookies Policy</Link></li>
-                                <li><Link to="/academicintegrity">Academic Integrity</Link></li>
+                                <li><Link to="/cookies-policy">Cookies Policy</Link></li>
+                                <li><Link to="/academic-integrity">Academic Integrity</Link></li>
 
                             </ul>
                         </div>
@@ -105,6 +105,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footerBottomPay">
+
                 <p>* the money back guarantee operates according to our policy</p>
                 <div className="payIcons">
                     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="37" viewBox="0 0 54 37" fill="none">
@@ -113,11 +114,9 @@ const Footer = () => {
                         <path d="M20.621 14.8446C20.621 10.3085 23.0949 6.28511 26.8973 3.6817C24.1028 1.78839 20.5753 0.644531 16.727 0.644531C7.6098 0.644531 0.233948 6.99503 0.233948 14.8446C0.233948 22.694 7.6098 29.0447 16.7268 29.0447C20.5751 29.0447 24.1026 27.9009 26.8973 26.0074C23.0949 23.4435 20.621 19.3807 20.621 14.8446Z" fill="#EB001B" />
                         <path d="M53.6067 14.8446C53.6067 22.694 46.2308 29.0447 37.1138 29.0447C33.2655 29.0447 29.738 27.9009 26.9434 26.0074C30.7917 23.4041 33.2198 19.3807 33.2198 14.8446C33.2198 10.3085 30.7458 6.28511 26.9434 3.6817C29.7378 1.78839 33.2655 0.644531 37.1138 0.644531C46.2308 0.644531 53.6067 7.03456 53.6067 14.8446Z" fill="#F79E1B" />
                     </svg>
-
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="35" viewBox="0 0 50 35" fill="none">
                         <path d="M40.6823 15.4916C40.6823 15.4916 41.335 18.2871 41.481 18.8733H38.6125C38.8959 18.2044 39.9866 15.6043 39.9866 15.6043C39.9694 15.6269 40.27 14.9205 40.4418 14.4846L40.6823 15.4916ZM49.7772 4.12174V30.5738C49.7772 32.5652 47.9307 34.1809 45.6548 34.1809H4.43142C2.15555 34.1809 0.309082 32.5652 0.309082 30.5738V4.12174C0.309082 2.13033 2.15555 0.514648 4.43142 0.514648H45.6548C47.9307 0.514648 49.7772 2.13033 49.7772 4.12174ZM13.4061 22.9989L18.8339 11.3359H15.1839L11.8087 19.3016L11.4394 17.6859L10.2371 12.3204C10.0395 11.5764 9.42976 11.366 8.674 11.3359H3.11743L3.05731 11.5689C4.41425 11.8695 5.62518 12.3053 6.68153 12.8539L9.75611 22.9989H13.4061ZM21.5134 23.0139L23.6776 11.3359H20.2251L18.0695 23.0139H21.5134ZM33.5283 19.1964C33.5455 17.8663 32.6179 16.8518 30.6341 16.0176C29.4231 15.4841 28.6845 15.1234 28.6845 14.5748C28.7017 14.0788 29.3115 13.5678 30.6684 13.5678C31.7935 13.5453 32.6179 13.7782 33.2363 14.0112L33.5455 14.1389L34.0178 11.614C33.3393 11.381 32.2572 11.118 30.9261 11.118C27.5165 11.118 25.1204 12.7111 25.1032 14.9806C25.0775 16.6564 26.8209 17.5882 28.1263 18.1518C29.4575 18.723 29.9126 19.0987 29.9126 19.6022C29.8955 20.3837 28.8305 20.7444 27.8429 20.7444C26.4688 20.7444 25.7302 20.5566 24.6051 20.1207L24.15 19.9328L23.669 22.5555C24.4763 22.8786 25.9707 23.1642 27.5165 23.1792C31.1408 23.1867 33.5025 21.6162 33.5283 19.1964ZM45.6548 23.0139L42.8722 11.3359H40.2013C39.3768 11.3359 38.7499 11.5463 38.3978 12.3053L33.2706 23.0139H36.8949C36.8949 23.0139 37.4874 21.5711 37.6163 21.263H42.0478C42.1508 21.6763 42.46 23.0139 42.46 23.0139H45.6548Z" fill="black" />
                     </svg>
-
                     <svg xmlns="http://www.w3.org/2000/svg" width="122" height="19" viewBox="0 0 122 19" fill="none">
                         <path d="M64.6586 0.430664C58.9572 0.430664 54.3314 4.35678 54.3314 9.20223C54.3314 14.3541 58.7564 18.2049 64.6586 18.2049C70.4136 18.2049 74.9577 14.3029 74.9577 9.30345C74.9577 4.33352 70.444 0.430664 64.6586 0.430664Z" fill="url(#paint0_linear_118_11360)" />
                         <g filter="url(#filter0_i_118_11360)">
@@ -142,17 +141,24 @@ const Footer = () => {
                         </defs>
                     </svg>
                 </div>
+
             </div>
+
 
             <div className="footer2">
                 <ul>
                     <h3>Others: </h3>
+                    <li><Link to="blog">Blog</Link></li>
                     <li><Link to="contact-us">Contact Us</Link></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><Link to="#">Why Us</Link></li>
-                    <li><Link to="#">About Us</Link></li>
-                    <li><Link to="#">Blog</Link></li>
+                    <li><Link to="about-our-service">About Us</Link></li>
+                    <li><Link to="faqs">FAQs</Link></li>
+                    <li><Link to="why-us">Why Us</Link></li>
                 </ul>
+                <di className="copy-wright">
+                    <p>© 2023 My Perfect Writing. All rights reserved.
+                        124 City Road, London,
+                        EC1V 2NX United Kingdom</p>
+                </di>
 
             </div>
         </>

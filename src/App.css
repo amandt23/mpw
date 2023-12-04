@@ -7,3 +7,7 @@
 body {
     zoom: 70%;
   }
+  button:hover{
+    cursor: pointer;
+ }
+ 

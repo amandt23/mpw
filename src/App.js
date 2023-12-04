@@ -13,6 +13,7 @@ import SingleBlog from './pages/Blogs/SingleBlog/SingleBlog';
 import WhyUs from './pages/WhyUs/WhyUs';
 import Privacy from './pages/PrivacyPolicy/Privacy';
 import ContactUs from './components/ContactUs/ContactUs';
+import Faqs from './pages/FAQs/Faqs';
 
 function App() {
   return (
@@ -21,16 +22,19 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/termsAndConditions" element={<TermsAndCondition />} />
-          <Route path="/refundpolicy" element={<RefundPolicy />} />
-          <Route path="/cookiepolicy" element={<CookiePolicy />} />
-          <Route path="/academicintegrity" element={<AcademicIntegrity />} />
+          <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
+          <Route path="/refund-policy" element={<RefundPolicy />} />
+          <Route path="/cookies-policy" element={<CookiePolicy />} />
+          <Route path="/academic-integrity" element={<AcademicIntegrity />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:title" element={<SingleBlog />} />
           {/* <Route path="/singl-blog" element={<SingleBlog />} /> */}
-          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/about-our-service" element={<AboutUs />} />
           <Route path="/why-us" element={<WhyUs />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          {/* <Route path="/faqs" element={<Faqs />} /> */}
+          
         </Routes>
         <Footer />
         {/* <SingleBlog /> */}
