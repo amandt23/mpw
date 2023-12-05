@@ -1,7 +1,6 @@
 import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
-import pdf from '../../../../pdf/academic/Term Paper.pdf'
-
+import pdf from '../../../../../pdf/reviews/Book Review.pdf'
 import { Worker } from '@react-pdf-viewer/core';
 // Import the main component
 import { Viewer } from '@react-pdf-viewer/core';
@@ -12,36 +11,35 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 // Your render function
 <Viewer fileUrl="/path/to/document.pdf" />;
 
-
-const TermPaper = () => {
+const BookReview = () => {
     return (
         <div className="sidbarContents">
             <div className="Sidecard">
                 <div className="HeadContents date">
                     <h2>Date: </h2>
-                    <p>August 21, 2023</p>
+                    <p>October 1, 2023</p>
                 </div>
-                <h1>Term Paper</h1>
+                <h1>Book Review</h1>
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
                             <h2>Subjec: </h2>
-                            <p>Education</p>
+                            <p>Philosophy and Personal Development</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Academic Level: </h2>
-                            <p>Postgraduate Research</p>
+                            <p>University/General Interest</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Word Count: </h2>
-                            <p>4,500</p>
+                            <p>1,200</p>
                         </div>
 
                     </div>
 
                     <div className="HeadContents desc">
-                        <h2 >Short Description: </h2>
-                        <p>A detailed exploration of strategies to enhance pupil progress and teaching efficiency in UK high schools.</p>
+                        <h2>Short Description: </h2>
+                        <p>A critical and reflective review of Manson's work, exploring the philosophical and psychological aspects of hope in modern society.</p>
                     </div>
 
                     <div className="cardFooter">
@@ -53,19 +51,20 @@ const TermPaper = () => {
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
+
                             </p>
                         </div>
                         <div className="HeadContents">
                             <h2>Author: </h2>
-                            <p>James Anderson</p>
+                            <p>Thomas Bell</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Citation: </h2>
-                            <p>Harvard</p>
+                            <p>HarperCollins Publishers, 2021</p>
                         </div>
                         <div className="HeadContents ">
                             <h2>Type: </h2>
-                            <p>Research Paper</p>
+                            <p>Book Review</p>
                         </div>
 
                     </div>
@@ -73,12 +72,10 @@ const TermPaper = () => {
                 <div className="tags">
                     <h3>Tags:</h3>
                     <div className="btns">
-
-                        <button>#SchoolStrategy </button>
-                        <button>#PupilProgress </button>
-                        <button>#UKHighSchools </button>
-                        <button>#BritishGrammar </button>
-
+                        <button>#MarkManson</button>
+                        <button>#Philosophy </button>
+                        <button>#BookReview </button>
+                        <button>#ModernSociety </button>
                     </div>
                 </div>
             </div>
@@ -99,4 +96,4 @@ const TermPaper = () => {
     )
 }
 
-export default TermPaper
+export default BookReview

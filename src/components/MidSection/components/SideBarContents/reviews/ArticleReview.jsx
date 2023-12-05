@@ -1,36 +1,45 @@
 import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
 import pdf from '../../../../../pdf/reviews/Article Review.pdf'
+import { Worker } from '@react-pdf-viewer/core';
+// Import the main component
+import { Viewer } from '@react-pdf-viewer/core';
 
+// Import the styles
+import '@react-pdf-viewer/core/lib/styles/index.css';
+
+// Your render function
+<Viewer fileUrl="/path/to/document.pdf" />;
 
 const ArticleReview = () => {
-  return (
-    <div className="sidbarContents">
+    return (
+        <div className="sidbarContents">
             <div className="Sidecard">
-                <h1>Narrative Writing</h1>
+                <div className="HeadContents date">
+                    <h2>Date: </h2>
+                    <p>March 22, 2023</p>
+                </div>
+                <h1>Article Review</h1>
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
                             <h2>Subjec: </h2>
-                            <p>Personal Experience</p>
+                            <p>Psychology and Child Development</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Academic Level: </h2>
-                            <p>High School/College</p>
+                            <p>University/Postgraduate</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Word Count: </h2>
-                            <p>1,800</p>
+                            <p>1,000</p>
                         </div>
 
                     </div>
-                    <div className="HeadContents date">
-                        <h2>Date: </h2>
-                        <p>October 27, 2021</p>
-                    </div>
+
                     <div className="HeadContents desc">
                         <h2>Short Description: </h2>
-                        <p>A vivid narrative capturing the distress and eventual relief of misplacing and finding a wallet, filled with personal details and emotions.</p>
+                        <p>A critical analysis of Corsello's article on early autism intervention, highlighting its significance and areas for further research.</p>
                     </div>
 
                     <div className="cardFooter">
@@ -47,15 +56,15 @@ const ArticleReview = () => {
                         </div>
                         <div className="HeadContents">
                             <h2>Author: </h2>
-                            <p>Kayla Castro</p>
+                            <p>Alice Martin</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Citation: </h2>
-                            <p>N/A</p>
+                            <p>APA</p>
                         </div>
-                        <div className="HeadContents footer">
+                        <div className="HeadContents ">
                             <h2>Type: </h2>
-                            <p>Personal Narrative</p>
+                            <p>Article Review</p>
                         </div>
 
                     </div>
@@ -63,19 +72,28 @@ const ArticleReview = () => {
                 <div className="tags">
                     <h3>Tags:</h3>
                     <div className="btns">
-                        <button>#LostAndFound</button>
-                        <button>#CollegeEssay</button>
-                        <button>#BritishGrammar</button>
-                        <button>#EmotionalJourney  </button>
+                        <button>#ChildDevelopment</button>
+                        <button>#AutismIntervention</button>
+                        <button>#ArticleCritique</button>
+                        <button>#UniversityLevel</button>
                     </div>
                 </div>
             </div>
             <div class="vertical-line"></div>
             <div className="pdf-container">
-                <embed className="pdf" src={pdf} type="application/pdf" />
+                {/* <embed className="pdf" src={pdf} type="application/pdf" /> */}
+                <Worker className="pdf" workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+                    <div
+                        style={{
+                            height: '700px',
+                        }}
+                    >
+                        <Viewer fileUrl={pdf} />
+                    </div>
+                </Worker>
             </div>
         </div>
-  )
+    )
 }
 
 export default ArticleReview

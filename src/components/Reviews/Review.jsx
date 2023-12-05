@@ -21,7 +21,8 @@ const Review = () => {
                 "Review": "The essay was meticulously written with strong arguments and thorough research. I am genuinely impressed with the quality and punctuality of the service. Highly recommended!",
                 "Tags": ["Essay", "Quality", "Research", "Punctuality"],
                 "ResponsefromMyPerfectWriting": "We are delighted to hear about your positive experience! Our team always strives to deliver the best, and your recommendation means a lot to us. Thank you!",
-                "Date": "2023-10-01"
+                "Date": "2023-10-01",
+                "image": "deer.jpg"
             },
             {
                 "ServiceType": "Dissertation",
@@ -35,7 +36,9 @@ const Review = () => {
                 "Review": "Outstanding support throughout my dissertation process. The team was always available for revisions and advice. Truly grateful for the expert guidance!",
                 "Tags": ["Dissertation", "Support", "Biochemistry", "ExpertGuidance"],
                 "ResponsefromMyPerfectWriting": "Thank you for choosing us for your dissertation journey. Your success is our priority, and we're glad to have been of help. Best wishes!",
-                "Date": "2023-09-15"
+                "Date": "2023-09-15",
+                "image": "elephant.jpg"
+
             },
             {
                 "ServiceType": "Thesis Writing",
@@ -49,7 +52,9 @@ const Review = () => {
                 "Review": "The thesis was well-structured and covered all the required points in depth. The writer clearly understood the topic and delivered an excellent piece of work.",
                 "Tags": ["Thesis", "Structure", "In-Depth", "Excellence"],
                 "ResponsefromMyPerfectWriting": "It's wonderful to know that you are satisfied with our work. We always aim for excellence, and it's great to see it reflected in your thesis. Thank you!",
-                "Date": "2023-08-20"
+                "Date": "2023-08-20",
+                "image": "fox.jpg"
+
             },
             {
                 "ServiceType": "Research Paper",
@@ -63,7 +68,9 @@ const Review = () => {
                 "Review": "The research paper exceeded my expectations. The writer delved deep into historical events with precision and clarity. I couldn't have asked for more.",
                 "Tags": ["Research", "History", "Precision", "Clarity"],
                 "ResponsefromMyPerfectWriting": "We're thrilled to know that our work met your expectations. Our writers take great pride in their research skills. Thank you for trusting us!",
-                "Date": "2023-07-10"
+                "Date": "2023-07-10",
+                "image": "panda.jpg"
+
             },
             {
                 "ServiceType": "Proofreading",
@@ -77,7 +84,9 @@ const Review = () => {
                 "Review": "The attention to detail in proofreading my thesis was exceptional. All errors were corrected, and the suggestions improved the overall flow of the paper.",
                 "Tags": ["Proofreading", "AttentiontoDetail", "Exceptional"],
                 "ResponsefromMyPerfectWriting": "It was our pleasure to assist you in perfecting your thesis. We always strive for precision and clarity in every project. Thank you for your kind words!",
-                "Date": "2023-06-15"
+                "Date": "2023-06-15",
+                "image": "rabbit.jpg"
+
             },
             {
                 "ServiceType": "Editing",
@@ -91,7 +100,9 @@ const Review = () => {
                 "Review": "The editing service was top-notch. The document is now polished and conveys my ideas more clearly. I'm extremely satisfied with the results.",
                 "Tags": ["Editing", "Polished", "Clarity", "Satisfaction"],
                 "ResponsefromMyPerfectWriting": "We're glad to hear that you are satisfied with our editing services. Your ideas deserve to be presented in the best possible way. Thank you!",
-                "Date": "2023-05-25"
+                "Date": "2023-05-25",
+                "image": "tiger.jpg"
+
             },
             {
                 "ServiceType": "Term Paper",
@@ -105,7 +116,9 @@ const Review = () => {
                 "Review": "The term paper was crafted with expertise. The arguments were well-supported and the content was coherent. I'm impressed with the quality of work.",
                 "Tags": ["TermPaper", "Expertise", "Well-Supported", "Quality"],
                 "ResponsefromMyPerfectWriting": "We appreciate your feedback! Our team works hard to ensure that every paper is of the highest quality. Thank you for your trust!",
-                "Date": "2023-04-30"
+                "Date": "2023-04-30",
+                "image": "wolf.jpg"
+
             },
             {
                 "ServiceType": "Coursework Assistance",
@@ -119,7 +132,9 @@ const Review = () => {
                 "Review": "Exceptional assistance with my coursework. The level of detail and accuracy provided was exactly what I needed. Truly a lifesaver!",
                 "Tags": ["Coursework", "Assistance", "Detail", "Accuracy"],
                 "ResponsefromMyPerfectWriting": "We're so pleased to have been able to assist you with your coursework. Our team is always ready to help, and we're glad we could provide the support you needed.",
-                "Date": "2023-04-10"
+                "Date": "2023-04-10",
+                "image": "zebra.jpg"
+
             }
 
 
@@ -186,7 +201,7 @@ const Review = () => {
                             </div>
 
                             <div className="sect2">
-                                <img src="./images/profileReview.jpeg" alt="" />
+                                <img src={`./images/reviews/${item.image}`} alt="" />
                                 <h3>{item.CustomerID}</h3>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="58" height="10" viewBox="0 0 58 10" fill="none">
                                     <path d="M2.45668 9.89245L3.26518 6.579L0.576904 4.35133L4.11803 4.05821L5.50487 0.933105L6.89172 4.05759L10.4322 4.3507L7.74456 6.57838L8.55306 9.89183L5.50487 8.13314L2.45668 9.89245Z" fill="#00A22D" />

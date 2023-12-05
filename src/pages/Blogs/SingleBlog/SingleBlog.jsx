@@ -9,13 +9,19 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import SingleBlogSkeleton from '../../../components/LoadingSkeleton/SingleBlog/SingleBlogSkeleton';
 
+import { FacebookShareButton, InstapaperShareButton, TwitterShareButton } from 'react-share';
+
+
 const SingleBlog = () => {
     const { title } = useParams();
+
+    // getting current url of blog
+    const shareUrl = "https://myperfectwriting.co.uk/blog/Online-Education-and-the-Rise-of-Remote-Learning";
+
     const [singleBlog, setSingleBlog] = useState();
     const [loading, setLoading] = useState(true);
 
     const decodedTitle = decodeURIComponent(title.replace(/-/g, ' '));
-    console.log("decoded title", decodedTitle);
 
 
     useEffect(() => {
@@ -40,8 +46,13 @@ const SingleBlog = () => {
         return <SingleBlogSkeleton />;
     }
 
+    // const shareOnFacebook = () => {
+    //     // Replace 'YourShareURL' with the actual URL you want to share
+    //     const shareUrl = { currentUrl };
+    //     window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`, '_blank');
+    // };
 
-
+    console.log("useparam", shareUrl);
 
     return (
         <>
@@ -68,9 +79,19 @@ const SingleBlog = () => {
 
                                 </ul>
                                 <div className="singleBlogSocialIcon">
-                                    <FaFacebook className='BlogSingleIcon' />
-                                    <RiInstagramFill className='BlogSingleIcon' />
-                                    <FaSquareXTwitter className='BlogSingleIcon' />
+                                    <p style={{ fontSize: "18px" }}>Share this article</p>
+                                    <div className="shareArticel">
+                                        <FacebookShareButton url={shareUrl}>
+                                            <FaFacebook className='BlogSingleIcon' />
+                                        </FacebookShareButton>
+
+                                        <TwitterShareButton url={shareUrl}>
+                                            <FaSquareXTwitter className='BlogSingleIcon' />
+                                        </TwitterShareButton>
+                                        <FacebookShareButton url={shareUrl}>
+                                            <RiInstagramFill className='BlogSingleIcon' />
+                                        </FacebookShareButton>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -149,9 +170,9 @@ const SingleBlog = () => {
                                     <div className="profile-top1">
                                         <h3>Written By</h3>
                                         <img src={blog1Profile} alt="" />
-                                        <h2>Me Blacky</h2>
+                                        <h2>{singleBlog[0].author}</h2>
                                     </div>
-                                    <h2>Founder and CEO</h2>
+                                    {/* <h2>Founder and CEO</h2> */}
                                 </div>
                                 <div className="profile-refrence">
                                     {/* <div className="Single-blogSidebar sidebarBottomSect"> */}
@@ -159,13 +180,13 @@ const SingleBlog = () => {
                                         <h3>References</h3>
                                         <p>Citation: APA</p>
                                         {/* <hr /> */}
-                                        <ul>
+                                        {/* <ul>
                                             <li>Overview</li>
                                             <li>How Do You Write a Phd Essay?</li>
                                             <li>Have a Strong Personal Statement</li>
                                             <li>PhD Essay Format</li>
 
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     {/* </div> */}
                                 </div>
@@ -173,7 +194,7 @@ const SingleBlog = () => {
                             </div>
 
                             <div className="profileDesc">
-                                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. </p>
+                                <p>{singleBlog[0].authorbio}</p>
                             </div>
 
                             <div className="blogContents">

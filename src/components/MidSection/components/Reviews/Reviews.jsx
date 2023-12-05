@@ -1,4 +1,9 @@
 import React, { useState } from 'react'
+import ArticleReview from '../SideBarContents/reviews/ArticleReview';
+import BookReview from '../SideBarContents/reviews/BookReview';
+import ConcertReview from '../SideBarContents/reviews/ConcertReview';
+import MovieReview from '../SideBarContents/reviews/MovieReview';
+import PhilosophicalReview from '../SideBarContents/reviews/PhilosophicalReview';
 // import './academic.css'
 
 const Reviews = () => {
@@ -18,20 +23,20 @@ const Reviews = () => {
     <div className="MidnavContents">
       <div className="sidebar">
         <ul>
-          <li onClick={() => handleClick('Admission Essay')}>Admission Essay</li>
-          <li onClick={() => handleClick('Annotated Bibliography ')}>Annotated Bibliography </li>
-          <li onClick={() => handleClick('Case Study')}>Poem</li>
-          <li onClick={() => handleClick('Critical Review')}>Reflective Writing</li>
-          <li onClick={() => handleClick('Literature Review')}>Short Story</li>
+          <li onClick={() => handleClick('Admission Essay')}>Article Review</li>
+          <li onClick={() => handleClick('Annotated Bibliography ')}>Book Review</li>
+          <li onClick={() => handleClick('Case Study')}>Concert Review</li>
+          <li onClick={() => handleClick('Critical Review')}>Movie Review</li>
+          <li onClick={() => handleClick('Literature Review')}>Philosophical Review</li>
           {/* <li onClick={() => handleClick('Term Paper')}>Term Paper</li> */}
         </ul>
       </div>
       <div className="MidsideContents">
-        {/* {activeSidebar === 'Admission Essay' && <CreativeAdmission />} */}
-        {/* {activeSidebar === 'Annotated Bibliography ' && <Annotated />} */}
-        {/* {activeSidebar === 'Case Study' && <Poem />} */}
-        {/* {activeSidebar === 'Critical Review' && <Reflective />} */}
-        {/* {activeSidebar === 'Literature Review' && <ShortStory />} */}
+        {activeSidebar === 'Admission Essay' && <ArticleReview />}
+        {activeSidebar === 'Annotated Bibliography ' && <BookReview />}
+        {activeSidebar === 'Case Study' && <ConcertReview />}
+        {activeSidebar === 'Critical Review' && <MovieReview />}
+        {activeSidebar === 'Literature Review' && <PhilosophicalReview />}
         {/* {activeSidebar === 'Term Paper' && <TermPaper />} */}
 
       </div>

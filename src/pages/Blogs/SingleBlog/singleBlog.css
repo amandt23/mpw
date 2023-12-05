@@ -39,6 +39,12 @@
 
 .singleBlogSocialIcon{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.shareArticel{
+    display: flex;
     column-gap: 20px;
 }
 .singleBlogSocialIcon .BlogSingleIcon{
@@ -49,6 +55,9 @@
    cursor: pointer;
     color: rgb(87, 111, 87);
 }
+/* .singleBlogSocialIcon p{
+    font-size: 60px;
+} */
 
 .single-all-posts-left ul {
     list-style: none;
@@ -305,6 +314,11 @@
     display: flex;
     align-items: center;
     column-gap: 8px;
+    
+    
+}
+.profile-top1 img{
+    /* margin: 0px 10px; */
 }
 
 .profileTop {
@@ -312,6 +326,7 @@
     align-items: center;
     row-gap: 8px;
     flex-direction: column;
+    margin-right: -60px;
 }
 
 .profileTop h3 {
@@ -328,7 +343,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-bottom: 10px;
 
 }
 
@@ -429,6 +443,7 @@
         /* width: 100%; */
         /* background-color: #07539b; */
     }
+   
 
 }
 

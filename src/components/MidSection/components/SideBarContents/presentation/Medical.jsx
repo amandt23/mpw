@@ -1,12 +1,24 @@
 import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
 import pdf from '../../../../../pdf/presentation/Medical Presentation.pdf'
+import { Worker } from '@react-pdf-viewer/core';
+// Import the main component
+import { Viewer } from '@react-pdf-viewer/core';
 
+// Import the styles
+import '@react-pdf-viewer/core/lib/styles/index.css';
+
+// Your render function
+<Viewer fileUrl="/path/to/document.pdf" />;
 
 const Medical = () => {
   return (
     <div className="sidbarContents">
             <div className="Sidecard">
+            <div className="HeadContents date">
+                        <h2>Date: </h2>
+                        <p>July 20, 2023</p>
+                    </div>
                 <h1>Medical Presentation</h1>
                 <div className="Sidetopper">
                     <div className="cardHeader">
@@ -24,10 +36,7 @@ const Medical = () => {
                         </div>
 
                     </div>
-                    <div className="HeadContents date">
-                        <h2>Date: </h2>
-                        <p>July 20, 2023</p>
-                    </div>
+                   
                     <div className="HeadContents desc">
                         <h2>Short Description: </h2>
                         <p>An in-depth presentation on the U.S. prescription drug system, examining high costs and potential reform strategies.</p>
@@ -53,7 +62,7 @@ const Medical = () => {
                             <h2>Citation: </h2>
                             <p>APA</p>
                         </div>
-                        <div className="HeadContents footer">
+                        <div className="HeadContents ">
                             <h2>Type: </h2>
                             <p>PowerPoint Presentation</p>
                         </div>
@@ -72,7 +81,16 @@ const Medical = () => {
             </div>
             <div class="vertical-line"></div>
             <div className="pdf-container">
-                <embed className="pdf" src={pdf} type="application/pdf" />
+                {/* <embed className="pdf" src={pdf} type="application/pdf" /> */}
+                <Worker className="pdf" workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+                    <div
+                        style={{
+                            height: '700px',
+                        }}
+                    >
+                        <Viewer fileUrl={pdf} />
+                    </div>
+                </Worker>
             </div>
         </div>
   )

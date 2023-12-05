@@ -233,7 +233,7 @@
   line-height: normal;
   padding-bottom: 24px;
   max-width: 1480px;
-  animation: moveRightLeft 2s linear infinite;
+  /* animation: moveRightLeft 2s linear infinite; */
 
 
 }
@@ -248,14 +248,14 @@
   max-width: 1480px;
 
 }
-@keyframes moveRightLeft {
+/* @keyframes moveRightLeft {
   0%, 100% {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(100px); /* Adjust the distance you want to move */
+    transform: translateX(100px);
   }
-}
+} */
 
 
 

@@ -9,6 +9,10 @@ import ShortStory from '../SideBarContents/creative/ShortStory';
 import Biological from '../SideBarContents/presentation/Biological';
 import PresentationCaseStudy from '../SideBarContents/presentation/PresentationCaseStudy';
 import Medical from '../SideBarContents/presentation/Medical';
+import Pyschological from '../SideBarContents/presentation/Pyschological';
+import Religion from '../SideBarContents/presentation/Religion';
+import ResearchPaper from '../SideBarContents/presentation/Religion';
+import SociologyPresentation from '../SideBarContents/presentation/SociologyPresentation';
 
 const Representation = () => {
   const [activeSidebar, setSidebar] = useState('Admission Essay');
@@ -30,18 +34,20 @@ const Representation = () => {
           <li onClick={() => handleClick('Admission Essay')}>Biology Presentation</li>
           <li onClick={() => handleClick('Annotated Bibliography ')}>Case Study </li>
           <li onClick={() => handleClick('Case Study')}>Medical Presentation</li>
-          {/* <li onClick={() => handleClick('Critical Review')}>Reflective Writing</li> */}
-          {/* <li onClick={() => handleClick('Literature Review')}>Short Story</li> */}
-          {/* <li onClick={() => handleClick('Term Paper')}>Term Paper</li> */}
+          <li onClick={() => handleClick('Critical Review')}>Pyschological Presentation</li>
+          <li onClick={() => handleClick('Literature Review')}>Religion Presentaion</li>
+          <li onClick={() => handleClick('Term Paper')}>Research Paper Presentation</li>
+          <li onClick={() => handleClick('Sociology')}>Sociology Presentation</li>
         </ul>
       </div>
       <div className="MidsideContents">
         {activeSidebar === 'Admission Essay' && <Biological />}
         {activeSidebar === 'Annotated Bibliography ' && <PresentationCaseStudy />}
         {activeSidebar === 'Case Study' && <Medical />}
-        {/* {activeSidebar === 'Critical Review' && <Reflective />} */}
-        {/* {activeSidebar === 'Literature Review' && <ShortStory />} */}
-        {/* {activeSidebar === 'Term Paper' && <TermPaper />} */}
+        {activeSidebar === 'Critical Review' && <Pyschological />}
+        {activeSidebar === 'Literature Review' && <Religion />}
+        {activeSidebar === 'Term Paper' && <ResearchPaper  />}
+        {activeSidebar === 'Sociology' && <SociologyPresentation  />}
 
       </div>
     </div>

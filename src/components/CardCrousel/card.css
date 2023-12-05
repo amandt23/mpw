@@ -14,7 +14,9 @@
     width: 301px;
     /* height: 383px; */
 }
-
+.Card-star-Icon{
+    color: green;
+}
 
 .top {
     display: flex;
@@ -35,7 +37,7 @@
 
 .right h2 {
 
-    font-size: 20.943px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;

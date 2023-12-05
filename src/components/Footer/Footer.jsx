@@ -42,11 +42,18 @@ const Footer = () => {
                     <div className="Btns">
                         <label htmlFor="">Email Address *</label>
                         <input placeholder='Enter you Email Address' type="text" />
+
                         <button className='subBtn'>SUBSCRIBE</button>
                         <div className="footer-social-icons">
-                            <FaFacebook className='footer-social-icon' />
-                            <RiInstagramFill className='footer-social-icon' />
-                            <TbBrandTiktokFilled className='footer-social-icon' />
+                            <a href="https://www.instagram.com/myperfectwriting/">
+                                <RiInstagramFill className='footer-social-icon' />
+                            </a>
+                            <a href="https://www.facebook.com/MyPerfectWritingUK">
+                                <FaFacebook className='footer-social-icon' />
+                            </a>
+                            <a href="https://www.tiktok.com/@myperfectwriting.co.uk">
+                                <TbBrandTiktokFilled className='footer-social-icon' />
+                            </a>
 
                         </div>
                     </div>
@@ -78,7 +85,7 @@ const Footer = () => {
                         </div>
                         <div className="rDropdown">
                             <div className="rdropdown2">
-                                <button onClick={toggleDropdown}>
+                                <button disabled onClick={toggleDropdown}>
                                     {selectedOption ? selectedOption : 'Homework Services'}
                                     <IoIosArrowDropdownCircle style={{ color: '#01593A' }} />
                                 </button>
@@ -91,7 +98,7 @@ const Footer = () => {
                                 )}
                             </div>
                             <div className="rdropdown2">
-                                <button onClick={toggleDropdown}>
+                                <button disabled onClick={toggleDropdown}>
                                     {selectedOption ? selectedOption : 'Homework Services'}
                                     <IoIosArrowDropdownCircle style={{ color: '#01593A' }} />
 

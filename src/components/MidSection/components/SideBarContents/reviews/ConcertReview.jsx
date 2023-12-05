@@ -1,7 +1,6 @@
 import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
-import pdf from '../../../../pdf/academic/Term Paper.pdf'
-
+import pdf from '../../../../../pdf/reviews/Concert Review.pdf'
 import { Worker } from '@react-pdf-viewer/core';
 // Import the main component
 import { Viewer } from '@react-pdf-viewer/core';
@@ -12,36 +11,35 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 // Your render function
 <Viewer fileUrl="/path/to/document.pdf" />;
 
-
-const TermPaper = () => {
+const ConcertReview = () => {
     return (
         <div className="sidbarContents">
             <div className="Sidecard">
                 <div className="HeadContents date">
                     <h2>Date: </h2>
-                    <p>August 21, 2023</p>
+                    <p>October 12, 2023</p>
                 </div>
-                <h1>Term Paper</h1>
+                <h1>Concert Review</h1>
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
                             <h2>Subjec: </h2>
-                            <p>Education</p>
+                            <p>Music and Performance Arts</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Academic Level: </h2>
-                            <p>Postgraduate Research</p>
+                            <p>General Interest/University</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Word Count: </h2>
-                            <p>4,500</p>
+                            <p>800</p>
                         </div>
 
                     </div>
 
                     <div className="HeadContents desc">
-                        <h2 >Short Description: </h2>
-                        <p>A detailed exploration of strategies to enhance pupil progress and teaching efficiency in UK high schools.</p>
+                        <h2>Short Description: </h2>
+                        <p>A captivating review of Spaghettieria's jazz concert, highlighting the dynamic performances and unique instrumental blends.</p>
                     </div>
 
                     <div className="cardFooter">
@@ -53,19 +51,20 @@ const TermPaper = () => {
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
+
                             </p>
                         </div>
                         <div className="HeadContents">
                             <h2>Author: </h2>
-                            <p>James Anderson</p>
+                            <p>Sophie Green</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Citation: </h2>
-                            <p>Harvard</p>
+                            <p>N/A</p>
                         </div>
                         <div className="HeadContents ">
                             <h2>Type: </h2>
-                            <p>Research Paper</p>
+                            <p>Concert Review</p>
                         </div>
 
                     </div>
@@ -73,12 +72,10 @@ const TermPaper = () => {
                 <div className="tags">
                     <h3>Tags:</h3>
                     <div className="btns">
-
-                        <button>#SchoolStrategy </button>
-                        <button>#PupilProgress </button>
-                        <button>#UKHighSchools </button>
-                        <button>#BritishGrammar </button>
-
+                        <button>#LiveJazz</button>
+                        <button>#MusicReview</button>
+                        <button>#Spaghettieria</button>
+                        <button>#JazzMusic</button>
                     </div>
                 </div>
             </div>
@@ -99,4 +96,4 @@ const TermPaper = () => {
     )
 }
 
-export default TermPaper
+export default ConcertReview

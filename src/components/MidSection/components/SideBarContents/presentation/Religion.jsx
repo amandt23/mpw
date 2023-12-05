@@ -1,7 +1,6 @@
 import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
-import pdf from '../../../../pdf/academic/Term Paper.pdf'
-
+import pdf from '../../../../../pdf/presentation/Religion Presentation.pdf'
 import { Worker } from '@react-pdf-viewer/core';
 // Import the main component
 import { Viewer } from '@react-pdf-viewer/core';
@@ -12,36 +11,35 @@ import '@react-pdf-viewer/core/lib/styles/index.css';
 // Your render function
 <Viewer fileUrl="/path/to/document.pdf" />;
 
-
-const TermPaper = () => {
+const Pyschological = () => {
     return (
         <div className="sidbarContents">
             <div className="Sidecard">
-                <div className="HeadContents date">
-                    <h2>Date: </h2>
-                    <p>August 21, 2023</p>
-                </div>
-                <h1>Term Paper</h1>
+            <div className="HeadContents date">
+                        <h2>Date: </h2>
+                        <p>July 26, 2023</p>
+                    </div>
+                <h1>Religion Presentation</h1>
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
                             <h2>Subjec: </h2>
-                            <p>Education</p>
+                            <p>Theology and Religious Studies</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Academic Level: </h2>
-                            <p>Postgraduate Research</p>
+                            <p>University/College</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Word Count: </h2>
-                            <p>4,500</p>
+                            <p>15  Slides</p>
                         </div>
 
                     </div>
-
+                  
                     <div className="HeadContents desc">
-                        <h2 >Short Description: </h2>
-                        <p>A detailed exploration of strategies to enhance pupil progress and teaching efficiency in UK high schools.</p>
+                        <h2>Short Description: </h2>
+                        <p>A detailed presentation on the theological concept of 'The Mystical Body of Christ', exploring its biblical roots and contemporary significance.</p>
                     </div>
 
                     <div className="cardFooter">
@@ -53,19 +51,20 @@ const TermPaper = () => {
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
+
                             </p>
                         </div>
                         <div className="HeadContents">
                             <h2>Author: </h2>
-                            <p>James Anderson</p>
+                            <p>William Foster</p>
                         </div>
                         <div className="HeadContents">
                             <h2>Citation: </h2>
-                            <p>Harvard</p>
+                            <p>APA</p>
                         </div>
                         <div className="HeadContents ">
                             <h2>Type: </h2>
-                            <p>Research Paper</p>
+                            <p>PowerPoint Presentation</p>
                         </div>
 
                     </div>
@@ -73,12 +72,10 @@ const TermPaper = () => {
                 <div className="tags">
                     <h3>Tags:</h3>
                     <div className="btns">
-
-                        <button>#SchoolStrategy </button>
-                        <button>#PupilProgress </button>
-                        <button>#UKHighSchools </button>
-                        <button>#BritishGrammar </button>
-
+                        <button>#CollegeLecture</button>
+                        <button>#BritishGrammar</button>
+                        <button>#Theology</button>
+                        <button>#ReligiousStudies </button>
                     </div>
                 </div>
             </div>
@@ -99,4 +96,4 @@ const TermPaper = () => {
     )
 }
 
-export default TermPaper
+export default Pyschological
