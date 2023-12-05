@@ -5,6 +5,9 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 // import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { GrUserExpert } from "react-icons/gr";
+import { color } from 'framer-motion';
+import { RiStarSFill } from "react-icons/ri";
 
 const Card = ({ lecturer }) => {
 
@@ -41,13 +44,11 @@ const Card = ({ lecturer }) => {
                         <p>{lecturer.university}</p>
                     </div>
                     <div className="right-stars">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="63" height="11" viewBox="0 0 63 11" fill="none">
-                            <path d="M2.09811 10.6436L3.00053 6.9453L0 4.45887L3.95243 4.13171L5.50036 0.643616L7.0483 4.13102L11 4.45818L8.0002 6.9446L8.90261 10.6429L5.50036 8.67995L2.09811 10.6436Z" fill="#00A22D" />
-                            <path d="M15.0981 10.6436L16.0005 6.9453L13 4.45887L16.9524 4.13171L18.5004 0.643616L20.0483 4.13102L24 4.45818L21.0002 6.9446L21.9026 10.6429L18.5004 8.67995L15.0981 10.6436Z" fill="#00A22D" />
-                            <path d="M28.0981 10.6436L29.0005 6.9453L26 4.45887L29.9524 4.13171L31.5004 0.643616L33.0483 4.13102L37 4.45818L34.0002 6.9446L34.9026 10.6429L31.5004 8.67995L28.0981 10.6436Z" fill="#00A22D" />
-                            <path d="M41.8611 9.62594L42.4863 7.06383L42.5604 6.75991L42.3196 6.56031L40.2629 4.85605L42.9937 4.63001L43.2892 4.60555L43.4095 4.33453L44.5004 1.87617L45.5913 4.33386L45.7116 4.60485L46.007 4.62931L48.7373 4.85535L46.6811 6.55965L46.4403 6.75926L46.5145 7.06313L47.1397 9.62548L44.7502 8.24687L44.5003 8.10267L44.2504 8.2469L41.8611 9.62594Z" fill="black" fill-opacity="0.01" stroke="black" />
-                            <path d="M54.8611 9.62594L55.4863 7.06383L55.5604 6.75991L55.3196 6.56031L53.2629 4.85605L55.9937 4.63001L56.2892 4.60555L56.4095 4.33453L57.5004 1.87617L58.5913 4.33386L58.7116 4.60485L59.007 4.62931L61.7373 4.85535L59.6811 6.55965L59.4403 6.75926L59.5145 7.06313L60.1397 9.62548L57.7502 8.24687L57.5003 8.10267L57.2504 8.2469L54.8611 9.62594Z" fill="black" fill-opacity="0.01" stroke="black" />
-                        </svg>
+                        <RiStarSFill className='Card-star-Icon' />
+                        <RiStarSFill className='Card-star-Icon' />
+                        <RiStarSFill className='Card-star-Icon' />
+                        <RiStarSFill className='Card-star-Icon' />
+                        <RiStarSFill className='Card-star-Icon' />
                         {/* <FontAwesomeIcon icon={faStar} /> */}
                         {/* <CiStar /> */}
                     </div>
@@ -82,6 +83,10 @@ const Card = ({ lecturer }) => {
                         </svg>
                         <p>{lecturer.university}</p>
                     </div>
+                    <div className="content">
+                        <GrUserExpert style={{ color: "green", fontSize: "15px" }} />
+                        <p>{lecturer.expertise}</p>
+                    </div>
                 </div>
                 <div className="orders">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
@@ -98,7 +103,7 @@ const Card = ({ lecturer }) => {
 
             <div className="bottom-section">
                 <div className="slider">
-                    <label>English -{lecturer.english}%</label>
+                    <label>{lecturer.subject1} -{lecturer.english}%</label>
                     <input
                         type="range"
                         min="0"
@@ -115,7 +120,7 @@ const Card = ({ lecturer }) => {
                     </style> */}
                 </div>
                 <div className="slider">
-                    <label>Poetry -{lecturer.poetry}%</label>
+                    <label>{lecturer.subject2} -{lecturer.poetry}%</label>
                     <input
                         type="range"
                         min="0"
@@ -127,7 +132,7 @@ const Card = ({ lecturer }) => {
 
                 </div>
                 <div className="slider">
-                    <label>Classics -{lecturer.classics}%</label>
+                    <label>{lecturer.subject3} -{lecturer.classics}%</label>
                     <input
                         type="range"
                         min="0"

@@ -5,8 +5,8 @@ const MyTeam = () => {
     return (
         <div className="myteam">
             <div className="topSection">
-                    <h3>Meet the Brains Behind the Brilliance!</h3>
-                    <p>Our squad at My Perfect Writing is a dazzling constellation of academic aficionados, dedicated to driving your success.</p>
+                    <h3>Meet Our Expert Writer</h3>
+                    <p>Empowering Your Academic Journey with Authority, Expertise, and Experience</p>
             </div>
             <div className="CrouselSection">
                 <CardCrousel />

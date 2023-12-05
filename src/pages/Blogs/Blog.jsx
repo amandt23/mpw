@@ -3,9 +3,11 @@ import './blog.css'
 import BlogCard from './BlogCard'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import CardSkeleton from '../../components/LoadingSkeleton/CardSkeleton'
 
 const Blog = () => {
   const [blogs, setBlogs] = useState([]);
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     // Function to fetch data from the API using Axios
@@ -13,6 +15,7 @@ const Blog = () => {
       try {
         const response = await axios.get('https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getAllBlogs');
         setBlogs(response.data); // Assuming data is an array of blogs
+        setLoading(false)
       } catch (error) {
         console.error('Error fetching blogs:', error);
       }
@@ -106,13 +109,31 @@ const Blog = () => {
             </div>
           </div> */}
 
-          <div className="all-blog-list">
-            {blogs.map((blog) => (
-              <BlogCard key={blog.id} blog={blog} />
+          {loading ?
+            (
+              <div className="card-loading-skeletons">
+                <CardSkeleton />
+                <CardSkeleton />
+                <CardSkeleton />
+                <CardSkeleton />
+                <CardSkeleton />
+                <CardSkeleton />
+                <CardSkeleton />
+                <CardSkeleton />
+              </div>
+            ) : (
+              <>
+                <div className="all-blog-list">
+                  {blogs.map((blog) => (
+                    <BlogCard key={blog.id} blog={blog} />
 
-            ))}
+                  ))}
 
-          </div>
+                </div>
+              </>
+            )
+
+          }
 
           {/* <div className="all-blog-top bottom-Big-card">
             <div className="big-blog-Img">

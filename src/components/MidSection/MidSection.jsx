@@ -7,8 +7,8 @@ import { faBars, faL } from '@fortawesome/free-solid-svg-icons';
 import Sidebar from './Sidebar/Sidebar';
 import SideBarContents from './components/SideBarContents/SidebarContents'
 import Reviews from './components/Reviews/Reviews';
-import Business from './components/Business/Business';
 import Representation from './components/Representation/Representation';
+import BusinessWriting from './components/BusinessWriting/BusinessWriting';
 
 
 const MidSection = () => {
@@ -39,7 +39,7 @@ const MidSection = () => {
                 return <Reviews />;
 
             case 'business':
-                return <Business />;
+                return <BusinessWriting />;
 
             case 'presentation':
                 return <Representation />;

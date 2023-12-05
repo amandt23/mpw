@@ -1,5 +1,6 @@
 import React from 'react'
 import './social.css'
+import { Link } from 'react-scroll'
 const Social = () => {
     return (
         <div className="social">
@@ -53,7 +54,9 @@ const Social = () => {
                         <p>Uncover a treasure trove of writing tips, tricks, and exclusive discounts. Join our vibrant community today and let's embark on a journey of words together.</p>
                     </div>
                     <div className="btn">
-                        <button>FOllow</button>
+                        <a href='https://www.instagram.com/myperfectwriting/'>
+                            <button>Follow</button>
+                        </a>
                     </div>
 
                 </div>
@@ -89,11 +92,13 @@ const Social = () => {
                         <p>Followers</p>
                     </div>
                     <div className="contents">
-                        <p>Uncover a treasure trove of writing tips, tricks, and exclusive discounts. Join our vibrant community today and let's embark on a journey of words together.</p>
+                        <p>Embark on a literary adventure with us! Uncover writing secrets, masterful tips, and enjoy exclusive discounts. Join our thriving community now and let the storytelling begin.</p>
 
                     </div>
                     <div className="btn">
-                        <button>FOllow</button>
+                        <a href='https://www.facebook.com/MyPerfectWritingUK'>
+                            <button>Follow</button>
+                        </a>
                     </div>
 
                 </div>
@@ -127,10 +132,12 @@ const Social = () => {
                         <p>Followers</p>
                     </div>
                     <div className="contents">
-                        <p>Uncover a treasure trove of writing tips, tricks, and exclusive discounts. Join our vibrant community today and let's embark on a journey of words together</p>
+                        <p>Dive into a world of words! Unlock writing hacks, creative tips, and exclusive deals. Join our TikTok tribe and let's turn every scroll into a storytelling journey.</p>
                     </div>
                     <div className="btn">
-                        <button>FOllow</button>
+                        <a href='https://www.tiktok.com/@myperfectwriting.co.uk'>
+                            <button>Follow</button>
+                        </a>
                     </div>
 
                 </div>

@@ -2,10 +2,24 @@ import React from 'react'
 import { RiStarSFill } from "react-icons/ri";
 import pdf from '../../../../pdf/academic/Literature Review.pdf'
 
+import { Worker } from '@react-pdf-viewer/core';
+// Import the main component
+import { Viewer } from '@react-pdf-viewer/core';
+
+// Import the styles
+import '@react-pdf-viewer/core/lib/styles/index.css';
+
+// Your render function
+<Viewer fileUrl="/path/to/document.pdf" />;
+
 const LiteratureReview = () => {
     return (
         <div className="sidbarContents">
             <div className="Sidecard">
+                <div className="HeadContents date">
+                    <h2>Date: </h2>
+                    <p>October 12, 2023</p>
+                </div>
                 <h1>Literature Review</h1>
                 <div className="Sidetopper">
                     <div className="cardHeader">
@@ -23,10 +37,7 @@ const LiteratureReview = () => {
                         </div>
 
                     </div>
-                    <div className="HeadContents date">
-                        <h2>Date: </h2>
-                        <p>October 12, 2023</p>
-                    </div>
+
                     <div className="HeadContents desc">
                         <h2 >Short Description: </h2>
                         <p>A comprehensive review of global studies on teen social media addiction, examining causes, effects, and potential interventions.</p>
@@ -52,7 +63,7 @@ const LiteratureReview = () => {
                             <h2>Citation: </h2>
                             <p>APA</p>
                         </div>
-                        <div className="HeadContents footer">
+                        <div className="HeadContents">
                             <h2>Type: </h2>
                             <p>Literature Review</p>
                         </div>
@@ -63,21 +74,26 @@ const LiteratureReview = () => {
                     <h3>Tags:</h3>
                     <div className="btns">
 
-                        <button>#SocialMediaAddiction </button>
-                        <button>#Teenagers </button>
-                        <button>#Psychology </button>
-                        <button>#LiteratureReview </button>
-                        <button>#GlobalStudies </button>
-                        <button>#MastersLevel </button>
+
                         <button>#MentalHealth </button>
+                        <button>#LiteratureReview </button>
                         <button>#AcademicAnalysis </button>
-                        <button>#BritishGrammar</button>
+                        <button>#MastersLexxxvel </button>
                     </div>
                 </div>
             </div>
             <div class="vertical-line"></div>
             <div className="pdf-container">
-                <embed className="pdf" src={pdf} type="application/pdf" />
+                {/* <embed className="pdf" src={pdf} type="application/pdf" /> */}
+                <Worker className="pdf" workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+                    <div
+                        style={{
+                            height: '700px',
+                        }}
+                    >
+                        <Viewer fileUrl={pdf} />
+                    </div>
+                </Worker>
             </div>
         </div>
     )

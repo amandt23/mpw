@@ -21,7 +21,9 @@
 .Single-blogSidebar {
     display: flex;
     column-gap: 12px;
-    margin-top: 598px;
+    margin-top: 606px;
+    position: sticky;
+    top: 150px;
     /* max-width: 300px; */
 
 }
@@ -34,6 +36,28 @@
     line-height: normal;
     margin-bottom: 23px;
 }
+
+.singleBlogSocialIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.shareArticel{
+    display: flex;
+    column-gap: 20px;
+}
+.singleBlogSocialIcon .BlogSingleIcon{
+    font-size: 33px ;
+    color: rgb(30, 63, 30);
+}
+.singleBlogSocialIcon .BlogSingleIcon:hover{
+   cursor: pointer;
+    color: rgb(87, 111, 87);
+}
+/* .singleBlogSocialIcon p{
+    font-size: 60px;
+} */
 
 .single-all-posts-left ul {
     list-style: none;
@@ -290,13 +314,17 @@
     display: flex;
     align-items: center;
     column-gap: 8px;
+    
+    
 }
+
 
 .profileTop {
     display: flex;
     align-items: center;
     row-gap: 8px;
     flex-direction: column;
+    margin-right: -60px;
 }
 
 .profileTop h3 {
@@ -313,13 +341,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-bottom: 10px;
 
 }
 
-.profile-refrence {
-    /* display: flex; */
-}
+
 
 .profileDesc {
     max-width: 793px;
@@ -414,6 +439,7 @@
         /* width: 100%; */
         /* background-color: #07539b; */
     }
+   
 
 }
 

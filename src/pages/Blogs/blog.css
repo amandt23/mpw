@@ -90,15 +90,16 @@
     margin-top: 74px;
     display: flex;
     column-gap: 67px;
+    align-items: start;
 }
 
 .blogSidebar {
     display: flex;
     column-gap: 12px;
-    /* position: absolute; */
-    /* top: 600px; */
     position: sticky;
-    top: 400px;
+    top: 100px;
+    
+   
 
 }
 
@@ -354,14 +355,25 @@
     }
 }
 
+/* card loaidn skeleton  */
+.card-loading-skeletons{
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 750px) {
     .blogingSection {
         flex-direction: column;
+        align-items: center;
+
     }
+  
 
     .blogSidebar {
         justify-content: center;
         margin-bottom: 70px;
+        position: static;        
     }
 
     .all-posts-left {

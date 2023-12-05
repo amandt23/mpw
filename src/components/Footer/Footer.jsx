@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import './footer.css';
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
@@ -20,23 +20,40 @@ const Footer = () => {
         setIsOpen(!isOpen);
     };
 
+    // scrolling to top 
+    const topRef = useRef(null);
+
+    const scrollToTop = () => {
+        if (topRef.current) {
+            topRef.current.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
 
 
 
     return (
         <>
-            <div className="footer">
+            <div ref={topRef} className="footer">
                 <div className="fLeft">
                     <h3>DONT MISS OUT</h3>
                     <p>Sign up for the latest beauty news, product samples and coupons</p>
                     <div className="Btns">
                         <label htmlFor="">Email Address *</label>
                         <input placeholder='Enter you Email Address' type="text" />
+
                         <button className='subBtn'>SUBSCRIBE</button>
                         <div className="footer-social-icons">
-                            <FaFacebook className='footer-social-icon' />
-                            <RiInstagramFill className='footer-social-icon' />
-                            <TbBrandTiktokFilled className='footer-social-icon' />
+                            <a href="https://www.instagram.com/myperfectwriting/">
+                                <RiInstagramFill className='footer-social-icon' />
+                            </a>
+                            <a href="https://www.facebook.com/MyPerfectWritingUK">
+                                <FaFacebook className='footer-social-icon' />
+                            </a>
+                            <a href="https://www.tiktok.com/@myperfectwriting.co.uk">
+                                <TbBrandTiktokFilled className='footer-social-icon' />
+                            </a>
 
                         </div>
                     </div>
@@ -68,7 +85,7 @@ const Footer = () => {
                         </div>
                         <div className="rDropdown">
                             <div className="rdropdown2">
-                                <button onClick={toggleDropdown}>
+                                <button disabled onClick={toggleDropdown}>
                                     {selectedOption ? selectedOption : 'Homework Services'}
                                     <IoIosArrowDropdownCircle style={{ color: '#01593A' }} />
                                 </button>
@@ -81,7 +98,7 @@ const Footer = () => {
                                 )}
                             </div>
                             <div className="rdropdown2">
-                                <button onClick={toggleDropdown}>
+                                <button disabled onClick={toggleDropdown}>
                                     {selectedOption ? selectedOption : 'Homework Services'}
                                     <IoIosArrowDropdownCircle style={{ color: '#01593A' }} />
 
@@ -148,7 +165,7 @@ const Footer = () => {
             <div className="footer2">
                 <ul>
                     <h3>Others: </h3>
-                    <li><Link to="blog">Blog</Link></li>
+                    <li><Link to="blog" onClick={scrollToTop}>Blog</Link></li>
                     <li><Link to="contact-us">Contact Us</Link></li>
                     <li><Link to="about-our-service">About Us</Link></li>
                     <li><Link to="faqs">FAQs</Link></li>
