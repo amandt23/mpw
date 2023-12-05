@@ -50,60 +50,65 @@ const Navbar = () => {
           <div className="dropdown-content dropdown-content2">
             <div className="service">
               <div className="subService">
-                <a href="#service1">Professional Sciences</a>
+                <a href="#service1">Essay Writing</a>
                 <div className="subService-services">
-                  <a href="#">Nursing Assignment Help</a>
-                  <a href="#">Criminal Justice Assignment Help</a>
-                  <a href="#">Proofreading Service</a>
-                  <a href="#">Nutrition Assignment Help</a>
+                  <a href="#">Annotated Bibliography Service</a>
+                  <a href="#">Dissertation Writing Service</a>
+                  <a href="#">Literature Review Service</a>
+                  <Link to="/discussion-post-service">Discussion Post Service</Link>
+                  <a href="#">Academic Essays Service</a>
+                  <a href="#">Peer Responses Service</a>
+                  <a href="#">Research Papers Service</a>
+                  <a href="#">Thesis Writing Service</a>
                 </div>
               </div>
             </div>
-            <div className="service service2 ">
-              <a href="#service1">IT, Web & Programming</a>
-              <div className=" SubService2">
-                <a href="#">Information Technology Assignment Help</a>
-                <a href="#">C++ Programming Assignment Help</a>
-                <a href="#">Statistics Homework Help</a>
-                <a href="#">JAVA Assignment Help</a>
+            <div className="service service5">
+              <a href="#service1">Applied & Professional Sciences</a>
+              <div className=" SubService5">
+                <Link to="#">Nursing Assignment Help</Link>
+                <a href="#">Criminal Justice Assignment Help</a>
+                <a href="#">Proofreading Service</a>
+                <a href="#">Nutrition Assignment Help</a>
               </div>
             </div>
             <div className="service service3">
-              <a href="#service1">Essay Writing Service</a>
-              <div className=" SubService3">
-                <a href="#">Annotated Bibliography Service</a>
-                <a href="#">Dissertation Writing Service</a>
-                <a href="#">Literature Review Service</a>
-                <a href="#">Discussion Posts Service</a>
-                <a href="#">Academi c Essays Service</a>
-                <a href="#">Research Papers Service</a>
-                <a href="#">Thesis Writing Service</a>
-                <a href="#">Peer Responses Service</a>
-              </div>
-            </div>
-            <div className="service service4">
               <a href="#service1">Custom Essay Writing</a>
-              <div className=" SubService4">
+              <div className=" SubService3">
                 <a href="#">Dissertation Proofreading Service</a>
-                <a href="#">Editing & Formatting Service </a>
+                <a href="#">CV Writing Service</a>
                 <a href="#">Resume Writing Service</a>
                 <a href="#">Proofreading Service</a>
-                <a href="#">CV Writing Service</a>
+                <a href="#">Editing & Formatting Service</a>
               </div>
             </div>
-            <div className="service service5">
-              <a href="#service1">Business Studies</a>
-              <div className=" SubService5">
-                <a href="#">Business Management Assignment Help</a>
-                <a href="#">Microeconomics Assignment Help</a>
-                <a href="#">Macroeconomics Assignment Help</a>
-                <a href="#">Accounting Assignment Help</a>
-                <a href="#">Finance Assignment Help</a>
-                <a href="#">MBA Assignment Help</a>
 
+            <div className="service service2 ">
+              <a href="#service1">Humanities</a>
+              <div className=" SubService2">
+                <a href="#">English Assignment Help</a>
+                <a href="#">Philosophy Assignment Help</a>
+                <a href="#">Literature Assignment Help</a>
+                <a href="#">History Assignment Help</a>
+                <a href="#">Geography Assignment Help</a>
               </div>
             </div>
-            <div className="service service6">
+
+            <div className="service service4">
+              <a href="#service1">Social Sciences</a>
+              <div className=" SubService4">
+                <a href="#">Communication Assignment Help</a>
+                <a href="#">Public Relations Assignment Help</a>
+                <a href="#">Sociology Assignment Help</a>
+                <a href="#">Social Work Assignment Help</a>
+                <a href="#">Religion Assignment Help</a>
+                <a href="#">Psychology Assignment Help</a>
+                <a href="#">Political Assignment Help</a>
+                <a href="#">HRM Assignment Help</a>
+              </div>
+            </div>
+
+            {/* <div className="service service6">
               <a href="#service1">Formal Science</a>
               <div className=" SubService6">
                 <a href="#">Do My Statistics Homework Help</a>
@@ -145,7 +150,7 @@ const Navbar = () => {
                 <a href="#">History Assignment Help</a>
                 <a href="#">Geography Assignment Help</a>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

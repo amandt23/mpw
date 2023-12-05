@@ -15,6 +15,7 @@ import Privacy from './pages/PrivacyPolicy/Privacy';
 import ContactUs from './components/ContactUs/ContactUs';
 import Faqs from './pages/FAQs/Faqs';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
+import NursingAssn from './pages/Services/AppliedScience/NursingAssn/NursingAssn';
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path='*' element={<PageNotFound />} />
+
+          {/* Services pages  */}
+          <Route path='/discussion-post-service' element={<NursingAssn />} />
+
           
         </Routes>
         <Footer />
