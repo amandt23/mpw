@@ -52,14 +52,14 @@ const Navbar = () => {
               <div className="subService">
                 <a href="#service1">Essay Writing</a>
                 <div className="subService-services">
-                  <a href="#">Annotated Bibliography Service</a>
-                  <a href="#">Dissertation Writing Service</a>
-                  <a href="#">Literature Review Service</a>
+                  <Link to="/annotated-bibliography-service">Annotated Bibliography Service</Link>
+                  <Link to="/dissertation-writing-service">Dissertation Writing Service</Link>
+                  <Link to="/literature-review-service">Literature Review Service</Link>
                   <Link to="/discussion-post-service">Discussion Post Service</Link>
-                  <a href="#">Academic Essays Service</a>
-                  <a href="#">Peer Responses Service</a>
-                  <a href="#">Research Papers Service</a>
-                  <a href="#">Thesis Writing Service</a>
+                  <Link to="/academic-essays-service">Academic Essays Service</Link>
+                  <Link to="/peer-responses-service">Peer Responses Service</Link>
+                  <Link to="/research-papers-service">Research Papers Service</Link>
+                  <Link to="/thesis-writing-service">Thesis Writing Service</Link>
                 </div>
               </div>
             </div>
@@ -75,22 +75,22 @@ const Navbar = () => {
             <div className="service service3">
               <a href="#service1">Custom Essay Writing</a>
               <div className=" SubService3">
-                <a href="#">Dissertation Proofreading Service</a>
-                <a href="#">CV Writing Service</a>
-                <a href="#">Resume Writing Service</a>
-                <a href="#">Proofreading Service</a>
-                <a href="#">Editing & Formatting Service</a>
+                <Link to="/dissertion-assignment-help">Dissertation Proofreading Service</Link>
+                <Link to="/cv-writing-service">CV Writing Service</Link>
+                <Link to="/resume-writing-service">Resume Writing Service</Link>
+                <Link to="/proofreading-service">Proofreading Service</Link>
+                <Link to="/editing-formatting-service">Editing & Formatting Service</Link>
               </div>
             </div>
 
             <div className="service service2 ">
               <a href="#service1">Humanities</a>
               <div className=" SubService2">
-                <a href="#">English Assignment Help</a>
-                <a href="#">Philosophy Assignment Help</a>
-                <a href="#">Literature Assignment Help</a>
-                <a href="#">History Assignment Help</a>
-                <a href="#">Geography Assignment Help</a>
+                <Link to="/english-assignment-help">English Assignment Help</Link>
+                <Link to="/philosphy-assignment-help">Philosophy Assignment Help</Link>
+                <Link to="/literature-assignment-help">Literature Assignment Help</Link>
+                <Link to="/history-assignment-help">History Assignment Help</Link>
+                <Link to="/geography-assignment-help">Geography Assignment Help</Link>
               </div>
             </div>
 
