@@ -372,7 +372,7 @@ const AnnotatedBibliography = () => {
                 </div>
 
                 <div class="headerLeft ServiceHeaderLeft">
-                    <img src="./images/headerImg.png" alt="" />
+                    <img src="./images/headerImg.png" alt="annotated-image" />
                 </div>
             </div>
 
@@ -655,7 +655,7 @@ const AnnotatedBibliography = () => {
                                 </div>
 
                                 <div className="sect2">
-                                    <img src={`./images/Animal avatars/${item.image}`} alt="" />
+                                    <img src={`./images/Animal avatars/${item.image}`} alt="annotated-image" />
                                     <h3>{item.CustomerID}</h3>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="58" height="10" viewBox="0 0 58 10" fill="none">
                                         <path d="M2.45668 9.89245L3.26518 6.579L0.576904 4.35133L4.11803 4.05821L5.50487 0.933105L6.89172 4.05759L10.4322 4.3507L7.74456 6.57838L8.55306 9.89183L5.50487 8.13314L2.45668 9.89245Z" fill="#00A22D" />

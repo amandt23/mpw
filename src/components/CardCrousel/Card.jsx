@@ -1,36 +1,11 @@
 import React from 'react'
 import './card.css'
-import { CiStar } from "react-icons/ci";
-import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-// import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { GrUserExpert } from "react-icons/gr";
-import { color } from 'framer-motion';
 import { RiStarSFill } from "react-icons/ri";
 
 const Card = ({ lecturer }) => {
 
-    // let gradientColor;
-    // let thumbColor;
-
-    // if (lecturer.english > 80) {
-    //     gradientColor = '#12D83F';
-    //     thumbColor = '#AAFEBB';
-    // } else if (lecturer.english <= 80 && lecturer.english >= 50) {
-    //     gradientColor = '#EBC807';
-    //     thumbColor = '#EFDD7D';
-
-    // } else {
-    //     gradientColor = '#F50E0A';
-    //     thumbColor = '#FF9290'
-    // }
-    // const gradientStyle = {
-    //     background: `linear-gradient(90deg, ${gradientColor} ${lecturer.english}%, #e0e0e0 0%)`,
-    // };
-    // const thumbStyle = {
-    //     background: thumbColor,
-    // };
+  
 
     return (
         <div className='card'>
@@ -110,14 +85,9 @@ const Card = ({ lecturer }) => {
                         max="100"
                         value={lecturer.english}
                         style={{ background: `linear-gradient(90deg, #12D83F ${lecturer.english}% ,#e0e0e0 0%)` }}
-                        // style={gradientStyle}
-                        // style={{background: `linear-gradient(90deg, ${gradientColor} ${lecturer.english}%, #e0e0e0 0%)`,}}
                         className="range range1"
                     />
-                    {/* <style>
-                        {`.range1::-webkit-slider-thumb {
-                      background: ${thumbStyle.background};}`}
-                    </style> */}
+                   
                 </div>
                 <div className="slider">
                     <label>{lecturer.subject2} -{lecturer.poetry}%</label>

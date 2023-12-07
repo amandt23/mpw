@@ -15,7 +15,7 @@ const AboutUs = () => {
                                 <span>Welcome to My Perfect Writing, the cradle of academic excellence and your ultimate pit stop for a roller coaster ride through the world of learning and creativity! We’re not just an Essay Writing Service in UK; we're your academic allies, transforming your caffeinated cram sessions into a carnival of insights, ideas, and top-notch grades.</span>
                             </div>
                             <div class="welcomrightImage">
-                                <img src="./images/aboutVector1.jpg" />
+                                <img src="./images/aboutVector1.jpg" alt='about-us-image'/>
                             </div>
                         </div>
 

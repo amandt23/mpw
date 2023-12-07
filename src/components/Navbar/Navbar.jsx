@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="navLeft">
 
         <Link to="/">
-          <img src={logo} alt="" />
+          <img width="309px" height="102px" src={logo} alt="MyPerfectWriting" />
         </Link>
       </div>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
         <RxCross2 className='crossIcon' onClick={toggleNav} />
         <a onClick={scrollToPricing} className='aLink' >Pricing</a>
         <div className="dropdown dropdown1">
-          <a href="#contact" >Company</a>
+          <a href="#" >Company</a>
           <IoMdArrowDropdown className='navArroIcon' />
           <div className="dropdown-content">
             <Link to="about-our-service">About Us</Link>
@@ -154,7 +154,7 @@ const Navbar = () => {
 
           </div>
         </div>
-        <Link className='aLink' to="blog">Blog</Link>
+        <Link className='aLink' to="/blog">Blog</Link>
       </div>
 
       <div className="navRight">

@@ -183,8 +183,6 @@ hr {
 
 .myteam {
     background: #F2F2F2;
-    /* padding-top: 84px;; */
-    /* padding: 160px; */
     padding-bottom: 160px;
 }
 
@@ -197,7 +195,6 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: red; */
 }
 
 .topSection h3 {
@@ -208,7 +205,7 @@ hr {
     line-height: normal;
 }
 .topSection p{
-    color: #68797E;
+    color: black;
 text-align: center;
 font-size: 22.295px;
 font-style: normal;
@@ -217,9 +214,3 @@ line-height: normal;
 max-width: 770.237px;
 }
 
-/* .topcontents{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */

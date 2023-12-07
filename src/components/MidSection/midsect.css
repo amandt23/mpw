@@ -48,7 +48,8 @@
 }
 
 .MidtopContents p {
-    color: #21383E;
+    /* color: #21383E; */
+    color: black;
     text-align: center;
     font-family: Inter;
     font-size: 22px;

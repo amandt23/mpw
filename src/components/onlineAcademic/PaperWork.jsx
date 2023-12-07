@@ -23,7 +23,7 @@ const PaperWork = () => {
                     <div className="ulDiv">
                         <li>Report </li>
                         <li>Reflective Writing</li>
-                        <li>Presentation or Speech</li>
+                        <li>Presentation</li>
                         <li>Editing and proofreading</li>
                         <li>Book Reviews</li>
                     </div>

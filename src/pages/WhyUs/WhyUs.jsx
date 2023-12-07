@@ -148,8 +148,8 @@ const WhyUs = () => {
                     </div>
                 </div>
                 <div className="whyUsLeftImages">
-                    <img src="./images/aboutUs1.jpg" alt="" />
-                    <img src="./images/aboutUs2.jpg" alt="" />
+                    <img src="./images/aboutUs1.jpg" alt="why-us-image" />
+                    <img src="./images/aboutUs2.jpg" alt="why-us-image" />
                 </div>
 
             </div>

@@ -1,19 +1,8 @@
 .sidebar {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* border: 1.316px solid #000; */
+   
     background: #484949;
     box-shadow: 0px 0px 7.89583px 0px #000;
-    /* flex-direction: column; */
-    /* max-width: 326px; */
-    width: fit-content;
-}
-
-.sidebar ul {
-    display: flex;
-    flex-direction: column;
-    /* background-color: aqua; */
+ 
 }
 
 .sidebar ul li {

@@ -1,7 +1,6 @@
 import { React, useState } from 'react'
 import './Contactus.css'
 import axios from "axios";
-import Navbar from '../../components/Navbar/Navbar';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -34,13 +33,6 @@ const ContactUs = () => {
                 position: toast.POSITION.TOP_CENTER,
             });
 
-            // console.log(response.data);
-            // if (response.data[0] === '200') {
-            //     // Registration was successful
-
-            // } else if (response.data[0] === '400') {
-
-            // }
         } catch (error) {
             console.error("Error submitting the form:", error);
         }
