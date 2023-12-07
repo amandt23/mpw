@@ -15,7 +15,26 @@ import Privacy from './pages/PrivacyPolicy/Privacy';
 import ContactUs from './components/ContactUs/ContactUs';
 import Faqs from './pages/FAQs/Faqs';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
+// services pages
 import NursingAssn from './pages/Services/AppliedScience/NursingAssn/NursingAssn';
+import PeerResponse from './pages/Services/PeerResponse';
+import AnnotatedBibliography from './pages/Services/AnnotatedBibliography ';
+import Academicessays from './pages/Services/Academicessays';
+import LiteratureReview from './pages/Services/LiteratureReview ';
+import ResearchPapers from './pages/Services/ResearchPapers';
+import ThesisWriting from './pages/Services/ThesisWriting';
+import DissertationWriting from './pages/Services/DissertationWriting ';
+import CVWriting from './pages/Services/CVWriting';
+import ResumeWriting from './pages/Services/ResumeWriting';
+import ProofreadingService from './pages/Services/ProofreadingService';
+import EditingFormatting from './pages/Services/EditingFormatting ';
+
+import EnglishAssignment from './pages/Services/EnglishAssignment';
+import PhilosphyAssignment from './pages/Services/PhilosphyAssignment';
+import LiteratureAssignment from './pages/Services/LiteratureAssignment';
+import HistoryAssignment from './pages/Services/HistoryAssignment';
+import GeographyAssignment from './pages/Services/GeographyAssignment';
+import DissertionAssignment from './pages/Services/DissertionAssignment';
 
 function App() {
   return (
@@ -40,6 +59,25 @@ function App() {
 
           {/* Services pages  */}
           <Route path='/discussion-post-service' element={<NursingAssn />} />
+          <Route path='/peer-responses-service' element={<PeerResponse />} />
+          <Route path='/annotated-bibliography-service' element={<AnnotatedBibliography />} />
+          <Route path='/academic-essays-service' element={<Academicessays />} />
+          <Route path='/literature-review-service' element={<LiteratureReview />} />
+          <Route path='/research-papers-service' element={<ResearchPapers />} />
+          <Route path='/thesis-writing-service' element={<ThesisWriting />} />
+          <Route path='/dissertation-writing-service' element={<DissertationWriting />} />
+          <Route path='/cv-writing-service' element={<CVWriting />} />
+          <Route path='/resume-writing-service' element={<ResumeWriting />} />
+          <Route path='/proofreading-service' element={<ProofreadingService />} />
+          <Route path='/editing-formatting-service' element={<EditingFormatting />} />
+
+
+          <Route path='/english-assignment-help' element={<EnglishAssignment />} />
+          <Route path='/philosphy-assignment-help' element={<PhilosphyAssignment />} />
+          <Route path='/literature-assignment-help' element={<LiteratureAssignment />} />
+          <Route path='/history-assignment-help' element={<HistoryAssignment />} />
+          <Route path='/geography-assignment-help' element={<GeographyAssignment/>} />
+          <Route path='/dissertion-assignment-help' element={<DissertionAssignment/>} />
 
           
         </Routes>
