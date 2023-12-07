@@ -22,7 +22,8 @@
 }
 
 .onlineTop p {
-    color: #68797E;
+    /* color: #68797E; */
+    color: black;
     text-align: center;
     font-size: 22.295px;
     font-style: normal;

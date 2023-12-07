@@ -115,7 +115,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="BottomLogo">
-                        <img src="images/logo.png" alt="" />
+                        <img  width="309px" height="102px" src="images/logo.png" alt="MyPerfectWriting" />
                         <hr />
                     </div>
 

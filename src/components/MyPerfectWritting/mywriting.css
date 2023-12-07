@@ -70,7 +70,8 @@
 }
 
 .wTop p {
-  color: #21383E;
+  /* color: #21383E; */
+  color: black;
   text-align: center;
   font-size: 22px;
   font-style: normal;

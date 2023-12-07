@@ -121,7 +121,7 @@ const SingleBlog = () => {
                             <h3>{singleBlog[0].blogtitle}</h3>
                             {/* <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to.</p> */}
                             <h2>“BUSINESS” </h2>
-                            <img className='singleBlogImg' src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].image}`} alt="" />
+                            <img className='singleBlogImg' src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].image}`} alt="blog-image" />
                         </div>
 
                         <div className="singleBlogBottom">
@@ -169,7 +169,7 @@ const SingleBlog = () => {
                                 <div className="profileTop">
                                     <div className="profile-top1">
                                         <h3>Written By</h3>
-                                        <img src={blog1Profile} alt="" />
+                                        <img src={blog1Profile} alt="blog-image" />
                                         <h2>{singleBlog[0].author}</h2>
                                     </div>
                                     {/* <h2>Founder and CEO</h2> */}
