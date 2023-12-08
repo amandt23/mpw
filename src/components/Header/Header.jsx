@@ -25,8 +25,8 @@ const Header = () => {
         <div class="header">
             <div className="upper">
                 <div class="headerTop">
-                    <h3>Welcome to Our Literature Review Services! </h3>
-                    <p>Embark on a journey to academic excellence with our specialized literature review services, meticulously crafted for students, researchers, and academic professionals.</p>
+                    <h3>My Perfect Writing: Premier Essay Writing Service in UK</h3>
+                    <p>Expert Academic Assistance for Students, Academic Professionals, and Researchers</p>
                 </div>
 
                 <div class="headerBottom">
@@ -60,12 +60,13 @@ const Header = () => {
                         </div>
                         <div className="headerCardBott">
                             <button id='totalBtn'>Total Price</button>
-                            <input id='totalInput' readOnly value={totalAmount.toFixed(2)} type="number" />
+                            {/* <input id='totalInput' readOnly value={totalAmount.toFixed(2)} type="number" /> */}
+                            <p id='totalInput'>£ {totalAmount.toFixed(2)}</p>
                         </div>
                     </div>
 
                     <div className="headerRight">
-                        <div className="headerRightTop">
+                        <div className="headerRightTop mainHeader">
                             <div className="rightContents">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
                                     <g clip-path="url(#clip0_237_39013)">
@@ -106,8 +107,9 @@ const Header = () => {
                                 <p>Complimentary Plagiarism/AI Detection Reports</p>
                             </div>
                         </div>
-
-                        <button className='rightBTN pulse-button'>Get Started Today!</button>
+                        <a href="https://myperfectwriting.co.uk/portal/public/login">
+                            <button className='rightBTN pulse-button'>Get Started Today!</button>
+                        </a>
                         <div className="RightContentBottom">
                             <p><strong>Service Benefits: </strong> Unlock academic success with My Perfect Writing! Our transparent pricing and inclusive services ensure you get the best value for your investment. Experience stress-free submissions with our reliable and efficient essay writing service, tailored specifically for the UK’s educational standards</p>
                             <p><strong>Commitment to Quality: </strong> At My Perfect Writing, quality is at the forefront of our services. Each essay is meticulously crafted by our team of experienced writers, ensuring adherence to the highest academic standards. Trust us to deliver excellence, ensuring your academic journey is nothing short of perfect.</p>

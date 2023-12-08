@@ -1,10 +1,32 @@
 import React from 'react'
 import '../TermAndConditions/termcondition.css';
 import Navbar from '../../components/Navbar/Navbar';
+import { Helmet } from 'react-helmet';
 
 const AcademicIntegrity = () => {
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+ {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://myperfectwriting.co.uk/"
+    }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Academic Integrity",
+        "item": "https://myperfectwriting.co.uk/academic-integrity"
+    }]
+}`}
+                </script>
+            </Helmet>
             <div className="termsMain">
                 <div className="termsContents">
 

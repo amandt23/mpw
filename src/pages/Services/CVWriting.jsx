@@ -10,6 +10,7 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
 const CVWriting = () => {
@@ -184,7 +185,7 @@ const CVWriting = () => {
                 "WordCount": 900,
                 "Citation": "APA",
                 "OrderPrice": "£20.97",
-                "CustomerID": "MPW-343533",
+                "CustomerID": "MPW-343503",
                 "OrderRating": "5 Stars",
                 "University": "University of Oxford",
                 "Subject": "Sociology",
@@ -199,7 +200,7 @@ const CVWriting = () => {
                 "WordCount": 600,
                 "Citation": "Harvard",
                 "OrderPrice": "£13.98",
-                "CustomerID": "MPW-456789",
+                "CustomerID": "MPW-456009",
                 "OrderRating": "4.8 Stars",
                 "University": "University of Manchester",
                 "Subject": "Business Management",
@@ -214,7 +215,7 @@ const CVWriting = () => {
                 "WordCount": 1200,
                 "Citation": "MLA",
                 "OrderPrice": "£27.96",
-                "CustomerID": "MPW-567890",
+                "CustomerID": "MPW-567090",
                 "OrderRating": "5 Stars",
                 "University": "Imperial College London",
                 "Subject": "Engineering",
@@ -229,7 +230,7 @@ const CVWriting = () => {
                 "WordCount": 450,
                 "Citation": "Chicago",
                 "OrderPrice": "£20.97",
-                "CustomerID": "MPW-678901",
+                "CustomerID": "MPW-678501",
                 "OrderRating": "4.7 Stars",
                 "University": "Harvard University",
                 "Subject": "Psychology",
@@ -244,7 +245,7 @@ const CVWriting = () => {
                 "WordCount": 750,
                 "Citation": "APA",
                 "OrderPrice": "£20.97",
-                "CustomerID": "MPW-789012",
+                "CustomerID": "MPW-729012",
                 "OrderRating": "5 Stars",
                 "University": "University of Cambridge",
                 "Subject": "History",
@@ -259,7 +260,7 @@ const CVWriting = () => {
                 "WordCount": 300,
                 "Citation": "MLA",
                 "OrderPrice": "£6.99",
-                "CustomerID": "MPW-890123",
+                "CustomerID": "MPW-890103",
                 "OrderRating": "4.9 Stars",
                 "University": "LSE (London School of Economics)",
                 "Subject": "Economics",
@@ -274,7 +275,7 @@ const CVWriting = () => {
                 "WordCount": 825,
                 "Citation": "Harvard",
                 "OrderPrice": "£17.48",
-                "CustomerID": "MPW-901234",
+                "CustomerID": "MPW-901254",
                 "OrderRating": "5 Stars",
                 "University": "University of Edinburgh",
                 "Subject": "Political Science",
@@ -289,7 +290,7 @@ const CVWriting = () => {
                 "WordCount": 550,
                 "Citation": "APA",
                 "OrderPrice": "£13.98",
-                "CustomerID": "MPW-012345",
+                "CustomerID": "MPW-010045",
                 "OrderRating": "4.8 Stars",
                 "University": "King's College London",
                 "Subject": "Medicine",
@@ -305,6 +306,34 @@ const CVWriting = () => {
 
     return (
         <>
+            <Helmet>
+                <script type="application/ld+json">
+                    {`
+                        {
+                        "@context": "https://schema.org",
+                    "@type": "Service",
+                    "serviceType": "CV Writing",
+                    "provider": {
+                        "@type": "Organization",
+                    "name": "My Perfect Writing",
+                    "url": "https://myperfectwriting.co.uk"
+  },
+                    "areaServed": {
+                        "@type": "Country",
+                    "name": "United Kingdom"
+  },
+                    "description": "My Perfect Writing offers a professional CV Writing Service to help you craft a compelling and tailored curriculum vitae. Our expert writers create CVs that highlight your skills, experience, and accomplishments, increasing your chances of success in job applications.",
+                    "url": "https://myperfectwriting.co.uk/cv-writing-service",
+                    "aggregateRating": {
+                        "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "bestRating": "5",
+                    "ratingCount": "65"
+  }
+}`}
+                </script>
+
+            </Helmet>
             {/* Header section */}
             <div class="header">
                 <div className="upper">
@@ -359,8 +388,10 @@ const CVWriting = () => {
                                             <p>Free plagiarism and AI detection reports included</p>
                                         </div>
                                     </div>
+                                    <a href="https://myperfectwriting.co.uk/portal/public/login">
 
-                                    <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                        <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                    </a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -495,7 +526,10 @@ const CVWriting = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
-                                <button>Do my Paper</button>
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                                    <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -507,7 +541,7 @@ const CVWriting = () => {
 
             {/* Faqs sectin  */}
             <div className="faqs">
-            <div className="faqTop">
+                <div className="faqTop">
                     <h3>CV Writing Service FAQs</h3>
                     <p>Discover the expertise and precision behind our Professional work</p>
                 </div>
@@ -625,7 +659,7 @@ const CVWriting = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -714,7 +748,10 @@ const CVWriting = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
-                    <button>Get your Custom Paper Now</button>
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                        <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>

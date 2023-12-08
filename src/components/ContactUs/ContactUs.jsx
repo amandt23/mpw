@@ -3,6 +3,7 @@ import './Contactus.css'
 import axios from "axios";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from 'react-helmet';
 
 const ContactUs = () => {
 
@@ -40,6 +41,27 @@ const ContactUs = () => {
     };
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+ {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://myperfectwriting.co.uk/"
+    }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact",
+        "item": "https://myperfectwriting.co.uk/contact-us"
+    }]
+}`}
+                </script>
+            </Helmet>
             <ToastContainer />
             <div className="contactUs-container">
 
@@ -78,7 +100,7 @@ const ContactUs = () => {
                                         required type="text" placeholder="Enter your email" />
                                 </div>
                                 <div class="input-box message-box">
-                                    <textarea name="message" value={formData.message}
+                                    <textarea name="message" placeholder='Write your message' value={formData.message}
                                         onChange={handleChange}
                                         required></textarea>
                                 </div>

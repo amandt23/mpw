@@ -1,9 +1,31 @@
 import React from 'react'
 import '../TermAndConditions/termcondition.css';
+import { Helmet } from 'react-helmet';
 
 const Privacy = () => {
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+ {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://myperfectwriting.co.uk/"
+    }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Privacy Policy",
+        "item": "https://myperfectwriting.co.uk/privacy-policy"
+    }]
+}`}
+                </script>
+            </Helmet>
             <div className="termsMain">
                 <div className="termsContents">
 

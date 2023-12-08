@@ -5,7 +5,6 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from 'react-router-dom';
 import logo from '../../BlogImages/logo.png'
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 
 const Navbar = () => {
@@ -15,17 +14,22 @@ const Navbar = () => {
   const toggleNav = () => {
     setIsNavVisible(!isNavVisible);
   };
-  const scrollToPricing = () => {
-    scroll.scrollTo(1450, {
-      smooth: true,
-      duration: 500,
+
+  const handleScrollToPrice = () => {
+    // Scroll to the position 220px from the top
+    if (window.location.pathname === '/') {
+    window.scrollTo({
+      top: 1470,
+      behavior: 'smooth',
     });
+  } 
   };
 
+
   return (
-    // <div className="NavbarContainer">
 
     <div class="topnavBar">
+
       <div className="navLeft">
 
         <Link to="/">
@@ -35,7 +39,7 @@ const Navbar = () => {
 
       <div className={`navLinks ${isNavVisible ? 'visible' : ''}`}>
         <RxCross2 className='crossIcon' onClick={toggleNav} />
-        <a onClick={scrollToPricing} className='aLink' >Pricing</a>
+        <a onClick={handleScrollToPrice} className='aLink' >Pricing</a>
         <div className="dropdown dropdown1">
           <a href="#" >Company</a>
           <IoMdArrowDropdown className='navArroIcon' />
@@ -45,7 +49,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="dropdown ">
-          <a className='aLink' href="#contact">Services</a>
+          <a className='aLink' href="#">Services</a>
           <IoMdArrowDropdown className='navArroIcon' />
           <div className="dropdown-content dropdown-content2">
             <div className="service">
@@ -75,7 +79,7 @@ const Navbar = () => {
             <div className="service service3">
               <a href="#service1">Custom Essay Writing</a>
               <div className=" SubService3">
-                <Link to="/dissertion-assignment-help">Dissertation Proofreading Service</Link>
+                <Link to="/dissertation-assignment-help">Dissertation Proofreading Service</Link>
                 <Link to="/cv-writing-service">CV Writing Service</Link>
                 <Link to="/resume-writing-service">Resume Writing Service</Link>
                 <Link to="/proofreading-service">Proofreading Service</Link>
@@ -173,8 +177,8 @@ const Navbar = () => {
         </div>
         <RxHamburgerMenu onClick={toggleNav} className='hamburgur' style={{ color: "white", fontSize: "50px" }} />
       </div>
-
     </div>
+
 
   )
 }

@@ -5,8 +5,8 @@ const Social = () => {
     return (
         <div className="social">
             <div className="sTop">
-                <h3>Follow Our Paper Writing Service On Social Media</h3>
-                <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
+                <h3>Connect With Us</h3>
+                <p>Discover more about our services and join the community of satisfied students by following us on our social media platforms.</p>
             </div>
             <div className="cards">
 

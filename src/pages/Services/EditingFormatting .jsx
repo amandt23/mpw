@@ -10,6 +10,7 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
 const EditingFormatting = () => {
@@ -183,7 +184,7 @@ const EditingFormatting = () => {
                 "WordCount": 9000,
                 "Citation": "APA",
                 "OrderPrice": "£209.70",
-                "CustomerID": "MPW-343533",
+                "CustomerID": "MPW-349833",
                 "OrderRating": "5 Stars",
                 "University": "University of Cambridge",
                 "Subject": "Psychology",
@@ -198,7 +199,7 @@ const EditingFormatting = () => {
                 "WordCount": 1500,
                 "Citation": "MLA",
                 "OrderPrice": "£34.95",
-                "CustomerID": "MPW-556778",
+                "CustomerID": "MPW-556378",
                 "OrderRating": "5 Stars",
                 "University": "University of Oxford",
                 "Subject": "Literature",
@@ -213,7 +214,7 @@ const EditingFormatting = () => {
                 "WordCount": 48000,
                 "Citation": "Chicago",
                 "OrderPrice": "£1,119.20",
-                "CustomerID": "MPW-662233",
+                "CustomerID": "MPW-660933",
                 "OrderRating": "4.8 Stars",
                 "University": "King's College London",
                 "Subject": "History",
@@ -228,7 +229,7 @@ const EditingFormatting = () => {
                 "WordCount": 3000,
                 "Citation": "Harvard",
                 "OrderPrice": "£69.90",
-                "CustomerID": "MPW-789123",
+                "CustomerID": "MPW-789813",
                 "OrderRating": "5 Stars",
                 "University": "University of Edinburgh",
                 "Subject": "Business Management",
@@ -243,7 +244,7 @@ const EditingFormatting = () => {
                 "WordCount": 6000,
                 "Citation": "APA",
                 "OrderPrice": "£139.80",
-                "CustomerID": "MPW-345678",
+                "CustomerID": "MPW-315048",
                 "OrderRating": "4.9 Stars",
                 "University": "University College London",
                 "Subject": "Sociology",
@@ -258,7 +259,7 @@ const EditingFormatting = () => {
                 "WordCount": 4500,
                 "Citation": "MLA",
                 "OrderPrice": "£104.85",
-                "CustomerID": "MPW-987654",
+                "CustomerID": "MPW-984604",
                 "OrderRating": "5 Stars",
                 "University": "Imperial College London",
                 "Subject": "Engineering",
@@ -273,7 +274,7 @@ const EditingFormatting = () => {
                 "WordCount": 2500,
                 "Citation": "Harvard",
                 "OrderPrice": "£55.92",
-                "CustomerID": "MPW-564738",
+                "CustomerID": "MPW-504738",
                 "OrderRating": "4.7 Stars",
                 "University": "London School of Economics",
                 "Subject": "Economics",
@@ -288,7 +289,7 @@ const EditingFormatting = () => {
                 "WordCount": 15000,
                 "Citation": "APA",
                 "OrderPrice": "£349.50",
-                "CustomerID": "MPW-112233",
+                "CustomerID": "MPW-110933",
                 "OrderRating": "5 Stars",
                 "University": "University of Manchester",
                 "Subject": "Psychology",
@@ -303,6 +304,37 @@ const EditingFormatting = () => {
 
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Editing and Formatting",
+  "provider": {
+    "@type": "Organization",
+    "name": "My Perfect Writing",
+    "url": "https://myperfectwriting.co.uk"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "description": "My Perfect Writing provides a professional Editing and Formatting Service to refine and enhance the structure, style, and presentation of your documents. Our expert editors ensure your content is well-polished, adheres to formatting guidelines, and communicates effectively.",
+  "url": "https://myperfectwriting.co.uk/editing-formatting-service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "ratingCount": "60"
+  }
+}`}
+                </script>
+            </Helmet>
+
+
+
             {/* Header section */}
             <div class="header">
                 <div className="upper">
@@ -357,8 +389,10 @@ const EditingFormatting = () => {
                                             <p>Complimentary Plagiarism/AI Detection Reports</p>
                                         </div>
                                     </div>
+                                    <a href="https://myperfectwriting.co.uk/portal/public/login">
 
-                                    <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                        <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                    </a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -493,7 +527,10 @@ const EditingFormatting = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
-                                <button>Do my Paper</button>
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                                    <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -623,7 +660,7 @@ const EditingFormatting = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -712,7 +749,10 @@ const EditingFormatting = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
-                    <button>Get your Custom Paper Now</button>
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                        <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>

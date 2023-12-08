@@ -10,6 +10,7 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
 const AnnotatedBibliography = () => {
@@ -184,7 +185,7 @@ const AnnotatedBibliography = () => {
                 "WordCount": 1500,
                 "Citation": "Harvard",
                 "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343533",
+                "CustomerID": "MPW-343503",
                 "OrderRating": "5/5",
                 "University": "University of Oxford",
                 "Subject": "English Literature",
@@ -199,7 +200,7 @@ const AnnotatedBibliography = () => {
                 "WordCount": 1800,
                 "Citation": "MLA",
                 "OrderPrice": "£41.94",
-                "CustomerID": "MPW-343534",
+                "CustomerID": "MPW-363534",
                 "OrderRating": "4.8/5",
                 "University": "University of Cambridge",
                 "Subject": "History",
@@ -214,7 +215,7 @@ const AnnotatedBibliography = () => {
                 "WordCount": 1200,
                 "Citation": "Chicago",
                 "OrderPrice": "£27.88",
-                "CustomerID": "MPW-343535",
+                "CustomerID": "MPW-343530",
                 "OrderRating": "5/5",
                 "University": "Imperial College London",
                 "Subject": "Physics",
@@ -229,7 +230,7 @@ const AnnotatedBibliography = () => {
                 "WordCount": 2100,
                 "Citation": "APA",
                 "OrderPrice": "£48.69",
-                "CustomerID": "MPW-343536",
+                "CustomerID": "MPW-303536",
                 "OrderRating": "4.9/5",
                 "University": "University College London",
                 "Subject": "Psychology",
@@ -244,7 +245,7 @@ const AnnotatedBibliography = () => {
                 "WordCount": 1600,
                 "Citation": "Harvard",
                 "OrderPrice": "£38.98",
-                "CustomerID": "MPW-343537",
+                "CustomerID": "MPW-343637",
                 "OrderRating": "5/5",
                 "University": "London School of Economics",
                 "Subject": "Business Studies",
@@ -259,7 +260,7 @@ const AnnotatedBibliography = () => {
                 "WordCount": 1400,
                 "Citation": "IEEE",
                 "OrderPrice": "£34.86",
-                "CustomerID": "MPW-343538",
+                "CustomerID": "MPW-343508",
                 "OrderRating": "4.8/5",
                 "University": "Imperial College London",
                 "Subject": "Engineering",
@@ -274,7 +275,7 @@ const AnnotatedBibliography = () => {
                 "WordCount": 1700,
                 "Citation": "MLA",
                 "OrderPrice": "£41.93",
-                "CustomerID": "MPW-343539",
+                "CustomerID": "MPW-043539",
                 "OrderRating": "5/5",
                 "University": "University of Edinburgh",
                 "Subject": "Literature",
@@ -289,7 +290,7 @@ const AnnotatedBibliography = () => {
                 "WordCount": 1900,
                 "Citation": "APA",
                 "OrderPrice": "£44.91",
-                "CustomerID": "MPW-343540",
+                "CustomerID": "MPW-343940",
                 "OrderRating": "4.7/5",
                 "University": "King's College London",
                 "Subject": "Social Sciences",
@@ -304,9 +305,38 @@ const AnnotatedBibliography = () => {
 
     return (
         <>
+            <Helmet>
+                <script type="application/ld+json">
+                    {`
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Annotated Bibliography",
+  "provider": {
+    "@type": "Organization",
+    "name": "My Perfect Writing",
+    "url": "https://myperfectwriting.co.uk"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "description": "Our annotated bibliography service provides comprehensive and well-researched bibliographies for academic and research purposes. Trust our experienced writers to create detailed annotations for your references.",
+  "url": "https://myperfectwriting.co.uk/annotated-bibliography-service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "ratingCount": "50"
+  }
+}`}
+                </script>
+            </Helmet>
+
+
             {/* Header section */}
-            <div class="header">
-                <div className="upper">
+            <div class="header " style={{paddingTop:"100px"}}>
+                <div className="upper serviceUpper">
                     <div class="headerTop">
                         <h3>Annotated Bibliography Service in UK - Expert Academic Support</h3>
                         <p>Tailored Bibliography Solutions for Students, Academic Professionals, and Researchers</p>
@@ -358,8 +388,9 @@ const AnnotatedBibliography = () => {
                                             <p>Complimentary Plagiarism Reports</p>
                                         </div>
                                     </div>
-
-                                    <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+                                        <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                    </a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -494,7 +525,10 @@ const AnnotatedBibliography = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
-                                <button>Do my Paper</button>
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                                    <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -624,7 +658,7 @@ const AnnotatedBibliography = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -713,7 +747,9 @@ const AnnotatedBibliography = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
-                    <button>Get your Custom Paper Now</button>
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+                        <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>

@@ -10,6 +10,7 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
 const ThesisWriting = () => {
@@ -108,31 +109,31 @@ const ThesisWriting = () => {
         {
             "question": "What distinguishes your thesis writing service from others?",
             "answer": "Our commitment to quality, affordable pricing, and experienced UK-based professionals sets us apart in the field of academic consultancy."
-          },
-          {
+        },
+        {
             "question": "Can I trust your service for plagiarism-free and original content?",
             "answer": "Absolutely. Our expert writers ensure every thesis is original, tailoring each project to your specific needs and conducting thorough research."
-          },
-          {
+        },
+        {
             "question": "Do you offer support for Master's and PhD dissertations?",
             "answer": "Yes, our services cater to both Master's and PhD students, offering comprehensive assistance from proposal to final submission."
-          },
-          {
+        },
+        {
             "question": "How does your proofreading and editing service enhance my thesis?",
             "answer": "Our editing team focuses on structure, clarity, and citations to elevate your thesis, ensuring it adheres to high academic standards."
-          },
-          {
+        },
+        {
             "question": "Can I meet tight deadlines with your thesis writing service?",
             "answer": "Yes, our dedicated team works efficiently to meet even the most stringent deadlines while maintaining the highest quality standards."
-          },
-          {
+        },
+        {
             "question": "Is my personal information secure with your service?",
             "answer": "Your confidentiality and data security are paramount. We employ strict measures to ensure all your information remains secure and private."
-          },
-          {
+        },
+        {
             "question": "Do you provide detailed feedback and support post-delivery?",
             "answer": "Post-delivery, we offer detailed feedback and support to address any further modifications or clarifications you may require."
-          }
+        }
     ];
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
@@ -184,7 +185,7 @@ const ThesisWriting = () => {
                 "WordCount": 4500,
                 "Citation": "Harvard",
                 "OrderPrice": "£209.55",
-                "CustomerID": "MPW-343533",
+                "CustomerID": "MPW-343033",
                 "OrderRating": "5/5",
                 "University": "University of Oxford",
                 "Subject": "English Literature",
@@ -193,13 +194,13 @@ const ThesisWriting = () => {
                 "ResponsefromMyPerfectWriting": "We're thrilled to have supported your literary journey! Thank you for choosing us.",
                 "Date": "15th October 2023",
                 "image": "050.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Dissertation Editing",
                 "WordCount": 6000,
                 "Citation": "APA",
                 "OrderPrice": "£251.94",
-                "CustomerID": "MPW-457890",
+                "CustomerID": "MPW-452290",
                 "OrderRating": "5/5",
                 "University": "King's College London",
                 "Subject": "Psychology",
@@ -208,13 +209,13 @@ const ThesisWriting = () => {
                 "ResponsefromMyPerfectWriting": "Delighted to help with your Psychology dissertation. Your success is our priority!",
                 "Date": "28th November 2023",
                 "image": "051.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Thesis Consultation",
                 "WordCount": 8000,
                 "Citation": "Chicago",
                 "OrderPrice": "£335.92",
-                "CustomerID": "MPW-562341",
+                "CustomerID": "MPW-505441",
                 "OrderRating": "5/5",
                 "University": "University of Manchester",
                 "Subject": "Business Management",
@@ -223,13 +224,13 @@ const ThesisWriting = () => {
                 "ResponsefromMyPerfectWriting": "We're glad our consultation made a significant impact. Thanks for trusting us with your business thesis!",
                 "Date": "18th November 2023",
                 "image": "052.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Thesis Writing",
                 "WordCount": 10000,
                 "Citation": "MLA",
                 "OrderPrice": "£419.90",
-                "CustomerID": "MPW-665421",
+                "CustomerID": "MPW-665401",
                 "OrderRating": "5/5",
                 "University": "University of Cambridge",
                 "Subject": "History",
@@ -238,13 +239,13 @@ const ThesisWriting = () => {
                 "ResponsefromMyPerfectWriting": "Thank you for your feedback! We're thrilled to have contributed to your history thesis.",
                 "Date": "2nd December 2023",
                 "image": "053.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Dissertation Support",
                 "WordCount": 7000,
                 "Citation": "Harvard",
                 "OrderPrice": "£293.93",
-                "CustomerID": "MPW-778654",
+                "CustomerID": "MPW-700604",
                 "OrderRating": "5/5",
                 "University": "University of Edinburgh",
                 "Subject": "Sociology",
@@ -253,13 +254,13 @@ const ThesisWriting = () => {
                 "ResponsefromMyPerfectWriting": "It was our pleasure to assist you with your sociology dissertation. Best wishes!",
                 "Date": "7th December 2023",
                 "image": "054.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Proofreading and Editing",
                 "WordCount": 5500,
                 "Citation": "APA",
                 "OrderPrice": "£230.94",
-                "CustomerID": "MPW-889321",
+                "CustomerID": "MPW-889301",
                 "OrderRating": "5/5",
                 "University": "London School of Economics",
                 "Subject": "Economics",
@@ -268,13 +269,13 @@ const ThesisWriting = () => {
                 "ResponsefromMyPerfectWriting": "We're delighted to hear about your satisfaction with our editing services. Thank you!",
                 "Date": "23rd November 2023",
                 "image": "055.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Custom Thesis Writing",
                 "WordCount": 8500,
                 "Citation": "Chicago",
                 "OrderPrice": "£356.91",
-                "CustomerID": "MPW-992233",
+                "CustomerID": "MPW-990633",
                 "OrderRating": "4.8/5",
                 "University": "University of Bristol",
                 "Subject": "Engineering",
@@ -283,13 +284,13 @@ const ThesisWriting = () => {
                 "ResponsefromMyPerfectWriting": "Thank you for your trust in our service. We're glad we could meet your engineering thesis needs.",
                 "Date": "30th November 2023",
                 "image": "056.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Thesis Consultation",
                 "WordCount": 9000,
                 "Citation": "MLA",
                 "OrderPrice": "£377.91",
-                "CustomerID": "MPW-1035467",
+                "CustomerID": "MPW-1932067",
                 "OrderRating": "5/5",
                 "University": "University of Warwick",
                 "Subject": "Philosophy",
@@ -298,13 +299,43 @@ const ThesisWriting = () => {
                 "ResponsefromMyPerfectWriting": "We appreciate your kind words and are happy to have been a part of your academic journey.",
                 "Date": "10th December 2023",
                 "image": "057.jpg"
-              }
+            }
 
 
         ];
 
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Thesis Writing",
+  "provider": {
+    "@type": "Organization",
+    "name": "My Perfect Writing",
+    "url": "https://myperfectwriting.co.uk"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "description": "My Perfect Writing offers a Thesis Writing Service for comprehensive and high-quality thesis papers. Our expert writers provide custom-tailored theses to meet your academic and professional needs. Trust us for original and well-researched content.",
+  "url": "https://myperfectwriting.co.uk/thesis-writing-service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "ratingCount": "60"
+  }
+}`}
+                </script>
+            </Helmet>
+
+
             {/* Header section */}
             <div class="header">
                 <div className="upper">
@@ -359,8 +390,10 @@ const ThesisWriting = () => {
                                             <p>Complimentary plagiarism/AI detection reports</p>
                                         </div>
                                     </div>
+<a href="https://myperfectwriting.co.uk/portal/public/login">
 
                                     <button className='rightBTN pulse-button'>Get Started Today!</button>
+</a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -495,7 +528,10 @@ const ThesisWriting = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
+
                                 <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -508,7 +544,7 @@ const ThesisWriting = () => {
             {/* Faqs sectin  */}
             <div className="faqs">
                 <div className="faqTop">
-                <h3>Thesis Writing Service FAQs</h3>
+                    <h3>Thesis Writing Service FAQs</h3>
                     <p>Discover the expertise and precision behind our Professional work</p>
                 </div>
 
@@ -625,7 +661,7 @@ const ThesisWriting = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -714,7 +750,10 @@ const ThesisWriting = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+
                     <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>

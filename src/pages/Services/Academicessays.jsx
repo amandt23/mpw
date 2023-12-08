@@ -10,6 +10,7 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
 const Academicessays = () => {
@@ -184,7 +185,7 @@ const Academicessays = () => {
                 "WordCount": 6000,
                 "Citation": "Harvard",
                 "OrderPrice": "£139.80",
-                "CustomerID": "MPW-343533",
+                "CustomerID": "MPW-343523",
                 "OrderRating": "5 Stars",
                 "University": "University of Oxford",
                 "Subject": "History",
@@ -214,7 +215,7 @@ const Academicessays = () => {
                 "WordCount": 3000,
                 "Citation": "MLA",
                 "OrderPrice": "£104.85",
-                "CustomerID": "MPW-256789",
+                "CustomerID": "MPW-256785",
                 "OrderRating": "4.5 Stars",
                 "University": "University of Manchester",
                 "Subject": "Nursing",
@@ -229,7 +230,7 @@ const Academicessays = () => {
                 "WordCount": 4500,
                 "Citation": "Chicago",
                 "OrderPrice": "£157.05",
-                "CustomerID": "MPW-658932",
+                "CustomerID": "MPW-658032",
                 "OrderRating": "5 Stars",
                 "University": "London School of Economics",
                 "Subject": "Business Studies",
@@ -244,7 +245,7 @@ const Academicessays = () => {
                 "WordCount": 4000,
                 "Citation": "Oxford",
                 "OrderPrice": "£139.80",
-                "CustomerID": "MPW-762344",
+                "CustomerID": "MPW-769344",
                 "OrderRating": "4.8 Stars",
                 "University": "University of Cambridge",
                 "Subject": "Law",
@@ -274,7 +275,7 @@ const Academicessays = () => {
                 "WordCount": 2500,
                 "Citation": "MLA",
                 "OrderPrice": "£87.25",
-                "CustomerID": "MPW-543210",
+                "CustomerID": "MPW-543270",
                 "OrderRating": "4.7 Stars",
                 "University": "University of Edinburgh",
                 "Subject": "English Literature",
@@ -289,7 +290,7 @@ const Academicessays = () => {
                 "WordCount": 2500,
                 "Citation": "MLA",
                 "OrderPrice": "£87.25",
-                "CustomerID": "MPW-543210",
+                "CustomerID": "MPW-543010",
                 "OrderRating": "4.7 Stars",
                 "University": "University of Edinburgh",
                 "Subject": "English Literature",
@@ -304,7 +305,7 @@ const Academicessays = () => {
                 "WordCount": 5000,
                 "Citation": "Harvard",
                 "OrderPrice": "£174.75",
-                "CustomerID": "MPW-666789",
+                "CustomerID": "MPW-666749",
                 "OrderRating": "5 Stars",
                 "University": "University College London",
                 "Subject": "Economics",
@@ -319,6 +320,35 @@ const Academicessays = () => {
 
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Academic Essays",
+  "provider": {
+    "@type": "Organization",
+    "name": "My Perfect Writing",
+    "url": "https://myperfectwriting.co.uk"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "description": "My Perfect Writing provides a professional Academic Essays Service. Our expert writers offer high-quality and custom-tailored academic essays to help you excel in your studies. Trust us for well-researched and original content.",
+  "url": "https://myperfectwriting.co.uk/academic-essays-service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "ratingCount": "50"
+  }
+}`}
+                </script>
+            </Helmet>
+
             {/* Header section */}
             <div class="header">
                 <div className="upper">
@@ -373,8 +403,9 @@ const Academicessays = () => {
                                             <p>Complimentary Plagiarism Reports</p>
                                         </div>
                                     </div>
-
+                                    <a href="https://myperfectwriting.co.uk/portal/public/login">
                                     <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                    </a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -509,7 +540,9 @@ const Academicessays = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
                                 <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -639,7 +672,7 @@ const Academicessays = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -728,7 +761,9 @@ const Academicessays = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
                     <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>

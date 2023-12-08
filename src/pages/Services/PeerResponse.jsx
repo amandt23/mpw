@@ -10,6 +10,7 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
 const NursingAssn = () => {
@@ -200,7 +201,7 @@ const NursingAssn = () => {
                 "WordCount": 1200,
                 "Citation": "MLA",
                 "OrderPrice": "£27.96",
-                "CustomerID": "MPW-657890",
+                "CustomerID": "MPW-657090",
                 "OrderRating": "4.5/5",
                 "University": "Oxford University",
                 "Subject": "Literature",
@@ -215,7 +216,7 @@ const NursingAssn = () => {
                 "WordCount": 1500,
                 "Citation": "APA",
                 "OrderPrice": "£34.95",
-                "CustomerID": "MPW-123456",
+                "CustomerID": "MPW-120056",
                 "OrderRating": "5/5",
                 "University": "University of Edinburgh",
                 "Subject": "Psychology",
@@ -245,7 +246,7 @@ const NursingAssn = () => {
                 "WordCount": 2500,
                 "Citation": "Harvard",
                 "OrderPrice": "£52.48",
-                "CustomerID": "MPW-789456",
+                "CustomerID": "MPW-709406",
                 "OrderRating": "5/5",
                 "University": "King's College London",
                 "Subject": "Business Management",
@@ -260,7 +261,7 @@ const NursingAssn = () => {
                 "WordCount": 800,
                 "Citation": "MLA",
                 "OrderPrice": "£27.92",
-                "CustomerID": "MPW-456123",
+                "CustomerID": "MPW-490103",
                 "OrderRating": "4.7/5",
                 "University": "The University of Warwick",
                 "Subject": "Philosophy",
@@ -275,7 +276,7 @@ const NursingAssn = () => {
                 "WordCount": 3500,
                 "Citation": "APA",
                 "OrderPrice": "£69.97",
-                "CustomerID": "MPW-987654",
+                "CustomerID": "MPW-907054",
                 "OrderRating": "5/5",
                 "University": "University of Leeds",
                 "Subject": "Environmental Science",
@@ -290,7 +291,7 @@ const NursingAssn = () => {
                 "WordCount": 1100,
                 "Citation": "Chicago",
                 "OrderPrice": "£31.89",
-                "CustomerID": "MPW-654321",
+                "CustomerID": "MPW-654021",
                 "OrderRating": "4.9/5",
                 "University": "University of Glasgow",
                 "Subject": "History",
@@ -305,6 +306,36 @@ const NursingAssn = () => {
 
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Academic Essays",
+  "provider": {
+    "@type": "Organization",
+    "name": "My Perfect Writing",
+    "url": "https://myperfectwriting.co.uk"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "description": "My Perfect Writing provides a professional Academic Essays Service. Our expert writers offer high-quality and custom-tailored academic essays to help you excel in your studies. Trust us for well-researched and original content.",
+  "url": "https://myperfectwriting.co.uk/academic-essays-service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "ratingCount": "50"
+  }
+}`}
+                </script>
+            </Helmet>
+
+
             {/* Header section */}
             <div class="header">
                 <div className="upper">
@@ -359,8 +390,10 @@ const NursingAssn = () => {
                                             <p>Complimentary Plagiarism Reports</p>
                                         </div>
                                     </div>
+                                    <a href="https://myperfectwriting.co.uk/portal/public/login">
 
-                                    <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                        <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                    </a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -495,7 +528,10 @@ const NursingAssn = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
-                                <button>Do my Paper</button>
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                                    <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -625,7 +661,7 @@ const NursingAssn = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -714,7 +750,10 @@ const NursingAssn = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
-                    <button>Get your Custom Paper Now</button>
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                        <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>

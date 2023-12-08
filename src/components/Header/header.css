@@ -9,6 +9,15 @@
 
 }
 
+.mainHeader{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.headerRightTop{
+    margin-top: 10px;
+}
 .header .headerTop {
     padding-top: 24px;
     /* padding-left: 108px; */
@@ -36,20 +45,23 @@
     /* background: url(images/bakimg.png), lightgray 50% / cover no-repeat; */
     /* width: 897.493px;
     height: 897.493px; */
-    float: right;
+    /* float: right;
     margin-top: -190px;
-    margin-right: -35px;
+    margin-right: -35px; */
     /* z-index:; */
 
 }
 
 .headerLeft img {
-    width: 665.486px;
-    height: 846.521px;
+    width: 100%;
+    max-width: 809.486px;
+    max-height: 717.521px;
+    height: 100%;
+    margin-top: -130px;
 }
 
 .headerBottom {
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     column-gap: 53px;
     row-gap: 10px;
@@ -67,6 +79,7 @@
     margin-bottom: 60px;
     max-width: 430px;
     max-height: 500px;
+    margin-top: -80px;
 }
 
 .headerCardContents {
@@ -193,6 +206,7 @@
     line-height: normal;
     cursor: pointer;
     margin-top: -6px;
+    user-select: none;
 }
 .counter p:last-child{
     color: #21383E;
@@ -203,6 +217,8 @@
     font-weight: 400;
     line-height: normal;
     cursor: pointer;
+    user-select: none;
+
 }
 /* .counter p {
     color: #21383E;
@@ -261,15 +277,13 @@
    
 }
 .headerCardBott button:hover{
-    background: #316c56;
     cursor: pointer;
 
 }
 
 #totalInput {
-    /* height: 40px; */
-    width: 185px;
-    padding: 10px 12px;
+    /* width: 295px; */
+    padding: 17px 50px;
     border-radius: 10.528px;
     border: 0.993px solid #605454;
     background: #F6F4F4;
@@ -279,6 +293,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    white-space: nowrap;
 }
 
 .headerBottom .headerRight {

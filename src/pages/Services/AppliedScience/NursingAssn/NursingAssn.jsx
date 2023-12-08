@@ -167,7 +167,7 @@ const NursingAssn = () => {
         "WordCount": 900,
         "Citation": "Harvard",
         "OrderPrice": "£20.97",
-        "CustomerID": "MPW-343533",
+        "CustomerID": "MPW-313533",
         "OrderRating": "5/5",
         "NameofUniversity": "University of Oxford",
         "Subject": "History",
@@ -182,7 +182,7 @@ const NursingAssn = () => {
         "WordCount": 600,
         "Citation": "APA",
         "OrderPrice": "£13.98",
-        "CustomerID": "MPW-343534",
+        "CustomerID": "MPW-343584",
         "OrderRating": "5 Stars",
         "University": "King's College London",
         "Subject": "Psychology",
@@ -197,7 +197,7 @@ const NursingAssn = () => {
         "WordCount": 1200,
         "Citation": "MLA",
         "OrderPrice": "£27.96",
-        "CustomerID": "MPW-343535",
+        "CustomerID": "MPW-340530",
         "OrderRating": "4.5 Stars",
         "University": "University of Cambridge",
         "Subject": "Sociology",
@@ -212,7 +212,7 @@ const NursingAssn = () => {
         "WordCount": 800,
         "Citation": "Chicago",
         "OrderPrice": "£20.93",
-        "CustomerID": "MPW-343536",
+        "CustomerID": "MPW-343550",
         "OrderRating": "5 Stars",
         "University": "University College London",
         "Subject": "Philosophy",
@@ -227,7 +227,7 @@ const NursingAssn = () => {
         "WordCount": 700,
         "Citation": "Harvard",
         "OrderPrice": "£18.93",
-        "CustomerID": "MPW-343537",
+        "CustomerID": "MPW-043532",
         "OrderRating": "4.8 Stars",
         "University": "Edinburgh University",
         "Subject": "Economics",
@@ -257,7 +257,7 @@ const NursingAssn = () => {
         "WordCount": 650,
         "Citation": "MLA",
         "OrderPrice": "£17.94",
-        "CustomerID": "MPW-343539",
+        "CustomerID": "MPW-343530",
         "OrderRating": "4.9 Stars",
         "University": "Manchester University",
         "Subject": "Literature",
@@ -272,7 +272,7 @@ const NursingAssn = () => {
         "WordCount": 1000,
         "Citation": "Chicago",
         "OrderPrice": "£27.96",
-        "CustomerID": "MPW-343540",
+        "CustomerID": "MPW-313540",
         "OrderRating": "5 Stars",
         "University": "University of Birmingham",
         "Subject": "Environmental Science",
@@ -341,8 +341,9 @@ const NursingAssn = () => {
                       <p>Complimentary Plagiarism/AI Detection Reports</p>
                     </div>
                   </div>
-
-                  <button className='rightBTN pulse-button'>Get Started Today!</button>
+                  <a href="https://myperfectwriting.co.uk/portal/public/login">
+                    <button className='rightBTN pulse-button'>Get Started Today!</button>
+                  </a>
 
                 </div>
                 <div className="RightContentBottom">
@@ -355,7 +356,7 @@ const NursingAssn = () => {
           </div>
         </div>
 
-        <div  class="headerLeft ServiceHeaderLeft">
+        <div class="headerLeft ServiceHeaderLeft">
           <img src="./images/headerImg.png" alt="Nursing-img" />
         </div>
       </div>
@@ -478,7 +479,9 @@ const NursingAssn = () => {
                 <h2>FREE</h2>
               </div>
               <div className="doBtn">
-                <button>Do my Paper</button>
+                <a href="https://myperfectwriting.co.uk/portal/public/login">
+                  <button>Do my Paper</button>
+                </a>
               </div>
 
             </div>
@@ -608,7 +611,7 @@ const NursingAssn = () => {
               <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
               <h3>Privacy ?</h3>
             </div>
-            <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+            <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
           </div>
         </div>
 
@@ -697,7 +700,9 @@ const NursingAssn = () => {
       {/* Discussion section  */}
       <div className='writing'>
         <div className="paperBtn pulse-button">
+          <a href="https://myperfectwriting.co.uk/portal/public/login">
           <button>Get your Custom Paper Now</button>
+          </a>
         </div>
         <div className="wTop">
           <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>
