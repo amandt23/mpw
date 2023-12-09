@@ -5,13 +5,13 @@ import { RiStarSFill } from "react-icons/ri";
 
 const Card = ({ lecturer }) => {
 
-  
+
 
     return (
         <div className='card'>
             <div className="top">
                 <div className="left">
-                    <img src={`./images/Writer avatars/${lecturer.image}`} alt="writers image" />
+                    <img src={`./images/Writer avatars/${lecturer.image}`} alt="writers" />
                 </div>
                 <div className="right">
                     <div className="right-top">
@@ -87,7 +87,7 @@ const Card = ({ lecturer }) => {
                         style={{ background: `linear-gradient(90deg, #12D83F ${lecturer.english}% ,#e0e0e0 0%)` }}
                         className="range range1"
                     />
-                   
+
                 </div>
                 <div className="slider">
                     <label>{lecturer.subject2} -{lecturer.poetry}%</label>

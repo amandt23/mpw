@@ -15,6 +15,7 @@ body {
  @font-face {
   font-family: roboto;
   src: url(../public/Roboto-Regular.ttf);
+  font-display: swap;
  }
  h1,h2,h3,h4,p,a,button{
   font-family: 'Roboto', sans-serif;

@@ -27,7 +27,7 @@ const Header = () => {
                 <div class="headerTop">
                     <h3>My Perfect Writing: Premier Essay Writing Service in UK</h3>
                     <p>Expert Academic Assistance for Students, Academic Professionals, and Researchers</p>
-                </div>
+                </div>  
 
                 <div class="headerBottom">
                     <div class="headerCard">

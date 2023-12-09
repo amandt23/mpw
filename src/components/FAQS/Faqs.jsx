@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './faqs.css'
-import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Faqs = () => {
 
