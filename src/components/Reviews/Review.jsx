@@ -61,7 +61,7 @@ const Review = () => {
                 "WordCount": 2000,
                 "Citation": "Chicago",
                 "OrderPrice": "£139.80",
-                "CustomerID": "MPW-456789",
+                "CustomerID": "MPW-502134",
                 "OrderRating": "5/5",
                 "NameofUniversity": "University of Oxford",
                 "Subject": "History",
@@ -77,7 +77,7 @@ const Review = () => {
                 "WordCount": 3500,
                 "Citation": "APA",
                 "OrderPrice": "£244.65",
-                "CustomerID": "MPW-567890",
+                "CustomerID": "MPW-987654",
                 "OrderRating": "5/5",
                 "NameofUniversity": "London School of Economics",
                 "Subject": "Political Science",
@@ -93,7 +93,7 @@ const Review = () => {
                 "WordCount": 5000,
                 "Citation": "Harvard",
                 "OrderPrice": "£349.50",
-                "CustomerID": "MPW-678901",
+                "CustomerID": "MPW-671901",
                 "OrderRating": "5/5",
                 "NameofUniversity": "University of Manchester",
                 "Subject": "Business Studies",
@@ -109,7 +109,7 @@ const Review = () => {
                 "WordCount": 4000,
                 "Citation": "MLA",
                 "OrderPrice": "£279.60",
-                "CustomerID": "MPW-789012",
+                "CustomerID": "MPW-739012",
                 "OrderRating": "5/5",
                 "NameofUniversity": "King's College London",
                 "Subject": "Psychology",
@@ -125,7 +125,7 @@ const Review = () => {
                 "WordCount": 6500,
                 "Citation": "Chicago",
                 "OrderPrice": "£454.35",
-                "CustomerID": "MPW-890123",
+                "CustomerID": "MPW-890193",
                 "OrderRating": "5/5",
                 "NameofUniversity": "University of Bristol",
                 "Subject": "Engineering",
@@ -170,7 +170,7 @@ const Review = () => {
                         <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                         <h3>Privacy ?</h3>
                     </div>
-                    <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                    <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                 </div>
             </div>
 

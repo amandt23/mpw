@@ -1,6 +1,7 @@
 .place-order {
     background: #D7D8D8;
     padding: 77px 0px 60px 0px;
+   
 }
 
 .order-top {
@@ -10,6 +11,7 @@
     width: 95%;
     margin: 0 auto;
     max-width: 1480px;
+    text-align: center;
 
 }
 
@@ -95,11 +97,9 @@
     line-height: normal;
 }
 .video{
-    /* padding: 30px; */
-    /* width: 800px; */
+    
 }
 .video video{
-    /* width: 00%; */
     width: 800px;
     height: 500px;
 

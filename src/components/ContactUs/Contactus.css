@@ -9,7 +9,7 @@
 }
 
 .contact-container {
-    margin: 80px 20px;
+    margin: 90px 20px 110px 20px;
     width: 55%;
     background: #fff;
     border-radius: 6px;
@@ -57,6 +57,10 @@
     margin-bottom: 10px;
 }
 
+.right-side p{
+    font-size: 19px;
+}
+
 .content .left-side .details .topic {
     font-size: 18px;
     font-weight: 500;
@@ -64,8 +68,8 @@
 
 .content .left-side .details .text-one,
 .content .left-side .details .text-two {
-    font-size: 14px;
-    color: #afafb6;
+    font-size: 16px;
+    color: #59595b;
 }
 
 .contact-container .content .right-side {
@@ -127,7 +131,7 @@
 }
 
 .MessagBtnbutton input[type="button"]:hover {
-    background: #5029bc;
+    background: rgb(11, 61, 11);
 }
 
 @media (max-width: 950px) {

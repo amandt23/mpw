@@ -271,6 +271,7 @@
     column-gap: 39px;
 }
 
+
 .footer2 ul li a {
     text-decoration: none;
     color: #AEAEAE;
@@ -278,6 +279,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.footer2 ul li:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: yellow;
 }
 
 .copy-wright p{

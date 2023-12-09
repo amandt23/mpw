@@ -188,7 +188,9 @@ const Price = () => {
                             <h2>FREE</h2>
                         </div>
                         <div className="doBtn">
-                            <button>Do my Paper</button>
+                            <a href="https://myperfectwriting.co.uk/portal/public/login">
+                                <button>Do my Paper</button>
+                            </a>
                         </div>
 
                     </div>

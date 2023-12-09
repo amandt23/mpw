@@ -1,10 +1,32 @@
 import React from 'react'
 import './termcondition.css';
 import Navbar from '../../components/Navbar/Navbar';
+import { Helmet } from 'react-helmet';
 
 const TermsAndCondition = () => {
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+ {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://myperfectwriting.co.uk/"
+    }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Terms And Conditions",
+        "item": "https://myperfectwriting.co.uk/terms-and-conditions"
+    }]
+}`}
+                </script>
+            </Helmet>
             <div className="termsMain">
                 <div className="termsContents">
 

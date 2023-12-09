@@ -32,8 +32,12 @@
     flex-direction: column;
     row-gap: 17px;
 }
-.ServiceHeaderLeft img{
-    margin-top: 150px;
+.ServiceHeaderLeft{
+    /* margin-top: -15px; */
+}
+
+.serviceUpper{
+    margin-top: -100px;
 }
 
 @media(max-width: 600px){

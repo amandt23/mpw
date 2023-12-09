@@ -13,7 +13,6 @@ import SingleBlog from './pages/Blogs/SingleBlog/SingleBlog';
 import WhyUs from './pages/WhyUs/WhyUs';
 import Privacy from './pages/PrivacyPolicy/Privacy';
 import ContactUs from './components/ContactUs/ContactUs';
-import Faqs from './pages/FAQs/Faqs';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
 // services pages
 import NursingAssn from './pages/Services/AppliedScience/NursingAssn/NursingAssn';
@@ -35,11 +34,14 @@ import LiteratureAssignment from './pages/Services/LiteratureAssignment';
 import HistoryAssignment from './pages/Services/HistoryAssignment';
 import GeographyAssignment from './pages/Services/GeographyAssignment';
 import DissertionAssignment from './pages/Services/DissertionAssignment';
+import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
   return (
     <>
       <Router >
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -54,7 +56,6 @@ function App() {
           <Route path="/why-us" element={<WhyUs />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/faqs" element={<Faqs />} />
           <Route path='*' element={<PageNotFound />} />
 
           {/* Services pages  */}
@@ -77,7 +78,7 @@ function App() {
           <Route path='/literature-assignment-help' element={<LiteratureAssignment />} />
           <Route path='/history-assignment-help' element={<HistoryAssignment />} />
           <Route path='/geography-assignment-help' element={<GeographyAssignment/>} />
-          <Route path='/dissertion-assignment-help' element={<DissertionAssignment/>} />
+          <Route path='/dissertation-assignment-help' element={<DissertionAssignment/>} />
 
           
         </Routes>

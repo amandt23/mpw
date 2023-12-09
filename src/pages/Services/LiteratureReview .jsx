@@ -10,6 +10,7 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
 const LiteratureReview = () => {
@@ -184,7 +185,7 @@ const LiteratureReview = () => {
                 "WordCount": 6000,
                 "Citation": "Harvard",
                 "OrderPrice": "£139.80",
-                "CustomerID": "MPW-343533",
+                "CustomerID": "MPW-340033",
                 "OrderRating": "5 Stars",
                 "University": "University of Oxford",
                 "Subject": "History",
@@ -199,7 +200,7 @@ const LiteratureReview = () => {
                 "WordCount": 15000,
                 "Citation": "APA",
                 "OrderPrice": "£349.50",
-                "CustomerID": "MPW-547621",
+                "CustomerID": "MPW-548421",
                 "OrderRating": "5 Stars",
                 "University": "Imperial College London",
                 "Subject": "Engineering",
@@ -214,7 +215,7 @@ const LiteratureReview = () => {
                 "WordCount": 3000,
                 "Citation": "MLA",
                 "OrderPrice": "£104.85",
-                "CustomerID": "MPW-256789",
+                "CustomerID": "MPW-256009",
                 "OrderRating": "4.5 Stars",
                 "University": "University of Manchester",
                 "Subject": "Nursing",
@@ -229,7 +230,7 @@ const LiteratureReview = () => {
                 "WordCount": 4500,
                 "Citation": "Chicago",
                 "OrderPrice": "£157.05",
-                "CustomerID": "MPW-658932",
+                "CustomerID": "MPW-657102",
                 "OrderRating": "5 Stars",
                 "University": "London School of Economics",
                 "Subject": "Business Studies",
@@ -244,7 +245,7 @@ const LiteratureReview = () => {
                 "WordCount": 4000,
                 "Citation": "Oxford",
                 "OrderPrice": "£139.80",
-                "CustomerID": "MPW-762344",
+                "CustomerID": "MPW-762304",
                 "OrderRating": "4.8 Stars",
                 "University": "University of Cambridge",
                 "Subject": "Law",
@@ -305,6 +306,36 @@ const LiteratureReview = () => {
 
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Literature Review",
+  "provider": {
+    "@type": "Organization",
+    "name": "My Perfect Writing",
+    "url": "https://myperfectwriting.co.uk"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "description": "Our literature review service provides in-depth analysis and synthesis of relevant academic literature for your research project. Rely on our expert writers to deliver a comprehensive and well-crafted literature review tailored to your research objectives.",
+  "url": "https://myperfectwriting.co.uk/literature-review-service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "bestRating": "5",
+    "ratingCount": "60"
+  }
+}`}
+                </script>
+            </Helmet>
+
+
             {/* Header section */}
             <div class="header">
                 <div className="upper">
@@ -359,8 +390,10 @@ const LiteratureReview = () => {
                                             <p>Complimentary plagiarism/AI detection reports</p>
                                         </div>
                                     </div>
+                                    <a href="https://myperfectwriting.co.uk/portal/public/login">
 
-                                    <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                        <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                    </a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -495,7 +528,10 @@ const LiteratureReview = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
-                                <button>Do my Paper</button>
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                                    <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -625,7 +661,7 @@ const LiteratureReview = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -714,7 +750,10 @@ const LiteratureReview = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+
                     <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>

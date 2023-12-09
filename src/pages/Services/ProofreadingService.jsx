@@ -10,6 +10,7 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
 const ProofreadingService = () => {
@@ -182,7 +183,7 @@ const ProofreadingService = () => {
                 "WordCount": 15000,
                 "Citation": "Harvard",
                 "OrderPrice": "£349.75",
-                "CustomerID": "MPW-343533",
+                "CustomerID": "MPW-343033",
                 "OrderRating": "5 Stars",
                 "University": "University of Oxford",
                 "Subject": "History",
@@ -197,7 +198,7 @@ const ProofreadingService = () => {
                 "WordCount": 20000,
                 "Citation": "APA",
                 "OrderPrice": "£466.00",
-                "CustomerID": "MPW-457890",
+                "CustomerID": "MPW-453390",
                 "OrderRating": "5 Stars",
                 "University": "University of Cambridge",
                 "Subject": "Psychology",
@@ -212,7 +213,7 @@ const ProofreadingService = () => {
                 "WordCount": 3000,
                 "Citation": "Chicago",
                 "OrderPrice": "£69.90",
-                "CustomerID": "MPW-529876",
+                "CustomerID": "MPW-520276",
                 "OrderRating": "4.8 Stars",
                 "University": "Imperial College London",
                 "Subject": "Engineering",
@@ -227,7 +228,7 @@ const ProofreadingService = () => {
                 "WordCount": 8000,
                 "Citation": "MLA",
                 "OrderPrice": "£195.92",
-                "CustomerID": "MPW-600321",
+                "CustomerID": "MPW-600320",
                 "OrderRating": "5 Stars",
                 "University": "University of Edinburgh",
                 "Subject": "Biology",
@@ -272,7 +273,7 @@ const ProofreadingService = () => {
                 "WordCount": 18000,
                 "Citation": "MLA",
                 "OrderPrice": "£419.82",
-                "CustomerID": "MPW-954123",
+                "CustomerID": "MPW-954003",
                 "OrderRating": "5 Stars",
                 "University": "University College London",
                 "Subject": "Philosophy",
@@ -287,7 +288,7 @@ const ProofreadingService = () => {
                 "WordCount": 10000,
                 "Citation": "Chicago",
                 "OrderPrice": "£233.00",
-                "CustomerID": "MPW-1012345",
+                "CustomerID": "MPW-1012665",
                 "OrderRating": "4.8 Stars",
                 "University": "King's College London",
                 "Subject": "English Literature",
@@ -302,6 +303,37 @@ const ProofreadingService = () => {
 
     return (
         <>
+
+<Helmet>
+
+<script type="application/ld+json">
+    {`
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Proofreading",
+  "provider": {
+    "@type": "Organization",
+    "name": "My Perfect Writing",
+    "url": "https://myperfectwriting.co.uk"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "description": "My Perfect Writing offers a professional Proofreading Service to enhance the quality of your written content. Our expert proofreaders meticulously review and correct grammar, spelling, punctuation, and formatting to ensure your documents are error-free and polished.",
+  "url": "https://myperfectwriting.co.uk/proofreading-service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "ratingCount": "60"
+  }
+}`}
+</script>
+</Helmet>
+
+
             {/* Header section */}
             <div class="header">
                 <div className="upper">
@@ -356,8 +388,10 @@ const ProofreadingService = () => {
                                             <p>Complimentary Plagiarism/AI Detection Reports</p>
                                         </div>
                                     </div>
+<a href="https://myperfectwriting.co.uk/portal/public/login">
 
                                     <button className='rightBTN pulse-button'>Get Started Today!</button>
+</a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -492,7 +526,10 @@ const ProofreadingService = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
+
                                 <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -622,7 +659,7 @@ const ProofreadingService = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -711,7 +748,10 @@ const ProofreadingService = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+
                     <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>

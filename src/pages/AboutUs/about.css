@@ -23,6 +23,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    align-items: center;
 }
 
 .welcomeWrapper {
@@ -32,7 +33,7 @@
 }
 
 .welcomtextLeft {
-    max-width: 671px;
+    max-width: 691px;
     /* background-color: red; */
     width: 100%;
     padding-top: 40px;
@@ -61,7 +62,7 @@
 
 .welcomrightImage img {
     display: block;
-    max-width: 577px;
+    max-width: 670px;
     width: 100%;
     max-height: 440px;
     height: 100%;
@@ -93,6 +94,8 @@
     max-width: 1266px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .ourStory .ourstorytextLeft,
@@ -144,8 +147,8 @@
 
 .Missionflex {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+    align-items: center;
 }
 
 .textLeft {
@@ -176,7 +179,7 @@
 
 .ourMission .rightImage img {
     display: block;
-    max-width: 631px;
+    max-width: 600px;
     width: 100%;
     max-height: 387px;
     height: 100%;
@@ -197,6 +200,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
 
 .ourTeamWrapper {
@@ -370,7 +374,7 @@ element.style {}
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 1px solid #C8D9EE;
-    max-width: 1036px;
+    max-width: 1056px;
     width: 100%;
     margin: 0 auto;
 }
@@ -384,6 +388,7 @@ element.style {}
 .hiringSteps {
     max-width: 427px;
     width: 100%;
+    
 }
 .hiringSteps ul {
     list-style: none;
@@ -427,7 +432,7 @@ element.style {}
     padding: 0 15px;
 }
 .writingProcessHead {
-    max-width: 1266px;
+    max-width: 1066px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -522,16 +527,17 @@ element.style {}
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 25px;
 }
 .qualityEthicsLeft img {
     display: block;
-    max-width: 445px;
+    max-width: 545px;
     max-height: 342px;
     width: 100%;
     height: 100%;
 }
 .qualityEthicsText {
-    max-width: 443px;
+    max-width: 643px;
     width: 100%;
 }
 .qualityEthicsText h2 {
@@ -549,7 +555,7 @@ element.style {}
     font-style: normal;
     font-weight: 450;
     line-height: 150%;
-    max-width: 390px;
+    max-width: 590px;
     width: 100%;
 }
 .communityOutreach {
@@ -564,7 +570,7 @@ element.style {}
     margin: 0 auto;
 }
 .communityOutreachText {
-    max-width: 390px;
+    max-width: 590px;
     width: 100%;
 }
 .communityOutreachText h3 {
@@ -585,7 +591,7 @@ element.style {}
 }
 .communityOutreachImage img {
     display: block;
-    max-width: 468px;
+    max-width: 568px;
     max-height: 507px;
     width: 100%;
     height: 100%;

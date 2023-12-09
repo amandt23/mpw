@@ -10,9 +10,10 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
-const DissertationWriting  = () => {
+const DissertationWriting = () => {
 
 
     // cards data 
@@ -108,31 +109,31 @@ const DissertationWriting  = () => {
         {
             "question": "What sets your dissertation writing service apart?",
             "answer": "We offer personalized, professional dissertation assistance, ensuring quality, originality, and adherence to university guidelines."
-          },
-          {
+        },
+        {
             "question": "Can I receive help with a specific part of my dissertation, like the literature review?",
             "answer": "Absolutely. Our custom dissertation writing services cater to all aspects, including detailed literature reviews and critical analysis."
-          },
-          {
+        },
+        {
             "question": "Do you offer dissertation proofreading services in the UK?",
             "answer": "Yes, our comprehensive dissertation proofreading services ensure your work adheres to the highest academic standards."
-          },
-          {
+        },
+        {
             "question": "How do you ensure the originality of dissertations?",
             "answer": "Each dissertation is crafted from scratch, with rigorous checks for plagiarism to maintain its uniqueness and authenticity."
-          },
-          {
+        },
+        {
             "question": "What academic levels do you cater to for dissertation writing help?",
             "answer": "From Master’s thesis writing assistance to PhD dissertation writing help, our services cover a broad spectrum of academic needs."
-          },
-          {
+        },
+        {
             "question": "Are your services tailored for UK-based universities?",
             "answer": "Yes, our services are specifically designed to meet the standards and requirements of UK-based educational institutions."
-          },
-          {
+        },
+        {
             "question": "What is your approach to meeting deadlines?",
             "answer": "We prioritize timely delivery, ensuring each dissertation is completed within the agreed timeframe without compromising on quality."
-          }
+        }
     ];
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
@@ -184,7 +185,7 @@ const DissertationWriting  = () => {
                 "WordCount": 9000,
                 "Citation": "Harvard",
                 "OrderPrice": "£209.79",
-                "CustomerID": "MPW-343533",
+                "CustomerID": "MPW-343833",
                 "OrderRating": "5/5",
                 "University": "University of Oxford",
                 "Subject": "Sociology",
@@ -193,13 +194,13 @@ const DissertationWriting  = () => {
                 "ResponsefromMyPerfectWriting": "Thank you for your kind words. We're thrilled to have assisted you!",
                 "Date": "15th November 2023",
                 "image": "058.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Thesis Editing",
                 "WordCount": 15000,
                 "Citation": "APA",
                 "OrderPrice": "£349.85",
-                "CustomerID": "MPW-456777",
+                "CustomerID": "MPW-456077",
                 "OrderRating": "5/5",
                 "University": "London School of Economics",
                 "Subject": "Economics",
@@ -208,13 +209,13 @@ const DissertationWriting  = () => {
                 "ResponsefromMyPerfectWriting": "We're glad we could elevate your thesis to the next level!",
                 "Date": "10th November 2023",
                 "image": "059.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Statistical Analysis for Dissertation",
                 "WordCount": 12000,
                 "Citation": "Chicago",
                 "OrderPrice": "£279.88",
-                "CustomerID": "MPW-558899",
+                "CustomerID": "MPW-558099",
                 "OrderRating": "5/5",
                 "University": "University of Manchester",
                 "Subject": "Psychology",
@@ -223,13 +224,13 @@ const DissertationWriting  = () => {
                 "ResponsefromMyPerfectWriting": "Delighted to have contributed to your academic success!",
                 "Date": "8th November 2023",
                 "image": "060.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Custom Dissertation Writing",
                 "WordCount": 10000,
                 "Citation": "MLA",
                 "OrderPrice": "£233.10",
-                "CustomerID": "MPW-662233",
+                "CustomerID": "MPW-664233",
                 "OrderRating": "4.8/5",
                 "University": "University of Cambridge",
                 "Subject": "English Literature",
@@ -238,13 +239,13 @@ const DissertationWriting  = () => {
                 "ResponsefromMyPerfectWriting": "We're proud to provide tailored assistance. Thank you for choosing us!",
                 "Date": "5th November 2023",
                 "image": "061.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Dissertation Proposal Writing",
                 "WordCount": 3500,
                 "Citation": "Harvard",
                 "OrderPrice": "£81.46",
-                "CustomerID": "MPW-774455",
+                "CustomerID": "MPW-770355",
                 "OrderRating": "5/5",
                 "University": "Imperial College London",
                 "Subject": "Engineering",
@@ -253,13 +254,13 @@ const DissertationWriting  = () => {
                 "ResponsefromMyPerfectWriting": "Thrilled to hear about your proposal's success. Congratulations!",
                 "Date": "30th October 2023",
                 "image": "062.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Doctoral Dissertation Editing",
                 "WordCount": 18000,
                 "Citation": "APA",
                 "OrderPrice": "£419.82",
-                "CustomerID": "MPW-886677",
+                "CustomerID": "MPW-806607",
                 "OrderRating": "4.9/5",
                 "University": "King's College London",
                 "Subject": "Philosophy",
@@ -268,13 +269,13 @@ const DissertationWriting  = () => {
                 "ResponsefromMyPerfectWriting": "We're pleased to have enhanced the quality of your work. Best wishes!",
                 "Date": "25th October 2023",
                 "image": "063.jpg"
-              },
-              {
+            },
+            {
                 "ServiceType": "Thesis Literature Review",
                 "WordCount": 8000,
                 "Citation": "Chicago",
                 "OrderPrice": "£186.32",
-                "CustomerID": "MPW-998877",
+                "CustomerID": "MPW-918807",
                 "OrderRating": "4.7/5",
                 "University": "University of Edinburgh",
                 "Subject": "History",
@@ -283,13 +284,43 @@ const DissertationWriting  = () => {
                 "ResponsefromMyPerfectWriting": "Your feedback is highly valued. We're happy to have met your expectations!",
                 "Date": "20th October 2023",
                 "image": "064.jpg"
-              }
+            }
 
 
         ];
 
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Dissertation Writing",
+  "provider": {
+    "@type": "Organization",
+    "name": "My Perfect Writing",
+    "url": "https://myperfectwriting.co.uk"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "description": "Our dissertation writing service offers professional assistance for students undertaking research projects. Trust our expert writers to guide you through the dissertation writing process, ensuring high-quality and well-researched content.",
+  "url": "https://myperfectwriting.co.uk/dissertation-writing-service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "ratingCount": "70"
+  }
+}`}
+                </script>
+            </Helmet>
+
+
             {/* Header section */}
             <div class="header">
                 <div className="upper">
@@ -344,8 +375,10 @@ const DissertationWriting  = () => {
                                             <p>Complimentary plagiarism/AI detection reports</p>
                                         </div>
                                     </div>
+                                    <a href="https://myperfectwriting.co.uk/portal/public/login">
 
-                                    <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                        <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                    </a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -480,7 +513,10 @@ const DissertationWriting  = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
-                                <button>Do my Paper</button>
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                                    <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -493,7 +529,7 @@ const DissertationWriting  = () => {
             {/* Faqs sectin  */}
             <div className="faqs">
                 <div className="faqTop">
-                <h3>Frequently Asked Questions</h3>
+                    <h3>Frequently Asked Questions</h3>
                     <p>Your trusted source for expert peer review services, offering comprehensive support for academic success.</p>
                 </div>
 
@@ -610,7 +646,7 @@ const DissertationWriting  = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -699,7 +735,10 @@ const DissertationWriting  = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
-                    <button>Get your Custom Paper Now</button>
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                        <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>
@@ -807,4 +846,4 @@ const DissertationWriting  = () => {
     )
 }
 
-export default DissertationWriting ;
+export default DissertationWriting;

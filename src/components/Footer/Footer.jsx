@@ -165,10 +165,10 @@ const Footer = () => {
             <div className="footer2">
                 <ul>
                     <h3>Others: </h3>
-                    <li><Link to="blog" onClick={scrollToTop}>Blog</Link></li>
+                    <li><Link to="blog">Blog</Link></li>
                     <li><Link to="contact-us">Contact Us</Link></li>
                     <li><Link to="about-our-service">About Us</Link></li>
-                    <li><Link to="faqs">FAQs</Link></li>
+                    <li><Link to="#">FAQs</Link></li>
                     <li><Link to="why-us">Why Us</Link></li>
                 </ul>
                 <di className="copy-wright">

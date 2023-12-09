@@ -16,7 +16,7 @@
 .faqTop h3 {
     color: #21383E;
     text-align: center;
-    font-size: 170px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -115,7 +115,7 @@
 
 .faq-question {
     color: #01593A;
-    font-size: 22px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -144,7 +144,7 @@
     .faqBottom {
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 300px;
+        margin-bottom: 800px;
 
     }
    

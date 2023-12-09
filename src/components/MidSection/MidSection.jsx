@@ -53,8 +53,8 @@ const MidSection = () => {
 
             <div className='midSect'>
                 <div className="MidtopContents">
-                    <h3>Follow Our Paper Writing Service On Social Media</h3>
-                    <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
+                    <h3>Exemplary Work Showcase</h3>
+                    <p>Dive into our curated selection of samples, demonstrating our commitment to quality, expertise, and unmatched academic proficiency. Your success is our top priority.</p>
                 </div>
                 <div className="Midmain">
                     <FontAwesomeIcon className='icon-burger' icon={faBars} onClick={handleToggleSidebar} />

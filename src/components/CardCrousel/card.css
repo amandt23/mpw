@@ -1,8 +1,8 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 .card {
     background: #F3F6FB;
@@ -11,10 +11,11 @@
     padding: 10px;
     margin: 10px 0px;
     margin-bottom: 60px;
-    width: 301px;
-    /* height: 383px; */
+    width: 308px;
+    height: 423px;
 }
-.Card-star-Icon{
+
+.Card-star-Icon {
     color: green;
 }
 
@@ -136,6 +137,7 @@ hr {
     background: #e0e0e0;
     outline: none;
 }
+
 /* .slider .range::-moz-range-progress{
     -webkit-appearance: none;
     background: red;
@@ -144,8 +146,8 @@ hr {
 
 
 
-  
-  
+
+
 
 .range1::-webkit-slider-thumb {
     appearance: none;
@@ -155,6 +157,7 @@ hr {
     background: #AAFEBB;
     cursor: pointer;
 }
+
 .range2::-webkit-slider-thumb {
     appearance: none;
     width: 20px;
@@ -163,6 +166,7 @@ hr {
     background: #FF9290;
     cursor: pointer;
 }
+
 .range3::-webkit-slider-thumb {
     appearance: none;
     width: 20px;
@@ -176,7 +180,7 @@ hr {
     max-width: 1377px;
     margin: 0 auto;
     padding: 0px 20px;
-    
+
 }
 
 /* Team  */
@@ -204,13 +208,13 @@ hr {
     font-weight: 700;
     line-height: normal;
 }
-.topSection p{
-    color: black;
-text-align: center;
-font-size: 22.295px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-max-width: 770.237px;
-}
 
+.topSection p {
+    color: black;
+    text-align: center;
+    font-size: 22.295px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 770.237px;
+}

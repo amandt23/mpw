@@ -3,12 +3,14 @@ import './mywriting.css'
 
 const MyWriting = () => {
 
-   
+
 
     return (
         <div className='writing'>
             <div className="paperBtn pulse-button">
-                <button>Get your Custom Paper Now</button>
+                <a href="https://myperfectwriting.co.uk/portal/public/login">
+                    <button>Get your Custom Paper Now</button>
+                </a>
             </div>
             <div className="wTop">
                 <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>

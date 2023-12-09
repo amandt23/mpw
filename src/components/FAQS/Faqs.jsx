@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './faqs.css'
-import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Faqs = () => {
 
@@ -15,13 +14,13 @@ const Faqs = () => {
         { question: 'Is coursework writing help available for university students?', answer: 'Yes, we offer bespoke coursework writing assistance, understanding the unique challenges and providing tailored support for university students.' },
     ];
     const faqData2 = [
-        { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
-        { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
-        { question: 'What support is available for undergraduate academic writing?', answer: 'Our custom essay services UK offer extensive resources, guidance, and personalised support to help undergraduate students excel in their academic writing endeavours.' },
-        { question: 'Are there writing services tailored for Masters and PhD students?', answer: 'Yes, we provide university level essay services in UK that cater to both Masters and PhD students, providing the depth and expertise required for these advanced levels of study.' },
-        { question: 'How can I develop my critical analysis writing skills?', answer: 'With our British university essay assistance, develop your critical analysis skills with our expert guidance, practical strategies, and personalised feedback at My Perfect Writing.' },
-        { question: 'Where can I find assistance with bibliographies and citations?', answer: 'Our team is adept at various citation styles, ensuring your academic work is accurately referenced and credible.' },
-        { question: 'Is 24/7 academic writing support available?', answer: 'With our fast turnaround essay services in UK, we can provide round-the-clock academic writing support, ensuring you have access to expert assistance anytime, anywhere.' },
+        { question: 'Do you provide services for writing or editing academic papers?', answer: 'While we specialize in professional writing support and offer assistance in crafting high-quality essays, our services do not extend to academic writing assistance, including university assignment help or student research papers. Our focus is on providing original, plagiarism-free essays and expert thesis assistance that adhere to ethical guidelines.' },
+        { question: 'Can I use your services for submitting directly to my university or college?', answer: 'Our custom essay services are designed to provide guidance and support in developing writing skills. They are not intended for direct submission as university or college assignments. We encourage using our services for learning and reference purposes to maintain academic integrity.' },
+        { question: 'Do you offer help with dissertations or theses for academic credit?', answer: 'We provide expert guidance and support in dissertation writing and thesis structure, but our services are not intended for use in fulfilling academic credit requirements. Our role is to assist in enhancing your writing skills and providing insights into effective research and writing techniques.' },
+        { question: 'Are your services suitable for professional academic researchers?', answer: 'While we offer comprehensive and detailed support in crafting quality essays and providing critical analysis, our services are primarily tailored for educational and learning purposes, and not specifically designed for professional academic researchers or for the publication in academic journals.' },
+        { question: 'Do you guarantee grades or academic success?', answer: 'Our commitment is to provide high-quality, tailored writing support and guidance. However, we do not guarantee specific grades or academic success as these depend on a multitude of factors beyond our control, including individual effort and institutional grading policies.' },
+        { question: 'Can your services be used for commercial or business writing?', answer: 'Our focus is primarily on academic and creative writing, including custom essays, insightful literary reviews, and innovative writing techniques. We do not specifically cater to commercial or business writing needs such as business plans, reports, or professional correspondence.' },
+        { question: 'Do you provide legal or medical writing services?', answer: 'Our expertise lies in academic and creative writing areas. We do not offer specialized services in legal or medical writing, which require specific professional expertise and knowledge in those fields.' },
         { question: 'How does My Perfect Writing ensure the quality of its services?', answer: 'Quality assurance is integral to our services, with each piece of work we offer free essay editing and proofreading UK services where your work undergo rigorous checks and revisions to meet the highest standards.' },
     ];
 
@@ -38,8 +37,8 @@ const Faqs = () => {
     return (
         <div className="faqs">
             <div className="faqTop">
-                <h3>FAQ?</h3>
-                <p>Discover the Gold Standard in Academic Support , Discover the Gold Standard in Academic Support </p>
+                <h3>Frequently Asked Questions</h3>
+                <p style={{ color: "black" }}>Explore answers to common queries about our bespoke writing services, demonstrating our unwavering commitment to excellence, expertise, and customer support.</p>
             </div>
 
             <div className="faqBottom">
@@ -51,7 +50,6 @@ const Faqs = () => {
                             <div key={index} className="faq-item">
                                 <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                     <div className="faq-q-right">
-
                                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
                                             <g clip-path="url(#clip0_94_4372)">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.803711 13.1436C0.803711 9.82835 2.12067 6.64892 4.46488 4.30472C6.80908 1.96052 9.9885 0.643555 13.3037 0.643555C16.6189 0.643555 19.7983 1.96052 22.1425 4.30472C24.4867 6.64892 25.8037 9.82835 25.8037 13.1436C25.8037 16.4588 24.4867 19.6382 22.1425 21.9824C19.7983 24.3266 16.6189 25.6436 13.3037 25.6436C9.9885 25.6436 6.80908 24.3266 4.46488 21.9824C2.12067 19.6382 0.803711 16.4588 0.803711 13.1436ZM12.5904 18.4936L19.787 9.49689L18.487 8.45689L12.3504 16.1252L8.00371 12.5036L6.93704 13.7836L12.5904 18.4952V18.4936Z" fill="#01593A" />
@@ -62,7 +60,9 @@ const Faqs = () => {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        {item.question}
+                                        <div className="faq-quetion">
+                                            {item.question}
+                                        </div>
                                     </div>
 
                                     {/* <div className="arrowDwon"> */}

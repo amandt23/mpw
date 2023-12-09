@@ -3,11 +3,13 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
-    height: 105.278px;
+    max-height: 105px;
+    width: 100%;
+    height: 100%;
     box-shadow: 0px 5.26389px 5.26389px 0px rgba(0, 0, 0, 0.25);
-    padding: 0px 10px;
-    z-index: 111;
+    padding: 0px 12px;
     color: black;
 }
 
@@ -54,7 +56,10 @@
     display: block;
 }
 
-
+.profileIcon{
+    /* position: relative;
+    z-index: 1; */
+}
 .profileIcon .hamburgerDropdown {
     display: none;
     position: absolute;
@@ -62,8 +67,9 @@
     color: #000;
     top: 75px;
     /* right: 125px; */
-    z-index: 22211111;
+    z-index: 1;
     border-radius: 10px;
+    right: 10px;
 
 }
 
@@ -74,7 +80,10 @@
 }
 
 .hamburgerDropdown a:hover {
+    cursor: pointer;
     color: #305F63;
+    text-decoration: underline;
+    text-underline-offset: 10px;
 
 }
 
@@ -153,8 +162,11 @@
 
 .dropdown .navArroIcon {
     margin-left: -20px;
+    transition: transform 0.3s ease;
 }
-
+.dropdown:hover .navArroIcon{
+    transform: rotate(180deg);
+}
 
 .dropdown:hover {
     color: white;
@@ -535,14 +547,6 @@
         margin: 30px 0px;
     }
 
-    .dropdown {
-        margin-left: -90px;
-    }
-
-    .dropdown1 {
-        margin-left: -80px;
-    }
-
     .dropdown-content {
         top: 158px;
     }
@@ -553,8 +557,7 @@
     }
 
     .profileIcon .hamburgerDropdown {
-        top: 490px;
-        right: 60px;
+        right: 40px;
 
 
     }
@@ -566,16 +569,26 @@
         height: 100px;
     }
 
-    .topnavBar {
-        padding: 0px 15px;
-    }
+    
     .dropdown-content a {
-        font-size: 16px;
+        font-size: 20px;
        
     }
     .subService-services {
         /* top: 10px; */
         right: -271px;
         
+    }
+    .SubService5{
+        right: -271px;
+    }
+    .SubService3{
+        right: -271px;
+    }
+    .SubService2{
+        right: -251px;
+    }
+    .SubService4{
+        right: -271px;
     }
 }

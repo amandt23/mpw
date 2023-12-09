@@ -315,7 +315,7 @@
 .blog-tags-list-card p {
     color: #000;
     text-align: center;
-    font-size: 5.803px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -326,8 +326,8 @@
 }
 
 .list-read-more-button button{
-    color: #96AFCE;
-    font-size: 12.54px;
+    color: #636d79;
+    font-size: 14.54px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

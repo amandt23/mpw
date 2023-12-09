@@ -10,6 +10,7 @@ import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
 
 
 const ResumeWriting = () => {
@@ -182,7 +183,7 @@ const ResumeWriting = () => {
                 "WordCount": 600,
                 "Citation": "Harvard",
                 "OrderPrice": "£41.94",
-                "CustomerID": "MPW-343533",
+                "CustomerID": "MPW-340933",
                 "OrderRating": "5/5",
                 "University": "University of Oxford",
                 "Subject": "Business Management",
@@ -197,7 +198,7 @@ const ResumeWriting = () => {
                 "WordCount": 450,
                 "Citation": "APA",
                 "OrderPrice": "£31.46",
-                "CustomerID": "MPW-343534",
+                "CustomerID": "MPW-345434",
                 "OrderRating": "5/5",
                 "University": "London School of Economics",
                 "Subject": "Finance",
@@ -212,7 +213,7 @@ const ResumeWriting = () => {
                 "WordCount": 300,
                 "Citation": "MLA",
                 "OrderPrice": "£20.97",
-                "CustomerID": "MPW-343535",
+                "CustomerID": "MPW-345835",
                 "OrderRating": "4.8/5",
                 "University": "University of Cambridge",
                 "Subject": "Sociology",
@@ -227,7 +228,7 @@ const ResumeWriting = () => {
                 "WordCount": 550,
                 "Citation": "Chicago",
                 "OrderPrice": "£38.45",
-                "CustomerID": "MPW-343536",
+                "CustomerID": "MPW-340936",
                 "OrderRating": "4.9/5",
                 "University": "Imperial College London",
                 "Subject": "Engineering Management",
@@ -242,7 +243,7 @@ const ResumeWriting = () => {
                 "WordCount": 400,
                 "Citation": "Harvard",
                 "OrderPrice": "£27.96",
-                "CustomerID": "MPW-343537",
+                "CustomerID": "MPW-345437",
                 "OrderRating": "5/5",
                 "University": "King's College London",
                 "Subject": "English Literature",
@@ -257,7 +258,7 @@ const ResumeWriting = () => {
                 "WordCount": 350,
                 "Citation": "APA",
                 "OrderPrice": "£24.47",
-                "CustomerID": "MPW-343538",
+                "CustomerID": "MPW-301538",
                 "OrderRating": "4.7/5",
                 "University": "University of Edinburgh",
                 "Subject": "Marketing",
@@ -272,7 +273,7 @@ const ResumeWriting = () => {
                 "WordCount": 500,
                 "Citation": "MLA",
                 "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343539",
+                "CustomerID": "MPW-344739",
                 "OrderRating": "5/5",
                 "University": "Manchester University",
                 "Subject": "Human Resources",
@@ -303,6 +304,37 @@ const ResumeWriting = () => {
 
     return (
         <>
+            <Helmet>
+
+                <script type="application/ld+json">
+                    {`
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Resume Writing",
+  "provider": {
+    "@type": "Organization",
+    "name": "My Perfect Writing",
+    "url": "https://myperfectwriting.co.uk"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "description": "My Perfect Writing offers a professional Resume Writing Service to help you create a standout and tailored resume. Our expert writers craft resumes that showcase your skills, experience, and achievements, increasing your chances of success in job applications.",
+  "url": "https://myperfectwriting.co.uk/resume-writing-service",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "ratingCount": "65"
+  }
+}`}
+                </script>
+            </Helmet>
+
+
+
             {/* Header section */}
             <div class="header">
                 <div className="upper">
@@ -357,8 +389,10 @@ const ResumeWriting = () => {
                                             <p>Complimentary Plagiarism/AI Detection Reports</p>
                                         </div>
                                     </div>
+                                    <a href="https://myperfectwriting.co.uk/portal/public/login">
 
-                                    <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                        <button className='rightBTN pulse-button'>Get Started Today!</button>
+                                    </a>
 
                                 </div>
                                 <div className="RightContentBottom">
@@ -493,7 +527,10 @@ const ResumeWriting = () => {
                                 <h2>FREE</h2>
                             </div>
                             <div className="doBtn">
-                                <button>Do my Paper</button>
+                                <a href="https://myperfectwriting.co.uk/portal/public/login">
+
+                                    <button>Do my Paper</button>
+                                </a>
                             </div>
 
                         </div>
@@ -623,7 +660,7 @@ const ResumeWriting = () => {
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
                             <h3>Privacy ?</h3>
                         </div>
-                        <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
+                        <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
                 </div>
 
@@ -712,7 +749,10 @@ const ResumeWriting = () => {
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="paperBtn pulse-button">
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+
                     <button>Get your Custom Paper Now</button>
+                    </a>
                 </div>
                 <div className="wTop">
                     <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>
