@@ -39,7 +39,7 @@ const Faqs = () => {
         <div className="faqs">
             <div className="faqTop">
                 <h3>Frequently Asked Questions</h3>
-                <p style={{color:"black"}}>Explore answers to common queries about our bespoke writing services, demonstrating our unwavering commitment to excellence, expertise, and customer support.</p>
+                <p style={{ color: "black" }}>Explore answers to common queries about our bespoke writing services, demonstrating our unwavering commitment to excellence, expertise, and customer support.</p>
             </div>
 
             <div className="faqBottom">
@@ -62,7 +62,7 @@ const Faqs = () => {
                                             </defs>
                                         </svg>
                                         <div className="faq-quetion">
-                                        {item.question}
+                                            {item.question}
                                         </div>
                                     </div>
 

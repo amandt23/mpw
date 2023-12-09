@@ -2,12 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 body {
     zoom: 70%;
+
   }
   button:hover{
     cursor: pointer;
  }
+ @font-face {
+  font-family: roboto;
+  src: url(../public/Roboto-Regular.ttf);
+ }
+ h1,h2,h3,h4,p,a,button{
+  font-family: 'Roboto', sans-serif;
+
+ }
+
  
