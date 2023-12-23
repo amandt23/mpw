@@ -6,6 +6,8 @@ const Privacy = () => {
     return (
         <>
             <Helmet>
+                <title>Your Data, Our Care - Privacy Matters</title>
+                <meta name="description" content="Review our comprehensive Privacy Policy at My Perfect Writing, ensuring the utmost protection of your personal data. We are committed to data integrity, security, and compliance with UK privacy laws. Learn about how we handle and protect your information." />
 
                 <script type="application/ld+json">
                     {`

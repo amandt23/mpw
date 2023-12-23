@@ -24,11 +24,11 @@ const Createive = () => {
     <div className="MidnavContents">
       <div className="sidebar">
         <ul>
-          <li onClick={() => handleClick('Admission Essay')}>Admission Essay</li>
-          <li onClick={() => handleClick('Annotated Bibliography ')}>Annotated Bibliography </li>
-          <li onClick={() => handleClick('Case Study')}>Poem</li>
-          <li onClick={() => handleClick('Critical Review')}>Reflective Writing</li>
-          <li onClick={() => handleClick('Literature Review')}>Short Story</li>
+          <li onClick={() => handleClick('Admission Essay')}><h4>Admission Essay</h4></li>
+          <li onClick={() => handleClick('Annotated Bibliography ')}><h4>Annotated Bibliography</h4> </li>
+          <li onClick={() => handleClick('Case Study')}><h4>Poem</h4></li>
+          <li onClick={() => handleClick('Critical Review')}><h4>Reflective Writing</h4></li>
+          <li onClick={() => handleClick('Literature Review')}><h4>Short Story</h4></li>
           {/* <li onClick={() => handleClick('Term Paper')}>Term Paper</li> */}
         </ul>
       </div>

@@ -5,7 +5,7 @@ const MyTeam = () => {
     return (
         <div className="myteam">
             <div className="topSection">
-                    <h3>Meet Our Expert Writer</h3>
+                    <h2>Meet Our Expert Writer</h2>
                     <p>Empowering Your Academic Journey with Authority, Expertise, and Experience</p>
             </div>
             <div className="CrouselSection">

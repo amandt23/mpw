@@ -11,7 +11,7 @@ import PresentationCaseStudy from '../SideBarContents/presentation/PresentationC
 import Medical from '../SideBarContents/presentation/Medical';
 import Pyschological from '../SideBarContents/presentation/Pyschological';
 import Religion from '../SideBarContents/presentation/Religion';
-import ResearchPaper from '../SideBarContents/presentation/Religion';
+import ResearchPaper from '../SideBarContents/presentation/ResearchPaper ';
 import SociologyPresentation from '../SideBarContents/presentation/SociologyPresentation';
 
 const Representation = () => {
@@ -31,13 +31,13 @@ const Representation = () => {
     <div className="MidnavContents">
       <div className="sidebar">
         <ul>
-          <li onClick={() => handleClick('Admission Essay')}>Biology Presentation</li>
-          <li onClick={() => handleClick('Annotated Bibliography ')}>Case Study </li>
-          <li onClick={() => handleClick('Case Study')}>Medical Presentation</li>
-          <li onClick={() => handleClick('Critical Review')}>Pyschological Presentation</li>
-          <li onClick={() => handleClick('Literature Review')}>Religion Presentaion</li>
-          <li onClick={() => handleClick('Term Paper')}>Research Paper Presentation</li>
-          <li onClick={() => handleClick('Sociology')}>Sociology Presentation</li>
+          <li onClick={() => handleClick('Admission Essay')}><h4>Biology Presentation</h4></li>
+          <li onClick={() => handleClick('Annotated Bibliography ')}><h4>Case Study</h4> </li>
+          <li onClick={() => handleClick('Case Study')}><h4>Medical Presentation</h4></li>
+          <li onClick={() => handleClick('Critical Review')}><h4>Pyschological Presentation</h4></li>
+          <li onClick={() => handleClick('Literature Review')}><h4>Religion Presentaion</h4></li>
+          <li onClick={() => handleClick('Term Paper')}><h4>Research Paper Presentation</h4></li>
+          <li onClick={() => handleClick('Sociology')}><h4>Sociology Presentation</h4></li>
         </ul>
       </div>
       <div className="MidsideContents">
@@ -46,7 +46,7 @@ const Representation = () => {
         {activeSidebar === 'Case Study' && <Medical />}
         {activeSidebar === 'Critical Review' && <Pyschological />}
         {activeSidebar === 'Literature Review' && <Religion />}
-        {activeSidebar === 'Term Paper' && <ResearchPaper  />}
+        {activeSidebar === 'Term Paper' && <ResearchPaper />}
         {activeSidebar === 'Sociology' && <SociologyPresentation  />}
 
       </div>

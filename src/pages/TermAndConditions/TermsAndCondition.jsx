@@ -7,6 +7,8 @@ const TermsAndCondition = () => {
     return (
         <>
             <Helmet>
+                <title>Terms and Conditions: Your Academic Guide</title>
+                <meta name="description" content="Explore the terms and conditions of My Perfect Writing, outlining our commitment to academic excellence in the UK. Learn about our service policies, customer responsibilities, and our dedication to quality and integrity in providing academic support." />
 
                 <script type="application/ld+json">
                     {`

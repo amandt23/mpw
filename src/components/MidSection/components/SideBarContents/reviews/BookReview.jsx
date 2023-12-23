@@ -16,35 +16,35 @@ const BookReview = () => {
         <div className="sidbarContents">
             <div className="Sidecard">
                 <div className="HeadContents date">
-                    <h2>Date: </h2>
+                    <p><strong>Date:</strong> </p>
                     <p>October 1, 2023</p>
                 </div>
-                <h1>Book Review</h1>
+                <span><strong>Book Review</strong></span>
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
-                            <h2>Subjec: </h2>
+                            <p><strong>Subject:</strong></p>
                             <p>Philosophy and Personal Development</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Academic Level: </h2>
+                            <p><strong>Academic Level:</strong></p>
                             <p>University/General Interest</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Word Count: </h2>
+                            <p><strong>Word Count:</strong></p>
                             <p>1,200</p>
                         </div>
 
                     </div>
 
                     <div className="HeadContents desc">
-                        <h2>Short Description: </h2>
+                        <p><strong>Short Description:</strong> </p>
                         <p>A critical and reflective review of Manson's work, exploring the philosophical and psychological aspects of hope in modern society.</p>
                     </div>
 
                     <div className="cardFooter">
                         <div className="HeadContents">
-                            <h2>Rating: </h2>
+                            <p><strong>Rating:</strong> </p>
                             <p style={{ marginTop: "-3px" }}>
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
@@ -55,22 +55,22 @@ const BookReview = () => {
                             </p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Author: </h2>
+                            <p><strong>Author:</strong></p>
                             <p>Thomas Bell</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Citation: </h2>
+                            <p><strong>Citation:</strong> </p>
                             <p>HarperCollins Publishers, 2021</p>
                         </div>
                         <div className="HeadContents ">
-                            <h2>Type: </h2>
+                            <p><strong>Type:</strong> </p>
                             <p>Book Review</p>
                         </div>
 
                     </div>
                 </div>
                 <div className="tags">
-                    <h3>Tags:</h3>
+                    <p><strong>Tags:</strong></p>
                     <div className="btns">
                         <button>#MarkManson</button>
                         <button>#Philosophy </button>

@@ -25,12 +25,12 @@ export const Academic = () => {
       <div className="MidnavContents">
         <div className="sidebar">
           <ul>
-            <li onClick={() => handleClick('Admission Essay')}>Admission Essay</li>
-            <li onClick={() => handleClick('Annotated Bibliography ')}>Annotated Bibliography </li>
-            <li onClick={() => handleClick('Case Study')}>Case Study</li>
-            <li onClick={() => handleClick('Critical Review')}>Critical Review</li>
-            <li onClick={() => handleClick('Literature Review')}>Literature Review</li>
-            <li onClick={() => handleClick('Term Paper')}>Term Paper</li>
+            <li onClick={() => handleClick('Admission Essay')}><h4>Admission Essay</h4></li>
+            <li onClick={() => handleClick('Annotated Bibliography ')}><h4>Annotated Bibliography</h4> </li>
+            <li onClick={() => handleClick('Case Study')}><h4>Case Study</h4></li>
+            <li onClick={() => handleClick('Critical Review')}><h4>Critical Review</h4></li>
+            <li onClick={() => handleClick('Literature Review')}><h4>Literature Review</h4></li>
+            <li onClick={() => handleClick('Term Paper')}><h4>Term Paper</h4></li>
           </ul>
         </div>
         <div className="MidsideContents">

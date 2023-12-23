@@ -7,6 +7,8 @@ const RefundPolicy = () => {
     return (
         <>
             <Helmet>
+                <title>Fair Refund & Cancellation - Our Promise</title>
+                <meta name="description" content="Understand the transparent Refunds and Cancellations policy of My Perfect Writing. Offering clear guidelines on order cancellations, late deliveries, quality disputes, and refunds, we ensure fairness and clarity in every transaction. Your trust, our commitment" />
 
                 <script type="application/ld+json">
                     {`

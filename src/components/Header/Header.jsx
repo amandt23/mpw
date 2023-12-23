@@ -25,7 +25,7 @@ const Header = () => {
         <div class="header">
             <div className="upper">
                 <div class="headerTop">
-                    <h3>My Perfect Writing: Premier Essay Writing Service in UK</h3>
+                    <h1>My Perfect Writing: Premier Essay Writing Service in UK</h1>
                     <p>Expert Academic Assistance for Students, Academic Professionals, and Researchers</p>
                 </div>  
 
@@ -33,7 +33,7 @@ const Header = () => {
                     <div class="headerCard">
                         <div className="headerCardContents">
 
-                            <h4>Do Not Trust Us; Test Us</h4>
+                            <p>Do Not Trust Us; Test Us</p>
                             <p><span className='blinking-price'>(£6.99/Page For Everyone)</span> </p>
                             <div class="headerInputs">
                                 <div class="inputContents">

@@ -7,6 +7,9 @@ const AcademicIntegrity = () => {
     return (
         <>
             <Helmet>
+                <title>Integrity First: Ethical Academic Excellence</title>
+                <meta name="description" content="Upholding Academic Integrity: My Perfect Writing sets high ethical
+                 standards in academic assistance. Learn about our commitment to honesty, anti-plagiarism, and ethical support for students and educators in the UK. Your academic integrity is our priority." />
 
                 <script type="application/ld+json">
                     {`

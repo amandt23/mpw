@@ -16,35 +16,35 @@ const SociologyPresentation = () => {
         <div className="sidbarContents">
             <div className="Sidecard">
                 <div className="HeadContents date">
-                    <h2>Date: </h2>
+                    <p><strong>Date:</strong> </p>
                     <p>October 3, 2023</p>
                 </div>
-                <h1>Sociology Presentation</h1>
+                <span><strong>Sociology Presentation</strong></span>
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
-                            <h2>Subjec: </h2>
+                            <p><strong>Subject:</strong> </p>
                             <p>Sociology and Counterterrorism</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Academic Level: </h2>
+                            <p><strong>Academic Level:</strong> </p>
                             <p>University/Postgraduate</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Word Count: </h2>
+                            <p><strong>Word Count:</strong> </p>
                             <p>22 Slides</p>
                         </div>
 
                     </div>
 
                     <div className="HeadContents desc">
-                        <h2>Short Description: </h2>
+                        <p><strong>Short Description:</strong> </p>
                         <p>An in-depth exploration of homegrown terrorism in the U.S., analyzing its evolution, motives, and impacts on society and policy.</p>
                     </div>
 
                     <div className="cardFooter">
                         <div className="HeadContents">
-                            <h2>Rating: </h2>
+                            <p><strong>Rating:</strong> </p>
                             <p style={{ marginTop: "-3px" }}>
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
@@ -55,22 +55,22 @@ const SociologyPresentation = () => {
                             </p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Author: </h2>
+                            <p><strong>Author: </strong></p>
                             <p>Elizabeth Morgan</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Citation: </h2>
+                            <p><strong>Citation:</strong> </p>
                             <p>APA</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Type: </h2>
+                            <p><strong>Type:</strong> </p>
                             <p>PowerPoint Presentation</p>
                         </div>
 
                     </div>
                 </div>
                 <div className="tags">
-                    <h3>Tags:</h3>
+                   <p><strong>Tags:</strong></p>
                     <div className="btns">
                         <button>#Extremism</button>
                         <button>#Terrorism</button>

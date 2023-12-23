@@ -23,11 +23,11 @@ const Reviews = () => {
     <div className="MidnavContents">
       <div className="sidebar">
         <ul>
-          <li onClick={() => handleClick('Admission Essay')}>Article Review</li>
-          <li onClick={() => handleClick('Annotated Bibliography ')}>Book Review</li>
-          <li onClick={() => handleClick('Case Study')}>Concert Review</li>
-          <li onClick={() => handleClick('Critical Review')}>Movie Review</li>
-          <li onClick={() => handleClick('Literature Review')}>Philosophical Review</li>
+          <li onClick={() => handleClick('Admission Essay')}><h4>Article Review</h4></li>
+          <li onClick={() => handleClick('Annotated Bibliography ')}><h4>Book Review</h4></li>
+          <li onClick={() => handleClick('Case Study')}><h4>Concert Review</h4></li>
+          <li onClick={() => handleClick('Critical Review')}><h4>Movie Review</h4></li>
+          <li onClick={() => handleClick('Literature Review')}><h4>Philosophical Review</h4></li>
           {/* <li onClick={() => handleClick('Term Paper')}>Term Paper</li> */}
         </ul>
       </div>

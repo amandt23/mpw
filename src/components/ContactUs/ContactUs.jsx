@@ -42,6 +42,10 @@ const ContactUs = () => {
     return (
         <>
             <Helmet>
+                <title>Get In Touch - Your Academic Allies Await</title>
+                <meta name="description" content="Connect with My Perfect Writing for any queries or assistance. Our
+                 team is ready to support your academic journey in the UK. Contact us for tailored 
+                 academic assistance, information, and guidance. Your success begins here." />
 
                 <script type="application/ld+json">
                     {`

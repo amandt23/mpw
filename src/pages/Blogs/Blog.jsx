@@ -31,6 +31,9 @@ const Blog = () => {
 <>
 <Helmet>
 
+                <title>Insightful Blog - Tips for Academic Triumph</title>
+                <meta name="description" content=" Dive into the My Perfect Writing Blog for valuable insights, tips, and academic guidance. Explore a range of topics designed to enhance your learning experience and academic success in the UK. Stay informed, inspired, and ahead in your academic journey." />
+
 <script type="application/ld+json">
     {`
   {
@@ -65,7 +68,7 @@ const Blog = () => {
           </div> */}
         </div>
         <div className="blogHBottom">
-          <h3>Essay writing with EssayPro</h3>
+          <h1>Essay writing with EssayPro</h1>
           <p>You don't have to worry about pressing deadlines and sleepless nights. Our essay writing service pros love to share valuable tips, making your life much simpler. Some of tips and a lot of other useful information, you can find on our blog. So, enjoy the goldmine of information and ace your academic assignments stress-free. </p>
           <hr />
         </div>
@@ -85,7 +88,7 @@ const Blog = () => {
       <div className="blogingSection">
         <div className="blogSidebar">
           <div className="all-posts-left">
-            <h3>All Post</h3>
+            <h2>All Post</h2>
             <ul>
               <li>Essay Writing Tips</li>
               <li>Types of Essays</li>

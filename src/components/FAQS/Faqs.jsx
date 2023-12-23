@@ -37,7 +37,7 @@ const Faqs = () => {
     return (
         <div className="faqs">
             <div className="faqTop">
-                <h3>Frequently Asked Questions</h3>
+                <h2>Frequently Asked Questions</h2>
                 <p style={{ color: "black" }}>Explore answers to common queries about our bespoke writing services, demonstrating our unwavering commitment to excellence, expertise, and customer support.</p>
             </div>
 
@@ -61,7 +61,7 @@ const Faqs = () => {
                                             </defs>
                                         </svg>
                                         <div className="faq-quetion">
-                                            {item.question}
+                                            <h4>{item.question}</h4>
                                         </div>
                                     </div>
 
@@ -73,7 +73,7 @@ const Faqs = () => {
                                 </div>
                                 {openIndex === index && (
                                     <div className="faq-answer ">
-                                        {item.answer}
+                                        <p>{item.answer}</p>
                                     </div>
                                 )}
                             </div>
@@ -100,7 +100,9 @@ const Faqs = () => {
                                                 </clipPath>
                                             </defs>
                                         </svg>
-                                        {item.question}
+                                        
+                                        <h4>{item.question}</h4>
+
                                     </div>
 
                                     {/* <div className="arrowDwon"> */}
@@ -111,7 +113,7 @@ const Faqs = () => {
                                 </div>
                                 {openIndex2 === index && (
                                     <div className="faq-answer">
-                                        {item.answer}
+                                        <p>{item.answer}</p>
                                     </div>
                                 )}
                             </div>

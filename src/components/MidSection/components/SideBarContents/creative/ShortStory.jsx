@@ -17,35 +17,35 @@ const ShortStory = () => {
         <div className="sidbarContents">
             <div className="Sidecard">
             <div className="HeadContents date">
-                        <h2>Date: </h2>
+                        <p><strong>Date:</strong> </p>
                         <p>August 30, 2023</p>
                     </div>
-                <h1>Short Story</h1>
+                <span><strong>Short Story</strong></span>
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
-                            <h2>Subjec: </h2>
+                            <p><strong>Subject:</strong> </p>
                             <p>Mental Health and Personal Growth</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Academic Level: </h2>
+                            <p><strong>Academic Level:</strong> </p>
                             <p>All Levels</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Word Count: </h2>
+                            <p><strong>Word Count:</strong> </p>
                             <p>3,500</p>
                         </div>
 
                     </div>
                    
                     <div className="HeadContents desc">
-                        <h2>Short Description: </h2>
+                        <p><strong>Short Description:</strong> </p>
                         <p>A poignant and immersive short story portraying the journey of Asma, confronting and overcoming her traumatic past.</p>
                     </div>
 
                     <div className="cardFooter">
                         <div className="HeadContents">
-                            <h2>Rating: </h2>
+                            <p><strong>Rating:</strong> </p>
                             <p style={{ marginTop: "-3px" }}>
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
@@ -56,22 +56,22 @@ const ShortStory = () => {
                             </p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Author: </h2>
+                            <p><strong>Author:</strong> </p>
                             <p>Lucy Edwards</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Citation: </h2>
+                            <p><strong>Citation:</strong> </p>
                             <p>N/A</p>
                         </div>
                         <div className="HeadContents ">
-                            <h2>Type: </h2>
+                            <p><strong>Type:</strong> </p>
                             <p>Short Story</p>
                         </div>
 
                     </div>
                 </div>
                 <div className="tags">
-                    <h3>Tags:</h3>
+                    <p><strong>Tags:</strong></p>
                     <div className="btns">
                         <button>#MentalHealth</button>
                         <button>#PersonalGrowth</button>

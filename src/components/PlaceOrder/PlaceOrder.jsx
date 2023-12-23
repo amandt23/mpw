@@ -8,7 +8,7 @@ const PlaceOrder = () => {
     return (
         <div className='place-order'>
             <div className="order-top">
-                <h3>How to Use Our Service</h3>
+                <h2>How to Use Our Service</h2>
                 <p>Experience seamless academic support with our user-friendly platform, designed to ensure confidentiality and quality at every step.</p>
             </div>
             <div className="order-bottom">
@@ -19,7 +19,7 @@ const PlaceOrder = () => {
 
                         </div>
                         <div className="form-bottom">
-                            <h3>1. Login</h3>
+                            <p><strong>1. Login</strong></p>
                             <p>Log in to our client portal and choose a pseudonym to safeguard your privacy.</p>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const PlaceOrder = () => {
                             </svg>
                         </div>
                         <div className="form-bottom">
-                            <h3>1. Provide order details</h3>
+                            <p><strong>1. Provide order details</strong></p>
                             <p>Provide your order details and upload any necessary instruction files</p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const PlaceOrder = () => {
 
                         </div>
                         <div className="form-bottom">
-                            <h3>1. Proceed to checkout</h3>
+                            <p><strong>1. Proceed to checkout</strong></p>
                             <p>Proceed to checkout, and our top-tier writers will commence work on your order promptly</p>
                         </div>
                     </div>

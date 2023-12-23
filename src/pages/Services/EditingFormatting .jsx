@@ -339,7 +339,7 @@ const EditingFormatting = () => {
             <div class="header">
                 <div className="upper">
                     <div class="headerTop">
-                        <h3>My Perfect Writing: Premier Editing & Formatting Service in UK</h3>
+                        <h1>My Perfect Writing: Premier Editing & Formatting Service in UK</h1>
                         <p>Tailored Academic Support for Students, Academic Professionals, and Researchers</p>
                     </div>
 
@@ -413,7 +413,7 @@ const EditingFormatting = () => {
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
-                    <h3>Meet Our Expert Academic Writers</h3>
+                    <h2>Meet Our Expert Academic Writers</h2>
                     <p>Bringing Authority, Expertise, and Unparalleled Experience in Academic Proofreading and Editing</p>
                 </div>
                 <div className="CrouselSection">
@@ -431,7 +431,7 @@ const EditingFormatting = () => {
             {/* cards pricing section  */}
             <div className="price " id="pricing-section">
                 <div className="pricTop">
-                    <h3>Why Choose Our Editing & Formatting Services?</h3>
+                    <h2>Why Choose Our Editing & Formatting Services?</h2>
                     <p>Experience unparalleled expertise and commitment with our proofreading and formatting services, tailored for academic excellence.</p>
                 </div>
 
@@ -444,7 +444,7 @@ const EditingFormatting = () => {
                                 <path d="M10.1831 20.7295H13.3831V19.167H14.9831C15.4365 19.167 15.8167 19.017 16.1239 18.717C16.4311 18.417 16.5842 18.0462 16.5831 17.6045V12.917C16.5831 12.4743 16.4295 12.1029 16.1223 11.8029C15.8151 11.5029 15.4354 11.3535 14.9831 11.3545H10.1831V9.79199H16.5831V6.66699H13.3831V5.10449H10.1831V6.66699H8.58313C8.1298 6.66699 7.74953 6.81699 7.44233 7.11699C7.13513 7.41699 6.98206 7.78783 6.98313 8.22949V12.917C6.98313 13.3597 7.13673 13.7311 7.44393 14.0311C7.75113 14.3311 8.13086 14.4805 8.58313 14.4795H13.3831V16.042H6.98313V19.167H10.1831V20.7295ZM22.9831 19.5576L26.1831 16.4326H19.7831L22.9831 19.5576ZM19.7831 9.79199H26.1831L22.9831 6.66699L19.7831 9.79199ZM3.78313 25.417C2.90313 25.417 2.14953 25.1107 1.52233 24.4982C0.895132 23.8857 0.582066 23.1503 0.583133 22.292V3.54199C0.583133 2.68262 0.896733 1.94668 1.52393 1.33418C2.15113 0.721682 2.9042 0.415953 3.78313 0.416995H29.3831C30.2631 0.416995 31.0167 0.723244 31.6439 1.33574C32.2711 1.94824 32.5842 2.68366 32.5831 3.54199V22.292C32.5831 23.1514 32.2695 23.8873 31.6423 24.4998C31.0151 25.1123 30.2621 25.418 29.3831 25.417H3.78313Z" fill="#01593A" />
                             </svg> */}
                                 {card.icon1}
-                                <h4>{card.title}</h4>
+                                <h3>{card.title}</h3>
                                 <p>{card.desc}</p>
                                 {card.icon2}
                             </div>
@@ -453,7 +453,7 @@ const EditingFormatting = () => {
 
                     <div className="priceRightCard">
                         {/* <div className="card"> */}
-                        <h3>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</h3>
+                        <p><strong>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</strong></p>
                         <div className="cardContents">
                             <div className="cardOneSect">
                                 <div className="cardOneLeft">
@@ -462,7 +462,7 @@ const EditingFormatting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -473,7 +473,7 @@ const EditingFormatting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -484,7 +484,7 @@ const EditingFormatting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -495,7 +495,7 @@ const EditingFormatting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -506,7 +506,7 @@ const EditingFormatting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -517,14 +517,14 @@ const EditingFormatting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
                             <div className="allFeatures">
-                                <h4>Get all these feaures of</h4>
+                                <p>Get all these feaures of</p>
                                 <p>15.99</p>
-                                <h2>FREE</h2>
+                                <p>FREE</p>
                             </div>
                             <div className="doBtn">
                                 <a href="https://myperfectwriting.co.uk/portal/public/login">
@@ -543,7 +543,7 @@ const EditingFormatting = () => {
             {/* Faqs sectin  */}
             <div className="faqs">
                 <div className="faqTop">
-                    <h3>Frequently Asked Questions about Our Editing & Formatting Services</h3>
+                    <h2>Frequently Asked Questions about Our Editing & Formatting Services</h2>
                     <p>Expert answers to your queries, reflecting our dedication to providing top-notch academic proofreading services.Your go-to source for expert academic assistance, offering reliable and comprehensive editing and proofreading services.</p>
                 </div>
 
@@ -567,7 +567,7 @@ const EditingFormatting = () => {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            {item.question}
+                                            <h4>{item.question}</h4>
                                         </div>
 
                                         {/* <div className="arrowDwon"> */}
@@ -605,7 +605,7 @@ const EditingFormatting = () => {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            {item.question}
+                                            <h4>{item.question}</h4>
                                         </div>
 
                                         {/* <div className="arrowDwon"> */}
@@ -634,7 +634,7 @@ const EditingFormatting = () => {
             {/* review section  */}
             <div className="review">
                 <div className="reviewTop">
-                    <h3>Client Reviews: Reflecting Our Excellence in Editing & Formatting Services</h3>
+                    <h2>Client Reviews: Reflecting Our Excellence in Editing & Formatting Services</h2>
                     <p>Discover how our editing and formatting expertise has transformed academic projects, as endorsed by our esteemed clientele.</p>
                 </div>
 
@@ -644,21 +644,21 @@ const EditingFormatting = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="47" viewBox="0 0 46 47" fill="none">
                                 <path d="M13.3978 35.0356C11.0335 34.2475 8.66915 35.2506 8.09598 37.2567C7.52281 39.1911 8.88409 41.4122 11.2484 42.2003C13.6128 42.9884 15.9771 41.9853 16.5503 39.9792C17.1234 37.9731 15.7621 35.7521 13.3978 35.0356ZM4.80024 41.4122C4.01213 42.057 3.94049 43.275 4.5853 44.2064C5.30177 45.1378 6.44811 45.3527 7.30787 44.7795C8.09598 44.1347 8.16763 42.9167 7.52281 41.9853C6.87799 41.0539 5.58835 40.839 4.80024 41.4122ZM44.4207 16.9807C44.4207 15.0463 43.4893 13.3267 42.128 12.2521V11.8222C42.128 8.81302 39.7637 6.3054 36.8262 6.3054H36.253C35.1067 4.37094 33.1006 3.00966 30.7363 3.00966C29.3033 3.00966 28.0137 3.43954 27.0106 4.22765C25.6494 3.00966 23.7866 2.1499 21.7805 2.1499C18.4847 2.1499 15.6905 4.37094 14.7591 7.45174C13.6844 6.66363 12.3231 6.23375 10.8902 6.23375C7.09293 6.23375 4.01213 9.38619 4.01213 13.2551C4.01213 14.4014 4.29872 15.4761 4.7286 16.4792C2.7225 17.9121 1.43286 20.2765 1.43286 22.999C1.43286 27.4411 4.94354 31.0234 9.24232 31.0234C10.8185 31.0234 12.3231 30.5219 13.5411 29.7338C14.1859 33.1012 17.1234 35.6804 20.6341 35.6804C23.2134 35.6804 25.5061 34.2475 26.7957 32.1698C27.6555 33.0295 28.8734 33.6027 30.2347 33.6027C32.7424 33.6027 34.8201 31.5966 35.035 29.089C35.6082 29.3039 36.253 29.4472 36.8979 29.4472C39.9786 29.4472 42.4863 26.8679 42.4863 23.7155C42.4863 23.0707 42.343 22.4258 42.1997 21.8527C43.4893 20.6347 44.4207 18.9152 44.4207 16.9807Z" fill="#00A12D" />
                             </svg>
-                            <h3>Thoughts ?</h3>
+                            <p><strong>Thoughts ?</strong></p>
                         </div>
                         <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
                     </div>
                     <div className="privacy-card">
                         <div className="pcardTop">
                             <FaEye style={{ color: "green", fontSize: "40px" }} />
-                            <h3>Reality ?</h3>
+                            <p><strong>Reality ?</strong></p>
                         </div>
                         <p>Essay writing clients are naturally cautious about revealing their identity, which makes them reluctant to leave reviews. </p>
                     </div>
                     <div className="privacy-card">
                         <div className="pcardTop">
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
-                            <h3>Privacy ?</h3>
+                            <p><strong>Privacy ?</strong></p>
                         </div>
                         <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
@@ -671,20 +671,20 @@ const EditingFormatting = () => {
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">
-                                        <h3>Service Type:</h3>
+                                        <p>Service Type:</p>
                                         <p>{item.ServiceType}</p>
                                     </div>
                                     <div className="sec1Mid">
-                                        <h3>Word Count:</h3>
+                                        <p>Word Count:</p>
                                         <p>{item.WordCount}</p>
                                     </div>
                                     <div className="sec1Bottom">
                                         <div className="BottLeft">
-                                            <h3>Citation:</h3>
+                                            <p>Citation:</p>
                                             <p>{item.Citation}</p>
                                         </div>
                                         <div className="BottRight">
-                                            <h3>Price:</h3>
+                                            <p>Price:</p>
                                             <p>{item.OrderPrice}</p>
                                         </div>
                                     </div>
@@ -692,7 +692,7 @@ const EditingFormatting = () => {
 
                                 <div className="sect2">
                                     <img src={`./images/Animal avatars/${item.image}`} alt="editing-image" />
-                                    <h3>{item.CustomerID}</h3>
+                                    <p>{item.CustomerID}</p>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="58" height="10" viewBox="0 0 58 10" fill="none">
                                         <path d="M2.45668 9.89245L3.26518 6.579L0.576904 4.35133L4.11803 4.05821L5.50487 0.933105L6.89172 4.05759L10.4322 4.3507L7.74456 6.57838L8.55306 9.89183L5.50487 8.13314L2.45668 9.89245Z" fill="#00A22D" />
                                         <path d="M14.1038 9.89245L14.9123 6.579L12.2241 4.35133L15.7652 4.05821L17.152 0.933105L18.5389 4.05759L22.0793 4.3507L19.3917 6.57838L20.2002 9.89183L17.152 8.13314L14.1038 9.89245Z" fill="#00A22D" />
@@ -706,13 +706,13 @@ const EditingFormatting = () => {
                                 <div className="sect3">
                                     <div className="sect3Top">
                                         <div className="input">
-                                            <h3>Subject: {item.Subject} </h3>
+                                            <p>Subject: {item.Subject} </p>
                                             <hr />
                                             <p>{item.Review}</p>
                                         </div>
                                     </div>
                                     <div className="sect3Tags">
-                                        <h3>Tags</h3>
+                                        <p>Tags</p>
                                         {item.Tags && item.Tags.length > 0 ? (
                                             item.Tags.map((tag, tagIndex) => (
                                                 <button key={tagIndex}>{tag}</button>
@@ -726,7 +726,7 @@ const EditingFormatting = () => {
                                 <div className="sect4">
                                     <div className="sect4Top">
                                         <div className="input">
-                                            <h3>Responce from MyPerfectWriting</h3>
+                                            <p>Responce from MyPerfectWriting</p>
                                             <hr />
                                             <p>{item.ResponsefromMyPerfectWriting}</p>
                                         </div>
@@ -755,13 +755,13 @@ const EditingFormatting = () => {
                     </a>
                 </div>
                 <div className="wTop">
-                    <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>
+                    <h2>My Perfect Writing- Top Essay Writing Service in UK</h2>
                     <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
                 </div>
 
                 <div className="wPdf">
                     <div className="leftText">
-                        <h2>Understanding the Crucial Role of Academic Formatting in Education</h2>
+                        <h3><strong>Understanding the Crucial Role of Academic Formatting in Education</strong></h3>
                         <p>
                             In the realm of academia, the power of precise editing and formatting cannot be overstated. At My Perfect Writing, our <strong>Editing & Formatting Service in the UK</strong> is designed to highlight the significance of this often-overlooked aspect of academic writing. Academic formatting is not just about adhering to stylistic guidelines; it's about presenting your research and arguments in a clear, coherent, and professionally acceptable manner. This meticulous process enhances the readability and credibility of your work, whether it's an essay, thesis, dissertation, or a scholarly article.
                         </p>
@@ -775,7 +775,8 @@ const EditingFormatting = () => {
                             Whether it's an <em>assignment review service</em>, <em>study material layout</em>, or comprehensive manuscript preparation, our team of experts is equipped to handle a diverse range of academic documents. We pride ourselves on delivering tailor-made solutions that cater to the unique needs of each project, ensuring that your academic work stands out for its clarity, precision, and adherence to the highest standards of scholarly communication.
                         </p>
 
-                        <h2>Our Proficiency in Academic Editing and Formatting</h2>
+                       
+                        <h3><strong>Our Proficiency in Academic Editing and Formatting</strong></h3>
                         <p>
                             At My Perfect Writing, our <strong>Editing & Formatting Service in the UK</strong> is underpinned by a deep-seated expertise in academic writing norms and the nuances of various formatting styles. Our team comprises seasoned professionals, including educators and writers, who are well-versed in providing <em>academic publication support</em> and <em>coursework editing solutions</em>. We take pride in offering tailored services that cater to the unique requirements of each manuscript, be it an undergraduate essay, a postgraduate thesis, or online study materials.
                         </p>
@@ -789,7 +790,8 @@ const EditingFormatting = () => {
                             Our service is not just about editing and formatting; it's about elevating your academic work to its highest potential. With our expert guidance, you can navigate the complexities of academic writing with ease, making your work stand out in its clarity, coherence, and scholarly depth. Trust us to be your partner in achieving academic excellence.
                         </p>
 
-                        <h2>Comprehensive Overview of Our Editing & Formatting Services</h2>
+                       
+                        <h3><strong>Comprehensive Overview of Our Editing & Formatting Services</strong></h3>
                         <p>
                             At My Perfect Writing, our <strong>Editing & Formatting Service in the UK</strong> is a testament to our dedication to academic excellence. Our services encompass a broad spectrum of academic needs, from <em>academic proofreading</em> to intricate <em>thesis formatting</em>. Each project is approached with meticulous care, ensuring that every detail aligns with the specific requirements of your discipline and institution.
                         </p>
@@ -803,7 +805,8 @@ const EditingFormatting = () => {
                             We pride ourselves on being a reliable and affordable partner in your academic journey. Our team is not only skilled in the technical aspects of editing and formatting but also brings a deep understanding of various subject matters, making our service a holistic solution for your academic writing needs. Choose My Perfect Writing for a service that truly understands and enhances your academic work.
                         </p>
 
-                        <h2>The Process: How We Ensure Excellence in Editing and Formatting</h2>
+                       
+                        <h3><strong>The Process: How We Ensure Excellence in Editing and Formatting</strong></h3>
                         <p>
                             At My Perfect Writing, our commitment to excellence in <strong>Editing & Formatting Service in the UK</strong> begins with a meticulous process, designed to meet and exceed academic standards. Our approach to <em>academic language refinement</em> and <em>postgraduate editing service</em> involves multiple stages to ensure precision and quality.
                         </p>
@@ -820,7 +823,8 @@ const EditingFormatting = () => {
                             With My Perfect Writing, you gain access to a team of experts who are not only proficient in their craft but also deeply understand the nuances of academic writing. This blend of expertise and dedication is what sets our service apart, making us a trusted partner in your academic journey.
                         </p>
 
-                        <h2>Customized Solutions for Diverse Academic Requirements</h2>
+                        
+                        <h3><strong>Customized Solutions for Diverse Academic Requirements</strong></h3>
                         <p>
                             At My Perfect Writing, our <strong>Editing & Formatting Service in the UK</strong> is renowned for its flexibility and customizability. We understand that each academic document comes with its own set of challenges and requirements. Our team of <em>professional academic editors</em> and specialists in <em>higher education manuscript preparation</em> are adept at tailoring our services to meet these diverse needs.
                         </p>
@@ -834,7 +838,8 @@ const EditingFormatting = () => {
                             The expertise of our editors and the rigorous process we follow are pivotal in providing a service that is not just about making cosmetic changes. It’s about enhancing the academic quality of your work, making it ready for submission or publication. With My Perfect Writing, you receive a service that is comprehensive, detailed, and, most importantly, tailored to your unique academic journey.
                         </p>
 
-                        <h2>Quality Assurance in Our Editing and Formatting Services</h2>
+                        
+                        <h3><strong>Quality Assurance in Our Editing and Formatting Services</strong></h3>
                         <p>
                             Ensuring the highest quality is the cornerstone of the <strong>Editing & Formatting Service in the UK</strong> offered by My Perfect Writing. We employ a rigorous quality assurance process to ensure that every academic document we handle meets the stringent standards of academic excellence. Our approach to quality assurance involves multiple layers of checks and reviews, carried out by our team of professional editors and proofreaders.
                         </p>
@@ -848,7 +853,8 @@ const EditingFormatting = () => {
                             The final stage of our quality assurance process includes a thorough review by a senior editor to guarantee that the document meets our high standards. This multi-tiered review process not only enhances the quality of your work but also provides you with the confidence to submit or publish your academic work with assurance. With My Perfect Writing, you receive more than just an editing service; you get a commitment to excellence and a partner in your academic success.
                         </p>
 
-                        <h2>Adding Value Beyond Basic Editing and Formatting</h2>
+                        
+                        <h3><strong>Adding Value Beyond Basic Editing and Formatting</strong></h3>
                         <p>
                             At My Perfect Writing, our <strong>Editing & Formatting Service in the UK</strong> goes beyond the standard expectations. We believe in adding substantial value to your academic documents, elevating them from good to exceptional. Our service is not just about correcting grammar or aligning margins; it's about enhancing the overall quality and impact of your academic work.
                         </p>
@@ -862,7 +868,7 @@ const EditingFormatting = () => {
                             We also place a high emphasis on confidentiality and security, understanding the sensitive nature of academic work. With My Perfect Writing, you can rest assured that your documents are in safe hands, treated with the utmost respect and privacy. Our commitment to adding value extends to every aspect of our service, making us not just your editor but a trusted academic partner.
                         </p>
 
-                        <h2>Ethical Considerations in Academic Assistance</h2>
+                        <h3><strong>Ethical Considerations in Academic Assistance</strong></h3>
                         <p>
                             At My Perfect Writing, we are acutely aware of the ethical implications in providing <strong>Editing & Formatting Service in the UK</strong>. Our approach is grounded in integrity and responsibility, ensuring that our assistance enhances educational outcomes without compromising academic standards. We believe in empowering students and researchers, not just in editing and formatting their work but also in guiding them to understand the principles of effective academic writing.
                         </p>
@@ -879,7 +885,8 @@ const EditingFormatting = () => {
                             At My Perfect Writing, you can trust us to provide professional, reliable, and ethically responsible academic assistance, helping you to achieve your academic goals while adhering to the highest standards of academic conduct.
                         </p>
 
-                        <h2>Conclusion: Elevating Academic Work through Professional Editing and Formatting</h2>
+                        
+                        <h3><strong>Conclusion: Elevating Academic Work through Professional Editing and Formatting</strong></h3>
                         <p>
                             In conclusion, My Perfect Writing’s <strong>Editing & Formatting Service in the UK</strong> is more than just a service; it’s a crucial tool in the arsenal of any academic professional or student. Our commitment to excellence in editing and formatting has consistently elevated the quality of academic work, ensuring that each document not only meets but surpasses academic standards.
                         </p>
@@ -897,7 +904,7 @@ const EditingFormatting = () => {
 
                 <div className="notice">
                     <div className="noticeContent">
-                        <h3>Notice Regarding Al-Generated Content</h3>
+                        <h2>Notice Regarding Al-Generated Content</h2>
                         <p>We want to be transparent with our readers: certain portions of our content are generated using advanced artificial intelligence. However, please rest assured that all Al-generated content is thoroughly reviewed and refined by our experienced and professional proofreaders and editors to ensure accuracy, relevance, and quality.</p>
                         <p>Our commitment to providing high-quality and trustworthy content remains our top priority. If you have any questions or need further clarification, please learn more here or contact our support team.</p>
                     </div>

@@ -24,6 +24,8 @@ const WhyUs = () => {
     return (
         <>
             <Helmet>
+                <title>Why Choose Us? UK Essay Excellence Awaits</title>
+                <meta name="description" content="Elevate your academic success with My Perfect Writing. Experience unmatched quality, affordability, and British eloquence. Our UK-based experts offer original,timely,and tailored academic assistance. Dive into the world of unparalleled academic support." />
 
                 <script type="application/ld+json">
                     {`

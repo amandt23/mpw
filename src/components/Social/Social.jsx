@@ -5,7 +5,7 @@ const Social = () => {
     return (
         <div className="social">
             <div className="sTop">
-                <h3>Connect With Us</h3>
+                <h2>Connect With Us</h2>
                 <p>Discover more about our services and join the community of satisfied students by following us on our social media platforms.</p>
             </div>
             <div className="cards">
@@ -47,7 +47,7 @@ const Social = () => {
                     </div>
 
                     <div className="cardTop">
-                        <h3>18.3K</h3>
+                        <h3>Instagram with 18.3K</h3>
                         <p>Followers</p>
                     </div>
                     <div className="contents">
@@ -88,7 +88,7 @@ const Social = () => {
                     </div>
 
                     <div className="cardTop">
-                        <h3>43.0K</h3>
+                        <h3>Facebook with 43.0K</h3>
                         <p>Followers</p>
                     </div>
                     <div className="contents">
@@ -128,7 +128,7 @@ const Social = () => {
                     </div>
 
                     <div className="cardTop">
-                        <h3>23.5K</h3>
+                        <h3>TikTok with 23.5K</h3>
                         <p>Followers</p>
                     </div>
                     <div className="contents">

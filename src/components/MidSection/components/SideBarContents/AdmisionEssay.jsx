@@ -17,35 +17,36 @@ const AdmisionEssay = () => {
         <div className="sidbarContents">
             <div className="Sidecard">
                 <div className="HeadContents date">
-                    <h2>Date: </h2>
+                    <p><strong>Date:</strong>  </p>
                     <p>May 15, 2023</p>
                 </div>
-                <h1>Admission Essay for Computer Science at Boston University</h1>
+                <span>Admission Essay for Computer Science at Boston University</span>
+               
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
-                            <h2>Subjec: </h2>
+                            <p><strong>Subject:</strong> </p>
                             <p>Computer Science</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Academic Level: </h2>
+                            <p><strong>Academic Level:</strong> </p>
                             <p>Undergraduate</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Word Count: </h2>
+                            <p><strong>Word Count:</strong> </p>
                             <p>950</p>
                         </div>
 
                     </div>
 
                     <div className="HeadContents desc">
-                        <h2>Short Description: </h2>
+                        <p><strong>Short Description:</strong> </p>
                         <p>A compelling essay expressing a student's passion for computer science and aspirations to study at Boston University. </p>
                     </div>
 
                     <div className="cardFooter">
                         <div className="HeadContents">
-                            <h2>Rating: </h2>
+                            <p><strong>Rating:</strong> </p>
                             <p style={{ marginTop: "-3px" }}>
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
@@ -56,22 +57,22 @@ const AdmisionEssay = () => {
                             </p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Author: </h2>
+                            <p><strong>Author:</strong> </p>
                             <p>Emily Harris</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Citation: </h2>
+                            <p><strong>Citation:</strong> </p>
                             <p>N/A</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Type: </h2>
+                            <p><strong>Type:</strong> </p>
                             <p>Admission Essay</p>
                         </div>
 
                     </div>
                 </div>
                 <div className="tags">
-                    <h3>Tags:</h3>
+                    <p><strong>Tags:</strong></p>
                     <div className="btns">
                         <button>#ComputerScience</button>
                         {/* <button>#BostonUniversity</button> */}

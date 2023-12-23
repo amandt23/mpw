@@ -283,6 +283,33 @@ const PhilosphyAssignment = () => {
   return (
     <>
       <Helmet>
+               <title>Philosophy Assignment Help | Expert UK Academic Aid</title>
+               <meta name="description" content="Seeking Philosophy Assignment Help in UK? My Perfect Writing provides tailored, in-depth support for all your philosophy academic needs." />
+
+               <meta name="keywords" content="Philosophy Assignment Help UK, UK Philosophy Academic Support, Custom Philosophy Assistance UK, Expert Philosophy Assignment Writing UK"></meta>
+
+                {/* Facebook meta description */}
+
+                <meta property="og:type" content="profile" />
+                <meta property="og:title" content="My Perfect Writing UK" />
+                <meta property="og:description" content="We offer top-quality essay writing services to help you with academic writing needs." />
+                <meta property="og:url" content="https://www.facebook.com/MyPerfectWritingUK" />
+                <meta property="og:image" content="https://www.facebook.com/photo/?fbid=304777308888913&set=a.163706819662630" />
+
+                {/* TikTok Meta Description */}
+                <meta property="og:type" content="profile" />
+                <meta property="og:title" content="myperfectwriting.co.uk" />
+                <meta property="og:description" content="Essay writing services to help you with any academic writing needs." />
+                <meta property="og:url" content="https://www.tiktok.com/@myperfectwriting.co.uk" />
+                <meta property="og:image" content="https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/036924512fd5ce2234dd790f90fae7d1.jpeg?lk3s=a5d48078&x-expires=1703412000&x-signature=Q3tNIYMUWroaSe5tgOtswVVVTvw%3D" />
+
+                {/* Instagram MetaDescription */}
+
+                <meta property="og:type" content="profile" />
+                <meta property="og:title" content="MyPerfectWriting" />
+                <meta property="og:description" content="Writing Service - Do not trust us; TEST us. MyPerfectWriting is the only essay writing service with a fixed rate for every deadline and educational level." />
+                <meta property="og:url" content="https://www.instagram.com/myperfectwriting/" />
+                <meta property="og:image" content="https://scontent.cdninstagram.com/v/t51.2885-19/375491376_6848625268501075_5955990304385974527_n.jpg?stp=dst-jpg_s120x120&_nc_cat=101&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=6fKNsbS7p7AAX_8-bxn&_nc_ht=scontent.cdninstagram.com&oh=00_AfBJyWa2LNO7fMiQI9c48pyXgUacyz93p88Fsm1zGVq4jA&oe=658ADFB1" />
 
         <script type="application/ld+json">
           {`
@@ -316,7 +343,7 @@ const PhilosphyAssignment = () => {
       <div class="header">
         <div className="upper">
           <div class="headerTop">
-            <h3>Philosophy Assignment Help in UK</h3>
+            <h1>Philosophy Assignment Help in UK</h1>
             <p>Expert support for students, academic professionals, and researchers seeking excellence in philosophy studies.</p>
           </div>
 
@@ -391,7 +418,7 @@ const PhilosphyAssignment = () => {
       {/* writers section */}
       <div className="myteam">
         <div className="topSection">
-          <h3>Meet Our Philosophy Experts</h3>
+          <h2>Meet Our Philosophy Experts</h2>
           <p>Dedicated professionals with deep expertise in philosophy assignment and homework support across the UK.</p>
         </div>
         <div className="CrouselSection">
@@ -408,7 +435,7 @@ const PhilosphyAssignment = () => {
       {/* cards pricing section  */}
       <div className="price " id="pricing-section">
         <div className="pricTop">
-          <h3>Why Choose Our Philosophy Assignment Help?</h3>
+          <h2>Why Choose Our Philosophy Assignment Help?</h2>
           <p>Experience unparalleled expertise with our British Philosophy Coursework Help, offering tailored, reliable support for your academic needs.</p>
         </div>
 
@@ -421,7 +448,7 @@ const PhilosphyAssignment = () => {
                                 <path d="M10.1831 20.7295H13.3831V19.167H14.9831C15.4365 19.167 15.8167 19.017 16.1239 18.717C16.4311 18.417 16.5842 18.0462 16.5831 17.6045V12.917C16.5831 12.4743 16.4295 12.1029 16.1223 11.8029C15.8151 11.5029 15.4354 11.3535 14.9831 11.3545H10.1831V9.79199H16.5831V6.66699H13.3831V5.10449H10.1831V6.66699H8.58313C8.1298 6.66699 7.74953 6.81699 7.44233 7.11699C7.13513 7.41699 6.98206 7.78783 6.98313 8.22949V12.917C6.98313 13.3597 7.13673 13.7311 7.44393 14.0311C7.75113 14.3311 8.13086 14.4805 8.58313 14.4795H13.3831V16.042H6.98313V19.167H10.1831V20.7295ZM22.9831 19.5576L26.1831 16.4326H19.7831L22.9831 19.5576ZM19.7831 9.79199H26.1831L22.9831 6.66699L19.7831 9.79199ZM3.78313 25.417C2.90313 25.417 2.14953 25.1107 1.52233 24.4982C0.895132 23.8857 0.582066 23.1503 0.583133 22.292V3.54199C0.583133 2.68262 0.896733 1.94668 1.52393 1.33418C2.15113 0.721682 2.9042 0.415953 3.78313 0.416995H29.3831C30.2631 0.416995 31.0167 0.723244 31.6439 1.33574C32.2711 1.94824 32.5842 2.68366 32.5831 3.54199V22.292C32.5831 23.1514 32.2695 23.8873 31.6423 24.4998C31.0151 25.1123 30.2621 25.418 29.3831 25.417H3.78313Z" fill="#01593A" />
                             </svg> */}
                 {card.icon1}
-                <h4>{card.title}</h4>
+                <h3>{card.title}</h3>
                 <p>{card.desc}</p>
                 {card.icon2}
               </div>
@@ -430,7 +457,7 @@ const PhilosphyAssignment = () => {
 
           <div className="priceRightCard">
             {/* <div className="card"> */}
-            <h3>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</h3>
+            <p><strong>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</strong></p>
             <div className="cardContents">
               <div className="cardOneSect">
                 <div className="cardOneLeft">
@@ -439,7 +466,7 @@ const PhilosphyAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -450,7 +477,7 @@ const PhilosphyAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -461,7 +488,7 @@ const PhilosphyAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -472,7 +499,7 @@ const PhilosphyAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -483,7 +510,7 @@ const PhilosphyAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -494,14 +521,14 @@ const PhilosphyAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
               <div className="allFeatures">
-                <h4>Get all these feaures of</h4>
+                <p>Get all these feaures of</p>
                 <p>15.99</p>
-                <h2>FREE</h2>
+                <p>FREE</p>
               </div>
               <div className="doBtn">
                 <a href="https://myperfectwriting.co.uk/portal/public/login">
@@ -519,7 +546,7 @@ const PhilosphyAssignment = () => {
       {/* Faqs sectin  */}
       <div className="faqs">
         <div className="faqTop">
-          <h3>Frequently Asked Questions - Philosophy Assignment Help</h3>
+          <h2>Frequently Asked Questions - Philosophy Assignment Help</h2>
           <p>Get expert answers to your queries about our comprehensive and tailored philosophy assignment services in the UK.</p>
         </div>
 
@@ -543,7 +570,7 @@ const PhilosphyAssignment = () => {
                           </clipPath>
                         </defs>
                       </svg>
-                      {item.question}
+                      <h4>{item.question}</h4>
                     </div>
 
                     {/* <div className="arrowDwon"> */}
@@ -581,7 +608,7 @@ const PhilosphyAssignment = () => {
                           </clipPath>
                         </defs>
                       </svg>
-                      {item.question}
+                      <h4>{item.question}</h4>
                     </div>
 
                     {/* <div className="arrowDwon"> */}
@@ -610,7 +637,7 @@ const PhilosphyAssignment = () => {
       {/* review section  */}
       <div className="review">
         <div className="reviewTop">
-          <h3>Client Reviews - Philosophy Assignment Help</h3>
+          <h2>Client Reviews - Philosophy Assignment Help</h2>
           <p>Discover how our dedicated Philosophy Assignment Help has empowered students from top universities with unparalleled academic support and expertise.</p>
         </div>
 
@@ -620,21 +647,21 @@ const PhilosphyAssignment = () => {
               <svg xmlns="http://www.w3.org/2000/svg" width="46" height="47" viewBox="0 0 46 47" fill="none">
                 <path d="M13.3978 35.0356C11.0335 34.2475 8.66915 35.2506 8.09598 37.2567C7.52281 39.1911 8.88409 41.4122 11.2484 42.2003C13.6128 42.9884 15.9771 41.9853 16.5503 39.9792C17.1234 37.9731 15.7621 35.7521 13.3978 35.0356ZM4.80024 41.4122C4.01213 42.057 3.94049 43.275 4.5853 44.2064C5.30177 45.1378 6.44811 45.3527 7.30787 44.7795C8.09598 44.1347 8.16763 42.9167 7.52281 41.9853C6.87799 41.0539 5.58835 40.839 4.80024 41.4122ZM44.4207 16.9807C44.4207 15.0463 43.4893 13.3267 42.128 12.2521V11.8222C42.128 8.81302 39.7637 6.3054 36.8262 6.3054H36.253C35.1067 4.37094 33.1006 3.00966 30.7363 3.00966C29.3033 3.00966 28.0137 3.43954 27.0106 4.22765C25.6494 3.00966 23.7866 2.1499 21.7805 2.1499C18.4847 2.1499 15.6905 4.37094 14.7591 7.45174C13.6844 6.66363 12.3231 6.23375 10.8902 6.23375C7.09293 6.23375 4.01213 9.38619 4.01213 13.2551C4.01213 14.4014 4.29872 15.4761 4.7286 16.4792C2.7225 17.9121 1.43286 20.2765 1.43286 22.999C1.43286 27.4411 4.94354 31.0234 9.24232 31.0234C10.8185 31.0234 12.3231 30.5219 13.5411 29.7338C14.1859 33.1012 17.1234 35.6804 20.6341 35.6804C23.2134 35.6804 25.5061 34.2475 26.7957 32.1698C27.6555 33.0295 28.8734 33.6027 30.2347 33.6027C32.7424 33.6027 34.8201 31.5966 35.035 29.089C35.6082 29.3039 36.253 29.4472 36.8979 29.4472C39.9786 29.4472 42.4863 26.8679 42.4863 23.7155C42.4863 23.0707 42.343 22.4258 42.1997 21.8527C43.4893 20.6347 44.4207 18.9152 44.4207 16.9807Z" fill="#00A12D" />
               </svg>
-              <h3>Thoughts ?</h3>
+              <p><strong>Thoughts ?</strong></p>
             </div>
             <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
           </div>
           <div className="privacy-card">
             <div className="pcardTop">
               <FaEye style={{ color: "green", fontSize: "40px" }} />
-              <h3>Reality ?</h3>
+              <p><strong>Reality ?</strong></p>
             </div>
             <p>Essay writing clients are naturally cautious about revealing their identity, which makes them reluctant to leave reviews. </p>
           </div>
           <div className="privacy-card">
             <div className="pcardTop">
               <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
-              <h3>Privacy ?</h3>
+              <p><strong>Privacy ?</strong></p>
             </div>
             <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
           </div>
@@ -647,20 +674,20 @@ const PhilosphyAssignment = () => {
               <div className="reviewCard" key={index}>
                 <div className="sec1">
                   <div className="sec1Top">
-                    <h3>Service Type:</h3>
+                    <p>Service Type:</p>
                     <p>{item.ServiceType}</p>
                   </div>
                   <div className="sec1Mid">
-                    <h3>Word Count:</h3>
+                    <p>Word Count:</p>
                     <p>{item.WordCount}</p>
                   </div>
                   <div className="sec1Bottom">
                     <div className="BottLeft">
-                      <h3>Citation:</h3>
+                      <p>Citation:</p>
                       <p>{item.Citation}</p>
                     </div>
                     <div className="BottRight">
-                      <h3>Price:</h3>
+                      <p>Price:</p>
                       <p>{item.OrderPrice}</p>
                     </div>
                   </div>
@@ -668,7 +695,7 @@ const PhilosphyAssignment = () => {
 
                 <div className="sect2">
                   <img src={`./images/Animal avatars/${item.image}`} alt="peer-image" />
-                  <h3>{item.CustomerID}</h3>
+                  <p>{item.CustomerID}</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="58" height="10" viewBox="0 0 58 10" fill="none">
                     <path d="M2.45668 9.89245L3.26518 6.579L0.576904 4.35133L4.11803 4.05821L5.50487 0.933105L6.89172 4.05759L10.4322 4.3507L7.74456 6.57838L8.55306 9.89183L5.50487 8.13314L2.45668 9.89245Z" fill="#00A22D" />
                     <path d="M14.1038 9.89245L14.9123 6.579L12.2241 4.35133L15.7652 4.05821L17.152 0.933105L18.5389 4.05759L22.0793 4.3507L19.3917 6.57838L20.2002 9.89183L17.152 8.13314L14.1038 9.89245Z" fill="#00A22D" />
@@ -682,13 +709,13 @@ const PhilosphyAssignment = () => {
                 <div className="sect3">
                   <div className="sect3Top">
                     <div className="input">
-                      <h3>Subject: {item.Subject} </h3>
+                      <p>Subject: {item.Subject} </p>
                       <hr />
                       <p>{item.Review}</p>
                     </div>
                   </div>
                   <div className="sect3Tags">
-                    <h3>Tags</h3>
+                    <p>Tags</p>
                     {item.Tags && item.Tags.length > 0 ? (
                       item.Tags.map((tag, tagIndex) => (
                         <button key={tagIndex}>{tag}</button>
@@ -702,7 +729,7 @@ const PhilosphyAssignment = () => {
                 <div className="sect4">
                   <div className="sect4Top">
                     <div className="input">
-                      <h3>Responce from MyPerfectWriting</h3>
+                      <p>Responce from MyPerfectWriting</p>
                       <hr />
                       <p>{item.ResponsefromMyPerfectWriting}</p>
                     </div>
@@ -731,14 +758,14 @@ const PhilosphyAssignment = () => {
           </a>
         </div>
         <div className="wTop">
-          <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>
+          <h2>My Perfect Writing- Top Essay Writing Service in UK</h2>
           <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
         </div>
 
         <div className="wPdf">
           <div className="leftText">
 
-            <h2>Understanding Academic Essays in Philosophy</h2>
+            <h3><strong>Understanding Academic Essays in Philosophy</strong></h3>
 
             <p>
               Our <strong>Philosophy Assignment Help in UK</strong> delves deep into the intricacies of academic essays in philosophy. Crafting an essay in this field demands more than just writing skills; it requires a profound understanding of philosophical concepts, critical thinking, and the ability to articulate complex ideas clearly and coherently. At My Perfect Writing, we provide <strong>Professional Philosophy Assignment Help UK</strong> to guide you through these challenges.
@@ -753,7 +780,8 @@ const PhilosphyAssignment = () => {
               Furthermore, our service is not just about writing; it's about fostering understanding. We offer <strong>Comprehensive Philosophy Study Guides UK</strong> as part of our support system. These guides are designed to enhance your grasp of philosophical concepts, aiding in your overall academic journey. Trust us to deliver essays that are not only academically sound but also enlightening and thought-provoking, making them worthy of recommendation and scholarly appreciation.
             </p>
 
-            <h2>Introducing Our Philosophy Assignment Help Service</h2>
+           
+            <h3><strong>Introducing Our Philosophy Assignment Help Service</strong></h3>
             <p>
               At My Perfect Writing, we take pride in offering a distinguished <strong>Philosophy Assignment Help in UK</strong> service that caters to a diverse array of academic needs. Our approach is centered around providing personalized, expert assistance tailored to each student's unique requirements. We specialize in offering <strong>Philosophy Education Assistance UK</strong>, ensuring each assignment and essay receives the dedicated attention and expertise it deserves.
             </p>
@@ -767,7 +795,8 @@ const PhilosphyAssignment = () => {
               As a provider of <strong>UK Philosophy Assignment Solutions</strong>, we are committed to delivering comprehensive, insightful, and innovative content. Our philosophy assignments are meticulously crafted, with detailed analysis, critical arguments, and proper referencing, ensuring each piece is a testament to academic excellence. We stand by the quality of our work, offering revisions and feedback to ensure complete satisfaction.
             </p>
 
-            <h2>Why Philosophy Assignments are Challenging</h2>
+            
+            <h3><strong>Why Philosophy Assignments are Challenging</strong></h3>
             <p>
               Tackling a <strong>philosophy assignment</strong> is no small feat. It involves delving into complex theories, abstract concepts, and often, dense philosophical texts. This is where our <strong>Philosophy Assignment Help in UK</strong> comes into play, offering in-depth support and expert guidance. Philosophy assignments challenge students to not only understand but critically engage with and evaluate intricate ideas, a task that requires a high level of analytical and writing skills.
             </p>
@@ -781,7 +810,8 @@ const PhilosphyAssignment = () => {
               We take pride in offering <strong>Philosophy Assignment Consultation UK</strong> services that go beyond mere writing help. Our team of experienced educators and professionals is equipped to offer comprehensive, insightful support, turning the challenges of philosophy assignments into opportunities for learning and academic excellence.
             </p>
 
-            <h2>Our Expertise in Philosophy Academic Assistance</h2>
+            
+            <h3><strong>Our Expertise in Philosophy Academic Assistance</strong></h3>
             <p>
               At My Perfect Writing, our expertise in <strong>Philosophy Academic Assistance</strong> is unparalleled. We bring together a team of professionals and educators who are not only experts in their field but are also deeply committed to providing <strong>Quality Philosophy Assignment Help in UK</strong>. Our experts specialize in a variety of philosophy sub-disciplines, from ethics and metaphysics to logic and aesthetics, ensuring comprehensive support for any <strong>assignment on philosophy</strong>.
             </p>
@@ -795,7 +825,8 @@ const PhilosphyAssignment = () => {
               Beyond just assignment writing, we focus on delivering a learning experience that enhances our students' understanding of philosophy. This dedication to academic excellence and student success is at the heart of our service, making us a trusted partner in your educational journey.
             </p>
 
-            <h2>Comprehensive Service Details: What We Offer</h2>
+           
+            <h3><strong>Comprehensive Service Details: What We Offer</strong></h3>
             <p>
               At My Perfect Writing, we offer an extensive range of services under <strong>Philosophy Assignment Help in UK</strong>, catering to a diverse academic audience. Our offerings include assistance with <strong>Undergraduate Philosophy Assignments</strong>, <strong>Graduate Philosophy Papers</strong>, and <strong>Philosophy Dissertation Guidance UK</strong>. Each service is designed to meet the unique requirements of different academic levels and areas within the field of philosophy.
             </p>
@@ -809,7 +840,8 @@ const PhilosphyAssignment = () => {
               Beyond just writing, our service encompasses editing, proofreading, and providing constructive feedback. We focus on delivering a holistic academic assistance experience that not only aids in completing assignments but also enhances students' understanding of the subject matter. With My Perfect Writing, you receive more than just an assignment; you gain a comprehensive learning tool that contributes to your academic growth.
             </p>
 
-            <h2>The Process: How We Deliver Excellence in Philosophy Assignments</h2>
+          
+            <h3><strong>The Process: How We Deliver Excellence in Philosophy Assignments</strong></h3>
             <p>
               Our approach to delivering <strong>Philosophy Assignment Help in UK</strong> is meticulous and tailored to each student's needs. We begin by understanding the specific requirements of your philosophy assignment, whether it's for an undergraduate or graduate level. Our team of <strong>Academic Philosophy Advisors UK</strong> works closely with you to grasp the nuances of your topic and the expectations of your course.
             </p>
@@ -823,7 +855,8 @@ const PhilosphyAssignment = () => {
               Whether it's providing <strong>Undergraduate Philosophy Assignment Help UK</strong> or <strong>Graduate Philosophy Essay Help in UK</strong>, our focus remains on delivering assignments that reflect deep understanding, critical thinking, and academic integrity. We pride ourselves on delivering customized, insightful, and innovative assignments that help you achieve your academic goals.
             </p>
 
-            <h2>Ensuring Quality and Originality in Every Assignment</h2>
+          
+            <h3><strong>Ensuring Quality and Originality in Every Assignment</strong></h3>
             <p>
               At My Perfect Writing, our commitment to providing <strong>Philosophy Assignment Help in UK</strong> is underpinned by our dedication to quality and originality. Every assignment we undertake is treated with the utmost care to ensure it meets the highest academic standards. Our approach to <strong>Philosophy Education Assistance UK</strong> involves rigorous research and critical analysis, ensuring that each assignment is not just comprehensive, but also insightful and original.
             </p>
@@ -837,7 +870,8 @@ const PhilosphyAssignment = () => {
               We also offer <strong>Comprehensive Philosophy Study Guides UK</strong> as part of our commitment to education. These guides are meticulously crafted to complement our assignment help services, providing detailed explanations and insights that aid in understanding and retaining philosophical concepts and theories.
             </p>
 
-            <h2>Tailored Approach: Understanding the Needs of Philosophy Students</h2>
+           
+            <h3><strong>Tailored Approach: Understanding the Needs of Philosophy Students</strong></h3>
             <p>
               Our <strong>Philosophy Assignment Help in UK</strong> is defined by a tailored approach that acknowledges the unique needs of philosophy students. We recognize that each student has individual requirements, whether they are seeking <strong>British Philosophy Coursework Help</strong> or assistance with a specific philosophical argument. Our philosophy experts, including <strong>UK-Based Philosophy Assignment Experts</strong>, take the time to understand these needs and provide bespoke assistance.
             </p>
@@ -851,7 +885,8 @@ const PhilosphyAssignment = () => {
               By understanding and addressing the individual needs of philosophy students, we provide a learning experience that is both enriching and academically rewarding. Our commitment to tailored support empowers students to excel in their studies and develop a profound understanding of their subject matter.
             </p>
 
-            <h2>Beyond the Essay: Fostering Deeper Understanding of Philosophy</h2>
+           
+            <h3><strong>Beyond the Essay: Fostering Deeper Understanding of Philosophy</strong></h3>
             <p>
               Our service, <strong>Philosophy Assignment Help in UK</strong>, goes beyond just providing essays; we aim to foster a deeper understanding of philosophy in our students. Recognising the intricate nature of philosophical studies, our <strong>UK Philosophy Essay Assistance</strong> and <strong>Philosophy Homework Support UK</strong> are designed to not only complete assignments but also to enrich the student's grasp of philosophical concepts.
             </p>
@@ -865,7 +900,8 @@ const PhilosphyAssignment = () => {
               Our educators and professionals are dedicated to creating a learning environment that encourages inquiry and fosters a deeper appreciation for philosophy. We're not just about delivering assignments; we're about building a foundation for lifelong learning and appreciation of this profound subject.
             </p>
 
-            <h2>Ethics and Integrity in Academic Support</h2>
+           
+            <h3><strong>Ethics and Integrity in Academic Support</strong></h3>
             <p>
               At My Perfect Writing, we uphold the highest standards of ethics and integrity in providing <strong>Philosophy Assignment Help in UK</strong>. Our team of <strong>Philosophy Assignment Experts UK</strong> and <strong>UK Philosophy Essay Writers</strong> are not only skilled in their craft but also adhere to strict ethical guidelines to ensure the authenticity and originality of every piece of work.
             </p>
@@ -879,7 +915,8 @@ const PhilosphyAssignment = () => {
               By prioritizing ethics and integrity, we aim to build trust with our students and the wider academic community, ensuring that our assistance is not just effective but also ethically sound and reliable.
             </p>
 
-            <h2>User Feedback and Continuous Improvement</h2>
+           
+            <h3><strong>User Feedback and Continuous Improvement</strong></h3>
             <p>
               At My Perfect Writing, we value user feedback as a cornerstone of our <strong>Philosophy Assignment Help in UK</strong>. We believe that continuous improvement is key to delivering the best possible service. Our team actively seeks out and listens to feedback from our students, using it as a valuable tool to enhance our academic assistance and custom services.
             </p>
@@ -893,9 +930,7 @@ const PhilosphyAssignment = () => {
               We pride ourselves on fostering an open dialogue with our users, ensuring that our service is not only reliable and tailored but also constantly evolving to meet the changing needs of philosophy students. Our commitment to user feedback and continuous improvement underscores our dedication to providing high-quality, personalized academic support.
             </p>
 
-
-
-            <h2>Conclusion: Empowering Your Philosophical Journey</h2>
+            <h3><strong>Conclusion: Empowering Your Philosophical Journey</strong></h3>
             <p>
               In conclusion, our <strong>Philosophy Assignment Help in UK</strong> is more than just a service; it's a partnership in your educational journey. We aim to empower your pursuit of philosophical knowledge, providing not just assignments, but a comprehensive understanding of philosophy. Our commitment to quality, originality, and ethical academic support is unwavering.
             </p>
@@ -914,7 +949,7 @@ const PhilosphyAssignment = () => {
 
         <div className="notice">
           <div className="noticeContent">
-            <h3>Notice Regarding Al-Generated Content</h3>
+            <h2>Notice Regarding Al-Generated Content</h2>
             <p>We want to be transparent with our readers: certain portions of our content are generated using advanced artificial intelligence. However, please rest assured that all Al-generated content is thoroughly reviewed and refined by our experienced and professional proofreaders and editors to ensure accuracy, relevance, and quality.</p>
             <p>Our commitment to providing high-quality and trustworthy content remains our top priority. If you have any questions or need further clarification, please learn more here or contact our support team.</p>
           </div>

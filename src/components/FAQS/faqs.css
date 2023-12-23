@@ -53,6 +53,7 @@
     font-weight: 600;
     line-height: normal;
     margin-bottom: 6px;
+    
 }
 
 .faqLeft hr {
@@ -107,13 +108,13 @@
 
 }
 
-.faq-q-right {
+.faq-q-right  {
     display: flex;
     align-items: center;
     column-gap: 15px;
 }
 
-.faq-question {
+.faq-question  {
     color: #01593A;
     font-size: 23px;
     font-style: normal;

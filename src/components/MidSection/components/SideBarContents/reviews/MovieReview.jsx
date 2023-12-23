@@ -16,35 +16,35 @@ const MovieReview = () => {
         <div className="sidbarContents">
             <div className="Sidecard">
                 <div className="HeadContents date">
-                    <h2>Date: </h2>
+                    <p><strong>Date:</strong> </p>
                     <p>April 18, 2023</p>
                 </div>
-                <h1>Movie Review</h1>
+                <span><strong>Movie Review</strong></span>
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
-                            <h2>Subjec: </h2>
+                            <p><strong>Subject:</strong></p>
                             <p>Documentary Film and Fast Food Industry</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Academic Level: </h2>
+                            <p><strong>Academic Level:</strong></p>
                             <p>General Interest/University</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Word Count: </h2>
+                            <p><strong>Word Count:</strong></p>
                             <p>1,500</p>
                         </div>
 
                     </div>
 
                     <div className="HeadContents desc">
-                        <h2>Short Description: </h2>
+                        <p><strong>Short Description:</strong> </p>
                         <p>An analytical review of Morgan Spurlock's sequel, exploring the fast-food industry's claims of healthful and organic offerings.</p>
                     </div>
 
                     <div className="cardFooter">
                         <div className="HeadContents">
-                            <h2>Rating: </h2>
+                            <p><strong>Rating:</strong> </p>
                             <p style={{ marginTop: "-3px" }}>
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
@@ -55,22 +55,22 @@ const MovieReview = () => {
                             </p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Author: </h2>
+                            <p><strong>Author:</strong></p>
                             <p>Liam Patterson</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Citation: </h2>
+                            <p><strong>Citation:</strong> </p>
                             <p>N/A</p>
                         </div>
                         <div className="HeadContents ">
-                            <h2>Type: </h2>
+                            <p><strong>Type:</strong> </p>
                             <p>Movie Review</p>
                         </div>
 
                     </div>
                 </div>
                 <div className="tags">
-                    <h3>Tags:</h3>
+                    <p><strong>Tags:</strong></p>
                     <div className="btns">
                         <button>#SuperSizeMe2 </button>
                         <button>#FilmCritique </button>

@@ -6,6 +6,8 @@ const AboutUs = () => {
     return (
         <>
             <Helmet>
+                <title>About Us - Crafting Excellence in UK Essays</title>
+                <meta name="description" content="Discover My Perfect Writing - your UK partner in academic excellence. Our team of experts, including PhDs from top universities, is dedicated to transforming your academic journey with quality, innovation, and affordability. Dive into our story and services." />
 
                 <script type="application/ld+json">
                     {`

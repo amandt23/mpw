@@ -18,7 +18,7 @@
     padding-top: 17px;
 }
 
-.fLeft h3 {
+.fLeft p {
     color: #FFF;
     font-size: 29.734px;
     font-style: normal;
@@ -98,7 +98,7 @@
    cursor: pointer;
 }
 
-.rSection h3 {
+.rSection p {
     color: #FFF;
     font-size: 19.264px;
     font-style: normal;
@@ -257,7 +257,7 @@
 
 }
 
-.footer2 ul h3 {
+.footer2 ul p {
     color: #FFF;
     font-size: 19px;
     font-style: normal;

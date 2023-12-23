@@ -21,32 +21,34 @@ const TermPaper = () => {
                     <h2>Date: </h2>
                     <p>August 21, 2023</p>
                 </div>
-                <h1>Term Paper</h1>
+                
+                  <span><strong>Term Paper</strong></span>
+                
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
-                            <h2>Subjec: </h2>
+                            <p><strong>Subject:</strong> </p>
                             <p>Education</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Academic Level: </h2>
+                            <p><strong>Academic Level:</strong> </p>
                             <p>Postgraduate Research</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Word Count: </h2>
+                            <p><strong>Word Count: </strong></p>
                             <p>4,500</p>
                         </div>
 
                     </div>
 
                     <div className="HeadContents desc">
-                        <h2 >Short Description: </h2>
+                        <p><strong>Short Description:</strong> </p>
                         <p>A detailed exploration of strategies to enhance pupil progress and teaching efficiency in UK high schools.</p>
                     </div>
 
                     <div className="cardFooter">
                         <div className="HeadContents">
-                            <h2>Rating: </h2>
+                            <p><strong>Rating: </strong></p>
                             <p style={{ marginTop: "-3px" }}>
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
@@ -56,22 +58,22 @@ const TermPaper = () => {
                             </p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Author: </h2>
+                            <p><strong>Author:</strong> </p>
                             <p>James Anderson</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Citation: </h2>
+                            <p><strong>Citation:</strong> </p>
                             <p>Harvard</p>
                         </div>
                         <div className="HeadContents ">
-                            <h2>Type: </h2>
+                            <p><strong>Type: </strong></p>
                             <p>Research Paper</p>
                         </div>
 
                     </div>
                 </div>
                 <div className="tags">
-                    <h3>Tags:</h3>
+                    <p><strong>Tags:</strong></p>
                     <div className="btns">
 
                         <button>#SchoolStrategy </button>

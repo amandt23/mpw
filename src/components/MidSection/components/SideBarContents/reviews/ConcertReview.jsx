@@ -16,35 +16,35 @@ const ConcertReview = () => {
         <div className="sidbarContents">
             <div className="Sidecard">
                 <div className="HeadContents date">
-                    <h2>Date: </h2>
+                    <p><strong>Date:</strong> </p>
                     <p>October 12, 2023</p>
                 </div>
-                <h1>Concert Review</h1>
+                <span><strong>Concert Review</strong></span>
                 <div className="Sidetopper">
                     <div className="cardHeader">
                         <div className="HeadContents">
-                            <h2>Subjec: </h2>
+                            <p><strong>Subject:</strong></p>
                             <p>Music and Performance Arts</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Academic Level: </h2>
+                            <p><strong>Academic Level:</strong></p>
                             <p>General Interest/University</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Word Count: </h2>
+                            <p><strong>Word Count:</strong></p>
                             <p>800</p>
                         </div>
 
                     </div>
 
                     <div className="HeadContents desc">
-                        <h2>Short Description: </h2>
+                        <p><strong>Short Description:</strong> </p>
                         <p>A captivating review of Spaghettieria's jazz concert, highlighting the dynamic performances and unique instrumental blends.</p>
                     </div>
 
                     <div className="cardFooter">
                         <div className="HeadContents">
-                            <h2>Rating: </h2>
+                            <p><strong>Rating:</strong> </p>
                             <p style={{ marginTop: "-3px" }}>
                                 <RiStarSFill className='star-icon' />
                                 <RiStarSFill className='star-icon' />
@@ -55,22 +55,22 @@ const ConcertReview = () => {
                             </p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Author: </h2>
+                            <p><strong>Author:</strong></p>
                             <p>Sophie Green</p>
                         </div>
                         <div className="HeadContents">
-                            <h2>Citation: </h2>
+                            <p><strong>Citation:</strong> </p>
                             <p>N/A</p>
                         </div>
                         <div className="HeadContents ">
-                            <h2>Type: </h2>
+                            <p><strong>Type:</strong> </p>
                             <p>Concert Review</p>
                         </div>
 
                     </div>
                 </div>
                 <div className="tags">
-                    <h3>Tags:</h3>
+                    <p><strong>Tags:</strong></p>
                     <div className="btns">
                         <button>#LiveJazz</button>
                         <button>#MusicReview</button>

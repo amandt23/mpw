@@ -339,7 +339,7 @@ const ResumeWriting = () => {
             <div class="header">
                 <div className="upper">
                     <div class="headerTop">
-                        <h3>Expert Resume Writing Service in UK</h3>
+                        <h1>Expert Resume Writing Service in UK</h1>
                         <p> Tailored Resumes for Students, Academic Professionals, and Researchers – Elevate Your Career Aspirations!</p>
                     </div>
 
@@ -413,7 +413,7 @@ const ResumeWriting = () => {
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
-                    <h3>Meet Our Esteemed Resume Writers</h3>
+                    <h2>Meet Our Esteemed Resume Writers</h2>
                     <p> Our team of CV Writing Experts, boasting prestigious UK university backgrounds and vast experience, crafts your resume with precision and insight.</p>
                 </div>
                 <div className="CrouselSection">
@@ -431,7 +431,7 @@ const ResumeWriting = () => {
             {/* cards pricing section  */}
             <div className="price " id="pricing-section">
                 <div className="pricTop">
-                    <h3>Why Choose Our Resume Writing Service?</h3>
+                    <h2>Why Choose Our Resume Writing Service?</h2>
                     <p> Experience unparalleled expertise and dedication with our Professional Resume Builders – your gateway to career success.</p>
                 </div>
 
@@ -444,7 +444,7 @@ const ResumeWriting = () => {
                                 <path d="M10.1831 20.7295H13.3831V19.167H14.9831C15.4365 19.167 15.8167 19.017 16.1239 18.717C16.4311 18.417 16.5842 18.0462 16.5831 17.6045V12.917C16.5831 12.4743 16.4295 12.1029 16.1223 11.8029C15.8151 11.5029 15.4354 11.3535 14.9831 11.3545H10.1831V9.79199H16.5831V6.66699H13.3831V5.10449H10.1831V6.66699H8.58313C8.1298 6.66699 7.74953 6.81699 7.44233 7.11699C7.13513 7.41699 6.98206 7.78783 6.98313 8.22949V12.917C6.98313 13.3597 7.13673 13.7311 7.44393 14.0311C7.75113 14.3311 8.13086 14.4805 8.58313 14.4795H13.3831V16.042H6.98313V19.167H10.1831V20.7295ZM22.9831 19.5576L26.1831 16.4326H19.7831L22.9831 19.5576ZM19.7831 9.79199H26.1831L22.9831 6.66699L19.7831 9.79199ZM3.78313 25.417C2.90313 25.417 2.14953 25.1107 1.52233 24.4982C0.895132 23.8857 0.582066 23.1503 0.583133 22.292V3.54199C0.583133 2.68262 0.896733 1.94668 1.52393 1.33418C2.15113 0.721682 2.9042 0.415953 3.78313 0.416995H29.3831C30.2631 0.416995 31.0167 0.723244 31.6439 1.33574C32.2711 1.94824 32.5842 2.68366 32.5831 3.54199V22.292C32.5831 23.1514 32.2695 23.8873 31.6423 24.4998C31.0151 25.1123 30.2621 25.418 29.3831 25.417H3.78313Z" fill="#01593A" />
                             </svg> */}
                                 {card.icon1}
-                                <h4>{card.title}</h4>
+                                <h3>{card.title}</h3>
                                 <p>{card.desc}</p>
                                 {card.icon2}
                             </div>
@@ -453,7 +453,7 @@ const ResumeWriting = () => {
 
                     <div className="priceRightCard">
                         {/* <div className="card"> */}
-                        <h3>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</h3>
+                        <p><strong>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</strong></p>
                         <div className="cardContents">
                             <div className="cardOneSect">
                                 <div className="cardOneLeft">
@@ -462,7 +462,7 @@ const ResumeWriting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -473,7 +473,7 @@ const ResumeWriting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -484,7 +484,7 @@ const ResumeWriting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -495,7 +495,7 @@ const ResumeWriting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -506,7 +506,7 @@ const ResumeWriting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -517,14 +517,14 @@ const ResumeWriting = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
                             <div className="allFeatures">
-                                <h4>Get all these feaures of</h4>
+                                <p>Get all these feaures of</p>
                                 <p>15.99</p>
-                                <h2>FREE</h2>
+                                <p>FREE</p>
                             </div>
                             <div className="doBtn">
                                 <a href="https://myperfectwriting.co.uk/portal/public/login">
@@ -543,7 +543,7 @@ const ResumeWriting = () => {
             {/* Faqs sectin  */}
             <div className="faqs">
                 <div className="faqTop">
-                    <h3>Resume Writing Service FAQs</h3>
+                    <h2>Resume Writing Service FAQs</h2>
                     <p> Discover the expertise and precision behind our Professional Resume Services – your partner in career success.</p>
                 </div>
 
@@ -567,7 +567,7 @@ const ResumeWriting = () => {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            {item.question}
+                                            <h4>{item.question}</h4>
                                         </div>
 
                                         {/* <div className="arrowDwon"> */}
@@ -605,7 +605,7 @@ const ResumeWriting = () => {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            {item.question}
+                                            <h4>{item.question}</h4>
                                         </div>
 
                                         {/* <div className="arrowDwon"> */}
@@ -634,7 +634,7 @@ const ResumeWriting = () => {
             {/* review section  */}
             <div className="review">
                 <div className="reviewTop">
-                    <h3>Client Reviews - Showcasing Our Resume Writing Excellence</h3>
+                    <h2>Client Reviews - Showcasing Our Resume Writing Excellence</h2>
                     <p> Our clients' success stories reflect our commitment to quality, expertise in CV writing, and unmatched professional guidance.</p>
                 </div>
 
@@ -644,21 +644,21 @@ const ResumeWriting = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="47" viewBox="0 0 46 47" fill="none">
                                 <path d="M13.3978 35.0356C11.0335 34.2475 8.66915 35.2506 8.09598 37.2567C7.52281 39.1911 8.88409 41.4122 11.2484 42.2003C13.6128 42.9884 15.9771 41.9853 16.5503 39.9792C17.1234 37.9731 15.7621 35.7521 13.3978 35.0356ZM4.80024 41.4122C4.01213 42.057 3.94049 43.275 4.5853 44.2064C5.30177 45.1378 6.44811 45.3527 7.30787 44.7795C8.09598 44.1347 8.16763 42.9167 7.52281 41.9853C6.87799 41.0539 5.58835 40.839 4.80024 41.4122ZM44.4207 16.9807C44.4207 15.0463 43.4893 13.3267 42.128 12.2521V11.8222C42.128 8.81302 39.7637 6.3054 36.8262 6.3054H36.253C35.1067 4.37094 33.1006 3.00966 30.7363 3.00966C29.3033 3.00966 28.0137 3.43954 27.0106 4.22765C25.6494 3.00966 23.7866 2.1499 21.7805 2.1499C18.4847 2.1499 15.6905 4.37094 14.7591 7.45174C13.6844 6.66363 12.3231 6.23375 10.8902 6.23375C7.09293 6.23375 4.01213 9.38619 4.01213 13.2551C4.01213 14.4014 4.29872 15.4761 4.7286 16.4792C2.7225 17.9121 1.43286 20.2765 1.43286 22.999C1.43286 27.4411 4.94354 31.0234 9.24232 31.0234C10.8185 31.0234 12.3231 30.5219 13.5411 29.7338C14.1859 33.1012 17.1234 35.6804 20.6341 35.6804C23.2134 35.6804 25.5061 34.2475 26.7957 32.1698C27.6555 33.0295 28.8734 33.6027 30.2347 33.6027C32.7424 33.6027 34.8201 31.5966 35.035 29.089C35.6082 29.3039 36.253 29.4472 36.8979 29.4472C39.9786 29.4472 42.4863 26.8679 42.4863 23.7155C42.4863 23.0707 42.343 22.4258 42.1997 21.8527C43.4893 20.6347 44.4207 18.9152 44.4207 16.9807Z" fill="#00A12D" />
                             </svg>
-                            <h3>Thoughts ?</h3>
+                            <p><strong>Thoughts ?</strong></p>
                         </div>
                         <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
                     </div>
                     <div className="privacy-card">
                         <div className="pcardTop">
                             <FaEye style={{ color: "green", fontSize: "40px" }} />
-                            <h3>Reality ?</h3>
+                            <p><strong>Reality ?</strong></p>
                         </div>
                         <p>Essay writing clients are naturally cautious about revealing their identity, which makes them reluctant to leave reviews. </p>
                     </div>
                     <div className="privacy-card">
                         <div className="pcardTop">
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
-                            <h3>Privacy ?</h3>
+                            <p><strong>Privacy ?</strong></p>
                         </div>
                         <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
@@ -671,20 +671,20 @@ const ResumeWriting = () => {
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">
-                                        <h3>Service Type:</h3>
+                                        <p>Service Type:</p>
                                         <p>{item.ServiceType}</p>
                                     </div>
                                     <div className="sec1Mid">
-                                        <h3>Word Count:</h3>
+                                        <p>Word Count:</p>
                                         <p>{item.WordCount}</p>
                                     </div>
                                     <div className="sec1Bottom">
                                         <div className="BottLeft">
-                                            <h3>Citation:</h3>
+                                            <p>Citation:</p>
                                             <p>{item.Citation}</p>
                                         </div>
                                         <div className="BottRight">
-                                            <h3>Price:</h3>
+                                            <p>Price:</p>
                                             <p>{item.OrderPrice}</p>
                                         </div>
                                     </div>
@@ -692,7 +692,7 @@ const ResumeWriting = () => {
 
                                 <div className="sect2">
                                     <img src={`./images/Animal avatars/${item.image}`} alt="service-image" />
-                                    <h3>{item.CustomerID}</h3>
+                                    <p>{item.CustomerID}</p>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="58" height="10" viewBox="0 0 58 10" fill="none">
                                         <path d="M2.45668 9.89245L3.26518 6.579L0.576904 4.35133L4.11803 4.05821L5.50487 0.933105L6.89172 4.05759L10.4322 4.3507L7.74456 6.57838L8.55306 9.89183L5.50487 8.13314L2.45668 9.89245Z" fill="#00A22D" />
                                         <path d="M14.1038 9.89245L14.9123 6.579L12.2241 4.35133L15.7652 4.05821L17.152 0.933105L18.5389 4.05759L22.0793 4.3507L19.3917 6.57838L20.2002 9.89183L17.152 8.13314L14.1038 9.89245Z" fill="#00A22D" />
@@ -706,13 +706,13 @@ const ResumeWriting = () => {
                                 <div className="sect3">
                                     <div className="sect3Top">
                                         <div className="input">
-                                            <h3>Subject: {item.Subject} </h3>
+                                            <p>Subject: {item.Subject} </p>
                                             <hr />
                                             <p>{item.Review}</p>
                                         </div>
                                     </div>
                                     <div className="sect3Tags">
-                                        <h3>Tags</h3>
+                                        <p>Tags</p>
                                         {item.Tags && item.Tags.length > 0 ? (
                                             item.Tags.map((tag, tagIndex) => (
                                                 <button key={tagIndex}>{tag}</button>
@@ -726,7 +726,7 @@ const ResumeWriting = () => {
                                 <div className="sect4">
                                     <div className="sect4Top">
                                         <div className="input">
-                                            <h3>Responce from MyPerfectWriting</h3>
+                                            <p>Responce from MyPerfectWriting</p>
                                             <hr />
                                             <p>{item.ResponsefromMyPerfectWriting}</p>
                                         </div>
@@ -755,13 +755,13 @@ const ResumeWriting = () => {
                     </a>
                 </div>
                 <div className="wTop">
-                    <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>
+                    <h2>My Perfect Writing- Top Essay Writing Service in UK</h2>
                     <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
                 </div>
 
                 <div className="wPdf">
                     <div className="leftText">
-                        <h1>Introduction to Our Premier Resume Writing Service in the UK</h1>
+                        <h3><strong>Introduction to Our Premier Resume Writing Service in the UK</strong></h3>
 
                         <p>
                             At My Perfect Writing, we specialize in crafting exceptional resumes that stand out in the competitive UK job market. Our team of Academic CV Consultants and Professional Bio Writers are dedicated to providing personalized, entry-level to executive resume writing services across the UK. With a focus on quality and professionalism, we ensure each resume is not just a document, but a stepping stone to your career success.
@@ -779,7 +779,7 @@ const ResumeWriting = () => {
                             What sets us apart is not just our expertise in the field but also our commitment to customer satisfaction. We are not just resume writers; we are career enablers. We believe in creating resumes that reflect your professional identity and align with your career aspirations. With our service, you're not just getting a resume; you're investing in a future where your potential is accurately represented and recognized.
                         </p>
 
-                        <h1>Understanding the Importance of a Professional Resume in Your Career Journey</h1>
+                        <h3><strong>Understanding the Importance of a Professional Resume in Your Career Journey</strong></h3>
 
                         <p>
                             In today’s dynamic job market, a professional resume is not just a document; it's a crucial tool in your career arsenal. As experts in Industry-Specific Resume Services and CV Formatting Services, we at My Perfect Writing understand that a well-crafted resume is the first step towards your dream job. It's more than a summary of your experiences; it's a strategic presentation of your skills and achievements, tailored to the opportunities you aspire to secure.
@@ -796,8 +796,8 @@ const ResumeWriting = () => {
                         <p>
                             Remember, a resume is often the first impression you make on a potential employer. It needs to be impeccable, impactful, and reflective of your professional journey. In an era where AI CV Writers and Affordable Resume Writing Services are readily available, choosing a service that understands the nuances of your industry and personal career trajectory is paramount. That's where we excel, offering best resume examples and personalised guidance to help you navigate your career path successfully.
                         </p>
+                        <h3><strong>Our Expertise in Crafting Winning Resumes</strong></h3>
 
-                        <h1>Our Expertise in Crafting Winning Resumes</h1>
 
                         <p>
                             At My Perfect Writing, our Resume Writing Service in the UK is anchored by a deep understanding of the modern job market. Our expertise in Interview Preparation Help and Career Counseling Services ensures we provide more than just resume writing; we offer a comprehensive career support package. From UK academic CV writing for postgraduates to bespoke resume creation for UK executives, our services are tailored to meet the unique needs of each client.
@@ -815,7 +815,8 @@ const ResumeWriting = () => {
                             Our service is not just about crafting documents; it's about opening doors to new opportunities. We take pride in being part of our clients' success stories, offering tailored solutions that go beyond the standard resume writing. With our expertise, we ensure that every client's resume is not only a reflection of their career journey but also a key to unlocking their future aspirations.
                         </p>
 
-                        <h1>What We Offer: Comprehensive Resume Writing Services Tailored to Your Needs</h1>
+                       
+                        <h3><strong>What We Offer: Comprehensive Resume Writing Services Tailored to Your Needs</strong></h3>
 
                         <p>
                             Our Resume Writing Service in the UK is designed to cater to a diverse range of career aspirations. We specialize in offering Resume Writing Tips and using Online CV Builders to create bespoke resumes that reflect your professional narrative. Whether you're looking for UK resume and cover letter package deals or targeted resume services for UK healthcare professionals, our team is adept at meeting your specific requirements.
@@ -833,7 +834,8 @@ const ResumeWriting = () => {
                             With our resume writing services online, we make it convenient for you to access our services from anywhere in the UK. Our commitment is to deliver resumes that are not just documents, but powerful tools that open doors to new career opportunities, aligning with your aspirations and the demands of the modern job market.
                         </p>
 
-                        <h1>The Process: Crafting Your Tailored Resume with Precision and Expertise</h1>
+                       
+                        <h3><strong>The Process: Crafting Your Tailored Resume with Precision and Expertise</strong></h3>
 
                         <p>
                             At My Perfect Writing, our process of crafting your perfect resume involves a detailed and personalized approach. As CV Writing Experts and Professional Resume Builders, we start by understanding your unique career objectives and experiences. This initial consultation is key in providing Custom CV Advice for UK International Students and Professional Resume Optimization for UK Job Seekers.
@@ -851,7 +853,8 @@ const ResumeWriting = () => {
                             Our writers, some of the best professional resume writers in the field, apply their expertise to craft a resume that stands out. They ensure your resume is ATS-friendly, includes relevant keywords, and aligns with current industry trends. The final product is a polished, professional resume that enhances your chances of landing your dream job.
                         </p>
 
-                        <h1>Quality and Precision: Upholding the Highest Standards in Resume Writing</h1>
+                        
+                        <h3><strong>Quality and Precision: Upholding the Highest Standards in Resume Writing</strong></h3>
 
                         <p>
                             At My Perfect Writing, our commitment to excellence in every aspect of our Resume Writing Service in the UK is unwavering. We understand that the quality of your resume can significantly impact your career prospects. That's why we have a dedicated team, from resume builders near you to experienced resume rewrite services, all focused on delivering resumes that are not just good, but exemplary.
@@ -869,7 +872,8 @@ const ResumeWriting = () => {
                             The quality of our work is not just in the writing but also in the overall experience we provide. We believe in a collaborative process where your input and feedback are integral to crafting a resume that truly represents you. This customer-centric approach, combined with our expertise, sets us apart as the best CV writing service, committed to helping you reach your career goals.
                         </p>
 
-                        <h1>Quality and Precision: Upholding the Highest Standards in Resume Writing</h1>
+                        
+                        <h3><strong>Quality and Precision: Upholding the Highest Standards in Resume Writing</strong></h3>
 
                         <p>
                             Our Resume Writing Service in the UK is rooted in a commitment to excellence. We understand that a resume is more than a list of jobs and education; it's a personal marketing tool that must reflect the highest quality and precision. Our expert team, including skilled freelance resume writers and government resume writers, is dedicated to crafting documents that not only meet but exceed your expectations.
@@ -887,7 +891,9 @@ const ResumeWriting = () => {
                             At My Perfect Writing, we are not just writing resumes; we are shaping careers. We offer affordable resume writing services near you, ensuring accessibility without compromising on quality. Our process is collaborative, involving you at every step to ensure that the final product is a true representation of your professional persona.
                         </p>
 
-                        <h1>Conclusion: Empowering Your Path to Career Success</h1>
+                       
+                        <h3><strong>Conclusion: Empowering Your Path to Career Success</strong></h3>
+
 
                         <p>
                             As we draw our discussion to a close, it's clear that My Perfect Writing is more than just a service – it's a partner in your career journey. Our Resume Writing Service in the UK is dedicated to empowering your career aspirations, providing you with the tools, advice, and support necessary to navigate the competitive job market successfully.
@@ -910,7 +916,7 @@ const ResumeWriting = () => {
 
                 <div className="notice">
                     <div className="noticeContent">
-                        <h3>Notice Regarding Al-Generated Content</h3>
+                        <h2>Notice Regarding Al-Generated Content</h2>
                         <p>We want to be transparent with our readers: certain portions of our content are generated using advanced artificial intelligence. However, please rest assured that all Al-generated content is thoroughly reviewed and refined by our experienced and professional proofreaders and editors to ensure accuracy, relevance, and quality.</p>
                         <p>Our commitment to providing high-quality and trustworthy content remains our top priority. If you have any questions or need further clarification, please learn more here or contact our support team.</p>
                     </div>

@@ -308,6 +308,34 @@ const LiteratureReview = () => {
         <>
             <Helmet>
 
+               <title>Literature Review Service | Quality UK Academic Aid</title>
+               <meta name="description" content="Expert Literature Review Service in UK by My Perfect Writing. Comprehensive, ethical academic support for in-depth research and analysis." />
+
+               <meta name="keywords" content="Literature Review Service UK, UK Academic Review Assistance, Custom Literature Review Writing, University Research Support UK"></meta>
+
+                {/* Facebook meta description */}
+
+                <meta property="og:type" content="profile" />
+                <meta property="og:title" content="My Perfect Writing UK" />
+                <meta property="og:description" content="We offer top-quality essay writing services to help you with academic writing needs." />
+                <meta property="og:url" content="https://www.facebook.com/MyPerfectWritingUK" />
+                <meta property="og:image" content="https://www.facebook.com/photo/?fbid=304777308888913&set=a.163706819662630" />
+
+                {/* TikTok Meta Description */}
+                <meta property="og:type" content="profile" />
+                <meta property="og:title" content="myperfectwriting.co.uk" />
+                <meta property="og:description" content="Essay writing services to help you with any academic writing needs." />
+                <meta property="og:url" content="https://www.tiktok.com/@myperfectwriting.co.uk" />
+                <meta property="og:image" content="https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/036924512fd5ce2234dd790f90fae7d1.jpeg?lk3s=a5d48078&x-expires=1703412000&x-signature=Q3tNIYMUWroaSe5tgOtswVVVTvw%3D" />
+
+                {/* Instagram MetaDescription */}
+
+                <meta property="og:type" content="profile" />
+                <meta property="og:title" content="MyPerfectWriting" />
+                <meta property="og:description" content="Writing Service - Do not trust us; TEST us. MyPerfectWriting is the only essay writing service with a fixed rate for every deadline and educational level." />
+                <meta property="og:url" content="https://www.instagram.com/myperfectwriting/" />
+                <meta property="og:image" content="https://scontent.cdninstagram.com/v/t51.2885-19/375491376_6848625268501075_5955990304385974527_n.jpg?stp=dst-jpg_s120x120&_nc_cat=101&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=6fKNsbS7p7AAX_8-bxn&_nc_ht=scontent.cdninstagram.com&oh=00_AfBJyWa2LNO7fMiQI9c48pyXgUacyz93p88Fsm1zGVq4jA&oe=658ADFB1" />
+
                 <script type="application/ld+json">
                     {`
 {
@@ -340,7 +368,7 @@ const LiteratureReview = () => {
             <div class="header">
                 <div className="upper">
                     <div class="headerTop">
-                        <h3>Literature Review Service in UK - My Perfect Writing</h3>
+                        <h1>Literature Review Service in UK - My Perfect Writing</h1>
                         <p> Expertly crafted literature reviews tailored for students, academic professionals, and researchers.</p>
                     </div>
 
@@ -414,7 +442,7 @@ const LiteratureReview = () => {
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
-                    <h3>Meet Our Esteemed Writers</h3>
+                    <h2>Meet Our Esteemed Writers</h2>
                     <p>Distinguished experts from top UK universities, dedicated to elevating your academic writing and literature analysis.</p>
                 </div>
                 <div className="CrouselSection">
@@ -432,7 +460,7 @@ const LiteratureReview = () => {
             {/* cards pricing section  */}
             <div className="price " id="pricing-section">
                 <div className="pricTop">
-                    <h3>Why Choose Our Literature Review Service?</h3>
+                    <h2>Why Choose Our Literature Review Service?</h2>
                     <p>Discover unparalleled expertise and dedicated support with our comprehensive literature review help services, tailored for UK students and researchers.</p>
                 </div>
 
@@ -445,7 +473,7 @@ const LiteratureReview = () => {
                                 <path d="M10.1831 20.7295H13.3831V19.167H14.9831C15.4365 19.167 15.8167 19.017 16.1239 18.717C16.4311 18.417 16.5842 18.0462 16.5831 17.6045V12.917C16.5831 12.4743 16.4295 12.1029 16.1223 11.8029C15.8151 11.5029 15.4354 11.3535 14.9831 11.3545H10.1831V9.79199H16.5831V6.66699H13.3831V5.10449H10.1831V6.66699H8.58313C8.1298 6.66699 7.74953 6.81699 7.44233 7.11699C7.13513 7.41699 6.98206 7.78783 6.98313 8.22949V12.917C6.98313 13.3597 7.13673 13.7311 7.44393 14.0311C7.75113 14.3311 8.13086 14.4805 8.58313 14.4795H13.3831V16.042H6.98313V19.167H10.1831V20.7295ZM22.9831 19.5576L26.1831 16.4326H19.7831L22.9831 19.5576ZM19.7831 9.79199H26.1831L22.9831 6.66699L19.7831 9.79199ZM3.78313 25.417C2.90313 25.417 2.14953 25.1107 1.52233 24.4982C0.895132 23.8857 0.582066 23.1503 0.583133 22.292V3.54199C0.583133 2.68262 0.896733 1.94668 1.52393 1.33418C2.15113 0.721682 2.9042 0.415953 3.78313 0.416995H29.3831C30.2631 0.416995 31.0167 0.723244 31.6439 1.33574C32.2711 1.94824 32.5842 2.68366 32.5831 3.54199V22.292C32.5831 23.1514 32.2695 23.8873 31.6423 24.4998C31.0151 25.1123 30.2621 25.418 29.3831 25.417H3.78313Z" fill="#01593A" />
                             </svg> */}
                                 {card.icon1}
-                                <h4>{card.title}</h4>
+                                <h3>{card.title}</h3>
                                 <p>{card.desc}</p>
                                 {card.icon2}
                             </div>
@@ -454,7 +482,7 @@ const LiteratureReview = () => {
 
                     <div className="priceRightCard">
                         {/* <div className="card"> */}
-                        <h3>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</h3>
+                        <p><strong>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</strong></p>
                         <div className="cardContents">
                             <div className="cardOneSect">
                                 <div className="cardOneLeft">
@@ -463,7 +491,7 @@ const LiteratureReview = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -474,7 +502,7 @@ const LiteratureReview = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -485,7 +513,7 @@ const LiteratureReview = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -496,7 +524,7 @@ const LiteratureReview = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -507,7 +535,7 @@ const LiteratureReview = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -518,14 +546,14 @@ const LiteratureReview = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
                             <div className="allFeatures">
-                                <h4>Get all these feaures of</h4>
+                                <p>Get all these feaures of</p>
                                 <p>15.99</p>
-                                <h2>FREE</h2>
+                                <p>FREE</p>
                             </div>
                             <div className="doBtn">
                                 <a href="https://myperfectwriting.co.uk/portal/public/login">
@@ -544,7 +572,7 @@ const LiteratureReview = () => {
             {/* Faqs sectin  */}
             <div className="faqs">
                 <div className="faqTop">
-                    <h3>Frequently Asked Questions About Our Literature Review Service</h3>
+                    <h2>Frequently Asked Questions About Our Literature Review Service</h2>
                     <p> Get insightful answers to your queries, reflecting our commitment to quality, expertise in academic writing, and tailored literature review assistance.</p>
                 </div>
 
@@ -568,7 +596,7 @@ const LiteratureReview = () => {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            {item.question}
+                                            <h4>{item.question}</h4>
                                         </div>
 
                                         {/* <div className="arrowDwon"> */}
@@ -606,7 +634,7 @@ const LiteratureReview = () => {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            {item.question}
+                                            <h4>{item.question}</h4>
                                         </div>
 
                                         {/* <div className="arrowDwon"> */}
@@ -635,7 +663,7 @@ const LiteratureReview = () => {
             {/* review section  */}
             <div className="review">
                 <div className="reviewTop">
-                    <h3>Client Testimonials - Our Literature Review Success Stories</h3>
+                    <h2>Client Testimonials - Our Literature Review Success Stories</h2>
                     <p> Real feedback from students and academics showcasing our exceptional literature review writing and editing services, marked by expertise and reliability.</p>
                 </div>
 
@@ -645,21 +673,21 @@ const LiteratureReview = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="47" viewBox="0 0 46 47" fill="none">
                                 <path d="M13.3978 35.0356C11.0335 34.2475 8.66915 35.2506 8.09598 37.2567C7.52281 39.1911 8.88409 41.4122 11.2484 42.2003C13.6128 42.9884 15.9771 41.9853 16.5503 39.9792C17.1234 37.9731 15.7621 35.7521 13.3978 35.0356ZM4.80024 41.4122C4.01213 42.057 3.94049 43.275 4.5853 44.2064C5.30177 45.1378 6.44811 45.3527 7.30787 44.7795C8.09598 44.1347 8.16763 42.9167 7.52281 41.9853C6.87799 41.0539 5.58835 40.839 4.80024 41.4122ZM44.4207 16.9807C44.4207 15.0463 43.4893 13.3267 42.128 12.2521V11.8222C42.128 8.81302 39.7637 6.3054 36.8262 6.3054H36.253C35.1067 4.37094 33.1006 3.00966 30.7363 3.00966C29.3033 3.00966 28.0137 3.43954 27.0106 4.22765C25.6494 3.00966 23.7866 2.1499 21.7805 2.1499C18.4847 2.1499 15.6905 4.37094 14.7591 7.45174C13.6844 6.66363 12.3231 6.23375 10.8902 6.23375C7.09293 6.23375 4.01213 9.38619 4.01213 13.2551C4.01213 14.4014 4.29872 15.4761 4.7286 16.4792C2.7225 17.9121 1.43286 20.2765 1.43286 22.999C1.43286 27.4411 4.94354 31.0234 9.24232 31.0234C10.8185 31.0234 12.3231 30.5219 13.5411 29.7338C14.1859 33.1012 17.1234 35.6804 20.6341 35.6804C23.2134 35.6804 25.5061 34.2475 26.7957 32.1698C27.6555 33.0295 28.8734 33.6027 30.2347 33.6027C32.7424 33.6027 34.8201 31.5966 35.035 29.089C35.6082 29.3039 36.253 29.4472 36.8979 29.4472C39.9786 29.4472 42.4863 26.8679 42.4863 23.7155C42.4863 23.0707 42.343 22.4258 42.1997 21.8527C43.4893 20.6347 44.4207 18.9152 44.4207 16.9807Z" fill="#00A12D" />
                             </svg>
-                            <h3>Thoughts ?</h3>
+                            <p><strong>Thoughts ?</strong></p>
                         </div>
                         <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
                     </div>
                     <div className="privacy-card">
                         <div className="pcardTop">
                             <FaEye style={{ color: "green", fontSize: "40px" }} />
-                            <h3>Reality ?</h3>
+                            <p><strong>Reality ?</strong></p>
                         </div>
                         <p>Essay writing clients are naturally cautious about revealing their identity, which makes them reluctant to leave reviews. </p>
                     </div>
                     <div className="privacy-card">
                         <div className="pcardTop">
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
-                            <h3>Privacy ?</h3>
+                            <p><strong>Privacy ?</strong></p>
                         </div>
                         <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
@@ -672,20 +700,20 @@ const LiteratureReview = () => {
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">
-                                        <h3>Service Type:</h3>
+                                        <p>Service Type:</p>
                                         <p>{item.ServiceType}</p>
                                     </div>
                                     <div className="sec1Mid">
-                                        <h3>Word Count:</h3>
+                                        <p>Word Count:</p>
                                         <p>{item.WordCount}</p>
                                     </div>
                                     <div className="sec1Bottom">
                                         <div className="BottLeft">
-                                            <h3>Citation:</h3>
+                                            <p>Citation:</p>
                                             <p>{item.Citation}</p>
                                         </div>
                                         <div className="BottRight">
-                                            <h3>Price:</h3>
+                                            <p>Price:</p>
                                             <p>{item.OrderPrice}</p>
                                         </div>
                                     </div>
@@ -693,7 +721,7 @@ const LiteratureReview = () => {
 
                                 <div className="sect2">
                                     <img src={`./images/Animal avatars/${item.image}`} alt="review-image" />
-                                    <h3>{item.CustomerID}</h3>
+                                    <p>{item.CustomerID}</p>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="58" height="10" viewBox="0 0 58 10" fill="none">
                                         <path d="M2.45668 9.89245L3.26518 6.579L0.576904 4.35133L4.11803 4.05821L5.50487 0.933105L6.89172 4.05759L10.4322 4.3507L7.74456 6.57838L8.55306 9.89183L5.50487 8.13314L2.45668 9.89245Z" fill="#00A22D" />
                                         <path d="M14.1038 9.89245L14.9123 6.579L12.2241 4.35133L15.7652 4.05821L17.152 0.933105L18.5389 4.05759L22.0793 4.3507L19.3917 6.57838L20.2002 9.89183L17.152 8.13314L14.1038 9.89245Z" fill="#00A22D" />
@@ -707,13 +735,13 @@ const LiteratureReview = () => {
                                 <div className="sect3">
                                     <div className="sect3Top">
                                         <div className="input">
-                                            <h3>Subject: {item.Subject} </h3>
+                                            <p>Subject: {item.Subject} </p>
                                             <hr />
                                             <p>{item.Review}</p>
                                         </div>
                                     </div>
                                     <div className="sect3Tags">
-                                        <h3>Tags</h3>
+                                        <p>Tags</p>
                                         {item.Tags && item.Tags.length > 0 ? (
                                             item.Tags.map((tag, tagIndex) => (
                                                 <button key={tagIndex}>{tag}</button>
@@ -727,7 +755,7 @@ const LiteratureReview = () => {
                                 <div className="sect4">
                                     <div className="sect4Top">
                                         <div className="input">
-                                            <h3>Responce from MyPerfectWriting</h3>
+                                            <p>Responce from MyPerfectWriting</p>
                                             <hr />
                                             <p>{item.ResponsefromMyPerfectWriting}</p>
                                         </div>
@@ -756,13 +784,13 @@ const LiteratureReview = () => {
                     </a>
                 </div>
                 <div className="wTop">
-                    <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>
+                    <h2>My Perfect Writing- Top Essay Writing Service in UK</h2>
                     <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
                 </div>
 
                 <div className="wPdf">
                     <div className="leftText">
-                        <h2>Understanding Academic Essays and Literature Reviews</h2>
+                        <h3><strong>Understanding Academic Essays and Literature Reviews</strong></h3>
                         <p>
                             Navigating the intricacies of academic writing, particularly essays and literature reviews, is crucial for university students and researchers. A well-structured literature review not only showcases your grasp of the subject but also demonstrates your ability to critically analyze and synthesize information. At <em>Literature Review Service in UK</em>, we specialize in providing <strong>professional literature review help</strong> and <strong>university literature analysis help</strong>, ensuring each piece is tailor-made to meet specific academic requirements.
                         </p>
@@ -773,7 +801,7 @@ const LiteratureReview = () => {
                             We believe in offering an <strong>affordable literature review writing service in UK</strong>, making academic assistance accessible to all students. Our commitment extends to providing <strong>buy custom literature review for UK students</strong>, a service tailored to the unique needs of each client. With a focus on critical analysis, structured arguments, and thorough research, our literature reviews stand out in both depth and quality.
                         </p>
 
-                        <h2>Introduction to Our Literature Review Service</h2>
+                        <h3><strong>Introduction to Our Literature Review Service</strong></h3>
                         <p>
                             At <em>Literature Review Service in UK</em>, we pride ourselves on delivering specialized literature review writing services tailored for Masters and PhD students, researchers, and academics across the UK. Our team comprises seasoned professionals adept in <strong>scholarly article review assistance</strong> and <strong>advanced literature research</strong>, ensuring every project meets rigorous academic standards.
                         </p>
@@ -784,7 +812,7 @@ const LiteratureReview = () => {
                             We stand out with our dedication to originality, quality, and detail. Whether it's a dissertation, thesis, or an assignment, our literature reviews are crafted to enhance critical thinking, provide robust argumentation, and ensure proper citations and referencing. Our commitment extends to providing confidential, secure, and reliable services that respect the integrity and goals of each scholar we assist.
                         </p>
 
-                        <h2>Why Literature Reviews are Crucial in Academic Success</h2>
+                        <h3><strong>Why Literature Reviews are Crucial in Academic Success</strong></h3>
                         <p>
                             Literature reviews are more than just an academic formality; they are the backbone of scholarly research. In our <em>Literature Review Service in UK</em>, we emphasize the importance of literature reviews in providing a comprehensive overview of existing knowledge, identifying gaps, and setting the groundwork for new insights. As <strong>literature evaluation experts in the UK</strong>, we understand that a well-crafted literature review is a testament to a student's research acumen and intellectual maturity.
                         </p>
@@ -795,7 +823,7 @@ const LiteratureReview = () => {
                             At the heart of our service is the commitment to providing <strong>comprehensive literature review writing in the UK</strong>. We offer <strong>literature review consultation for UK academics</strong>, assisting them in navigating complex topics, ensuring the reviews are thorough, well-structured, and adhere to the highest academic standards. This meticulous approach empowers students and researchers to achieve academic success and recognition in their respective disciplines.
                         </p>
 
-                        <h2>Our Expertise in Crafting Comprehensive Literature Reviews</h2>
+                        <h3><strong>Our Expertise in Crafting Comprehensive Literature Reviews</strong></h3>
                         <p>
                             At <em>Literature Review Service in UK</em>, our core strength lies in our expertise in crafting comprehensive, detailed, and insightful literature reviews. Our team of <strong>UK expert writers for literature review projects</strong> brings a wealth of experience in <strong>university-level writing services</strong> and <strong>research paper analysis in the UK</strong>. Each literature review is an embodiment of meticulous research, critical analysis, and tailored to meet the unique requirements of your academic endeavours.
                         </p>
@@ -806,7 +834,7 @@ const LiteratureReview = () => {
                             In line with our commitment to quality and excellence, we focus on delivering <strong>research paper review writing</strong> and <strong>service literature review</strong> that meet the highest standards of academic integrity. This commitment to quality is reflected in our detailed, innovative, and creative approach to every literature review, ensuring that each project goes beyond the conventional to offer new perspectives and insights.
                         </p>
 
-                        <h2>The Process: How We Approach Literature Review Writing</h2>
+                        <h3><strong>The Process: How We Approach Literature Review Writing</strong></h3>
                         <p>
                             Our approach to literature review writing at <em>Literature Review Service in UK</em> is methodical and tailored to each client's unique requirements. As part of our <strong>postgraduate writing assistance</strong> and <strong>literature assessment services in the UK</strong>, we begin by understanding the specific needs and objectives of your research.
                         </p>
@@ -817,7 +845,7 @@ const LiteratureReview = () => {
                             Each literature review we craft is a blend of thorough research, analytical rigor, and creative synthesis, tailored to meet the high standards expected in postgraduate and doctoral research. We ensure that every review is original, plagiarism-free, and adheres to the required academic formatting and style, be it APA, MLA, Harvard, or Chicago.
                         </p>
 
-                        <h2>Ensuring Quality and Depth in Our Reviews</h2>
+                        <h3><strong>Ensuring Quality and Depth in Our Reviews</strong></h3>
                         <p>
                             Quality and depth are the cornerstones of our <em>Literature Review Service in UK</em>. We place a high emphasis on <strong>academic study review help</strong> and <strong>literature analysis consultation in the UK</strong>, ensuring each review is not just comprehensive, but also deeply analytical. Our team of experts is dedicated to providing <strong>quality literature review writing for UK scholars</strong> and <strong>detailed literature review assistance for UK courses</strong>.
                         </p>
@@ -828,7 +856,7 @@ const LiteratureReview = () => {
                             Every literature review we produce undergoes a stringent quality check process, which includes thorough editing and proofreading. This ensures that your review is not only original and plagiarism-free but also rich in content, providing a detailed, insightful, and innovative analysis relevant to your subject and topic.
                         </p>
 
-                        <h2>Customized Literature Reviews: Tailored to Your Academic Needs</h2>
+                        <h3><strong>Customized Literature Reviews: Tailored to Your Academic Needs</strong></h3>
                         <p>
                             At <em>Literature Review Service in UK</em>, we understand that every academic project is unique. That's why our services are not 'one-size-fits-all'; we provide <strong>customized literature reviews</strong> meticulously crafted to align with your specific academic requirements. Whether it's for an undergraduate essay, a postgraduate thesis, or a doctoral dissertation, our team of professional writers and educators offers tailored support to ensure the highest quality and relevance to your subject.
                         </p>
@@ -839,7 +867,7 @@ const LiteratureReview = () => {
                             We pride ourselves on delivering literature reviews that are not just original and plagiarism-free but also customized to offer insightful and innovative perspectives on your topic. Our commitment is to support your academic journey with reliable, confidential, and quality-driven services, ensuring that each literature review we produce contributes significantly to achieving your academic goals.
                         </p>
 
-                        <h2>Adding Value Through Insightful Analysis</h2>
+                        <h3><strong>Adding Value Through Insightful Analysis</strong></h3>
                         <p>
                             At <em>Literature Review Service in UK</em>, we believe that the core of an impactful literature review lies in its analysis. Our team of experienced professionals and educators is dedicated to delivering insightful and detailed analyses that not only summarize existing literature but also critically examine and add new perspectives to your field of study. This approach ensures that each review we produce goes beyond the surface to uncover deeper understandings and connections.
                         </p>
@@ -850,7 +878,7 @@ const LiteratureReview = () => {
                             In providing this service, we focus on creating content that is original, plagiarism-free, and tailored to the specific requirements of your academic endeavour. Our aim is to support your journey in academia by offering a literature review service that contributes significantly to your academic goals, delivering a product that is both insightful and innovative.
                         </p>
 
-                        <h2>Commitment to Academic Integrity and Ethical Writing</h2>
+                        <h3><strong>Commitment to Academic Integrity and Ethical Writing</strong></h3>
                         <p>
                             At <em>Literature Review Service in UK</em>, we uphold the highest standards of academic integrity and ethical writing practices. Our team, comprised of seasoned professionals and educators, is deeply committed to producing literature reviews that are not only academically rigorous but also adhere to the ethical guidelines of scholarly writing.
                         </p>
@@ -861,7 +889,7 @@ const LiteratureReview = () => {
                             We take pride in delivering literature reviews that are tailored to the individual needs of our clients while adhering to the ethical standards of academic writing. Our commitment extends beyond mere compliance with university standards; it's about fostering a culture of integrity and responsibility in academic research and writing.
                         </p>
 
-                        <h2>Feedback, Continuous Learning, and Adaptation</h2>
+                        <h3><strong>Feedback, Continuous Learning, and Adaptation</strong></h3>
                         <p>
                             At <em>Literature Review Service in UK</em>, we recognize the value of feedback, continuous learning, and adaptation in the realm of academic writing. Our approach is not static; we constantly seek to improve and refine our services based on client feedback and the evolving landscape of academic research.
                         </p>
@@ -872,7 +900,7 @@ const LiteratureReview = () => {
                             Client feedback is a crucial component of our process. It informs our strategies and helps us to tailor our services more effectively. We actively encourage our clients to provide their input, which we then meticulously analyze to enhance the quality, relevance, and effectiveness of our literature review services. This cycle of feedback and continuous improvement is integral to our mission of providing high-quality, customised academic support.
                         </p>
 
-                        <h2>Enhancing Your Research with Professional Literature Reviews</h2>
+                        <h3><strong>Enhancing Your Research with Professional Literature Reviews</strong></h3>
                         <p>
                             The essence of our <em>Literature Review Service in UK</em> lies in elevating the standard of your academic research. Our professional literature reviews are crafted not just to summarize existing knowledge but to add depth and breadth to your research endeavours. Each review is an intricate tapestry of analysis, synthesized from numerous academic sources, tailored to enhance your understanding and argumentation in your specific subject area.
                         </p>
@@ -887,7 +915,7 @@ const LiteratureReview = () => {
 
                 <div className="notice">
                     <div className="noticeContent">
-                        <h3>Notice Regarding Al-Generated Content</h3>
+                        <h2>Notice Regarding Al-Generated Content</h2>
                         <p>We want to be transparent with our readers: certain portions of our content are generated using advanced artificial intelligence. However, please rest assured that all Al-generated content is thoroughly reviewed and refined by our experienced and professional proofreaders and editors to ensure accuracy, relevance, and quality.</p>
                         <p>Our commitment to providing high-quality and trustworthy content remains our top priority. If you have any questions or need further clarification, please learn more here or contact our support team.</p>
                     </div>

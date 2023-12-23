@@ -53,18 +53,18 @@ const MidSection = () => {
 
             <div className='midSect'>
                 <div className="MidtopContents">
-                    <h3>Exemplary Work Showcase</h3>
+                    <h2>Exemplary Work Showcase</h2>
                     <p>Dive into our curated selection of samples, demonstrating our commitment to quality, expertise, and unmatched academic proficiency. Your success is our top priority.</p>
                 </div>
                 <div className="Midmain">
                     <FontAwesomeIcon className='icon-burger' icon={faBars} onClick={handleToggleSidebar} />
                     <nav className={`midNav ${isVisible ? 'visibleMidNav' : ''}`}>
                         <ul>
-                            <li><a onClick={() => { setActiveTab('academic'); setIsVisible(false) }} href="#academic">Academic</a></li>
-                            <li><a onClick={() => { setActiveTab('creative'); setIsVisible(false) }} href="#creative">Creative Writing</a></li>
-                            <li><a onClick={() => { setActiveTab('review'); setIsVisible(false) }} href="#reviews">Reviews</a></li>
-                            <li><a onClick={() => { setActiveTab('business'); setIsVisible(false) }} href="#representation">Business Writing</a></li>
-                            <li><a onClick={() => { setActiveTab('presentation'); setIsVisible(false) }} href="#representation">Presentation</a></li>
+                            <li><a onClick={() => { setActiveTab('academic'); setIsVisible(false) }} href="#academic"><h3>Academic</h3></a></li>
+                            <li><a onClick={() => { setActiveTab('creative'); setIsVisible(false) }} href="#creative"><h3>Creative Writing</h3></a></li>
+                            <li><a onClick={() => { setActiveTab('review'); setIsVisible(false) }} href="#reviews"><h3>Reviews</h3></a></li>
+                            <li><a onClick={() => { setActiveTab('business'); setIsVisible(false) }} href="#representation"><h3>Business Writing</h3></a></li>
+                            <li><a onClick={() => { setActiveTab('presentation'); setIsVisible(false) }} href="#representation"><h3>Presentation</h3></a></li>
                         </ul>
                     </nav>
                     {/* <div className="MidnavContents">

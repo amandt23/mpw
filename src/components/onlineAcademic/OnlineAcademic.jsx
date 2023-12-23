@@ -26,7 +26,7 @@ const OnlineAcademic = () => {
     return (
         <div className="online">
             <div className="onlineTop">
-                <h3>24/7 Online Academic Writing Help In UK</h3>
+                <h2>24/7 Online Academic Writing Help In UK</h2>
                 <p>Discover the Gold Standard in Academic Support with My Perfect Writing Your Trusted Partner in Achieving Academic Prowess.</p>
             </div>
 

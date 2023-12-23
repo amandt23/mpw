@@ -191,7 +191,7 @@ const ProofreadingService = () => {
                 "Tags": ["Academic Editing Specialists UK", "Dissertation Proofreading"],
                 "ResponsefromMyPerfectWriting": "Thank you! We're delighted to have supported your academic journey.",
                 "Date": "25th October 2023",
-                "image": "066.jpg"
+                "image": "188.png"
             },
             {
                 "ServiceType": "Thesis Proofreading",
@@ -206,7 +206,7 @@ const ProofreadingService = () => {
                 "Tags": ["Thesis Proofreading", "English Proofreading Online"],
                 "ResponsefromMyPerfectWriting": "We appreciate your feedback and are thrilled to have helped!",
                 "Date": "26th October 2023",
-                "image": "067.jpg"
+                "image": "189.png"
             },
             {
                 "ServiceType": "Academic Essay Proofreading",
@@ -221,7 +221,7 @@ const ProofreadingService = () => {
                 "Tags": ["Proofread My Essay", "UK Based Essay Editing and Proofreading"],
                 "ResponsefromMyPerfectWriting": "Thank you for choosing us. Delighted to have met your expectations!",
                 "Date": "27th October 2023",
-                "image": "068.jpg"
+                "image": "190.png"
             },
             {
                 "ServiceType": "Research Paper Review",
@@ -236,7 +236,7 @@ const ProofreadingService = () => {
                 "Tags": ["Research Paper Review UK", "Academic Proofreading"],
                 "ResponsefromMyPerfectWriting": "Your satisfaction is our top priority. Thank you for the positive review!",
                 "Date": "28th October 2023",
-                "image": "069.jpg"
+                "image": "191.png"
             },
             {
                 "ServiceType": "Manuscript Editing",
@@ -251,7 +251,7 @@ const ProofreadingService = () => {
                 "Tags": ["Manuscript Editing Services", "Professional Manuscript Editing Services UK"],
                 "ResponsefromMyPerfectWriting": "It was a pleasure to work on your manuscript. Thanks for trusting us!",
                 "Date": "29th October 2023",
-                "image": "070.jpg"
+                "image": "192.png"
             },
             {
                 "ServiceType": "Coursework Proofreading",
@@ -266,7 +266,7 @@ const ProofreadingService = () => {
                 "Tags": ["Customized UK Student Proofreading Services", "Coursework Editing"],
                 "ResponsefromMyPerfectWriting": "Great to hear that your coursework benefited from our service. Thank you!",
                 "Date": "30th October 2023",
-                "image": "071.jpg"
+                "image": "193.png"
             },
             {
                 "ServiceType": "Dissertation Editing",
@@ -281,7 +281,7 @@ const ProofreadingService = () => {
                 "Tags": ["Best Dissertation Proofreading Services in the UK", "Dissertation Editing"],
                 "ResponsefromMyPerfectWriting": "Thank you for your review. We're glad to have contributed to your success!",
                 "Date": "31st October 2023",
-                "image": "072.jpg"
+                "image": "194.png"
             },
             {
                 "ServiceType": "Literature Review Proofreading",
@@ -296,7 +296,7 @@ const ProofreadingService = () => {
                 "Tags": ["English Editing Service", "Literature Review Editing"],
                 "ResponsefromMyPerfectWriting": "We appreciate your feedback. It's our pleasure to ensure the quality of your literature review.",
                 "Date": "1st November 2023",
-                "image": "073.jpg"
+                "image": "195.png"
             }
 
         ];
@@ -338,7 +338,7 @@ const ProofreadingService = () => {
             <div class="header">
                 <div className="upper">
                     <div class="headerTop">
-                        <h3>My Perfect Writing - Premier Proofreading Service in the UK</h3>
+                        <h1>My Perfect Writing - Premier Proofreading Service in the UK</h1>
                         <p>Tailored Proofreading for Students, Academic Professionals, and Researchers.</p>
                     </div>
 
@@ -388,14 +388,14 @@ const ProofreadingService = () => {
                                             <p>Complimentary Plagiarism/AI Detection Reports</p>
                                         </div>
                                     </div>
-<a href="https://myperfectwriting.co.uk/portal/public/login">
+                                  <a href="https://myperfectwriting.co.uk/portal/public/login">
 
                                     <button className='rightBTN pulse-button'>Get Started Today!</button>
-</a>
+                                  </a>
 
                                 </div>
                                 <div className="RightContentBottom">
-                                    <p><strong>Why Choose Our Proofreading Service?: </strong>Enhance your academic work with reliable, budget-friendly proofreading, ensuring clarity and precision in every page.</p>
+                                    <p><strong>Why Choose Our Proofreading Service? </strong>Enhance your academic work with reliable, budget-friendly proofreading, ensuring clarity and precision in every page.</p>
                                     <p><strong>Our Commitment to Quality: </strong>We guarantee top-tier proofreading, upholding academic integrity with our consistent pricing and comprehensive plagiarism checks.</p>
                                 </div>
                             </div>
@@ -412,7 +412,7 @@ const ProofreadingService = () => {
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
-                    <h3>Meet Our Expert Proofreading Team</h3>
+                    <h2>Meet Our Expert Proofreading Team</h2>
                     <p>Dedicated professionals with unparalleled expertise in academic proofreading across the UK.</p>
                 </div>
                 <div className="CrouselSection">
@@ -430,7 +430,7 @@ const ProofreadingService = () => {
             {/* cards pricing section  */}
             <div className="price " id="pricing-section">
                 <div className="pricTop">
-                    <h3>Exceptional Proofreading for Academic Success</h3>
+                    <h2>Exceptional Proofreading for Academic Success</h2>
                     <p>Discover unparalleled reliability in academic proofreading, blending expertise, precision, and affordability in every service we offer.</p>
                 </div>
 
@@ -443,7 +443,7 @@ const ProofreadingService = () => {
                                 <path d="M10.1831 20.7295H13.3831V19.167H14.9831C15.4365 19.167 15.8167 19.017 16.1239 18.717C16.4311 18.417 16.5842 18.0462 16.5831 17.6045V12.917C16.5831 12.4743 16.4295 12.1029 16.1223 11.8029C15.8151 11.5029 15.4354 11.3535 14.9831 11.3545H10.1831V9.79199H16.5831V6.66699H13.3831V5.10449H10.1831V6.66699H8.58313C8.1298 6.66699 7.74953 6.81699 7.44233 7.11699C7.13513 7.41699 6.98206 7.78783 6.98313 8.22949V12.917C6.98313 13.3597 7.13673 13.7311 7.44393 14.0311C7.75113 14.3311 8.13086 14.4805 8.58313 14.4795H13.3831V16.042H6.98313V19.167H10.1831V20.7295ZM22.9831 19.5576L26.1831 16.4326H19.7831L22.9831 19.5576ZM19.7831 9.79199H26.1831L22.9831 6.66699L19.7831 9.79199ZM3.78313 25.417C2.90313 25.417 2.14953 25.1107 1.52233 24.4982C0.895132 23.8857 0.582066 23.1503 0.583133 22.292V3.54199C0.583133 2.68262 0.896733 1.94668 1.52393 1.33418C2.15113 0.721682 2.9042 0.415953 3.78313 0.416995H29.3831C30.2631 0.416995 31.0167 0.723244 31.6439 1.33574C32.2711 1.94824 32.5842 2.68366 32.5831 3.54199V22.292C32.5831 23.1514 32.2695 23.8873 31.6423 24.4998C31.0151 25.1123 30.2621 25.418 29.3831 25.417H3.78313Z" fill="#01593A" />
                             </svg> */}
                                 {card.icon1}
-                                <h4>{card.title}</h4>
+                                <h3>{card.title}</h3>
                                 <p>{card.desc}</p>
                                 {card.icon2}
                             </div>
@@ -452,7 +452,7 @@ const ProofreadingService = () => {
 
                     <div className="priceRightCard">
                         {/* <div className="card"> */}
-                        <h3>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</h3>
+                        <p><strong>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</strong></p>
                         <div className="cardContents">
                             <div className="cardOneSect">
                                 <div className="cardOneLeft">
@@ -461,7 +461,7 @@ const ProofreadingService = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    
                                 </div>
                             </div>
                             <hr />
@@ -472,7 +472,7 @@ const ProofreadingService = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -483,7 +483,7 @@ const ProofreadingService = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -494,7 +494,7 @@ const ProofreadingService = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -505,7 +505,7 @@ const ProofreadingService = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
@@ -516,14 +516,14 @@ const ProofreadingService = () => {
                                 </div>
                                 <div className="cardOneRight">
                                     <p>15.99</p>
-                                    <h2>FREE</h2>
+                                    <p>FREE</p>
                                 </div>
                             </div>
                             <hr />
                             <div className="allFeatures">
-                                <h4>Get all these feaures of</h4>
+                                <p>Get all these feaures of</p>
                                 <p>15.99</p>
-                                <h2>FREE</h2>
+                                <p>FREE</p>
                             </div>
                             <div className="doBtn">
                                 <a href="https://myperfectwriting.co.uk/portal/public/login">
@@ -542,7 +542,7 @@ const ProofreadingService = () => {
             {/* Faqs sectin  */}
             <div className="faqs">
                 <div className="faqTop">
-                    <h3>Proofreading Service FAQs</h3>
+                    <h2>Proofreading Service FAQs</h2>
                     <p>Expert answers to your queries, reflecting our dedication to providing top-notch academic proofreading services.</p>
                 </div>
 
@@ -566,7 +566,7 @@ const ProofreadingService = () => {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            {item.question}
+                                            <h4>{item.question}</h4>
                                         </div>
 
                                         {/* <div className="arrowDwon"> */}
@@ -604,7 +604,7 @@ const ProofreadingService = () => {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            {item.question}
+                                            <h4>{item.question}</h4>
                                         </div>
 
                                         {/* <div className="arrowDwon"> */}
@@ -633,7 +633,7 @@ const ProofreadingService = () => {
             {/* review section  */}
             <div className="review">
                 <div className="reviewTop">
-                    <h3>Client Testimonials - Our Proofreading Excellence</h3>
+                    <h2>Client Testimonials - Our Proofreading Excellence</h2>
                     <p>Real feedback from our clients demonstrating the impact and quality of our top-rated academic proofreading services in the UK.</p>
                 </div>
 
@@ -643,21 +643,21 @@ const ProofreadingService = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="46" height="47" viewBox="0 0 46 47" fill="none">
                                 <path d="M13.3978 35.0356C11.0335 34.2475 8.66915 35.2506 8.09598 37.2567C7.52281 39.1911 8.88409 41.4122 11.2484 42.2003C13.6128 42.9884 15.9771 41.9853 16.5503 39.9792C17.1234 37.9731 15.7621 35.7521 13.3978 35.0356ZM4.80024 41.4122C4.01213 42.057 3.94049 43.275 4.5853 44.2064C5.30177 45.1378 6.44811 45.3527 7.30787 44.7795C8.09598 44.1347 8.16763 42.9167 7.52281 41.9853C6.87799 41.0539 5.58835 40.839 4.80024 41.4122ZM44.4207 16.9807C44.4207 15.0463 43.4893 13.3267 42.128 12.2521V11.8222C42.128 8.81302 39.7637 6.3054 36.8262 6.3054H36.253C35.1067 4.37094 33.1006 3.00966 30.7363 3.00966C29.3033 3.00966 28.0137 3.43954 27.0106 4.22765C25.6494 3.00966 23.7866 2.1499 21.7805 2.1499C18.4847 2.1499 15.6905 4.37094 14.7591 7.45174C13.6844 6.66363 12.3231 6.23375 10.8902 6.23375C7.09293 6.23375 4.01213 9.38619 4.01213 13.2551C4.01213 14.4014 4.29872 15.4761 4.7286 16.4792C2.7225 17.9121 1.43286 20.2765 1.43286 22.999C1.43286 27.4411 4.94354 31.0234 9.24232 31.0234C10.8185 31.0234 12.3231 30.5219 13.5411 29.7338C14.1859 33.1012 17.1234 35.6804 20.6341 35.6804C23.2134 35.6804 25.5061 34.2475 26.7957 32.1698C27.6555 33.0295 28.8734 33.6027 30.2347 33.6027C32.7424 33.6027 34.8201 31.5966 35.035 29.089C35.6082 29.3039 36.253 29.4472 36.8979 29.4472C39.9786 29.4472 42.4863 26.8679 42.4863 23.7155C42.4863 23.0707 42.343 22.4258 42.1997 21.8527C43.4893 20.6347 44.4207 18.9152 44.4207 16.9807Z" fill="#00A12D" />
                             </svg>
-                            <h3>Thoughts ?</h3>
+                            <p><strong>Thoughts ?</strong></p>
                         </div>
                         <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
                     </div>
                     <div className="privacy-card">
                         <div className="pcardTop">
                             <FaEye style={{ color: "green", fontSize: "40px" }} />
-                            <h3>Reality ?</h3>
+                            <p><strong>Reality ?</strong></p>
                         </div>
                         <p>Essay writing clients are naturally cautious about revealing their identity, which makes them reluctant to leave reviews. </p>
                     </div>
                     <div className="privacy-card">
                         <div className="pcardTop">
                             <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
-                            <h3>Privacy ?</h3>
+                            <p><strong>Privacy ?</strong></p>
                         </div>
                         <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
                     </div>
@@ -670,20 +670,20 @@ const ProofreadingService = () => {
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">
-                                        <h3>Service Type:</h3>
+                                        <p>Service Type:</p>
                                         <p>{item.ServiceType}</p>
                                     </div>
                                     <div className="sec1Mid">
-                                        <h3>Word Count:</h3>
+                                        <p>Word Count:</p>
                                         <p>{item.WordCount}</p>
                                     </div>
                                     <div className="sec1Bottom">
                                         <div className="BottLeft">
-                                            <h3>Citation:</h3>
+                                            <p>Citation:</p>
                                             <p>{item.Citation}</p>
                                         </div>
                                         <div className="BottRight">
-                                            <h3>Price:</h3>
+                                            <p>Price:</p>
                                             <p>{item.OrderPrice}</p>
                                         </div>
                                     </div>
@@ -691,7 +691,7 @@ const ProofreadingService = () => {
 
                                 <div className="sect2">
                                     <img src={`./images/Animal avatars/${item.image}`} alt="service-image" />
-                                    <h3>{item.CustomerID}</h3>
+                                    <p>{item.CustomerID}</p>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="58" height="10" viewBox="0 0 58 10" fill="none">
                                         <path d="M2.45668 9.89245L3.26518 6.579L0.576904 4.35133L4.11803 4.05821L5.50487 0.933105L6.89172 4.05759L10.4322 4.3507L7.74456 6.57838L8.55306 9.89183L5.50487 8.13314L2.45668 9.89245Z" fill="#00A22D" />
                                         <path d="M14.1038 9.89245L14.9123 6.579L12.2241 4.35133L15.7652 4.05821L17.152 0.933105L18.5389 4.05759L22.0793 4.3507L19.3917 6.57838L20.2002 9.89183L17.152 8.13314L14.1038 9.89245Z" fill="#00A22D" />
@@ -705,13 +705,13 @@ const ProofreadingService = () => {
                                 <div className="sect3">
                                     <div className="sect3Top">
                                         <div className="input">
-                                            <h3>Subject: {item.Subject} </h3>
+                                            <p>Subject: {item.Subject} </p>
                                             <hr />
                                             <p>{item.Review}</p>
                                         </div>
                                     </div>
                                     <div className="sect3Tags">
-                                        <h3>Tags</h3>
+                                        <p>Tags</p>
                                         {item.Tags && item.Tags.length > 0 ? (
                                             item.Tags.map((tag, tagIndex) => (
                                                 <button key={tagIndex}>{tag}</button>
@@ -725,7 +725,7 @@ const ProofreadingService = () => {
                                 <div className="sect4">
                                     <div className="sect4Top">
                                         <div className="input">
-                                            <h3>Responce from MyPerfectWriting</h3>
+                                            <p>Responce from MyPerfectWriting</p>
                                             <hr />
                                             <p>{item.ResponsefromMyPerfectWriting}</p>
                                         </div>
@@ -754,13 +754,13 @@ const ProofreadingService = () => {
                     </a>
                 </div>
                 <div className="wTop">
-                    <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>
+                    <h2>My Perfect Writing- Top Essay Writing Service in UK</h2>
                     <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
                 </div>
 
                 <div className="wPdf">
                     <div className="leftText">
-                        <h2>Introduction to Proofreading in Academia</h2>
+                        <h3><strong>Introduction to Proofreading in Academia</strong></h3>
                         <p>
                             At My Perfect Writing, we understand the crucial role of proofreading in academic success. Our <strong>Proofreading Service in the UK</strong> is tailored to meet the high standards of academic excellence, ensuring every essay, dissertation, and thesis we handle is polished to perfection. Our team of professionals is adept in <em>UK Grammar Check Service</em> and <em>Professional Editing for Students</em>, offering a meticulous review that encompasses structure, citations, and critical analysis.
                         </p>
@@ -771,7 +771,7 @@ const ProofreadingService = () => {
                             Our commitment to delivering <em>plagiarism-free</em>, <em>original</em>, and <em>quality-driven</em> content has established us as a preferred choice for university and college students, as well as educators across the UK. Entrust us with your academic documents, and experience the difference that professional proofreading can make to your grades and academic journey.
                         </p>
 
-                        <h2>Why Proofreading is Essential for Academic Excellence</h2>
+                        <h3><strong>Why Proofreading is Essential for Academic Excellence</strong></h3>
                         <p>
                             In the realm of academia, the importance of proofreading cannot be overstated. At <strong>My Perfect Writing</strong>, our <em>Proofreading Service in the UK</em> is not just about correcting errors; it's about elevating your academic work to meet the rigorous standards of <em>Academic Proofreading UK</em>. Whether it's for a crucial essay, a complex thesis, or a comprehensive research paper, meticulous proofreading ensures clarity, coherence, and academic integrity.
                         </p>
@@ -782,7 +782,7 @@ const ProofreadingService = () => {
                             Choosing a service like ours, known for <em>professional proofreading services</em> and <em>research paper editing services</em>, guarantees that your work is not only free from grammatical errors but also polished in terms of argument structure and critical analysis. We help transform your academic efforts into exemplary pieces of writing, reflective of your knowledge and hard work.
                         </p>
 
-                        <h2>Our Expertise in Academic Proofreading</h2>
+                        <h3><strong>Our Expertise in Academic Proofreading</strong></h3>
                         <p>
                             At <strong>My Perfect Writing</strong>, our <em>Proofreading Service in the UK</em> is underpinned by a profound expertise in <em>UK Academic Writing Support</em>. Our team, comprising seasoned professionals, specializes in <em>Essay Proofreading and Editing</em>, delivering exceptional quality that reflects in every paper we handle. From <em>Undergraduate Proofreading Services in the UK</em> to <em>Postgraduate Dissertation Editing UK</em>, our scope of services caters to every academic level.
                         </p>
@@ -793,7 +793,7 @@ const ProofreadingService = () => {
                             The proficiency of our team extends to <em>freelance proofreading</em> and collaboration with platforms like <em>Cambridge Proofreading and Editing</em>, and <em>Elsevier Language Editing Services</em>. This diverse experience equips us to handle a wide range of academic subjects and formats, delivering tailor-made proofreading solutions that align with your unique academic needs.
                         </p>
 
-                        <h2>Detailed Overview of Our Proofreading Service</h2>
+                        <h3><strong>Detailed Overview of Our Proofreading Service</strong></h3>
                         <p>
                             Our <strong>Proofreading Service in the UK</strong> stands out for its meticulous attention to detail and commitment to academic excellence. Specialising in <em>Academic Review Service UK</em> and <em>Undergraduate Paper Editing</em>, we cater to a wide range of academic needs, from <em>Quality Thesis Proofreading for UK Students</em> to <em>British English Editing for Academic Papers</em>. Our service is designed to address every aspect of your academic document, ensuring precision and clarity.
                         </p>
@@ -804,7 +804,7 @@ const ProofreadingService = () => {
                             Recognised among the top <em>proofreading companies</em>, we ensure that each paper is not only free from grammatical errors but also polished in terms of academic style and format. Our team, proficient in <em>free proof reading</em> and <em>best paper editing services</em>, works diligently to provide feedback that is both constructive and insightful. This level of dedication makes us an ideal choice for students and academics seeking reliable and professional proofreading services.
                         </p>
 
-                        <h2>Our Proofreading Process: Ensuring Quality and Precision</h2>
+                        <h3><strong>Our Proofreading Process: Ensuring Quality and Precision</strong></h3>
                         <p>
                             At <strong>My Perfect Writing</strong>, our <em>Proofreading Service in the UK</em> is rooted in a rigorous process that guarantees the highest standards of quality and precision. Specializing in <em>Postgraduate Thesis Proofreading</em> and <em>Academic Language Experts UK</em>, our approach is meticulous and methodical, catering to the diverse needs of academic writing.
                         </p>
@@ -815,7 +815,7 @@ const ProofreadingService = () => {
                             Utilizing tools like <em>manuscript English editing service</em> and <em>elsevier proofreading services</em>, along with traditional proofreading techniques, we ensure that every document adheres to the highest academic standards. This comprehensive process involves detailed feedback and suggestions, allowing for a collaborative and tailored experience that enhances your work’s overall quality.
                         </p>
 
-                        <h2>Our Proofreading Process: Ensuring Quality and Precision</h2>
+                        <h3><strong>Our Proofreading Process: Ensuring Quality and Precision</strong></h3>
                         <p>
                             At <strong>My Perfect Writing</strong>, our <em>Proofreading Service in the UK</em> is defined by a rigorous, methodical process aimed at delivering unparalleled quality and precision. Specializing in <em>Postgraduate Thesis Proofreading</em> and offering expert services like <em>UK Scholarly Article Proofreading Services</em>, we ensure each document meets the highest academic standards.
                         </p>
@@ -826,7 +826,7 @@ const ProofreadingService = () => {
                             We focus on delivering a service that goes beyond mere grammatical corrections. Our proofreaders ensure coherence in argument structure, consistency in citation styles, and overall fluency that enhances the readability of your work. This meticulous approach is what sets our <em>professional proofreading</em> and <em>manuscript English editing service</em> apart, making us a trusted partner in your academic journey.
                         </p>
 
-                        <h2>Customized Service to Meet Your Academic Needs</h2>
+                        <h3><strong>Customized Service to Meet Your Academic Needs</strong></h3>
                         <p>
                             Understanding the unique requirements of each academic endeavor, <strong>My Perfect Writing</strong> offers a <em>Proofreading Service in the UK</em> that is highly customized and tailored to individual needs. Whether it’s a detailed <em>essay</em>, an intricate <em>thesis</em>, or an extensive <em>dissertation</em>, our service adapts to your specific requirements, ensuring that every piece of work is handled with the utmost care and precision.
                         </p>
@@ -837,7 +837,7 @@ const ProofreadingService = () => {
                             In addition to traditional proofreading, we offer <em>free proofreading service</em> trials and access to <em>proofreading sites</em> for clients seeking an initial evaluation of our services. Our commitment to providing <em>customized</em>, <em>comprehensive</em>, and <em>detailed</em> support is what makes us a trusted partner in your academic journey.
                         </p>
 
-                        <h2>Adding Value: Beyond Just Corrections</h2>
+                        <h3><strong>Adding Value: Beyond Just Corrections</strong></h3>
                         <p>
                             At <strong>My Perfect Writing</strong>, our <em>Proofreading Service in the UK</em> transcends traditional boundaries, focusing not only on correcting errors but also on adding significant value to your academic work. Our team of experts, skilled in <em>medical editing services</em> and <em>best manuscript editing services</em>, brings a wealth of knowledge to each project, enhancing content far beyond basic grammar and punctuation checks.
                         </p>
@@ -847,7 +847,7 @@ const ProofreadingService = () => {
                         <p>
                             As part of our commitment to excellence, we offer <em>best English editing service</em> that goes beyond surface-level corrections. We delve into the structure, flow, and clarity of arguments, enhancing the overall coherence and impact of your academic writing. This holistic approach ensures that your work not only meets but exceeds academic standards, making our service a valuable asset in your academic journey.
                         </p>
-                        <h2>Commitment to Ethical Academic Support</h2>
+                        <h3><strong>Commitment to Ethical Academic Support</strong></h3>
                         <p>
                             At <strong>My Perfect Writing</strong>, our <em>Proofreading Service in the UK</em> is guided by a strong commitment to ethical academic support. We uphold the highest standards of academic integrity, ensuring that our <em>proofreading academic papers</em> and <em>thesis proofreading service</em> enhance your work without compromising its originality.
                         </p>
@@ -858,7 +858,7 @@ const ProofreadingService = () => {
                             We understand the importance of ethical support in academic pursuits. Whether it’s offering <em>book editing and proofreading services</em> or assisting with university assignments, our goal is to provide assistance that is both reliable and responsible, contributing positively to your educational journey without compromising the principles of academic honesty.
                         </p>
 
-                        <h2>Feedback and Continuous Service Improvement</h2>
+                        <h3><strong>Feedback and Continuous Service Improvement</strong></h3>
                         <p>
                             At <strong>My Perfect Writing</strong>, our <em>Proofreading Service in the UK</em> is dedicated to ongoing improvement and excellence. We actively seek and value feedback from our clients, whether they are students, university staff, or researchers. This feedback is a crucial part of our process, enabling us to continually refine our services and ensure that we meet the evolving needs of the academic community.
                         </p>
@@ -869,7 +869,7 @@ const ProofreadingService = () => {
                             Continual learning and development are at the core of our service philosophy. By integrating client feedback and staying abreast of the latest developments in academic writing, we ensure that our services remain relevant, effective, and aligned with the highest academic standards. This commitment to improvement makes us a reliable and trusted partner in your educational journey, helping you achieve the best possible results.
                         </p>
 
-                        <h2>Conclusion: Elevating Your Academic Work through Professional Proofreading</h2>
+                        <h3><strong>Conclusion: Elevating Your Academic Work through Professional Proofreading</strong></h3>
                         <p>
                             In conclusion, <strong>My Perfect Writing</strong> and our <em>Proofreading Service in the UK</em> are committed to elevating the standard of your academic work. Through our professional, reliable, and tailored services, we aim to not only ensure grammatical accuracy but also enhance the overall quality and coherence of your essays, assignments, theses, and dissertations.
                         </p>
@@ -885,7 +885,7 @@ const ProofreadingService = () => {
 
                 <div className="notice">
                     <div className="noticeContent">
-                        <h3>Notice Regarding Al-Generated Content</h3>
+                        <h2>Notice Regarding Al-Generated Content</h2>
                         <p>We want to be transparent with our readers: certain portions of our content are generated using advanced artificial intelligence. However, please rest assured that all Al-generated content is thoroughly reviewed and refined by our experienced and professional proofreaders and editors to ensure accuracy, relevance, and quality.</p>
                         <p>Our commitment to providing high-quality and trustworthy content remains our top priority. If you have any questions or need further clarification, please learn more here or contact our support team.</p>
                     </div>

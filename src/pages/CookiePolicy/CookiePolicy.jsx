@@ -7,6 +7,8 @@ const CookiePolicy = () => {
     return (
         <>
             <Helmet>
+                <title>Cookie Policy - Enhancing Your Learning</title>
+                <meta name="description" content="Learn about the Cookies Policy at My Perfect Writing. We use various types of cookies to improve functionality, personalisation, performance, and advertising relevance. Understand how to manage your cookie preferences to ensure an optimal experience on our UK academic platform." />
 
                 <script type="application/ld+json">
                     {`

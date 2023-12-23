@@ -316,7 +316,7 @@ const DissertionAssignment = () => {
       <div class="header">
         <div className="upper">
           <div class="headerTop">
-            <h3>Dissertation Proofreading Service in UK</h3>
+            <h1>Dissertation Proofreading Service in UK</h1>
             <p>Elevating Academic Excellence for Students, Professionals, and Researchers</p>
           </div>
 
@@ -391,7 +391,7 @@ const DissertionAssignment = () => {
       {/* writers section */}
       <div className="myteam">
         <div className="topSection">
-          <h3>Meet Our Expert Dissertation Editors</h3>
+          <h2>Meet Our Expert Dissertation Editors</h2>
           <p>Empowering Your Academic Journey with Unmatched Expertise and Experience in Academic Proofreading in the UK</p>
         </div>
         <div className="CrouselSection">
@@ -408,7 +408,7 @@ const DissertionAssignment = () => {
       {/* cards pricing section  */}
       <div className="price " id="pricing-section">
         <div className="pricTop">
-          <h3>Why Choose Our Dissertation Proofreading Service</h3>
+          <h2>Why Choose Our Dissertation Proofreading Service</h2>
           <p>Unlock academic success with our experienced UK dissertation editors, delivering precision, originality, and unmatched support.</p>
         </div>
 
@@ -421,7 +421,7 @@ const DissertionAssignment = () => {
                                 <path d="M10.1831 20.7295H13.3831V19.167H14.9831C15.4365 19.167 15.8167 19.017 16.1239 18.717C16.4311 18.417 16.5842 18.0462 16.5831 17.6045V12.917C16.5831 12.4743 16.4295 12.1029 16.1223 11.8029C15.8151 11.5029 15.4354 11.3535 14.9831 11.3545H10.1831V9.79199H16.5831V6.66699H13.3831V5.10449H10.1831V6.66699H8.58313C8.1298 6.66699 7.74953 6.81699 7.44233 7.11699C7.13513 7.41699 6.98206 7.78783 6.98313 8.22949V12.917C6.98313 13.3597 7.13673 13.7311 7.44393 14.0311C7.75113 14.3311 8.13086 14.4805 8.58313 14.4795H13.3831V16.042H6.98313V19.167H10.1831V20.7295ZM22.9831 19.5576L26.1831 16.4326H19.7831L22.9831 19.5576ZM19.7831 9.79199H26.1831L22.9831 6.66699L19.7831 9.79199ZM3.78313 25.417C2.90313 25.417 2.14953 25.1107 1.52233 24.4982C0.895132 23.8857 0.582066 23.1503 0.583133 22.292V3.54199C0.583133 2.68262 0.896733 1.94668 1.52393 1.33418C2.15113 0.721682 2.9042 0.415953 3.78313 0.416995H29.3831C30.2631 0.416995 31.0167 0.723244 31.6439 1.33574C32.2711 1.94824 32.5842 2.68366 32.5831 3.54199V22.292C32.5831 23.1514 32.2695 23.8873 31.6423 24.4998C31.0151 25.1123 30.2621 25.418 29.3831 25.417H3.78313Z" fill="#01593A" />
                             </svg> */}
                 {card.icon1}
-                <h4>{card.title}</h4>
+                <h3>{card.title}</h3>
                 <p>{card.desc}</p>
                 {card.icon2}
               </div>
@@ -430,7 +430,7 @@ const DissertionAssignment = () => {
 
           <div className="priceRightCard">
             {/* <div className="card"> */}
-            <h3>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</h3>
+            <p><strong>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</strong></p>
             <div className="cardContents">
               <div className="cardOneSect">
                 <div className="cardOneLeft">
@@ -439,7 +439,7 @@ const DissertionAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -450,7 +450,7 @@ const DissertionAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -461,7 +461,7 @@ const DissertionAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -472,7 +472,7 @@ const DissertionAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -483,7 +483,7 @@ const DissertionAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
@@ -494,14 +494,14 @@ const DissertionAssignment = () => {
                 </div>
                 <div className="cardOneRight">
                   <p>15.99</p>
-                  <h2>FREE</h2>
+                  <p>FREE</p>
                 </div>
               </div>
               <hr />
               <div className="allFeatures">
                 <h4>Get all these feaures of</h4>
                 <p>15.99</p>
-                <h2>FREE</h2>
+                <p>FREE</p>
               </div>
               <div className="doBtn">
                 <a href="https://myperfectwriting.co.uk/portal/public/login">
@@ -519,7 +519,7 @@ const DissertionAssignment = () => {
       {/* Faqs sectin  */}
       <div className="faqs">
         <div className="faqTop">
-          <h3>Frequently Asked Questions About Our Dissertation Proofreading Service</h3>
+          <h2>Frequently Asked Questions About Our Dissertation Proofreading Service</h2>
           <p>Expert answers to your queries, showcasing our dedication to quality and professional academic assistance.</p>
         </div>
 
@@ -543,7 +543,7 @@ const DissertionAssignment = () => {
                           </clipPath>
                         </defs>
                       </svg>
-                      {item.question}
+                      <h4>{item.question}</h4>
                     </div>
 
                     {/* <div className="arrowDwon"> */}
@@ -581,7 +581,7 @@ const DissertionAssignment = () => {
                           </clipPath>
                         </defs>
                       </svg>
-                      {item.question}
+                      <h4>{item.question}</h4>
                     </div>
 
                     {/* <div className="arrowDwon"> */}
@@ -610,7 +610,7 @@ const DissertionAssignment = () => {
       {/* review section  */}
       <div className="review">
         <div className="reviewTop">
-          <h3>Trusted Reviews from Our Satisfied Clients</h3>
+          <h2>Trusted Reviews from Our Satisfied Clients</h2>
           <p>Reflecting our commitment to excellence, our dissertation proofreading service has earned accolades from students and professionals across the UK and beyond.</p>
         </div>
 
@@ -620,21 +620,21 @@ const DissertionAssignment = () => {
               <svg xmlns="http://www.w3.org/2000/svg" width="46" height="47" viewBox="0 0 46 47" fill="none">
                 <path d="M13.3978 35.0356C11.0335 34.2475 8.66915 35.2506 8.09598 37.2567C7.52281 39.1911 8.88409 41.4122 11.2484 42.2003C13.6128 42.9884 15.9771 41.9853 16.5503 39.9792C17.1234 37.9731 15.7621 35.7521 13.3978 35.0356ZM4.80024 41.4122C4.01213 42.057 3.94049 43.275 4.5853 44.2064C5.30177 45.1378 6.44811 45.3527 7.30787 44.7795C8.09598 44.1347 8.16763 42.9167 7.52281 41.9853C6.87799 41.0539 5.58835 40.839 4.80024 41.4122ZM44.4207 16.9807C44.4207 15.0463 43.4893 13.3267 42.128 12.2521V11.8222C42.128 8.81302 39.7637 6.3054 36.8262 6.3054H36.253C35.1067 4.37094 33.1006 3.00966 30.7363 3.00966C29.3033 3.00966 28.0137 3.43954 27.0106 4.22765C25.6494 3.00966 23.7866 2.1499 21.7805 2.1499C18.4847 2.1499 15.6905 4.37094 14.7591 7.45174C13.6844 6.66363 12.3231 6.23375 10.8902 6.23375C7.09293 6.23375 4.01213 9.38619 4.01213 13.2551C4.01213 14.4014 4.29872 15.4761 4.7286 16.4792C2.7225 17.9121 1.43286 20.2765 1.43286 22.999C1.43286 27.4411 4.94354 31.0234 9.24232 31.0234C10.8185 31.0234 12.3231 30.5219 13.5411 29.7338C14.1859 33.1012 17.1234 35.6804 20.6341 35.6804C23.2134 35.6804 25.5061 34.2475 26.7957 32.1698C27.6555 33.0295 28.8734 33.6027 30.2347 33.6027C32.7424 33.6027 34.8201 31.5966 35.035 29.089C35.6082 29.3039 36.253 29.4472 36.8979 29.4472C39.9786 29.4472 42.4863 26.8679 42.4863 23.7155C42.4863 23.0707 42.343 22.4258 42.1997 21.8527C43.4893 20.6347 44.4207 18.9152 44.4207 16.9807Z" fill="#00A12D" />
               </svg>
-              <h3>Thoughts ?</h3>
+              <p><strong>Thoughts ?</strong></p>
             </div>
             <p>Would you be willing to disclose your real name and photo to post a review on essay writing or reviewing websites?</p>
           </div>
           <div className="privacy-card">
             <div className="pcardTop">
               <FaEye style={{ color: "green", fontSize: "40px" }} />
-              <h3>Reality ?</h3>
+              <p><strong>Reality ?</strong></p>
             </div>
             <p>Essay writing clients are naturally cautious about revealing their identity, which makes them reluctant to leave reviews. </p>
           </div>
           <div className="privacy-card">
             <div className="pcardTop">
               <MdPrivacyTip style={{ color: "green", fontSize: "40px" }} />
-              <h3>Privacy ?</h3>
+              <p><strong>Privacy ?</strong></p>
             </div>
             <p>Clients sphere often tread cautiously when it comes to revealing their identity, leading to hesitancy in leaving reviews.</p>
           </div>
@@ -647,20 +647,20 @@ const DissertionAssignment = () => {
               <div className="reviewCard" key={index}>
                 <div className="sec1">
                   <div className="sec1Top">
-                    <h3>Service Type:</h3>
+                    <p>Service Type:</p>
                     <p>{item.ServiceType}</p>
                   </div>
                   <div className="sec1Mid">
-                    <h3>Word Count:</h3>
+                    <p>Word Count:</p>
                     <p>{item.WordCount}</p>
                   </div>
                   <div className="sec1Bottom">
                     <div className="BottLeft">
-                      <h3>Citation:</h3>
+                      <p>Citation:</p>
                       <p>{item.Citation}</p>
                     </div>
                     <div className="BottRight">
-                      <h3>Price:</h3>
+                      <p>Price:</p>
                       <p>{item.OrderPrice}</p>
                     </div>
                   </div>
@@ -668,7 +668,7 @@ const DissertionAssignment = () => {
 
                 <div className="sect2">
                   <img src={`./images/Animal avatars/${item.image}`} alt="assn-image" />
-                  <h3>{item.CustomerID}</h3>
+                  <p>{item.CustomerID}</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="58" height="10" viewBox="0 0 58 10" fill="none">
                     <path d="M2.45668 9.89245L3.26518 6.579L0.576904 4.35133L4.11803 4.05821L5.50487 0.933105L6.89172 4.05759L10.4322 4.3507L7.74456 6.57838L8.55306 9.89183L5.50487 8.13314L2.45668 9.89245Z" fill="#00A22D" />
                     <path d="M14.1038 9.89245L14.9123 6.579L12.2241 4.35133L15.7652 4.05821L17.152 0.933105L18.5389 4.05759L22.0793 4.3507L19.3917 6.57838L20.2002 9.89183L17.152 8.13314L14.1038 9.89245Z" fill="#00A22D" />
@@ -682,13 +682,13 @@ const DissertionAssignment = () => {
                 <div className="sect3">
                   <div className="sect3Top">
                     <div className="input">
-                      <h3>Subject: {item.Subject} </h3>
+                      <p>Subject: {item.Subject} </p>
                       <hr />
                       <p>{item.Review}</p>
                     </div>
                   </div>
                   <div className="sect3Tags">
-                    <h3>Tags</h3>
+                    <p>Tags</p>
                     {item.Tags && item.Tags.length > 0 ? (
                       item.Tags.map((tag, tagIndex) => (
                         <button key={tagIndex}>{tag}</button>
@@ -702,7 +702,7 @@ const DissertionAssignment = () => {
                 <div className="sect4">
                   <div className="sect4Top">
                     <div className="input">
-                      <h3>Responce from MyPerfectWriting</h3>
+                      <p>Responce from MyPerfectWriting</p>
                       <hr />
                       <p>{item.ResponsefromMyPerfectWriting}</p>
                     </div>
@@ -731,13 +731,13 @@ const DissertionAssignment = () => {
           </a>
         </div>
         <div className="wTop">
-          <h3>My Perfect Writing- Top Essay Writing Service in UK</h3>
+          <h2>My Perfect Writing- Top Essay Writing Service in UK</h2>
           <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
         </div>
 
         <div className="wPdf">
           <div className="leftText">
-            <h2>Introduction to Dissertation Proofreading Services in the UK</h2>
+            <h3><strong>Introduction to Dissertation Proofreading Services in the UK</strong></h3>
 
             <p>
               At My Perfect Writing, we understand the critical role that dissertations play in a student's academic journey. Our <strong>Dissertation Proofreading Service in the UK</strong> is designed to provide bespoke, comprehensive support for students seeking excellence in their scholarly work. We focus on delivering services that are not just about <em>proofreading thesis cost</em> efficiency, but also about enhancing the quality and credibility of your academic endeavours.
@@ -755,7 +755,7 @@ const DissertionAssignment = () => {
               In summary, our service is more than just a means to <em>proofread my dissertation</em>; it's a partnership in academic success. We pride ourselves on being one of the most reliable and <em>bespoke UK dissertation proofreading and editing</em> services, dedicated to uplifting the quality of your academic papers.
             </p>
 
-            <h1>The Critical Role of Proofreading in Academic Success</h1>
+            <h3><strong>The Critical Role of Proofreading in Academic Success</strong></h3>
             <p>
               In the realm of academia, the difference between a good and an outstanding dissertation often lies in the details. Our <strong>Dissertation Proofreading Service in the UK</strong> plays an essential role in refining your academic work, ensuring it communicates your research clearly and effectively. Whether it's for a <em>master's dissertation</em> or a <em>PhD thesis</em>, meticulous proofreading can significantly uplift the quality of your submission.
             </p>
@@ -772,7 +772,7 @@ const DissertionAssignment = () => {
               In summary, the role of proofreading in academic success is paramount. It's not just about making a good impression; it's about ensuring the integrity and professionalism of your academic work. Our <em>Dissertation Proofreading Service in the UK</em> is committed to helping you achieve this pinnacle of academic excellence.
             </p>
 
-            <h1>Our Expertise in Dissertation Proofreading</h1>
+            <h3><strong>Our Expertise in Dissertation Proofreading</strong></h3>
             <p>
               At My Perfect Writing, our <strong>Dissertation Proofreading Service in the UK</strong> is founded on a deep understanding of academic excellence. Our team, comprised of professionals with years of experience in <em>student thesis editing services</em> and <em>UK academic proofreading</em>, brings precision and a keen eye for detail to every dissertation we handle.
             </p>
@@ -789,7 +789,7 @@ const DissertionAssignment = () => {
               In conclusion, our expertise in dissertation proofreading is not just a service; it's a partnership in your academic journey. We are dedicated to enhancing the quality and credibility of your work, helping you achieve the academic success you deserve.
             </p>
 
-            <h1>What Sets Our Dissertation Proofreading Service Apart</h1>
+            <h3><strong>What Sets Our Dissertation Proofreading Service Apart</strong></h3>
             <p>
               In the competitive realm of <em>academic editorial services in the UK</em>, what distinguishes My Perfect Writing's <strong>Dissertation Proofreading Service</strong> is our unwavering commitment to quality and customisation. We don't just provide <em>English proofreading for dissertations</em>; we offer a bespoke experience tailored to the unique needs of UK scholars.
             </p>
@@ -806,7 +806,7 @@ const DissertionAssignment = () => {
               In conclusion, our service is more than just proofreading; it's a comprehensive, client-focused experience. We take pride in being a trusted name in <em>academic editorial services in the UK</em>, dedicated to elevating the quality of your academic work.
             </p>
 
-            <h1>Comprehensive Service Overview: What We Offer</h1>
+            <h3><strong>Comprehensive Service Overview: What We Offer</strong></h3>
             <p>
               At My Perfect Writing, our <strong>Dissertation Proofreading Service in the UK</strong> offers a wide array of specialised services designed to cater to the diverse needs of academic scholars. Our expertise extends beyond mere error correction; we provide a holistic approach to enhance every aspect of your dissertation.
             </p>
@@ -823,7 +823,7 @@ const DissertionAssignment = () => {
               In essence, our Dissertation Proofreading Service is not just about perfecting your work; it's about empowering you to present your research in the best possible light. We are dedicated to helping you achieve the highest standards of academic excellence.
             </p>
 
-            <h1>Ensuring Quality and Accuracy in Your Dissertation</h1>
+            <h3><strong>Ensuring Quality and Accuracy in Your Dissertation</strong></h3>
             <p>
               At My Perfect Writing, we believe that the essence of a remarkable <strong>Dissertation Proofreading Service in the UK</strong> lies in its ability to enhance the quality and accuracy of academic work. Our dedicated team of professionals and educators brings a wealth of experience in <em>editing</em>, <em>proofreading</em>, and <em>academic assistance</em> to ensure that your dissertation meets the highest standards.
             </p>
@@ -837,7 +837,7 @@ const DissertionAssignment = () => {
               In summary, our goal is to help you present a dissertation that is not just error-free but also enriched with academic rigour and critical analysis. We strive to empower you with a dissertation that truly reflects your expertise and research efforts, making it a valuable contribution to your field of study.
             </p>
 
-            <h1>Tailoring to Your Needs: Our Client-Centric Approach</h1>
+            <h3><strong>Tailoring to Your Needs: Our Client-Centric Approach</strong></h3>
             <p>
               At My Perfect Writing, our <strong>Dissertation Proofreading Service in the UK</strong> is underpinned by a client-centric philosophy. We understand that each dissertation is unique, and our approach is tailored to meet the specific needs and expectations of every scholar we work with.
             </p>
@@ -854,7 +854,7 @@ const DissertionAssignment = () => {
               In essence, our goal is to be more than just a service provider; we strive to be a trusted partner in your academic journey. By focusing on a client-centric approach, we ensure that our Dissertation Proofreading Service is not only effective but also personally meaningful and valuable to each scholar we assist.
             </p>
 
-            <h1>Beyond Proofreading: Adding Value to Your Academic Work</h1>
+            <h3><strong>Beyond Proofreading: Adding Value to Your Academic Work</strong></h3>
             <p>
               At My Perfect Writing, our <strong>Dissertation Proofreading Service in the UK</strong> transcends traditional proofreading. We aim to add substantial value to your academic work, elevating it from standard to exceptional. Our approach involves in-depth engagement with your dissertation, focusing on enhancing both its form and substance.
             </p>
@@ -871,7 +871,7 @@ const DissertionAssignment = () => {
               In essence, our service is not just about correcting errors; it’s about empowering you as a scholar. We strive to enhance the overall quality of your dissertation, making it a testament to your hard work and intellectual rigour. With My Perfect Writing, you gain a partner dedicated to adding real value to your academic journey.
             </p>
 
-            <h1>Commitment to Ethical Academic Standards</h1>
+            <h3><strong>Commitment to Ethical Academic Standards</strong></h3>
             <p>
               At My Perfect Writing, our <strong>Dissertation Proofreading Service in the UK</strong> is anchored in a strong commitment to ethical academic standards. We understand the importance of maintaining the integrity and originality of your scholarly work and uphold these principles in every aspect of our service.
             </p>
@@ -885,7 +885,7 @@ const DissertionAssignment = () => {
               In essence, our dedication to ethical academic standards is not just a promise but a foundational pillar of our service. We strive to contribute positively to the academic community by ensuring that each dissertation we work on is a true reflection of the scholar's hard work and intellectual prowess.
             </p>
 
-            <h1>Feedback, Reviews, and Continuous Improvement</h1>
+            <h3><strong>Feedback, Reviews, and Continuous Improvement</strong></h3>
             <p>
               At My Perfect Writing, our <strong>Dissertation Proofreading Service in the UK</strong> is deeply committed to continuous improvement, driven by valuable feedback and reviews from our clients. We believe that the best way to enhance our services is by listening to those we serve.
             </p>
@@ -902,7 +902,7 @@ const DissertionAssignment = () => {
               In essence, our service is not static; it evolves. We are committed to a journey of ongoing enhancement, ensuring that our clients always receive the best possible support in their academic endeavours.
             </p>
 
-            <h1>Conclusion: Empowering Your Academic Journey</h1>
+            <h3><strong>Conclusion: Empowering Your Academic Journey</strong></h3>
             <p>
               In summary, My Perfect Writing's <strong>Dissertation Proofreading Service in the UK</strong> is dedicated to empowering your academic journey. Our service is not just about correcting grammatical errors; it's about enhancing your research work's overall quality, ensuring it stands out in the academic community.
             </p>
@@ -921,7 +921,7 @@ const DissertionAssignment = () => {
 
         <div className="notice">
           <div className="noticeContent">
-            <h3>Notice Regarding Al-Generated Content</h3>
+            <h2>Notice Regarding Al-Generated Content</h2>
             <p>We want to be transparent with our readers: certain portions of our content are generated using advanced artificial intelligence. However, please rest assured that all Al-generated content is thoroughly reviewed and refined by our experienced and professional proofreaders and editors to ensure accuracy, relevance, and quality.</p>
             <p>Our commitment to providing high-quality and trustworthy content remains our top priority. If you have any questions or need further clarification, please learn more here or contact our support team.</p>
           </div>

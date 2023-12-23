@@ -59,7 +59,7 @@ const Navbar = () => {
                   <Link to="/annotated-bibliography-service">Annotated Bibliography Service</Link>
                   <Link to="/dissertation-writing-service">Dissertation Writing Service</Link>
                   <Link to="/literature-review-service">Literature Review Service</Link>
-                  <Link to="/discussion-post-service">Discussion Post Service</Link>
+                  <Link to="/discussion-post-page">Discussion Post Service</Link>
                   <Link to="/academic-essays-service">Academic Essays Service</Link>
                   <Link to="/peer-responses-service">Peer Responses Service</Link>
                   <Link to="/research-papers-service">Research Papers Service</Link>
@@ -70,10 +70,11 @@ const Navbar = () => {
             <div className="service service5">
               <a href="#service1">Applied & Professional Sciences</a>
               <div className=" SubService5">
-                <Link to="#">Nursing Assignment Help</Link>
-                <a href="#">Criminal Justice Assignment Help</a>
-                <a href="#">Proofreading Service</a>
-                <a href="#">Nutrition Assignment Help</a>
+               <Link to="/nursing-assignment-help">Nursing Assignment Help in UK</Link>
+               <Link to="/criminal-justice-assignment-help">Criminal Justice Assignment Help</Link>
+               <Link to="/proofreading-service">Proof Reading Service</Link>
+               <Link to="/nutrition-assignment-help">Nutrition Assignment Help</Link>
+               
               </div>
             </div>
             <div className="service service3">
@@ -82,7 +83,6 @@ const Navbar = () => {
                 <Link to="/dissertation-assignment-help">Dissertation Proofreading Service</Link>
                 <Link to="/cv-writing-service">CV Writing Service</Link>
                 <Link to="/resume-writing-service">Resume Writing Service</Link>
-                <Link to="/proofreading-service">Proofreading Service</Link>
                 <Link to="/editing-formatting-service">Editing & Formatting Service</Link>
               </div>
             </div>
@@ -101,14 +101,15 @@ const Navbar = () => {
             <div className="service service4">
               <a href="#service1">Social Sciences</a>
               <div className=" SubService4">
-                <a href="#">Communication Assignment Help</a>
-                <a href="#">Public Relations Assignment Help</a>
-                <a href="#">Sociology Assignment Help</a>
-                <a href="#">Social Work Assignment Help</a>
-                <a href="#">Religion Assignment Help</a>
-                <a href="#">Psychology Assignment Help</a>
-                <a href="#">Political Assignment Help</a>
-                <a href="#">HRM Assignment Help</a>
+              <Link to="/sociology-assignment-help">Sociology Assignment Help</Link>
+              <Link to="/public-relations-assignment-help">Public Relations Assignment Help</Link>
+              <Link to="/social-work-assignment-help">Social Work Assignment Help</Link>
+              <Link to="/religion-assignment-help-in-uk">Religion Assignment Help in Uk</Link>
+              <Link to="/psychology-assignment-help">Psychology Assignment Help</Link>
+              <Link to="/political-assignment-help">Political Assignment Help</Link>
+              <Link to="/hrm-assignment-help">HRM Assignment Help</Link>
+              
+                
               </div>
             </div>
 

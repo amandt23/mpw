@@ -37,7 +37,7 @@ const Footer = () => {
         <>
             <div ref={topRef} className="footer">
                 <div className="fLeft">
-                    <h3>DONT MISS OUT</h3>
+                    <p><strong>DONT MISS OUT</strong></p>
                     <p>Sign up for the latest beauty news, product samples and coupons</p>
                     <div className="Btns">
                         <label htmlFor="">Email Address *</label>
@@ -62,7 +62,7 @@ const Footer = () => {
                 <div className="fRight">
                     <div className="RContents">
                         <div className="rSection">
-                            <h3>Legal & Policies</h3>
+                            <p><strong>Legal & Policies</strong></p>
                             <ul>
                                 <li><Link to="/terms-and-conditions">Terms and Conditions</Link></li>
                                 <li><Link to="/refund-policy">Refund Policy</Link></li>
@@ -74,7 +74,7 @@ const Footer = () => {
                         </div>
                         <div class="vertical-line2"></div>
                         <div className="rSection">
-                            <h3>Popular services</h3>
+                            <p><strong>Popular services</strong></p>
                             <ul>
                                 <li><a href="#">Dissertation writing</a></li>
                                 <li><a href="#">Research paper writing</a></li>
@@ -164,7 +164,7 @@ const Footer = () => {
 
             <div className="footer2">
                 <ul>
-                    <h3>Others: </h3>
+                    <p><strong>Others:</strong> </p>
                     <li><Link to="blog">Blog</Link></li>
                     <li><Link to="contact-us">Contact Us</Link></li>
                     <li><Link to="about-our-service">About Us</Link></li>

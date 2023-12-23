@@ -20,16 +20,18 @@
     padding-right: 40px;
 }
 
-.Sidecard h1 {
+.Sidecard span {
     color: #FFF;
     text-align: center;
-    font-size: 25.076px;
+    font-size: 24.076px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-top: 55px;
+    padding: 30px 5px 10px 40px; /* Adjust padding as needed */
     margin-bottom: 34px;
+    display: block; /* Ensure the span behaves like a block element */
 }
+
 
 .HeadContents {
     display: flex;
@@ -39,6 +41,7 @@
 .date {
     float: right;
     margin: 20px 20px;
+    margin-left: 20px;
 }
 
 .desc {
@@ -72,6 +75,7 @@
     font-style: normal;
     font-weight: 100;
     line-height: normal;
+    padding-top: 20px;
 }
 
 .star-icon {
@@ -93,7 +97,7 @@
     /* padding-bottom: 74px; */
 }
 
-.tags h3 {
+.tags p {
     margin-right: 28px;
     color: #FFF;
     /* font-family: Inter; */

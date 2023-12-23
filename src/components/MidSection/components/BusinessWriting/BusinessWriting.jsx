@@ -19,7 +19,7 @@ const BusinessWriting = () => {
     <div className="MidnavContents">
       <div className="sidebar">
         <ul>
-          <li onClick={() => handleClick('Admission Essay')}>Business Plan</li>
+          <li onClick={() => handleClick('Admission Essay')}><h4>Business Plan</h4></li>
           {/* <li onClick={() => handleClick('Annotated Bibliography ')}>Annotated Bibliography </li>
           <li onClick={() => handleClick('Case Study')}>Poem</li>
           <li onClick={() => handleClick('Critical Review')}>Reflective Writing</li>

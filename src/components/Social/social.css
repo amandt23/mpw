@@ -59,11 +59,13 @@
 .cardTop h3 {
     color: #21383E;
     text-align: center;
-    font-size: 40.221px;
+    font-size: 25.221px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-top: -20px;
+    padding-bottom: 10px;
+   
 }
 
 .cardTop p {
