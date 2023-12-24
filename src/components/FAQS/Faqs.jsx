@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './faqs.css'
+import { Helmet } from 'react-helmet';
 
 const Faqs = () => {
 
@@ -35,6 +36,16 @@ const Faqs = () => {
     };
 
     return (
+<>
+        <Helmet>
+
+                <title>FAQ | My Perfect Writing's Expert Guidance</title>
+                <meta name="description" content="Find answers to your questions with My Perfect Writing's FAQ. Expert insights on essay writing services in the UK, tailored to student needs." />
+
+                <meta name="keywords" content="My Perfect Writing FAQ, Essay Writing Service FAQs UK, Academic Writing Questions Answered, My Perfect Writing Student Support"></meta>
+
+
+        </Helmet>
         <div className="faqs">
             <div className="faqTop">
                 <h2>Frequently Asked Questions</h2>
@@ -123,6 +134,8 @@ const Faqs = () => {
             </div>
 
         </div>
+
+    </>
     )
 }
 

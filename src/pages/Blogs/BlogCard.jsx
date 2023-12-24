@@ -14,7 +14,7 @@ const BlogCard = ({blog}) => {
                 <h2 className='list-card-head'>
                     {blog.blogtitle.length < 20 ? blog.blogtitle : `${blog.blogtitle.slice(0, 45)}...`}
                     </h2>
-                <h4><strong>Author: </strong>{blog.author}</h4>
+                <p><strong>Author: </strong>{blog.author}</p>
                 <div className="blog-info">
                     <div className="info-left">
                         <p>{blog.creation_date}</p>
@@ -27,7 +27,7 @@ const BlogCard = ({blog}) => {
                     </div>
                 </div>
                 <div className="blog-tags-list-card">
-                    <h3>Tags:</h3>
+                    <p>Tags:</p>
                     <div className="blog-all-tags list-card-tage">
                         <p>tag1</p>
                         <p>tag2</p>

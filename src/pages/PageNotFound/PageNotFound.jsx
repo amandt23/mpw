@@ -1,9 +1,21 @@
 import React from 'react'
 import './pagenotfound.css'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 const PageNotFound = () => {
     return (
+
+        <>
+        <Helmet>
+
+                <title>404 Error | Page Not Found at My Perfect Writing</title>
+                <meta name="description" content="Encountered a 404 Error on My Perfect Writing? Our page not found error ensures you find the academic support you need quickly in the UK." />
+
+                <meta name="keywords" content="My Perfect Writing 404 Error, Page Not Found My Perfect Writing, 404 Error Academic Website UK, Navigation Help My Perfect Writing"></meta>
+
+
+        </Helmet>
         <div class="NotFoundwrapper">
             <div class="NotFoundlanding-page">
                 <div style={{ textAlign: "center" }} class="icon__download">
@@ -17,6 +29,7 @@ const PageNotFound = () => {
                 </Link>
             </div>
         </div>
+        </>
     )
 }
 

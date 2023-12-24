@@ -131,7 +131,7 @@
     row-gap: 6px;
 }
 
-.singleBlogTop h3 {
+.singleBlogTop h1 {
     color: #006FDD;
     font-size: 28.963px;
     font-style: normal;
@@ -150,7 +150,7 @@
     max-width: 570px;
 }
 
-.singleBlogTop h2 {
+.singleBlogTop p {
     color: #006FDD;
     font-size: 16px;
     font-style: normal;
@@ -189,7 +189,7 @@
     column-gap: 8px;
 }
 
-.single-blog-keywords h3 {
+.single-blog-keywords p {
     color: #000;
     font-size: 18px;
     font-style: normal;
@@ -243,7 +243,7 @@
     align-items: center;
 }
 
-.published h3 {
+.published p {
     color: #313131;
     font-size: 12.013px;
     font-style: normal;
@@ -335,7 +335,7 @@
     line-height: normal;
 }
 
-.profileTop h2 {
+.profileTop p {
     color: #006FDD;
     font-size: 18px;
     font-style: normal;

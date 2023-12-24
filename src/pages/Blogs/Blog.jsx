@@ -31,8 +31,10 @@ const Blog = () => {
 <>
 <Helmet>
 
-                <title>Insightful Blog - Tips for Academic Triumph</title>
-                <meta name="description" content=" Dive into the My Perfect Writing Blog for valuable insights, tips, and academic guidance. Explore a range of topics designed to enhance your learning experience and academic success in the UK. Stay informed, inspired, and ahead in your academic journey." />
+                <title>Blog | Insightful Essay Writing Service in UK</title>
+                <meta name="description" content="Explore our Blog for the latest insights on Essay Writing Service in UK. Tips, trends, and academic guidance from My Perfect Writing." />
+
+                <meta name="keywords" content="Blog on Essay Writing Service UK, Academic Writing Tips UK, UK Essay Service Insights, My Perfect Writing Blog Updates"></meta>
 
 <script type="application/ld+json">
     {`
@@ -88,7 +90,7 @@ const Blog = () => {
       <div className="blogingSection">
         <div className="blogSidebar">
           <div className="all-posts-left">
-            <h2>All Post</h2>
+            <p><strong>All Post</strong></p>
             <ul>
               <li>Essay Writing Tips</li>
               <li>Types of Essays</li>

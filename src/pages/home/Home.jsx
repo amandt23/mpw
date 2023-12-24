@@ -15,8 +15,10 @@ const Home = () => {
     return (
         <>
             <Helmet>
-                <title>Essay Writing Service in UK - My Perfect Writing</title>
-                <meta name="description" content="Welcome to My Perfect Writing, where academic excellence meets personalised support. Discover our range of academic assistance services for UK students. Experience quality, integrity, and bespoke solutions for your educational needs. Start your journey to academic success here." />
+                <title>My Perfect Writing | Premier Essay Writing Service in UK</title>
+                <meta name="description" content="Explore top-tier Essay Writing Service in UK with My Perfect Writing. Custom academic solutions for students seeking excellence in their studies." />
+
+                <meta name="keywords" content="My Perfect Writing - Home, Essay Writing Service UK, Custom Academic Assistance UK, UK Expert Writers Service"></meta>
 
                 {/* Facebook meta description */}
 

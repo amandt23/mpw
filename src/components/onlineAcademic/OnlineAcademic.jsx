@@ -3,6 +3,7 @@ import './online.css'
 import PaperWork from './PaperWork';
 import CourseWork from './CourseWork';
 import Assessments from './Assessments';
+import { Helmet } from 'react-helmet';
 
 const OnlineAcademic = () => {
     const [activeButton, setActiveButton] = useState("PaperWork");
@@ -24,6 +25,17 @@ const OnlineAcademic = () => {
     };
 
     return (
+
+        <>
+        <Helmet>
+
+                <title>Code of Conduct | Guidelines at My Perfect Writing</title>
+                <meta name="description" content="Explore the Code of Conduct that defines My Perfect Writing. Learn about our ethical guidelines and commitment to academic integrity in the UK." />
+
+                <meta name="keywords" content="My Perfect Writing Code of Conduct, Academic Integrity Guidelines UK, Ethical Standards My Perfect Writing, Professional Conduct Policies"></meta>
+
+
+        </Helmet>
         <div className="online">
             <div className="onlineTop">
                 <h2>24/7 Online Academic Writing Help In UK</h2>
@@ -55,6 +67,7 @@ const OnlineAcademic = () => {
             {renderContent()}
             
         </div>
+        </>
     )
 }
 

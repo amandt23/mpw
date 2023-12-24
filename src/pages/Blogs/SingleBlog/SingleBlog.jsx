@@ -91,7 +91,7 @@ const SingleBlog = () => {
 
                         <div className="Single-blogSidebar">
                             <div className="single-all-posts-left">
-                                <h3>On This Page</h3>
+                                <p><strong>On This Page</strong></p>
                                 <hr />
                                 <ul>
                                     <li>Overview</li>
@@ -140,16 +140,16 @@ const SingleBlog = () => {
                     <div className="singlBlogSection">
 
                         <div className="singleBlogTop">
-                            <h3>{singleBlog[0].blogtitle}</h3>
+                            <h1>{singleBlog[0].blogtitle}</h1>
                             {/* <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to.</p> */}
-                            <h2>“BUSINESS” </h2>
+                            <p><strong>“BUSINESS” </strong></p>
                             <img className='singleBlogImg' src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].image}`} alt="blog-image" />
                         </div>
 
                         <div className="singleBlogBottom">
                             <div className="single-blog-keywords">
                                 <div className="keywords">
-                                    <h3>Keywords: </h3>
+                                    <p><strong>Keywords: </strong></p>
                                     <p>Essay</p>
                                     <p>Chemestry</p>
                                     <p>Lab Report</p>
@@ -166,14 +166,14 @@ const SingleBlog = () => {
                                         <path d="M5.625 9.375L4.96875 10.0312L6.1875 11.25H1.875V12.1875H6.1875L4.96875 13.4062L5.625 14.0625L7.96875 11.7188L5.625 9.375ZM8.4375 7.03125H4.6875V7.96875H8.4375V7.03125ZM8.4375 3.75H4.6875V4.6875H8.4375V3.75Z" fill="#777777" />
                                         <path d="M8.90625 13.125H11.25V11.25H10.3125V10.3125H11.25V7.96875H10.3125V7.03125H11.25V4.6875H10.3125V3.75H11.25V1.875H2.8125V9.375H1.875V1.875C1.875 1.35938 2.29688 0.9375 2.8125 0.9375H11.25C11.7656 0.9375 12.1875 1.35938 12.1875 1.875V3.75H13.125V4.6875H12.1875V7.03125H13.125V7.96875H12.1875V10.3125H13.125V11.25H12.1875V13.125C12.1875 13.6406 11.7656 14.0625 11.25 14.0625H8.90625V13.125Z" fill="#777777" />
                                     </svg>
-                                    <h3>Published on:</h3>
+                                    <p><strong>Published on:</strong></p>
                                     <p>{singleBlog[0].creation_date}</p>
                                 </div>
                                 <div className="updated">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                         <path d="M12.4007 13H14.0007V14.3333H10.0007V10.3333H11.334V12.1533C12.554 11.1733 13.334 9.68 13.334 8C13.334 5.28667 11.294 3.04 8.66732 2.71333V1.36667C12.034 1.7 14.6673 4.54 14.6673 8C14.6673 9.99333 13.7873 11.78 12.4007 13ZM2.66732 8C2.66732 6.32 3.44732 4.82 4.66732 3.84667V5.66667H6.00065V1.66667H2.00065V3H3.60065C2.88839 3.62379 2.31767 4.39261 1.92675 5.25494C1.53583 6.11727 1.33372 7.0532 1.33398 8C1.33398 11.46 3.96732 14.3 7.33398 14.6333V13.2867C4.70732 12.96 2.66732 10.7133 2.66732 8ZM10.8273 5.40667L7.05398 9.18L5.16732 7.29333L4.22732 8.23333L7.05398 11.06L11.7673 6.34667L10.8273 5.40667Z" fill="#777777" />
                                     </svg>
-                                    <h3>Last updated: </h3>
+                                    <p><strong>Last updated: </strong></p>
                                     <p>{singleBlog[0].updation_date}</p>
                                 </div>
                                 <div className="blogTime">
@@ -190,16 +190,16 @@ const SingleBlog = () => {
 
                                 <div className="profileTop">
                                     <div className="profile-top1">
-                                        <h3>Written By</h3>
+                                        <p><strong>Written By</strong></p>
                                         <img src={blog1Profile} alt="blog-image" />
-                                        <h2>{singleBlog[0].author}</h2>
+                                        <p>{singleBlog[0].author}</p>
                                     </div>
                                     {/* <h2>Founder and CEO</h2> */}
                                 </div>
                                 <div className="profile-refrence">
                                     {/* <div className="Single-blogSidebar sidebarBottomSect"> */}
                                     <div className="single-all-posts-left">
-                                        <h3>References</h3>
+                                        <p><strong>References</strong></p>
                                         <p>Citation: APA</p>
                                         {/* <hr /> */}
                                         {/* <ul>

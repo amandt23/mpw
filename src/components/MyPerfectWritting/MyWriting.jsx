@@ -1,11 +1,20 @@
 import React from 'react';
 import './mywriting.css'
+import { Helmet } from 'react-helmet';
 
 const MyWriting = () => {
 
 
 
     return (
+
+    <>
+        <Helmet>
+          <title>Our Writers | Expert Team at My Perfect Writing</title>
+          <meta name="description" content="Meet the skilled writers behind My Perfect Writing. Our dedicated team delivers exceptional academic writing services across the UK." />
+
+         <meta name="keywords" content="My Perfect Writing Writers, Expert Academic Writers UK, Professional Writing Team UK, Skilled Essay Writers at My Perfect Writing"></meta>
+       </Helmet>
         <div className='writing'>
             <div className="paperBtn pulse-button">
                 <a href="https://myperfectwriting.co.uk/portal/public/login">
@@ -140,6 +149,7 @@ const MyWriting = () => {
 
             </div>
         </div>
+    </>
     )
 }
 

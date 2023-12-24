@@ -7,9 +7,10 @@ const AcademicIntegrity = () => {
     return (
         <>
             <Helmet>
-                <title>Integrity First: Ethical Academic Excellence</title>
-                <meta name="description" content="Upholding Academic Integrity: My Perfect Writing sets high ethical
-                 standards in academic assistance. Learn about our commitment to honesty, anti-plagiarism, and ethical support for students and educators in the UK. Your academic integrity is our priority." />
+                <title>Academic Integrity | My Perfect Writing's Guidelines</title>
+                <meta name="description" content="Explore My Perfect Writing's commitment to Academic Integrity. Upholding ethical standards in our services and support for UK students." />
+
+                <meta name="keywords" content="My Perfect Writing Academic Integrity, Ethical Academic Support UK,Academic Honesty Policies, My Perfect Writing Educational Standards"></meta>
 
                 <script type="application/ld+json">
                     {`
@@ -34,7 +35,7 @@ const AcademicIntegrity = () => {
                 <div className="termsContents">
 
                     <div className="termTop">
-                        <h3>Academic Integrity</h3>
+                        <h1>Academic Integrity</h1>
                         <p>In-house essay writers are referred to as “My Perfect Writing Limited Experts” or “Writing Experts” by the company. These writers are part of the company’s professional writing and editing staff.
                             Customers or Clients are those whom My Perfect Writing Limited welcomes to either visit the website or use the platform's free tools and samples of academic assignments for help.
                             Professional writers are referred to individuals who help the company with the writing service. The Writing Service could be offered to the Customer for a limited period and under certain conditions.
@@ -44,8 +45,8 @@ const AcademicIntegrity = () => {
                     <hr />
 
                     <div className="termSection">
-                        <h3>GENERAL <br />
-                            AT MY PERFECT WRITING, WE'VE ADOPTED A CUSTOMISED LEARNING TECHNIQUE TO MAKE THINGS SIMPLER FOR OUR HARDWORKING STUDENTS.</h3>
+                        <h2>GENERAL <br />
+                            AT MY PERFECT WRITING, WE'VE ADOPTED A CUSTOMISED LEARNING TECHNIQUE TO MAKE THINGS SIMPLER FOR OUR HARDWORKING STUDENTS.</h2>
                         <p>
                             Here we have outlined the expectations we have for the customers who choose our essay writing service.
 
@@ -74,7 +75,7 @@ const AcademicIntegrity = () => {
                         </p>
 
                         <div className="termSection">
-                            <h3>GENERAL INFORMATION</h3>
+                            <h2>GENERAL INFORMATION</h2>
                             <p>
                                 By browsing the public areas, or accessing and using the Website, you acknowledge that (i) you have read, understood, and agree to be legally bound by these Terms and the Privacy Policy and that (ii) you are at least 16 years of age, or (iii) if you are less than 16 years of age that you have reviewed these Terms and the Privacy Policy with your parent or guardian and that your parent or guardian has agreed to them on your behalf before the use.
                                 You agree to use the Service only for lawful, personal, and informational purposes. You agree that you will not use Service in any manner that is malicious or that violates any applicable local, state, national, or international law.
@@ -83,7 +84,7 @@ const AcademicIntegrity = () => {
                         </div>
 
                         <div className="termSection">
-                            <h3>REGISTRATION</h3>
+                            <h2>REGISTRATION</h2>
                             <p>
                                 In order to receive the Product, you will be requested to register by providing your email and password or sign in via Facebook or Gmail account. Your account will be created based on the information you provide to us.
                                 You agree to provide complete, accurate, and up-to-date information during the registration process and to update such information as necessary to ensure that it remains complete, accurate, and up-to-date. You may not register for an account on behalf of any person (other than yourself).
@@ -94,7 +95,7 @@ const AcademicIntegrity = () => {
                         </div>
 
                         <div className="termSection">
-                            <h3>VERIFICATION</h3>
+                            <h2>VERIFICATION</h2>
                             <p>
                                 We do not control and are not responsible for any information provided by any Expert with the aim of such verification. Furthermore, we do not endorse or make any representations or warranties regarding the reliability of the verification or Experts themselves.
                                 We cannot confirm that each Customer is who they claim to be.
@@ -103,7 +104,7 @@ const AcademicIntegrity = () => {
                         </div>
 
                         <div className="termSection">
-                            <h3>SERVICE PROVIDING</h3>
+                            <h2>SERVICE PROVIDING</h2>
                             <p>
                                 You will not use the Product in any manner that harasses the Expert or the Company. You will respect the privacy of the Company and the Experts and you will not make any unwelcome, rude or abusive communications or interact with the Experts in any unlawful, disrespectful, offensive, harmful or detrimental manner.
                                 If you ever believe that the Expert has violated the law or is threatening or endangering you in any way, please contact us immediately atsupport@essaypro.com.

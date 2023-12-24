@@ -14,7 +14,7 @@
 
 }
 
-.whyUsTop h3 {
+.whyUsTop h1 {
     color: #21383E;
     font-size: 35.102px;
     font-style: normal;
@@ -63,7 +63,7 @@
     margin-bottom: 100px;
 }
 
-.whyUsfaqTop h3{
+.whyUsfaqTop p{
     color: #21383E;
     padding-bottom: 20px;
     font-weight: 600;

@@ -6,8 +6,10 @@ const Privacy = () => {
     return (
         <>
             <Helmet>
-                <title>Your Data, Our Care - Privacy Matters</title>
-                <meta name="description" content="Review our comprehensive Privacy Policy at My Perfect Writing, ensuring the utmost protection of your personal data. We are committed to data integrity, security, and compliance with UK privacy laws. Learn about how we handle and protect your information." />
+                <title>Privacy Policy | Secure Data Handling by My Perfect Writing</title>
+                <meta name="description" content="Understand our commitment to privacy with My Perfect Writing's Privacy Policy. Ensuring secure and ethical handling of data in the UK" />
+
+                <meta name="keywords" content="My Perfect Writing Privacy Policy, Secure Data Handling UK,Ethical Data Practices in Writing Services, Privacy and Confidentiality Assurance UK"></meta>
 
                 <script type="application/ld+json">
                     {`
@@ -32,7 +34,7 @@ const Privacy = () => {
                 <div className="termsContents">
 
                     <div className="termTop">
-                        <h3>Privacy Policy</h3>
+                        <h1>Privacy Policy</h1>
                         <p>This Privacy Policy sets forth the standards and protocols under which MyPerfectWriting (&ldquo;the Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) processes and handles personal data collected from users (&ldquo;you&rdquo;, &ldquo;your&rdquo;) of our services and website, myperfectwriting.co.uk. It is imperative that you read this document meticulously to ensure a comprehensive understanding of our practices concerning your personal data.</p>
                         <p>This Privacy Policy is intrinsically linked to and is to be interpreted in conjunction with our Terms and Conditions. It applies universally to all users utilising our services, irrespective of the manner or platform of access.</p>
                     </div>
@@ -41,19 +43,19 @@ const Privacy = () => {
                     <div>
 
 
-                        <p><strong>Section 2: Definitions and Interpretation</strong></p>
+                        <h2>Section 2: Definitions and Interpretation</h2>
                         <p><strong>2.1 Personal Data</strong><br /> &ldquo;Personal Data&rdquo; constitutes any information that pertains to an identifiable individual and includes, but is not limited to, name, contact details, and any other information submitted to us.</p>
                         <p><strong>2.2 Processing of Personal Data</strong><br /> &ldquo;Processing&rdquo; encompasses a wide array of operations performed on personal data, ranging from collection and storage to alteration and erasure.</p>
                         <p><strong>2.3 Data Subject</strong><br /> The &ldquo;Data Subject&rdquo; refers to any natural person whose personal data is being processed. In the context of this Privacy Policy, it refers to you, the customer.</p>
                         <p><strong>2.4 Consent</strong><br /> &ldquo;Consent&rdquo; implies a voluntary, explicit, and well-informed agreement by the Data Subject to allow the processing of their personal data.</p>
                         <p><strong>2.5 Website</strong><br /> The term &ldquo;Website&rdquo; refers exclusively to the online platform operated by MyPerfectWriting, accessible at myperfectwriting.co.uk.</p>
-                        <p><strong>Section 3: Data Collection and Usage</strong></p>
+                        <h2>Section 3: Data Collection and Usage</h2>
                         <p><strong>3.1 General Data Collection</strong><br /> Upon accessing the Website, we automatically collect log information and place cookies on your device to monitor your activity and preferences. Registered users may be required to provide additional personal data, such as contact details and demographic information.</p>
                         <p><strong>3.2 Purpose of Data Collection</strong><br /> The collected data is utilised for various purposes, including but not limited to, account management, order processing, user interaction, and service enhancement.</p>
                         <p><strong>3.3 Data Collection Scope</strong><br /> Specific categories of data are collected based on the user's interaction with the Website, such as account information for customers, order details, and billing information. We commit to ensuring that the collection of personal data is limited to what is strictly necessary for the purposes outlined herein.</p>
                         <p><strong>3.4 Sensitive Data</strong><br /> We refrain from processing sensitive personal data unless explicitly authorised by you. Any interactions with our official social media pages may also result in data collection for analytical and marketing purposes.</p>
                         <p><strong>3.5 Compliance and Legal Obligations</strong><br /> In adherence to applicable tax and accounting legislation, we may be required to process and retain certain personal data for compliance and reporting purposes. This will be done in accordance with the highest standards of data protection and confidentiality.</p>
-                        <p><strong>Section 4: Data Collection and Usage</strong></p>
+                        <h2>Section 4: Data Collection and Usage</h2>
                         <p><strong>4.1 Purpose of Data Processing:</strong></p>
                         <p>We at MyPerfectWriting engage in the processing of personal data provided voluntarily by you with the utmost regard for privacy and in strict compliance with applicable legal provisions. The purpose of such processing is to enhance your user experience, personalise our services, and uphold our commitment to delivering high-quality services as delineated in our Terms and Conditions.</p>
                         <p><strong>4.2 Provision of Services:</strong></p>
@@ -74,7 +76,7 @@ const Privacy = () => {
                         <p>Ensuring a secure and safe platform is paramount, and we take measures to verify accounts, combat inappropriate behaviour, and maintain the integrity of our website.</p>
                         <p><strong>4.10 Aggregate and Anonymized Data Usage:</strong></p>
                         <p>We reserve the right to aggregate, de-identify, or anonymize collected data for various purposes, including research and marketing. Such data may be shared with third parties at our discretion.</p>
-                        <p><strong>Section 5: Legal Bases for Data Processing</strong></p>
+                        <h2>Section 5: Legal Bases for Data Processing</h2>
                         <p><strong>5.1 Overview:</strong></p>
                         <p>The processing of personal data on MyPerfectWriting is contingent upon various legal bases, contingent on user interaction and service participation.</p>
                         <p><strong>5.2 Consent-Based Processing:</strong></p>
@@ -87,7 +89,7 @@ const Privacy = () => {
                         <p>In certain instances, processing is conducted to comply with legal obligations or to protect vital interests.</p>
                         <p><strong>5.6 Notification of Legal Basis:</strong></p>
                         <p>We commit to notifying you of the specific legal basis for data processing prior to commencement, subject to our legal obligations.</p>
-                        <p><strong>Section 6: Disclosure of Personal Data</strong></p>
+                        <h2>Section 6: Disclosure of Personal Data</h2>
                         <p>The Company is committed to maintaining the confidentiality and security of your personal information. <strong>No sales, transfers, or sharing</strong> of your data occur with external parties for their independent use. The Company only collaborates with trusted third parties essential for the operation of the Website and provision of Services or Products, under the strict condition that these parties adhere to our confidentiality commitments.</p>
                         <ul>
                             <li><strong>Subcontractors</strong>: The Company engages with various subcontractors, all bound by contractual obligations, to ensure that your personal data is processed solely in accordance with our directives. These include, but are not limited to, hosting service providers, IT support, advertising and marketing agencies, legal advisors, and accounting professionals.</li>
@@ -95,7 +97,7 @@ const Privacy = () => {
                             <li><strong>Payment Intermediaries</strong>: In the course of service provision, your payment information is shared with our payment intermediaries, ensuring a seamless transaction process.</li>
                             <li><strong>Legal Compliance</strong>: We uphold a legal obligation to disclose personal data when mandated by law or when necessary to protect the rights, property, or safety of the Company, our clients, or the public. Such disclosures will always be in good faith and in alignment with this Privacy Policy.</li>
                         </ul>
-                        <p><strong>Section 7: Retention of Personal Data</strong></p>
+                        <h2>Section 7: Retention of Personal Data</h2>
                         <p>The Company adheres to a strict data retention policy, ensuring that your personal data is stored only for as long as necessary.</p>
                         <ul>
                             <li><strong>In Order to Perform the Services</strong>: Data associated with your user account is retained until account deletion. Post-deletion, we may retain certain information for legal, tax, and accounting purposes or for any anticipated legal proceedings.</li>
@@ -103,7 +105,7 @@ const Privacy = () => {
                             <li><strong>Legal Obligations</strong>: Data required to be retained by law will be kept in accordance with the applicable legal provisions.</li>
                             <li><strong>Consent-Based Processing</strong>: Data processed based on your consent will be retained until you withdraw consent or the processing purpose is fulfilled.</li>
                         </ul>
-                        <p><strong>Section 8: Your Rights and Data Protection</strong></p>
+                        <h2>Section 8: Your Rights and Data Protection</h2>
                         <p>The Company acknowledges and upholds your rights concerning your personal data.</p>
                         <ul>
                             <li><strong>Right of Confirmation and Access</strong>: You may seek confirmation on data processing activities and access your personal data held by the Company.</li>
@@ -117,15 +119,15 @@ const Privacy = () => {
                             <li><strong>Right to Lodge a Complaint</strong>: If you believe your data rights are violated, you can lodge a complaint with the competent authority.</li>
                         </ul>
                         <p>Ensuring robust personal data protection remains a top priority for the Company. All requests concerning your rights can be directed to the contact details provided at the end of this Privacy Policy. These requests will be addressed promptly and in compliance with applicable laws.</p>
-                        <p><strong>Section 9: Cross-Border Data Transfers</strong></p>
+                        <h2>Section 9: Cross-Border Data Transfers</h2>
                         <p>This Section pertains to the procedures and safeguards in place for the <strong>transfer of personal data</strong> across national borders. The Company acknowledges that it conducts processing of personal data both within and outside the boundaries of the United Kingdom. In ensuring compliance with varying legislative frameworks, the Company is committed to upholding a universally high standard of <strong>privacy compliance</strong> regardless of the jurisdiction in which data processing occurs.</p>
-                        <p><strong>Section 10: Response Times and Remedial Actions</strong></p>
+                        <h2>Section 10: Response Times and Remedial Actions</h2>
                         <p>In relation to requests pertaining to individuals' rights as outlined in previous sections, the Company aims to furnish a substantive response within a one-month timeframe from the receipt of such request. This period may be subject to an extension of up to two additional months, contingent on the complexity of the request or a substantial volume of concurrent requests. In such instances, the individual will be apprised of the need for extension and the rationale thereof, within one month of the initial request.</p>
-                        <p><strong>Section 11: Information Security</strong></p>
+                        <h2>Section 11: Information Security</h2>
                         <p>The Company prioritises the <strong>integrity and confidentiality</strong> of personal data and has instituted robust technical and organisational measures to mitigate risks associated with data processing. These measures are designed to prevent <strong>unauthorised access, accidental loss, destruction, or damage</strong> of personal information, ensuring a level of security commensurate with the nature of the data processed and potential risks involved.</p>
-                        <p><strong>Section 12: Account Access for Support Purposes</strong></p>
+                        <h2>Section 12: Account Access for Support Purposes</h2>
                         <p>Under exceptional circumstances, such as the provision of <strong>customer support</strong>, authorised personnel within the Company may require access to an individual&rsquo;s account, and consequently, their personal data. Such access will only be sought and granted with the explicit consent of the account holder. It is imperative to note that reluctance or refusal to grant access may impinge upon the efficiency and efficacy of the support rendered.</p>
-                        <p><strong>Section 13: Protection of Children's Privacy</strong></p>
+                        <h2>Section 13: Protection of Children's Privacy</h2>
                         <p>The Company underscores the importance of safeguarding <strong>children's privacy</strong>. The services provided are not designed for, nor intentionally targeted at, children below the age of 16 years. The submission of personal data of individuals under this age threshold necessitates explicit consent and supervision from a parent or legal guardian. The Company is committed to ensuring that such data, when processed, is handled with due diligence and care.</p>
                         <p>In instances of data breaches, especially those posing significant risks to individuals' rights and freedoms, the Company will initiate prompt communication to both the affected parties and the requisite data protection authorities, detailing the nature of the breach and the remedial actions in place. Additionally, the Company maintains a stance of non-cooperation with <strong>"Do Not Track"</strong> requests, ensuring no personal data is disclosed for third-party direct marketing purposes.</p>
                         <p><strong>Providing Personal Data: A Voluntary Act</strong></p>

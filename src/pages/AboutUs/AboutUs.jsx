@@ -6,8 +6,11 @@ const AboutUs = () => {
     return (
         <>
             <Helmet>
-                <title>About Us - Crafting Excellence in UK Essays</title>
-                <meta name="description" content="Discover My Perfect Writing - your UK partner in academic excellence. Our team of experts, including PhDs from top universities, is dedicated to transforming your academic journey with quality, innovation, and affordability. Dive into our story and services." />
+                <title>About Us | My Perfect Writing's Vision & Team</title>
+                <meta name="description" content="Discover My Perfect Writing's journey to academic excellence. Meet our team and explore our commitment to quality essay writing service in UK." />
+
+                <meta name="keywords" content="My Perfect Writing About Us, Academic Writing Experts UK, Essay Service Team UK, My Perfect Writing Vision"></meta>
+
 
                 <script type="application/ld+json">
                     {`
@@ -29,7 +32,7 @@ const AboutUs = () => {
                 </script>
             </Helmet>
             <div className="aboutUsContainer">
-                <h3 className='aboutUsHeading'>About Us</h3>
+                <h1 className='aboutUsHeading'>About Us</h1>
 
                 <section class="welcomSec">
                     <div class="welcomContainer">
@@ -53,7 +56,7 @@ const AboutUs = () => {
                         <div class="ourStoryWrapper">
                             <div class="ourwelcomeWrapper  flex-r">
                                 <div class="ourstorytextLeft">
-                                    <h3>Our Founding Story</h3>
+                                    <h2>Our Founding Story</h2>
                                     <span>Born out of a blend of ambition and innovation in 2020, My Perfect Writing burst onto the UK academic scene, ready to shake things up! 💥 We were the new kids on the block in the bustling world of essay and dissertation services, but what we lacked in years, we made up for with our pioneering fixed-pricing system, ensuring affordability and transparency in every pixel of our service. Our mission was crystal clear: to sprinkle a touch of academic magic on every student's journey, ensuring quality doesn’t have to break the bank!</span>
                                 </div>
                                 <div class="welcomrightImage">
@@ -70,7 +73,7 @@ const AboutUs = () => {
                     <div class="Missioncontainer">
                         <div class="welcomeWrapper ourMissionWrapper Missionflex">
                             <div class="textLeft">
-                                <h3>Igniting Academic Excellence: Our Heartbeat!</h3>
+                                <h2>Igniting Academic Excellence: Our Heartbeat!</h2>
                                 <span>At <strong>My Perfect Writing</strong>, we're on a relentless quest to transform essay writing services in the UK into a symphony of success and support, crafting a world where every student’s academic potential is recognised and nurtured to flourish.</span>
                             </div>
                             <div class="rightImage">

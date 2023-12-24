@@ -24,8 +24,10 @@ const WhyUs = () => {
     return (
         <>
             <Helmet>
-                <title>Why Choose Us? UK Essay Excellence Awaits</title>
-                <meta name="description" content="Elevate your academic success with My Perfect Writing. Experience unmatched quality, affordability, and British eloquence. Our UK-based experts offer original,timely,and tailored academic assistance. Dive into the world of unparalleled academic support." />
+                <title>Why Us | My Perfect Writing's Commitment to Excellence</title>
+                <meta name="description" content="Discover why My Perfect Writing is the preferred choice for academic excellence in the UK. Unmatched quality, affordability, and expertise." />
+
+                <meta name="keywords" content="My Perfect Writing Advantages, Why Choose My Perfect Writing, UK Academic Writing Excellence, My Perfect Writing Quality Services"></meta>
 
                 <script type="application/ld+json">
                     {`
@@ -50,7 +52,7 @@ const WhyUs = () => {
                 <div className="why-us">
                     <div className="whyUsRight">
                         <div className="whyUsTop">
-                            <h3>Why Us?</h3>
+                            <h1>Why Us?</h1>
                             <h2>Dare to Dream with My Perfect Writing: Your Gateway to Academic Brilliance!</h2>
                             <p>In a sea of choices, why should My Perfect Writing be your beacon of hope? It’s simple, really.</p>
                             <p>nwavering Dedication to Quality: We’re not just in the business of writing; we’re crafting academic masterpieces! Expect nothing less than excellence.</p>
@@ -79,7 +81,7 @@ const WhyUs = () => {
                                 (Add Icon) Decisions, Decisions…: Contemplating whether a PhD-level masterpiece can really be the same price as a high school essay? Spoiler alert: it can’t. But we’ve got the crème de la crème of writers ready for you, at a price that won’t break the bank.
                             </p>
                         </div>
-                        <h4>Other assurances offered by Myperfectwriting.com include:</h4>
+                        <p><strong>Other assurances offered by Myperfectwriting.com include:</strong></p>
                         {/* <div className="whyUsSection2">
                         <div className="section2Single">
                             <div className="section2One">
@@ -122,7 +124,7 @@ const WhyUs = () => {
                         <div className="whyUsFAQS">
                             <div className="WhyUsfaqs">
                                 <div className="whyUsfaqTop">
-                                    <h3>Ok. decision-making time.</h3>
+                                    <p><strong>Ok. decision-making time.</strong></p>
                                 </div>
 
                                 <div className="whyUSfaqBottom">
