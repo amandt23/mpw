@@ -526,9 +526,9 @@ const DissertionAssignment = () => {
                   <p>FREE</p>
                 </div>
               </div>
-              <hr />
+              <hr/>
               <div className="allFeatures">
-                <h4>Get all these feaures of</h4>
+                <p>Get all these feaures of</p>
                 <p>15.99</p>
                 <p>FREE</p>
               </div>
