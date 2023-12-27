@@ -335,28 +335,112 @@ const AnnotatedBibliography = () => {
 
                 <script type="application/ld+json">
                     {`
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Annotated Bibliography",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "Our annotated bibliography service provides comprehensive and well-researched bibliographies for academic and research purposes. Trust our experienced writers to create detailed annotations for your references.",
-  "url": "https://myperfectwriting.co.uk/annotated-bibliography-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
-  }
-}`}
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "ProfessionalService",
+                        "name": "Annotated Bibliography Service in UK",
+                        "description": "Our annotated bibliography service provides comprehensive and well-researched bibliographies for academic and research purposes. Trust our experienced writers to create detailed annotations for your references.",
+                        "url": "https://myperfectwriting.co.uk/annotated-bibliography-service",
+                        "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+                        "sameAs": [
+                          "https://www.facebook.com/MyPerfectWritingUK",
+                          "https://www.instagram.com/myperfectwriting",
+                          "https://github.com/amandt23/mpw/tree/main"
+                        ],
+                        "contactPoint": [
+                          {
+                            "@type": "ContactPoint",
+                            "telephone": "+447488818219",
+                            "contactType": "customer service",
+                            "areaServed": "United Kingdom",
+                            "availableLanguage": "English"
+                          },
+                          {
+                            "@type": "ContactPoint",
+                            "email": "support@myperfectwriting.co.uk",
+                            "contactType": "customer support"
+                          }
+                        ],
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "124 City Road",
+                          "addressLocality": "London",
+                          "postalCode": "EC1V 2NX",
+                          "addressCountry": "United Kingdom"
+                        },
+                        "keywords": "Annotated Bibliography Service UK, Custom Bibliography Writing UK, Academic Citation Services, UK University Bibliography Assistance"
+                      }
+                         
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "Product",
+                    "name": "MyPerfectWriting Services",
+                    "description": "Pricing per page for our services.",
+                    "keywords": "Essay Writing Service",
+                    "brand": {
+                      "@type": "Organization",
+                      "name": "My Perfect Writing"
+                    },
+                 
+                      {
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "Annotated Bibliography",
+                        "description": "Pricing per page for our services.",
+                        "keywords": "Annotated Bibliography Service UK, Custom Bibliography Writing UK, Academic Citation Services, UK University Bibliography Assistance",
+                        "brand": {
+                          "@type": "Organization",
+                          "name": "Annotated Bibliography Service in UK",
+                        },
+                        "areaServed": {
+                          "@type": "Country",
+                          "name": "United Kingdom"
+                        },
+                        "url": "https://myperfectwriting.co.uk/annotated-bibliography-service",
+                        "aggregateRating": {
+                          "@type": "AggregateRating",
+                          "ratingValue": "4.8",
+                          "bestRating": "5",
+                          "ratingCount": "800"
+                        },
+                       
+                      }
+                      
+                      
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [{
+                          "@type": "Question",
+                          "name": "What makes your annotated bibliography service stand out?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We offer custom, comprehensive bibliography solutions, with a focus on academic integrity and tailored research for UK universities."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "How do you ensure the originality of content?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Each bibliography is meticulously crafted to be plagiarism-free, reflecting original research and critical analysis."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "Can you accommodate specific formatting requirements?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, our service includes adhering to any annotated bibliography format, whether it's a specific university template or a scholarly article summarization style."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "What types of sources do you use for bibliographies?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We utilize a wide range of academic and scholarly sources, ensuring a detailed and insightful annotated bibliography tailored to your subject."
+                          }
+                        }]
+                      }
+`}
                 </script>
             </Helmet>
 

@@ -322,28 +322,104 @@ const DissertationWriting = () => {
 
                 <script type="application/ld+json">
                     {`
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Dissertation Writing",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "Our dissertation writing service offers professional assistance for students undertaking research projects. Trust our expert writers to guide you through the dissertation writing process, ensuring high-quality and well-researched content.",
-  "url": "https://myperfectwriting.co.uk/dissertation-writing-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "ratingCount": "70"
-  }
-}`}
+                      {
+                        "@context": "https://schema.org",
+                        "@type": "ProfessionalService",
+                        "name": "Dissertation Writing Service in UK",
+                        "url": "https://myperfectwriting.co.uk/dissertation-writing-service",
+                        "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+                        "sameAs": [
+                          "https://www.facebook.com/MyPerfectWritingUK",
+                          "https://www.instagram.com/myperfectwriting",
+                          "https://github.com/amandt23/mpw/tree/main"
+                        ],
+                        "contactPoint": [
+                          {
+                            "@type": "ContactPoint",
+                            "telephone": "+447488818219",
+                            "contactType": "customer service",
+                            "areaServed": "GB",
+                            "availableLanguage": "English"
+                          },
+                          {
+                            "@type": "ContactPoint",
+                            "email": "support@myperfectwriting.co.uk",
+                            "contactType": "customer support"
+                          }
+                        ],
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "124 City Road",
+                          "addressLocality": "London",
+                          "postalCode": "EC1V 2NX",
+                          "addressCountry": "GB"
+                        },
+                        "keywords": "Dissertation Writing Service UK, Custom Dissertation Assistance UK, UK University Dissertation Support, Professional Dissertation Writing UK"
+                      }
+                      
+                      {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "serviceType": "Dissertation Writing",
+                        "provider": {
+                          "@type": "Organization",
+                          "name": "Dissertation Writing Service in UK",
+                          "url": "https://myperfectwriting.co.uk"
+                        },
+                        "areaServed": {
+                          "@type": "Country",
+                          "name": "United Kingdom"
+                        },
+                        "description": "Our dissertation writing service offers professional assistance for students undertaking research projects. Trust our expert writers to guide you through the dissertation writing process, ensuring high-quality and well-researched content.",
+                        "url": "https://myperfectwriting.co.uk/dissertation-writing-service",
+                        "aggregateRating": {
+                          "@type": "AggregateRating",
+                          "ratingValue": "4.8",
+                          "bestRating": "5",
+                          "ratingCount": "890"
+                        },
+                        "offers": {
+                          "@type": "Offer",
+                          "priceCurrency": "GBP",
+                          "price": "6.99",
+                          "description": "Pricing per page for our Dissertation writing services."
+                        }
+                      }
+                      
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [{
+                          "@type": "Question",
+                          "name": "What sets your dissertation writing service apart?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We offer personalized, professional dissertation assistance, ensuring quality, originality, and adherence to university guidelines."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "Can I receive help with a specific part of my dissertation, like the literature review?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutely. Our custom dissertation writing services cater to all aspects, including detailed literature reviews and critical analysis."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "Do you offer dissertation proofreading services in the UK?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, our comprehensive dissertation proofreading services ensure your work adheres to the highest academic standards."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "How do you ensure the originality of dissertations?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Each dissertation is crafted from scratch, with rigorous checks for plagiarism to maintain its uniqueness and authenticity."
+                          }
+                        }]
+                      }
+`}
                 </script>
             </Helmet>
 

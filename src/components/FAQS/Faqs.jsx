@@ -8,7 +8,7 @@ const Faqs = () => {
         { question: 'How can I enhance my essay writing skills?', answer: 'Enhance your essay writing with our bespoke guidance and practical tips, provided by seasoned reliable UK essay writers at My Perfect Writing.' },
         { question: 'Where can I find expert dissertation support in the UK?', answer: 'Our platform offers university level essay services in UK from experienced PhD-level writers across various disciplines, ensuring your success.' },
         { question: 'Is urgent assignment help available in the UK?', answer: 'Yes, we provide prompt and reliable UK academic writing help, ensuring quality work even under tight deadlines, to support your academic journey.' },
-        { question: 'Can I find specialised thesis writing assistance here?', answer: 'Absolutely, our top-quality essay writing UK team includes specialist thesis writers in the UK, ready to offer tailored support for both undergraduate and Master’s theses.' },
+        { question: 'Can I find specialised thesis writing assistance here?', answer: 'Absolutely, our top-quality essay writing UK team includes specialist thesis writers in the UK, ready to offer tailored support for both undergraduate and Master’s thesis.' },
         { question: 'What sets a trustworthy academic writing service apart?', answer: 'Trustworthiness in academic writing stems from a commitment to quality, timely delivery, and exceptional customer support, all hallmarks of My Perfect Writing providing affordable writing services in UK.' },
         { question: 'How do I adhere to UK academic standards in my research paper?', answer: 'Our team provides meticulous guidance to ensure your research paper not only meets but exceeds the UK’s rigorous academic standards.' },
         { question: 'What should I seek in an academic editing service?', answer: 'Look for expertise, precision, and a keen eye for detail in an academic editing service, all of which are pillars of My Perfect Writing.' },
@@ -46,6 +46,45 @@ const Faqs = () => {
 
 
         </Helmet>
+
+        <script type="application/ld+json">
+                    {`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "keywords": "My Perfect Writing FAQ, Essay Writing Service FAQs UK, Academic Writing Questions Answered, My Perfect Writing Student Support",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How can I enhance my essay writing skills?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Enhance your essay writing with our bespoke guidance and practical tips, provided by seasoned reliable UK essay writers at My Perfect Writing"
+    }
+  },{
+    "@type": "Question",
+    "name": "Where can I find expert dissertation support in the UK?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our platform offers university level essay services in UK from experienced PhD-level writers across various disciplines, ensuring your success."
+    }
+  },{
+    "@type": "Question",
+    "name": "Is urgent assignment help available in the UK?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide prompt and reliable UK academic writing help, ensuring quality work even under tight deadlines, to support your academic journey."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I find specialised thesis writing assistance here?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely, our top-quality essay writing UK team includes specialist thesis writers in the UK, ready to offer tailored support for both undergraduate and Master’s thesis."
+    }
+  }]
+}                   
+  `}
+</script>
+
         <div className="faqs">
             <div className="faqTop">
                 <h2>Frequently Asked Questions</h2>

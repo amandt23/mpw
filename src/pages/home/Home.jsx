@@ -45,21 +45,137 @@ const Home = () => {
 
                 
             </Helmet>
-
-                
-
-                <script type="application/ld+json">
+              <script type="application/ld+json">
                     {`
-{
-    "@context": "http://schema.org/",
-    "@type": "product",
-    "name": "MyPerfectWriting.co.uk",
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "ratingCount": "9983"
-    }
-}`}
+                {
+                    "@context": "https://schema.org",
+                    "@type": "ProfessionalService",
+                    "name": "My Perfect Writing",
+                    "description": "My Perfect Writing is a premier academic assistance service providing a wide range of professional writing services to students and researchers. With a focus on quality and detail, we offer everything from essay writing and thesis support to proofreading and custom writing services, catering to all academic levels and subjects.",
+                    "url": "https://myperfectwriting.co.uk/",
+                    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+                    "sameAs": [
+                      "https://www.facebook.com/MyPerfectWritingUK",
+                      "https://www.instagram.com/myperfectwriting",
+                      "https://github.com/amandt23/mpw/tree/main"
+                    ],
+                    "contactPoint": [
+                      {
+                        "@type": "ContactPoint",
+                        "telephone": "+447488818219",
+                        "contactType": "customer service",
+                        "areaServed": "United Kingdom",
+                        "availableLanguage": "English"
+                      },
+                      {
+                        "@type": "ContactPoint",
+                        "email": "support@myperfectwriting.co.uk",
+                        "contactType": "customer support"
+                      }
+                    ],
+                    "address": {
+                      "@type": "PostalAddress",
+                      "streetAddress": "124 City Road",
+                      "addressLocality": "London",
+                      "postalCode": "EC1V 2NX",
+                      "addressCountry": "United Kingdom"
+                    },
+                    "keywords": "Essay Writing Service in UK",
+                    "hasOfferCatalog": {
+                      "@type": "OfferCatalog",
+                      "name": "Services Catalog",
+                      "itemListElement": [
+                        {
+                          "@type": "OfferCatalog",
+                          "name": "Essay Writing",
+                          "itemListElement": [
+                            {
+                              "@type": "Offer",
+                              "itemOffered": {
+                                "@type": "Service",
+                                "name": "General Essay Writing",
+                                "description": "Comprehensive essay writing services for a wide range of topics."
+                              }
+                            },
+                            {
+                              "@type": "Offer",
+                              "itemOffered": {
+                                "@type": "Service",
+                                "name": "Custom Essay Writing",
+                                "description": "Tailored essays written to meet individual requirements and standards."
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "@type": "OfferCatalog",
+                          "name": "Applied and Professional Sciences",
+                          "itemListElement": [
+                            {
+                              "@type": "Offer",
+                              "itemOffered": {
+                                "@type": "Service",
+                                "name": "Professional Science Writing",
+                                "description": "Expert writing services for scientific and technical disciplines."
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "@type": "OfferCatalog",
+                          "name": "Humanities",
+                          "itemListElement": [
+                            {
+                              "@type": "Offer",
+                              "itemOffered": {
+                                "@type": "Service",
+                                "name": "Humanities Writing Services",
+                                "description": "Comprehensive writing support covering all areas of the humanities."
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "@type": "OfferCatalog",
+                          "name": "Social Sciences",
+                          "itemListElement": [
+                            {
+                              "@type": "Offer",
+                              "itemOffered": {
+                                "@type": "Service",
+                                "name": "Social Sciences Writing Services",
+                                "description": "Specialized writing assistance for social science papers and research."
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                  
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "Product",
+                    "name": "MyPerfectWriting Services",
+                    "description": "Pricing per page for our services.",
+                    "keywords": "Essay Writing Service",
+                    "brand": {
+                      "@type": "Organization",
+                      "name": "My Perfect Writing"
+                    },
+                    "offers": {
+                      "@type": "Offer",
+                      "priceCurrency": "GBP",
+                      "price": "6.99",
+                      "description": "Pricing per page for our services."
+                    },
+                    "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "4.8",
+                      "ratingCount": "9983"
+                    }
+                  }
+`}
                 </script>
            
             <Header />

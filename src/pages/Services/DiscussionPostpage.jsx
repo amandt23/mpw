@@ -331,7 +331,7 @@ const DiscussionPostpage = () => {
     "@type": "Country",
     "name": "United Kingdom"
   },
-  "description": "My Perfect Writing provides a professional Academic Essays Service. Our expert writers offer high-quality and custom-tailored academic essays to help you excel in your studies. Trust us for well-researched and original content.",
+  "description": "Engage and excel with My Perfect Writing’s Discussion Post Service, where our seasoned writers help bring your academic discussions to life. We specialize in crafting thoughtful, articulate, and well-researched responses that reflect deep understanding and critical analysis. Perfect for students and professionals alike, our service ensures your discussion posts stand out in the crowd, showcasing your insights and fostering meaningful academic dialogues. Trust us to elevate your online presence with content that resonates and engages.",
   "url": "https://myperfectwriting.co.uk/discussion-post-page",
   "aggregateRating": {
     "@type": "AggregateRating",

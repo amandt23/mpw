@@ -344,7 +344,7 @@ const NursingAssn = () => {
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Academic Essays",
+  "serviceType": "Peer Response Service",
   "provider": {
     "@type": "Organization",
     "name": "My Perfect Writing",
@@ -354,8 +354,8 @@ const NursingAssn = () => {
     "@type": "Country",
     "name": "United Kingdom"
   },
-  "description": "My Perfect Writing provides a professional Academic Essays Service. Our expert writers offer high-quality and custom-tailored academic essays to help you excel in your studies. Trust us for well-researched and original content.",
-  "url": "https://myperfectwriting.co.uk/academic-essays-service",
+  "description": "Enhance your academic work with My Perfect Writing's Peer Response Service, a platform for constructive feedback and collaborative improvement. Our experts provide detailed critiques and suggestions on your assignments, fostering a deeper understanding and refined academic skills.",
+  "url": "https://myperfectwriting.co.uk/peer-responses-service",
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",

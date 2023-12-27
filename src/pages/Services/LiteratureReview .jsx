@@ -338,28 +338,104 @@ const LiteratureReview = () => {
 
                 <script type="application/ld+json">
                     {`
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Literature Review",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "Our literature review service provides in-depth analysis and synthesis of relevant academic literature for your research project. Rely on our expert writers to deliver a comprehensive and well-crafted literature review tailored to your research objectives.",
-  "url": "https://myperfectwriting.co.uk/literature-review-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.7",
-    "bestRating": "5",
-    "ratingCount": "60"
-  }
-}`}
+                     {
+                        "@context": "https://schema.org",
+                        "@type": "ProfessionalService",
+                        "name": "Literature Review Service in UK",
+                        "url": "https://myperfectwriting.co.uk/literature-review-service",
+                        "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+                        "sameAs": [
+                          "https://www.facebook.com/MyPerfectWritingUK",
+                          "https://www.instagram.com/myperfectwriting",
+                          "https://github.com/amandt23/mpw/tree/main"
+                        ],
+                        "contactPoint": [
+                          {
+                            "@type": "ContactPoint",
+                            "telephone": "+447488818219",
+                            "contactType": "customer service",
+                            "areaServed": "GB",
+                            "availableLanguage": "English"
+                          },
+                          {
+                            "@type": "ContactPoint",
+                            "email": "support@myperfectwriting.co.uk",
+                            "contactType": "customer support"
+                          }
+                        ],
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "124 City Road",
+                          "addressLocality": "London",
+                          "postalCode": "EC1V 2NX",
+                          "addressCountry": "GB"
+                        },
+                        "keywords": "Literature Review Service UK, UK Academic Review Assistance, Custom Literature Review Writing, University Research Support UK"
+                      }
+                      
+                      {
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "serviceType": "Literature Review",
+                        "provider": {
+                          "@type": "Organization",
+                          "name": "Literature Review Service in UK",
+                          "url": "https://myperfectwriting.co.uk"
+                        },
+                        "areaServed": {
+                          "@type": "Country",
+                          "name": "United Kingdom"
+                        },
+                        "description": "Our literature review service provides in-depth analysis and synthesis of relevant academic literature for your research project. Rely on our expert writers to deliver a comprehensive and well-crafted literature review tailored to your research objectives.",
+                        "url": "https://myperfectwriting.co.uk/literature-review-service",
+                        "aggregateRating": {
+                          "@type": "AggregateRating",
+                          "ratingValue": "4.7",
+                          "bestRating": "5",
+                          "ratingCount": "800"
+                        },
+                        "offers": {
+                          "@type": "Offer",
+                          "priceCurrency": "GBP",
+                          "price": "6.99",
+                          "description": "Pricing per page for our Literature Review Services."
+                        }
+                      }
+                      
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [{
+                          "@type": "Question",
+                          "name": "What makes your literature review writing service stand out?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Our service uniquely combines professional expertise, affordable rates, and a commitment to producing original, plagiarism-free literature reviews."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "Can I buy a custom literature review for UK students?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, we specialize in creating customized literature reviews tailored to the specific needs and academic standards of UK university students."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "How do you ensure the quality of academic writing?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Quality is our top priority. We have a rigorous process for editing, proofreading, and ensuring that each review meets high academic standards."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "What types of dissertation literature support do you offer in the UK?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Our services range from comprehensive literature analysis to detailed guidance on structure, citations, and critical argument development."
+                          }
+                        }]
+                      }
+`}
                 </script>
             </Helmet>
 
