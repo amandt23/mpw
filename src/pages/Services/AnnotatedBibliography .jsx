@@ -370,18 +370,7 @@ const AnnotatedBibliography = () => {
                         },
                         "keywords": "Annotated Bibliography Service UK, Custom Bibliography Writing UK, Academic Citation Services, UK University Bibliography Assistance"
                       }
-                         
-                  {
-                    "@context": "https://schema.org",
-                    "@type": "Product",
-                    "name": "MyPerfectWriting Services",
-                    "description": "Pricing per page for our services.",
-                    "keywords": "Essay Writing Service",
-                    "brand": {
-                      "@type": "Organization",
-                      "name": "My Perfect Writing"
-                    },
-                 
+                        
                       {
                         "@context": "https://schema.org",
                         "@type": "Product",
@@ -390,20 +379,19 @@ const AnnotatedBibliography = () => {
                         "keywords": "Annotated Bibliography Service UK, Custom Bibliography Writing UK, Academic Citation Services, UK University Bibliography Assistance",
                         "brand": {
                           "@type": "Organization",
-                          "name": "Annotated Bibliography Service in UK",
+                          "name": "Annotated Bibliography Service in UK"
                         },
-                        "areaServed": {
-                          "@type": "Country",
-                          "name": "United Kingdom"
+                        "offers": {
+                          "@type": "Offer",
+                          "priceCurrency": "GBP",
+                          "price": "6.99",
+                          "description": "Pricing per page for our services."
                         },
-                        "url": "https://myperfectwriting.co.uk/annotated-bibliography-service",
                         "aggregateRating": {
                           "@type": "AggregateRating",
                           "ratingValue": "4.8",
-                          "bestRating": "5",
                           "ratingCount": "800"
-                        },
-                       
+                        }
                       }
                       
                       
