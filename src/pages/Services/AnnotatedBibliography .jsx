@@ -394,7 +394,6 @@ const AnnotatedBibliography = () => {
                         }
                       }
                       
-                      
                     {
                         "@context": "https://schema.org",
                         "@type": "FAQPage",

@@ -375,32 +375,27 @@ const LiteratureReview = () => {
                       
                       {
                         "@context": "https://schema.org",
-                        "@type": "Service",
-                        "serviceType": "Literature Review",
-                        "provider": {
+                        "@type": "Product",
+                        "name": "Literature Review",
+                        "description": "Pricing per page for our services.",
+                        "keywords": "Literature Review Service UK, UK Academic Review Assistance, Custom Literature Review Writing, University Research Support UK",
+                        "brand": {
                           "@type": "Organization",
-                          "name": "Literature Review Service in UK",
-                          "url": "https://myperfectwriting.co.uk"
-                        },
-                        "areaServed": {
-                          "@type": "Country",
-                          "name": "United Kingdom"
-                        },
-                        "description": "Our literature review service provides in-depth analysis and synthesis of relevant academic literature for your research project. Rely on our expert writers to deliver a comprehensive and well-crafted literature review tailored to your research objectives.",
-                        "url": "https://myperfectwriting.co.uk/literature-review-service",
-                        "aggregateRating": {
-                          "@type": "AggregateRating",
-                          "ratingValue": "4.7",
-                          "bestRating": "5",
-                          "ratingCount": "800"
+                          "name": "Literature Review Service in UK "
                         },
                         "offers": {
                           "@type": "Offer",
                           "priceCurrency": "GBP",
                           "price": "6.99",
-                          "description": "Pricing per page for our Literature Review Services."
+                          "description": "Pricing per page for our services."
+                        },
+                        "aggregateRating": {
+                          "@type": "AggregateRating",
+                          "ratingValue": "4.7",
+                          "ratingCount": "700"
                         }
                       }
+
                       
                     {
                         "@context": "https://schema.org",

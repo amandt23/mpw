@@ -356,35 +356,31 @@ const DissertationWriting = () => {
                         },
                         "keywords": "Dissertation Writing Service UK, Custom Dissertation Assistance UK, UK University Dissertation Support, Professional Dissertation Writing UK"
                       }
-                      
+
                       {
                         "@context": "https://schema.org",
-                        "@type": "Service",
-                        "serviceType": "Dissertation Writing",
-                        "provider": {
+                        "@type": "Product",
+                        "name": "Dissertation Writing",
+                        "description": "Pricing per page for our services.",
+                        "keywords": "Dissertation Writing Service UK, Custom Dissertation Assistance UK, UK University Dissertation Support, Professional Dissertation Writing UK",
+                        "brand": {
                           "@type": "Organization",
-                          "name": "Dissertation Writing Service in UK",
-                          "url": "https://myperfectwriting.co.uk"
-                        },
-                        "areaServed": {
-                          "@type": "Country",
-                          "name": "United Kingdom"
-                        },
-                        "description": "Our dissertation writing service offers professional assistance for students undertaking research projects. Trust our expert writers to guide you through the dissertation writing process, ensuring high-quality and well-researched content.",
-                        "url": "https://myperfectwriting.co.uk/dissertation-writing-service",
-                        "aggregateRating": {
-                          "@type": "AggregateRating",
-                          "ratingValue": "4.8",
-                          "bestRating": "5",
-                          "ratingCount": "890"
+                          "name": "Dissertation Writing Service in UK"
                         },
                         "offers": {
                           "@type": "Offer",
                           "priceCurrency": "GBP",
                           "price": "6.99",
-                          "description": "Pricing per page for our Dissertation writing services."
+                          "description": "Pricing per page for our services."
+                        },
+                        "aggregateRating": {
+                          "@type": "AggregateRating",
+                          "ratingValue": "4.7",
+                          "ratingCount": "770"
                         }
                       }
+
+                    
                       
                     {
                         "@context": "https://schema.org",
