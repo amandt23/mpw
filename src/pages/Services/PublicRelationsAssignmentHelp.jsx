@@ -339,27 +339,97 @@ const PublicRelationsAssignmentHelp = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Public Relations Assignment Help",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing provides a professional Sociology Assignment Help. Our expert writers offer high-quality and custom-tailored academic essays to help you excel in your studies. Trust us for well-researched and original content.",
-  "url": "https://myperfectwriting.co.uk/public-relations-assignment-help",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Public Relations Assignment Help in UK",
+    "url": "https://myperfectwriting.co.uk/public-relations-assignment-help",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Public Relations Assignment Help UK, UK PR Academic Assistance, Custom PR Assignment Services, Professional Public Relations Homework Help UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Public Relations Assignment Help in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Public Relations Assignment Help UK, UK PR Academic Assistance, Custom PR Assignment Services, Professional Public Relations Homework Help UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Public Relations Assignment Help in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "900"
+    }
+  }
+  
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What sets your public relations assignment service apart?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service offers customized, plagiarism-free public relations homework help, ensuring academic excellence for every student."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you offer PR coursework service for UK universities?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide tailored PR coursework writing help, catering to the specific needs of UK university students."
+      }
+    },{
+      "@type": "Question",
+      "name": "How can I avail your online PR project help for UK universities?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our professional public relations homework services in the UK are easily accessible online, offering comprehensive and insightful support."
+      }
+    },{
+      "@type": "Question",
+      "name": "What is the cost for a custom public relations campaign assignment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer affordable, fixed pricing at £6.99/page for our customized public relations assignment solutions in the UK."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

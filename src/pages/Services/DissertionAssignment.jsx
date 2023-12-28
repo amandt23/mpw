@@ -316,25 +316,95 @@ const DissertionAssignment = () => {
           {`
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Dissertation Assignment Help",
-  "provider": {
+  "@type": "ProfessionalService",
+  "name": "Dissertation Proofreading Service in UK",
+  "url": "https://www.myperfectwriting.co.uk/dissertation-assignment-help",
+  "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+  "sameAs": [
+    "https://www.facebook.com/MyPerfectWritingUK",
+    "https://www.instagram.com/myperfectwriting",
+    "https://www.tiktok.com/@myperfectwriting.co.uk"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+447488818219",
+      "contactType": "customer service",
+      "areaServed": "United Kingdom",
+      "availableLanguage": "English"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "support@myperfectwriting.co.uk",
+      "contactType": "customer support"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "124 City Road",
+    "addressLocality": "London",
+    "postalCode": "EC1V 2NX",
+    "addressCountry": "United Kingdom"
+  },
+  "keywords": "Dissertation Proofreading Service UK, UK Academic Dissertation Editing, Custom Dissertation Proofreading UK, Expert Thesis Proofreading Service UK."
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Dissertation Proofreading Service in UK",
+  "description": "Pricing per page for our services.",
+  "keywords": "Dissertation Proofreading Service UK, UK Academic Dissertation Editing, Custom Dissertation Proofreading UK, Expert Thesis Proofreading Service UK.",
+  "brand": {
     "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
+    "name": "Dissertation Proofreading Service in UK"
   },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "GBP",
+    "price": "6.99",
+    "description": "Pricing per page for our services."
   },
-  "description": "My Perfect Writing offers Dissertation Assignment Help, providing expert assistance in crafting high-quality and well-researched assignments for dissertations. Our professional writers ensure your assignments meet academic standards and guidelines.",
-  "url": "https://myperfectwriting.co.uk/dissertation-assignment-help",
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "ratingCount": "55"
+    "ratingValue": "4.9",
+    "ratingCount": "950"
   }
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What makes your dissertation proofreading service unique?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer a blend of affordable rates, expert UK-based proofreaders, and a commitment to quality and timely delivery."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does your thesis editing service ensure academic integrity?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our professional thesis proofreaders prioritize originality and plagiarism-free work, adhering to university standards."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I find a dissertation editor near me through your service?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, our online platform connects you with UK dissertation editors, offering personalized and localized assistance."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is included in your dissertation proofreading and editing package?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our comprehensive service includes detailed structure, citation, and reference checks, along with critical analysis and argument improvement."
+    }
+  }]
 }`}
         </script>
 

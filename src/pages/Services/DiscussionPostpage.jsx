@@ -318,28 +318,98 @@ const DiscussionPostpage = () => {
 
                 <script type="application/ld+json">
                     {`
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Discussion Post page",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "Engage and excel with My Perfect Writing’s Discussion Post Service, where our seasoned writers help bring your academic discussions to life. We specialize in crafting thoughtful, articulate, and well-researched responses that reflect deep understanding and critical analysis. Perfect for students and professionals alike, our service ensures your discussion posts stand out in the crowd, showcasing your insights and fostering meaningful academic dialogues. Trust us to elevate your online presence with content that resonates and engages.",
-  "url": "https://myperfectwriting.co.uk/discussion-post-page",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+   {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Discussion Posts Writing Service in UK",
+    "url": "https://myperfectwriting.co.uk/discussion-post-page",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Discussion Post Service UK, Academic Writing Support UK, Custom Discussion Posts, Online Discussion Assistance"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Discussion Posts Writing Service in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Discussion Post Service UK, Academic Writing Support UK, Custom Discussion Posts, Online Discussion Assistance",
+    "brand": {
+      "@type": "Organization",
+      "name": "Discussion Posts Writing Service in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "800"
+    }
+  }
+
+  
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "How does My Perfect Writing ensure originality in discussion posts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service guarantees plagiarism-free content, with every discussion post crafted by professionals adhering to academic integrity."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can you write my discussion post for me in APA format?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Our writers are proficient in APA format and various citation styles, ensuring your posts meet university standards."
+      }
+    },{
+      "@type": "Question",
+      "name": "What is the process for crafting insightful academic discussion contributions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our experts engage in comprehensive research and critical analysis to create insightful and argument-driven discussion posts."
+      }
+    },{
+      "@type": "Question",
+      "name": "How can I maximize participation in virtual class discussions with your service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our tailored discussion posts are designed to encourage engagement and foster interactive thread responses in your course forums."
+      }
+    }]
+  }`}
                 </script>
 
 

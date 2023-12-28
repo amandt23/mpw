@@ -326,27 +326,97 @@ const CriminalJusticeAssignmentHelp = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Criminal Justice Assignment Help",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "Explore the realm of criminal justice with My Perfect Writing's specialized Criminal Justice Assignment Help. Our team of expert writers is well-versed in the complexities of criminal law, criminology, and forensic studies, providing you with insightful, well-researched, and meticulously crafted academic essays. Trust us to deliver content that not only adheres to academic standards but also enriches your understanding of the criminal justice system.",
-  "url": "https://myperfectwriting.co.uk/criminal-justice-assignment-help",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Criminal Justice Assignment Help in UK",
+    "url": "https://www.myperfectwriting.co.uk/criminal-justice-assignment-help",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Criminal Justice Assignment Help UK, UK Criminal Law Academic Support,Custom Criminal Justice Assistance, Professional Criminology Homework Help UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Criminal Justice Assignment Help in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Criminal Justice Assignment Help UK, UK Criminal Law Academic Support,Custom Criminal Justice Assistance, Professional Criminology Homework Help UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Criminal Justice Assignment Help in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "750"
+    }
+  }
+
+  
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What distinguishes your Criminal Justice Assignment Help from others?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer a unique blend of affordability, reliability, and expert-driven custom academic assistance, focusing on British Criminal Justice Essays and Forensic Science Assignments in the UK."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do you ensure the originality of criminal justice homework?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our professional writers create every piece from scratch, ensuring original, plagiarism-free content tailored to your specific requirements."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I buy Criminal Justice Essays online in the UK through your service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! We provide an easy, secure platform to purchase custom-written criminal justice essays, ensuring high quality and adherence to UK academic standards."
+      }
+    },{
+      "@type": "Question",
+      "name": "What kind of support do you offer for Criminology and Psychology Assignment Help in the UK",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service covers comprehensive support for criminology and psychology assignments, including research, writing, editing, and proofreading, with a focus on UK coursework standards."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

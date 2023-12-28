@@ -336,28 +336,98 @@ const ResumeWriting = () => {
 
                 <script type="application/ld+json">
                     {`
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Resume Writing",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing offers a professional Resume Writing Service to help you create a standout and tailored resume. Our expert writers craft resumes that showcase your skills, experience, and achievements, increasing your chances of success in job applications.",
-  "url": "https://myperfectwriting.co.uk/resume-writing-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "65"
+ {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Resume Writing Service in UK",
+    "url": "https://myperfectwriting.co.uk/resume-writing-service",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Resume Writing Service UK, UK Professional CV Assistance, Custom Resume Creation UK, Expert Resume Support UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Resume Writing Service in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Resume Writing Service UK, UK Professional CV Assistance, Custom Resume Creation UK, Expert Resume Support UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Resume Writing Service in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "800"
+    }
+  }
+  
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes your resume writing service the best in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As UK Resume Professionals, we offer a blend of quality, expertise, and tailored services, ensuring top-tier resume composition."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do you ensure the originality of the resumes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our resumes are crafted from scratch, guaranteeing original, plagiarism-free content suited to your individual professional journey."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I get a resume tailored for the UK job market?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Our service specializes in customizing resumes for the UK job market, with expert insights and localized nuances."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you offer executive resume writing services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our Executive Resume Services are designed to cater to high-profile professionals, offering bespoke content and structure."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

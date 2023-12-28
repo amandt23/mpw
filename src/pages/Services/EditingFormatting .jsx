@@ -336,28 +336,98 @@ const EditingFormatting = () => {
 
                 <script type="application/ld+json">
                     {`
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Editing and Formatting",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing provides a professional Editing and Formatting Service to refine and enhance the structure, style, and presentation of your documents. Our expert editors ensure your content is well-polished, adheres to formatting guidelines, and communicates effectively.",
-  "url": "https://myperfectwriting.co.uk/editing-formatting-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "ratingCount": "60"
+ {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Editing & Formatting Service in UK",
+    "url": "https://myperfectwriting.co.uk/editing-formatting-service",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Editing & Formatting Service UK, UK Academic Editing Solutions, Professional Document Formatting UK, Academic Proofreading and Formatting Service UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Editing & Formatting Service in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Editing & Formatting Service UK, UK Academic Editing Solutions, Professional Document Formatting UK, Academic Proofreading and Formatting Service UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Editing & Formatting Service in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "700"
+    }
+  }
+  
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What sets your apa editing services apart from others?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We specialize in APA editing with a focus on detail and adherence to academic style guides, ensuring top-quality service."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can you provide dissertation proofreading and editing in the United Kingdom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our team excels in dissertation proofreading and editing, tailoring our services to meet the highest academic standards in the UK."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you offer manuscript formatting services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our manuscript formatting services are comprehensive, encompassing a range of academic and literary styles to suit your specific needs."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do your services assist with graduate paper editing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer graduate paper editing specialists in the United Kingdom, focusing on detailed feedback and critical analysis to enhance your work."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

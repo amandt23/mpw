@@ -340,27 +340,97 @@ const NursingAssignmentHelpinUK = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Nursing Assignment Help",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": Elevate your nursing studies with My Perfect Writing's expert Nursing Assignment Help. Our team specializes in delivering in-depth, evidence-based assignments tailored to your curriculum, covering various nursing topics from patient care to medical ethics. Trust us to support your academic and professional development with insightful and meticulously researched content.",
-  "url": "https://myperfectwriting.co.uk/nursing-assignment-help",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Nursing Assignment Help in UK",
+    "url": "https://www.myperfectwriting.co.uk/nursing-assignment-help",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Nursing Assignment Help UK, UK Nursing Academic Assistance, Custom Nursing Homework Support, Professional Nursing Education Help UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Nursing Assignment Help in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Nursing Assignment Help UK, UK Nursing Academic Assistance, Custom Nursing Homework Support, Professional Nursing Education Help UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Nursing Assignment Help in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "800"
+    }
+  }
+
+  
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes your Nursing Assignment Help unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service stands out with affordable, comprehensive, and bespoke nursing assignment assistance for UK students, ensuring high quality and originality in every task."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do you ensure quality in Nursing Coursework Assistance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our team of professionals delivers tailored academic support, with a keen focus on critical analysis, structured arguments, and thorough research, ensuring top grades."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can you provide Custom Nursing Assignments UK wide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our services are available across the UK, offering customized, plagiarism-free nursing assignments, catering to the specific needs of each university and college."
+      }
+    },{
+      "@type": "Question",
+      "name": "What is your approach to Professional Nursing Homework Help?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide detailed, insightful, and expertly crafted homework solutions, focusing on delivering original content with critical thinking and comprehensive subject analysis."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

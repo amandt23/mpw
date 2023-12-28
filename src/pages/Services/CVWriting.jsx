@@ -338,28 +338,98 @@ const CVWriting = () => {
                 
                 <script type="application/ld+json">
                     {`
-                        {
+                       {
                         "@context": "https://schema.org",
-                    "@type": "Service",
-                    "serviceType": "CV Writing",
-                    "provider": {
-                        "@type": "Organization",
-                    "name": "My Perfect Writing",
-                    "url": "https://myperfectwriting.co.uk"
-  },
-                    "areaServed": {
-                        "@type": "Country",
-                    "name": "United Kingdom"
-  },
-                    "description": "My Perfect Writing offers a professional CV Writing Service to help you craft a compelling and tailored curriculum vitae. Our expert writers create CVs that highlight your skills, experience, and accomplishments, increasing your chances of success in job applications.",
-                    "url": "https://myperfectwriting.co.uk/cv-writing-service",
-                    "aggregateRating": {
-                        "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "bestRating": "5",
-                    "ratingCount": "65"
-  }
-}`}
+                        "@type": "ProfessionalService",
+                        "name": "CV Writing Service in UK",
+                        "url": "https://www.myperfectwriting.co.uk/cv-writing-service",
+                        "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+                        "sameAs": [
+                          "https://www.facebook.com/MyPerfectWritingUK",
+                          "https://www.instagram.com/myperfectwriting",
+                          "https://www.tiktok.com/@myperfectwriting.co.uk"
+                        ],
+                        "contactPoint": [
+                          {
+                            "@type": "ContactPoint",
+                            "telephone": "+447488818219",
+                            "contactType": "customer service",
+                            "areaServed": "United Kingdom",
+                            "availableLanguage": "English"
+                          },
+                          {
+                            "@type": "ContactPoint",
+                            "email": "support@myperfectwriting.co.uk",
+                            "contactType": "customer support"
+                          }
+                        ],
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "124 City Road",
+                          "addressLocality": "London",
+                          "postalCode": "EC1V 2NX",
+                          "addressCountry": "United Kingdom"
+                        },
+                        "keywords": "CV Writing Service UK, Professional Resume Creation UK,My Perfect Writing CV Assistance, Academic CV Writing Services"
+                      }
+                      
+                      {
+                        "@context": "https://schema.org",
+                        "@type": "Product",
+                        "name": "CV Writing Service in UK",
+                        "description": "Pricing per page for our services.",
+                        "keywords": "CV Writing Service UK, Professional Resume Creation UK,My Perfect Writing CV Assistance, Academic CV Writing Services",
+                        "brand": {
+                          "@type": "Organization",
+                          "name": "CV Writing Service in UK"
+                        },
+                        "offers": {
+                          "@type": "Offer",
+                          "priceCurrency": "GBP",
+                          "price": "6.99",
+                          "description": "Pricing per page for our services."
+                        },
+                        "aggregateRating": {
+                          "@type": "AggregateRating",
+                          "ratingValue": "4.9",
+                          "ratingCount": "900"
+                        }
+                      }
+                      
+                      
+                      {
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [{
+                          "@type": "Question",
+                          "name": "What makes your CV writing service stand out?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We offer affordable, tailored CV solutions with a focus on quality and originality, catering specifically to UK students and professionals."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "How do you ensure the quality of your CVs?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Our team of professional resume writers is equipped with industry expertise, ensuring each CV is both detailed and plagiarism-free."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "Can I get a CV tailored for a specific job application?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutely. Our custom resume creation service is designed to align your CV with specific job requirements and industry standards."
+                          }
+                        },{
+                          "@type": "Question",
+                          "name": "Do you offer services for executive resumes?",
+                          "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, our executive resume writing services in the UK are crafted to highlight leadership skills and professional achievements."
+                          }
+                        }]
+                      }`}
                 </script>
 
             </Helmet>

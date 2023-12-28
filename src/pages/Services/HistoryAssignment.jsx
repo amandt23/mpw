@@ -317,25 +317,95 @@ const HistoryAssignment = () => {
           {`
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "History Assignment Help",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing offers History Assignment Help, providing expert assistance in crafting high-quality and well-researched assignments in the field of History. Our professional writers ensure your assignments meet academic standards and guidelines.",
+  "@type": "ProfessionalService",
+  "name": "History Assignment Help in UK",
   "url": "https://myperfectwriting.co.uk/history-assignment-help",
+  "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+  "sameAs": [
+    "https://www.facebook.com/MyPerfectWritingUK",
+    "https://www.instagram.com/myperfectwriting",
+    "https://www.tiktok.com/@myperfectwriting.co.uk"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+447488818219",
+      "contactType": "customer service",
+      "areaServed": "United Kingdom",
+      "availableLanguage": "English"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "support@myperfectwriting.co.uk",
+      "contactType": "customer support"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "124 City Road",
+    "addressLocality": "London",
+    "postalCode": "EC1V 2NX",
+    "addressCountry": "United Kingdom"
+  },
+  "keywords": "History Assignment Help UK, UK Historical Assignment Assistance, Custom History Homework Support, Professional History Essay Service UK"
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "History Assignment Help in UK",
+  "description": "Pricing per page for our services.",
+  "keywords": "History Assignment Help UK, UK Historical Assignment Assistance, Custom History Homework Support, Professional History Essay Service UK",
+  "brand": {
+    "@type": "Organization",
+    "name": "History Assignment Help in UK"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "GBP",
+    "price": "6.99",
+    "description": "Pricing per page for our services."
+  },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "ratingCount": "60"
+    "ratingValue": "4.9",
+    "ratingCount": "900"
   }
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What types of history assignments do you handle?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our expert history essay writers proficiently manage various assignments, from ancient history assignments to AP world history homework and ancient Egypt assignments."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you assist with university history projects?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we offer university history project guidance and professional history research assistance, ensuring high-quality, plagiarism-free support for all academic levels."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do you ensure the originality of history essays?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our service guarantees original, custom history assignment writing, using innovative approaches and thorough plagiarism checks for each essay and dissertation."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer tailored services for AP European history summer assignments?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely! We provide customized history essay writing help, including tailored assistance for specific requirements like AP European history summer assignments."
+    }
+  }]
 }`}
         </script>
       </Helmet>

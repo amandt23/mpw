@@ -339,27 +339,97 @@ const SociologyAssignmentHelp = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Sociology Assignment Help",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing provides a professional Sociology Assignment Help. Our expert writers offer high-quality and custom-tailored academic essays to help you excel in your studies. Trust us for well-researched and original content.",
-  "url": "https://myperfectwriting.co.uk/sociology-assignment-help",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Sociology Assignment Help in the UK ",
+    "url": "https://myperfectwriting.co.uk/sociology-assignment-help",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Sociology Assignment Help UK, UK Sociology Academic Assistance, Custom Sociology Assignment Services, Professional Sociology Homework Help UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Sociology Assignment Help in the UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Sociology Assignment Help UK, UK Sociology Academic Assistance, Custom Sociology Assignment Services, Professional Sociology Homework Help UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Sociology Assignment Help in the UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "800"
+    }
+  }
+  
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes your sociology assignment writing service stand out in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service excels in offering affordable, high-quality, and plagiarism-free sociology homework assistance, tailored to UK academic standards."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I get specialized assistance for university level sociology assignments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Our professional sociology writers in the UK are adept at providing customized and insightful support for university level assignments."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do you ensure originality in your sociology essays and assignments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We guarantee original and creative sociology essays by conducting thorough research and providing a detailed plagiarism-free report for each assignment."
+      }
+    },{
+      "@type": "Question",
+      "name": "What types of sociology coursework aid do you offer in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our range includes comprehensive assistance in sociology coursework, dissertations, and thesis writing, adhering to UK university guidelines."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

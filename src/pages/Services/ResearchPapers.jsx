@@ -339,27 +339,97 @@ const LiteratureReview = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Research Papers",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing offers a Research Papers Service for comprehensive and high-quality research papers. Our expert writers provide custom-tailored research papers to meet your academic and professional needs. Trust us for original and well-researched content.",
-  "url": "https://myperfectwriting.co.uk/research-papers-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "ratingCount": "55"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Research Papers Service in UK",
+    "url": "https://myperfectwriting.co.uk/research-papers-service",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Research Papers Service UK, Custom UK Academic Papers, University Research Assistance UK, Professional Paper Writing UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Research Papers Service in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Research Papers Service UK, Custom UK Academic Papers, University Research Assistance UK, Professional Paper Writing UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Research Papers Service in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "900"
+    }
+  }
+
+  
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes your research paper help service stand out in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service offers unparalleled expertise and tailor-made solutions, ensuring each research paper is original, plagiarism-free, and meets the highest academic standards."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I pay someone to write my research paper within a tight deadline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our professional paper writers are equipped to handle urgent deadlines, delivering quality work without compromising on the rigorous academic requirements."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you provide MLA style paper formatting and proofreading services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our research paper formatting service includes all major styles like MLA, APA, and more, complemented by meticulous editing and proofreading for flawless results."
+      }
+    },{
+      "@type": "Question",
+      "name": "How affordable are your research paper writing services for UK students?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We pride ourselves on offering affordable research paper writing services, ensuring accessibility and value for students across the UK."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

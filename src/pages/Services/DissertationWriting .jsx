@@ -331,14 +331,14 @@ const DissertationWriting = () => {
                         "sameAs": [
                           "https://www.facebook.com/MyPerfectWritingUK",
                           "https://www.instagram.com/myperfectwriting",
-                          "https://github.com/amandt23/mpw/tree/main"
+                          "https://www.tiktok.com/@myperfectwriting.co.uk"
                         ],
                         "contactPoint": [
                           {
                             "@type": "ContactPoint",
                             "telephone": "+447488818219",
                             "contactType": "customer service",
-                            "areaServed": "GB",
+                            "areaServed": "United Kingdom",
                             "availableLanguage": "English"
                           },
                           {
@@ -352,7 +352,7 @@ const DissertationWriting = () => {
                           "streetAddress": "124 City Road",
                           "addressLocality": "London",
                           "postalCode": "EC1V 2NX",
-                          "addressCountry": "GB"
+                          "addressCountry": "United Kingdom"
                         },
                         "keywords": "Dissertation Writing Service UK, Custom Dissertation Assistance UK, UK University Dissertation Support, Professional Dissertation Writing UK"
                       }
@@ -360,7 +360,7 @@ const DissertationWriting = () => {
                       {
                         "@context": "https://schema.org",
                         "@type": "Product",
-                        "name": "Dissertation Writing",
+                        "name": "Dissertation Writing Service in UK",
                         "description": "Pricing per page for our services.",
                         "keywords": "Dissertation Writing Service UK, Custom Dissertation Assistance UK, UK University Dissertation Support, Professional Dissertation Writing UK",
                         "brand": {

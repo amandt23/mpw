@@ -338,27 +338,97 @@ const  NutritionAssignmentHelp = () => {
 <script type="application/ld+json">
     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Proofreading",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "Unlock the complexities of nutrition and dietetics with My Perfect Writing's Nutrition Assignment Help. Our service provides comprehensive support, offering well-researched, scientifically backed assignments tailored to your specific academic needs. Whether it's understanding metabolic pathways, dietary planning, or public health nutrition, our expert writers are equipped to enhance your learning and help you excel in your studies.",
-  "url": "https://myperfectwriting.co.uk/proofreading-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "ratingCount": "60"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Nutrition Assignment Help in UK ",
+    "url": "https://www.myperfectwriting.co.uk/nutrition-assignment-help",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Nutrition Assignment Help UK, UK Dietary Academic Assistance, Custom Nutrition Homework Support, Professional Nutrition Education Help UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Nutrition Assignment Help in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Nutrition Assignment Help UK, UK Dietary Academic Assistance, Custom Nutrition Homework Support, Professional Nutrition Education Help UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Nutrition Assignment Help in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "900"
+    }
+  }
+
+  
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes your Nutrition Assignment Help service unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer a blend of expertise, affordability, and customised support, ensuring top-quality, plagiarism-free academic assistance."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do you ensure the quality of diet analysis assignments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our professional writers conduct thorough research and critical analysis, tailoring each assignment to meet your specific academic requirements."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I get help with a food diary assignment for my nutrition class?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our expert educators provide comprehensive guidance for all types of assignments, including detailed food diary analysis."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you provide assistance for assignments on nutrition class 10?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely, we offer tailored support for students at all academic levels, ensuring your nutrition assignments are insightful and grade-boosting."
+      }
+    }]
+  }`}
 </script>
 </Helmet>
 

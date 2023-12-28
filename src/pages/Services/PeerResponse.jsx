@@ -342,27 +342,97 @@ const NursingAssn = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Peer Response Service",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "Enhance your academic work with My Perfect Writing's Peer Response Service, a platform for constructive feedback and collaborative improvement. Our experts provide detailed critiques and suggestions on your assignments, fostering a deeper understanding and refined academic skills.",
-  "url": "https://myperfectwriting.co.uk/peer-responses-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Peer Responses Service in UK",
+    "url": "https://myperfectwriting.co.uk/peer-responses-service",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Peer Responses Service UK, Academic Peer Review UK, Student-to-Student Writing Help, University Assignment Feedback UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Peer Responses Service in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Peer Responses Service UK, Academic Peer Review UK, Student-to-Student Writing Help, University Assignment Feedback UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Peer Responses Service in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "950"
+    }
+  }
+
+  
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What sets your Peer Responses Service apart from others in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer a unique blend of affordability, customised support, and expertise in academic writing and peer evaluations."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do you ensure the originality and quality of your service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our services are plagiarism-free, with every response crafted by professionals, ensuring original and high-quality content."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can your service help with urgent deadlines?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our reliable team is equipped to handle tight deadlines while maintaining the highest standards of quality."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you provide support for all types of academic writing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service covers a wide range of academic writings, from essays to dissertations, tailored to your specific needs."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

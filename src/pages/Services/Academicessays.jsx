@@ -352,27 +352,97 @@ const Academicessays = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Academic Essays",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing provides a professional Academic Essays Service. Our expert writers offer high-quality and custom-tailored academic essays to help you excel in your studies. Trust us for well-researched and original content.",
-  "url": "https://myperfectwriting.co.uk/academic-essays-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Academic Essays Service in UK",
+    "url": "https://myperfectwriting.co.uk/academic-essays-service",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Academic Essays Service UK, UK University Essay Writing, Custom Academic Essays, Expert Essay Help UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Academic Essays Service in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Academic Essays Service UK, UK University Essay Writing, Custom Academic Essays, Expert Essay Help UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Academic Essays Service in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "900"
+    }
+  }
+
+  
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes My Perfect Writing the best Academic Essays help in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service combines affordability with unparalleled quality, offering tailored, plagiarism-free essays by UK-based professional essay writers."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do your university coursework writing services stand out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We specialize in providing comprehensive coursework writing solutions, ensuring detailed and critical analysis with every submission."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I get professional academic writers for my research paper?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Our team of professional academic writers are experts in research paper writing, offering original content and insightful analysis."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you offer dissertation support for UK postgraduates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our dissertation support UK service is designed for Master’s and PhD students, providing customized, detailed, and innovative assistance."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

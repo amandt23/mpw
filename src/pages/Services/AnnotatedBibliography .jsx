@@ -345,7 +345,7 @@ const AnnotatedBibliography = () => {
                         "sameAs": [
                           "https://www.facebook.com/MyPerfectWritingUK",
                           "https://www.instagram.com/myperfectwriting",
-                          "https://github.com/amandt23/mpw/tree/main"
+                          "https://www.tiktok.com/@myperfectwriting.co.uk"
                         ],
                         "contactPoint": [
                           {
@@ -374,7 +374,7 @@ const AnnotatedBibliography = () => {
                       {
                         "@context": "https://schema.org",
                         "@type": "Product",
-                        "name": "Annotated Bibliography",
+                        "name": "Annotated Bibliography Service in UK",
                         "description": "Pricing per page for our services.",
                         "keywords": "Annotated Bibliography Service UK, Custom Bibliography Writing UK, Academic Citation Services, UK University Bibliography Assistance",
                         "brand": {

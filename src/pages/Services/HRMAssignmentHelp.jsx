@@ -340,27 +340,97 @@ const HRMAssignmentHelp = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "HRM Assignment Help",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "Navigate the complexities of Human Resource Management with My Perfect Writing's HRM Assignment Help. Our dedicated team provides concise, well-researched, and professionally written assignments that cover a wide range of HR topics. Whether you're tackling recruitment, retention, training, or labor laws, we're here to enhance your understanding and support your academic journey.",
-  "url": "https://myperfectwriting.co.uk/hrm-assignment-help",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "HRM Assignment Help in UK",
+    "url": "https://myperfectwriting.co.uk/hrm-assignment-help",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "HRM Assignment Help UK, UK Human Resources Academic Support, Custom HRM Homework Assistance, Professional HRM Assignment Services UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "HRM Assignment Help in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "HRM Assignment Help UK, UK Human Resources Academic Support, Custom HRM Homework Assistance, Professional HRM Assignment Services UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "HRM Assignment Help in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "ratingCount": "600"
+    }
+  }
+  
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes your HRM assignment writing service stand out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service excels in delivering plagiarism-free, original HRM assignments, tailored to your specific academic needs."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do you ensure the quality of HRM assignments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality is our priority. Our expert writers conduct thorough research and provide detailed analysis, ensuring top-grade results."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can you meet tight deadlines for HRM assignments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We offer urgent HRM assignment assistance, ensuring timely delivery without compromising on quality."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you offer customized HRM assignment services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide customized human resource management homework help, tailored to meet the unique requirements of each assignment."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

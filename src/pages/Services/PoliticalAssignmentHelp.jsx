@@ -338,27 +338,97 @@ const PoliticalAssignmentHelp = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Political Assignment Help",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "Dive into the complexities of political theories and systems with My Perfect Writing's Political Assignment Help. Our experienced political scientists assist you in analyzing and understanding diverse political structures, ideologies, and policies. Whether you're grappling with political theory, comparative politics, or international relations, we provide comprehensive, well-researched, and insightful assignments to support your academic success and political acumen.",
-  "url": "https://myperfectwriting.co.uk/political-assignment-help",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Political Assignment Help in the UK",
+    "url": "https://myperfectwriting.co.uk/political-assignment-help",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Political Assignment Help UK, UK Political Science Assistance, Custom Political Studies Help, Expert Political Homework Support UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Political Assignment Help in the UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Political Assignment Help UK, UK Political Science Assistance, Custom Political Studies Help, Expert Political Homework Support UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Political Assignment Help in the UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.6",
+      "ratingCount": "650"
+    }
+  }
+  
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What services do you offer for Political Science assignments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer a wide range of services including essay writing, critical analysis, and custom research for all levels of academic study in Political Science."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do you ensure the quality of your Political Theory assignments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our professional writers follow stringent quality checks, ensuring original, plagiarism-free content tailored to your specific requirements."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I get help with my BA 1st year Political Science assignment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide specialized assistance for BA 1st year Political Science assignments, catering to specific topics and university guidelines."
+      }
+    },{
+      "@type": "Question",
+      "name": "What makes your Political Essay Writing Service UK stand out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our service is known for its expert UK-based writers, timely delivery, and custom, insightful essays that meet the highest academic standards."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

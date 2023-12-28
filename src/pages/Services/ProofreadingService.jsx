@@ -337,27 +337,97 @@ const ProofreadingService = () => {
 <script type="application/ld+json">
     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Proofreading",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing offers a professional Proofreading Service to enhance the quality of your written content. Our expert proofreaders meticulously review and correct grammar, spelling, punctuation, and formatting to ensure your documents are error-free and polished.",
-  "url": "https://myperfectwriting.co.uk/proofreading-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "ratingCount": "60"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Proofreading Service in the UK",
+    "url": "https://www.myperfectwriting.co.uk/proofreading-service",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Proofreading Service UK, UK Academic Editing Assistance, Custom Proofreading Solutions UK, Expert Academic Proofreading Service UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Proofreading Service in the UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Proofreading Service UK, UK Academic Editing Assistance, Custom Proofreading Solutions UK, Expert Academic Proofreading Service UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Proofreading Service in the UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "850"
+    }
+  }
+
+  
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes your proofreading service stand out in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer tailored, affordable proofreading with a focus on quality, ensuring plagiarism-free and expertly edited academic work."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I get free proofreading for my university assignment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While our service is not free, we offer competitively priced and reliable proofreading for all types of university assignments."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you provide thesis editing services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our professional team specializes in thesis correction and editing, ensuring compliance with university standards."
+      }
+    },{
+      "@type": "Question",
+      "name": "How does your service ensure the quality of academic proofreading?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our proofreading is conducted by experienced educators and professionals, ensuring comprehensive and detailed reviews."
+      }
+    }]
+  }`}
 </script>
 </Helmet>
 

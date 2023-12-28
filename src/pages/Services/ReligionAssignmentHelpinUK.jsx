@@ -339,27 +339,97 @@ const ReligionAssignmentHelpinUK = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Religion Assignment Help in UK",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing provides a professional Sociology Assignment Help. Our expert writers offer high-quality and custom-tailored academic essays to help you excel in your studies. Trust us for well-researched and original content.",
-  "url": "https://myperfectwriting.co.uk/religion-assignment-help-in-uk",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Religion Assignment Help in UK",
+    "url": "https://myperfectwriting.co.uk/religion-assignment-help-in-uk",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Religion Assignment Help UK, UK Religious Studies Assistance, Custom Religion Homework Help, Academic Theology Support UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Religion Assignment Help in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Religion Assignment Help UK, UK Religious Studies Assistance, Custom Religion Homework Help, Academic Theology Support UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Religion Assignment Help in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "800"
+    }
+  }
+  
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes your religion assignment service unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer tailored, plagiarism-free religion essay writing by expert UK writers, ensuring high-quality and affordable solutions for students."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I get help with undergraduate religion coursework in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our professionals provide comprehensive undergraduate religion coursework writing help in the UK, focusing on detailed, insightful analysis."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you offer support for postgraduate theology assignments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our UK writers for postgraduate theology assignments are well-versed in providing customized, high-level academic support and guidance."
+      }
+    },{
+      "@type": "Question",
+      "name": "How do you ensure the originality of the assignments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every assignment is crafted from scratch, ensuring originality and creativity, complemented by a comprehensive plagiarism check."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

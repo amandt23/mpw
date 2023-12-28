@@ -315,25 +315,96 @@ const PhilosphyAssignment = () => {
           {`
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Philosophy Assignment Help",
-  "provider": {
+  "@type": "ProfessionalService",
+  "name": "Philosophy Assignment Help in UK",
+  "url": "https://myperfectwriting.co.uk/philosphy-assignment-help",
+  "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+  "sameAs": [
+    "https://www.facebook.com/MyPerfectWritingUK",
+    "https://www.instagram.com/myperfectwriting",
+    "https://www.tiktok.com/@myperfectwriting.co.uk"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+447488818219",
+      "contactType": "customer service",
+      "areaServed": "United Kingdom",
+      "availableLanguage": "English"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "support@myperfectwriting.co.uk",
+      "contactType": "customer support"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "124 City Road",
+    "addressLocality": "London",
+    "postalCode": "EC1V 2NX",
+    "addressCountry": "United Kingdom"
+  },
+  "keywords": "Philosophy Assignment Help UK, UK Philosophy Academic Support, Custom Philosophy Assistance UK, Expert Philosophy Assignment Writing UK"
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Philosophy Assignment Help in UK",
+  "description": "Pricing per page for our services.",
+  "keywords": "Philosophy Assignment Help UK, UK Philosophy Academic Support, Custom Philosophy Assistance UK, Expert Philosophy Assignment Writing UK",
+  "brand": {
     "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
+    "name": "Philosophy Assignment Help in UK
+    "
   },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "GBP",
+    "price": "6.99",
+    "description": "Pricing per page for our services."
   },
-  "description": "My Perfect Writing offers Philosophy Assignment Help, providing expert assistance in crafting high-quality and well-researched assignments in the field of Philosophy. Our professional writers ensure your assignments meet academic standards and guidelines.",
-  "url": "https://myperfectwriting.co.uk/philosophy-assignment-help",
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.6",
-    "bestRating": "5",
-    "ratingCount": "50"
+    "ratingValue": "4.7",
+    "ratingCount": "750"
   }
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What makes your Philosophy Essay Writing Service stand out in the UK?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our service excels in providing custom, plagiarism-free essays with an emphasis on critical analysis and original research by professional academic writers."
+    }
+  },{
+    "@type": "Question",
+    "name": "How does your team handle a critical philosophy assignment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our experts approach each critical philosophy assignment with in-depth research, ensuring a detailed, argument-driven analysis for high-quality results."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I get affordable Philosophy Assignment Help in the UK?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, our services are competitively priced to offer affordable, reliable assistance without compromising on the quality of your philosophy assignments."
+    }
+  },{
+    "@type": "Question",
+    "name": "What is your approach to a personal philosophy assignment?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide tailored support, focusing on your unique perspective and requirements, ensuring a customised and insightful philosophy assignment."
+    }
+  }]
 }`}
         </script>
       </Helmet>

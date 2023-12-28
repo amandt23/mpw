@@ -57,7 +57,7 @@ const Home = () => {
                     "sameAs": [
                       "https://www.facebook.com/MyPerfectWritingUK",
                       "https://www.instagram.com/myperfectwriting",
-                      "https://github.com/amandt23/mpw/tree/main"
+                      "https://www.tiktok.com/@myperfectwriting.co.uk"
                     ],
                     "contactPoint": [
                       {
@@ -93,7 +93,7 @@ const Home = () => {
                               "@type": "Offer",
                               "itemOffered": {
                                 "@type": "Service",
-                                "name": "General Essay Writing",
+                                "name": "Essay Writing",
                                 "description": "Comprehensive essay writing services for a wide range of topics."
                               }
                             },

@@ -347,14 +347,14 @@ const LiteratureReview = () => {
                         "sameAs": [
                           "https://www.facebook.com/MyPerfectWritingUK",
                           "https://www.instagram.com/myperfectwriting",
-                          "https://github.com/amandt23/mpw/tree/main"
+                          "https://www.tiktok.com/@myperfectwriting.co.uk"
                         ],
                         "contactPoint": [
                           {
                             "@type": "ContactPoint",
                             "telephone": "+447488818219",
                             "contactType": "customer service",
-                            "areaServed": "GB",
+                            "areaServed": "United Kingdom",
                             "availableLanguage": "English"
                           },
                           {
@@ -368,7 +368,7 @@ const LiteratureReview = () => {
                           "streetAddress": "124 City Road",
                           "addressLocality": "London",
                           "postalCode": "EC1V 2NX",
-                          "addressCountry": "GB"
+                          "addressCountry": "United Kingdom"
                         },
                         "keywords": "Literature Review Service UK, UK Academic Review Assistance, Custom Literature Review Writing, University Research Support UK"
                       }
@@ -376,7 +376,7 @@ const LiteratureReview = () => {
                       {
                         "@context": "https://schema.org",
                         "@type": "Product",
-                        "name": "Literature Review",
+                        "name": "Literature Review Service in UK",
                         "description": "Pricing per page for our services.",
                         "keywords": "Literature Review Service UK, UK Academic Review Assistance, Custom Literature Review Writing, University Research Support UK",
                         "brand": {

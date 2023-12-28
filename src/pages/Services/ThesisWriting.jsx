@@ -338,27 +338,97 @@ const ThesisWriting = () => {
                 <script type="application/ld+json">
                     {`
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Thesis Writing",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing offers a Thesis Writing Service for comprehensive and high-quality thesis papers. Our expert writers provide custom-tailored theses to meet your academic and professional needs. Trust us for original and well-researched content.",
-  "url": "https://myperfectwriting.co.uk/thesis-writing-service",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "bestRating": "5",
-    "ratingCount": "60"
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Thesis Writing Service in UK ",
+    "url": "https://www.myperfectwriting.co.uk/thesis-writing-service",
+    "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+    "sameAs": [
+      "https://www.facebook.com/MyPerfectWritingUK",
+      "https://www.instagram.com/myperfectwriting",
+      "https://www.tiktok.com/@myperfectwriting.co.uk"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+447488818219",
+        "contactType": "customer service",
+        "areaServed": "United Kingdom",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "support@myperfectwriting.co.uk",
+        "contactType": "customer support"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "124 City Road",
+      "addressLocality": "London",
+      "postalCode": "EC1V 2NX",
+      "addressCountry": "United Kingdom"
+    },
+    "keywords": "Thesis Writing Service UK, UK University Thesis Assistance, Custom Thesis Creation UK, Academic Thesis Support UK"
   }
-}`}
+  
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Thesis Writing Service in UK",
+    "description": "Pricing per page for our services.",
+    "keywords": "Thesis Writing Service UK, UK University Thesis Assistance, Custom Thesis Creation UK, Academic Thesis Support UK",
+    "brand": {
+      "@type": "Organization",
+      "name": "Thesis Writing Service in UK"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "GBP",
+      "price": "6.99",
+      "description": "Pricing per page for our services."
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "900"
+    }
+  }
+
+  
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What distinguishes your thesis writing service from others?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our commitment to quality, affordable pricing, and experienced UK-based professionals sets us apart in the field of academic consultancy."
+      }
+    },{
+      "@type": "Question",
+      "name": "Can I trust your service for plagiarism-free and original content?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Our expert writers ensure every thesis is original, tailoring each project to your specific needs and conducting thorough research."
+      }
+    },{
+      "@type": "Question",
+      "name": "Do you offer support for Master's and PhD dissertations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our services cater to both Master's and PhD students, offering comprehensive assistance from proposal to final submission."
+      }
+    },{
+      "@type": "Question",
+      "name": "How does your proofreading and editing service enhance my thesis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our editing team focuses on structure, clarity, and citations to elevate your thesis, ensuring it adheres to high academic standards."
+      }
+    }]
+  }`}
                 </script>
             </Helmet>
 

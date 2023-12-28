@@ -316,25 +316,95 @@ const GeographyAssignment = () => {
           {`
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Geography Assignment Help",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing offers Geography Assignment Help, providing expert assistance in crafting high-quality and well-researched assignments in the field of Geography. Our professional writers ensure your assignments meet academic standards and guidelines.",
+  "@type": "ProfessionalService",
+  "name": "Geography Assignment Help in the UK",
   "url": "https://myperfectwriting.co.uk/geography-assignment-help",
+  "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+  "sameAs": [
+    "https://www.facebook.com/MyPerfectWritingUK",
+    "https://www.instagram.com/myperfectwriting",
+    "https://www.tiktok.com/@myperfectwriting.co.uk"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+447488818219",
+      "contactType": "customer service",
+      "areaServed": "United Kingdom",
+      "availableLanguage": "English"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "support@myperfectwriting.co.uk",
+      "contactType": "customer support"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "124 City Road",
+    "addressLocality": "London",
+    "postalCode": "EC1V 2NX",
+    "addressCountry": "United Kingdom"
+  },
+  "keywords": "Geography Assignment Help UK, UK Geography Academic Support, Custom Geography Homework Assistance, Expert Geography Writing Service UK"
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Geography Assignment Help in the UK",
+  "description": "Pricing per page for our services.",
+  "keywords": "Geography Assignment Help UK, UK Geography Academic Support, Custom Geography Homework Assistance, Expert Geography Writing Service UK",
+  "brand": {
+    "@type": "Organization",
+    "name": "Geography Assignment Help in the UK"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "GBP",
+    "price": "6.99",
+    "description": "Pricing per page for our services."
+  },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.7",
-    "bestRating": "5",
-    "ratingCount": "55"
+    "ratingValue": "4.8",
+    "ratingCount": "850"
   }
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is your approach to the 5 themes of geography assignments?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our experts incorporate comprehensive analysis and critical insights, ensuring each theme is thoroughly addressed with original, plagiarism-free content."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you assist with AP Human Geography assignments and homework?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, our team specializes in AP Human Geography, offering customized, reliable support for all types of assignments and homework."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide help with geography coursework and university projects?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely. Our Geography Coursework Aid UK service covers university projects, offering detailed, insightful, and innovative solutions."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do you ensure the originality of geography essays and assignments?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Each essay is written from scratch by our professionals, with a focus on original research and tailored content, free from plagiarism."
+    }
+  }]
 }`}
         </script>
       </Helmet>

@@ -316,25 +316,95 @@ const LiteratureAssignment = () => {
           {`
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Literature Assignment Help",
-  "provider": {
-    "@type": "Organization",
-    "name": "My Perfect Writing",
-    "url": "https://myperfectwriting.co.uk"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "description": "My Perfect Writing offers Literature Assignment Help, providing expert assistance in crafting high-quality and well-researched assignments in the field of Literature. Our professional writers ensure your assignments meet academic standards and guidelines.",
+  "@type": "ProfessionalService",
+  "name": "Literature Assignment Help in UK",
   "url": "https://myperfectwriting.co.uk/literature-assignment-help",
+  "logo": "https://myperfectwriting.co.uk/static/media/logo.c7b997f3c932270a4106.png",
+  "sameAs": [
+    "https://www.facebook.com/MyPerfectWritingUK",
+    "https://www.instagram.com/myperfectwriting",
+    "https://www.tiktok.com/@myperfectwriting.co.uk"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+447488818219",
+      "contactType": "customer service",
+      "areaServed": "United Kingdom",
+      "availableLanguage": "English"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "support@myperfectwriting.co.uk",
+      "contactType": "customer support"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "124 City Road",
+    "addressLocality": "London",
+    "postalCode": "EC1V 2NX",
+    "addressCountry": "United Kingdom"
+  },
+  "keywords": "Literature Assignment Help UK, UK Custom Literature Support, Academic Literature Assistance UK, Professional Literature Homework Help UK"
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Literature Assignment Help in UK",
+  "description": "Pricing per page for our services.",
+  "keywords": "Literature Assignment Help UK, UK Custom Literature Support, Academic Literature Assistance UK, Professional Literature Homework Help UK",
+  "brand": {
+    "@type": "Organization",
+    "name": "Literature Assignment Help in UK"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "GBP",
+    "price": "6.99",
+    "description": "Pricing per page for our services."
+  },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.7",
-    "bestRating": "5",
-    "ratingCount": "55"
+    "ratingValue": "4.9",
+    "ratingCount": "900"
   }
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What distinguishes your Literature Assignment Help service?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our service stands out for its commitment to quality, affordability, and expert assistance, ensuring each literature assignment is unique and tailored to your needs."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can I get help with an assignment on English literature?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Simply visit our website, submit your requirements, and our professional writers will provide you with custom, plagiarism-free English literature coursework help."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer guidance for BEGC 102 European classical literature assignments?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, our team specializes in European classical literature, offering comprehensive and reliable support for BEGC 102 assignments and coursework."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I receive assistance with literature review writing in the UK?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely, our experts provide Literature Review Writing UK services, ensuring detailed analysis and critical insights for your reviews."
+    }
+  }]
 }`}
         </script>
       </Helmet>
