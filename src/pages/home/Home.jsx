@@ -20,6 +20,8 @@ const Home = () => {
 
                 <meta name="keywords" content="My Perfect Writing - Home, Essay Writing Service UK, Custom Academic Assistance UK, UK Expert Writers Service"></meta>
 
+                <link rel="canonical" href="https://www.myperfectwriting.co.uk/" />
+
                 {/* Facebook meta description */}
 
                 <meta property="og:type" content="profile" />

@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -178,131 +179,7 @@ const ReligionAssignmentHelpinUK = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Essay Writing",
-                "WordCount": 1500,
-                "Citation": "Harvard",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Comparative Religion",
-                "Review": "Exceptional support and comprehensive help with my religious studies. The essay was well-researched and tailored perfectly.",
-                "Tags": [" Undergraduate Religion Project Help"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to have supported your academic journey with our specialized religion essay writing for UK universities.",
-                "Date": "2023-12-05",
-                "image": "244.png"
-            },
-            {
-                "ServiceType": "Dissertation Assistance",
-                "WordCount": 10000,
-                "Citation": "APA",
-                "OrderPrice": " £69.90",
-                "CustomerID": "MPW-567890",
-                "OrderRating": "4.5 Stars",
-                "University": "King's College London",
-                "Subject": "Theology",
-                "Review": "The dissertation was insightful and met all my requirements. The UK-based writers for theology research papers are truly experts.",
-                "Tags": ["Religion Dissertation Assistance UK"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing us for your theology dissertation. We're committed to providing expert guidance on theology assignments in the UK.",
-                "Date": "2023-12-03",
-                "image": "245.png"
-            },
-            {
-                "ServiceType": " Research Paper",
-                "WordCount": 2000,
-                "Citation": "Chicago",
-                "OrderPrice": " £41.94",
-                "CustomerID": "MPW-876543",
-                "OrderRating": "5 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "Spiritual Studies",
-                "Review": "A perfect blend of expertise and detailed research. My spiritual studies assignment was handled with great care and professionalism.",
-                "Tags": ["Spiritual Studies Assignment Experts"],
-                "ResponsefromMyPerfectWriting": "We're glad to have assisted you with our specialized religious education homework services in the UK.",
-                "Date": " 2023-11-30",
-                "image": "246.png"
-            },
-            {
-                "ServiceType": "Coursework Help",
-                "WordCount": 2500,
-                "Citation": "MLA",
-                "OrderPrice": " £46.99",
-                "CustomerID": "MPW-123456",
-                "OrderRating": "4.8 Stars",
-                "University": " London School of Economics",
-                "Subject": " Religious Ethics",
-                "Review": "The coursework was exceptional. It's clear that your team has a deep understanding of British religious education help.",
-                "Tags": [" Comprehensive Help with Religious Studies in Britain"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback. We pride ourselves on our professional religious study essay assistance in the UK.",
-                "Date": "2023-11-28",
-                "image": "247.png"
-            },
-            {
-                "ServiceType": "Essay Review",
-                "WordCount":3000,
-                "Citation": "Harvard",
-                "OrderPrice": " £62.91",
-                "CustomerID": "MPW-224466",
-                "OrderRating": "5 Stars",
-                "University": "University of Manchester",
-                "Subject": "World Religions",
-                "Review": "Incredibly insightful feedback on my world religions essay. Your team's expertise in religious studies is unmatched.",
-                "Tags": ["Expert Guidance on Theology Assignments in UK"],
-                "ResponsefromMyPerfectWriting": "We're delighted to have provided you with insightful guidance on your theology assignment. Your success is our priority.",
-                "Date": " 2023-11-20",
-                "image": "248.png"
-            },
-            {
-                "ServiceType": "Thesis Assistance",
-                "WordCount": 8000,
-                "Citation": "APA",
-                "OrderPrice": " £55.92",
-                "CustomerID": "MPW-789012 ",
-                "OrderRating": "4.7 Stars",
-                "University": " University College London",
-                "Subject": "Theology and Philosophy",
-                "Review": "My thesis on theology and philosophy was handled with exceptional expertise. Thank you for the detailed and critical analysis.",
-                "Tags": [" Postgraduate Theology Essay UK"],
-                "ResponsefromMyPerfectWriting": "It was our pleasure to assist you with your postgraduate theology essay. We're committed to providing comprehensive support.",
-                "Date": " 2023-11-15",
-                "image": "249.png"
-            },
-            {
-                "ServiceType": " Coursework Assistance",
-                "WordCount": 2000,
-                "Citation": "MLA",
-                "OrderPrice": " £41.94",
-                "CustomerID": " MPW-456789",
-                "OrderRating": "4.9 Stars",
-                "University": "Imperial College London",
-                "Subject": "Ethical Studies in Religion",
-                "Review": "The coursework on ethical studies was meticulously done. Appreciate the professional and customized approach.",
-                "Tags": ["Customized Religious Studies Project Help in Britain"],
-                "ResponsefromMyPerfectWriting": "We're glad you appreciated our customized approach to your religious studies project. We always strive for excellence.",
-                "Date": "2023-11-10",
-                "image": "250.png"
-            },
-            {
-                "ServiceType": "Assignment Writing ",
-                "WordCount": 4000,
-                "Citation": "Chicago",
-                "OrderPrice": "  £83.88",
-                "CustomerID": " MPW-654321",
-                "OrderRating": "4.8 Stars",
-                "University": "University of Birmingham",
-                "Subject": "Religious History",
-                "Review": " Your team's deep understanding of religious history helped me immensely. The assignment was thorough and well-structured.",
-                "Tags": ["Specialized Religion Essay Writing for UK Universities"],
-                "ResponsefromMyPerfectWriting": "Thank you for your kind words. We take pride in providing specialized assistance in religion essay writing for UK universities.",
-                "Date": "2023-11-05",
-                "image": "251.png"
-            },
-           
-        ];
+  
 
     return (
         <>
@@ -312,6 +189,8 @@ const ReligionAssignmentHelpinUK = () => {
                <meta name="description" content="Expert Religion Assignment Help in UK by My Perfect Writing. Tailored support for diverse religious studies with quality academic guidance." />
 
                <meta name="keywords" content="Religion Assignment Help UK, UK Religious Studies Assistance, Custom Religion Homework Help, Academic Theology Support UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/religion-assignment-help-in-uk" />
 
                 {/* Facebook meta description */}
 
@@ -764,7 +643,7 @@ const ReligionAssignmentHelpinUK = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.religion_assignment.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

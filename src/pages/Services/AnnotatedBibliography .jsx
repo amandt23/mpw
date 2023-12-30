@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -103,37 +105,7 @@ const AnnotatedBibliography = () => {
         },
     ]
 
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What makes your annotated bibliography service stand out?",
-            "answer": "We offer custom, comprehensive bibliography solutions, with a focus on academic integrity and tailored research for UK universities."
-        },
-        {
-            "question": "How do you ensure the originality of content?",
-            "answer": "Each bibliography is meticulously crafted to be plagiarism-free, reflecting original research and critical analysis."
-        },
-        {
-            "question": "Can you accommodate specific formatting requirements?",
-            "answer": "Yes, our service includes adhering to any annotated bibliography format, whether it's a specific university template or a scholarly article summarization style."
-        },
-        {
-            "question": "What types of sources do you use for bibliographies?",
-            "answer": "We utilize a wide range of academic and scholarly sources, ensuring a detailed and insightful annotated bibliography tailored to your subject."
-        },
-        {
-            "question": "Do you offer services for postgraduate students?",
-            "answer": "Absolutely, our UK postgraduate annotated bibliography support is designed to meet the advanced needs of postgraduate research and writing."
-        },
-        {
-            "question": "What is your approach to deadline management?",
-            "answer": "Our professional writers are adept at delivering high-quality work within your specified deadline, ensuring reliable and timely service."
-        },
-        {
-            "question": "How can I provide feedback on my order?",
-            "answer": "Feedback can be shared through your personalized dashboard, allowing for seamless communication and adjustments if needed."
-        }
-    ];
+ 
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -176,132 +148,7 @@ const AnnotatedBibliography = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Annotated Bibliography",
-                "WordCount": 1500,
-                "Citation": "Harvard",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343503",
-                "OrderRating": "5/5",
-                "University": "University of Oxford",
-                "Subject": "English Literature",
-                "Review": "Exceptional detail and adherence to academic standards. The bibliography was spot on with insightful annotations.",
-                "Tags": ["Educational Reference Analysis UK", "Professional Academic Resource Listing UK"],
-                "ResponsefromMyPerfectWriting": "Thank you! We're thrilled to have supported your literary research with precision.",
-                "Date": "2023-11-12",
-                "image": "017.jpg"
-            },
-            {
-                "ServiceType": "Annotated Bibliography",
-                "WordCount": 1800,
-                "Citation": "MLA",
-                "OrderPrice": "£41.94",
-                "CustomerID": "MPW-363534",
-                "OrderRating": "4.8/5",
-                "University": "University of Cambridge",
-                "Subject": "History",
-                "Review": "The bibliography perfectly matched my history assignment requirements. Appreciate the detailed analysis and format.",
-                "Tags": ["British Scholarly Source Annotation", "Annotated Bibliography Services for UK Undergraduates"],
-                "ResponsefromMyPerfectWriting": "Delighted to have been of help with your history project. Your feedback is invaluable!",
-                "Date": "2023-11-10",
-                "image": "018.jpg"
-            },
-            {
-                "ServiceType": "Annotated Bibliography",
-                "WordCount": 1200,
-                "Citation": "Chicago",
-                "OrderPrice": "£27.88",
-                "CustomerID": "MPW-343530",
-                "OrderRating": "5/5",
-                "University": "Imperial College London",
-                "Subject": "Physics",
-                "Review": "Impressed with the quick turnaround and accuracy of citations. A reliable service for urgent academic needs.",
-                "Tags": ["UK Postgraduate Annotated Bibliography Support", "Specialized Annotated Bibliography Services in England"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing us for your urgent request. We're always here to assist!",
-                "Date": "2023-11-08",
-                "image": "019.jpg"
-            },
-            {
-                "ServiceType": "Annotated Bibliography",
-                "WordCount": 2100,
-                "Citation": "APA",
-                "OrderPrice": "£48.69",
-                "CustomerID": "MPW-303536",
-                "OrderRating": "4.9/5",
-                "University": "University College London",
-                "Subject": "Psychology",
-                "Review": "The APA annotated bibliography was impeccable. The writers showed deep understanding and critical insight.",
-                "Tags": ["Annotated Bibliography Writing Help for UK Scholars", "Educational Reference Analysis UK"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to hear that! Our team strives for academic excellence in every task.",
-                "Date": "2023-11-06",
-                "image": "020.jpg"
-            },
-            {
-                "ServiceType": "Annotated Bibliography",
-                "WordCount": 1600,
-                "Citation": "Harvard",
-                "OrderPrice": "£38.98",
-                "CustomerID": "MPW-343637",
-                "OrderRating": "5/5",
-                "University": "London School of Economics",
-                "Subject": "Business Studies",
-                "Review": "Outstanding service! The annotations were thorough and the Harvard referencing was perfect.",
-                "Tags": ["Professional Academic Resource Listing UK", "Custom Annotated Bibliography Services for British Universities"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback! We're glad to have met your expectations for your business study project.",
-                "Date": "2023-11-04",
-                "image": "021.jpg"
-            },
-            {
-                "ServiceType": "Annotated Bibliography",
-                "WordCount": 1400,
-                "Citation": "IEEE",
-                "OrderPrice": "£34.86",
-                "CustomerID": "MPW-343508",
-                "OrderRating": "4.8/5",
-                "University": "Imperial College London",
-                "Subject": "Engineering",
-                "Review": "The precision and technical insight in the bibliography were impressive. Highly recommended for engineering topics.",
-                "Tags": ["British Scholarly Source Annotation", "UK Postgraduate Annotated Bibliography Support"],
-                "ResponsefromMyPerfectWriting": "We appreciate your recommendation! Our team is dedicated to delivering quality in technical fields.",
-                "Date": "2023-11-02",
-                "image": "022.jpg"
-            },
-            {
-                "ServiceType": "Annotated Bibliography",
-                "WordCount": 1700,
-                "Citation": "MLA",
-                "OrderPrice": "£41.93",
-                "CustomerID": "MPW-043539",
-                "OrderRating": "5/5",
-                "University": "University of Edinburgh",
-                "Subject": "Literature",
-                "Review": "The depth of analysis in the annotated bibliography was outstanding. It reflected a deep understanding of literary themes.",
-                "Tags": ["Annotated Bibliography Services for UK Undergraduates", "Educational Reference Analysis UK"],
-                "ResponsefromMyPerfectWriting": "Delighted to contribute to your study of literature. Thank you for your kind words!",
-                "Date": "2023-10-31",
-                "image": "023.jpg"
-            },
-            {
-                "ServiceType": "Annotated Bibliography",
-                "WordCount": 1900,
-                "Citation": "APA",
-                "OrderPrice": "£44.91",
-                "CustomerID": "MPW-343940",
-                "OrderRating": "4.7/5",
-                "University": "King's College London",
-                "Subject": "Social Sciences",
-                "Review": "The annotated bibliography provided a comprehensive overview of social science research. Very informative and well-structured.",
-                "Tags": ["Specialized Annotated Bibliography Services in England", "Professional Academic Resource Listing UK"],
-                "ResponsefromMyPerfectWriting": "We're pleased to hear that your social science research was well-supported. Our team is always ready to assist!",
-                "Date": "2023-10-29",
-                "image": "024.jpg"
-            }
-
-        ];
-
+         
     return (
         <>
             <Helmet>
@@ -309,6 +156,8 @@ const AnnotatedBibliography = () => {
                <meta name="description" content="Top Annotated Bibliography Service in UK by My Perfect Writing. Custom, ethical support for academic success in various disciplines." />
 
                <meta name="keywords" content="Annotated Bibliography Service UK, Custom Bibliography Writing UK, Academic Citation Services, UK University Bibliography Assistance"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/annotated-bibliography-service" />
 
                 {/* Facebook meta description */}
 
@@ -648,7 +497,7 @@ const AnnotatedBibliography = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.annotated_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -763,7 +612,7 @@ const AnnotatedBibliography = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.annotated_service.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

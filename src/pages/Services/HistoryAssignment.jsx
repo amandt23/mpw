@@ -9,6 +9,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -155,131 +156,7 @@ const HistoryAssignment = () => {
     }
   };
 
-  // review section data
-  const Reviews =
-    [
-      {
-        "ServiceType": "Customized History Essay Writing",
-        "WordCount": 1500,
-        "Citation": "Harvard",
-        "OrderPrice": "£34.95",
-        "CustomerID": "MPW-343663",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Oxford",
-        "Subject": "The Black Death",
-        "Review": "Incredibly insightful analysis, met all requirements. Thank you for the exceptional work!",
-        "Tags": ["Black Death Assignment", "Expert History Essay Writers"],
-        "ResponsefromMyPerfectWriting": "We're thrilled our detailed research met your expectations. Thank you for choosing us for your history assignment needs.",
-        "Date": "2023-07-15",
-        "image": "163.jpg"
-      },
-      {
-        "ServiceType": "Art History Research Paper",
-        "WordCount": 3000,
-        "Citation": "MLA",
-        "OrderPrice": "£69.90",
-        "CustomerID": "MPW-456009",
-        "OrderRating": "5/5",
-        "NameofUniversity": "King's College London",
-        "Subject": "Renaissance Art",
-        "Review": "The depth of analysis in my art history assignment was outstanding. Truly professional work.",
-        "Tags": ["Art History Assignment", "Professional History Research Assistance"],
-        "ResponsefromMyPerfectWriting": "Delighted to hear that our expertise in art history met your academic needs. Your satisfaction is our priority!",
-        "Date": "2023-08-10",
-        "image": "162.jpg"
-      },
-      {
-        "ServiceType": "AP World History Summer Assignment",
-        "WordCount": 2500,
-        "Citation": "APA",
-        "OrderPrice": "£58.20",
-        "CustomerID": "MPW-533890",
-        "OrderRating": "4.8/5",
-        "NameofUniversity": "University of Edinburgh",
-        "Subject": "World War II",
-        "Review": "Your assistance with my AP history assignment was invaluable. Excellent structure and research.",
-        "Tags": ["AP World History Assignments", "Expert History Essay Writers"],
-        "ResponsefromMyPerfectWriting": "We're glad to have been a part of your academic journey in history. Looking forward to assisting you again!",
-        "Date": "2023-09-05",
-        "image": "161.jpg"
-      },
-      {
-        "ServiceType": "History Dissertation",
-        "WordCount": 10000,
-        "Citation": "Chicago",
-        "OrderPrice": "£233.10",
-        "CustomerID": "MPW-674001",
-        "OrderRating": "5/5",
-        "NameofUniversity": "Harvard University",
-        "Subject": "Cold War Politics",
-        "Review": "Your expertise in history dissertations is evident. The final work was impeccable, with detailed analysis.",
-        "Tags": ["History Dissertation Support UK", "High-Quality UK History Dissertation Writing Services"],
-        "ResponsefromMyPerfectWriting": "Thrilled to contribute to your high-level academic work. Thank you for trusting our expertise in history.",
-        "Date": "2023-10-12",
-        "image": "160.jpg"
-      },
-      {
-        "ServiceType": "Online History Tutoring",
-        "WordCount": 2000,
-        "Citation": "Harvard",
-        "OrderPrice": "£46.45",
-        "CustomerID": "MPW-709012",
-        "OrderRating": "4.9/5",
-        "NameofUniversity": "University of Manchester",
-        "Subject": "Industrial Revolution",
-        "Review": "The tutoring service was beyond my expectations. Clear, concise, and very informative.",
-        "Tags": ["Online History Tutoring Services", "Academic Writers for History"],
-        "ResponsefromMyPerfectWriting": "We are pleased to hear about your positive learning experience. Our tutors are dedicated to providing comprehensive history knowledge.",
-        "Date": "2023-11-03",
-        "image": "159.jpg"
-      },
-      {
-        "ServiceType": "Custom History Coursework",
-        "WordCount": 3500,
-        "Citation": "MLA",
-        "OrderPrice": "£81.45",
-        "CustomerID": "MPW-890093",
-        "OrderRating": "5/5",
-        "NameofUniversity": "Yale University",
-        "Subject": "Ancient Civilizations",
-        "Review": "Absolutely impressed with the depth of knowledge and research. My coursework was a success thanks to your team.",
-        "Tags": ["Ancient History Assignment", "History Assignment Consultants"],
-        "ResponsefromMyPerfectWriting": "Your success is our success. We're glad to have contributed to your understanding of ancient civilizations.",
-        "Date": "2023-12-20",
-        "image": "158.jpg"
-      },
-      {
-        "ServiceType": "AP European History Assignment",
-        "WordCount": 1500,
-        "Citation": " APA",
-        "OrderPrice": "£34.95",
-        "CustomerID": "MPW-901004",
-        "OrderRating": "4.7/5",
-        "NameofUniversity": "London School of Economics",
-        "Subject": "The French Revolution",
-        "Review": "I am grateful for the detailed and critical analysis provided. Helped immensely in my European history course.",
-        "Tags": ["Ancient History Assignment", "AP European History Summer Assignment, Professional History Coursework Help for British Students"],
-        "ResponsefromMyPerfectWriting": "We are happy to have assisted you in understanding the complexities of the French Revolution. Best wishes for your course.",
-        "Date": "2023-12-20",
-        "image": "157.jpg"
-      },
-      {
-        "ServiceType": "Urgent History Assignment",
-        "WordCount": 4000,
-        "Citation": "Chicago",
-        "OrderPrice": "£97.96",
-        "CustomerID": "MPW-015005",
-        "OrderRating": "5/5",
-        "NameofUniversity": " University of Cambridge",
-        "Subject": " The Civil Rights Movement",
-        "Review": "The urgency and quality of the work were exceptional. Your team's expertise in civil rights history is commendable.",
-        "Tags": ["Ancient History Assignment", "Civil Rights Timeline Assignment, Urgent History Assignment Help Available in UK"],
-        "ResponsefromMyPerfectWriting": "We appreciate your feedback. Our team is always ready to provide timely and quality assistance in history.",
-        "Date": "2023-12-20",
-        "image": "156.jpg"
-      }
-    ];
-
+ 
   return (
     <>
       <Helmet>
@@ -288,6 +165,8 @@ const HistoryAssignment = () => {
                <meta name="description" content="Get specialized History Assignment Help in UK from My Perfect Writing. Tailored support for all historical studies and academic levels." />
 
                <meta name="keywords" content="History Assignment Help UK, UK Historical Assignment Assistance, Custom History Homework Support, Professional History Essay Service UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/history-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -742,7 +621,7 @@ const HistoryAssignment = () => {
         <div className="reviewSect">
           <div className="reviewSectDivScroll">
 
-            {Reviews.map((item, index) => (
+            {reviews.history_assignment.map((item, index) => (
               <div className="reviewCard" key={index}>
                 <div className="sec1">
                   <div className="sec1Top">

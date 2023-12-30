@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -175,131 +176,7 @@ const  NutritionAssignmentHelp = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Nutrition Discussion Post",
-                "WordCount": 900,
-                "Citation": "Harvard",
-                "OrderPrice": "£20.97",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Food Nutrition and Hygiene",
-                "Review": "Exceptional assistance with my food nutrition and hygiene assignment, showcasing profound knowledge and research.",
-                "Tags": ["Healthy Eating Assignment, Expert Help, University Level"],
-                "ResponsefromMyPerfectWriting": "Thrilled to have supported your academic journey with our expert nutrition knowledge!",
-                "Date": "2023-12-01",
-                "image": "196.png"
-            },
-            {
-                "ServiceType": "Diet Analysis Discussion",
-                "WordCount": 600,
-                "Citation": "APA",
-                "OrderPrice": "£41.94",
-                "CustomerID": "MPW-457892",
-                "OrderRating": "4.8 Stars",
-                "University": "King's College London",
-                "Subject": " Diet Analysis Assignment",
-                "Review": "The analysis was thorough and insightful. Truly professional service for diet assignments.",
-                "Tags": ["Diet Assignment, Academic Assistance, Detailed Analysis"],
-                "ResponsefromMyPerfectWriting": "We're delighted to have provided you with comprehensive diet analysis support.",
-                "Date": "2023-11-15",
-                "image": "197.png"
-            },
-            {
-                "ServiceType": "Food Pyramid Essay",
-                "WordCount": 450,
-                "Citation": "Chicago",
-                "OrderPrice": " £31.46",
-                "CustomerID": "MPW-501234",
-                "OrderRating": "5 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "Food Pyramid Assignment",
-                "Review": "Impressed by the level of detail and clarity in the food pyramid essay. Highly recommend!",
-                "Tags": ["Healthy Food Assignment, Expert Writing, Clear Structure"],
-                "ResponsefromMyPerfectWriting": "Thank you for acknowledging our efforts in delivering a clear and detailed food pyramid essay.",
-                "Date": "2023-10-20",
-                "image": "198.png"
-            },
-            {
-                "ServiceType": "Fad Diet Analysis",
-                "WordCount": 750,
-                "Citation": "MLA",
-                "OrderPrice": " £52.43",
-                "CustomerID": "MPW-558796",
-                "OrderRating": "4.7 Stars",
-                "University": "University of Manchester",
-                "Subject": "Fad Diet Assignment",
-                "Review": "Your insights on the fad diet topic were invaluable. Excellent quality and research depth.",
-                "Tags": ["Diet Assignment, Comprehensive Support, Professional Writers"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to hear that our research on fad diets met your academic needs.",
-                "Date": "2023-09-30",
-                "image": "199.png"
-            },
-            {
-                "ServiceType": "Food Diary Discussion",
-                "WordCount": 550,
-                "Citation": "Harvard",
-                "OrderPrice": "£38.45",
-                "CustomerID": " MPW-612345",
-                "OrderRating": "4.9 Stars",
-                "University": "Imperial College London",
-                "Subject": "Food Diary Assignment",
-                "Review": "The detailed feedback on my food diary assignment was exceptional. Great service!",
-                "Tags": ["Personalized Assistance, Detailed Feedback, Expert Guidance"],
-                "ResponsefromMyPerfectWriting": "Glad to provide detailed and personalized feedback for your food diary assignment.",
-                "Date": "2023-08-12",
-                "image": "200.png"
-            },
-            {
-                "ServiceType": " Healthy Eating Plan",
-                "WordCount": 800,
-                "Citation": "APA",
-                "OrderPrice": " £55.92",
-                "CustomerID": "MPW-657891",
-                "OrderRating": "5 Stars",
-                "University": "University of Birmingham",
-                "Subject": "Healthy Eating Assignment",
-                "Review": "Your guidance on creating a healthy eating plan was top-notch. Thanks for the excellent support!",
-                "Tags": [" Customized Plan, Health & Nutrition, Academic Excellence"],
-                "ResponsefromMyPerfectWriting": "Happy to assist you in crafting a comprehensive healthy eating plan.Thank you!",
-                "Date": "2023-07-05",
-                "image": "201.png"
-            },
-            {
-                "ServiceType": "Food Groups Analysis",
-                "WordCount": 650,
-                "Citation": "Chicago",
-                "OrderPrice": "£45.44",
-                "CustomerID": "MPW-703456",
-                "OrderRating": "4.8 Stars",
-                "University": "University of Leeds",
-                "Subject": "Food Groups Assignment",
-                "Review": "The analysis of different food groups was incredibly informative. Appreciate the depth of knowledge.",
-                "Tags": ["In-depth Analysis, Food Groups, Academic Support"],
-                "ResponsefromMyPerfectWriting": "We're pleased to know our in-depth analysis met your expectations.",
-                "Date": "2023-06-22",
-                "image": "202.png"
-            },
-            {
-                "ServiceType": "Food Label Evaluation",
-                "WordCount": 700,
-                "Citation": "MLA",
-                "OrderPrice": "£48.93",
-                "CustomerID": "MPW-758902",
-                "OrderRating": "5 Stars",
-                "University": "University of Glasgow",
-                "Subject": "Food Label Assignment",
-                "Review": "Outstanding work on the food label evaluation. Your expertise is clearly evident.",
-                "Tags": ["Expert Evaluation, Food Labeling, Professional Service"],
-                "ResponsefromMyPerfectWriting": "Your satisfaction with our food label evaluation means a lot to us.",
-                "Date": "2023-05-18",
-                "image": "203.png"
-            }
 
-        ];
 
     return (
         <>
@@ -310,6 +187,8 @@ const  NutritionAssignmentHelp = () => {
                <meta name="description" content="Achieve academic excellence with our Nutrition Assignment Help in UK. My Perfect Writing offers specialized support for all nutrition topics." />
 
                <meta name="keywords" content="Nutrition Assignment Help UK, UK Dietary Academic Assistance, Custom Nutrition Homework Support, Professional Nutrition Education Help UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/nutrition-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -765,7 +644,7 @@ const  NutritionAssignmentHelp = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.nutrition_assignment.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

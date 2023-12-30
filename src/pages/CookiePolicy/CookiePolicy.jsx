@@ -12,6 +12,8 @@ const CookiePolicy = () => {
 
                 <meta name="keywords" content="My Perfect Writing Cookies Policy, Website Cookie Usage UK,Online Privacy Settings My Perfect Writing, User Experience Enhancement Cookies"></meta>
 
+                <link rel="canonical" href="https://www.myperfectwriting.co.uk/cookies-policy" />
+
                 <script type="application/ld+json">
                     {`
    {

@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -104,37 +106,6 @@ const ThesisWriting = () => {
         },
     ]
 
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What distinguishes your thesis writing service from others?",
-            "answer": "Our commitment to quality, affordable pricing, and experienced UK-based professionals sets us apart in the field of academic consultancy."
-        },
-        {
-            "question": "Can I trust your service for plagiarism-free and original content?",
-            "answer": "Absolutely. Our expert writers ensure every thesis is original, tailoring each project to your specific needs and conducting thorough research."
-        },
-        {
-            "question": "Do you offer support for Master's and PhD dissertations?",
-            "answer": "Yes, our services cater to both Master's and PhD students, offering comprehensive assistance from proposal to final submission."
-        },
-        {
-            "question": "How does your proofreading and editing service enhance my thesis?",
-            "answer": "Our editing team focuses on structure, clarity, and citations to elevate your thesis, ensuring it adheres to high academic standards."
-        },
-        {
-            "question": "Can I meet tight deadlines with your thesis writing service?",
-            "answer": "Yes, our dedicated team works efficiently to meet even the most stringent deadlines while maintaining the highest quality standards."
-        },
-        {
-            "question": "Is my personal information secure with your service?",
-            "answer": "Your confidentiality and data security are paramount. We employ strict measures to ensure all your information remains secure and private."
-        },
-        {
-            "question": "Do you provide detailed feedback and support post-delivery?",
-            "answer": "Post-delivery, we offer detailed feedback and support to address any further modifications or clarifications you may require."
-        }
-    ];
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -177,133 +148,7 @@ const ThesisWriting = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Thesis Writing",
-                "WordCount": 4500,
-                "Citation": "Harvard",
-                "OrderPrice": "£209.55",
-                "CustomerID": "MPW-343033",
-                "OrderRating": "5/5",
-                "University": "University of Oxford",
-                "Subject": "English Literature",
-                "Review": "Exceptional service with detailed research and analysis. Highly recommend for English literature theses.",
-                "Tags": ["Expert Dissertation Writers in the UK", "Reliable Thesis Writing Assistance"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to have supported your literary journey! Thank you for choosing us.",
-                "Date": "15th October 2023",
-                "image": "050.jpg"
-            },
-            {
-                "ServiceType": "Dissertation Editing",
-                "WordCount": 6000,
-                "Citation": "APA",
-                "OrderPrice": "£251.94",
-                "CustomerID": "MPW-452290",
-                "OrderRating": "5/5",
-                "University": "King's College London",
-                "Subject": "Psychology",
-                "Review": "Your APA dissertation editing services transformed my project. Impeccable editing with great attention to detail.",
-                "Tags": ["Professional Thesis Writers", "APA Dissertation Editing Services"],
-                "ResponsefromMyPerfectWriting": "Delighted to help with your Psychology dissertation. Your success is our priority!",
-                "Date": "28th November 2023",
-                "image": "051.jpg"
-            },
-            {
-                "ServiceType": "Thesis Consultation",
-                "WordCount": 8000,
-                "Citation": "Chicago",
-                "OrderPrice": "£335.92",
-                "CustomerID": "MPW-505441",
-                "OrderRating": "5/5",
-                "University": "University of Manchester",
-                "Subject": "Business Management",
-                "Review": "The thesis consultation was incredibly insightful. Your team's expertise in business topics is unmatched.",
-                "Tags": ["Master Thesis Writing Service", "Business Thesis Help"],
-                "ResponsefromMyPerfectWriting": "We're glad our consultation made a significant impact. Thanks for trusting us with your business thesis!",
-                "Date": "18th November 2023",
-                "image": "052.jpg"
-            },
-            {
-                "ServiceType": "Thesis Writing",
-                "WordCount": 10000,
-                "Citation": "MLA",
-                "OrderPrice": "£419.90",
-                "CustomerID": "MPW-665401",
-                "OrderRating": "5/5",
-                "University": "University of Cambridge",
-                "Subject": "History",
-                "Review": "Outstanding service! The historical analysis was thorough and well-argued. Exceeded my expectations.",
-                "Tags": ["Academic Research Service UK", "History Thesis Help"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback! We're thrilled to have contributed to your history thesis.",
-                "Date": "2nd December 2023",
-                "image": "053.jpg"
-            },
-            {
-                "ServiceType": "Dissertation Support",
-                "WordCount": 7000,
-                "Citation": "Harvard",
-                "OrderPrice": "£293.93",
-                "CustomerID": "MPW-700604",
-                "OrderRating": "5/5",
-                "University": "University of Edinburgh",
-                "Subject": "Sociology",
-                "Review": "The support I received for my sociology dissertation was superb. Very detailed and well-researched.",
-                "Tags": ["Dissertation Help Online", "Sociology Research Support"],
-                "ResponsefromMyPerfectWriting": "It was our pleasure to assist you with your sociology dissertation. Best wishes!",
-                "Date": "7th December 2023",
-                "image": "054.jpg"
-            },
-            {
-                "ServiceType": "Proofreading and Editing",
-                "WordCount": 5500,
-                "Citation": "APA",
-                "OrderPrice": "£230.94",
-                "CustomerID": "MPW-889301",
-                "OrderRating": "5/5",
-                "University": "London School of Economics",
-                "Subject": "Economics",
-                "Review": "Exceptional editing service! The clarity and precision in my economics paper were greatly enhanced.",
-                "Tags": ["Best PhD Dissertation Writing Services", "Economics Editing"],
-                "ResponsefromMyPerfectWriting": "We're delighted to hear about your satisfaction with our editing services. Thank you!",
-                "Date": "23rd November 2023",
-                "image": "055.jpg"
-            },
-            {
-                "ServiceType": "Custom Thesis Writing",
-                "WordCount": 8500,
-                "Citation": "Chicago",
-                "OrderPrice": "£356.91",
-                "CustomerID": "MPW-990633",
-                "OrderRating": "4.8/5",
-                "University": "University of Bristol",
-                "Subject": "Engineering",
-                "Review": "The engineering thesis was impeccably written with great attention to technical details. Highly recommended!",
-                "Tags": ["Custom PhD Thesis Writing Services UK", "Engineering Thesis Expertise"],
-                "ResponsefromMyPerfectWriting": "Thank you for your trust in our service. We're glad we could meet your engineering thesis needs.",
-                "Date": "30th November 2023",
-                "image": "056.jpg"
-            },
-            {
-                "ServiceType": "Thesis Consultation",
-                "WordCount": 9000,
-                "Citation": "MLA",
-                "OrderPrice": "£377.91",
-                "CustomerID": "MPW-1932067",
-                "OrderRating": "5/5",
-                "University": "University of Warwick",
-                "Subject": "Philosophy",
-                "Review": "The guidance provided for my philosophy thesis was invaluable. Your team's expertise shone through.",
-                "Tags": ["Professional Master's Thesis Writing Service", "Philosophy Thesis Guidance"],
-                "ResponsefromMyPerfectWriting": "We appreciate your kind words and are happy to have been a part of your academic journey.",
-                "Date": "10th December 2023",
-                "image": "057.jpg"
-            }
-
-
-        ];
-
+     
     return (
         <>
             <Helmet>
@@ -311,6 +156,8 @@ const ThesisWriting = () => {
                <meta name="description" content="Achieve excellence with our Thesis Writing Service in UK. My Perfect Writing offers bespoke, high-quality thesis support for students." />
 
                <meta name="keywords" content="Thesis Writing Service UK, UK University Thesis Assistance, Custom Thesis Creation UK, Academic Thesis Support UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/thesis-writing-service" />
 
                 {/* Facebook meta description */}
 
@@ -650,7 +497,7 @@ const ThesisWriting = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.thesis_writing_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -765,7 +612,7 @@ const ThesisWriting = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.thesis_writing.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

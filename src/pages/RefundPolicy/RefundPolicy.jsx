@@ -12,6 +12,8 @@ const RefundPolicy = () => {
 
                 <meta name="keywords" content="My Perfect Writing Refund Policy, UK Essay Service Refunds, Customer Satisfaction Guarantee UK, Academic Service Cancellation Policy"></meta>
 
+                <link rel="canonical" href="https://www.myperfectwriting.co.uk/refund-policy" />
+
                 <script type="application/ld+json">
                     {`
 {

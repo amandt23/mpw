@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { FaRegCheckCircle } from "react-icons/fa";
-import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 // review
 import { MdPrivacyTip } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
@@ -9,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -155,130 +155,6 @@ const GeographyAssignment = () => {
     }
   };
 
-  // review section data
-  const Reviews =
-    [
-      {
-        "ServiceType": "Essay Writing",
-        "WordCount": 1500,
-        "Citation": "Harvard",
-        "OrderPrice": "£34.95",
-        "CustomerID": "MPW-340033",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Oxford",
-        "Subject": "Physical Geography",
-        "Review": "Exceptional detail and analysis, truly reflective of the professional geography study help I needed. The essay was structured perfectly!",
-        "Tags": ["Expert Geography Academic Writers UK", "Custom Geography Assignment Solutions UK"],
-        "ResponseFromMyPerfectWriting": "We’re thrilled to have met your expectations with our comprehensive geography services. Thank you for choosing us!",
-        "Date": "2023-11-01",
-        "image": "147.jpg"
-      },
-      {
-        "ServiceType": "Project Assistance",
-        "WordCount": 2000,
-        "Citation": "APA",
-        "OrderPrice": "£46.60",
-        "CustomerID": "MPW-454004",
-        "OrderRating": "4.8/5",
-        "NameofUniversity": "University College London",
-        "Subject": "Human Geography",
-        "Review": "The project captured all aspects of human geography brilliantly. Very impressed with the depth of research and analysis.",
-        "Tags": ["Geography Dissertation Guidance UK", "Professional Geography Study Help UK"],
-        "ResponseFromMyPerfectWriting": "We appreciate your feedback and are glad to have assisted in your human geography project. Your success is our priority!",
-        "Date": "2023-11-05",
-        "image": "146.jpg"
-      },
-      {
-        "ServiceType": "Case Study Analysis",
-        "WordCount": 1000,
-        "Citation": "MLA",
-        "OrderPrice": "£34.95",
-        "CustomerID": "MPW-565190",
-        "OrderRating": "5/5",
-        "NameofUniversity": "King's College London",
-        "Subject": "Environmental Geography",
-        "Review": "Impressed with the innovative approach and depth in the case study. It was well-researched and thoroughly cited.",
-        "Tags": ["Geography Thesis Writing UK", "Custom Geography Assignment Solutions UK"],
-        "ResponseFromMyPerfectWriting": "Thank you for your kind words. We’re glad our environmental geography expertise met your needs.",
-        "Date": "2023-11-10",
-        "image": "145.jpg"
-      },
-      {
-        "ServiceType": "Presentation Creation",
-        "WordCount": 1200,
-        "Citation": "Chicago",
-        "OrderPrice": "£41.88",
-        "CustomerID": "MPW-609103",
-        "OrderRating": "4.9/5",
-        "NameofUniversity": "University of Edinburgh",
-        "Subject": "Geopolitics",
-        "Review": "The presentation was engaging and informative. Excellent use of geographical data and analysis.",
-        "Tags": ["Professional Geography Study Help UK", "British Geography Education Services"],
-        "ResponseFromMyPerfectWriting": "Great to hear that your presentation was a success. We strive to make every project engaging!",
-        "Date": "2023-11-15",
-        "image": "144.jpg"
-      },
-      {
-        "ServiceType": "Dissertation Writing",
-        "WordCount": 2500,
-        "Citation": "Harvard",
-        "OrderPrice": "£58.73",
-        "CustomerID": "MPW-780056",
-        "OrderRating": "5/5",
-        "NameofUniversity": "London School of Economics",
-        "Subject": "Urban Planning",
-        "Review": "The depth and quality of the dissertation exceeded my expectations. Truly professional and tailored to my needs.",
-        "Tags": ["Geography Dissertation Guidance UK", "Expert Geography Academic Writers UK"],
-        "ResponseFromMyPerfectWriting": "Delighted to have exceeded your expectations. We take pride in our tailored dissertation services.",
-        "Date": "2023-11-20",
-        "image": "143.jpg"
-      },
-      {
-        "ServiceType": "Report Writing",
-        "WordCount": 1800,
-        "Citation": "APA",
-        "OrderPrice": "£50.22",
-        "CustomerID": "MPW-890093",
-        "OrderRating": "4.7/5",
-        "NameofUniversity": "University of Cambridge",
-        "Subject": "Climate Change",
-        "Review": "The report on climate change was insightful and comprehensive. Appreciate the timely delivery and detailed research.",
-        "Tags": ["Custom Geography Assignment Solutions UK", "Geography Coursework Aid UK"],
-        "ResponseFromMyPerfectWriting": "We’re pleased to have provided the detailed insight needed for your climate change report. Thanks for trusting us!",
-        "Date": "2023-11-25",
-        "image": "142.jpg"
-      },
-      {
-        "ServiceType": "Article Review",
-        "WordCount": 800,
-        "Citation": "MLA",
-        "OrderPrice": "£27.92",
-        "CustomerID": "MPW-901004",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Manchester",
-        "Subject": "Geospatial Technologies",
-        "Review": "The article review was insightful, with a critical perspective on geospatial technologies. Very satisfied with the analysis.",
-        "Tags": ["Online Geography Tutoring UK", "Geography Essay Writing Services UK"],
-        "ResponseFromMyPerfectWriting": "Your satisfaction with our critical analysis is our aim. We’re glad you found the review insightful!",
-        "Date": "2023-11-28",
-        "image": "141.jpg"
-      },
-      {
-        "ServiceType": "Coursework Assistance",
-        "WordCount": 2200,
-        "Citation": "Chicago",
-        "OrderPrice": "£51.38",
-        "CustomerID": "MPW-102045",
-        "OrderRating": "4.8/5",
-        "NameofUniversity": "Imperial College London",
-        "Subject": "Environmental Impact Analysis",
-        "Review": "The coursework on environmental impact analysis was strategically structured and professionally written. Highly recommend!",
-        "Tags": ["University Geography Project Help UK", "Professional Geography Study Help UK"],
-        "ResponseFromMyPerfectWriting": "Thank you for your recommendation. We’re proud that our strategic approach met your coursework needs.",
-        "Date": "2023-12-01",
-        "image": "140.jpg"
-      }
-    ];
 
   return (
     <>
@@ -288,6 +164,8 @@ const GeographyAssignment = () => {
                <meta name="description" content="Specialized Geography Assignment Help in UK from My Perfect Writing. Custom support for diverse geographic studies and academic levels." />
 
                <meta name="keywords" content="Geography Assignment Help UK, UK Geography Academic Support, Custom Geography Homework Assistance, Expert Geography Writing Service UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/geography-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -741,7 +619,7 @@ const GeographyAssignment = () => {
         <div className="reviewSect">
           <div className="reviewSectDivScroll">
 
-            {Reviews.map((item, index) => (
+            {reviews.geography_review.map((item, index) => (
               <div className="reviewCard" key={index}>
                 <div className="sec1">
                   <div className="sec1Top">

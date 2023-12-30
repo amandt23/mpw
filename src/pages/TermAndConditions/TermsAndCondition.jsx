@@ -12,6 +12,9 @@ const TermsAndCondition = () => {
 
                 <meta name="keywords" content="My Perfect Writing Terms and Conditions, Academic Service Legal Terms UK, UK Terms of Service Academic Help, My Perfect Writing User Agreement"></meta>
 
+                <link rel="canonical" href="https://www.myperfectwriting.co.uk/terms-and-conditions" />
+
+
                 <script type="application/ld+json">
                     {`
  {

@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -177,132 +178,6 @@ const CVWriting = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Discussion Post Writing",
-                "WordCount": 900,
-                "Citation": "APA",
-                "OrderPrice": "£20.97",
-                "CustomerID": "MPW-343503",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Sociology",
-                "Review": "Exceptional quality and insightful analysis. Truly reflected my academic needs.",
-                "Tags": ["Academic", "Professional", "Quality"],
-                "ResponsefromMyPerfectWriting": "Delighted to support your academic journey. Thank you for choosing us!",
-                "Date": "01-Nov-2023",
-                "image": "065.jpg"
-            },
-            {
-                "ServiceType": "Custom Discussion Post",
-                "WordCount": 600,
-                "Citation": "Harvard",
-                "OrderPrice": "£13.98",
-                "CustomerID": "MPW-456009",
-                "OrderRating": "4.8 Stars",
-                "University": "University of Manchester",
-                "Subject": "Business Management",
-                "Review": "Impressive content with solid arguments. Exceeded my expectations.",
-                "Tags": ["Expert", "Reliable", "Timely"],
-                "ResponsefromMyPerfectWriting": "Thrilled to hear our service met your needs. Your success is our priority!",
-                "Date": "15-Oct-2023",
-                "image": "066.jpg"
-            },
-            {
-                "ServiceType": "Academic Discussion Assistance",
-                "WordCount": 1200,
-                "Citation": "MLA",
-                "OrderPrice": "£27.96",
-                "CustomerID": "MPW-567090",
-                "OrderRating": "5 Stars",
-                "University": "Imperial College London",
-                "Subject": "Engineering",
-                "Review": "Your team's understanding of technical topics is outstanding.",
-                "Tags": ["Professional", "Detailed", "Accurate"],
-                "ResponsefromMyPerfectWriting": "We're glad to provide the expertise you needed. Thanks for trusting us!",
-                "Date": "05-Sep-2023",
-                "image": "067.jpg"
-            },
-            {
-                "ServiceType": "Specialized Discussion Writing",
-                "WordCount": 450,
-                "Citation": "Chicago",
-                "OrderPrice": "£20.97",
-                "CustomerID": "MPW-678501",
-                "OrderRating": "4.7 Stars",
-                "University": "Harvard University",
-                "Subject": "Psychology",
-                "Review": "Deeply insightful and well-structured posts. Great job!",
-                "Tags": ["Insightful", "Structured", "Quality"],
-                "ResponsefromMyPerfectWriting": "Happy to help with your psychology course. Your feedback is appreciated!",
-                "Date": "22-Aug-2023",
-                "image": "068.jpg"
-            },
-            {
-                "ServiceType": "Online Discussion Support",
-                "WordCount": 750,
-                "Citation": "APA",
-                "OrderPrice": "£20.97",
-                "CustomerID": "MPW-729012",
-                "OrderRating": "5 Stars",
-                "University": "University of Cambridge",
-                "Subject": "History",
-                "Review": "Your historical analysis was thorough and compelling.",
-                "Tags": ["Comprehensive", "Accurate", "Engaging"],
-                "ResponsefromMyPerfectWriting": "We're pleased to offer in-depth historical perspectives. Thanks for your trust!",
-                "Date": "18-Jul-2023",
-                "image": "069.jpg"
-            },
-            {
-                "ServiceType": "Personalized Discussion Content",
-                "WordCount": 300,
-                "Citation": "MLA",
-                "OrderPrice": "£6.99",
-                "CustomerID": "MPW-890103",
-                "OrderRating": "4.9 Stars",
-                "University": "LSE (London School of Economics)",
-                "Subject": "Economics",
-                "Review": "Spot-on analysis and clarity in arguments. Very impressed.",
-                "Tags": ["Clarity", "Analytical", "Professional"],
-                "ResponsefromMyPerfectWriting": "Delighted to provide clarity and depth. Your success is our achievement!",
-                "Date": "03-Jun-2023",
-                "image": "070.jpg"
-            },
-            {
-                "ServiceType": "Graduate Level Discussion",
-                "WordCount": 825,
-                "Citation": "Harvard",
-                "OrderPrice": "£17.48",
-                "CustomerID": "MPW-901254",
-                "OrderRating": "5 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "Political Science",
-                "Review": "Your political discourse was both engaging and informative.",
-                "Tags": ["Informative", "Engaging", "Comprehensive"],
-                "ResponsefromMyPerfectWriting": "We strive to deliver insightful political analysis. Thank you for the feedback!",
-                "Date": "25-May-2023",
-                "image": "071.jpg"
-            },
-            {
-                "ServiceType": "Custom Discussion Posting",
-                "WordCount": 550,
-                "Citation": "APA",
-                "OrderPrice": "£13.98",
-                "CustomerID": "MPW-010045",
-                "OrderRating": "4.8 Stars",
-                "University": "King's College London",
-                "Subject": "Medicine",
-                "Review": "The medical insights provided were accurate and up-to-date.",
-                "Tags": ["Accurate", "Up-to-date", "Expert"],
-                "ResponsefromMyPerfectWriting": "Providing current medical insights is key. Thanks for your positive words!",
-                "Date": "12-Apr-2023",
-                "image": "072.jpg"
-            }
-
-
-        ];
 
     return (
         <>
@@ -312,6 +187,8 @@ const CVWriting = () => {
                <meta name="description" content="Elevate your career with My Perfect Writing's CV Writing Service in UK. Expertly crafted resumes tailored for academic and professional success." />
 
                <meta name="keywords" content="CV Writing Service UK, Professional Resume Creation UK,My Perfect Writing CV Assistance, Academic CV Writing Services"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/cv-writing-service" />
 
                 {/* Facebook meta description */}
 
@@ -765,7 +642,7 @@ const CVWriting = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.cv_writing.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -104,37 +106,6 @@ const Academicessays = () => {
         },
     ]
 
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What makes My Perfect Writing the best Academic Essays help in the UK?",
-            "answer": "Our service combines affordability with unparalleled quality, offering tailored, plagiarism-free essays by UK-based professional essay writers."
-        },
-        {
-            "question": "How do your university coursework writing services stand out?",
-            "answer": "We specialize in providing comprehensive coursework writing solutions, ensuring detailed and critical analysis with every submission."
-        },
-        {
-            "question": "Can I get professional academic writers for my research paper?",
-            "answer": "Absolutely! Our team of professional academic writers are experts in research paper writing, offering original content and insightful analysis."
-        },
-        {
-            "question": "Do you offer dissertation support for UK postgraduates?",
-            "answer": "Yes, our dissertation support UK service is designed for Master’s and PhD students, providing customized, detailed, and innovative assistance."
-        },
-        {
-            "question": "What are your guarantees for plagiarism-free essays?",
-            "answer": "We ensure every essay is original and plagiarism-free, with a commitment to delivering custom written essays for university students."
-        },
-        {
-            "question": "Is there an option for affordable essay writing services for UK students?",
-            "answer": "Our services are not only high-quality but also affordable, making us the top choice for students seeking reliable and cost-effective academic assistance."
-        },
-        {
-            "question": "Do you cater to specific subjects like law in your essay writing service?",
-            "answer": "Yes, our team includes specialized law essay writing service UK experts, catering to a wide range of subjects and academic levels."
-        }
-    ];
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -177,147 +148,6 @@ const Academicessays = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Custom Dissertation Writing Service",
-                "WordCount": 6000,
-                "Citation": "Harvard",
-                "OrderPrice": "£139.80",
-                "CustomerID": "MPW-343523",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "History",
-                "Review": "Exceptional service! The expertise in history essays is evident. My dissertation was well-researched and perfectly structured. Highly recommended!",
-                "Tags": ["Tailored history essays for UK students"],
-                "ResponsefromMyPerfectWriting": "We are thrilled your history dissertation met your expectations! Thank you for choosing us.",
-                "Date": "2023-11-12",
-                "image": "025.jpg"
-            },
-            {
-                "ServiceType": "PhD Dissertation Writing Assistance UK",
-                "WordCount": 15000,
-                "Citation": "APA",
-                "OrderPrice": "£349.50",
-                "CustomerID": "MPW-547621",
-                "OrderRating": "5 Stars",
-                "University": "Imperial College London",
-                "Subject": "Engineering",
-                "Review": "The engineering assignment was impeccable. I am impressed by the detailed analysis and precision. Great job!",
-                "Tags": ["Engineering assignment help in the United Kingdom"],
-                "ResponsefromMyPerfectWriting": "We're glad you found our engineering assignment help valuable. Thank you for your feedback!",
-                "Date": "2023-10-05",
-                "image": "026.jpg"
-            },
-            {
-                "ServiceType": "Nursing Essay Help for UK Students",
-                "WordCount": 3000,
-                "Citation": "MLA",
-                "OrderPrice": "£104.85",
-                "CustomerID": "MPW-256785",
-                "OrderRating": "4.5 Stars",
-                "University": "University of Manchester",
-                "Subject": "Nursing",
-                "Review": "Your nursing essay help was a lifesaver! The essay was well-written, and the concepts were clearly explained.",
-                "Tags": ["Custom dissertation writing service"],
-                "ResponsefromMyPerfectWriting": "We're happy to have been of help with your nursing essay. Your success is our priority!",
-                "Date": "2023-09-22",
-                "image": "027.jpg"
-            },
-            {
-                "ServiceType": "Business Studies Essay Writing Service in UK",
-                "WordCount": 4500,
-                "Citation": "Chicago",
-                "OrderPrice": "£157.05",
-                "CustomerID": "MPW-658032",
-                "OrderRating": "5 Stars",
-                "University": "London School of Economics",
-                "Subject": "Business Studies",
-                "Review": "Incredible service! The business studies essay was professionally written with great insight into the subject matter.",
-                "Tags": ["Business studies essay writing service in UK"],
-                "ResponsefromMyPerfectWriting": "Thank you for the praise! We strive to provide insightful business studies essays.",
-                "Date": "2023-08-15",
-                "image": "028.jpg"
-            },
-            {
-                "ServiceType": "Specialized Law Essay Writing Service UK",
-                "WordCount": 4000,
-                "Citation": "Oxford",
-                "OrderPrice": "£139.80",
-                "CustomerID": "MPW-769344",
-                "OrderRating": "4.8 Stars",
-                "University": "University of Cambridge",
-                "Subject": "Law",
-                "Review": "Impressed with the specialized law essay. The argument was persuasive, and the structure was impeccable.",
-                "Tags": ["Specialized law essay writing service UK"],
-                "ResponsefromMyPerfectWriting": "We're delighted that your law essay met your expectations. Thank you for trusting our expertise.",
-                "Date": "2023-07-30",
-                "image": "029.jpg"
-            },
-            {
-                "ServiceType": "Expert Psychology Essay Writing UK",
-                "WordCount": 3500,
-                "Citation": "APA",
-                "OrderPrice": "£122.15",
-                "CustomerID": "MPW-889561",
-                "OrderRating": "5 Stars",
-                "University": "King's College London",
-                "Subject": "Psychology",
-                "Review": "The psychology essay was insightful, with critical analysis that exceeded my expectations.",
-                "Tags": ["Expert psychology essay writing UK"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback. We're glad our psychology expertise shone through in your essay.",
-                "Date": "2023-06-19",
-                "image": "030.jpg"
-            },
-            {
-                "ServiceType": "Literature Essay Writing Support in UK",
-                "WordCount": 2500,
-                "Citation": "MLA",
-                "OrderPrice": "£87.25",
-                "CustomerID": "MPW-543270",
-                "OrderRating": "4.7 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "English Literature",
-                "Review": "The literature essay was a masterpiece, showcasing deep understanding and creative analysis.",
-                "Tags": ["Literature essay writing support in UK"],
-                "ResponsefromMyPerfectWriting": "We appreciate your kind words. Our team always aims for depth and creativity in literature essays.",
-                "Date": "2023-05-08",
-                "image": "031.jpg"
-            },
-            {
-                "ServiceType": "Literature Essay Writing Support in UK",
-                "WordCount": 2500,
-                "Citation": "MLA",
-                "OrderPrice": "£87.25",
-                "CustomerID": "MPW-543010",
-                "OrderRating": "4.7 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "English Literature",
-                "Review": "The literature essay was a masterpiece, showcasing deep understanding and creative analysis.",
-                "Tags": ["Literature essay writing support in UK"],
-                "ResponsefromMyPerfectWriting": "We appreciate your kind words. Our team always aims for depth and creativity in literature essays.",
-                "Date": "2023-05-08",
-                "image": "032.jpg"
-            },
-            {
-                "ServiceType": "Online Coursework Writing Service",
-                "WordCount": 5000,
-                "Citation": "Harvard",
-                "OrderPrice": "£174.75",
-                "CustomerID": "MPW-666749",
-                "OrderRating": "5 Stars",
-                "University": "University College London",
-                "Subject": "Economics",
-                "Review": "Your coursework writing solutions for my economics assignment were outstanding. The analysis was thorough and well-presented.",
-                "Tags": ["Online coursework writing service"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing us for your economics coursework. We're thrilled to have met your standards.",
-                "Date": "2023-04-21",
-                "image": "033.jpg"
-            }
-
-        ];
-
     return (
         <>
             <Helmet>
@@ -325,6 +155,8 @@ const Academicessays = () => {
                <meta name="description" content="Achieve academic excellence with our Academic Essays Service in UK. My Perfect Writing provides tailored, high-standard essay support." />
 
                <meta name="keywords" content="Academic Essays Service UK, UK University Essay Writing, Custom Academic Essays, Expert Essay Help UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/academic-essays-service" />
 
                 {/* Facebook meta description */}
 
@@ -661,7 +493,7 @@ const Academicessays = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.academic_essays_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -776,7 +608,7 @@ const Academicessays = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.acedmaic_essays.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

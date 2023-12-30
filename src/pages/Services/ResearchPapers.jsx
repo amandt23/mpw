@@ -7,7 +7,9 @@ import { FaEye } from "react-icons/fa";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
+import reviews from '../../review.json';
 import lecturersData from '../../data.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -104,37 +106,6 @@ const LiteratureReview = () => {
         },
     ]
 
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What makes your research paper help service stand out in the UK?",
-            "answer": "Our service offers unparalleled expertise and tailor-made solutions, ensuring each research paper is original, plagiarism-free, and meets the highest academic standards."
-        },
-        {
-            "question": "Can I pay someone to write my research paper within a tight deadline?",
-            "answer": "Yes, our professional paper writers are equipped to handle urgent deadlines, delivering quality work without compromising on the rigorous academic requirements."
-        },
-        {
-            "question": "Do you provide MLA style paper formatting and proofreading services?",
-            "answer": "Our research paper formatting service includes all major styles like MLA, APA, and more, complemented by meticulous editing and proofreading for flawless results."
-        },
-        {
-            "question": "How affordable are your research paper writing services for UK students?",
-            "answer": "We pride ourselves on offering affordable research paper writing services, ensuring accessibility and value for students across the UK."
-        },
-        {
-            "question": "What subjects do your UK-based academic researchers specialize in?",
-            "answer": "Our team of UK university-specific researchers covers a broad range of subjects, from climate change studies to graduate thesis writing, ensuring in-depth knowledge and expertise."
-        },
-        {
-            "question": "How does your service ensure the delivery of plagiarism-free research projects?",
-            "answer": "We guarantee plagiarism-free research projects by using advanced detection tools and ensuring each paper is custom-written to meet your specific academic needs."
-        },
-        {
-            "question": "Can I get postgraduate dissertation assistance with specific topic requirements?",
-            "answer": "Our service is designed to offer customized assistance for all levels of academia, including tailored support for postgraduate dissertations with specific topic requirements."
-        }
-    ];
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -177,132 +148,7 @@ const LiteratureReview = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Research Paper",
-                "WordCount": 1500,
-                "Citation": "Harvard",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-345633",
-                "OrderRating": "5/5",
-                "University": "University of Cambridge",
-                "Subject": "Psychology",
-                "Review": "The detailed analysis and critical approach exceeded my expectations. Truly grateful for the insightful research paper.",
-                "Tags": ["Psychology", "Cambridge", "HarvardCitation"],
-                "ResponsefromMyPerfectWriting": "Thank you! We're thrilled you found our service insightful and detailed.",
-                "Date": "20th November 2023",
-                "image": "042.jpg"
-            },
-            {
-                "ServiceType": "Term Paper",
-                "WordCount": 2000,
-                "Citation": "MLA",
-                "OrderPrice": "£46.60",
-                "CustomerID": "MPW-354027",
-                "OrderRating": "4.5/5",
-                "University": "Imperial College London",
-                "Subject": "Biomedical Engineering",
-                "Review": "Impressive work with complex biomedical topics. The MLA citations were spot on.",
-                "Tags": ["BiomedicalEngineering", "ImperialCollege", "MLAStyle"],
-                "ResponsefromMyPerfectWriting": "We appreciate your feedback and are glad to have met your standards!",
-                "Date": "15th November 2023",
-                "image": "043.jpg"
-            },
-            {
-                "ServiceType": "Dissertation",
-                "WordCount": 10000,
-                "Citation": "APA",
-                "OrderPrice": "£699",
-                "CustomerID": "MPW-476320",
-                "OrderRating": "5/5",
-                "University": "University of Edinburgh",
-                "Subject": "Sociology",
-                "Review": "Exceptional dissertation service, with deep research and flawless APA formatting. Highly recommend for UK postgraduates.",
-                "Tags": ["Dissertation", "Edinburgh", "APACitation"],
-                "ResponsefromMyPerfectWriting": "Thanks for your endorsement! Our team strives for excellence in every project.",
-                "Date": "10th November 2023",
-                "image": "044.jpg"
-            },
-            {
-                "ServiceType": "Essay",
-                "WordCount": 2500,
-                "Citation": "Chicago",
-                "OrderPrice": "£58.25",
-                "CustomerID": "MPW-480100",
-                "OrderRating": "4.8/5",
-                "University": "King's College London",
-                "Subject": "Law",
-                "Review": "The legal arguments were articulated perfectly. Superb quality essay with accurate Chicago referencing.",
-                "Tags": ["LawEssay", "KingsCollege", "ChicagoStyle"],
-                "ResponsefromMyPerfectWriting": "We're glad we could meet the high standards of legal writing. Thank you for choosing us!",
-                "Date": "5th November 2023",
-                "image": "045.jpg"
-            },
-            {
-                "ServiceType": "Research Paper",
-                "WordCount": 3500,
-                "Citation": "MLA",
-                "OrderPrice": "£81.13",
-                "CustomerID": "MPW-512045",
-                "OrderRating": "5/5",
-                "University": "London School of Economics",
-                "Subject": "Economics",
-                "Review": "Astounding research depth and clarity in economics. The MLA citations were meticulously done.",
-                "Tags": ["EconomicsResearch", "LSE", "MLAFormat"],
-                "ResponsefromMyPerfectWriting": "Thank you! We aim to provide insightful research in every paper.",
-                "Date": "1st November 2023",
-                "image": "046.jpg"
-            },
-            {
-                "ServiceType": "Thesis",
-                "WordCount": 8000,
-                "Citation": "Harvard",
-                "OrderPrice": "£559.20",
-                "CustomerID": "MPW-534208",
-                "OrderRating": "4.9/5",
-                "University": "University of Manchester",
-                "Subject": "Computer Science",
-                "Review": "Impressive thesis on AI. Comprehensive, detailed, and perfectly formatted in Harvard style.",
-                "Tags": ["ComputerScience", "ManchesterUni", "HarvardCitation"],
-                "ResponsefromMyPerfectWriting": "We're delighted to hear your feedback. Our team prides itself on delivering cutting-edge research.",
-                "Date": "25th October 2023",
-                "image": "047.jpg"
-            },
-            {
-                "ServiceType": "Article Analysis",
-                "WordCount": 1200,
-                "Citation": "APA",
-                "OrderPrice": "£41.88",
-                "CustomerID": "MPW-548036",
-                "OrderRating": "4.7/5",
-                "University": "University of Birmingham",
-                "Subject": "Political Science",
-                "Review": "In-depth analysis of political theories with excellent APA referencing. Great for scholarly journal articles.",
-                "Tags": ["PoliticalScience", "Birmingham", "APAStyle"],
-                "ResponsefromMyPerfectWriting": "Thank you for acknowledging our effort in providing comprehensive analyses.",
-                "Date": "20th October 2023",
-                "image": "048.jpg"
-            },
-            {
-                "ServiceType": "Literature Review",
-                "WordCount": 4000,
-                "Citation": "Chicago",
-                "OrderPrice": "£111.60",
-                "CustomerID": "MPW-562034",
-                "OrderRating": "5/5",
-                "University": "University of Bristol",
-                "Subject": "English Literature",
-                "Review": "The literature review was both innovative and critical, offering new insights. Chicago formatting was flawless.",
-                "Tags": ["EnglishLiterature", "BristolUni", "ChicagoFormatting"],
-                "ResponsefromMyPerfectWriting": "It's rewarding to know our work is appreciated, especially in creative and critical tasks like literature reviews.",
-                "Date": "15th October 2023",
-                "image": "049.jpg"
-            }
 
-
-        ];
 
     return (
         <>
@@ -312,6 +158,8 @@ const LiteratureReview = () => {
                <meta name="description" content="Get unparalleled Research Papers Service in UK with My Perfect Writing. Tailored support for diverse academic fields with top-quality results." />
 
                <meta name="keywords" content="Research Papers Service UK, Custom UK Academic Papers, University Research Assistance UK, Professional Paper Writing UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/research-papers-service" />
 
                 {/* Facebook meta description */}
 
@@ -651,7 +499,7 @@ const LiteratureReview = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.research_paper_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -766,7 +614,7 @@ const LiteratureReview = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.research_paper_service.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

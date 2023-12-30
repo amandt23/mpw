@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -178,131 +179,6 @@ const HRMAssignmentHelp = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "HRM Essay Writing",
-                "WordCount": 1500,
-                "Citation": "Harvard",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Strategic HRM",
-                "Review": "The HRM essay was insightful and well-structured. Great use of sources and analysis.",
-                "Tags": ["#HRMEssay #Oxford #StrategicHRM"],
-                "ResponsefromMyPerfectWriting": "Thank you! We're thrilled you found our HRM essay writing helpful.",
-                "Date": "12th March 2023",
-                "image": "219.png"
-            },
-            {
-                "ServiceType": "HRM Assignment",
-                "WordCount": 2000,
-                "Citation": "APA ",
-                "OrderPrice": "£46.93",
-                "CustomerID": "MPW-354789",
-                "OrderRating": "4.8 Stars",
-                "University": "Imperial College London",
-                "Subject": " HRM Theories",
-                "Review": "Impressed with the depth of knowledge on HRM theories. The assignment was perfect.",
-                "Tags": [" #HRMTheories #ImperialCollege"],
-                "ResponsefromMyPerfectWriting": "We appreciate your feedback and are glad to have met your expectations.",
-                "Date": "25th April 2023",
-                "image": "223.png"
-            },
-            {
-                "ServiceType": "HRM Dissertation",
-                "WordCount":  10000,
-                "Citation": "MLA",
-                "OrderPrice": "£209.90",
-                "CustomerID": "MPW-368901",
-                "OrderRating": "5 Stars",
-                "University": "University of Manchester",
-                "Subject": " Organizational Behaviour",
-                "Review": "The dissertation on organizational behaviour was exceptional. Comprehensive and detailed.",
-                "Tags": ["#HRMDissertation #OrganizationalBehaviour"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing us for your HRM dissertation. We're proud of our writers' work.",
-                "Date": "5th May 2023",
-                "image": "216.png"
-            },
-            {
-                "ServiceType": "HRM Case Study Analysis",
-                "WordCount":2500,
-                "Citation": " Chicago",
-                "OrderPrice": "£52.47",
-                "CustomerID": "MPW-377645",
-                "OrderRating": "4.9 Stars",
-                "University": "London School of Economics",
-                "Subject": "HRM Leadership Models",
-                "Review": "The analysis of HRM leadership models was spot-on. Impressive depth and clarity.",
-                "Tags": ["#HRMCaseStudy #LeadershipModels"],
-                "ResponsefromMyPerfectWriting": "We're delighted to hear that! Our team works hard to provide insightful analyses.",
-                "Date": "18th May 2023",
-                "image": "209.png"
-            },
-            {
-                "ServiceType": "HRM Assignment",
-                "WordCount":1800,
-                "Citation": "Harvard",
-                "OrderPrice": " £41.82",
-                "CustomerID": " MPW-389054",
-                "OrderRating": "5 Stars",
-                "University": "University of Cambridge",
-                "Subject": "Employee Motivation",
-                "Review": "Excellent work on employee motivation. The assignment was comprehensive and well-researched.",
-                "Tags": [" #EmployeeMotivation #Cambridge"],
-                "ResponsefromMyPerfectWriting": "Thanks for your kind words. We're thrilled to have helped with your assignment.",
-                "Date": "30th May 2023",
-                "image": "230.png"
-            },
-            {
-                "ServiceType": "HRM Essay",
-                "WordCount": 1200,
-                "Citation": "APA",
-                "OrderPrice": " £27.88 ",
-                "CustomerID": "MPW-401768",
-                "OrderRating": " 4.7 Stars",
-                "University": "University of Birmingham",
-                "Subject": "Recruitment Strategies",
-                "Review": "The essay on recruitment strategies was insightful and well-argued. Really helped in my studies.",
-                "Tags": [" #HRMEssay #RecruitmentStrategies "],
-                "ResponsefromMyPerfectWriting": "We're glad to have been able to assist you in your HRM studies.",
-                "Date": "15th June 2023",
-                "image": "202.png"
-            },
-            {
-                "ServiceType": "HRM Thesis",
-                "WordCount":8000,
-                "Citation": " MLA",
-                "OrderPrice": "£167.92",
-                "CustomerID": " MPW-414532",
-                "OrderRating": "5 Stars",
-                "University": "University of Leeds",
-                "Subject": " Organizational Culture",
-                "Review": "My thesis on organizational culture was impeccably written. The insights were valuable and original.",
-                "Tags": ["#HRMThesis #OrganizationalCulture"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback. We strive for originality and depth in every thesis.",
-                "Date": "28th June 2023",
-                "image": "190.png"
-            },
-            {
-                "ServiceType": "HRM Research Paper",
-                "WordCount":  3500,
-                "Citation": "Chicago",
-                "OrderPrice": " £73.46",
-                "CustomerID": "MPW-426789",
-                "OrderRating": "4.8 Stars",
-                "University": "King's College London",
-                "Subject": " Workforce Diversity ",
-                "Review": "The research paper on workforce diversity was exceptional. Very detailed and well-presented.",
-                "Tags": ["#HRMResearchPaper #WorkforceDiversity"],
-                "ResponsefromMyPerfectWriting": "We're pleased to hear that you found our work on workforce diversity to be of high standard.",
-                "Date": "10th July 2023",
-                "image": "032.jpg"
-            },
-           
-        ];
 
     return (
         <>
@@ -313,6 +189,8 @@ const HRMAssignmentHelp = () => {
                <meta name="description" content="Advance your studies with our HRM Assignment Help in UK. My Perfect Writing offers comprehensive support for all HRM academic needs." />
 
                <meta name="keywords" content="HRM Assignment Help UK, UK Human Resources Academic Support, Custom HRM Homework Assistance, Professional HRM Assignment Services UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/hrm-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -765,7 +643,7 @@ const HRMAssignmentHelp = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.hrm_assignment.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

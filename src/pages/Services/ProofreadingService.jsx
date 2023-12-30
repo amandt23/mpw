@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -101,38 +103,7 @@ const ProofreadingService = () => {
             </svg>
         },
     ]
-
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What makes your proofreading service stand out in the UK?",
-            "answer": "We offer tailored, affordable proofreading with a focus on quality, ensuring plagiarism-free and expertly edited academic work."
-        },
-        {
-            "question": "Can I get free proofreading for my university assignment?",
-            "answer": "While our service is not free, we offer competitively priced and reliable proofreading for all types of university assignments."
-        },
-        {
-            "question": "Do you provide thesis editing services?",
-            "answer": "Yes, our professional team specializes in thesis correction and editing, ensuring compliance with university standards."
-        },
-        {
-            "question": "How does your service ensure the quality of academic proofreading?",
-            "answer": "Our proofreading is conducted by experienced educators and professionals, ensuring comprehensive and detailed reviews."
-        },
-        {
-            "question": "Can I use your service for proofreading scholarly articles?",
-            "answer": "Absolutely. Our scholarly article editing is meticulous, offering critical analysis and feedback for enhanced academic quality."
-        },
-        {
-            "question": "Is your proofreading service suitable for research papers?",
-            "answer": "Yes, our research paper review service in the UK is designed to improve structure, citations, and overall coherence."
-        },
-        {
-            "question": "What are the benefits of using a professional manuscript editing service?",
-            "answer": "Professional manuscript editing offers innovative, creative, and insightful improvements to your writing, elevating its academic standard."
-        }
-    ];
+ 
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -175,131 +146,7 @@ const ProofreadingService = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Dissertation Proofreading",
-                "WordCount": 15000,
-                "Citation": "Harvard",
-                "OrderPrice": "£349.75",
-                "CustomerID": "MPW-343033",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "History",
-                "Review": "Incredibly detailed and accurate proofreading. Elevated my dissertation to a professional standard.",
-                "Tags": ["Academic Editing Specialists UK", "Dissertation Proofreading"],
-                "ResponsefromMyPerfectWriting": "Thank you! We're delighted to have supported your academic journey.",
-                "Date": "25th October 2023",
-                "image": "188.png"
-            },
-            {
-                "ServiceType": "Thesis Proofreading",
-                "WordCount": 20000,
-                "Citation": "APA",
-                "OrderPrice": "£466.00",
-                "CustomerID": "MPW-453390",
-                "OrderRating": "5 Stars",
-                "University": "University of Cambridge",
-                "Subject": "Psychology",
-                "Review": "Exceptional attention to detail. My thesis was proofread flawlessly, enhancing both clarity and structure.",
-                "Tags": ["Thesis Proofreading", "English Proofreading Online"],
-                "ResponsefromMyPerfectWriting": "We appreciate your feedback and are thrilled to have helped!",
-                "Date": "26th October 2023",
-                "image": "189.png"
-            },
-            {
-                "ServiceType": "Academic Essay Proofreading",
-                "WordCount": 3000,
-                "Citation": "Chicago",
-                "OrderPrice": "£69.90",
-                "CustomerID": "MPW-520276",
-                "OrderRating": "4.8 Stars",
-                "University": "Imperial College London",
-                "Subject": "Engineering",
-                "Review": "Quick turnaround with exceptional results. My essay's quality was significantly enhanced.",
-                "Tags": ["Proofread My Essay", "UK Based Essay Editing and Proofreading"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing us. Delighted to have met your expectations!",
-                "Date": "27th October 2023",
-                "image": "190.png"
-            },
-            {
-                "ServiceType": "Research Paper Review",
-                "WordCount": 8000,
-                "Citation": "MLA",
-                "OrderPrice": "£195.92",
-                "CustomerID": "MPW-600320",
-                "OrderRating": "5 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "Biology",
-                "Review": "Outstanding service! My research paper was meticulously proofread with great attention to every detail.",
-                "Tags": ["Research Paper Review UK", "Academic Proofreading"],
-                "ResponsefromMyPerfectWriting": "Your satisfaction is our top priority. Thank you for the positive review!",
-                "Date": "28th October 2023",
-                "image": "191.png"
-            },
-            {
-                "ServiceType": "Manuscript Editing",
-                "WordCount": 12000,
-                "Citation": "Harvard",
-                "OrderPrice": "£279.88",
-                "CustomerID": "MPW-725104",
-                "OrderRating": "4.9 Stars",
-                "University": "London School of Economics",
-                "Subject": "Economics",
-                "Review": "My manuscript was transformed with insightful feedback and thorough proofreading. Highly recommend!",
-                "Tags": ["Manuscript Editing Services", "Professional Manuscript Editing Services UK"],
-                "ResponsefromMyPerfectWriting": "It was a pleasure to work on your manuscript. Thanks for trusting us!",
-                "Date": "29th October 2023",
-                "image": "192.png"
-            },
-            {
-                "ServiceType": "Coursework Proofreading",
-                "WordCount": 5000,
-                "Citation": "APA",
-                "OrderPrice": "£116.50",
-                "CustomerID": "MPW-842957",
-                "OrderRating": "4.7 Stars",
-                "University": "University of Manchester",
-                "Subject": "Sociology",
-                "Review": "Reliable and efficient service. Improved my coursework substantially with excellent feedback.",
-                "Tags": ["Customized UK Student Proofreading Services", "Coursework Editing"],
-                "ResponsefromMyPerfectWriting": "Great to hear that your coursework benefited from our service. Thank you!",
-                "Date": "30th October 2023",
-                "image": "193.png"
-            },
-            {
-                "ServiceType": "Dissertation Editing",
-                "WordCount": 18000,
-                "Citation": "MLA",
-                "OrderPrice": "£419.82",
-                "CustomerID": "MPW-954003",
-                "OrderRating": "5 Stars",
-                "University": "University College London",
-                "Subject": "Philosophy",
-                "Review": "A remarkable job on my dissertation. Thorough editing and very detailed feedback.",
-                "Tags": ["Best Dissertation Proofreading Services in the UK", "Dissertation Editing"],
-                "ResponsefromMyPerfectWriting": "Thank you for your review. We're glad to have contributed to your success!",
-                "Date": "31st October 2023",
-                "image": "194.png"
-            },
-            {
-                "ServiceType": "Literature Review Proofreading",
-                "WordCount": 10000,
-                "Citation": "Chicago",
-                "OrderPrice": "£233.00",
-                "CustomerID": "MPW-1012665",
-                "OrderRating": "4.8 Stars",
-                "University": "King's College London",
-                "Subject": "English Literature",
-                "Review": "Extremely satisfied with the proofreading service. Detailed attention to format and citations.",
-                "Tags": ["English Editing Service", "Literature Review Editing"],
-                "ResponsefromMyPerfectWriting": "We appreciate your feedback. It's our pleasure to ensure the quality of your literature review.",
-                "Date": "1st November 2023",
-                "image": "195.png"
-            }
-
-        ];
+      
 
     return (
         <>
@@ -310,6 +157,8 @@ const ProofreadingService = () => {
                <meta name="description" content="Expert Proofreading Service in UK by My Perfect Writing. High-quality, detailed academic editing for essays, theses, and dissertations." />
 
                <meta name="keywords" content="Proofreading Service UK, UK Academic Editing Assistance, Custom Proofreading Solutions UK, Expert Academic Proofreading Service UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/proofreading-service" />
 
                 {/* Facebook meta description */}
 
@@ -649,7 +498,7 @@ const ProofreadingService = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.peer_responses_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -764,7 +613,7 @@ const ProofreadingService = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.proof_reading_assignment.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

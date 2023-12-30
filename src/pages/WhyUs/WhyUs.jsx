@@ -29,6 +29,8 @@ const WhyUs = () => {
 
                 <meta name="keywords" content="My Perfect Writing Advantages, Why Choose My Perfect Writing, UK Academic Writing Excellence, My Perfect Writing Quality Services"></meta>
 
+                <link rel="canonical" href="https://www.myperfectwriting.co.uk/why-us" />
+
                 <script type="application/ld+json">
                     {`
 {

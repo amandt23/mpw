@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -178,131 +179,7 @@ const SocialWorkAssignmentHelp = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Social Work Essay ",
-                "WordCount": 1500,
-                "Citation": "APA",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "Health and Social Care",
-                "Review": "Exceptional quality and detailed insights on sociological perspectives in health and social care. Truly outstanding!",
-                "Tags": ["Affordable social work assignment writing service UK, sociological imagination assignment"],
-                "ResponsefromMyPerfectWriting": "Thank you! We're thrilled to have supported your academic journey.",
-                "Date": "2023-06-15",
-                "image": "236.png"
-            },
-            {
-                "ServiceType": "Case Study",
-                "WordCount": 2000,
-                "Citation": "Harvard",
-                "OrderPrice": " £46.99",
-                "CustomerID": " MPW-343534",
-                "OrderRating": "5 Stars",
-                "University": "King's College London",
-                "Subject": " Social Work",
-                "Review": "The case study assistance was superb. I learned a lot and secured a top grade. Highly recommend!",
-                "Tags": ["Case study assistance in social work, Professional help with social work essays "],
-                "ResponsefromMyPerfectWriting": "We're glad to have been of help. Your success is our priority!",
-                "Date": "2023-07-03",
-                "image": "237.png"
-            },
-            {
-                "ServiceType": "Dissertation",
-                "WordCount": 10000,
-                "Citation": "MLA",
-                "OrderPrice": " £209.90",
-                "CustomerID": "MPW-343535",
-                "OrderRating": "4.8 Stars",
-                "University": " University of Manchester",
-                "Subject": "Social Welfare",
-                "Review": "The dissertation was thorough and insightful. Master's level social work dissertation writing assistance was excellent.",
-                "Tags": ["Master's level social work dissertation writing assistance, social welfare project aid"],
-                "ResponsefromMyPerfectWriting": "We appreciate your feedback and are proud to support your advanced academic endeavours.",
-                "Date": "2023-08-10",
-                "image": "238.png"
-            },
-            {
-                "ServiceType": " Essay ",
-                "WordCount": 2000,
-                "Citation": "Chicago",
-                "OrderPrice": " £46.99",
-                "CustomerID": "MPW-343536",
-                "OrderRating": "5 Stars",
-                "University": " London School of Economics",
-                "Subject": " Sociology",
-                "Review": "In-depth analysis and critical approach in the essay. Your service provided the best academic support for social work students.",
-                "Tags": [" Academic support for social work students, sociology assignment"],
-                "ResponsefromMyPerfectWriting": "Thank you for your kind words. We're glad to have contributed to your academic success.",
-                "Date": "2023-09-05",
-                "image": "239.png"
-            },
-            {
-                "ServiceType": "Coursework",
-                "WordCount":3000,
-                "Citation": "Harvard",
-                "OrderPrice": "£69.97",
-                "CustomerID": "MPW-343537",
-                "OrderRating": "5 Stars",
-                "University": "University of Bristol",
-                "Subject": "Social Stratification",
-                "Review": "Your detailed approach in the coursework was fantastic. Truly professional social work essay writers in the UK.",
-                "Tags": ["Professional social work essay writers in the UK, social stratification assignment"],
-                "ResponsefromMyPerfectWriting": "It's great to hear that our service met your expectations. We're here to help anytime!",
-                "Date": " 2023-10-21",
-                "image": "240.png"
-            },
-            {
-                "ServiceType": "Assignment",
-                "WordCount": 2500,
-                "Citation": "APA",
-                "OrderPrice": " £58.99",
-                "CustomerID": "MPW-343538 ",
-                "OrderRating": "4.9 Stars",
-                "University": " University of Glasgow",
-                "Subject": "Social Work Ethics",
-                "Review": "The ethical perspectives covered in the assignment were impressive. Thank you for the insightful social work assignment support.",
-                "Tags": [" Social work assignment support for international students, ethical perspectives in social work"],
-                "ResponsefromMyPerfectWriting": "We're glad you found our service insightful. Ethical perspectives are crucial in social work, and we take great care in addressing them.",
-                "Date": " 2023-11-12",
-                "image": "241.png"
-            },
-            {
-                "ServiceType": "Thesis",
-                "WordCount": 8000,
-                "Citation": "MLA",
-                "OrderPrice": " £167.92",
-                "CustomerID": "MPW-343539",
-                "OrderRating": "4.7 Stars",
-                "University": "University of Leeds",
-                "Subject": "Community Social Work",
-                "Review": "The thesis was comprehensive and showcased a deep understanding of community social work. Excellent service!",
-                "Tags": ["Community social work, thesis writing assistance"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing our service for your thesis. We strive to provide comprehensive and insightful work.",
-                "Date": "2023-12-01",
-                "image": "242.png"
-            },
-            {
-                "ServiceType": "Research Paper ",
-                "WordCount": 5000,
-                "Citation": "Chicago",
-                "OrderPrice": "  £104.95",
-                "CustomerID": "MPW-343540",
-                "OrderRating": "5 Stars",
-                "University": " University of Birmingham",
-                "Subject": "Child Welfare",
-                "Review": " The research paper on child welfare was both insightful and creative. Great job by your team of experts!",
-                "Tags": ["Child welfare in social work, research paper writing"],
-                "ResponsefromMyPerfectWriting": "We're delighted to have assisted you in your research on such an important topic. Thank you for the feedback!",
-                "Date": "2023-12-20",
-                "image": "243.png"
-            },
-           
-        ];
+  
 
     return (
         <>
@@ -312,6 +189,8 @@ const SocialWorkAssignmentHelp = () => {
                <meta name="description" content="Excel in your studies with our Social Work Assignment Help in UK. My Perfect Writing offers tailored, expert support for all social work topics." />
 
                <meta name="keywords" content="Social Work Assignment Help UK, UK Social Work Academic Assistance, Custom Social Work Assignments, Professional Social Work Homework Help UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/social-work-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -765,7 +644,7 @@ const SocialWorkAssignmentHelp = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.social_work.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -178,132 +179,7 @@ const PsychologyAssignmentHelp = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Essay Writing",
-                "WordCount": 1500,
-                "Citation": " APA",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Developmental Psychology",
-                "Review": "Incredible insight on Piaget's theory. The assignment was detailed and well-structured.",
-                "Tags": ["Assignment on Developmental Psychology, Online Tutoring for Psychology Students UK"],
-                "ResponsefromMyPerfectWriting": "Thank you! We're thrilled you found our developmental psychology expertise helpful.",
-                "Date": "2023-10-05",
-                "image": "252.png"
-            },
-            {
-                "ServiceType": "Case Study",
-                "WordCount": 2000,
-                "Citation": "Harvard",
-                "OrderPrice": " £41.98",
-                "CustomerID": "MPW-454321",
-                "OrderRating": "4.8 Stars",
-                "University": "King's College London",
-                "Subject": "Cognitive Psychology",
-                "Review": "The case study on cognitive development was impressive. In-depth analysis and clear structure.",
-                "Tags": ["Psychology Case Study Assistance in UK"],
-                "ResponsefromMyPerfectWriting": "We appreciate your feedback and are glad you found the cognitive analysis insightful!",
-                "Date": "2023-08-15",
-                "image": "204.png"
-            },
-            {
-                "ServiceType": " Research Paper",
-                "WordCount": 2500,
-                "Citation": "MLA",
-                "OrderPrice": " £52.48",
-                "CustomerID": " MPW-567890",
-                "OrderRating": "5 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "Educational Psychology",
-                "Review": "Your educational psychology insights were spot on! Helped me understand complex concepts with ease.",
-                "Tags": ["Assignment on Educational Psychology, University Psychology Projects Help"],
-                "ResponsefromMyPerfectWriting": "Thank you for your review. We're delighted to have assisted in your understanding of educational psychology.",
-                "Date": " 2023-07-21",
-                "image": "205.png"
-            },
-            {
-                "ServiceType": "Thesis",
-                "WordCount": 10000,
-                "Citation": " Chicago",
-                "OrderPrice": " £139.90",
-                "CustomerID": "MPW-223344",
-                "OrderRating": " 4.9 Stars",
-                "University": " University of Manchester",
-                "Subject": "Abnormal Psychology",
-                "Review": "The thesis on abnormal psychology was thoroughly researched and well-articulated. Exceptional work!",
-                "Tags": [" Abnormal Psychology Case Study Assignment, Expert Psychology Dissertation Writers in UK"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to hear that you were satisfied with our in-depth research on abnormal psychology. Thank you!",
-                "Date": "2023-06-30",
-                "image": "206.png"
-            },
-            {
-                "ServiceType": " Essay",
-                "WordCount":1500,
-                "Citation": " APA",
-                "OrderPrice": " £34.95",
-                "CustomerID": " MPW-998877",
-                "OrderRating": "5 Stars",
-                "University": "University College London",
-                "Subject": "Social Psychology",
-                "Review": "Your analysis on social psychology was enlightening. The essay was well-structured and insightful.",
-                "Tags": ["Psychology Writing Assignment, Online Tutoring for Psychology Students UK"],
-                "ResponsefromMyPerfectWriting": "Thank you for your kind words. We're pleased that our social psychology essay met your expectations.",
-                "Date": " 2023-05-10",
-                "image": "207.png"
-            },
-            {
-                "ServiceType": "Literature Review",
-                "WordCount": 3000,
-                "Citation": "Harvard",
-                "OrderPrice": "£62.97",
-                "CustomerID": "MPW-556677 ",
-                "OrderRating": "4.7 Stars",
-                "University": "  University of Birmingham",
-                "Subject": "Health Psychology",
-                "Review": "The depth of research in the health psychology literature review was outstanding. Extremely helpful for my studies.",
-                "Tags": [" Psychology Homework Assignments, Affordable Psychology Assignment Writing Service in UK"],
-                "ResponsefromMyPerfectWriting": "We're glad we could provide you with the in-depth research you needed. Your feedback is very much appreciated!",
-                "Date": " 2023-04-20",
-                "image": "208.png"
-            },
-            {
-                "ServiceType": " Research Proposal",
-                "WordCount": 2000,
-                "Citation": "MLA",
-                "OrderPrice": "£41.98",
-                "CustomerID": " MPW-112233",
-                "OrderRating": "4.8 Stars",
-                "University": "University of Leeds",
-                "Subject": "Forensic Psychology",
-                "Review": "The research proposal was meticulously prepared. The forensic psychology content was accurate and comprehensive.",
-                "Tags": ["Psychology Assignment Helper, UK University Psychology Assignment Help"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing our service for your forensic psychology research proposal. We're happy to have met your expectations!",
-                "Date": "2023-03-15",
-                "image": "209.png"
-            },
-            {
-                "ServiceType": "Assignment ",
-                "WordCount":  3000,
-                "Citation": "Chicago",
-                "OrderPrice": " £62.97",
-                "CustomerID": " MPW-778899",
-                "OrderRating": "5 Stars",
-                "University": "London School of Economics",
-                "Subject": "Organizational Psychology",
-                "Review": " Exceptionally well-done assignment on organizational psychology. The structure and content were superb.",
-                "Tags": ["Assignment in Psychology, Buy Custom Psychology Essays Online UK"],
-                "ResponsefromMyPerfectWriting": "We're delighted to hear about your positive experience with our organizational psychology assignment. Thank you for your feedback!",
-                "Date": "2023-02-28",
-                "image": "210.png"
-            },
-           
-        ];
-
+   
     return (
         <>
             <Helmet>
@@ -313,6 +189,9 @@ const PsychologyAssignmentHelp = () => {
                <meta name="description" content="Excel in psychology studies with our Psychology Assignment Help in UK. My Perfect Writing provides comprehensive support for all psychology topics." />
 
                <meta name="keywords" content="Psychology Assignment Help UK, UK Psychology Academic Support, Custom Psychology Assignments UK, Professional Psychology Homework Help UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/psychology-assignment-help" />
+
 
                 {/* Facebook meta description */}
 
@@ -767,7 +646,7 @@ const PsychologyAssignmentHelp = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.psychology_assignment.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

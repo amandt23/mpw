@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -175,132 +176,7 @@ const ResumeWriting = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Professional CV Writing",
-                "WordCount": 600,
-                "Citation": "Harvard",
-                "OrderPrice": "£41.94",
-                "CustomerID": "MPW-340933",
-                "OrderRating": "5/5",
-                "University": "University of Oxford",
-                "Subject": "Business Management",
-                "Review": "Transformed my CV into a professional narrative that truly reflects my accomplishments. Exceptional service!",
-                "Tags": ["Resume Builder Service", "Executive Resume Writers"],
-                "ResponsefromMyPerfectWriting": "Thrilled to assist in your professional journey. Your success is our pride!",
-                "Date": "2023-11-01",
-                "image": "058.jpg"
-            },
-            {
-                "ServiceType": "Executive Resume Writing",
-                "WordCount": 450,
-                "Citation": "APA",
-                "OrderPrice": "£31.46",
-                "CustomerID": "MPW-345434",
-                "OrderRating": "5/5",
-                "University": "London School of Economics",
-                "Subject": "Finance",
-                "Review": "Remarkable expertise in finance resumes. Landed my dream job thanks to their tailored approach.",
-                "Tags": ["Professional CV Writing", "Top Resume Writing Services"],
-                "ResponsefromMyPerfectWriting": "Delighted to hear about your success. It was our pleasure to craft your finance resume!",
-                "Date": "2023-11-05",
-                "image": "059.jpg"
-            },
-            {
-                "ServiceType": "Graduate Resume Writing",
-                "WordCount": 300,
-                "Citation": "MLA",
-                "OrderPrice": "£20.97",
-                "CustomerID": "MPW-345835",
-                "OrderRating": "4.8/5",
-                "University": "University of Cambridge",
-                "Subject": "Sociology",
-                "Review": "Incredibly detailed and tailored CV for my sociology career path. Highly recommend their services!",
-                "Tags": ["Resume Services Near Me", "Graduate CV Assistance"],
-                "ResponsefromMyPerfectWriting": "We're glad to support your early career steps. Best wishes for your sociology career!",
-                "Date": "2023-11-10",
-                "image": "060.jpg"
-            },
-            {
-                "ServiceType": "Executive Resume Writing",
-                "WordCount": 550,
-                "Citation": "Chicago",
-                "OrderPrice": "£38.45",
-                "CustomerID": "MPW-340936",
-                "OrderRating": "4.9/5",
-                "University": "Imperial College London",
-                "Subject": "Engineering Management",
-                "Review": "The resume they created perfectly highlighted my engineering management experience. Exceptional work!",
-                "Tags": ["Executive Resume Writing Services", "CV Writer"],
-                "ResponsefromMyPerfectWriting": "Honoured to assist you in your executive journey. Thank you for choosing us!",
-                "Date": "2023-11-15",
-                "image": "061.jpg"
-            },
-            {
-                "ServiceType": "Academic CV Writing",
-                "WordCount": 400,
-                "Citation": "Harvard",
-                "OrderPrice": "£27.96",
-                "CustomerID": "MPW-345437",
-                "OrderRating": "5/5",
-                "University": "King's College London",
-                "Subject": "English Literature",
-                "Review": "The academic CV they provided was insightful, highlighting my literary contributions impressively.",
-                "Tags": ["Professional Resume Services", "UK-Based Professional Resume Review Services"],
-                "ResponsefromMyPerfectWriting": "Your literary achievements are indeed impressive. It was a pleasure working on your CV!",
-                "Date": "2023-11-20",
-                "image": "062.jpg"
-            },
-            {
-                "ServiceType": "LinkedIn Profile Optimization",
-                "WordCount": 350,
-                "Citation": "APA",
-                "OrderPrice": "£24.47",
-                "CustomerID": "MPW-301538",
-                "OrderRating": "4.7/5",
-                "University": "University of Edinburgh",
-                "Subject": "Marketing",
-                "Review": "My LinkedIn profile now perfectly showcases my marketing skills, thanks to their expert touch.",
-                "Tags": ["Resume and LinkedIn Profile Writing Services", "Cover Letter Writing"],
-                "ResponsefromMyPerfectWriting": "Delighted to enhance your online presence. Your marketing skills deserved the best showcase!",
-                "Date": "2023-11-25",
-                "image": "063.jpg"
-            },
-            {
-                "ServiceType": "Professional CV Writing",
-                "WordCount": 500,
-                "Citation": "MLA",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-344739",
-                "OrderRating": "5/5",
-                "University": "Manchester University",
-                "Subject": "Human Resources",
-                "Review": "They provided a comprehensive and detailed HR resume. Highly satisfied with the result!",
-                "Tags": ["Resume Writer Free", "Tailored Resume Solutions for UK Professionals"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to hear about your satisfaction. Your HR expertise deserved a standout resume!",
-                "Date": "2023-11-30",
-                "image": "064.jpg"
-            },
-            {
-                "ServiceType": "Technical Resume Writing",
-                "WordCount": 450,
-                "Citation": "Harvard",
-                "OrderPrice": "£31.46",
-                "CustomerID": "MPW-343540",
-                "OrderRating": "4.8/5",
-                "University": "University College London",
-                "Subject": "Information Technology",
-                "Review": "Skillfully highlighted my IT skills and experience. A true game-changer for my career!",
-                "Tags": ["Federal Resume Writers", "Online Resume"],
-                "ResponsefromMyPerfectWriting": "Helping you showcase your IT skills was our goal. Glad to be a part of your career success!",
-                "Date": "2023-12-05",
-                "image": "065.jpg"
-            }
-
-
-        ];
+ 
 
     return (
         <>
@@ -310,6 +186,8 @@ const ResumeWriting = () => {
                <meta name="description" content="Elevate your career with our Resume Writing Service in UK. My Perfect Writing delivers custom, high-impact resume solutions for all levels." />
 
                <meta name="keywords" content="Resume Writing Service UK, UK Professional CV Assistance, Custom Resume Creation UK, Expert Resume Support UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/resume-writing-service" />
 
                 {/* Facebook meta description */}
 
@@ -765,7 +643,7 @@ const ResumeWriting = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.resume_writing.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

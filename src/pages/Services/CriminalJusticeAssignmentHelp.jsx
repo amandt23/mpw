@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -104,38 +106,7 @@ const CriminalJusticeAssignmentHelp = () => {
         },
     ]
 
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What distinguishes your Criminal Justice Assignment Help from others?",
-            "answer": "We offer a unique blend of affordability, reliability, and expert-driven custom academic assistance, focusing on British Criminal Justice Essays and Forensic Science Assignments in the UK."
-        },
-        {
-            "question": "How do you ensure the originality of criminal justice homework?",
-            "answer": "Our professional writers create every piece from scratch, ensuring original, plagiarism-free content tailored to your specific requirements."
-        },
-      
-        {
-            "question": "Can I buy Criminal Justice Essays online in the UK through your service?",
-            "answer": "Absolutely! We provide an easy, secure platform to purchase custom-written criminal justice essays, ensuring high quality and adherence to UK academic standards."
-        },
-        {
-            "question": "What kind of support do you offer for Criminology and Psychology Assignment Help in the UK",
-            "answer": "Our service covers comprehensive support for criminology and psychology assignments, including research, writing, editing, and proofreading, with a focus on UK coursework standards."
-        },
-        {
-            "question": "Do you provide Forensic Science Assignment Help specifically for UK students?",
-            "answer": "Yes, our Forensic Science Assignment UK service is tailored to meet the specific needs of UK university students, with a focus on detailed and accurate analysis."
-        },
-        {
-            "question": "Is your Criminal Justice Coursework Assistance online service confidential?",
-            "answer": "Yes, we maintain the highest levels of confidentiality and security in our online Criminal Justice Coursework Assistance, ensuring your privacy and data protection."
-        },
-        {
-            "question": "How do you guarantee quality in your academic writing services?",
-            "answer": "Our team of expert writers and educators is committed to delivering high-quality, insightful, and critically-analyzed academic content, with a rigorous quality control process in place."
-        },
-    ];
+  
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -178,117 +149,7 @@ const CriminalJusticeAssignmentHelp = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Criminal Justice Essay",
-                "WordCount": 1500,
-                "Citation": "Harvard",
-                "OrderPrice": "£34.95 (1500 words at £6.99/300 words)",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Criminology",
-                "Review": "Incredibly insightful criminal law case studies! My Perfect Writing truly understands UK legal studies homework requirements.",
-                "Tags": ["#ExpertHelp #UKLaw #CriminalJustice"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback! We're glad our expertise in criminal law case studies supported your academic journey.",
-                "Date": "2023-06-15",
-                "image": "181.png"
-            },
-            {
-                "ServiceType": "Case Study Analysis",
-                "WordCount": 1200,
-                "Citation": "APA",
-                "OrderPrice": "£27.96 (1200 words at £6.99/300 words)",
-                "CustomerID": "MPW-354672",
-                "OrderRating": "5 Stars",
-                "University": "University College London",
-                "Subject": "Criminal Justice",
-                "Review": "The case study analysis exceeded my expectations. Your understanding of criminal justice nuances is unparalleled.",
-                "Tags": ["#CaseStudy #AcademicExcellence #CriminalJustice"],
-                "ResponsefromMyPerfectWriting": "Thrilled to hear our case study analysis was up to your high standards. Thank you for choosing us!",
-                "Date": "2023-07-20",
-                "image": "182.png"
-            },
-            {
-                "ServiceType": "Dissertation Writing",
-                "WordCount": 10000,
-                "Citation": "Chicago",
-                "OrderPrice": "£233.10 (10000 words at £6.99/300 words)",
-                "CustomerID": "MPW-365889",
-                "OrderRating": "5 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "Forensic Science",
-                "Review": "Your expert help with my criminal justice dissertation was invaluable. The detail and research quality were impressive.",
-                "Tags": ["#DissertationHelp #ForensicScience #ExpertWriting"],
-                "ResponsefromMyPerfectWriting": "We're honoured to have been a part of your academic journey. Your success is our success!",
-                "Date": "2023-08-10",
-                "image": "183.png"
-            },
-            {
-                "ServiceType": "Essay Writing",
-                "WordCount":2000,
-                "Citation": "MLA",
-                "OrderPrice": "£46.62 (2000 words at £6.99/300 words)",
-                "CustomerID": "MPW-377421",
-                "OrderRating": "5 Stars",
-                "University": "King's College London",
-                "Subject": "Criminology",
-                "Review": "Your assistance in criminology research is top-notch. The essay was detailed, insightful, and original.",
-                "Tags": ["#CriminologyEssay #ResearchExcellence #AcademicSupport"],
-                "ResponsefromMyPerfectWriting": "Thank you for your kind words! We strive for excellence in every research essay we deliver.",
-                "Date": "2023-09-05",
-                "image": "184.png"
-            },
-            {
-                "ServiceType": "Coursework Assistance",
-                "WordCount":3000,
-                "Citation": "Harvard",
-                "OrderPrice": "£69.93 (3000 words at £6.99/300 words)",
-                "CustomerID": "MPW-388564",
-                "OrderRating": "5 Stars",
-                "University": "University of Manchester",
-                "Subject": "Criminal Law",
-                "Review": "The online criminal justice coursework assistance I received was exceptional. Your team's knowledge and professionalism are evident.",
-                "Tags": ["#CourseworkHelp #CriminalLaw #ProfessionalService"],
-                "ResponsefromMyPerfectWriting": "Delighted to hear that our service met your needs. We take pride in our team's professionalism and expertise.",
-                "Date": "2023-10-12",
-                "image": "185.png"
-            },
-            {
-                "ServiceType": "Thesis Writing",
-                "WordCount": 8000,
-                "Citation": "APA",
-                "OrderPrice": "£186.48 (8000 words at £6.99/300 words)",
-                "CustomerID": "MPW-399977",
-                "OrderRating": "5 Stars",
-                "University": "University of Birmingham",
-                "Subject": "Legal Studies",
-                "Review": "Your help with my legal studies thesis was a game-changer. The attention to detail and critical analysis was exactly what I needed.",
-                "Tags": ["#ThesisAssistance #LegalStudies #CriticalAnalysis"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to have been able to assist you with your thesis. Your satisfaction is our top priority!",
-                "Date": "2023-11-08",
-                "image": "186.png"
-            },
-            {
-                "ServiceType": "Assignment Editing",
-                "WordCount":2500,
-                "Citation": "Chicago",
-                "OrderPrice": "£58.28 (2500 words at £6.99/300 words)",
-                "CustomerID": "MPW-411045",
-                "OrderRating": "5 Stars",
-                "University": "University of Leeds",
-                "Subject": "Criminal Justice",
-                "Review": "I'm impressed with the quality of editing on my criminal justice assignment. The structure and citations were perfected to a high standard.",
-                "Tags": ["#EditingService #AssignmentQuality #Perfection"],
-                "ResponsefromMyPerfectWriting": "Thank you for appreciating our attention to detail in editing. We aim for perfection in every assignment.",
-                "Date": "2023-12-03",
-                "image": "187.png"
-            },
-          
-        ];
-
+    
     return (
         <>
             <Helmet>
@@ -299,6 +160,8 @@ const CriminalJusticeAssignmentHelp = () => {
                <meta name="description" content="Master criminal justice studies with our Criminal Justice Assignment Help in UK. My Perfect Writing offers specialized, in-depth academic support." />
 
                <meta name="keywords" content="Criminal Justice Assignment Help UK, UK Criminal Law Academic Support,Custom Criminal Justice Assistance, Professional Criminology Homework Help UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/criminal-justice-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -635,7 +498,7 @@ const CriminalJusticeAssignmentHelp = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.criminal_justice_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -750,7 +613,7 @@ const CriminalJusticeAssignmentHelp = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.criminal_justice_assignment.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

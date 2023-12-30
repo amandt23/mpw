@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -104,38 +106,6 @@ const NursingAssignmentHelpinUK = () => {
         },
     ]
 
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What makes your Nursing Assignment Help unique?",
-            "answer": "Our service stands out with affordable, comprehensive, and bespoke nursing assignment assistance for UK students, ensuring high quality and originality in every task."
-        },
-        {
-            "question": "How do you ensure quality in Nursing Coursework Assistance?",
-            "answer": "Our team of professionals delivers tailored academic support, with a keen focus on critical analysis, structured arguments, and thorough research, ensuring top grades."
-        },
-      
-        {
-            "question": "Can you provide Custom Nursing Assignments UK wide?",
-            "answer": "Yes, our services are available across the UK, offering customized, plagiarism-free nursing assignments, catering to the specific needs of each university and college."
-        },
-        {
-            "question": "What is your approach to Professional Nursing Homework Help?",
-            "answer": "We provide detailed, insightful, and expertly crafted homework solutions, focusing on delivering original content with critical thinking and comprehensive subject analysis."
-        },
-        {
-            "question": "How do you assist with Nursing Dissertation Guidance?",
-            "answer": "Our experienced educators offer innovative, research-based dissertation writing services, ensuring a high standard of academic writing, structure, citations, and references."
-        },
-        {
-            "question": "What types of BSc Nursing Assignment Solutions do you offer?",
-            "answer": "We cover a wide range of topics and subjects, providing tailored solutions that include detailed literature reviews, format adherence, and insightful arguments."
-        },
-        {
-            "question": "How do you handle urgent nursing assignment deadlines?",
-            "answer": "We offer reliable and timely delivery for all assignments, ensuring each task meets its deadline without compromising on quality and academic standards."
-        },
-    ];
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -178,132 +148,7 @@ const NursingAssignmentHelpinUK = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": " Nursing Case Study Help",
-                "WordCount": 1500,
-                "Citation": "APA",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5 Stars",
-                "University": "University of Manchester",
-                "Subject": "Nursing Ethics",
-                "Review": "Exceptional assistance with my case study. The attention to detail and research quality was outstanding. Highly recommend for nursing students.",
-                "Tags": ["Nursing Research Paper Help, Professional UK Nursing Assignment Writers"],
-                "ResponsefromMyPerfectWriting": "Thank you! We strive to offer detailed and insightful nursing assignment support.",
-                "Date": " 2023-11-15",
-                "image": "173.png"
-            },
-            {
-                "ServiceType": " Nursing Education Consultation UK",
-                "WordCount": 1000,
-                "Citation": "Harvard",
-                "OrderPrice": "£20.97",
-                "CustomerID": "MPW-445721",
-                "OrderRating": "5 Stars",
-                "University": "King's College London",
-                "Subject": "Advanced Nursing Practice",
-                "Review": "The consultation provided was incredibly beneficial. I gained clarity on complex topics and improved my academic performance significantly.",
-                "Tags": ["Quality Nursing Coursework Writing Services in UK, Nursing Homework Help"],
-                "ResponsefromMyPerfectWriting": "We are delighted to hear our consultation services made a positive impact on your studies!",
-                "Date": " 2023-12-03",
-                "image": "174.png"
-            },
-            {
-                "ServiceType": "Nursing Dissertation Guidance",
-                "WordCount": 2500,
-                "Citation": "Chicago",
-                "OrderPrice": "£69.90",
-                "CustomerID": "MPW-558832",
-                "OrderRating": "4.8 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "Pediatric Nursing",
-                "Review": "My dissertation was meticulously handled with in-depth research. The guidance provided was first-class.",
-                "Tags": ["MSc Nursing Thesis Writing, Reliable Nursing Homework Help in UK"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback. We pride ourselves on our comprehensive research capabilities.",
-                "Date": "2023-10-29",
-                "image": "175.png"
-            },
-            {
-                "ServiceType": "Online Nursing Assignment Assistance for UK Undergraduates",
-                "WordCount":2000,
-                "Citation": "MLA",
-                "OrderPrice": "£55.92",
-                "CustomerID": "MPW-666901",
-                "OrderRating": "4.9 Stars",
-                "University": "Imperial College London",
-                "Subject": "Community Health Nursing",
-                "Review": "The level of expertise and detail in my assignment was exceptional. Truly a service that understands nursing academics.",
-                "Tags": ["Specialized Nursing Research Paper Writing UK, UK Nursing Academic Coaching for Students  "],
-                "ResponsefromMyPerfectWriting": "We are glad to have met your expectations with our specialized nursing assignment assistance.",
-                "Date": "2023-09-17",
-                "image": "176.png"
-            },
-            {
-                "ServiceType": "Nursing Practicum Report Assistance",
-                "WordCount":1200,
-                "Citation": "APA",
-                "OrderPrice": "£41.88",
-                "CustomerID": "MPW-772563",
-                "OrderRating": "4.7 Stars",
-                "University": "University of Birmingham",
-                "Subject": "Mental Health Nursing",
-                "Review": "The practicum report was handled with professionalism and expertise, showcasing in-depth understanding of mental health nursing.",
-                "Tags": [" Nursing Homework Help, Nursing Research Paper Help"],
-                "ResponsefromMyPerfectWriting": "We appreciate your feedback. Our team is dedicated to delivering high-quality nursing reports.",
-                "Date": " 2023-08-21",
-                "image": "177.png"
-            },
-            {
-                "ServiceType": " Custom Nursing Assignments UK",
-                "WordCount": 1750,
-                "Citation": "Harvard",
-                "OrderPrice": "£48.93",
-                "CustomerID": " MPW-889300",
-                "OrderRating": "5 Stars",
-                "University": "University College London",
-                "Subject": "Oncology Nursing",
-                "Review": "Outstanding support for my oncology assignment. The research was comprehensive, and the writing perfectly tailored to my needs.",
-                "Tags": ["Professional UK Nursing Assignment Writers, Quality Nursing Coursework Writing Services in UK"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing our service. We're glad to have met your specific needs with our custom nursing assignments.",
-                "Date": "2023-07-30",
-                "image": "178.png"
-            },
-            {
-                "ServiceType": "Online Nursing Assignment Assistance for UK Undergraduates",
-                "WordCount":1300,
-                "Citation": "MLA",
-                "OrderPrice": " £45.87",
-                "CustomerID": "MPW-903455",
-                "OrderRating": "4.8 Stars",
-                "University": "University of Leeds",
-                "Subject": "Geriatric Nursing",
-                "Review": "Impressed by the level of detail and care put into my geriatric nursing assignment. The service was efficient and highly professional.",
-                "Tags": ["Reliable Nursing Homework Help in UK, Specialized Nursing Research Paper Writing UK"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to hear our service was beneficial for your geriatric nursing studies. Your satisfaction is our priority.",
-                "Date": "2023-06-15",
-                "image": "179.png"
-            },
-            {
-                "ServiceType": "Nursing Dissertation Guidance",
-                "WordCount": 2800,
-                "Citation": "Chicago",
-                "OrderPrice": "£77.72",
-                "CustomerID": "MPW-918276",
-                "OrderRating": "5 Stars",
-                "University": "Oxford University",
-                "Subject": "Nursing Leadership",
-                "Review": "Your guidance in my nursing leadership dissertation was invaluable. The expertise and in-depth analysis provided were exceptional.",
-                "Tags": ["MSc Nursing Thesis Writing, UK Nursing Academic Coaching for Students"],
-                "ResponsefromMyPerfectWriting": "Thank you for your kind words. We are committed to providing insightful and expert guidance for nursing dissertations.",
-                "Date": "2023-05-22",
-                "image": "180.png"
-            },
-           
-        ];
-
+      
     return (
         <>
             <Helmet>
@@ -313,6 +158,8 @@ const NursingAssignmentHelpinUK = () => {
                <meta name="description" content="Enhance your nursing studies with our Nursing Assignment Help in UK. My Perfect Writing offers specialized, comprehensive academic support." />
 
                <meta name="keywords" content="Nursing Assignment Help UK, UK Nursing Academic Assistance, Custom Nursing Homework Support, Professional Nursing Education Help UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/nursing-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -649,7 +496,7 @@ const NursingAssignmentHelpinUK = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.nursing_assignment_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -764,7 +611,7 @@ const NursingAssignmentHelpinUK = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.nursing_assignment.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

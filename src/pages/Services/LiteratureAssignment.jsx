@@ -9,6 +9,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -155,130 +156,7 @@ const LiteratureAssignment = () => {
     }
   };
 
-  // review section data
-  const Reviews =
-    [
-      {
-        "ServiceType": "Comprehensive Literature Review Writing",
-        "WordCount": 1500,
-        "Citation": "APA",
-        "OrderPrice": "£34.95",
-        "CustomerID": "MPW-340033",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Oxford",
-        "Subject": "English Literature",
-        "Review": "The depth of analysis and clarity in my literature review was exceptional. Truly professional literature review writing services UK.",
-        "Tags": ["Literature Analysis Help for Students", "Expert Writers for Literature Assignments"],
-        "ResponsefromMyPerfectWriting": "Thank you for your feedback! We strive to provide in-depth literature analysis support.",
-        "Date": "2023-11-15",
-        "image": "155.jpg"
-      },
-      {
-        "ServiceType": "Urgent Literature Assignment Support",
-        "WordCount": 1000,
-        "Citation": "MLA",
-        "OrderPrice": "£20.97",
-        "CustomerID": "MPW-454225",
-        "OrderRating": "4.8/5",
-        "NameofUniversity": "University of Cambridge",
-        "Subject": "Modern Poetry",
-        "Review": "Needed urgent help with my poetry assignment. The response and quality I received were beyond expectations.",
-        "Tags": ["Urgent Literature Assignment Support in United Kingdom", "English Literature Assignment"],
-        "ResponsefromMyPerfectWriting": "We are glad to have met your urgent needs with quality work.",
-        "Date": "2023-11-10",
-        "image": "154.jpg"
-      },
-      {
-        "ServiceType": "Literature Thesis Expert Assistance",
-        "WordCount": 2000,
-        "Citation": "Harvard",
-        "OrderPrice": "£41.94",
-        "CustomerID": "MPW-561167",
-        "OrderRating": "5/5",
-        "NameofUniversity": "King's College London",
-        "Subject": "Victorian Literature",
-        "Review": "The guidance for my literature thesis was invaluable. Highly recommend their Literature Thesis Support in the UK.",
-        "Tags": ["Literature Thesis Support in UK", "Professional Literature Review Writing Services UK"],
-        "ResponsefromMyPerfectWriting": "Your recommendation means a lot to us, thank you!",
-        "Date": "2023-11-05",
-        "image": "153.jpg"
-      },
-      {
-        "ServiceType": "Detailed Literary Devices Analysis",
-        "WordCount": 1200,
-        "Citation": "Chicago",
-        "OrderPrice": "£27.88",
-        "CustomerID": "MPW-670078",
-        "OrderRating": "4.9/5",
-        "NameofUniversity": "University of Edinburgh",
-        "Subject": "Literary Theory",
-        "Review": "The assignment on literary devices was spot on. The analysis was detailed and well-structured.",
-        "Tags": ["Assignment on Literary Devices", "UK-based Literature Study Assistance"],
-        "ResponsefromMyPerfectWriting": "We're thrilled you found our analysis detailed and helpful!",
-        "Date": "2023-10-30",
-        "image": "152.jpg"
-      },
-      {
-        "ServiceType": "Customized Essay on British Poetry",
-        "WordCount": 800,
-        "Citation": "MLA",
-        "OrderPrice": "£15.92",
-        "CustomerID": "MPW-783389",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University College London",
-        "Subject": "British Poetry",
-        "Review": "The custom essay on British poetry was impressive. Your writers truly understand literature nuances.",
-        "Tags": ["British Poetry IGNOU Assignment", "Custom Literature Essays UK"],
-        "ResponsefromMyPerfectWriting": "We're happy to hear that our custom approach met your needs.",
-        "Date": "2023-10-25",
-        "image": "151.jpg"
-      },
-      {
-        "ServiceType": "Exceptional Support for IGNOU Assignments",
-        "WordCount": 1100,
-        "Citation": "APA",
-        "OrderPrice": "£23.89",
-        "CustomerID": "MPW-891190",
-        "OrderRating": "4.7/5",
-        "NameofUniversity": "IGNOU",
-        "Subject": "Classical Literature",
-        "Review": "The support for my IGNOU literature assignment was exceptional. Precise and informative.",
-        "Tags": ["IGNOU BEGE 103", "Comprehensive Literature Coursework Assistance in UK"],
-        "ResponsefromMyPerfectWriting": "Thank you for choosing us for your IGNOU assignments.",
-        "Date": "2023-10-20",
-        "image": "150.jpg"
-      },
-      {
-        "ServiceType": "Insightful Language Through Literature Assistance",
-        "WordCount": 1300,
-        "Citation": "Harvard",
-        "OrderPrice": "£27.87",
-        "CustomerID": "MPW-901301",
-        "OrderRating": "4.8/5",
-        "NameofUniversity": "University of Leeds",
-        "Subject": "Language Studies",
-        "Review": "The insight provided for my language through literature assignment was outstanding.",
-        "Tags": ["Language Through Literature IGNOU Assignment", "Expert Writers for Literature Assignments"],
-        "ResponsefromMyPerfectWriting": "Outstanding insight is what we aim for. Thank you!",
-        "Date": "2023-10-15",
-        "image": "149.jpg"
-      },
-      {
-        "ServiceType": "Expertly Handled English Literature Assignment",
-        "WordCount": 900,
-        "Citation": "Chicago",
-        "OrderPrice": "£17.91",
-        "CustomerID": "MPW-910012",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Manchester",
-        "Subject": "English Literature",
-        "Review": "The expertise in handling my English literature assignment was evident. Very satisfied.",
-        "Tags": ["English Literature Assignment", "Online Literature Assignment Solutions for UK Students"],
-        "ResponsefromMyPerfectWriting": "We're glad to have met your expectations with our expertise.",
-        "Date": "2023-10-10",
-        "image": "148.jpg"
-      }
-    ];
+ 
 
   return (
     <>
@@ -288,6 +166,8 @@ const LiteratureAssignment = () => {
                <meta name="description" content="Achieve academic success with our Literature Assignment Help in UK. My Perfect Writing offers tailored support for all literature studies." />
 
                <meta name="keywords" content="Literature Assignment Help UK, UK Custom Literature Support, Academic Literature Assistance UK, Professional Literature Homework Help UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/literature-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -741,7 +621,7 @@ const LiteratureAssignment = () => {
         <div className="reviewSect">
           <div className="reviewSectDivScroll">
 
-            {Reviews.map((item, index) => (
+            {reviews.literature_assignment.map((item, index) => (
               <div className="reviewCard" key={index}>
                 <div className="sec1">
                   <div className="sec1Top">

@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -103,38 +105,7 @@ const NursingAssn = () => {
             </svg>
         },
     ]
-
-    // faqs data 
-    const faqData = [
-        {
-            question: "What sets your Peer Responses Service apart from others in the UK?",
-            answer: "We offer a unique blend of affordability, customised support, and expertise in academic writing and peer evaluations."
-        },
-        {
-            question: "How do you ensure the originality and quality of your service?",
-            answer: "Our services are plagiarism-free, with every response crafted by professionals, ensuring original and high-quality content."
-        },
-        {
-            question: "Can your service help with urgent deadlines?",
-            answer: "Yes, our reliable team is equipped to handle tight deadlines while maintaining the highest standards of quality."
-        },
-        {
-            question: "Do you provide support for all types of academic writing?",
-            answer: "Our service covers a wide range of academic writings, from essays to dissertations, tailored to your specific needs."
-        },
-        {
-            question: "What kind of feedback can I expect from your peer review service?",
-            answer: "You'll receive comprehensive, detailed, and insightful feedback that enhances the quality of your academic work."
-        },
-        {
-            question: "Is the process confidential and secure?",
-            answer: "Yes, we ensure complete confidentiality and security in all our services, respecting your privacy at every step."
-        },
-        {
-            question: "How does your service cater to specific subjects or topics?",
-            answer: "Our team of experts covers a broad range of subjects, offering customised support and guidance for your specific topic."
-        }
-    ];
+ 
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -177,132 +148,7 @@ const NursingAssn = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-
-            {
-                "ServiceType": "Essay Peer Evaluation",
-                "WordCount": 900,
-                "Citation": "Harvard",
-                "OrderPrice": "£20.97",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5/5",
-                "University": "University of Manchester",
-                "Subject": "Political Science",
-                "Review": "Exceptional analysis and feedback. Elevated the quality of my essay significantly.",
-                "Tags": ["Comprehensive Coursework Review Assistance UK"],
-                "ResponsefromMyPerfectWriting": "Thrilled to have assisted with your political science essay. Your success is our priority!",
-                "Date": "15th November 2023",
-                "image": "009.jpg"
-            },
-            {
-                "ServiceType": "Coursework Review Service",
-                "WordCount": 1200,
-                "Citation": "MLA",
-                "OrderPrice": "£27.96",
-                "CustomerID": "MPW-657090",
-                "OrderRating": "4.5/5",
-                "University": "Oxford University",
-                "Subject": "Literature",
-                "Review": "Detailed and insightful critique that truly enhanced my coursework.",
-                "Tags": ["UK University Writing Support"],
-                "ResponsefromMyPerfectWriting": "Glad to support your literature journey with our expert review services.",
-                "Date": "10th November 2023",
-                "image": "010.jpg"
-            },
-            {
-                "ServiceType": "Online Academic Collaboration",
-                "WordCount": 1500,
-                "Citation": "APA",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-120056",
-                "OrderRating": "5/5",
-                "University": "University of Edinburgh",
-                "Subject": "Psychology",
-                "Review": "Outstanding collaborative effort. Your feedback was invaluable for my psychology paper.",
-                "Tags": ["Online Academic Collaboration UK"],
-                "ResponsefromMyPerfectWriting": "Your psychology paper was a fascinating project for us. Thank you for choosing our service!",
-                "Date": "5th November 2023",
-                "image": "011.jpg"
-            },
-            {
-                "ServiceType": "Discussion Board Feedback",
-                "WordCount": 600,
-                "Citation": "Chicago",
-                "OrderPrice": "£20.94",
-                "CustomerID": "MPW-258741",
-                "OrderRating": "4.8/5",
-                "University": "University College London",
-                "Subject": "Sociology",
-                "Review": "Your feedback on my discussion post was detailed and critically engaging. Highly recommend.",
-                "Tags": ["Essay Peer Evaluation UK"],
-                "ResponsefromMyPerfectWriting": "We're delighted to have contributed to your sociology discussion. Your success matters to us!",
-                "Date": "1st November 2023",
-                "image": "012.jpg"
-            },
-            {
-                "ServiceType": "Custom Feedback on Thesis",
-                "WordCount": 2500,
-                "Citation": "Harvard",
-                "OrderPrice": "£52.48",
-                "CustomerID": "MPW-709406",
-                "OrderRating": "5/5",
-                "University": "King's College London",
-                "Subject": "Business Management",
-                "Review": "Invaluable feedback for my thesis. Enhanced my argument structure significantly.",
-                "Tags": ["British University Assignment Feedback Solutions"],
-                "ResponsefromMyPerfectWriting": "Assisting with your business management thesis was our pleasure. We strive for your academic excellence!",
-                "Date": "25th October 2023",
-                "image": "013.jpg"
-            },
-            {
-                "ServiceType": "Reflective Essay Review",
-                "WordCount": 800,
-                "Citation": "MLA",
-                "OrderPrice": "£27.92",
-                "CustomerID": "MPW-490103",
-                "OrderRating": "4.7/5",
-                "University": "The University of Warwick",
-                "Subject": "Philosophy",
-                "Review": "Your team provided deep insights and thoughtful critique. My reflective essay is much stronger now.",
-                "Tags": ["Online Student Writing Collaboration in United Kingdom"],
-                "ResponsefromMyPerfectWriting": "We are thrilled to hear that our feedback improved your philosophy essay. Thank you for trusting us!",
-                "Date": "18th October 2023",
-                "image": "014.jpg"
-            },
-            {
-                "ServiceType": "Dissertation Analysis Feedback",
-                "WordCount": 3500,
-                "Citation": "APA",
-                "OrderPrice": "£69.97",
-                "CustomerID": "MPW-907054",
-                "OrderRating": "5/5",
-                "University": "University of Leeds",
-                "Subject": "Environmental Science",
-                "Review": "Your feedback was critical in shaping my dissertation's analytical depth. Superb service!",
-                "Tags": ["Coursework Review Service UK"],
-                "ResponsefromMyPerfectWriting": "Helping to refine your environmental science dissertation was an honour. We're proud of your achievement!",
-                "Date": "12th October 2023",
-                "image": "015.jpg"
-            },
-            {
-                "ServiceType": "Coursework Peer Review",
-                "WordCount": 1100,
-                "Citation": "Chicago",
-                "OrderPrice": "£31.89",
-                "CustomerID": "MPW-654021",
-                "OrderRating": "4.9/5",
-                "University": "University of Glasgow",
-                "Subject": "History",
-                "Review": "Impressed with the depth of historical analysis and feedback. Transformed my coursework.",
-                "Tags": ["Affordable Peer Response Services for UK Students"],
-                "ResponsefromMyPerfectWriting": "Your history coursework was a fascinating",
-                "Date": null,
-                "image": "016.jpg"
-            }
-
-        ];
+       
 
     return (
         <>
@@ -312,6 +158,8 @@ const NursingAssn = () => {
             <meta name="description" content="Discover expert Peer Responses Service in UK at My Perfect Writing. Quality, ethical academic support for diverse disciplines and projects." />
 
             <meta name="keywords" content="Peer Responses Service UK, Academic Peer Review UK, Student-to-Student Writing Help, University Assignment Feedback UK"></meta>
+
+            <link rel="canonical" href="https://www.myperfectwriting.co.uk/peer-responses-service" />
 
                 {/* Facebook meta description */}
 
@@ -654,7 +502,7 @@ const NursingAssn = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.peer_responses_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -769,7 +617,7 @@ const NursingAssn = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.peer_response.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

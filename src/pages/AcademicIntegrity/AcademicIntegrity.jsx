@@ -12,6 +12,8 @@ const AcademicIntegrity = () => {
 
                 <meta name="keywords" content="My Perfect Writing Academic Integrity, Ethical Academic Support UK,Academic Honesty Policies, My Perfect Writing Educational Standards"></meta>
 
+                <link rel="canonical" href="https://www.myperfectwriting.co.uk/academic-integrity" />
+
                 <script type="application/ld+json">
                     {`
  {

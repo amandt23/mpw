@@ -9,6 +9,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -155,130 +156,7 @@ const DissertionAssignment = () => {
     }
   };
 
-  // review section data
-  const Reviews =
-    [
-      {
-        "ServiceType": "Dissertation Proofreading",
-        "WordCount": 9000,
-        "Citation": "Harvard",
-        "OrderPrice": "£188.91",
-        "CustomerID": "MPW-340033",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Cambridge",
-        "Subject": "History",
-        "Review": "The precision and attention to detail in the proofreading were remarkable. The team’s expertise in Harvard citation was evident.",
-        "Tags": ["thesis proofreading service", "UK master’s thesis proofreading specialists"],
-        "ResponseFromMyPerfectWriting": "Thank you for your feedback! We are thrilled to have assisted you with your history dissertation.",
-        "Date": "2023-11-15",
-        "image": "139.jpg"
-      },
-      {
-        "ServiceType": "Thesis Proofreading",
-        "WordCount": 15000,
-        "Citation": "APA",
-        "OrderPrice": "£314.85",
-        "CustomerID": "MPW-443002",
-        "OrderRating": "4.8/5",
-        "NameofUniversity": "Imperial College London",
-        "Subject": "Engineering",
-        "Review": "Impressive work on my engineering thesis. The clarity and coherence brought by your proofreading were invaluable.",
-        "Tags": ["proof reading thesis", "Custom dissertation proofreading services UK"],
-        "ResponseFromMyPerfectWriting": "We're glad to hear that our service met your expectations. Thanks for choosing us for your engineering thesis!",
-        "Date": "2023-11-10",
-        "image": "138.jpg"
-      },
-      {
-        "ServiceType": "Dissertation Editing",
-        "WordCount": 12000,
-        "Citation": "MLA",
-        "OrderPrice": "£251.88",
-        "CustomerID": "MPW-956607",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Edinburgh",
-        "Subject": "Literature",
-        "Review": "The editors were phenomenal in their meticulous approach, especially with MLA citations. Highly recommend!",
-        "Tags": ["best dissertation proofreading services", "British academic editors"],
-        "ResponseFromMyPerfectWriting": "Thank you for your kind words! Our team is delighted to have supported your literature dissertation.",
-        "Date": "2023-11-05",
-        "image": "137.jpg"
-      },
-      {
-        "ServiceType": "Thesis Proofreading",
-        "WordCount": 8000,
-        "Citation": "Chicago",
-        "OrderPrice": "£167.92",
-        "CustomerID": "MPW-760921",
-        "OrderRating": "4.9/5",
-        "NameofUniversity": "King's College London",
-        "Subject": "Political Science",
-        "Review": "Absolutely impressed with the speed and accuracy. The Chicago style was perfectly handled.",
-        "Tags": ["proofreading bachelor thesis", "Academic manuscript proofreading"],
-        "ResponseFromMyPerfectWriting": "We appreciate your review! Our team strives for accuracy and speed in all projects.",
-        "Date": "2023-11-20",
-        "image": "136.jpg"
-      },
-      {
-        "ServiceType": "Dissertation Proofreading",
-        "WordCount": 11000,
-        "Citation": "APA",
-        "OrderPrice": "£230.89",
-        "CustomerID": "MPW-874980",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Manchester",
-        "Subject": "Sociology",
-        "Review": "Your team's insight into APA style and academic writing made a significant difference. Exceptional service!",
-        "Tags": ["proof read dissertation", "In-depth UK dissertation grammar check services"],
-        "ResponseFromMyPerfectWriting": "Thank you for trusting us with your sociology dissertation. We're delighted to help!",
-        "Date": "2023-11-18",
-        "image": "135.jpg"
-      },
-      {
-        "ServiceType": "Master's Thesis Editing",
-        "WordCount": 15000,
-        "Citation": "MLA",
-        "OrderPrice": "£314.85",
-        "CustomerID": "MPW-603990",
-        "OrderRating": "4.7/5",
-        "NameofUniversity": "University of Birmingham",
-        "Subject": "Psychology",
-        "Review": "The level of detail and attention in the MLA formatting was impressive. Truly a top-rated service.",
-        "Tags": ["thesis proof reading", "UK master’s thesis proofreading specialists"],
-        "ResponseFromMyPerfectWriting": "We are thrilled to hear about your positive experience. Our team is dedicated to providing top-rated services.",
-        "Date": "2023-11-12",
-        "image": "134.jpg"
-      },
-      {
-        "ServiceType": "Dissertation Editing",
-        "WordCount": 20000,
-        "Citation": "Harvard",
-        "OrderPrice": "£419.80",
-        "CustomerID": "MPW-109233",
-        "OrderRating": "5/5",
-        "NameofUniversity": "London School of Economics",
-        "Subject": "Economics",
-        "Review": "Your Harvard citation expertise and detailed feedback on my economics dissertation were invaluable.",
-        "Tags": ["Online PhD dissertation proofreading in UK", "English language dissertation editing"],
-        "ResponseFromMyPerfectWriting": "It's our pleasure to support your academic journey, especially with such a complex subject.",
-        "Date": "2023-11-08",
-        "image": "133.jpg"
-      },
-      {
-        "ServiceType": "Dissertation Proofreading",
-        "WordCount": 13500,
-        "Citation": "Chicago",
-        "OrderPrice": "£281.85",
-        "CustomerID": "MPW-558288",
-        "OrderRating": "4.8/5",
-        "NameofUniversity": "University of Oxford",
-        "Subject": "Philosophy",
-        "Review": "The philosophical arguments were enhanced by your meticulous proofreading. Chicago style was impeccably applied.",
-        "Tags": ["Custom dissertation proofreading services UK", "Postgraduate dissertation editing services in UK"],
-        "ResponseFromMyPerfectWriting": "We're proud to have contributed to the clarity and depth of your philosophical arguments. Thank you for choosing us!",
-        "Date": "2023-11-03",
-        "image": "132.jpg"
-      }
-    ];
+
 
   return (
     <>
@@ -288,6 +166,8 @@ const DissertionAssignment = () => {
                <meta name="description" content="Refine your academic work with our Dissertation Proofreading Service in UK. My Perfect Writing ensures top-quality, detailed editing for excellence." />
 
                <meta name="keywords" content="Dissertation Proofreading Service UK, UK Academic Dissertation Editing, Custom Dissertation Proofreading UK, Expert Thesis Proofreading Service UK."></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/dissertation-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -742,7 +622,7 @@ const DissertionAssignment = () => {
         <div className="reviewSect">
           <div className="reviewSectDivScroll">
 
-            {Reviews.map((item, index) => (
+            {reviews.dissertation_proofreading.map((item, index) => (
               <div className="reviewCard" key={index}>
                 <div className="sec1">
                   <div className="sec1Top">

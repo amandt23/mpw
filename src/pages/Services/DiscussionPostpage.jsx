@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -102,18 +104,7 @@ const DiscussionPostpage = () => {
       </svg>
     },
   ]
-
-  // faqs data 
-  const faqData = [
-    { question: 'How does My Perfect Writing ensure originality in discussion posts?', answer: 'Our service guarantees plagiarism-free content, with every discussion post crafted by professionals adhering to academic integrity.' },
-    { question: 'Can you write my discussion post for me in APA format?', answer: ' Absolutely! Our writers are proficient in APA format and various citation styles, ensuring your posts meet university standards.' },
-    { question: 'What is the process for crafting insightful academic discussion contributions?', answer: 'Our experts engage in comprehensive research and critical analysis to create insightful and argument-driven discussion posts.' },
-    { question: 'How can I maximize participation in virtual class discussions with your service?', answer: 'Our tailored discussion posts are designed to encourage engagement and foster interactive thread responses in your course forums.' },
-    { question: 'Do you provide services for editing and proofreading discussion posts?', answer: ' Yes, we offer comprehensive editing and proofreading services to refine and enhance the quality of your discussion posts.' },
-    { question: 'How do you ensure timely delivery for discussion post assignments?', answer: 'Our team of dedicated writers prioritizes efficient delivery, ensuring your discussion posts are completed well within the deadline.' },
-    { question: 'Can you provide feedback on my existing discussion board post?', answer: 'Certainly! Our professionals can offer constructive feedback and guidance to enhance the effectiveness of your existing posts.' },
-
-  ];
+ 
   const faqData2 = [
     { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
     { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -156,133 +147,8 @@ const DiscussionPostpage = () => {
     }
   };
 
-  // review section data
-  const Reviews =
-    [
 
-      {
-        "ServiceType": "Custom Discussion Post",
-        "WordCount": 900,
-        "Citation": "Harvard",
-        "OrderPrice": "£20.97",
-        "CustomerID": "MPW-313533",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Oxford",
-        "Subject": "History",
-        "Review": "The discussion post was insightful and perfectly structured. My professor was impressed with the critical analysis.",
-        "Tags": ["educational debate post", "thoughtful post reply"],
-        "ResponsefromMyPerfectWriting": "Thank you for your feedback! We're thrilled to have contributed to your academic success.",
-        "Date": "2023-11-10",
-        "image": "001.jpg"
-      },
-      {
-        "ServiceType": "APA Style Discussion Post",
-        "WordCount": 600,
-        "Citation": "APA",
-        "OrderPrice": "£13.98",
-        "CustomerID": "MPW-343584",
-        "OrderRating": "5 Stars",
-        "University": "King's College London",
-        "Subject": "Psychology",
-        "Review": "Exceptional quality and adherence to APA format. The post was engaging and received positive peer responses.",
-        "Tags": ["classroom dialogue submission", "apa discussion post"],
-        "ResponsefromMyPerfectWriting": "We appreciate your remarks and are glad to have met your expectations for format and quality.",
-        "Date": "2023-11-11",
-        "image": "002.jpg"
-      },
-      {
-        "ServiceType": "Research Discussion Post",
-        "WordCount": 1200,
-        "Citation": "MLA",
-        "OrderPrice": "£27.96",
-        "CustomerID": "MPW-340530",
-        "OrderRating": "4.5 Stars",
-        "University": "University of Cambridge",
-        "Subject": "Sociology",
-        "Review": "The post was rich in content, well-researched, and sparked a lively class discussion. Very satisfied.",
-        "Tags": ["online learning forum post guidelines", "virtual class discussion"],
-        "ResponsefromMyPerfectWriting": "Thank you for choosing us. It's great to hear that the post initiated an engaging class discussion.",
-        "Date": "2023-11-12",
-        "image": "003.jpg"
-      },
-      {
-        "ServiceType": "Reflective Discussion Post",
-        "WordCount": 800,
-        "Citation": "Chicago",
-        "OrderPrice": "£20.93",
-        "CustomerID": "MPW-343550",
-        "OrderRating": "5 Stars",
-        "University": "University College London",
-        "Subject": "Philosophy",
-        "Review": "The depth and clarity of the reflective post were outstanding. It fostered meaningful discussions in class.",
-        "Tags": ["reflective post analysis", "critical analysis in online discussion postings"],
-        "ResponsefromMyPerfectWriting": "We're delighted to hear about the impact of the post. Thank you for sharing your experience!",
-        "Date": "2023-11-13",
-        "image": "004.jpg"
-      },
-      {
-        "ServiceType": "Analytical Discussion Post",
-        "WordCount": 700,
-        "Citation": "Harvard",
-        "OrderPrice": "£18.93",
-        "CustomerID": "MPW-043532",
-        "OrderRating": "4.8 Stars",
-        "University": "Edinburgh University",
-        "Subject": "Economics",
-        "Review": "Impressed with the detailed economic analysis. The post was well-received and sparked great classroom debate.",
-        "Tags": ["educational debate post", "online forum participation"],
-        "ResponsefromMyPerfectWriting": "Thank you for your feedback. We strive to provide in-depth analysis in every post we write.",
-        "Date": "2023-11-14",
-        "image": "005.jpg"
-      },
-      {
-        "ServiceType": "Argumentative Discussion Post",
-        "WordCount": 550,
-        "Citation": "APA",
-        "OrderPrice": "£16.94",
-        "CustomerID": "MPW-343538",
-        "OrderRating": "5 Stars",
-        "University": "London School of Economics",
-        "Subject": "Politics",
-        "Review": "Your service captured the essence of my argument perfectly. My tutors were impressed with the post's coherence.",
-        "Tags": ["thoughtful post reply", "classroom dialogue submission"],
-        "ResponsefromMyPerfectWriting": "We're thrilled to have assisted in articulating your arguments effectively. Thank you!",
-        "Date": "2023-11-15",
-        "image": "006.jpg"
-      },
-      {
-        "ServiceType": "Comparative Discussion Post",
-        "WordCount": 650,
-        "Citation": "MLA",
-        "OrderPrice": "£17.94",
-        "CustomerID": "MPW-343530",
-        "OrderRating": "4.9 Stars",
-        "University": "Manchester University",
-        "Subject": "Literature",
-        "Review": "The comparative analysis in my literature post was exceptional, eliciting high praise from my peers and instructors.",
-        "Tags": ["virtual class discussion", "peer feedback techniques for discussion forums"],
-        "ResponsefromMyPerfectWriting": "We appreciate your kind words. Our aim is to provide posts that engage and enlighten.",
-        "Date": "2023-11-16",
-        "image": "007.jpg"
-      },
-      {
-        "ServiceType": "Expository Discussion Post",
-        "WordCount": 1000,
-        "Citation": "Chicago",
-        "OrderPrice": "£27.96",
-        "CustomerID": "MPW-313540",
-        "OrderRating": "5 Stars",
-        "University": "University of Birmingham",
-        "Subject": "Environmental Science",
-        "Review": "Your detailed expository post on environmental issues was not only informative but also highly engaging.",
-        "Tags": ["crafting insightful academic discussion contributions", "google classroom discussion board"],
-        "ResponsefromMyPerfectWriting": "Thank you for your remarks. We are glad to contribute to raising awareness on crucial topics.",
-        "Date": "2023-11-17",
-        "image": "008.jpg"
-      }
-
-    ];
-
+ 
   return (
     <>
     
@@ -291,6 +157,8 @@ const DiscussionPostpage = () => {
             <meta name="description" content="Experience top-tier discussion post service in UK with My Perfect Writing. Tailored, plagiarism-free academic support for impactful online discussions" />
 
             <meta name="keywords" content="Discussion Post Service UK, Academic Writing Support UK, Custom Discussion Posts, Online Discussion Assistance"></meta>
+
+            <link rel="canonical" href="https://www.myperfectwriting.co.uk/discussion-post-page" />
 
                 {/* Facebook meta description */}
 
@@ -635,7 +503,7 @@ const DiscussionPostpage = () => {
             <h3>What's covered?</h3>
             <hr />
             <div className="faq-container">
-              {faqData.map((item, index) => (
+              {faqs.discussion_postpage_faqs.map((item, index) => (
                 <div key={index} className="faq-item">
                   <div className="faq-question" onClick={() => toggleFAQ(index)}>
                     <div className="faq-q-right">
@@ -750,7 +618,7 @@ const DiscussionPostpage = () => {
         <div className="reviewSect">
           <div className="reviewSectDivScroll">
 
-            {Reviews.map((item, index) => (
+            {reviews.discussion_post_page.map((item, index) => (
               <div className="reviewCard" key={index}>
                 <div className="sec1">
                   <div className="sec1Top">

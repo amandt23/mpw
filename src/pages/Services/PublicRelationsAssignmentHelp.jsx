@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -178,132 +179,7 @@ const PublicRelationsAssignmentHelp = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Essay ",
-                "WordCount": 1500,
-                "Citation": "Harvard",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Public Relations Strategies",
-                "Review": "The essay was insightful and thorough, exceeding my expectations.",
-                "Tags": ["ExpertUKBasedPRAssignmentTutors "],
-                "ResponsefromMyPerfectWriting": "Thrilled to have exceeded your expectations!",
-                "Date": "2023-06-15",
-                "image": "228.png"
-            },
-            {
-                "ServiceType": "Case Study",
-                "WordCount": 2000,
-                "Citation": "APA",
-                "OrderPrice": "£41.98",
-                "CustomerID": "MPW-347201",
-                "OrderRating": "5 Stars",
-                "University": "University of Cambridge",
-                "Subject": "PR Campaign Analysis",
-                "Review": "Exceptional analysis, perfectly structured.",
-                "Tags": ["BestPublicRelationsAssignmentServicesinUK "],
-                "ResponsefromMyPerfectWriting": "Thank you for your kind words!",
-                "Date": "2023-07-03",
-                "image": "229.png"
-            },
-            {
-                "ServiceType": " Research Paper",
-                "WordCount": 2500,
-                "Citation": "MLA",
-                "OrderPrice": " £52.48",
-                "CustomerID": "MPW-351284",
-                "OrderRating": "4.8 Stars",
-                "University": "London School of Economics",
-                "Subject": "Modern PR Theories",
-                "Review": "Impressive depth of research and analysis. Great job!",
-                "Tags": ["PublicRelationsAcademicProjectHelpinUK"],
-                "ResponsefromMyPerfectWriting": "Happy to provide in-depth analysis for your research.",
-                "Date": "2023-08-10",
-                "image": "230.png"
-            },
-            {
-                "ServiceType": "Dissertation ",
-                "WordCount": 10000,
-                "Citation": "Chicago",
-                "OrderPrice": "£209.90",
-                "CustomerID": "MPW-355676",
-                "OrderRating": "5 Stars",
-                "University": "University of Manchester",
-                "Subject": " PR Ethics",
-                "Review": "Outstanding support through my dissertation journey.",
-                "Tags": ["ImmediateHelpwithPRAssignmentsinUK"],
-                "ResponsefromMyPerfectWriting": "Pleased to support your dissertation process.",
-                "Date": "2023-09-05",
-                "image": "231.png"
-            },
-            {
-                "ServiceType": "Thesis",
-                "WordCount": 8000,
-                "Citation": "Harvard",
-                "OrderPrice": "£167.92",
-                "CustomerID": "MPW-359832",
-                "OrderRating": "4.9 Stars",
-                "University": "Imperial College London",
-                "Subject": "PR in Digital Media ",
-                "Review": "Thoroughly researched and well-presented thesis. Highly recommend.",
-                "Tags": ["UKPublicRelationsAssignmentWritingExperts"],
-                "ResponsefromMyPerfectWriting": "Thank you for recommending us!",
-                "Date": " 2023-10-21",
-                "image": "232.png"
-            },
-            {
-                "ServiceType": " Essay",
-                "WordCount": 1800,
-                "Citation": "APA",
-                "OrderPrice": " £41.94",
-                "CustomerID": "MPW-364004 ",
-                "OrderRating": "4.7 Stars",
-                "University": "University of Birmingham ",
-                "Subject": "International PR",
-                "Review": "Excellent customization to meet my specific requirements.",
-                "Tags": ["CustomPRAssignments"],
-                "ResponsefromMyPerfectWriting": "Customization is key to our service.",
-                "Date": " 2023-11-12",
-                "image": "233.png"
-            },
-            {
-                "ServiceType": "Assignment",
-                "WordCount": 3000,
-                "Citation": "MLA",
-                "OrderPrice": " £62.97",
-                "CustomerID": "MPW-368123",
-                "OrderRating": "5 Stars",
-                "University": "King's College London",
-                "Subject": "PR Crisis Management",
-                "Review": "Handled the complex topic of crisis management superbly.",
-                "Tags": ["SpecializedPRAssignmentGuidanceforUKStudents"],
-                "ResponsefromMyPerfectWriting": "Glad we could handle the complexity well.",
-                "Date": "2023-12-01",
-                "image": "234.png"
-            },
-            {
-                "ServiceType": "Report ",
-                "WordCount": 2200,
-                "Citation": "Chicago",
-                "OrderPrice": " £46.16 ",
-                "CustomerID": "MPW-372560",
-                "OrderRating": "4.6 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "PR and Social Media",
-                "Review": "The report was comprehensive and insightful.",
-                "Tags": ["PRAssignmentExperts"],
-                "ResponsefromMyPerfectWriting": "We aim for comprehensive insights in every report.",
-                "Date": "2023-12-20",
-                "image": "235.png"
-            },
-           
-        ];
-
+ 
     return (
         <>
             <Helmet>
@@ -312,6 +188,8 @@ const PublicRelationsAssignmentHelp = () => {
                <meta name="description" content="Achieve academic success with our Public Relations Assignment Help in UK. My Perfect Writing offers specialized support for all PR studies." />
 
                <meta name="keywords" content="Public Relations Assignment Help UK, UK PR Academic Assistance, Custom PR Assignment Services, Professional Public Relations Homework Help UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/public-relations-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -764,7 +642,7 @@ const PublicRelationsAssignmentHelp = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.public_relations.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

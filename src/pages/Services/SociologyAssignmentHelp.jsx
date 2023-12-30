@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -178,132 +179,7 @@ const SociologyAssignmentHelp = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Sociology Research Paper",
-                "WordCount": 1500,
-                "Citation": "Harvard",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343533",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Clinical Sociology",
-                "Review": "I was impressed with the depth of research. Truly professional sociology writers UK!",
-                "Tags": ["Professional Sociology Writers UK, Quality Sociology Research Paper Help in UK"],
-                "ResponsefromMyPerfectWriting": "Thank you! We pride ourselves on in-depth research and quality.",
-                "Date": "2023-11-10",
-                "image": "220.png"
-            },
-            {
-                "ServiceType": "Sociology Essay",
-                "WordCount": 1000,
-                "Citation": "APA",
-                "OrderPrice": "£23.30",
-                "CustomerID": "MPW-456789",
-                "OrderRating": "4.5 Stars",
-                "University": "University of Cambridge",
-                "Subject": "BSOC 107 Sociology of Gender",
-                "Review": "Your team provided insightful analysis for my sociology of gender essay. Great job!",
-                "Tags": ["Custom Sociology Assignment Services, Online Sociology Homework Help UK"],
-                "ResponsefromMyPerfectWriting": "We're glad you found our analysis helpful. Thanks for choosing us!",
-                "Date": "2023-11-15",
-                "image": "221.png"
-            },
-            {
-                "ServiceType": " Sociology Case Study",
-                "WordCount": 2000,
-                "Citation": "MLA",
-                "OrderPrice": "£46.65",
-                "CustomerID": "MPW-567890",
-                "OrderRating": "5 Stars",
-                "University": "London School of Economics",
-                "Subject": "Health and Social Care",
-                "Review": "The sociology case study was exceptional. The writers' expertise clearly shone through.",
-                "Tags": ["Sociology Case Study Writing Expertise in UK, Masters Level Sociology Help"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback. We aim for excellence in every case study.",
-                "Date": "2023-11-20",
-                "image": "222.png"
-            },
-            {
-                "ServiceType": "Sociology Dissertation",
-                "WordCount": 10000,
-                "Citation": "Chicago",
-                "OrderPrice": "£174.90",
-                "CustomerID": "MPW-678901",
-                "OrderRating": "4.8 Stars",
-                "University": "University of Manchester",
-                "Subject": " Urban Sociology",
-                "Review": "Incredibly detailed and well-structured dissertation. Highly recommend their services.",
-                "Tags": ["Professional Sociology Dissertation Writing Services UK, Detailed and Insightful"],
-                "ResponsefromMyPerfectWriting": "We appreciate your recommendation and are thrilled you were satisfied.",
-                "Date": "2023-11-25",
-                "image": "223.png"
-            },
-            {
-                "ServiceType": "Sociology Assignment",
-                "WordCount": 2500,
-                "Citation": "Harvard",
-                "OrderPrice": "£58.23",
-                "CustomerID": "MPW-789012",
-                "OrderRating": "4.7 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "BSOC 102 Sociology",
-                "Review": "Excellent analysis and timely delivery. Your team really understands sociology homework needs.",
-                "Tags": ["Sociology Homework Assignments, Affordable and Reliable"],
-                "ResponsefromMyPerfectWriting": "Timely and insightful analysis is our goal. Thanks for your trust.",
-                "Date": "2023-11-30",
-                "image": "224.png"
-            },
-            {
-                "ServiceType": "Sociology Essay",
-                "WordCount": 1500,
-                "Citation": "APA",
-                "OrderPrice": " £34.95",
-                "CustomerID": "MPW-890123",
-                "OrderRating": "4.9 Stars",
-                "University": "University of Warwick",
-                "Subject": "Sociology of Law",
-                "Review": "The essay was thoroughly researched and well-written. Impressed with the quality.",
-                "Tags": ["Quality Sociology Research Paper Help in UK, Expert Writers"],
-                "ResponsefromMyPerfectWriting": "We're delighted to hear that. Quality and thorough research are our priorities.",
-                "Date": "2023-12-05",
-                "image": "225.png"
-            },
-            {
-                "ServiceType": "Sociology Coursework",
-                "WordCount": 3000,
-                "Citation": "MLA",
-                "OrderPrice": " £69.90",
-                "CustomerID": "MPW-901234",
-                "OrderRating": "5 Stars",
-                "University": "King's College London",
-                "Subject": "Sociology of Education",
-                "Review": "The coursework was both innovative and insightful. Appreciate the custom approach.",
-                "Tags": ["Custom Sociology Assignment Services, Innovative and Insightful"],
-                "ResponsefromMyPerfectWriting": "Innovation and insight are key to our custom services. Thank you for choosing us.",
-                "Date": "2023-12-10",
-                "image": "226.png"
-            },
-            {
-                "ServiceType": "Sociology Thesis",
-                "WordCount": 8000,
-                "Citation": "Harvard",
-                "OrderPrice": "£139.92",
-                "CustomerID": "MPW-012345",
-                "OrderRating": "4.8 Stars",
-                "University": "University College London",
-                "Subject": "Comparative Sociology",
-                "Review": "Your guidance and expertise in sociology thesis writing were invaluable. Thank you!",
-                "Tags": ["Expert Sociology Tutoring UK, Comprehensive Sociology Project Help for UK Universities"],
-                "ResponsefromMyPerfectWriting": "We're here to provide expert guidance. Your success is our priority.",
-                "Date": "2023-12-15",
-                "image": "227.png"
-            },
-           
-        ];
-
+   
     return (
         <>
             <Helmet>
@@ -312,6 +188,8 @@ const SociologyAssignmentHelp = () => {
                <meta name="description" content="Enhance your studies with Sociology Assignment Help in UK. My Perfect Writing offers comprehensive, tailored academic support in the UK." />
 
                <meta name="keywords" content="Sociology Assignment Help UK, UK Sociology Academic Assistance, Custom Sociology Assignment Services, Professional Sociology Homework Help UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/sociology-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -764,7 +642,7 @@ const SociologyAssignmentHelp = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.sociology_assignment.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

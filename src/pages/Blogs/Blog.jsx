@@ -36,6 +36,8 @@ const Blog = () => {
 
                 <meta name="keywords" content="Blog on Essay Writing Service UK, Academic Writing Tips UK, UK Essay Service Insights, My Perfect Writing Blog Updates"></meta>
 
+                <link rel="canonical" href="https://www.myperfectwriting.co.uk/blog" />
+
 <script type="application/ld+json">
     {`
   {

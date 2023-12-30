@@ -9,6 +9,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -155,131 +156,7 @@ const PhilosphyAssignment = () => {
     }
   };
 
-  // review section data
-  const Reviews =
-    [
-      {
-        "ServiceType": "Essay Writing",
-        "WordCount": 1500,
-        "Citation": "Harvard",
-        "OrderPrice": "£34.95",
-        "CustomerID": "MPW-341133",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Oxford",
-        "Subject": "Literature Analysis",
-        "Review": "Incredibly insightful literature essay with impeccable Harvard referencing. The attention to detail was remarkable.",
-        "Tags": ["Literature", "Essay", "Harvard"],
-        "ResponsefromMyPerfectWriting": "We are thrilled you found our academic English editing services helpful. Thank you for choosing us!",
-        "Date": "2023-11-03",
-        "image": "172.jpg"
-      },
-      {
-        "ServiceType": "Research Paper",
-        "WordCount": 2000,
-        "Citation": "MLA",
-        "OrderPrice": "£46.65",
-        "CustomerID": "MPW-340434",
-        "OrderRating": "5/5",
-        "NameofUniversity": "Imperial College London",
-        "Subject": "Environmental Science",
-        "Review": "Outstanding research paper. The English assignment helper was knowledgeable and the paper had zero plagiarism.",
-        "Tags": ["Research", "Science", "MLA"],
-        "ResponsefromMyPerfectWriting": "We appreciate your feedback on our University Level English Assignment Services in the UK.",
-        "Date": "2023-11-05",
-        "image": "171.jpg"
-      },
-      {
-        "ServiceType": "Thesis Consultation",
-        "WordCount": 3500,
-        "Citation": "APA",
-        "OrderPrice": "£81.93",
-        "CustomerID": "MPW-343035",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Cambridge",
-        "Subject": "Philosophy",
-        "Review": "The thesis guidance was superb. The English 1101 assignments help really boosted my understanding of complex topics.",
-        "Tags": ["Thesis", "Philosophy", "APA"],
-        "ResponsefromMyPerfectWriting": "It's great to hear our Graduate English Essay Assistance in the UK was beneficial to you.",
-        "Date": "2023-11-10",
-        "image": "170.jpg"
-      },
-      {
-        "ServiceType": "Article Critique",
-        "WordCount": 1200,
-        "Citation": "Chicago",
-        "OrderPrice": "£41.88",
-        "CustomerID": "MPW-345536",
-        "OrderRating": "4.8/5",
-        "NameofUniversity": "King's College London",
-        "Subject": "Sociology",
-        "Review": "The article critique was insightful. Great use of Chicago style and the English 102 assignments help was spot on.",
-        "Tags": ["Article", "Critique", "Chicago"],
-        "ResponsefromMyPerfectWriting": "Thank you for appreciating our custom English assignment solutions. Your feedback is valuable to us.",
-        "Date": "2023-11-15",
-        "image": "169.jpg"
-      },
-      {
-        "ServiceType": "Dissertation Editing",
-        "WordCount": 2500,
-        "Citation": "MLA",
-        "OrderPrice": "£58.48",
-        "CustomerID": "MPW-399537",
-        "OrderRating": "5/5",
-        "NameofUniversity": "University of Edinburgh",
-        "Subject": "History",
-        "Review": "Outstanding support on my history dissertation. The editing was meticulous and aligned with English composition 2 assignments standards.",
-        "Tags": ["Dissertation", "History", "MLA"],
-        "ResponsefromMyPerfectWriting": "Delighted to hear that our Academic English Editing Services were helpful in your dissertation journey.",
-        "Date": "2023-11-18",
-        "image": "168.jpg"
-      },
-      {
-        "ServiceType": "Book Review",
-        "WordCount": 1000,
-        "Citation": "Harvard",
-        "OrderPrice": "£34.95",
-        "CustomerID": "MPW-349738",
-        "OrderRating": "4.7/5",
-        "NameofUniversity": "University of Manchester",
-        "Subject": "English Literature",
-        "Review": "The book review was perfectly structured, providing a deep analysis. It greatly helped with my 3rd class homework in English.",
-        "Tags": ["Book Review", "Literature", "Harvard"],
-        "ResponsefromMyPerfectWriting": "We're glad to have assisted in your English Literature assignment. Thank you for choosing our service.",
-        "Date": "2023-11-21",
-        "image": "167.jpg"
-      },
-      {
-        "ServiceType": "Case Study Analysis",
-        "WordCount": 1800,
-        "Citation": "APA",
-        "OrderPrice": "£62.82",
-        "CustomerID": "MPW-366539",
-        "OrderRating": "5/5",
-        "NameofUniversity": "London School of Economics",
-        "Subject": "Business Studies",
-        "Review": "The case study was expertly analyzed. The English assignment helper provided invaluable insights and the formatting was impeccable.",
-        "Tags": ["Case Study", "Business", "APA"],
-        "ResponsefromMyPerfectWriting": "Thrilled to hear about your positive experience with our English Assignment Help. We strive for excellence in every task.",
-        "Date": "2023-11-25",
-        "image": "166.jpg"
-      },
-      {
-        "ServiceType": "Presentation Preparation",
-        "WordCount": 800,
-        "Citation": "None",
-        "OrderPrice": "£27.92",
-        "CustomerID": "MPW-343540",
-        "OrderRating": "4.9/5",
-        "NameofUniversity": "University College London",
-        "Subject": "Psychology",
-        "Review": "The presentation was brilliantly prepared, engaging and informative. It was a huge help for my English 1101 assignments.",
-        "Tags": ["Presentation", "Psychology"],
-        "ResponsefromMyPerfectWriting": "Glad to know our service was a crucial part of your academic success. Looking forward to assisting you again.",
-        "Date": "2023-11-28",
-        "image": "164.jpg"
-      }
-    ];
-
+ 
   return (
     <>
       <Helmet>
@@ -287,6 +164,8 @@ const PhilosphyAssignment = () => {
                <meta name="description" content="Seeking Philosophy Assignment Help in UK? My Perfect Writing provides tailored, in-depth support for all your philosophy academic needs." />
 
                <meta name="keywords" content="Philosophy Assignment Help UK, UK Philosophy Academic Support, Custom Philosophy Assistance UK, Expert Philosophy Assignment Writing UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/philosphy-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -741,7 +620,7 @@ const PhilosphyAssignment = () => {
         <div className="reviewSect">
           <div className="reviewSectDivScroll">
 
-            {Reviews.map((item, index) => (
+            {reviews.philosophy_assignment.map((item, index) => (
               <div className="reviewCard" key={index}>
                 <div className="sec1">
                   <div className="sec1Top">

@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -104,37 +106,6 @@ const DissertationWriting = () => {
         },
     ]
 
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What sets your dissertation writing service apart?",
-            "answer": "We offer personalized, professional dissertation assistance, ensuring quality, originality, and adherence to university guidelines."
-        },
-        {
-            "question": "Can I receive help with a specific part of my dissertation, like the literature review?",
-            "answer": "Absolutely. Our custom dissertation writing services cater to all aspects, including detailed literature reviews and critical analysis."
-        },
-        {
-            "question": "Do you offer dissertation proofreading services in the UK?",
-            "answer": "Yes, our comprehensive dissertation proofreading services ensure your work adheres to the highest academic standards."
-        },
-        {
-            "question": "How do you ensure the originality of dissertations?",
-            "answer": "Each dissertation is crafted from scratch, with rigorous checks for plagiarism to maintain its uniqueness and authenticity."
-        },
-        {
-            "question": "What academic levels do you cater to for dissertation writing help?",
-            "answer": "From Master’s thesis writing assistance to PhD dissertation writing help, our services cover a broad spectrum of academic needs."
-        },
-        {
-            "question": "Are your services tailored for UK-based universities?",
-            "answer": "Yes, our services are specifically designed to meet the standards and requirements of UK-based educational institutions."
-        },
-        {
-            "question": "What is your approach to meeting deadlines?",
-            "answer": "We prioritize timely delivery, ensuring each dissertation is completed within the agreed timeframe without compromising on quality."
-        }
-    ];
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -177,117 +148,7 @@ const DissertationWriting = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Dissertation Writing",
-                "WordCount": 9000,
-                "Citation": "Harvard",
-                "OrderPrice": "£209.79",
-                "CustomerID": "MPW-343833",
-                "OrderRating": "5/5",
-                "University": "University of Oxford",
-                "Subject": "Sociology",
-                "Review": "Incredibly detailed and insightful dissertation assistance. Highly recommend for sociology students!",
-                "Tags": ["Academic Thesis Writing Service UK", "Dissertation Literature Review Help"],
-                "ResponsefromMyPerfectWriting": "Thank you for your kind words. We're thrilled to have assisted you!",
-                "Date": "15th November 2023",
-                "image": "058.jpg"
-            },
-            {
-                "ServiceType": "Thesis Editing",
-                "WordCount": 15000,
-                "Citation": "APA",
-                "OrderPrice": "£349.85",
-                "CustomerID": "MPW-456077",
-                "OrderRating": "5/5",
-                "University": "London School of Economics",
-                "Subject": "Economics",
-                "Review": "Exceptional editing services. My thesis was improved significantly in terms of clarity and precision.",
-                "Tags": ["Professional Dissertation Editing UK", "PhD Dissertation Editing Services"],
-                "ResponsefromMyPerfectWriting": "We're glad we could elevate your thesis to the next level!",
-                "Date": "10th November 2023",
-                "image": "059.jpg"
-            },
-            {
-                "ServiceType": "Statistical Analysis for Dissertation",
-                "WordCount": 12000,
-                "Citation": "Chicago",
-                "OrderPrice": "£279.88",
-                "CustomerID": "MPW-558099",
-                "OrderRating": "5/5",
-                "University": "University of Manchester",
-                "Subject": "Psychology",
-                "Review": "The statistical analysis provided was top-notch. Made my psychology dissertation stand out!",
-                "Tags": ["Dissertation Methodology Assistance", "Statistical Analysis for Dissertation"],
-                "ResponsefromMyPerfectWriting": "Delighted to have contributed to your academic success!",
-                "Date": "8th November 2023",
-                "image": "060.jpg"
-            },
-            {
-                "ServiceType": "Custom Dissertation Writing",
-                "WordCount": 10000,
-                "Citation": "MLA",
-                "OrderPrice": "£233.10",
-                "CustomerID": "MPW-664233",
-                "OrderRating": "4.8/5",
-                "University": "University of Cambridge",
-                "Subject": "English Literature",
-                "Review": "Received a custom-tailored dissertation that perfectly adhered to my guidelines. Fantastic service!",
-                "Tags": ["Custom Dissertation Writing for UK Students", "Masters Dissertation Help"],
-                "ResponsefromMyPerfectWriting": "We're proud to provide tailored assistance. Thank you for choosing us!",
-                "Date": "5th November 2023",
-                "image": "061.jpg"
-            },
-            {
-                "ServiceType": "Dissertation Proposal Writing",
-                "WordCount": 3500,
-                "Citation": "Harvard",
-                "OrderPrice": "£81.46",
-                "CustomerID": "MPW-770355",
-                "OrderRating": "5/5",
-                "University": "Imperial College London",
-                "Subject": "Engineering",
-                "Review": "The proposal was articulate and convincing. Received approval on the first submission!",
-                "Tags": ["Dissertation Proposal Writing", "Academic Research Services"],
-                "ResponsefromMyPerfectWriting": "Thrilled to hear about your proposal's success. Congratulations!",
-                "Date": "30th October 2023",
-                "image": "062.jpg"
-            },
-            {
-                "ServiceType": "Doctoral Dissertation Editing",
-                "WordCount": 18000,
-                "Citation": "APA",
-                "OrderPrice": "£419.82",
-                "CustomerID": "MPW-806607",
-                "OrderRating": "4.9/5",
-                "University": "King's College London",
-                "Subject": "Philosophy",
-                "Review": "The editing team transformed my dissertation into a polished, academically sound masterpiece.",
-                "Tags": ["PhD Dissertation Writing Help in UK", "Dissertation Editing Services"],
-                "ResponsefromMyPerfectWriting": "We're pleased to have enhanced the quality of your work. Best wishes!",
-                "Date": "25th October 2023",
-                "image": "063.jpg"
-            },
-            {
-                "ServiceType": "Thesis Literature Review",
-                "WordCount": 8000,
-                "Citation": "Chicago",
-                "OrderPrice": "£186.32",
-                "CustomerID": "MPW-918807",
-                "OrderRating": "4.7/5",
-                "University": "University of Edinburgh",
-                "Subject": "History",
-                "Review": "Comprehensive and insightful literature review. Greatly appreciated the depth of research.",
-                "Tags": ["Dissertation Literature Review Help", "Best Dissertation Writers in the United Kingdom"],
-                "ResponsefromMyPerfectWriting": "Your feedback is highly valued. We're happy to have met your expectations!",
-                "Date": "20th October 2023",
-                "image": "064.jpg"
-            }
-
-
-        ];
+      
 
     return (
         <>
@@ -296,6 +157,8 @@ const DissertationWriting = () => {
                <meta name="description" content="Excel with our Dissertation Writing Service in UK. My Perfect Writing delivers bespoke, comprehensive support for your academic journey." />
 
                <meta name="keywords" content="Dissertation Writing Service UK, Custom Dissertation Assistance UK, UK University Dissertation Support, Professional Dissertation Writing UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/dissertation-writing-service" />
 
                 {/* Facebook meta description */}
 
@@ -637,7 +500,7 @@ const DissertationWriting = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.dissertation_writing_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -752,7 +615,7 @@ const DissertationWriting = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.dissertation_writing.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

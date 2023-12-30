@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -175,132 +176,7 @@ const EditingFormatting = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-
-                "ServiceType": "Dissertation Editing and Formatting",
-                "WordCount": 9000,
-                "Citation": "APA",
-                "OrderPrice": "£209.70",
-                "CustomerID": "MPW-349833",
-                "OrderRating": "5 Stars",
-                "University": "University of Cambridge",
-                "Subject": "Psychology",
-                "Review": "Outstanding APA style proofreading, which greatly enhanced my dissertation's clarity and flow.",
-                "Tags": ["APA", "Dissertation", "Psychology"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to have supported your academic journey with our specialized APA editing services.",
-                "Date": "2nd November 2023",
-                "image": "074.jpg"
-            },
-            {
-                "ServiceType": "Undergraduate Paper Formatting",
-                "WordCount": 1500,
-                "Citation": "MLA",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-556378",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Literature",
-                "Review": "The team's expertise in MLA proofreading elevated my essay's professionalism.",
-                "Tags": ["MLA", "Essay", "Literature"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing us for your essay's MLA formatting needs.",
-                "Date": "3rd November 2023",
-                "image": "075.jpg"
-            },
-            {
-                "ServiceType": "Book Editing and Formatting",
-                "WordCount": 48000,
-                "Citation": "Chicago",
-                "OrderPrice": "£1,119.20",
-                "CustomerID": "MPW-660933",
-                "OrderRating": "4.8 Stars",
-                "University": "King's College London",
-                "Subject": "History",
-                "Review": "Your team's proficiency in Chicago style proofreading was instrumental in refining my historical manuscript.",
-                "Tags": ["Chicago", "Book", "History"],
-                "ResponsefromMyPerfectWriting": "We are delighted to have contributed to your manuscript's success with our formatting expertise.",
-                "Date": "4th November 2023",
-                "image": "076.jpg"
-            },
-            {
-                "ServiceType": "Proofreading and Formatting",
-                "WordCount": 3000,
-                "Citation": "Harvard",
-                "OrderPrice": "£69.90",
-                "CustomerID": "MPW-789813",
-                "OrderRating": "5 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "Business Management",
-                "Review": "Professional research paper editing in the UK at its finest. Impressed by the meticulous attention to Harvard referencing.",
-                "Tags": ["Harvard", "Research Paper", "Business"],
-                "ResponsefromMyPerfectWriting": "Your appreciation for our Harvard referencing and editing services is greatly valued.",
-                "Date": "5th November 2023",
-                "image": "077.jpg"
-            },
-            {
-                "ServiceType": "Manuscript Formatting Services",
-                "WordCount": 6000,
-                "Citation": "APA",
-                "OrderPrice": "£139.80",
-                "CustomerID": "MPW-315048",
-                "OrderRating": "4.9 Stars",
-                "University": "University College London",
-                "Subject": "Sociology",
-                "Review": "Impeccable manuscript formatting services for UK scholars. Your expertise in APA is commendable.",
-                "Tags": ["APA", "Manuscript", "Sociology"],
-                "ResponsefromMyPerfectWriting": "Thank you for acknowledging our APA manuscript formatting expertise.",
-                "Date": "6th November 2023",
-                "image": "078.jpg"
-            },
-            {
-                "ServiceType": "Graduate Paper Editing",
-                "WordCount": 4500,
-                "Citation": "MLA",
-                "OrderPrice": "£104.85",
-                "CustomerID": "MPW-984604",
-                "OrderRating": "5 Stars",
-                "University": "Imperial College London",
-                "Subject": "Engineering",
-                "Review": "Your graduate paper editing specialists in the United Kingdom provided outstanding service. The MLA formatting was flawless.",
-                "Tags": ["MLA", "Graduate Paper", "Engineering"],
-                "ResponsefromMyPerfectWriting": "We're proud to have supported your engineering paper with our specialized MLA editing.",
-                "Date": "7th November 2023",
-                "image": "079.jpg"
-            },
-            {
-                "ServiceType": "Academic Language Refinement",
-                "WordCount": 2500,
-                "Citation": "Harvard",
-                "OrderPrice": "£55.92",
-                "CustomerID": "MPW-504738",
-                "OrderRating": "4.7 Stars",
-                "University": "London School of Economics",
-                "Subject": "Economics",
-                "Review": "The academic language refinement for my economics thesis was exceptional. Highly recommend for anyone needing Harvard style expertise.",
-                "Tags": ["Harvard", "Thesis", "Economics"],
-                "ResponsefromMyPerfectWriting": "We are glad to hear that our Harvard style refinement met your expectations.",
-                "Date": "8th November 2023",
-                "image": "080.jpg"
-            },
-            {
-                "ServiceType": "Dissertation Editing and Formatting",
-                "WordCount": 15000,
-                "Citation": "APA",
-                "OrderPrice": "£349.50",
-                "CustomerID": "MPW-110933",
-                "OrderRating": "5 Stars",
-                "University": "University of Manchester",
-                "Subject": "Psychology",
-                "Review": "Your dissertation editing and formatting services were a game-changer for my psychology research. Impeccable and professional.",
-                "Tags": ["APA", "Dissertation", "Psychology"],
-                "ResponsefromMyPerfectWriting": "We are thrilled to have been a pivotal part of your dissertation journey.",
-                "Date": "9th November 2023",
-                "image": "081.jpg"
-            }
-
-        ];
+   
 
     return (
         <>
@@ -309,6 +185,8 @@ const EditingFormatting = () => {
                <meta name="description" content="Enhance your work with our Editing & Formatting Service in UK. My Perfect Writing offers detailed academic polishing for all documents." />
 
                <meta name="keywords" content="Editing & Formatting Service UK, UK Academic Editing Solutions, Professional Document Formatting UK, Academic Proofreading and Formatting Service UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/editing-formatting-service" />
 
                 {/* Facebook meta description */}
 
@@ -765,7 +643,7 @@ const EditingFormatting = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.editing_formatting.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

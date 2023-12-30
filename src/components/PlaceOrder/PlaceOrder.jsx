@@ -1,6 +1,5 @@
 import React from 'react'
 import './placeorder.css'
-import { IoBagCheckOutline } from "react-icons/io5";
 import { LuLogIn } from "react-icons/lu";
 import { MdOutlineShoppingCart  } from "react-icons/md";
 

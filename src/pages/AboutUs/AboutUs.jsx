@@ -11,6 +11,8 @@ const AboutUs = () => {
 
                 <meta name="keywords" content="My Perfect Writing About Us, Academic Writing Experts UK, Essay Service Team UK, My Perfect Writing Vision"></meta>
 
+                <link rel="canonical" href="https://www.myperfectwriting.co.uk/about-our-service" />
+
 
                 <script type="application/ld+json">
                     {`

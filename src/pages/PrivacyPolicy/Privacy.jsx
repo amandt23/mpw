@@ -11,6 +11,8 @@ const Privacy = () => {
 
                 <meta name="keywords" content="My Perfect Writing Privacy Policy, Secure Data Handling UK,Ethical Data Practices in Writing Services, Privacy and Confidentiality Assurance UK"></meta>
 
+                <link rel="canonical" href="https://www.myperfectwriting.co.uk/privacy-policy" />
+
                 <script type="application/ld+json">
                     {`
  {

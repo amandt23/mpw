@@ -8,6 +8,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -178,131 +179,6 @@ const PoliticalAssignmentHelp = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Comprehensive Political Analysis",
-                "WordCount": 1500,
-                "Citation": "Harvard",
-                "OrderPrice": "£34.95",
-                "CustomerID": "MPW-343534",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "Political Science Research Support",
-                "Review": "The depth of analysis in my political science paper was outstanding. Your service truly reflects academic excellence.",
-                "Tags": ["Political Science, Research, Analysis"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to have supported your academic journey with our expertise in political science research.",
-                "Date": "2023-12-01",
-                "image": "211.png"
-            },
-            {
-                "ServiceType": "Insightful Political Philosophy Essay",
-                "WordCount": 2000,
-                "Citation": "MLA ",
-                "OrderPrice": "£46.93",
-                "CustomerID": "MPW-343535",
-                "OrderRating": "5 Stars",
-                "University": "London School of Economics",
-                "Subject": "Political Philosophy Essay Assistance",
-                "Review": "Your team provided an insightful and well-structured political philosophy essay. Highly recommend!",
-                "Tags": [" Essay Writing, Philosophy"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback! We take pride in crafting insightful essays.",
-                "Date": "2023-12-03",
-                "image": "212.png"
-            },
-            {
-                "ServiceType": "Exceptional International Relations Paper",
-                "WordCount": 2500,
-                "Citation": "APA",
-                "OrderPrice": "£58.66",
-                "CustomerID": "MPW-343536",
-                "OrderRating": "5 Stars",
-                "University": "University of Cambridge",
-                "Subject": "International Relations Assignment UK",
-                "Review": "Your service made my international relations assignment a breeze. The quality was top-notch.",
-                "Tags": ["International Relations, University Assignment"],
-                "ResponsefromMyPerfectWriting": "We're pleased to have eased your academic workload with our quality service.",
-                "Date": "2023-12-05",
-                "image": "213.png"
-            },
-            {
-                "ServiceType": "Detailed Government Policy Analysis",
-                "WordCount":1800,
-                "Citation": " Chicago",
-                "OrderPrice": "£41.82",
-                "CustomerID": "MPW-343537",
-                "OrderRating": "5 Stars",
-                "University": " University of Manchester",
-                "Subject": "Government Policy Assignment Guidance",
-                "Review": "The detailed analysis for my government policy paper was exceptional. Appreciate the tailored approach!",
-                "Tags": [" Government Policy, Detailed Analysis"],
-                "ResponsefromMyPerfectWriting": "We're glad our tailored analysis met your academic needs. Thank you for choosing us!",
-                "Date": "2023-12-07",
-                "image": "214.png"
-            },
-            {
-                "ServiceType": "Expert-Crafted Political Science Thesis",
-                "WordCount":3000 ,
-                "Citation": " APA",
-                "OrderPrice": " £69.90",
-                "CustomerID": " MPW-343538",
-                "OrderRating": "5 Stars",
-                "University": "Imperial College London",
-                "Subject": "Political Science Research Paper Assistance in UK",
-                "Review": "Your experts helped me craft an impeccable political science thesis. The research depth was remarkable.",
-                "Tags": ["Thesis, Political Science, Research"],
-                "ResponsefromMyPerfectWriting": "We are proud to have assisted in your thesis with in-depth research. Your success is our achievement.",
-                "Date": " 2023-12-09",
-                "image": "215.png"
-            },
-            {
-                "ServiceType": "Comprehensive UK Electoral Systems Assignment",
-                "WordCount": 2200,
-                "Citation": "MLA",
-                "OrderPrice": "£53.77 ",
-                "CustomerID": "MPW-343539",
-                "OrderRating": "5 Stars",
-                "University": "University of Edinburgh",
-                "Subject": "UK Electoral Systems Homework Help",
-                "Review": "Your comprehensive support for my electoral systems assignment was invaluable. Thanks for the insightful work!",
-                "Tags": [" Electoral Systems, Homework Help "],
-                "ResponsefromMyPerfectWriting": "Delighted to provide comprehensive support for your assignment. Thank you for your feedback!",
-                "Date": "  2023-12-11",
-                "image": "216.png"
-            },
-            {
-                "ServiceType": "Customized Political Theory Essay",
-                "WordCount":1200,
-                "Citation": "Harvard",
-                "OrderPrice": " £27.88",
-                "CustomerID": "MPW-343540",
-                "OrderRating": "5 Stars",
-                "University": "University College London",
-                "Subject": "Custom Political Theory Assignment Solutions UK",
-                "Review": "The customized approach to my political theory essay was exactly what I needed. Excellent service!",
-                "Tags": ["Custom Essay, Political Theory"],
-                "ResponsefromMyPerfectWriting": "Happy to provide a customized solution that met your requirements. Thanks for trusting us!",
-                "Date": "2023-12-13",
-                "image": "217.png"
-            },
-            {
-                "ServiceType": "Professional Political Dissertation Assistance",
-                "WordCount":  3500,
-                "Citation": "Chicago",
-                "OrderPrice": " £81.65",
-                "CustomerID": " MPW-343541",
-                "OrderRating": "5 Stars",
-                "University": " King's College London",
-                "Subject": "Professional Guidance for Political Dissertation in UK ",
-                "Review": "The professional guidance I received for my political dissertation was beyond expectations. Truly grateful.",
-                "Tags": ["Dissertation, Professional Assistance"],
-                "ResponsefromMyPerfectWriting": "We are thrilled to have exceeded your expectations with our professional guidance. Best wishes for your academic journey.",
-                "Date": "2023-12-15",
-                "image": "218.png"
-            },
-           
-        ];
 
     return (
         <>
@@ -311,6 +187,8 @@ const PoliticalAssignmentHelp = () => {
                <meta name="description" content="Master political studies with our Political Assignment Help in UK. My Perfect Writing provides in-depth support for all political science topics." />
 
                <meta name="keywords" content="Political Assignment Help UK, UK Political Science Assistance, Custom Political Studies Help, Expert Political Homework Support UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/political-assignment-help" />
 
                 {/* Facebook meta description */}
 
@@ -763,7 +641,7 @@ const PoliticalAssignmentHelp = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.political_assignment.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">

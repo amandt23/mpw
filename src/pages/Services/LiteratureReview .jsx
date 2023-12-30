@@ -8,6 +8,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -104,37 +106,6 @@ const LiteratureReview = () => {
         },
     ]
 
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What makes your literature review writing service stand out?",
-            "answer": "Our service uniquely combines professional expertise, affordable rates, and a commitment to producing original, plagiarism-free literature reviews."
-        },
-        {
-            "question": "Can I buy a custom literature review for UK students?",
-            "answer": "Yes, we specialize in creating customized literature reviews tailored to the specific needs and academic standards of UK university students."
-        },
-        {
-            "question": "How do you ensure the quality of academic writing?",
-            "answer": "Quality is our top priority. We have a rigorous process for editing, proofreading, and ensuring that each review meets high academic standards."
-        },
-        {
-            "question": "What types of dissertation literature support do you offer in the UK?",
-            "answer": "Our services range from comprehensive literature analysis to detailed guidance on structure, citations, and critical argument development."
-        },
-        {
-            "question": "Is your thesis literature analysis service confidential and secure?",
-            "answer": "Absolutely. We maintain the highest level of confidentiality and security for all our services, ensuring your research and personal information are secure."
-        },
-        {
-            "question": "Can I get online literature review assistance in the UK with tight deadlines?",
-            "answer": "Yes, our team of experts is adept at delivering high-quality literature reviews within tight deadlines while maintaining academic integrity."
-        },
-        {
-            "question": "What is your approach to handling references and citations in literature reviews?",
-            "answer": "We meticulously handle references and citations, ensuring they are accurate and align with university guidelines, enhancing the credibility of your review."
-        }
-    ];
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -177,133 +148,7 @@ const LiteratureReview = () => {
         }
     };
 
-    // review section data
-    const Reviews =
-        [
-            {
-                "ServiceType": "Custom Dissertation Writing Service",
-                "WordCount": 6000,
-                "Citation": "Harvard",
-                "OrderPrice": "£139.80",
-                "CustomerID": "MPW-340033",
-                "OrderRating": "5 Stars",
-                "University": "University of Oxford",
-                "Subject": "History",
-                "Review": "Exceptional service! The expertise in history essays is evident. My dissertation was well-researched and perfectly structured. Highly recommended!",
-                "Tags": ["Tailored history essays for UK students"],
-                "ResponsefromMyPerfectWriting": "We are thrilled your history dissertation met your expectations! Thank you for choosing us.",
-                "Date": "2023-11-12",
-                "image": "034.jpg"
-            },
-            {
-                "ServiceType": "PhD Dissertation Writing Assistance UK",
-                "WordCount": 15000,
-                "Citation": "APA",
-                "OrderPrice": "£349.50",
-                "CustomerID": "MPW-548421",
-                "OrderRating": "5 Stars",
-                "University": "Imperial College London",
-                "Subject": "Engineering",
-                "Review": "The engineering assignment was impeccable. I am impressed by the detailed analysis and precision. Great job!",
-                "Tags": ["Engineering assignment help in the United Kingdom"],
-                "ResponsefromMyPerfectWriting": "We're glad you found our engineering assignment help valuable. Thank you for your feedback!",
-                "Date": "2023-10-05",
-                "image": "035.jpg"
-            },
-            {
-                "ServiceType": "Nursing Essay Help for UK Students",
-                "WordCount": 3000,
-                "Citation": "MLA",
-                "OrderPrice": "£104.85",
-                "CustomerID": "MPW-256009",
-                "OrderRating": "4.5 Stars",
-                "University": "University of Manchester",
-                "Subject": "Nursing",
-                "Review": "Your nursing essay help was a lifesaver! The essay was well-written, and the concepts were clearly explained.",
-                "Tags": ["Custom dissertation writing service"],
-                "ResponsefromMyPerfectWriting": "We're happy to have been of help with your nursing essay. Your success is our priority!",
-                "Date": "2023-09-22",
-                "image": "036.jpg"
-            },
-            {
-                "ServiceType": "Business Studies Essay Writing Service in UK",
-                "WordCount": 4500,
-                "Citation": "Chicago",
-                "OrderPrice": "£157.05",
-                "CustomerID": "MPW-657102",
-                "OrderRating": "5 Stars",
-                "University": "London School of Economics",
-                "Subject": "Business Studies",
-                "Review": "Incredible service! The business studies essay was professionally written with great insight into the subject matter.",
-                "Tags": ["Business studies essay writing service in UK"],
-                "ResponsefromMyPerfectWriting": "Thank you for the praise! We strive to provide insightful business studies essays.",
-                "Date": "2023-08-15",
-                "image": "037.jpg"
-            },
-            {
-                "ServiceType": "Specialized Law Essay Writing Service UK",
-                "WordCount": 4000,
-                "Citation": "Oxford",
-                "OrderPrice": "£139.80",
-                "CustomerID": "MPW-762304",
-                "OrderRating": "4.8 Stars",
-                "University": "University of Cambridge",
-                "Subject": "Law",
-                "Review": "Impressed with the specialized law essay. The argument was persuasive, and the structure was impeccable.",
-                "Tags": ["Specialized law essay writing service UK"],
-                "ResponsefromMyPerfectWriting": "We're delighted that your law essay met your expectations. Thank you for trusting our expertise.",
-                "Date": "2023-07-30",
-                "image": "038.jpg"
-            },
-            {
-                "ServiceType": "Expert Psychology Essay Writing UK",
-                "WordCount": 3500,
-                "Citation": "APA",
-                "OrderPrice": "£122.15",
-                "CustomerID": "MPW-889561",
-                "OrderRating": "5 Stars",
-                "University": "King's College London",
-                "Subject": "Psychology",
-                "Review": "The psychology essay was insightful, with critical analysis that exceeded my expectations.",
-                "Tags": ["Expert psychology essay writing UK"],
-                "ResponsefromMyPerfectWriting": "Thank you for your feedback. We're glad our psychology expertise shone through in your essay.",
-                "Date": "2023-06-19",
-                "image": "039.jpg"
-            },
-            {
-                "ServiceType": "Professional Writers for Literature Reviews in UK",
-                "WordCount": 5000,
-                "Citation": "MLA",
-                "OrderPrice": "£244.50",
-                "CustomerID": "MPW-993344",
-                "OrderRating": "4.8/5",
-                "University": "University of Leeds",
-                "Subject": "History",
-                "Review": "The depth of historical analysis provided in my review was outstanding. Truly a testament to the writers' expertise.",
-                "Tags": ["UK-based literature review services for PhD", "literature review editing service UK"],
-                "ResponsefromMyPerfectWriting": "Thank you for your kind words. We're proud to have writers who specialize in a variety of fields.",
-                "Date": "2023-09-21",
-                "image": "040.jpg"
-            },
-            {
-                "ServiceType": "Expert Academic Review Service for Comprehensive Analysis",
-                "WordCount": 5500,
-                "Citation": "Chicago",
-                "OrderPrice": "£269.45",
-                "CustomerID": "MPW-110055",
-                "OrderRating": "5/5",
-                "University": "King's College London",
-                "Subject": "Not specified",
-                "Review": "Review content not specified",
-                "Tags": ["Specialized law essay writing service UK"],
-                "ResponsefromMyPerfectWriting": "Review content not specified",
-                "Date": "Not specified",
-                "image": "041.jpg"
-            }
-
-
-        ];
-
+ 
     return (
         <>
             <Helmet>
@@ -312,6 +157,10 @@ const LiteratureReview = () => {
                <meta name="description" content="Expert Literature Review Service in UK by My Perfect Writing. Comprehensive, ethical academic support for in-depth research and analysis." />
 
                <meta name="keywords" content="Literature Review Service UK, UK Academic Review Assistance, Custom Literature Review Writing, University Research Support UK"></meta>
+
+               <link rel="canonical" href="https://www.myperfectwriting.co.uk/literature-review-service" />
+
+
 
                 {/* Facebook meta description */}
 
@@ -652,7 +501,7 @@ const LiteratureReview = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.literature_review_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
@@ -767,7 +616,7 @@ const LiteratureReview = () => {
                 <div className="reviewSect">
                     <div className="reviewSectDivScroll">
 
-                        {Reviews.map((item, index) => (
+                        {reviews.literature_review.map((item, index) => (
                             <div className="reviewCard" key={index}>
                                 <div className="sec1">
                                     <div className="sec1Top">
