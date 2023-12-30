@@ -9,6 +9,7 @@ import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';
 import lecturersData from '../../data.json';
 import reviews from '../../review.json';
+import faqs from '../../faqs.json';
 import Social from '../../components/Social/Social'
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
 import { Helmet } from 'react-helmet';
@@ -102,38 +103,7 @@ const  NutritionAssignmentHelp = () => {
             </svg>
         },
     ]
-
-    // faqs data 
-    const faqData = [
-        {
-            "question": "What makes your Nutrition Assignment Help service unique?",
-            "answer": "We offer a blend of expertise, affordability, and customised support, ensuring top-quality, plagiarism-free academic assistance."
-        },
-        {
-            "question": "How do you ensure the quality of diet analysis assignments?",
-            "answer": "Our professional writers conduct thorough research and critical analysis, tailoring each assignment to meet your specific academic requirements."
-        },
-        {
-            "question": "Can I get help with a food diary assignment for my nutrition class?",
-            "answer": "Yes, our expert educators provide comprehensive guidance for all types of assignments, including detailed food diary analysis."
-        },
-        {
-            "question": "Do you provide assistance for assignments on nutrition class 10?",
-            "answer": "Absolutely, we offer tailored support for students at all academic levels, ensuring your nutrition assignments are insightful and grade-boosting."
-        },
-        {
-            "question": "Is it possible to get help with food label analysis assignments?",
-            "answer": "Yes, our service includes detailed assistance with food label analysis, ensuring a thorough understanding and accurate assignment completion."
-        },
-        {
-            "question": "What if I need a custom criminal law assignment for a UK university?",
-            "answer": "Our team includes professionals specialised in UK law coursework, ready to provide customised, high-quality criminal law assignments."
-        },
-        {
-            "question": "Can I receive online criminal justice coursework assistance in the UK?",
-            "answer": "Yes, our service extends to online coursework assistance in various fields, including criminal justice, with a focus on quality and reliability."
-        }
-    ];
+ 
     const faqData2 = [
         { question: 'Where can I find support for reflective essay writing?', answer: 'My Perfect Writing specialises in reflective essay writing, helping you articulate your thoughts and experiences with clarity and depth.' },
         { question: 'How is the originality of my academic work guaranteed?', answer: 'We prioritize originality, providing plagiarism-free UK essays and conducting thorough checks to ensure the integrity of your work.' },
@@ -529,7 +499,7 @@ const  NutritionAssignmentHelp = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqData.map((item, index) => (
+                            {faqs.nutrition_assignment_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">

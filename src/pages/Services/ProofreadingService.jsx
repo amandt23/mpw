@@ -498,7 +498,7 @@ const ProofreadingService = () => {
                         <h3>What's covered?</h3>
                         <hr />
                         <div className="faq-container">
-                            {faqs.peer_responses_faqs.map((item, index) => (
+                            {faqs.proofreading_faqs.map((item, index) => (
                                 <div key={index} className="faq-item">
                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                         <div className="faq-q-right">
