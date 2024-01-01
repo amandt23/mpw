@@ -1,5 +1,6 @@
 import React from 'react'
 import './placeorder.css'
+import { IoBagCheckOutline } from "react-icons/io5";
 import { LuLogIn } from "react-icons/lu";
 import { MdOutlineShoppingCart  } from "react-icons/md";
 
@@ -29,7 +30,7 @@ const PlaceOrder = () => {
                             </svg>
                         </div>
                         <div className="form-bottom">
-                            <p><strong>1. Provide order details</strong></p>
+                            <p><strong>2. Provide order details</strong></p>
                             <p>Provide your order details and upload any necessary instruction files</p>
                         </div>
                     </div>
@@ -39,7 +40,7 @@ const PlaceOrder = () => {
 
                         </div>
                         <div className="form-bottom">
-                            <p><strong>1. Proceed to checkout</strong></p>
+                            <p><strong>3. Proceed to checkout</strong></p>
                             <p>Proceed to checkout, and our top-tier writers will commence work on your order promptly</p>
                         </div>
                     </div>
@@ -49,6 +50,11 @@ const PlaceOrder = () => {
                         <source src="./images/orderPlace.mp4" type="video/mp4" />
                     </video>
                 </div>
+            </div>
+            <div className="paperBtn ">
+                <a className='pulse-button' href="https://myperfectwriting.co.uk/portal/public/login">
+                    <button>Get your Custom Paper Now</button>
+                </a>
             </div>
         </div>
     )

@@ -14,15 +14,15 @@ const Faqs = () => {
         { question: 'What should I seek in an academic editing service?', answer: 'Look for expertise, precision, and a keen eye for detail in an academic editing service, all of which are pillars of My Perfect Writing.' },
         { question: 'Is coursework writing help available for university students?', answer: 'Yes, we offer bespoke coursework writing assistance, understanding the unique challenges and providing tailored support for university students.' },
     ];
-   
+    
 
     const [openIndex, setOpenIndex] = useState(null);
-   
+
 
     const toggleFAQ = (index) => {
         setOpenIndex(openIndex === index ? null : index);
     };
-  
+    
 
     return (
 <>
@@ -82,8 +82,7 @@ const Faqs = () => {
 
             <div className="faqBottom">
                 <div className="faqLeft">
-                    <h3>What's covered?</h3>
-                    <hr />
+
                     <div className="faq-container">
                         {faqData.map((item, index) => (
                             <div key={index} className="faq-item">
@@ -120,6 +119,7 @@ const Faqs = () => {
                     </div>
                 </div>
 
+               
             </div>
 
         </div>

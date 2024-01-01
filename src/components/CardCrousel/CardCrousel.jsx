@@ -10,7 +10,7 @@ const CardCrousel = () => {
     const responsive = {
         superLargeDesktop: {
             breakpoint: { max: 4000, min: 1350 },
-            items: 4
+            items: 3
         },
         desktop: {
             breakpoint: { max: 1350, min: 1024 },
@@ -28,7 +28,7 @@ const CardCrousel = () => {
     return (
         <>
             <div className="crousel">
-                <Carousel autoPlay={true } showDots={true} responsive={responsive} >
+                <Carousel autoPlay={false } showDots={true} responsive={responsive} >
                 {lecturersData.lecturers.map((lecturer, index) => (
                     <Card  key={index} lecturer={lecturer}/>
                 ))}

@@ -57,6 +57,7 @@ const MidSection = () => {
                     <p>Dive into our curated selection of samples, demonstrating our commitment to quality, expertise, and unmatched academic proficiency. Your success is our top priority.</p>
                 </div>
                 <div className="Midmain">
+                    <div className="midNavWrap">
                     <FontAwesomeIcon className='icon-burger' icon={faBars} onClick={handleToggleSidebar} />
                     <nav className={`midNav ${isVisible ? 'visibleMidNav' : ''}`}>
                         <ul>
@@ -67,6 +68,8 @@ const MidSection = () => {
                             <li><a onClick={() => { setActiveTab('presentation'); setIsVisible(false) }} href="#representation"><h3>Presentation</h3></a></li>
                         </ul>
                     </nav>
+                    </div>
+                    
                     {/* <div className="MidnavContents">
                     <div className="sidebar">
                         <ul>

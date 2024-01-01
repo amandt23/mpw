@@ -16,11 +16,6 @@ const MyWriting = () => {
          <meta name="keywords" content="My Perfect Writing Writers, Expert Academic Writers UK, Professional Writing Team UK, Skilled Essay Writers at My Perfect Writing"></meta>
        </Helmet>
         <div className='writing'>
-            <div className="paperBtn pulse-button">
-                <a href="https://myperfectwriting.co.uk/portal/public/login">
-                    <button>Get your Custom Paper Now</button>
-                </a>
-            </div>
             <div className="wTop">
                 <h2>My Perfect Writing- Top Essay Writing Service in UK</h2>
                 <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>

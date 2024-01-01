@@ -14,7 +14,7 @@
 
 }
 .midSect {
-    padding-top: 41px;
+    padding: 41px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,14 +37,14 @@
 
 }
 
-.MidtopContents h3 {
+.MidtopContents h2 {
     color: #21383E;
-    text-align: center;
-    font-family: Inter;
-    font-size: 35.102px;
+    font-size: 44.514px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .MidtopContents p {
@@ -64,6 +64,7 @@
     border-radius: 23.653px 23.653px 20px 20px;
     background: #FFF;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
 }
 
 .MidnavContents {
@@ -122,7 +123,6 @@
 
 .icon-burger {
     font-size: 30px;
-    margin: 20px;
     display: none;
 }
 
@@ -170,7 +170,12 @@
     text-decoration-color: #FAFF00;
     text-underline-offset: 7px;
 }
-
+.midNavWrap{
+    border-radius: 23.653px 23.653px 0px 0px;
+    background: #1A4D3B;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    max-width: 1480px;
+}
 
 @media (max-width: 1100px) {
     .sidebar {
@@ -206,39 +211,54 @@
 
     }
 }
-@media(max-width: 850px){
+@media(max-width: 991px){
     .midNav ul li{
         margin: 0px 40px;
+    
+    }
+}
+@media (max-width: 750px){
+    .midNav ul li{
+        margin: 0px 30px;
     
     }
 }
 
 @media (max-width: 600px) {
     .icon-burger {
-        padding-top: 30px;
-        display: block;
+        padding: 15px 0;
+         display: block;
+         color: #fff; 
     }
 
     /* .midNav {
         display: none;
     } */
 
-    .midNav {
+    .midNav.visibleMidNav {
         position: absolute;
         display: flex;
         justify-content: center;
-        width: 95%;
+        width: 100%;
         display: none;
+        border-radius: none;
+        box-shadow: none;
+
+    }
+    .midNav{
+        box-shadow: none;
     }
 
     .midNav ul {
-        /* background-color: red; */
         list-style-type: none;
         display: flex;
         flex-direction: column;
         row-gap: 20px;
         justify-content: space-evenly;
         align-items: center;
+    }
+    .midNavWrap{
+        padding: 10px 20px;
     }
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './social.css'
+import { Link } from 'react-scroll'
 const Social = () => {
     return (
         <div className="social">

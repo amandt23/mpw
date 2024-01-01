@@ -188,20 +188,20 @@ const Review = () => {
                         <div className="reviewCard" key={index}>
                             <div className="sec1">
                                 <div className="sec1Top">
-                                    <p>Service Type:</p>
+                                    <p className='secBlk'>Service Type:</p>
                                     <p>{item.ServiceType}</p>
                                 </div>
                                 <div className="sec1Mid">
-                                    <p>Word Count:</p>
+                                    <p className='secBlk'>Word Count:</p>
                                     <p>{item.WordCount}</p>
                                 </div>
                                 <div className="sec1Bottom">
                                     <div className="BottLeft">
-                                        <p>Citation:</p>
+                                        <p className='secBlk'>Citation:</p>
                                         <p>{item.Citation}</p>
                                     </div>
                                     <div className="BottRight">
-                                        <p>Price:</p>
+                                        <p className='secBlk'>Price:</p>
                                         <p>{item.OrderPrice}</p>
                                     </div>
                                 </div>
@@ -209,8 +209,8 @@ const Review = () => {
 
                             <div className="sect2">
                                 <img src={`./images/reviews/${item.image}`} alt="review-image" />
-                                <p>{item.CustomerID}</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="58" height="10" viewBox="0 0 58 10" fill="none">
+                                <p className='sect2Id'>{item.CustomerID}</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="20" viewBox="0 0 58 10" fill="none">
                                     <path d="M2.45668 9.89245L3.26518 6.579L0.576904 4.35133L4.11803 4.05821L5.50487 0.933105L6.89172 4.05759L10.4322 4.3507L7.74456 6.57838L8.55306 9.89183L5.50487 8.13314L2.45668 9.89245Z" fill="#00A22D" />
                                     <path d="M14.1038 9.89245L14.9123 6.579L12.2241 4.35133L15.7652 4.05821L17.152 0.933105L18.5389 4.05759L22.0793 4.3507L19.3917 6.57838L20.2002 9.89183L17.152 8.13314L14.1038 9.89245Z" fill="#00A22D" />
                                     <path d="M25.751 9.89245L26.5595 6.579L23.8712 4.35133L27.4123 4.05821L28.7992 0.933105L30.186 4.05759L33.7265 4.3507L31.0388 6.57838L31.8473 9.89183L28.7992 8.13314L25.751 9.89245Z" fill="#00A22D" />
@@ -223,8 +223,8 @@ const Review = () => {
                             <div className="sect3">
                                 <div className="sect3Top">
                                     <div className="input">
-                                        <p>Subject: {item.Subject} </p>
-                                        <hr />
+                                        <p className='sect4Head'>Subject: {item.Subject} </p>
+                                        {/* <hr /> */}
                                         <p>{item.Review}</p>
                                     </div>
                                 </div>
@@ -243,8 +243,8 @@ const Review = () => {
                             <div className="sect4">
                                 <div className="sect4Top">
                                     <div className="input">
-                                        <p><strong>Responce from MyPerfectWriting</strong></p>
-                                        <hr />
+                                        <p className='sect4Head'><strong>Responce from MyPerfectWriting</strong></p>
+                                        {/* <hr /> */}
                                         <p>{item.ResponsefromMyPerfectWriting}</p>
                                     </div>
                                 </div>

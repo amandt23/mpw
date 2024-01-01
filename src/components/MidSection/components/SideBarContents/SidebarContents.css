@@ -16,13 +16,13 @@
 }
 
 .Sidetopper {
-    padding-left: 55px;
+    padding-left: 40px;
     padding-right: 40px;
 }
 
 .Sidecard span {
     color: #FFF;
-    text-align: center;
+    text-align: start;
     font-size: 24.076px;
     font-style: normal;
     font-weight: 600;
@@ -35,6 +35,9 @@
 
 .HeadContents {
     display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
 
 }
 
@@ -71,7 +74,7 @@
 .HeadContents p {
     color: #FFF;
     /* font-family: Inter; */
-    font-size: 20.722px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
@@ -90,10 +93,10 @@
 .tags {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     margin-top: 18px;
-    align-items: center;
-    padding: 14px 26px;
+    align-items: start;
+    padding: 14px 40px 35px 30px;
     /* padding-bottom: 74px; */
 }
 
@@ -114,7 +117,7 @@
     /* margin-right: 3px; */
     color: #FFF;
     /* font-family: Inter; */
-    font-size: 18.192px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -126,7 +129,7 @@
     margin-top: 20px;
     row-gap: 10px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
 }
 
 .vertical-line {

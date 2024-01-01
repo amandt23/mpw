@@ -1,6 +1,6 @@
 .social {
-    background-color: #D7D8D8;
-    padding: 70px 0px 157px 0px;
+    background-color: #fff;
+    padding: 70px 0px;
 }
 
 .sTop {
@@ -12,14 +12,17 @@
 
 }
 
-.sTop h3 {
+.sTop h2 {
     color: #21383E;
-    font-family: Inter;
-    font-size: 35.102px;
+    font-size: 44.514px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 20px;
+    text-align: center;
+
 }
+
 
 .sTop p {
     max-width: 760px;

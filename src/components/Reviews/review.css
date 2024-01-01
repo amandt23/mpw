@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #d7d7d7;
 }
 
 .reviewTop {
@@ -10,12 +11,13 @@
 }
 
 .reviewTop h2 {
-    color: #21383E;
-    text-align: center;
-    font-size: 35.102px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+        color: #21383E;
+        font-size: 44.514px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 20px;
+        text-align: center;
 }
 
 .reviewTop p {
@@ -54,6 +56,7 @@
     display: flex;
     align-items: center;
     column-gap: 13px;
+    margin-bottom: 21px;
 }
 
 .pcardTop h3 {
@@ -75,7 +78,7 @@
 }
 
 .privacy-card p {
-    margin-top: 21px;
+    /* margin-top: 21px; */
 }
 
 /* review section  */
@@ -151,9 +154,8 @@
 .sec1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 5px;
+    justify-content: start;
+    row-gap: 10px;
     padding: 8px 10px;
     border: 1px solid #626262;
     background: #FFF;
@@ -166,20 +168,33 @@
 
 .sec1Top {
     display: flex;
+    gap: 5px;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .sec1Mid {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    justify-content: space-between;
 }
 
 .sec1Bottom {
     display: flex;
     column-gap: 10px;
+    flex-direction: column;
+    gap: 15px;
 }
+.BottLeft,
+.BottRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
 
 .sec1 h3 {
     color: #000;
@@ -192,24 +207,35 @@
 
 .sec1 p {
     color: #00A12D;
-    font-size: 11.989px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.input .sect4Head{
+    font-size: 16px;
+}
+
+.sec1 .secBlk{
+    color: #000;
+    font-size: 13px;
 }
 
 .sect2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
     justify-content: center;
     max-width: 92px;
 }
 
-.sect2 h3 {
+.sect2 .sect2Id {
+    color: #000;
     font-size: 15px;
     margin-top: 3px;
     white-space: nowrap;
+    font-weight: 900;
 }
 
 
@@ -217,12 +243,13 @@
     width: 47px;
     height: 47px;
     border-radius: 50%;
+    display: none;
 }
 
 .sect2 p {
     color: #5E5E5E;
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -266,7 +293,7 @@
 
 .input p {
     color: black;
-    font-size: 11px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -280,9 +307,9 @@
 
 }
 
-.sect3Tags h3 {
+.sect3Tags p {
     color: #000;
-    font-size: 12.006px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -294,7 +321,7 @@
     padding: 4px 10px;
     border: none;
     color: black;
-    font-size: 9px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -304,7 +331,7 @@
     border-radius: 11px;
     border: 1px solid #626262;
     background: #FFF;
-    padding: 0px 5px;
+    padding: 10px 5px 0;
     max-width: 560px;
 }
 
@@ -346,7 +373,7 @@
     .reviewCard {
         flex-direction: column;
         row-gap: 20px;
-        padding: 10px 0px;
+        padding: 30px 20px 10px 20px;
         
 
     }
@@ -360,21 +387,36 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* width: 700px; */
+        width: 100%;
 
     }
 
     .sect3Top {
-        width: 200px;
+        width: 100%;
     }
 
     .sect3Tags {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
+        flex-wrap: wrap;
         row-gap: 10px;
     }
 
     .reviewSect {
         padding: 50px 40px;
+        width: 100%;
+    }
+    .reviewSectDivScroll{
+        width: 70%;
+    }
+    .sect4Top .input{
+        width: 100%;
+    }
+    .sect4Top{
+        width: 100%;
+        max-width: unset;
+    }
+    .sect4{
+        width: 100%;
     }
 }

@@ -1,6 +1,6 @@
 .place-order {
-    background: #D7D8D8;
-    padding: 77px 0px 60px 0px;
+    background: #fff;
+    padding: 60px 0px 60px 0px;
    
 }
 
@@ -15,12 +15,14 @@
 
 }
 
-.order-top h3 {
-    color: #21383E;
-    font-size: 50.087px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.order-top h2 {
+        color: #21383E;
+        font-size: 44.514px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 20px;
+        text-align: center;
 }
 
 .order-top p {
@@ -60,6 +62,7 @@
 
 .form-one {
     display: flex;
+    align-items: center;
     box-shadow: 0px 10px 5px rgb(188, 184, 184);
     /* border: 1px solid #01593A; */
     border-bottom-right-radius: 10px;
@@ -95,6 +98,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.form-bottom p{
+    padding: 5px 0;
 }
 .video{
     

@@ -96,7 +96,7 @@ const Card = ({ lecturer }) => {
                         min="0"
                         max="100"
                         value={lecturer.poetry}
-                        style={{ background: `linear-gradient(90deg, #F50E0A ${lecturer.poetry}% ,#e0e0e0 0%)` }}
+                        style={{ background: `linear-gradient(90deg, rgb(98 245 10) 95%, rgb(224, 224, 224) 0%)` }}
                         className="range range2"
                     />
 
@@ -108,7 +108,7 @@ const Card = ({ lecturer }) => {
                         min="0"
                         max="100"
                         value={lecturer.classics}
-                        style={{ background: `linear-gradient(90deg, #EBC807 ${lecturer.classics}% ,#e0e0e0 0%)` }}
+                        style={{ background: `linear-gradient(90deg, rgb(166 235 7) 96%, rgb(224, 224, 224) 0%)`}}
                         className="range range3"
                     />
                 </div>

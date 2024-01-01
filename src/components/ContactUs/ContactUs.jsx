@@ -47,8 +47,6 @@ const ContactUs = () => {
 
                 <meta name="keywords" content="Contact My Perfect Writing UK, My Perfect Writing Inquiry, Academic Writing Services Contact, Get Help from My Perfect Writing"></meta>
 
-                <link rel="canonical" href="https://www.myperfectwriting.co.uk/contact-us" />
-
                 <script type="application/ld+json">
                     {`
  {

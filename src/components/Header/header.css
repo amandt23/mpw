@@ -1,43 +1,52 @@
 /* Header  */
-.header {
-    background: linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%);
-    display: flex;
-    padding: 20px 40px;
-    box-shadow: 0px 11.84375px 5.26389px 0px rgba(60, 52, 101, 0.47);
-    align-items: center;
-    justify-content: center;
 
+*{
+    box-sizing: border-box;
+}
+.header {
+    padding: 125px 100px 20px;
+    box-shadow: 0px 11.84375px 5.26389px 0px rgba(60, 52, 101, 0.47);
+    background: linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%);
+
+}
+.headerwrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
 }
 
 .mainHeader {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 20px;
 }
 
 .headerRightTop {
     margin-top: 10px;
 }
 
-.header .headerTop {
+.header .headerwrap .headerTop {
     padding-top: 24px;
     /* padding-left: 108px; */
     max-width: 1080px;
 }
 
-.headerTop h3 {
+.headerTop h1 {
     color: #21383E;
-    font-size: 45.882px;
+    font-size: 62px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 15px;
 
 }
 
 
 .headerTop p {
     color: #68797E;
-    font-size: 33.555px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -59,7 +68,7 @@
     max-width: 809.486px;
     max-height: 717.521px;
     height: 100%;
-    margin-top: -130px;
+    /* margin-top: -130px; */
 }
 
 .headerBottom {
@@ -68,7 +77,7 @@
     column-gap: 53px;
     row-gap: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .headerCard {
@@ -78,10 +87,12 @@
     /* background-color: blue; */
     border-radius: 32.575px;
     box-shadow: 0px 0px 9.30717px 0px #21383E;
-    margin-bottom: 60px;
-    max-width: 430px;
-    max-height: 500px;
-    margin-top: -80px;
+    /* margin-bottom: 60px; */
+    margin-right: 85px;
+    width: 100%;
+    max-width: 530px;
+    /* max-height: 500px; */
+    /* margin-top: -80px; */
 }
 
 .headerCardContents {
@@ -90,6 +101,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 90%;
 
 }
 
@@ -114,6 +126,7 @@
 
 .upper {
     padding-bottom: 10px;
+    width: 65%;
 }
 
 .headerCardContents .upperInputs {
@@ -266,7 +279,7 @@
     display: flex;
     /* align-items: center; */
     gap: 22px;
-    max-width: 430px;
+    max-width: 100%;
     justify-content: space-around;
 
 }
@@ -311,6 +324,9 @@
     flex-direction: column;
     row-gap: 10px;
     align-items: center;
+    box-shadow: 0px 0px 9.30717px 0px #21383E;
+    padding: 20px 40px;
+    border-radius: 30px;
 }
 
 /* services section css  */
@@ -345,7 +361,7 @@
 .rightBTN {
     border-radius: 49.489px;
     background: #305F63;
-    padding: 20px 20px;
+    padding: 20px 50px;
     color: #FFF;
     font-size: 22.854px;
     font-style: normal;
@@ -353,7 +369,7 @@
     line-height: normal;
     border: none;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     transition: transition 0.3s ease-in-out;
 }
 
@@ -367,11 +383,24 @@
 
 .RightContentBottom p {
     /* color: #68797E; */
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    max-width: 660px;
+    /* max-width: 660px; */
+    max-width: 63%;
+}
+.RightContentBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* box-shadow: 0px 0px 9.30717px 0px #21383E; */
+    /* padding: 20px 40px; */
+    border-radius: 30px;
+    width: 100%;
+    /* margin: auto; */
+    margin-bottom: 20px;
+
 }
 
 
@@ -398,6 +427,24 @@ button.pulse-button {
     }
 
 }
+@media (max-width: 1500px){
+    .upper {
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .headerRight p {
+        font-size: 20.829px;
+    }
+    .RightContentBottom p {
+        max-width: 58%;
+    }
+}
+
+@media (max-width: 1400px){
+    .RightContentBottom p {
+        max-width: 63%;
+    }
+}
 
 
 @media (max-width: 1120px) {
@@ -407,9 +454,16 @@ button.pulse-button {
         /* background-color: red; */
         align-items: center;
     }
+    .header{
+        flex-direction: column;
+    }
+    .headerwrap {
+        flex-direction: column;
+    }
 
     .headerCard {
         margin-top: 0px;
+        margin-right: 0;
     }
 
     .headerRight {
@@ -429,13 +483,23 @@ button.pulse-button {
     .header {
         padding: 10px 50px;
     }
+    .RightContentBottom {
+        width: 80%;
+        
+    }
+    .RightContentBottom p {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 550px) {
     .headerCardContents {
         padding: 29px;
-        width: 400px;
+        width: 75%;
 
+    }
+    .topnavBar {
+        padding: 0px 20px;
     }
 
     #totalBtn {
@@ -443,19 +507,44 @@ button.pulse-button {
         /* min-height: 110; */
     }
 
-    .upper {
-        margin-left: -20px;
-
+    .RightContentBottom p {
+        max-width: 100%;
+        font-size: 13px;
     }
 
+
+    
+
+    /* .headerCard {
+        width: 400px;
+
+    } */
+
+    /* .headerCardBott {
+        width: 400px;
+
+    } */
+    .headerTop h1 {
+        font-size: 45px;
+    }
+    .RightContentBottom {
+        width: 100%;
+        
+    }
+    .headerCardBott{
+        width: 100%;
+        padding: 15px 40px;
+        justify-content: space-between;
+
+    }
     .headerCard {
-        width: 400px;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
     }
-
-    .headerCardBott {
-        width: 400px;
-
+    .header {
+        padding: 10px 20px;
     }
 
 
@@ -464,22 +553,19 @@ button.pulse-button {
 
 @media (max-width: 470px) {
 
-    .headerBottom {
+    /* .headerBottom {
         margin-left: -17px;
-    }
+    } */
 
-    .headerCard {
-        width: 360px;
-    }
-
-    .headerCardBott {
-        width: 360px;
-
-    }
+    
 
     .headerCardBott button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 20px;
-        padding: 10px 10px;
+        padding: 10px 15px;
+        border-radius: 10.528px;
     }
 
 }

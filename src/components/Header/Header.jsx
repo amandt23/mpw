@@ -23,49 +23,19 @@ const Header = () => {
     }
     return (
         <div class="header">
-            <div className="upper">
-                <div class="headerTop">
+            <div className="headerwrap">
+                <div className="upper">
+                    <div class="headerTop">
                     <h1>My Perfect Writing: Premier Essay Writing Service in UK</h1>
                     <p>Expert Academic Assistance for Students, Academic Professionals, and Researchers</p>
-                </div>  
-
-                <div class="headerBottom">
-                    <div class="headerCard">
-                        <div className="headerCardContents">
-
-                            <p>Do Not Trust Us; Test Us</p>
-                            <p><span className='blinking-price'>(£6.99/Page For Everyone)</span> </p>
-                            <div class="headerInputs">
-                                <div class="inputContents">
-                                    <label for="Academic Level">Academic Level</label>
-                                    <input className='upperInputs' placeholder="Any" type="text" />
-                                </div>
-                                <div class="inputContents2">
-                                    <label for="Deadline">Deadline</label>
-                                    <input className='upperInputs' placeholder="Any" type="text" />
-                                </div>
-
-                                <div class="Pages">
-                                    <label for="Number of Pages"></label>
-                                    <div class="Page-input">
-                                        <label htmlFor="">Number of Pages</label>
-                                        <div className='counter'>
-                                            <p onClick={handleClick2} className='calculator-minus-icon'>-</p>
-                                            <input id='counterInput' value={numberOfPages} type="number" />
-                                            <p onClick={handleClick1} className='calculator-plus-icon'>+</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="headerCardBott">
-                            <button id='totalBtn'>Total Price</button>
-                            {/* <input id='totalInput' readOnly value={totalAmount.toFixed(2)} type="number" /> */}
-                            <p id='totalInput'>£ {totalAmount.toFixed(2)}</p>
-                        </div>
                     </div>
 
-                    <div className="headerRight">
+                 <div class="headerBottom">
+                  <div class="headerLeft">
+                <img src="./images/headerImg.png" alt="headerImage" />
+            </div>
+                
+                 <div className="headerRight">
                         <div className="headerRightTop mainHeader">
                             <div className="rightContents">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
@@ -110,19 +80,58 @@ const Header = () => {
                         <a href="https://myperfectwriting.co.uk/portal/public/login">
                             <button className='rightBTN pulse-button'>Get Started Today!</button>
                         </a>
-                        <div className="RightContentBottom">
-                            <p><strong>Service Benefits: </strong> Unlock academic success with My Perfect Writing! Our transparent pricing and inclusive services ensure you get the best value for your investment. Experience stress-free submissions with our reliable and efficient essay writing service, tailored specifically for the UK’s educational standards</p>
-                            <p><strong>Commitment to Quality: </strong> At My Perfect Writing, quality is at the forefront of our services. Each essay is meticulously crafted by our team of experienced writers, ensuring adherence to the highest academic standards. Trust us to deliver excellence, ensuring your academic journey is nothing short of perfect.</p>
-
-                        </div>
+                       
                     </div>
                 </div>
             </div>
 
-            <div class="headerLeft">
-                <img src="./images/headerImg.png" alt="headerImage" />
+           
+            <div class="headerCard">
+                        <div className="headerCardContents">
+
+                            <p>Do Not Trust Us; Test Us</p>
+                            <p><span className='blinking-price'>(£6.99/Page For Everyone)</span> </p>
+                            <div class="headerInputs">
+                                <div class="inputContents">
+                                    <label for="Academic Level">Academic Level</label>
+                                    <input className='upperInputs' placeholder="Any" type="text" />
+                                </div>
+                                <div class="inputContents2">
+                                    <label for="Deadline">Deadline</label>
+                                    <input className='upperInputs' placeholder="Any" type="text" />
+                                </div>
+
+                                <div class="Pages">
+                                    <label for="Number of Pages"></label>
+                                    <div class="Page-input">
+                                        <label htmlFor="">Number of Pages</label>
+                                        <div className='counter'>
+                                            <p onClick={handleClick2} className='calculator-minus-icon'>-</p>
+                                            <input id='counterInput' value={numberOfPages} type="number" />
+                                            <p onClick={handleClick1} className='calculator-plus-icon'>+</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="headerCardBott">
+                            <button id='totalBtn'>Total Price</button>
+                            {/* <input id='totalInput' readOnly value={totalAmount.toFixed(2)} type="number" /> */}
+                            <p id='totalInput'>£ {totalAmount.toFixed(2)}</p>
+                        </div>
+                    </div>
             </div>
+            <div className="RightContentBottom">
+                            <p><strong>Service Benefits: </strong> Unlock academic success with My Perfect Writing! Our transparent pricing and inclusive services ensure you get the best value for your investment. Experience stress-free submissions with our reliable and efficient essay writing service, tailored specifically for the UK’s educational standards</p>
+                            <p><strong>Commitment to Quality: </strong> At My Perfect Writing, quality is at the forefront of our services. Each essay is meticulously crafted by our team of experienced writers, ensuring adherence to the highest academic standards. Trust us to deliver excellence, ensuring your academic journey is nothing short of perfect.</p>
+
+                        </div>
+            
+            
+            
+            
         </div>
+        
     )
 }
 

@@ -114,7 +114,7 @@ const Price = () => {
 
                 <div className="priceRightCard">
                     {/* <div className="card"> */}
-                    <p>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</p>
+                    <p className='pricerightservice'>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</p>
                     <div className="cardContents">
                         <div className="cardOneSect">
                             <div className="cardOneLeft">
@@ -123,7 +123,7 @@ const Price = () => {
                             </div>
                             <div className="cardOneRight">
                                 <p>15.99</p>
-                                <p>FREE</p>
+                                <p className='cardOneRightFree'>FREE</p>
                             </div>
                         </div>
                         <hr />
@@ -134,7 +134,7 @@ const Price = () => {
                             </div>
                             <div className="cardOneRight">
                                 <p>15.99</p>
-                                <p>FREE</p>
+                                <p className='cardOneRightFree'>FREE</p>
                             </div>
                         </div>
                         <hr />
@@ -145,7 +145,7 @@ const Price = () => {
                             </div>
                             <div className="cardOneRight">
                                 <p>15.99</p>
-                                <p>FREE</p>
+                                <p className='cardOneRightFree'>FREE</p>
                             </div>
                         </div>
                         <hr />
@@ -156,7 +156,7 @@ const Price = () => {
                             </div>
                             <div className="cardOneRight">
                                 <p>15.99</p>
-                                <p>FREE</p>
+                                <p className='cardOneRightFree'>FREE</p>
                             </div>
                         </div>
                         <hr />
@@ -167,7 +167,7 @@ const Price = () => {
                             </div>
                             <div className="cardOneRight">
                                 <p>15.99</p>
-                                <p>FREE</p>
+                                <p className='cardOneRightFree'>FREE</p>
                             </div>
                         </div>
                         <hr />
@@ -178,14 +178,14 @@ const Price = () => {
                             </div>
                             <div className="cardOneRight">
                                 <p>15.99</p>
-                                <p>FREE</p>
+                                <p className='cardOneRightFree'>FREE</p>
                             </div>
                         </div>
                         <hr />
                         <div className="allFeatures">
-                            <p>Get all these feaures of</p>
+                            <p className='allFeaturesGet'>Get all these feaures of</p>
                             <p>15.99</p>
-                            <p>FREE</p>
+                            <p className='cardOneRightFree'>FREE</p>
                         </div>
                         <div className="doBtn">
                             <a href="https://myperfectwriting.co.uk/portal/public/login">
