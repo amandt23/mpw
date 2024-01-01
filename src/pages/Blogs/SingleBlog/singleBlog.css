@@ -10,22 +10,17 @@ a{
 body{
     font-family: 'Inter', sans-serif;
 }
-.body-wrap{
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .container{
-    margin: 0 50px;
-    max-width: 1240px;
+    max-width: 1440px;
+    margin: auto;
 
 }
 /* banner css  */
 .banner{
     display: flex;
-    gap: 38px;
+    gap: 30px;
     padding: 38px 0;
     border-bottom: 1.6px solid #000;
 }
@@ -50,7 +45,7 @@ body{
     align-items: center;
     justify-content: start;
     gap: 8px;
-    margin: 60px 0 16.86px 0;
+    margin: 40px 0 16.86px 0;
 }
 .black-written{
     color: #050505;
@@ -155,37 +150,10 @@ body{
 .article-wrap{
     display: flex;
     padding: 28px 0;
-    gap: 38px;
+    gap: 30px;
     z-index: 9999;
 }
-.article-right p{
-    color: #000;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    margin-bottom: 23px;
-}
-.article-right h3{
-    color: #000;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 23px;
-}
-.article-right span{
-    display: block;
-    color: #000;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 20px;
-}
+
 .article-list{
     padding-left: 27px;
     margin-bottom: 20px;
@@ -216,8 +184,8 @@ body{
     margin-bottom: 10px;
 }
 .article-media{
-    width: 70%;
-    margin: auto;
+    width: 80%;
+    /* margin: auto; */
     text-align: center;
     margin-bottom: 36px;
     padding-bottom: 20px;
@@ -231,7 +199,7 @@ body{
 .social-icons{
     width: 50px;
     height: 50px;
-    border: 1px solid #464646;
+    border: 1px solid #DADFEB;
     display: flex;
     align-items:center ;
     justify-content: center;
@@ -239,10 +207,10 @@ body{
 }
 .people-read{
     width: 80%;
-    border: 1px solid #464646;
+    border: 1px solid #DADFEB;
     padding: 20px;
     border-radius: 10px;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 36px;
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
@@ -253,7 +221,7 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 225.023%;
-    border-bottom: 1px solid #464646;
+    border-bottom: 1px solid #DADFEB;
     margin-bottom: 20px;
 }
 .read-box{
@@ -299,11 +267,11 @@ body{
 }
 
 .struggling-box{
-    max-width: 428px;
-    width: 73%;
-    margin: auto;
+    /* max-width: 428px; */
+    width: 80%;
+    /* margin: auto; */
     padding: 20px;
-    border: 2px solid #fca503;
+    border: 2px solid #FD8D05;
     border-radius: 12px;
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
@@ -312,26 +280,26 @@ body{
     font-size: 15px;
     font-weight: 600;
     color: #fff;
-    background-color: #fca503;
+    background-color: #FD8D05;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 80%;
     margin: auto;
     padding: 15px 0;
-    border: 1px solid #fca503;
+    border: 1px solid #FD8D05;
     border-radius: 5px;
     transition: 0.3s ease-in-out all;
 }
 .strug-btn:hover{
     background: #fff;
-    color: #fca503;
+    color: #FD8D05;
 
 }
 
 .arthor-bio{
     border-radius: 5px;
-    border: 1px solid #464646;
+    border: 1px solid #DADFEB;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 12px 4px 12px 27px;
     margin-top: 60px;
@@ -359,10 +327,7 @@ body{
 }
 
 
-/* .article-right{
-    height: 100vh;
-    overflow-y: auto;
-} */
+
 
 /* media qury  */
 
@@ -386,7 +351,7 @@ body{
         width: 90%;
         margin: auto;
         padding: 20px;
-        border: 2px solid #fca503;
+        border: 2px solid #FD8D05; 
         border-radius: 12px;
     }
     .struggling-box h4 {
@@ -409,15 +374,7 @@ body{
         left: 0;
         top: 13%;
     }
-    .article-right p {
-        font-size: 14px;
-        line-height: 22px;
-        margin-bottom: 18px;
-    }
-    .article-right h3 {
-        font-size: 28px;
-        margin-bottom: 18px;
-    }
+    
 }
 
 
@@ -471,7 +428,6 @@ body{
     }
     .people-read {
         width: 100%;
-        border: 1px solid #464646;
         padding: 15px;
         margin: auto;
         margin-top: 25px;
@@ -531,10 +487,7 @@ body{
         font-size: 12px;
         line-height: 18px;
     }
-    .article-right span {
-        font-size: 13px;
-        margin-bottom: 15px;
-    }
+
     .article-list li {
         font-size: 13px;
         line-height: 170.023%;
@@ -554,10 +507,6 @@ body{
     }
     .report-box h6 {
         font-size: 7px;
-    }
-    .article-right h3 {
-        font-size: 24px;
-        margin-bottom: 18px;
     }
 
 
