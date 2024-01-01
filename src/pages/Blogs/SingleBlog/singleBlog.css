@@ -184,7 +184,7 @@ body{
     margin-bottom: 10px;
 }
 .article-media{
-    width: 80%;
+    width: 90%;
     /* margin: auto; */
     text-align: center;
     margin-bottom: 36px;
@@ -206,7 +206,7 @@ body{
     border-radius: 50%;
 }
 .people-read{
-    width: 80%;
+    width: 90%;
     border: 1px solid #DADFEB;
     padding: 20px;
     border-radius: 10px;
@@ -268,7 +268,7 @@ body{
 
 .struggling-box{
     /* max-width: 428px; */
-    width: 80%;
+    width: 90%;
     /* margin: auto; */
     padding: 20px;
     border: 2px solid #FD8D05;
@@ -325,6 +325,41 @@ body{
 .struggle-img{
     width: 100%;
 }
+.article-inner h2{
+    color: #0e101a !important;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 0 !important;
+
+}
+
+.article-inner p{
+    color: #000 !important;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 150%;
+    padding: 0 !important;
+}
+.article-inner p a{
+    color: #367fd3;
+}
+.article-inner ul li,
+.article-inner ol li{
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+.article-inner ul,
+.article-inner ol{
+    padding-left: 20px;
+}
+
+
+
 
 
 
