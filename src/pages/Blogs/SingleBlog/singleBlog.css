@@ -24,6 +24,14 @@ body{
     padding: 38px 0;
     border-bottom: 1.6px solid #000;
 }
+.banner h1{
+    color: #000;
+    text-align: start;
+    font-size: 52px;
+    line-height: 122%;
+    font-style: normal;
+    font-weight: 600;
+}
 
 .col-5{
     width: 40%;
@@ -31,6 +39,7 @@ body{
 .col-7{
     width: 60%;
 }
+
 .hero-left h2{
     color: #000;
     text-align: start;
@@ -45,7 +54,7 @@ body{
     align-items: center;
     justify-content: start;
     gap: 8px;
-    margin: 40px 0 16.86px 0;
+    margin: 0px 0 16.86px 0;
 }
 .black-written{
     color: #050505;
@@ -327,9 +336,18 @@ body{
 }
 .article-inner h2{
     color: #0e101a !important;
-    margin-top: 36px;
     margin-bottom: 24px;
     font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 0 !important;
+
+}
+.article-inner h3{
+    color: #0e101a !important;
+    margin-bottom: 24px;
+    font-size: 26px;
+    font-style: italic;
     font-weight: 700;
     line-height: 120%;
     padding: 0 !important;
@@ -345,6 +363,7 @@ body{
 }
 .article-inner p a{
     color: #367fd3;
+    text-decoration: underline;
 }
 .article-inner ul li,
 .article-inner ol li{
@@ -355,7 +374,7 @@ body{
 }
 .article-inner ul,
 .article-inner ol{
-    padding-left: 20px;
+    padding-left: 25px;
 }
 
 
@@ -367,8 +386,12 @@ body{
 /* media qury  */
 
 @media (max-width:1340px){
+    .container{
+        padding: 0 50px;
+
+    }
     .mr-black {
-        margin: 50px 0 16.86px 0;
+        margin: 0px 0 16.86px 0;
     }
     .hero-left h3 {
         font-size: 28px;
@@ -421,7 +444,7 @@ body{
         margin-bottom: 15px;
     }
     .mr-black {
-        margin: 35px 0 16.86px 0;
+        margin: 5px 0 16.86px 0;
     }
     .hero-left p {
         font-size: 11.786px;
@@ -442,7 +465,7 @@ body{
         margin-bottom: 10px;
     }
     .mr-black {
-        margin: 25px 0 16px 0;
+        margin: 0px 0 16px 0;
     }
     .tag-btn {
         font-size: 12px;
@@ -471,6 +494,7 @@ body{
 @media (max-width:991px){
     .container {
         margin: 0 50px;
+        padding: 0;
     }
     .banner,
     .article-wrap{
