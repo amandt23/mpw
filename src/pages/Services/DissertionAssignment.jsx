@@ -105,7 +105,7 @@ const DissertionAssignment = () => {
     },
   ]
 
-  const CvWritingFaqs = faqs.cv_writing;
+  const DissertationAssignmentFaqs = faqs.dissertation_assignmnet;
 
   // Crousel responsivenes 
   const responsive = {
@@ -469,9 +469,9 @@ const DissertionAssignment = () => {
 
       <div className="faqs">
                 <div className="faqTop">
-                    <h2>Frequently Asked Questions - Nursing Assignment Help</h2>
-                    <p>Providing expert, reliable, and insightful nursing assignment guidance tailored to your academic success.</p>
-                    <FAQsSection faqs={CvWritingFaqs} /> 
+                    <h2>Frequently Asked Questions About Our Dissertation Proofreading Service</h2>
+                    <p>Expert answers to your queries, showcasing our dedication to quality and professional academic assistance.</p>
+                    <FAQsSection faqs={DissertationAssignmentFaqs} /> 
                 </div>
 
             </div>
