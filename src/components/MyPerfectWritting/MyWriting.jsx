@@ -10,10 +10,10 @@ const MyWriting = () => {
 
     <>
         <Helmet>
-          {/* <title> Essay Writing Service in UK - My Perfect Writing</title>
+          <title>Our Writers | Expert Team at My Perfect Writing</title>
           <meta name="description" content="Meet the skilled writers behind My Perfect Writing. Our dedicated team delivers exceptional academic writing services across the UK." />
 
-         <meta name="keywords" content="My Perfect Writing Writers, Expert Academic Writers UK, Professional Writing Team UK, Skilled Essay Writers at My Perfect Writing"></meta> */}
+         <meta name="keywords" content="My Perfect Writing Writers, Expert Academic Writers UK, Professional Writing Team UK, Skilled Essay Writers at My Perfect Writing"></meta>
        </Helmet>
         <div className='writing'>
             <div className="wTop">
@@ -23,6 +23,8 @@ const MyWriting = () => {
 
             <div className="wPdf">
                 <div className="leftText">
+                    <div className="textData">
+                    <div className="textR">
                     <h3><strong>Wondering How to Ace Your Academic Writing Without Breaking the Bank?</strong></h3>
                     <p>At <em>Essay Writing Service in UK</em>, we understand the quintessential student dilemma: achieving top-notch academic success without the financial strain. We stand apart as the only <strong>academic writing help</strong> that upholds a transparent, fixed-pricing model at an unrivalled rate of £6.99. This unique approach ensures that every student, irrespective of the academic task's complexity or urgency, has access to <strong>affordable writing services in the UK</strong>.</p>
                     <p>Forget the fear of hidden costs and last-minute add-ons. We pride ourselves on a clear-cut pricing strategy that respects your budget. Whether it's a challenging <strong>British university essay</strong> or a comprehensive <strong>dissertation</strong>, our <strong>custom essay services in the UK</strong> do not waver in financial fairness. There are no premium charges for your order's complexity, deadline tightness, or academic level - a stark contrast to the traditional tiered pricing system prevalent in the industry. Our ethos is simple: your educational success should not be a privilege; it's a right. And with us, it's affordable too.</p>
@@ -60,7 +62,8 @@ const MyWriting = () => {
                     <p>Embarking on your thesis journey? Our <strong>thesis writing services in the UK</strong> blend critical thinking with analytical excellence, ensuring your paper not only meets but exceeds academic expectations. With a panel of experts versed in various disciplines, we're equipped to add depth and perspective to your research, presenting a paper that's informed, insightful, and indisputably your own.</p>
 
                     <p>Our commitment to affordability doesn’t mean we skimp on quality. On the contrary, we take pride in offering <strong>cheap dissertation writing services in the UK</strong> that democratise access to scholarly success. Every essay is meticulously tailored, ensuring that 'write essay UK' isn't just a service, but a guarantee of quality, even when the deadline is knocking on your door with the urgency of a <strong>samedayessay in the UK</strong>.</p>
-
+                    </div>
+                    <div className="textL">
                     <h3><strong>What Makes Our Essay Writing Service a Beacon of Satisfaction in the UK?</strong></h3>
                     <p>Ever wondered how a writing service can guarantee not just results, but sheer contentment? At the heart of our service, lies a promise – every essay is a <strong>plagiarism-free UK essay</strong>, a unique masterpiece carved to reflect your academic needs and aspirations. Our assurance of satisfaction isn't just a claim; it's woven into the very fabric of our work ethic.</p>
 
@@ -90,6 +93,12 @@ const MyWriting = () => {
                     <p>But the substance goes beyond the paper. It's the comfort of knowing that a team noted for their <em>'top UK writing services'</em> stands behind you. The assurance that <a href="write-my-assignment-uk-cheap" title="Write My Assignment UK Cheap">affordable yet impeccable assignments</a> are within your reach, without the spectre of plagiarism or the shadow of error.</p>
                     <p>And let's not sideline the relief that comes from timely delivery. No more clock-watching or nail-biting as deadlines approach. Our <a href="grademiners-uk" title="Grademiners UK">Grademiners UK</a> team ensures that punctuality is as much a priority as the quality of writing.</p>
                     <p>In essence, you'll leave with more than just a completed assignment. You'll walk away with peace of mind, a deeper understanding of your subject, and the confidence that comes from having your work crafted by the best in the business. A rendezvous with our <em>'ukessays co uk'</em> prowess doesn't just meet expectations; it sets new ones.</p>
+                    </div>
+                    </div>
+                    
+                    
+
+                    
 
                 </div>
 

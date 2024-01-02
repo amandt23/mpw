@@ -144,20 +144,26 @@
 
 .leftText {
   display: flex;
-  max-width: 1000x;
+  /* max-width: 1000px; */
   flex-direction: column;
   align-items: center;
-  padding: 34px;
+  padding: 10px 34px ;
   margin: 24px;
-  border-top-left-radius: 30px;
+  /* border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-top: 1px solid #000;
   border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  border-right: 1px solid #000; */
   background: rgba(255, 255, 255, 0.01);
   overflow-y: auto;
   height: 632px;
   /* background-color: red; */
+}
+.textData{
+  display: flex;
+  align-items: start;
+  width: 100%;
+  gap: 20px;
 }
 
 .rightText {
@@ -165,36 +171,37 @@
   max-width: 549px;
   flex-direction: column;
   align-items: center;
-  padding: 34px;
+  padding: 10px 34px ;
   margin: 24px;
-  border-top-left-radius: 30px;
+  /* border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-top: 1px solid #000;
   border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  border-right: 1px solid #000; */
   background: rgba(255, 255, 255, 0.01);
   overflow-y: auto;
   height: 632px;
   /* background-color: red; */
 }
 
-.leftText h2 {
+.leftText h3 {
   color: #000;
-  text-align: center;
-  font-size: 22px;
+  text-align: start;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 150%;
+  padding-bottom: 30px ;
 }
 
 
 .leftText p {
   color: #000;
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  padding: 30px 0px;
+  line-height: 150%;
+  padding-bottom: 30px ;
 }
 
 .leftText h1 {
@@ -205,6 +212,14 @@
   font-weight: 700;
   line-height: normal;
 }
+.textR,
+.textL{
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 32px 30px;
+  border-radius: 20px;
+  border: 1px solid #C9D9EE;
+}
 
 
 .rightText p {
@@ -213,42 +228,43 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 30px 0px;
+  padding-bottom: 30px ;
 
 }
 
 .notice {
-  padding: 20px 52px 10px 92px;
+  padding: 10px 20px;
   background: #8FB5DB;
   margin-top: 50px;
   width: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
 
 }
 
 .notice h2 {
   color: #000;
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding-bottom: 24px;
-  max-width: 1480px;
+  padding-bottom: 10px;
+  /* max-width: 1480px; */
   /* animation: moveRightLeft 2s linear infinite; */
 
 
 }
 
 .notice p {
-  padding-bottom: 14px;
+  padding-bottom: 10px;
   color: #000;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  max-width: 1480px;
+  /* max-width: 1480px; */
 
 }
 /* @keyframes moveRightLeft {
@@ -295,7 +311,7 @@
   animation-direction: normal; */
   white-space: nowrap;
   overflow: hidden;
-  animation: slideText 20s linear infinite;
+  animation: slideText 30s linear infinite;
 }
 
 @keyframes slideText {
@@ -309,9 +325,12 @@
 }
 
 .noticeContent{
-  /* white-space: nowrap; */
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  white-space: nowrap;
   overflow: hidden;
-  animation: slideText 20s linear infinite;
+  animation: slideText 30s linear infinite;
 
 }
 
@@ -332,4 +351,53 @@
   .wPdf {
     flex-wrap: wrap;
   }
+}
+@media (max-width: 991px) {
+  .textData {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    gap: 20px;
+}
+.textR,
+.textL{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 32px 30px;
+  border-radius: 20px;
+  border: 1px solid #C9D9EE;
+}
+}
+@media (max-width: 767px) {
+  .wTop h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.writing {
+
+}
+}
+@media (max-width: 575px) {
+  .textR, .textL {
+    width: 100%;
+    padding: 20px 10px;
+}
+.leftText {
+  padding: 10px 10px;
+  margin: 15px;
+  margin: 10px;
+}
+.wTop p {
+  font-size: 16px;
+}
+.leftText h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.leftText p {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
 }

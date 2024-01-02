@@ -4,17 +4,19 @@ import { Link } from 'react-router-dom'
 
 const BlogCard = ({blog}) => {
     return (
-
+        <Link className='Link' to={`/blog/${blog.blog_single_title}`}>
+       
+    
         <div key={blog.id} className="blog-card">
             <div className="big-blog-Img">
                 <img className='list-card-img' src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${blog.image}`} alt="blog-image" />
             </div>
             <div className="big-blog-desc list-card">
-                <p>Lifestyle</p>
+               
                 <h2 className='list-card-head'>
                     {blog.blogtitle.length < 20 ? blog.blogtitle : `${blog.blogtitle.slice(0, 45)}...`}
                     </h2>
-                <p><strong>Author: </strong>{blog.author}</p>
+                <p><strong>Author: </strong>{blog.authorname}</p>
                 <div className="blog-info">
                     <div className="info-left">
                         <p>{blog.creation_date}</p>
@@ -27,11 +29,11 @@ const BlogCard = ({blog}) => {
                     </div>
                 </div>
                 <div className="blog-tags-list-card">
-                    <p>Tags:</p>
+                   
                     <div className="blog-all-tags list-card-tage">
-                        <p>tag1</p>
-                        <p>tag2</p>
-                        <p>tag3</p>
+                        <p>{blog.tag1}</p>
+                        <p>{blog.tag2}</p>
+                        <p>{blog.tag3}</p>
                     </div>
                 </div>
                 
@@ -43,6 +45,7 @@ const BlogCard = ({blog}) => {
             </div>
 
         </div>
+    </Link>
 
 
     )

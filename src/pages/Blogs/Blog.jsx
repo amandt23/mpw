@@ -72,7 +72,7 @@ const Blog = () => {
           </div> */}
         </div>
         <div className="blogHBottom">
-          <h1>Essay writing with EssayPro</h1>
+          <h1>Essay writing with MyPerfectWriting</h1>
           <p>You don't have to worry about pressing deadlines and sleepless nights. Our essay writing service pros love to share valuable tips, making your life much simpler. Some of tips and a lot of other useful information, you can find on our blog. So, enjoy the goldmine of information and ace your academic assignments stress-free. </p>
           <hr />
         </div>

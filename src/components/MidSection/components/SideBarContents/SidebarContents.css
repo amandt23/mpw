@@ -51,8 +51,8 @@
     margin-top: 58px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
 }
 
 .desc p {
@@ -79,6 +79,7 @@
     font-weight: 100;
     line-height: normal;
     padding-top: 20px;
+    text-align: start;
 }
 
 .star-icon {

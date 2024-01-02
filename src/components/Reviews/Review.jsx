@@ -144,10 +144,10 @@ const Review = () => {
     return (
 <>
         <Helmet>
-               {/* <title>Client Reviews | Feedback on My Perfect Writing</title>
+               <title>Client Reviews | Feedback on My Perfect Writing</title>
                <meta name="description" content="Read client reviews and testimonials about My Perfect Writing. Discover how our services have positively impacted academic journeys in the UK." />
 
-               <meta name="keywords" content="My Perfect Writing Client Reviews, Feedback on Academic Writing Services, Testimonials for My Perfect Writing, My Perfect Writing UK Reviews"></meta> */}
+               <meta name="keywords" content="My Perfect Writing Client Reviews, Feedback on Academic Writing Services, Testimonials for My Perfect Writing, My Perfect Writing UK Reviews"></meta>
         </Helmet>
         <div className="review">
             <div className="reviewTop">

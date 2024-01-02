@@ -24,7 +24,7 @@ const Createive = () => {
     <div className="MidnavContents">
       <div className="sidebar">
         <ul>
-          <li onClick={() => handleClick('Admission Essay')}><h4>Admission Essay</h4></li>
+          <li onClick={() => handleClick('Admission Essay')}><h4>Creative Essay</h4></li>
           <li onClick={() => handleClick('Annotated Bibliography ')}><h4>Annotated Bibliography</h4> </li>
           <li onClick={() => handleClick('Case Study')}><h4>Poem</h4></li>
           <li onClick={() => handleClick('Critical Review')}><h4>Reflective Writing</h4></li>

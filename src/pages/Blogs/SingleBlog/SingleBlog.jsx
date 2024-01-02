@@ -26,14 +26,15 @@ const SingleBlog = () => {
 
 
     useEffect(() => {
-        const apiUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getBlogByTitle&title=${decodedTitle}`;
-        //console.log(apiUrl);
-
+        const encodedTitle = encodeURIComponent(decodedTitle);
+        const apiUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getBlogByTitle&title=${encodedTitle}`;
+        console.log(apiUrl);
+    
         axios.get(apiUrl)
             .then((response) => {
                 const data = response.data; // Extract the array of client data
                 setSingleBlog(data);
-               // console.log("data", data);
+               console.log("data", data);
             })
             .catch((error) => {
                 console.error("Error fetching client data:", error);
@@ -42,7 +43,7 @@ const SingleBlog = () => {
                 setLoading(false); // Set loading to false regardless of success or failure
             });
     }, [title]);
-
+    
     if (loading) {
         return <SingleBlogSkeleton />;
     }
@@ -122,9 +123,15 @@ const SingleBlog = () => {
                                 <h6 className="report-date">Published on: <span >{singleBlog[0].creation_date}</span></h6>
                             </div>
                             <div className="report-box">
-                                <img src="../images/last-update.svg" alt=""/>
-                                <h6 className="report-date">Last updated on: <span > {singleBlog[0].updation_date}</span></h6>
-                            </div>
+                              <img src="../images/last-update.svg" alt=""/>
+                              <h6 className="report-date">
+                                Last updated on: 
+                               <span>
+                                {singleBlog[0].updation_date && singleBlog[0].updation_date !== '0000-00-00' ? singleBlog[0].updation_date : ''}
+                              </span>
+                             </h6>
+                          </div>
+
                             <div className="report-box">
                                 <h6 className="report-date">Word Count:  <span >1500</span></h6>
                             </div>

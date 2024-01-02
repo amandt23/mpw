@@ -2,11 +2,14 @@
     background: #232323;
     display: flex;
     justify-content: center;
+    gap: 60px;
+    align-items: start;
+    
 
 }
 
 .fLeft {
-    padding: 68px 90px 109px 0px;
+    padding: 38px 0px 0px 0px;
     display: flex;
     flex-direction: column;
 
@@ -30,7 +33,7 @@
     padding-top: 11px;
     color: #AEAEAE;
     font-family: Inter;
-    font-size: 16.964px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -40,14 +43,14 @@
 
 .Btns label {
     color: #FFF;
-    font-size: 14.867px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .Btns input {
-    padding: 12px 147px 12px 17px;
+    padding: 15px 147px 15px 17px;
     margin-top: 9px;
 }
 
@@ -80,8 +83,8 @@
 .fRight .vertical-line2 {
     background-color: white;
     width: 1px;
-    height: 153px;
-    margin-right: 33px;
+    /* height: 153px; */
+    /* margin: 0 33px; */
 }
 
 .footer-social-icons {
@@ -100,7 +103,7 @@
 
 .rSection p {
     color: #FFF;
-    font-size: 19.264px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -119,17 +122,18 @@
 .rSection ul li a {
     text-decoration: none;
     color: #AEAEAE;
-    font-size: 14.194px;
+    font-size: 17px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
     margin-top: 7px;
 }
 
 .RContents {
     display: flex;
-    margin-right: 10px;
-    margin-left: 10px;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    gap: 50px;
 }
 
 
@@ -144,6 +148,7 @@
     row-gap: 12px;
     column-gap: 12px;
     margin-left: 56px;
+    flex-direction: column;
 }
 
 .rdropdown2 {
@@ -158,8 +163,9 @@
     border-radius: 12.045px;
     background: #FFF;
     color: black;
-    padding: 13.766px;
-    font-size: 16px;
+    padding: 13.766px 30px;
+    font-size: 18px;
+    font-weight: 600;
     border: none;
     cursor: pointer;
 }
@@ -199,37 +205,36 @@
 }
 
 .BottomLogo {
-    align-items: flex-start;
-    margin-top: 50px;
+    text-align: center;
+    padding-top: 38px;
+    background: #232323;
 
 }
 
 .BottomLogo hr {
-    color: white;
+    color:#232323;
     width: 383px;
     height: 1px;
-    margin-top: 23px;
-    margin-bottom: 20px;
+    margin-top: -2px;
+    /* margin-top: 23px;
+    margin-bottom: 20px; */
 }
 
 .footerBottomPay {
     background: #232323;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 20px;
     justify-content: space-between;
     align-items: center;
     margin-top: -2px;
-    padding-top: 21px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
+    padding: 40px 20px 30px;
 
 }
 
 .footerBottomPay p {
     color: #FFF;
-    font-size: 19px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -238,20 +243,22 @@
 .payIcons {
     border-radius: 8px;
     background: #D9D9D9;
-    width: 325.5px;
+    /* width: 325.5px; */
     height: 53.769px;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 20px;
+    padding: 0 10px;
 }
 
 .footer2 {
     background: #232323;
-    margin-top: -2px;
+    /* margin-top: -2px; */
     border-top: 1px solid #FFF;
-    padding: 31px;
+    padding: 31px 100px;
     display: flex;
+    align-items: center ;
     justify-content: space-between;
 
 
@@ -275,9 +282,9 @@
 .footer2 ul li a {
     text-decoration: none;
     color: #AEAEAE;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
 }
 
@@ -308,7 +315,7 @@
     
     }
     .BottomLogo hr {
-        width: 383px;
+        /* width: 383px; */
     }
 
     .vertical-line1 {
@@ -338,11 +345,28 @@
     }
 
     .BottomLogo {
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
 
     .RContents {
         margin-right: 10px;
         margin-left: 10px;
+    }
+    .RContents{
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+    .footer{
+        align-items: start;
+    }
+    .fRight{
+        width: 100%;
+    }
+    .rDropdown{
+        margin: auto;
+    }
+    .fRight .vertical-line2{
+        display: none;
     }
 }

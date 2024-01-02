@@ -29,10 +29,10 @@ const OnlineAcademic = () => {
         <>
         <Helmet>
 
-                {/* <title>Code of Conduct | Guidelines at My Perfect Writing</title>
+                <title>Code of Conduct | Guidelines at My Perfect Writing</title>
                 <meta name="description" content="Explore the Code of Conduct that defines My Perfect Writing. Learn about our ethical guidelines and commitment to academic integrity in the UK." />
 
-                <meta name="keywords" content="My Perfect Writing Code of Conduct, Academic Integrity Guidelines UK, Ethical Standards My Perfect Writing, Professional Conduct Policies"></meta> */}
+                <meta name="keywords" content="My Perfect Writing Code of Conduct, Academic Integrity Guidelines UK, Ethical Standards My Perfect Writing, Professional Conduct Policies"></meta>
 
 
         </Helmet>
