@@ -28,10 +28,10 @@ const Faqs = () => {
 <>
         <Helmet>
 
-                <title>FAQ | My Perfect Writing's Expert Guidance</title>
+                {/* <title>FAQ | My Perfect Writing's Expert Guidance</title>
                 <meta name="description" content="Find answers to your questions with My Perfect Writing's FAQ. Expert insights on essay writing services in the UK, tailored to student needs." />
 
-                <meta name="keywords" content="My Perfect Writing FAQ, Essay Writing Service FAQs UK, Academic Writing Questions Answered, My Perfect Writing Student Support"></meta>
+                <meta name="keywords" content="My Perfect Writing FAQ, Essay Writing Service FAQs UK, Academic Writing Questions Answered, My Perfect Writing Student Support"></meta> */}
 
 
         </Helmet>
