@@ -1,17 +1,23 @@
-import React, { useState, lazy } from 'react';
-import { Helmet } from 'react-helmet';
+import React, { useState } from 'react'
+import { FaRegCheckCircle } from "react-icons/fa";
+// review
+import { MdPrivacyTip } from "react-icons/md";
+import { FaEye } from "react-icons/fa";
+
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
-const lecturersData = React.lazy(() => import('../../data.json'));
-const reviews = React.lazy(() => import('../../review.json'));
-const faqs = React.lazy(() => import('../../faqs.json'));
-const Social = React.lazy(() => import('../../components/Social/Social'));
-const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
-const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const price = React.lazy(() => import('../../pricecard.json'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+import Card from '../../components/CardCrousel/Card';
+import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import faqs from '../../faqs.json';
+import Social from '../../components/Social/Social'
+import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import { Helmet } from 'react-helmet';
+import FAQsSection from './FAQsSection';
+import ReviewComponent from './ReviewComponent';
+import price from '../../pricecard.json';
+import PriceCard from './PriceCard';
+
 
 const PoliticalAssignmentHelp = () => {
 

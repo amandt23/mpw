@@ -187,7 +187,7 @@ const SingleBlog = () => {
                                 {/* <h3>Struggling With your essay</h3> */}
                                 <img className="struggle-img" src="../images/struggle.png" alt=""/>
                                 {/* <h4>Top-className Writter are here!</h4> */}
-                                <a className="strug-btn" href="#">Place Order</a>
+                                <a className="strug-btn" href="https://myperfectwriting.co.uk/portal/public/login">Place Order</a>
                             </div>
                            
                             <div className="people-read">
