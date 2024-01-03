@@ -1,15 +1,16 @@
-import React from 'react'
-import Header from '../../components/Header/Header'
-import MyTeam from '../../components/CardCrousel/MyTeam'
-import Price from '../../components/Price/Price'
-import Faqs from '../../components/FAQS/Faqs'
-import OnlineAcademic from '../../components/onlineAcademic/OnlineAcademic'
-import MidSection from '../../components/MidSection/MidSection'
-import Social from '../../components/Social/Social'
-import Review from '../../components/Reviews/Review'
-import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
-import MyWriting from '../../components/MyPerfectWritting/MyWriting'
+import React, {lazy} from 'react';
 import { Helmet } from 'react-helmet'
+const Header = React.lazy(() => import('../../components/Header/Header'));
+const MyTeam = React.lazy(() => import('../../components/CardCrousel/MyTeam'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
+const Faqs = React.lazy(() => import('../../components/FAQS/Faqs'));
+const OnlineAcademic = React.lazy(() => import('../../components/onlineAcademic/OnlineAcademic'));
+const MidSection = React.lazy(() => import('../../components/MidSection/MidSection'));
+const Social = React.lazy(() => import('../../components/Social/Social'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
+const MyWriting = React.lazy(() => import('../../components/MyPerfectWritting/MyWriting'));
+
 
 const Home = () => {
     return (
