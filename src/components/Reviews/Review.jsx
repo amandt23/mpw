@@ -202,7 +202,7 @@ const Review = () => {
                                     </div>
                                     <div className="BottRight">
                                         <p className='secBlk'>Price:</p>
-                                        <p>{item.OrderPrice}</p>
+                                        <p>£{((item.WordCount / 300) * 6.99).toFixed(2)}</p>
                                     </div>
                                 </div>
                             </div>

@@ -22,7 +22,7 @@ import React from 'react';
                                     </div>
                                     <div className="BottRight">
                                         <p className='secBlk'>Price:</p>
-                                        <p>{review.OrderPrice}</p>
+                                        <p>£{((review.WordCount / 300) * 6.99).toFixed(2)}</p>
                                     </div>
                                 </div>
                             </div>
