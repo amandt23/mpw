@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, startTransition } from 'react';
 import FAQItem from './FAQItem';
 import { Helmet } from 'react-helmet';
 
@@ -8,12 +8,15 @@ const FAQsSection = ({ faqs  }) => {
 
 
   const toggleFAQ = (index) => {
-    if (openIndex === index) {
-      setOpenIndex(null);
-    } else {
-      setOpenIndex(index);
-    }
+    startTransition(() => {
+      if (openIndex === index) {
+        setOpenIndex(null);
+      } else {
+        setOpenIndex(index);
+      }
+    });
   };
+  
 
 
 

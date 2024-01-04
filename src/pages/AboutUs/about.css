@@ -1,15 +1,15 @@
 .aboutUsContainer .aboutUsHeading {
     text-align: center;
     color: #21383E;
-    font-size: 50.087px;
+    font-size: 52px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 86px;
+    margin-top: 160px;
 }
 
 .welcomSec {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .welcomContainer {
@@ -597,7 +597,11 @@ element.style {}
     height: 100%;
 }
 
-
+@media(max-width: 767px){
+    .aboutUsContainer .aboutUsHeading {
+        font-size: 38px;
+    }
+}
 
 
 

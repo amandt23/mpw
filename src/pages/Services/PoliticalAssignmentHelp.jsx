@@ -1,22 +1,19 @@
-import React, { useState } from 'react'
-import { FaRegCheckCircle } from "react-icons/fa";
-// review
-import { MdPrivacyTip } from "react-icons/md";
-import { FaEye } from "react-icons/fa";
-
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import Card from '../../components/CardCrousel/Card';
-import lecturersData from '../../data.json';
-import reviews from '../../review.json';
-import faqs from '../../faqs.json';
-import Social from '../../components/Social/Social'
-import PlaceOrder from '../../components/PlaceOrder/PlaceOrder'
+import React, { useState, Suspense} from 'react'
 import { Helmet } from 'react-helmet';
-import FAQsSection from './FAQsSection';
-import ReviewComponent from './ReviewComponent';
+
+import lecturersData from '../../data.json';
+import faqs from '../../faqs.json';
+import reviews from '../../review.json';
 import price from '../../pricecard.json';
-import PriceCard from './PriceCard';
+import "react-multi-carousel/lib/styles.css";
+
+const Carousel = React.lazy(() => import("react-multi-carousel"));
+const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
+const Social = React.lazy(() => import('../../components/Social/Social'));
+const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
+const FAQsSection = React.lazy(() => import('./FAQsSection'));
+const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
+const PriceCard = React.lazy(() => import('./PriceCard'));
 
 
 const PoliticalAssignmentHelp = () => {
@@ -252,6 +249,7 @@ const PoliticalAssignmentHelp = () => {
             </div>
 
 
+        <Suspense fallback={<div>Loading...</div>}>
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
@@ -307,6 +305,7 @@ const PoliticalAssignmentHelp = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+        </Suspense>
 
             {/* Discussion section  */}
             <div className='writing'>
