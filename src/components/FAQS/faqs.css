@@ -4,6 +4,7 @@
     padding: 45px;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 
 }
 
@@ -37,9 +38,9 @@
     margin-top: 31px;
     display: flex;
     column-gap: 50px;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    width: 50%;
+    width: 80%;
     /* max-height: 800px; */
     
 
@@ -147,27 +148,32 @@
 
 }
 .faq-quetion h4{
-    font-size: 30px;
+    font-size: 23px;
+}
+.faq-q-right h4{
+    font-size: 23px;
 }
 @media (max-width:1499px){
     .faqBottom {
-        width: 60%;
+        width: 100%;
     }
 }
 @media (max-width: 1299px){
-    .faq-quetion h4 {
-        font-size: 28px;
+    .faq-quetion h4,
+    .faq-q-right h4 {
+        font-size: 20px;
     }
     .faqBottom {
-        width: 65%;
+        width: 100%;
     }
 }
 @media (max-width: 1099px){
-    .faq-quetion h4 {
-        font-size: 28px;
+    .faq-quetion h4,
+    .faq-q-right h4 {
+        font-size: 18px;
     }
     .faqBottom {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -187,8 +193,9 @@
     .faqs {
         padding: 20px;
     }
-    .faq-quetion h4 {
-        font-size: 24px;
+    .faq-quetion h4,
+    .faq-q-right h4 {
+        font-size: 20px;
     }
     .faq-answer {
         font-size: 18px;
@@ -205,7 +212,8 @@
    
 }
 @media (max-width: 500px) {
-    .faq-quetion h4 {
+    .faq-quetion h4, 
+    .faq-q-right h4 {
         font-size: 15px;
     }
     .faq-answer {

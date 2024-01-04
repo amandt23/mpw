@@ -58,7 +58,7 @@ body{
 }
 .black-written{
     color: #050505;
-    font-size: 14.499px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -134,7 +134,7 @@ body{
 
 .report-box h6{
     color: #313131;
-    font-size: 15px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -175,13 +175,14 @@ body{
     padding-left: 7px;
 }
 
-.article-media h4{
-    color: #777;
-    font-size: 15px;
+.article-media h4 {
+    color: #000;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 225.023%;
     margin-bottom: 10px;
+    letter-spacing: 2px;
 }
 .article-media{
     width: 90%;
@@ -215,13 +216,15 @@ body{
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
 .people-read h4{
-    color: #777;
-    font-size: 18px;
+    color: #000;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 225.023%;
     border-bottom: 1px solid #DADFEB;
     margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
 }
 .read-box{
     position: relative;
@@ -236,6 +239,10 @@ body{
     display: block;
     padding-left: 30px;
     width: 72%;
+    transition: 0.3s ease-in-out all;
+}
+.read-box span:hover{
+    color: #015934;
 }
 .readbox-img{
     position: absolute;
@@ -273,7 +280,7 @@ body{
 }
 .strug-btn{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 600;
     color: #fff;
     background-color: #015934;
@@ -285,6 +292,7 @@ body{
     padding: 15px 0;
     border: 1px solid #015934;
     border-radius: 5px;
+    letter-spacing: 2px;
     transition: 0.3s ease-in-out all;
 }
 .strug-btn:hover{
@@ -329,6 +337,10 @@ body{
     width: auto !important;
 
 
+}
+.article-inner img{
+    width: 100%;
+    object-fit: contain;
 }
 .article-inner h3{
     color: #0e101a !important;
@@ -398,7 +410,7 @@ body{
         width: 90%;
         margin: auto;
         padding: 20px;
-        border: 2px solid #015934; 
+        border: 2px solid #FD8D05; 
         border-radius: 12px;
     }
     .struggling-box h4 {
