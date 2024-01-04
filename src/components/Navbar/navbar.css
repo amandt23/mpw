@@ -62,10 +62,7 @@
     display: block;
 }
 
-.profileIcon{
-    /* position: relative;
-    z-index: 1; */
-}
+
 .profileIcon .hamburgerDropdown {
     display: none;
     position: absolute;
