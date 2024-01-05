@@ -1,7 +1,7 @@
 .faqs {
     display: flex;
     background: #D7D8D8;
-    padding: 45px;
+    padding: 60px 45px;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 60%;
 }
 
 .faqTop h2 {
@@ -94,12 +95,15 @@
     font-weight: 600;
     line-height: normal;
 }
+.faq-item:last-child{
+    margin: 0;
+}
 
 
 /* FAQ.css */
 
 .faq-container {
-    width: 95%;
+    width: 100%;
     margin-top: 32px;
     /* margin-left: 28px; */
 }
@@ -155,7 +159,7 @@
 }
 @media (max-width:1499px){
     .faqBottom {
-        width: 100%;
+        width: 95%;
     }
 }
 @media (max-width: 1299px){
@@ -178,14 +182,16 @@
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
     .faqBottom {
         flex-wrap: wrap;
         justify-content: center;
         /* margin-bottom: 800px; */
         width: 100%;
-
-
+    }
+    .faq-quetion h4,
+    .faq-q-right h4 {
+        font-size: 23px;
     }
    
 }
@@ -208,6 +214,12 @@
     
     .faqTop h2 {
         font-size: 35px;
+    }
+    .faqTop p{
+        width: 90%;
+    }
+    .faqTop {
+        width: 100%;
     }
    
 }
@@ -232,6 +244,9 @@
     }
     .faq-item {
         margin-bottom: 20px;
+    }
+    .faqTop p {
+        font-size: 17.295px;
     }
    
 }

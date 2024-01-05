@@ -436,6 +436,13 @@ button.pulse-button {
         max-width: 63%;
     }
 }
+@media (max-width: 1299px){
+    .rightBTN {
+        padding: 15px 40px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}
 
 
 @media (max-width: 1120px) {
@@ -472,7 +479,7 @@ button.pulse-button {
     }
 
     .header {
-        padding: 10px 50px;
+        padding: 115px 50px;
     }
     .RightContentBottom {
         width: 80%;
@@ -535,7 +542,7 @@ button.pulse-button {
         max-width: 100%;
     }
     .header {
-        padding: 10px 20px;
+        padding: 115px 20px;
     }
 
 

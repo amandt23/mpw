@@ -26,8 +26,6 @@ const FAQsSection = ({ faqs  }) => {
       {/* ...faqTop section */}
       <div className="faqBottom">
         <div className="faqLeft">
-          <h3>What's covered?</h3>
-          <hr />
           <div className="faq-container">
             {faqs?.map((item, index) => (
               <FAQItem

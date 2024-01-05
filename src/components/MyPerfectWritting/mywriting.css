@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 60px;
   /* padding-bottom: 50px; */
   /* max-width: 1480px; */
 }
@@ -311,7 +311,7 @@
   animation-iteration-count: infinite;
   animation-direction: normal; */
   white-space: nowrap;
-  overflow: hidden;
+  /* overflow: hidden; */
   animation: slideText 30s linear infinite;
 }
 

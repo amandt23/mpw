@@ -24,12 +24,32 @@ const CriminalJusticeAssignmentHelp = () => {
     const CriminalJusticeAssignmentReview = reviews.criminal_justice_assignment;
     const CriminalJusticePrice = price.criminal_justice_price;
 
+    // const [counter, setCounter] = useState(1)
+    const [numberOfPages, setNumberOfPages] = useState(1);
+
+    const pricePerPage = 6.99;
+    const totalAmount = numberOfPages * pricePerPage;
+
+    const handleClick1 = () => {
+        // Counter state is incremented 
+        // setCounter(counter + 1)
+        setNumberOfPages(numberOfPages + 1);
+
+    }
+    const handleClick2 = () => {
+        // Counter state is decremented 
+        if (numberOfPages > 0) {
+            // setCounter(counter - 1)
+            setNumberOfPages(numberOfPages - 1);
+        }
+    }
+
     // Crousel responsivenes 
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 1350 },
-            items: 4
+            items: 3
         },
         desktop: {
             breakpoint: { max: 1350, min: 1024 },
@@ -181,75 +201,107 @@ const CriminalJusticeAssignmentHelp = () => {
 
             {/* Header section */}
             <div class="header">
-                <div className="upper">
+            <div className="headerwrap">
+            <div className="upper">
                     <div class="headerTop">
                         <h1>Criminal Justice Assignment Help in UK: Your Academic Partner</h1>
                         <p>Expertly guiding Students, Academic Professionals, and Researchers towards academic excellence in Criminal Justice.</p>
                     </div>
 
-                    <div class="headerBottom serviceHeaderBottom">
-                        <div id='serviceHeader' className="headerRight">
-                            <div className="serviceHeaderRight">
-                                <div className="headerRightTop serviceHeaderTop">
-                                    <div className="serviceRightContents">
+                    <div class="headerBottom">
+                  <div class="headerLeft">
+                <img src="./images/headerImg.png" alt="headerImage" />
+            </div>
+                
+                 <div className="headerRight">
+                        <div className="headerRightTop mainHeader">
+                            <div className="rightContents">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
+                                    <g clip-path="url(#clip0_237_39013)">
+                                        <path d="M19.6256 0.194336C30.1344 0.277134 38.5536 8.41085 38.5899 19.3464C38.623 29.3706 30.4346 38.3282 19.1489 38.1084C8.85478 37.9077 0.446459 29.5225 0.676485 18.5739C0.87985 8.90393 8.76932 0.294315 19.6256 0.194336ZM15.6323 22.0205C16.3064 22.0205 16.9808 22.0219 17.6549 22.0197C17.9772 22.0187 18.1791 22.0916 18.104 22.4956C17.9387 23.3843 17.8033 24.2782 17.6581 25.17C17.3846 26.8512 17.1119 28.5326 16.8401 30.2142C16.814 30.3744 16.7303 30.5457 16.9368 30.6563C17.2881 30.8443 18.2491 30.6049 18.4478 30.2731C20.9668 26.0696 23.4846 21.8652 26.001 17.66C26.5239 16.7854 26.2495 16.3125 25.224 16.3048C24.0442 16.2965 22.8643 16.2965 21.6844 16.3048C21.318 16.307 21.069 16.2586 21.1573 15.7791C21.4205 14.3529 21.6609 12.9225 21.902 11.4923C22.0905 10.3725 22.2712 9.25144 22.444 8.12913C22.4697 7.96176 22.5716 7.7544 22.2988 7.65516C22.0147 7.57263 21.7119 7.58041 21.4324 7.67742C21.1528 7.77443 20.9103 7.95587 20.7384 8.19667C18.8006 11.4238 16.8643 14.6519 14.9295 17.8809C14.3456 18.8551 13.7441 19.819 13.1878 20.8089C12.7709 21.5502 13.0446 22.0094 13.8629 22.0182C14.4526 22.0246 15.0427 22.0196 15.6326 22.0208L15.6323 22.0205Z" fill="#305F63" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_237_39013">
+                                            <rect width="37.9181" height="37.9181" fill="white" transform="translate(0.673828 0.194336)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p className='fixedP'>Fixed pricing at £6.99/page</p>
+                            </div>
+                            <div className="rightContents">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="31" viewBox="0 0 37 31" fill="none">
+                                    <g clip-path="url(#clip0_237_39015)">
+                                        <path d="M36.0786 11.8758C32.1948 4.55029 -2.48117 -2.93487 1.27296 1.90681C5.02708 6.74835 21.6593 13.392 22.645 13.5155C17.5421 15.1177 3.92196 17.9921 6.83737 20.4132C9.75291 22.8343 23.601 20.1303 23.5782 20.1734C19.7434 23.0631 14.9688 31.7869 19.766 29.923C27.3348 26.9821 38.3417 16.1443 36.0786 11.8758Z" fill="#16CEC6" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_237_39015">
+                                            <rect width="35.3902" height="29.8605" fill="white" transform="translate(0.989258 0.368164)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p className='noAdd'>Free add-on services</p>
+                            </div>
+                            <div className="rightContents">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                                    <g clip-path="url(#clip0_237_39017)">
+                                        <path d="M29.6664 29.3502C30.3795 28.6645 30.8458 27.7594 30.9555 26.772C30.9555 26.3606 30.8458 26.0863 30.5989 25.5652C30.3522 25.0441 27.3077 19.778 26.4026 18.3245C25.8815 17.4742 25.6072 16.4594 25.6072 15.4721C25.6072 14.4572 25.8815 13.4698 26.4026 12.6196C27.3077 11.1659 30.352 5.87254 30.599 5.35141C30.8458 4.83027 30.9555 4.58357 30.9555 4.17204C30.8458 3.18463 30.4069 2.27957 29.6939 1.62134C29.0082 0.908241 28.1031 0.441969 27.1431 0.359615C26.7318 0.359615 26.4575 0.469339 25.9637 0.71628C25.4701 0.963104 20.0944 3.9251 18.6408 4.83027C18.531 4.88513 18.4214 4.96737 18.2841 5.02223L11.0983 9.27344C11.2628 7.90211 11.8662 6.58564 12.8536 5.62572C13.0455 5.43376 13.2375 5.26905 13.4571 5.10459C13.2924 5.02235 13.1004 4.93988 12.9359 4.83027C11.4822 3.92521 6.18888 0.880869 5.66775 0.633928C5.14661 0.387106 4.89979 0.27738 4.46089 0.27738C3.47348 0.387106 2.56842 0.826008 1.91019 1.53898C1.19697 2.22471 0.730819 3.12976 0.621094 4.11717C0.648466 4.52859 0.758191 4.94 0.97776 5.29655C1.22446 5.81768 4.26893 11.111 5.17398 12.5647C5.69512 13.415 5.96943 14.4023 5.96943 15.4171C5.96943 16.432 5.69512 17.4194 5.17398 18.2696C4.26893 19.778 1.19709 25.0715 0.977642 25.5927C0.758191 25.9493 0.648466 26.3606 0.621094 26.772C0.730819 27.7594 1.16972 28.6645 1.8827 29.3502C2.56842 30.0632 3.47348 30.5021 4.46089 30.6118C4.8723 30.5844 5.28371 30.4747 5.66775 30.2551C6.10653 30.0632 9.97382 27.8142 12.0309 26.6074L12.497 26.3331C12.6616 26.2235 12.7987 26.1412 12.9084 26.0863L13.1279 25.9492L20.4508 21.6158C20.2863 23.2614 19.4361 24.7698 18.1196 25.7846C18.2843 25.8668 18.4762 25.9493 18.6407 26.0589C20.0944 26.964 25.3877 30.0358 25.9089 30.2553C26.2655 30.4747 26.6768 30.5844 27.1157 30.6118C28.0869 30.501 28.989 30.0548 29.6664 29.3502ZM16.1723 13.4973L17.7356 15.0607C17.9551 15.28 17.9551 15.6092 17.7356 15.8285L16.1722 17.3919C15.9529 17.6114 15.6237 17.6114 15.4044 17.3919L13.841 15.8285C13.6215 15.6092 13.6215 15.28 13.841 15.0607L15.4044 13.4973C15.5964 13.3053 15.953 13.3053 16.1723 13.4973Z" fill="#FF694A" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_237_39017">
+                                            <rect width="30.3344" height="30.3344" fill="white" transform="matrix(1 0 0 -1 0.621094 30.6118)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p>Complimentary plagiarism/AI detection reports</p>
+                            </div>
+                        </div>
+                        <a href="https://myperfectwriting.co.uk/portal/public/login">
+                            <button className='rightBTN pulse-button'>Get Started Today!</button>
+                        </a>
+                       
+                    </div>
+                </div>
+                </div>
+                <div class="headerCard">
+                        <div className="headerCardContents">
 
-                                        <div className="rightContents">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
-                                                <g clip-path="url(#clip0_237_39013)">
-                                                    <path d="M19.6256 0.194336C30.1344 0.277134 38.5536 8.41085 38.5899 19.3464C38.623 29.3706 30.4346 38.3282 19.1489 38.1084C8.85478 37.9077 0.446459 29.5225 0.676485 18.5739C0.87985 8.90393 8.76932 0.294315 19.6256 0.194336ZM15.6323 22.0205C16.3064 22.0205 16.9808 22.0219 17.6549 22.0197C17.9772 22.0187 18.1791 22.0916 18.104 22.4956C17.9387 23.3843 17.8033 24.2782 17.6581 25.17C17.3846 26.8512 17.1119 28.5326 16.8401 30.2142C16.814 30.3744 16.7303 30.5457 16.9368 30.6563C17.2881 30.8443 18.2491 30.6049 18.4478 30.2731C20.9668 26.0696 23.4846 21.8652 26.001 17.66C26.5239 16.7854 26.2495 16.3125 25.224 16.3048C24.0442 16.2965 22.8643 16.2965 21.6844 16.3048C21.318 16.307 21.069 16.2586 21.1573 15.7791C21.4205 14.3529 21.6609 12.9225 21.902 11.4923C22.0905 10.3725 22.2712 9.25144 22.444 8.12913C22.4697 7.96176 22.5716 7.7544 22.2988 7.65516C22.0147 7.57263 21.7119 7.58041 21.4324 7.67742C21.1528 7.77443 20.9103 7.95587 20.7384 8.19667C18.8006 11.4238 16.8643 14.6519 14.9295 17.8809C14.3456 18.8551 13.7441 19.819 13.1878 20.8089C12.7709 21.5502 13.0446 22.0094 13.8629 22.0182C14.4526 22.0246 15.0427 22.0196 15.6326 22.0208L15.6323 22.0205Z" fill="#305F63" />
-                                                </g>
-                                                <defs>
-                                                    <clipPath id="clip0_237_39013">
-                                                        <rect width="37.9181" height="37.9181" fill="white" transform="translate(0.673828 0.194336)" />
-                                                    </clipPath>
-                                                </defs>
-                                            </svg>
-                                            <p className='fixedP'>Fixed pricing at £6.99/page</p>
-                                        </div>
-                                        <div className="rightContents">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="31" viewBox="0 0 37 31" fill="none">
-                                                <g clip-path="url(#clip0_237_39015)">
-                                                    <path d="M36.0786 11.8758C32.1948 4.55029 -2.48117 -2.93487 1.27296 1.90681C5.02708 6.74835 21.6593 13.392 22.645 13.5155C17.5421 15.1177 3.92196 17.9921 6.83737 20.4132C9.75291 22.8343 23.601 20.1303 23.5782 20.1734C19.7434 23.0631 14.9688 31.7869 19.766 29.923C27.3348 26.9821 38.3417 16.1443 36.0786 11.8758Z" fill="#16CEC6" />
-                                                </g>
-                                                <defs>
-                                                    <clipPath id="clip0_237_39015">
-                                                        <rect width="35.3902" height="29.8605" fill="white" transform="translate(0.989258 0.368164)" />
-                                                    </clipPath>
-                                                </defs>
-                                            </svg>
-                                            <p className='noAdd'>Free add-on services</p>
-                                        </div>
-                                        <div className="rightContents">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                                                <g clip-path="url(#clip0_237_39017)">
-                                                    <path d="M29.6664 29.3502C30.3795 28.6645 30.8458 27.7594 30.9555 26.772C30.9555 26.3606 30.8458 26.0863 30.5989 25.5652C30.3522 25.0441 27.3077 19.778 26.4026 18.3245C25.8815 17.4742 25.6072 16.4594 25.6072 15.4721C25.6072 14.4572 25.8815 13.4698 26.4026 12.6196C27.3077 11.1659 30.352 5.87254 30.599 5.35141C30.8458 4.83027 30.9555 4.58357 30.9555 4.17204C30.8458 3.18463 30.4069 2.27957 29.6939 1.62134C29.0082 0.908241 28.1031 0.441969 27.1431 0.359615C26.7318 0.359615 26.4575 0.469339 25.9637 0.71628C25.4701 0.963104 20.0944 3.9251 18.6408 4.83027C18.531 4.88513 18.4214 4.96737 18.2841 5.02223L11.0983 9.27344C11.2628 7.90211 11.8662 6.58564 12.8536 5.62572C13.0455 5.43376 13.2375 5.26905 13.4571 5.10459C13.2924 5.02235 13.1004 4.93988 12.9359 4.83027C11.4822 3.92521 6.18888 0.880869 5.66775 0.633928C5.14661 0.387106 4.89979 0.27738 4.46089 0.27738C3.47348 0.387106 2.56842 0.826008 1.91019 1.53898C1.19697 2.22471 0.730819 3.12976 0.621094 4.11717C0.648466 4.52859 0.758191 4.94 0.97776 5.29655C1.22446 5.81768 4.26893 11.111 5.17398 12.5647C5.69512 13.415 5.96943 14.4023 5.96943 15.4171C5.96943 16.432 5.69512 17.4194 5.17398 18.2696C4.26893 19.778 1.19709 25.0715 0.977642 25.5927C0.758191 25.9493 0.648466 26.3606 0.621094 26.772C0.730819 27.7594 1.16972 28.6645 1.8827 29.3502C2.56842 30.0632 3.47348 30.5021 4.46089 30.6118C4.8723 30.5844 5.28371 30.4747 5.66775 30.2551C6.10653 30.0632 9.97382 27.8142 12.0309 26.6074L12.497 26.3331C12.6616 26.2235 12.7987 26.1412 12.9084 26.0863L13.1279 25.9492L20.4508 21.6158C20.2863 23.2614 19.4361 24.7698 18.1196 25.7846C18.2843 25.8668 18.4762 25.9493 18.6407 26.0589C20.0944 26.964 25.3877 30.0358 25.9089 30.2553C26.2655 30.4747 26.6768 30.5844 27.1157 30.6118C28.0869 30.501 28.989 30.0548 29.6664 29.3502ZM16.1723 13.4973L17.7356 15.0607C17.9551 15.28 17.9551 15.6092 17.7356 15.8285L16.1722 17.3919C15.9529 17.6114 15.6237 17.6114 15.4044 17.3919L13.841 15.8285C13.6215 15.6092 13.6215 15.28 13.841 15.0607L15.4044 13.4973C15.5964 13.3053 15.953 13.3053 16.1723 13.4973Z" fill="#FF694A" />
-                                                </g>
-                                                <defs>
-                                                    <clipPath id="clip0_237_39017">
-                                                        <rect width="30.3344" height="30.3344" fill="white" transform="matrix(1 0 0 -1 0.621094 30.6118)" />
-                                                    </clipPath>
-                                                </defs>
-                                            </svg>
-                                            <p>Complimentary plagiarism/AI detection reports</p>
+                            <p>Do Not Trust Us; Test Us</p>
+                            <p><span className='blinking-price'>(£6.99/Page For Everyone)</span> </p>
+                            <div class="headerInputs">
+                                <div class="inputContents">
+                                    <label for="Academic Level">Academic Level</label>
+                                    <input className='upperInputs' placeholder="Any" type="text" />
+                                </div>
+                                <div class="inputContents2">
+                                    <label for="Deadline">Deadline</label>
+                                    <input className='upperInputs' placeholder="Any" type="text" />
+                                </div>
+
+                                <div class="Pages">
+                                    <label for="Number of Pages"></label>
+                                    <div class="Page-input">
+                                        <label htmlFor="">Number of Pages</label>
+                                        <div className='counter'>
+                                            <p onClick={handleClick2} className='calculator-minus-icon'>-</p>
+                                            <input id='counterInput' value={numberOfPages} type="number" />
+                                            <p onClick={handleClick1} className='calculator-plus-icon'>+</p>
                                         </div>
                                     </div>
-                                    <a href="https://myperfectwriting.co.uk/portal/public/login">
-                                    <button className='rightBTN pulse-button'>Get Started Today!</button>
-                                    </a>
-
-                                </div>
-                                <div className="RightContentBottom">
-                                    <p><strong>Benefits of Our Service: </strong>Experience unparalleled academic support with our fixed-rate, comprehensive Criminal Justice Assignment Assistance - designed for affordability and academic integrity.</p>
-                                    <p><strong>Our Commitment to Quality: </strong>Dedicated to delivering high-quality, plagiarism-free Criminal Justice assignments, we ensure every page reflects academic rigour and precision.</p>
                                 </div>
                             </div>
                         </div>
+                        <div className="headerCardBott">
+                            <button id='totalBtn'>Total Price</button>
+                            {/* <input id='totalInput' readOnly value={totalAmount.toFixed(2)} type="number" /> */}
+                            <p id='totalInput'>£ {totalAmount.toFixed(2)}</p>
+                        </div>
                     </div>
-                </div>
-
-                <div class="headerLeft">
-                    <img src="./images/headerImg.png" alt="academic-img" />
-                </div>
+            </div>
+            
+            <div className="RightContentBottom">
+                                    <p><strong>Benefits of Our Service: </strong>Experience unparalleled academic support with our fixed-rate, comprehensive Criminal Justice Assignment Assistance - designed for affordability and academic integrity.</p>
+                                    <p><strong>Our Commitment to Quality: </strong>Dedicated to delivering high-quality, plagiarism-free Criminal Justice assignments, we ensure every page reflects academic rigour and precision.</p>
+                                </div>
             </div>
 
             <Suspense fallback={<div>Loading...</div>}>
@@ -316,11 +368,6 @@ const CriminalJusticeAssignmentHelp = () => {
 
             {/* Discussion section  */}
             <div className='writing'>
-                <div className="paperBtn pulse-button">
-                    <a href="https://myperfectwriting.co.uk/portal/public/login">
-                    <button>Get your Custom Paper Now</button>
-                    </a>
-                </div>
                 <div className="wTop">
                     <h2>My Perfect Writing- Top Essay Writing Service in UK</h2>
                     <p>Join the big family of our writing service on Instagram to get lots of handy tips and tricks and be the first to learn about our discounts!</p>
@@ -328,7 +375,9 @@ const CriminalJusticeAssignmentHelp = () => {
 
                 <div className="wPdf">
                     <div className="leftText">
-                        <h3><strong>Introduction to Criminal Justice Assignments</strong></h3>
+                    <div className="textData">
+                    <div className="textR">
+                    <h3><strong>Introduction to Criminal Justice Assignments</strong></h3>
                         <p>Navigating the complex world of criminal justice can be daunting for students and academics alike. Our <strong>Criminal Justice Assignment Help in UK</strong> service offers a lifeline to those seeking <em>professional guidance</em> and <em>expert assistance</em>. Specializing in everything from <strong>undergraduate criminal justice essay services</strong> to <strong>police studies dissertation</strong> support, we provide a crucial link between theoretical knowledge and practical application in the field of criminal justice.
                         </p>
                         <p>The assignments in this area often require a deep understanding of not only the <em>justice system</em> but also its application in real-world scenarios. This is where our team of <em>expert educators</em> and <em>writers</em>, with their hands-on experience in <strong>UK university criminal justice project aid</strong> and <strong>justice system thesis support</strong>, comes into play. Our assistance ensures that each piece of work is not only academically sound but also enriched with practical insights and critical analysis, catering to the specific needs of UK universities.
@@ -362,7 +411,9 @@ const CriminalJusticeAssignmentHelp = () => {
                         </p>
                         <p>We understand the intricacies of criminal justice topics such as <strong>forensic science homework help in UK</strong> and <em>criminal justice literature review services</em>. Our team of professionals utilizes a comprehensive, step-by-step process to ensure every assignment is tailored to meet specific academic requirements. This process includes in-depth research, critical analysis, and a focus on originality to avoid plagiarism, all while adhering to the required academic format and citation styles.</p>
                         <p> The cornerstone of our service lies in providing <em>customized</em>, <em>high-quality</em> content that resonates with the educational goals of our clients. Whether it's an essay, a dissertation, or a research paper, we ensure that each assignment is a reflection of our expertise and your academic aspirations. Our approach is not just about meeting deadlines; it's about elevating your academic experience with assignments that are insightful, innovative, and professionally crafted.</p>
-                        <h3><strong>Quality Assurance and Ethical Standards</strong></h3>
+                    </div>
+                    <div className="textL">
+                    <h3><strong>Quality Assurance and Ethical Standards</strong></h3>
                         <p> At <strong>Criminal Justice Assignment Help in UK</strong>, we uphold the highest standards of quality assurance and ethical practices in every aspect of our services. Our commitment to <em>restorative justice essays UK</em> and <strong>UK legal system assignments</strong> is underpinned by a robust framework that ensures accuracy, reliability, and academic integrity. We provide comprehensive support, including <em>online tutoring for criminal justice students UK</em> and detailed <strong>criminal justice assignment guides</strong>, which are meticulously curated to meet the highest academic criteria.</p>
                         <p>Our quality assurance process involves thorough checks for originality, ensuring all assignments are <em>plagiarism-free</em> and <em>customized</em> to each student’s specific requirements. We also adhere to ethical standards by sourcing information responsibly and providing accurate citations and references. This approach not only enhances the academic value of the work but also instills a sense of academic ethics and responsibility in our clients.</p>
                         <p>We believe in empowering students with knowledge and skills that go beyond mere academic assistance. Our goal is to foster a deeper understanding of the subject matter, encouraging critical thinking and ethical considerations in the study of criminal justice. By aligning our services with these principles, we ensure that students receive not only top-quality assignments but also an educational experience that is both enriching and ethically sound.</p>
@@ -386,6 +437,10 @@ const CriminalJusticeAssignmentHelp = () => {
                         <p>At <strong>Criminal Justice Assignment Help in UK</strong>, our ultimate goal is to empower your journey in the field of criminal justice. We understand the complexities and challenges of this discipline, and our dedicated team is committed to providing you with not just assignment assistance but a comprehensive academic support system. We believe in fostering an environment where learning is encouraged, and academic aspirations are nurtured.</p>
                         <p>Our services, enriched with expertise and tailored to individual needs, are designed to provide you with the tools and resources necessary for academic success. Whether it’s through <em>detailed research</em>, <em>critical analysis</em>, or <em>creative argumentation</em>, we strive to enhance your understanding and engagement with the subject matter. Our aim is to not only help you achieve excellent grades but also to instill a deeper appreciation and knowledge of criminal justice that will serve you throughout your academic and professional career.</p>
                         <p>As you progress in your studies, remember that <strong>Criminal Justice Assignment Help in UK</strong> is here to support you at every step. We are committed to your success and look forward to being a part of your academic achievements. Together, let’s embark on a journey towards academic excellence and a profound understanding of criminal justice.</p>
+                    </div>
+                    </div>
+                        
+                        
 
                     </div>
                 </div>
