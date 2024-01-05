@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 
@@ -328,7 +328,7 @@ const ReligionAssignmentHelpinUK = () => {
                     <h2>Why Choose Our Religion Assignment Help?</h2>
                     <p>Unlock academic success with our dedicated, expert-driven UK Theology Assignment Assistance. Experience unparalleled support and quality in Faith-Based Essay Writing.</p>
                 </div>
-                <PriceCard details={ReligionAssignmentPrice} />
+                <Price details={ReligionAssignmentPrice} />
             </div>
 
 
@@ -353,7 +353,7 @@ const ReligionAssignmentHelpinUK = () => {
                     <h2>What Our Clients Say About Our Religion Assignment Help</h2>
                     <p>Discover how our dedicated Religion Assignment Help service has empowered students across the UK and beyond with insightful, expert-driven academic support.</p>
                 </div>
-                <ReviewComponent reviews={ReligionAssignmentReview} /> 
+                <Review reviews={ReligionAssignmentReview} /> 
 
             </div>
 

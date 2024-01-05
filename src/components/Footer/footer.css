@@ -330,13 +330,25 @@
         row-gap: 20px;
         flex-direction: column;
     }
+    .footer {
+        background: #232323;
+        display: flex;
+        justify-content: center;
+        /* gap: 20px; */
+        align-items: start;
+    }
 }
 
 @media (max-width: 485px) {
     .fLeft {
         padding: 0px;
+    }
+    .RContents{
+        margin: 0;
+    }
 
-
+    .footer {
+        gap: 20px;
     }
 
     .RContents {
@@ -368,5 +380,8 @@
     }
     .fRight .vertical-line2{
         display: none;
+    }
+    .footer2 {
+        padding: 31px 20px;
     }
 }

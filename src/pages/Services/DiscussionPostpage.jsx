@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const DiscussionPostpage = () => {
 
@@ -257,7 +257,7 @@ const DiscussionPostpage = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p>CComplimentary Plagiarism/AI Detection Reports</p>
+                                <p>Complimentary Plagiarism/AI Detection Reports</p>
                             </div>
                         </div>
                         <a href="https://myperfectwriting.co.uk/portal/public/login">
@@ -335,7 +335,7 @@ const DiscussionPostpage = () => {
           <h2>Why Choose My Perfect Writing for Your Discussion Posts?</h2>
           <p>Experience unmatched expertise and reliability with our tailored discussion post service, ensuring academic success and integrity.</p>
         </div>
-        <PriceCard details={DiscussionPrice} />
+        <Price details={DiscussionPrice} />
 
      
       </div>
@@ -357,7 +357,7 @@ const DiscussionPostpage = () => {
           <h2>Client Testimonials</h2>
           <p>Explore the positive experiences of our valued clients and understand why My Perfect Writing is the preferred choice for academic excellence and professional support.</p>
         </div>
-        <ReviewComponent reviews={DiscussionPostpageReview} /> 
+        <Review reviews={DiscussionPostpageReview} /> 
 
        
       </div>

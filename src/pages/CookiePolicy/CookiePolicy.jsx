@@ -66,11 +66,11 @@ const CookiePolicy = () => {
                     <div className="termSection">
                         <h2>Managing Cookie Preferences</h2>
                         <p>You retain control over the cookies stored on your device and can opt to delete or refuse them through your web browser settings. For guidance, please refer to the help pages of your specific browser:</p>
-                        <b>Safari</b><br />
+                        <p><b>Safari</b><br />
                         <b>Google Chrome</b><br />
                         <b>Microsoft Edge</b><br />
                         <b>Firefox</b><br />
-                        <b>Opera</b><br />
+                        <b>Opera</b><br /></p>
                         <p>Please note that restricting cookies may impact your ability to use certain features of our website, and some services may not function as intended.</p>
                     </div>
                     <div className="termSection">

@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const LiteratureAssignment = () => {
  
@@ -328,7 +328,7 @@ const LiteratureAssignment = () => {
           <h2>Why Choose Our Literature Assignment Help?</h2>
           <p>Experience Unmatched Academic Writing Services for Literature with Guaranteed Quality, Affordability, and Personalized Support.</p>
         </div>
-        <PriceCard details={LiteratureAssignmentPrice} />
+        <Price details={LiteratureAssignmentPrice} />
       </div>
 
       {/* Faqs sectin  */}
@@ -351,7 +351,7 @@ const LiteratureAssignment = () => {
           <h2>What Our Clients Say About Our Literature Assignment Help</h2>
           <p>Discover How Our Expertise, Experience, and Authority in Literature Assignments are Reflected in Our Clients' Success Stories Across the UK and Beyond.</p>
         </div>
-        <ReviewComponent reviews={LiteratureAssignmentReview} /> 
+        <Review reviews={LiteratureAssignmentReview} /> 
 
       </div>
 

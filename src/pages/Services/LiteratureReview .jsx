@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 const LiteratureReview = () => {
@@ -328,7 +328,7 @@ const LiteratureReview = () => {
                     <h2>Why Choose Our Literature Review Service?</h2>
                     <p>Discover unparalleled expertise and dedicated support with our comprehensive literature review help services, tailored for UK students and researchers.</p>
                 </div>
-                <PriceCard details={LiteratureReviewPrice} />
+                <Price details={LiteratureReviewPrice} />
 
 
             
@@ -357,7 +357,7 @@ const LiteratureReview = () => {
                     <h2>Client Testimonials - Our Literature Review Success Stories</h2>
                     <p> Real feedback from students and academics showcasing our exceptional literature review writing and editing services, marked by expertise and reliability.</p>
                 </div>
-                <ReviewComponent reviews={LiteratureReview} /> 
+                <Review reviews={LiteratureReview} /> 
 
             </div>
 

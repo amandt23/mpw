@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './whyus.css'
+import '../../components/FAQS/faqs.css'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { CiCircleCheck } from "react-icons/ci";
 import { Helmet } from 'react-helmet';
@@ -139,7 +140,8 @@ const WhyUs = () => {
                                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                                         <div className="faq-q-right">
 
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                                                            <div className="faq-svg">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 26 26" fill="none">
                                                                 <g clip-path="url(#clip0_94_4372)">
                                                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.803711 13.1436C0.803711 9.82835 2.12067 6.64892 4.46488 4.30472C6.80908 1.96052 9.9885 0.643555 13.3037 0.643555C16.6189 0.643555 19.7983 1.96052 22.1425 4.30472C24.4867 6.64892 25.8037 9.82835 25.8037 13.1436C25.8037 16.4588 24.4867 19.6382 22.1425 21.9824C19.7983 24.3266 16.6189 25.6436 13.3037 25.6436C9.9885 25.6436 6.80908 24.3266 4.46488 21.9824C2.12067 19.6382 0.803711 16.4588 0.803711 13.1436ZM12.5904 18.4936L19.787 9.49689L18.487 8.45689L12.3504 16.1252L8.00371 12.5036L6.93704 13.7836L12.5904 18.4952V18.4936Z" fill="#01593A" />
                                                                 </g>
@@ -149,6 +151,7 @@ const WhyUs = () => {
                                                                     </clipPath>
                                                                 </defs>
                                                             </svg>
+                                                            </div>
                                                             {item.question}
                                                         </div>
 

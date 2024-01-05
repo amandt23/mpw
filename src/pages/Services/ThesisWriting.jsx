@@ -12,9 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
-
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const ThesisWriting = () => {
 
@@ -328,7 +327,7 @@ const ThesisWriting = () => {
                     <h2>Why Choose Our Thesis Writing Service?</h2>
                     <p> Experience unparalleled expertise and support in your academic journey with our comprehensive thesis assistance.</p>
                 </div>
-                <PriceCard details={ThesisWritingPrice} />
+                <Price details={ThesisWritingPrice} />
 
             </div>
 
@@ -355,7 +354,7 @@ const ThesisWriting = () => {
                     <h2>What Our Clients Say About Our Thesis Writing Services</h2>
                     <p>Real feedback from students and professionals, highlighting the exceptional standards and reliability of our thesis writing services.</p>
                 </div>
-                <ReviewComponent reviews={ThesisWritingReview} /> 
+                <Review reviews={ThesisWritingReview} /> 
 
              
             </div>

@@ -12,9 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
-
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const LiteratureReview = () => {
 
@@ -327,7 +326,7 @@ const LiteratureReview = () => {
                     <h2>Why Choose Our Research Papers Service?</h2>
                     <p>Experience the pinnacle of academic support with our expert-driven, user-centric research paper service in the UK.</p>
                 </div>
-                <PriceCard details={ResearchPaperPrice} />
+                <Price details={ResearchPaperPrice} />
 
               
             </div>
@@ -355,7 +354,7 @@ const LiteratureReview = () => {
                     <h2>What Our Clients Say About Our Research Papers Service</h2>
                     <p>Real feedback from students and professionals across the UK and beyond, highlighting our commitment to quality and academic excellence.</p>
                 </div>
-                <ReviewComponent reviews={ResearchPaperReview} /> 
+                <Review reviews={ResearchPaperReview} /> 
 
             </div>
 

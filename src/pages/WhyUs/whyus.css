@@ -16,27 +16,28 @@
 
 .whyUsTop h1 {
     color: #21383E;
-    font-size: 35.102px;
+    font-size: 62px;
     font-style: normal;
     font-weight: 700;
+    text-align: center;
     line-height: normal;
-    padding-bottom: 5px
+    padding-bottom: 30px;
 }
 
 .whyUsTop h2 {
     color: #1276CE;
-    font-size: 25.102px;
+    font-size:40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .whyUsTop p {
     padding-bottom: 20px;
 }
 
-.whyUsRight h4 {
+.whyUsRight p {
     font-weight: 600;
     font-size: 22px;
     line-height: 30px;
@@ -150,6 +151,9 @@
     line-height: normal;
     margin-left: 25px;
 }
+.faq-question .faq-q-right{
+    font-size: 18px;
+}
 
 
 
@@ -161,7 +165,34 @@
 
 @media (max-width: 1000px){
     .faqBottom{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: center;
     }
+    .why-us {
+        max-width: 1450px;
+        column-gap: 50px;
+    }
+}
+@media (max-width: 767px){
+    .why-us {
+        max-width: 1450px;
+        padding: 140px 20px 50px;
+    }
+    .whyUsTop h2 {
+        font-size: 28px;
+    }
+    .whyUsTop h1 {
+        font-size: 45px;
+    }
+    .whyUsTop p {
+        font-size: 18px;
+    }
+    .faq-question .faq-q-right{
+        font-size: 16px;
+    }
+    .faq-question {
+        padding: 25px 10px;
+        column-gap: 5px;
+    }
+
 }

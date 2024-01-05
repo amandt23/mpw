@@ -12,8 +12,9 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
+
 
 
 const EditingFormatting = () => {
@@ -330,7 +331,7 @@ const EditingFormatting = () => {
                     <p>Experience unparalleled expertise and commitment with our proofreading and formatting services, tailored for academic excellence.</p>
                 </div>
 
-                <PriceCard details={EditingFormattingPrice} />
+                <Price details={EditingFormattingPrice} />
             </div>
 
 
@@ -354,7 +355,7 @@ const EditingFormatting = () => {
                     <h2>Client Reviews: Reflecting Our Excellence in Editing & Formatting Services</h2>
                     <p>Discover how our editing and formatting expertise has transformed academic projects, as endorsed by our esteemed clientele.</p>
                 </div>
-                <ReviewComponent reviews={EditingReview} /> 
+                <Review reviews={EditingReview} /> 
 
             </div>
 

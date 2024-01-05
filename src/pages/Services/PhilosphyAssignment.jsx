@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const PhilosphyAssignment = () => {
  
@@ -325,7 +325,7 @@ const PhilosphyAssignment = () => {
           <h2>Why Choose Our Philosophy Assignment Help?</h2>
           <p>Experience unparalleled expertise with our British Philosophy Coursework Help, offering tailored, reliable support for your academic needs.</p>
         </div>
-        <PriceCard details={PhilosophyAssignmentPrice} />
+        <Price details={PhilosophyAssignmentPrice} />
       </div>
 
       {/* Faqs sectin  */}
@@ -350,7 +350,7 @@ const PhilosphyAssignment = () => {
           <h2>Client Reviews - Philosophy Assignment Help</h2>
           <p>Discover how our dedicated Philosophy Assignment Help has empowered students from top universities with unparalleled academic support and expertise.</p>
         </div>
-        <ReviewComponent reviews={PhilosophyAssignmentReview} /> 
+        <Review reviews={PhilosophyAssignmentReview} /> 
 
         
       </div>

@@ -12,9 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
-
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const DissertionAssignment = () => {
 
@@ -332,7 +331,7 @@ const DissertionAssignment = () => {
           <p>Unlock academic success with our experienced UK dissertation editors, delivering precision, originality, and unmatched support.</p>
         </div>
 
-        <PriceCard details={DissertationAssignmentPrice} />
+        <Price details={DissertationAssignmentPrice} />
       </div>
 
       <div className="faqs">
@@ -357,7 +356,7 @@ const DissertionAssignment = () => {
           <h2>Trusted Reviews from Our Satisfied Clients</h2>
           <p>Reflecting our commitment to excellence, our dissertation proofreading service has earned accolades from students and professionals across the UK and beyond.</p>
         </div>
-        <ReviewComponent reviews={DissertationAssignmentReview} /> 
+        <Review reviews={DissertationAssignmentReview} /> 
 
       </div>
 

@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 
@@ -330,7 +330,7 @@ const SociologyAssignmentHelp = () => {
                     <h2>Why Choose Our Sociology Assignment Help?</h2>
                     <p>Experience unparalleled expertise, authority, and quality in sociology assignments, enhancing your academic journey.</p>
                 </div>
-                <PriceCard details={SociologyAssignmentPrice} />
+                <Price details={SociologyAssignmentPrice} />
                 
             </div>
 
@@ -356,7 +356,7 @@ const SociologyAssignmentHelp = () => {
                     <h2>What Our Customers Say About Our Sociology Assignment Help</h2>
                     <p> Real feedback from students and professionals highlighting our commitment to delivering quality sociology assignment services across the UK.</p>
                 </div>
-                <ReviewComponent reviews={SociologyAssignmentReview} /> 
+                <Review reviews={SociologyAssignmentReview} /> 
             </div>
 
             {/* place order section  */}

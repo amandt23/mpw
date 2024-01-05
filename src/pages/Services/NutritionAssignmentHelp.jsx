@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 const  NutritionAssignmentHelp = () => {
@@ -333,7 +333,7 @@ const  NutritionAssignmentHelp = () => {
                     <p>Discover unmatched expertise and reliable support for your nutrition assignments, ensuring academic excellence every step of the way.</p>
                 </div>
 
-                <PriceCard details={NutritionAssignmentPrice} />
+                <Price details={NutritionAssignmentPrice} />
             </div>
 
 
@@ -356,7 +356,7 @@ const  NutritionAssignmentHelp = () => {
                 <div className="reviewTop">
                     <h2>Client Reviews - Reflecting Our Commitment to Excellence</h2>
                     <p>See how our tailored discussion posts have empowered students and professionals across various fields, reflecting our expertise and dedication.</p>
-                    <ReviewComponent reviews={NutritionAssignmentReview} /> 
+                    <Review reviews={NutritionAssignmentReview} /> 
                     
                 </div>
 

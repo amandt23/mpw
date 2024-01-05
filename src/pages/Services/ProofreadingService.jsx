@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 
@@ -332,7 +332,7 @@ const ProofreadingService = () => {
                     <p>Discover unparalleled reliability in academic proofreading, blending expertise, precision, and affordability in every service we offer.</p>
                 </div>
 
-                <PriceCard details={ProofReadingPrice} />
+                <Price details={ProofReadingPrice} />
             </div>
 
 
@@ -357,7 +357,7 @@ const ProofreadingService = () => {
                     <h2>Client Testimonials - Our Proofreading Excellence</h2>
                     <p>Real feedback from our clients demonstrating the impact and quality of our top-rated academic proofreading services in the UK.</p>
                 </div>
-                <ReviewComponent reviews={ProofReadingReview} /> 
+                <Review reviews={ProofReadingReview} /> 
             </div>
 
             {/* place order section  */}

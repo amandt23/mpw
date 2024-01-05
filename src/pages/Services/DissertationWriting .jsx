@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 
@@ -328,7 +328,7 @@ const DissertationWriting = () => {
                     <h2>Why Choose My Perfect Writing?</h2>
                     <p>Unlock academic success with our expert, tailored Dissertation Writing Service, ensuring quality, affordability, and comprehensive support.</p>
                 </div>
-                <PriceCard details={DissertationWritingPrice} />
+                <Price details={DissertationWritingPrice} />
 
              
             </div>
@@ -355,7 +355,7 @@ const DissertationWriting = () => {
                     <p>Discover how our Dissertation Writing Service has transformed the academic journeys of students and researchers across the UK and beyond.</p>
                 </div>
 
-                    <ReviewComponent reviews={dissertationWritingReview} /> 
+                    <Review reviews={dissertationWritingReview} /> 
                 </div>
 
 

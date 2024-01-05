@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 const CVWriting = () => {
@@ -327,7 +327,7 @@ const CVWriting = () => {
                     <p>Discover unparalleled expertise in curriculum vitae assistance, elevating your job application journey in the UK.</p>
                 </div>
 
-                <PriceCard details={CvWritingPrice} />
+                <Price details={CvWritingPrice} />
             </div>
 
 
@@ -353,7 +353,7 @@ const CVWriting = () => {
                     <h2>Client Reviews: Reflecting Our Excellence in Discussion Post Services</h2>
                     <p>Authentic testimonials demonstrating our commitment to delivering expertly crafted discussion posts for academic success.</p>
                 </div>
-                <ReviewComponent reviews={CvReview} /> 
+                <Review reviews={CvReview} /> 
 
             </div>
 

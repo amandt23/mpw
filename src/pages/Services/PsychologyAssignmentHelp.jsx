@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 const PsychologyAssignmentHelp = () => {
@@ -329,7 +329,7 @@ const PsychologyAssignmentHelp = () => {
                     <h2>Why Choose Our Psychology Assignment Help?</h2>
                     <p>Discover unparalleled expertise in psychology essay writing services in the UK, offering personalized, trustworthy, and accessible academic support.</p>
                 </div>
-                <PriceCard details={PsychologyAssignmentPrice} />
+                <Price details={PsychologyAssignmentPrice} />
             </div>
 
 
@@ -354,7 +354,7 @@ const PsychologyAssignmentHelp = () => {
                     <h2>What Our Clients Say About Our Psychology Assignment Help</h2>
                     <p>These reviews reflect our unwavering commitment to providing top-notch psychology coursework support in the UK, showcasing our expertise and trustworthiness.</p>
                 </div>
-                <ReviewComponent reviews={PsychologyAssignmentReview} /> 
+                <Review reviews={PsychologyAssignmentReview} /> 
 
             </div>
 

@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const NursingAssignmentHelpinUK = () => {
 
@@ -332,7 +332,7 @@ const NursingAssignmentHelpinUK = () => {
                     <p>Experience excellence in academic writing for nursing students with our expert, reliable, and dedicated service.</p>
                 </div>
 
-                <PriceCard details={NursingAssignmentPrice} />
+                <Price details={NursingAssignmentPrice} />
                 
             </div>
 
@@ -357,7 +357,7 @@ const NursingAssignmentHelpinUK = () => {
                     <h2>What Our Clients Say About Our Nursing Assignment Help</h2>
                     <p>Real feedback from students and professionals that showcases the expertise, reliability, and excellence of our nursing assignment services.</p>
                 </div>
-                <ReviewComponent reviews={NursingAssignmentReview} /> 
+                <Review reviews={NursingAssignmentReview} /> 
 
             </div>
 

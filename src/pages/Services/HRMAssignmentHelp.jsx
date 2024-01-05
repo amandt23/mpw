@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 
@@ -327,7 +327,7 @@ const HRMAssignmentHelp = () => {
                     <h2>Why Choose Our HRM Assignment Help?</h2>
                     <p>Empower your academic journey with expert, UK-based HRM student assistance, ensuring success with every assignment.</p>
                 </div>
-                <PriceCard details={HRMAssignmentPrice} />
+                <Price details={HRMAssignmentPrice} />
             </div>
 
 
@@ -352,7 +352,7 @@ const HRMAssignmentHelp = () => {
                     <h2>What Our Clients Say About Our HRM Assignment Help</h2>
                     <p>Real reviews reflecting our commitment to excellence in providing expert HRM assignment support to students across the UK.</p>
                 </div>
-                <ReviewComponent reviews={HRMAssignmentReview} />
+                <Review reviews={HRMAssignmentReview} />
             </div>
 
             {/* place order section  */}

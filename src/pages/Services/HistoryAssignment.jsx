@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const HistoryAssignment = () => {
   
@@ -327,7 +327,7 @@ const HistoryAssignment = () => {
           <h2>Why Choose Our History Assignment Help?</h2>
           <p>Elevate your historical studies with our expert, reliable, and accessible academic support tailored for history enthusiasts.</p>
         </div>
-        <PriceCard details={HistoryAssignmentPrice} />
+        <Price details={HistoryAssignmentPrice} />
       </div>
 
       {/* Faqs sectin  */}
@@ -352,7 +352,7 @@ const HistoryAssignment = () => {
           <h2>Client Testimonials: History Assignment Help</h2>
           <p>Authentic reviews from students and academics, showcasing our dedication to delivering exceptional history assignment assistance.</p>
         </div>
-        <ReviewComponent reviews={HistoryAssignmentReview} /> 
+        <Review reviews={HistoryAssignmentReview} /> 
 
        
       </div>

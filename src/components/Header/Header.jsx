@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
 import './header.css'
 
-const Header = () => {
+const Header = ({header}) => {
     // const [counter, setCounter] = useState(1)
     const [numberOfPages, setNumberOfPages] = useState(1);
 
     const pricePerPage = 6.99;
     const totalAmount = numberOfPages * pricePerPage;
+
+     // Destructuring the header data
+     const {heading, desc, offer_1, offer_2, offer_3, subheading_1, subheading_2 } = header;
+
 
     const handleClick1 = () => {
         // Counter state is incremented 
@@ -26,8 +30,8 @@ const Header = () => {
             <div className="headerwrap">
                 <div className="upper">
                     <div class="headerTop">
-                    <h1>My Perfect Writing: Premier Essay Writing Service in UK</h1>
-                    <p>Expert Academic Assistance for Students, Academic Professionals, and Researchers</p>
+                    <h1>{heading}</h1>
+                    <p>{desc}</p>
                     </div>
 
                  <div class="headerBottom">
@@ -48,7 +52,7 @@ const Header = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p className='fixedP'>Fixed Pricing at £6.99/Page</p>
+                                <p className='fixedP'>{offer_1}</p>
                             </div>
                             <div className="rightContents">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="37" height="31" viewBox="0 0 37 31" fill="none">
@@ -61,7 +65,7 @@ const Header = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p className='noAdd'>No Additional Charges for Add-On Services</p>
+                                <p className='noAdd'>{offer_2}</p>
                             </div>
                             <div className="rightContents">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
@@ -74,7 +78,7 @@ const Header = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p>Complimentary Plagiarism/AI Detection Reports</p>
+                                <p>{offer_3}</p>
                             </div>
                         </div>
                         <a href="https://myperfectwriting.co.uk/portal/public/login">
@@ -122,10 +126,11 @@ const Header = () => {
                     </div>
             </div>
             <div className="RightContentBottom">
-                            <p><strong>Service Benefits: </strong> Unlock academic success with My Perfect Writing! Our transparent pricing and inclusive services ensure you get the best value for your investment. Experience stress-free submissions with our reliable and efficient essay writing service, tailored specifically for the UK’s educational standards</p>
-                            <p><strong>Commitment to Quality: </strong> At My Perfect Writing, quality is at the forefront of our services. Each essay is meticulously crafted by our team of experienced writers, ensuring adherence to the highest academic standards. Trust us to deliver excellence, ensuring your academic journey is nothing short of perfect.</p>
+                {/* Dynamic subheadings */}
+                <div dangerouslySetInnerHTML={{ __html: subheading_1 }} />
+               <div dangerouslySetInnerHTML={{ __html: subheading_2 }} />
 
-                        </div>
+            </div>
             
             
             

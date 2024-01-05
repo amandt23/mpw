@@ -4,143 +4,9 @@ import { MdPrivacyTip } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
 
-const Review = () => {
+const Review = ({reviews}) => {
 
-    const Reviews =
-        [
-
-            {
-                "ServiceType": "Essay Writing",
-                "WordCount": 1500,
-                "Citation": "APA",
-                "OrderPrice": "£104.85",
-                "CustomerID": "MPW-101232",
-                "OrderRating": "5/5",
-                "NameofUniversity": "University of Cambridge",
-                "Subject": "Literature",
-                "Review": "The essay was meticulously written with strong arguments and thorough research. I am genuinely impressed with the quality and punctuality of the service. Highly recommended!",
-                "Tags": ["Essay", "Quality", "Research", "Punctuality"],
-                "ResponsefromMyPerfectWriting": "We are delighted to hear about your positive experience! Our team always strives to deliver the best, and your recommendation means a lot to us. Thank you!",
-                "Date": "2023-10-01",
-                "image": "deer.jpg"
-            },
-            {
-                "ServiceType": "Dissertation",
-                "WordCount": 12000,
-                "Citation": "Harvard",
-                "OrderPrice": "£251.88",
-                "CustomerID": "MPW-203344",
-                "OrderRating": "5/5",
-                "NameofUniversity": "Imperial College London",
-                "Subject": "Biochemistry",
-                "Review": "Outstanding support throughout my dissertation process. The team was always available for revisions and advice. Truly grateful for the expert guidance!",
-                "Tags": ["Dissertation", "Support", "Biochemistry", "ExpertGuidance"],
-                "ResponsefromMyPerfectWriting": "Thank you for choosing us for your dissertation journey. Your success is our priority, and we're glad to have been of help. Best wishes!",
-                "Date": "2023-09-15",
-                "image": "elephant.jpg"
-
-            },
-            {
-                "ServiceType": "Thesis Writing",
-                "WordCount": 15000,
-                "Citation": "MLA",
-                "OrderPrice": "£314.85",
-                "CustomerID": "MPW-324455",
-                "OrderRating": "5/5",
-                "NameofUniversity": "University of Edinburgh",
-                "Subject": "Sociology",
-                "Review": "The thesis was well-structured and covered all the required points in depth. The writer clearly understood the topic and delivered an excellent piece of work.",
-                "Tags": ["Thesis", "Structure", "In-Depth", "Excellence"],
-                "ResponsefromMyPerfectWriting": "It's wonderful to know that you are satisfied with our work. We always aim for excellence, and it's great to see it reflected in your thesis. Thank you!",
-                "Date": "2023-08-20",
-                "image": "fox.jpg"
-
-            },
-            {
-                "ServiceType": "Research Paper",
-                "WordCount": 2000,
-                "Citation": "Chicago",
-                "OrderPrice": "£139.80",
-                "CustomerID": "MPW-502134",
-                "OrderRating": "5/5",
-                "NameofUniversity": "University of Oxford",
-                "Subject": "History",
-                "Review": "The research paper exceeded my expectations. The writer delved deep into historical events with precision and clarity. I couldn't have asked for more.",
-                "Tags": ["Research", "History", "Precision", "Clarity"],
-                "ResponsefromMyPerfectWriting": "We're thrilled to know that our work met your expectations. Our writers take great pride in their research skills. Thank you for trusting us!",
-                "Date": "2023-07-10",
-                "image": "panda.jpg"
-
-            },
-            {
-                "ServiceType": "Proofreading",
-                "WordCount": 3500,
-                "Citation": "APA",
-                "OrderPrice": "£244.65",
-                "CustomerID": "MPW-987654",
-                "OrderRating": "5/5",
-                "NameofUniversity": "London School of Economics",
-                "Subject": "Political Science",
-                "Review": "The attention to detail in proofreading my thesis was exceptional. All errors were corrected, and the suggestions improved the overall flow of the paper.",
-                "Tags": ["Proofreading", "AttentiontoDetail", "Exceptional"],
-                "ResponsefromMyPerfectWriting": "It was our pleasure to assist you in perfecting your thesis. We always strive for precision and clarity in every project. Thank you for your kind words!",
-                "Date": "2023-06-15",
-                "image": "rabbit.jpg"
-
-            },
-            {
-                "ServiceType": "Editing",
-                "WordCount": 5000,
-                "Citation": "Harvard",
-                "OrderPrice": "£349.50",
-                "CustomerID": "MPW-671901",
-                "OrderRating": "5/5",
-                "NameofUniversity": "University of Manchester",
-                "Subject": "Business Studies",
-                "Review": "The editing service was top-notch. The document is now polished and conveys my ideas more clearly. I'm extremely satisfied with the results.",
-                "Tags": ["Editing", "Polished", "Clarity", "Satisfaction"],
-                "ResponsefromMyPerfectWriting": "We're glad to hear that you are satisfied with our editing services. Your ideas deserve to be presented in the best possible way. Thank you!",
-                "Date": "2023-05-25",
-                "image": "tiger.jpg"
-
-            },
-            {
-                "ServiceType": "Term Paper",
-                "WordCount": 4000,
-                "Citation": "MLA",
-                "OrderPrice": "£279.60",
-                "CustomerID": "MPW-739012",
-                "OrderRating": "5/5",
-                "NameofUniversity": "King's College London",
-                "Subject": "Psychology",
-                "Review": "The term paper was crafted with expertise. The arguments were well-supported and the content was coherent. I'm impressed with the quality of work.",
-                "Tags": ["TermPaper", "Expertise", "Well-Supported", "Quality"],
-                "ResponsefromMyPerfectWriting": "We appreciate your feedback! Our team works hard to ensure that every paper is of the highest quality. Thank you for your trust!",
-                "Date": "2023-04-30",
-                "image": "wolf.jpg"
-
-            },
-            {
-                "ServiceType": "Coursework Assistance",
-                "WordCount": 6500,
-                "Citation": "Chicago",
-                "OrderPrice": "£454.35",
-                "CustomerID": "MPW-890193",
-                "OrderRating": "5/5",
-                "NameofUniversity": "University of Bristol",
-                "Subject": "Engineering",
-                "Review": "Exceptional assistance with my coursework. The level of detail and accuracy provided was exactly what I needed. Truly a lifesaver!",
-                "Tags": ["Coursework", "Assistance", "Detail", "Accuracy"],
-                "ResponsefromMyPerfectWriting": "We're so pleased to have been able to assist you with your coursework. Our team is always ready to help, and we're glad we could provide the support you needed.",
-                "Date": "2023-04-10",
-                "image": "zebra.jpg"
-
-            }
-
-
-
-        ];
-
+       
     return (
 <>
         <Helmet>
@@ -149,11 +15,7 @@ const Review = () => {
 
                <meta name="keywords" content="My Perfect Writing Client Reviews, Feedback on Academic Writing Services, Testimonials for My Perfect Writing, My Perfect Writing UK Reviews"></meta> */}
         </Helmet>
-        <div className="review">
-            <div className="reviewTop">
-                <h2>Client Testimonials</h2>
-                <p>Explore the positive experiences of our valued clients and understand why My Perfect Writing is the preferred choice for academic excellence and professional support.</p>
-            </div>
+        
 
             <div className="privacy-cards">
                 <div className="privacy-card">
@@ -184,7 +46,7 @@ const Review = () => {
             <div className="reviewSect">
                 <div className="reviewSectDivScroll">
 
-                    {Reviews.map((item, index) => (
+                    {reviews.map((item, index) => (
                         <div className="reviewCard" key={index}>
                             <div className="sec1">
                                 <div className="sec1Top">
@@ -258,7 +120,6 @@ const Review = () => {
                 </div>
 
             </div>
-        </div>
         </>
     )
 }

@@ -54,7 +54,18 @@
 .right-stars {
     margin-top: 26px;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
 }
+.right-stars .rating-head {
+    color: #305F63;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-right: 9px;
+}
+
 
 .right h2 {
 
@@ -101,6 +112,7 @@ hr {
 .mid-section .orders {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin: 10px 0;
 }
 

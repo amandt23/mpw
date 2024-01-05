@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const CriminalJusticeAssignmentHelp = () => {
 
@@ -330,7 +330,7 @@ const CriminalJusticeAssignmentHelp = () => {
                     <p>Discover the pinnacle of academic support with our expertly crafted Criminal Justice Homework solutions, emphasizing quality, affordability, and reliability.</p>
                 </div>
 
-                <PriceCard details={CriminalJusticePrice} />
+                <Price details={CriminalJusticePrice} />
                 
             </div>
 
@@ -357,7 +357,7 @@ const CriminalJusticeAssignmentHelp = () => {
                     <h2>What Our Clients Say</h2>
                     <p>Discover the impact of our Criminal Justice Assignment Help through genuine reviews that showcase our dedication to academic excellence and student success.</p>
                 </div>
-                <ReviewComponent reviews={CriminalJusticeAssignmentReview} /> 
+                <Review reviews={CriminalJusticeAssignmentReview} /> 
 
                
             </div>

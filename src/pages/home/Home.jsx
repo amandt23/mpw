@@ -1,5 +1,8 @@
 import React, {lazy} from 'react';
 import { Helmet } from 'react-helmet'
+import price from '../../pricecard.json';
+import reviews from '../../review.json';
+import headerData from '../../header.json';
 const Header = React.lazy(() => import('../../components/Header/Header'));
 const MyTeam = React.lazy(() => import('../../components/CardCrousel/MyTeam'));
 const Price = React.lazy(() => import('../../components/Price/Price'));
@@ -12,7 +15,14 @@ const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrd
 const MyWriting = React.lazy(() => import('../../components/MyPerfectWritting/MyWriting'));
 
 
+
 const Home = () => {
+  const HomePrice = price.home_pricecard;
+  const HomeReview = reviews.home_page_reviews;
+  const homeHeaderData = headerData.home_page_header[0]; 
+//   console.log(headerData); // Check the imported data
+// console.log(homeHeaderData); // Check the data being passed to the Header component
+
     return (
         <>
             <Helmet>
@@ -180,15 +190,29 @@ const Home = () => {
                   }
 `}
                 </script>
-           
-            <Header />
+                  {/* header Section */}     
+            <Header header={homeHeaderData} />
             <MyTeam />
-            <Price />
+            {/* pricecard Section */}
+            <div className="price " id="pricing-section">
+            <div className="pricTop">
+                <h2>Why Choose My Perfect Writing?</h2>
+                <p>Unlock unparalleled academic support with My Perfect Writing, where quality meets affordability, backed by a dedicated team ensuring your academic success.</p>
+            </div>
+            <Price  details={HomePrice}/>
+            </div>
             <Faqs />
             <OnlineAcademic />
             <MidSection />
             <Social />
-            <Review />
+            {/* Review section */}
+            <div className="review">
+            <div className="reviewTop">
+                <h2>Client Testimonials</h2>
+                <p>Explore the positive experiences of our valued clients and understand why My Perfect Writing is the preferred choice for academic excellence and professional support.</p>
+            </div>
+            <Review reviews={HomeReview}/>
+            </div>
             <PlaceOrder />
             <MyWriting />
 

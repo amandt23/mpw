@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 
@@ -329,7 +329,7 @@ const SocialWorkAssignmentHelp = () => {
                     <h2>Why Choose Our Social Work Assignment Help?</h2>
                     <p>Discover the convenience and expertise of our service, offering dedicated support and personalised solutions for every social work student.</p>
                 </div>
-                <PriceCard details={SocialWorkPrice} />
+                <Price details={SocialWorkPrice} />
             </div>
 
 
@@ -353,7 +353,7 @@ const SocialWorkAssignmentHelp = () => {
                     <h2>Client Testimonials</h2>
                     <p>Real feedback from students showcasing the unparalleled expertise and exceptional outcomes of our Social Work Assignment Help.</p>
                 </div>
-                <ReviewComponent reviews={SocialWorkReview} /> 
+                <Review reviews={SocialWorkReview} /> 
             </div>
 
             {/* place order section  */}

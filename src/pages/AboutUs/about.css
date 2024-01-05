@@ -222,7 +222,7 @@
 
 .membersWrapper {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 70px;
@@ -598,10 +598,76 @@
 
 @media(max-width: 767px){
     .aboutUsContainer .aboutUsHeading {
-        font-size: 38px;
+        font-size: 44px;
     }
-}
+    .welcomSec {
+        padding: 20px 0;
+    }
+    .hiringExpertsWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 50px;
+    }
+    .hiringSteps,
+    .writingProcessText,
+    .singleStep,
+    .welcomtextLeft,
+    .welcomtextLeft span,
+    .ourstorytextLeft span,
+    .ourStory .ourstorytextLeft,
+    .ourMission .ourstorytextLeft,
+    .textLeft,
+    .textLeft span,
+    .communityOutreachText,
+    .qualityEthicsText,
+    .qualityEthicsText span {
+        max-width: none;
+        width: 100%;
+    }
+    .writingProcessHead,
+    .qualityEthicsWrapper,
+    .communityOutreachWrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .welcomeWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
 
+    .ourwelcomeWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .welcomeWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .ourMissionWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .welcomtextLeft h2,
+    .ourstorytextLeft h2,
+    .textLeft h2,
+    .ourTeamWrapper h2,
+    .hiringHead h2,
+    .writingProcessText h2,
+    .qualityEthicsText h2,
+    .qualityEthicsText h2 {
+        font-size: 28px;
+    }
+
+}
 
 
 
@@ -630,4 +696,20 @@
         align-items: center;
         row-gap: 20px;
     }
+    .singleMember {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .editorial-writer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .editorial-content {
+        max-width: 100%;
+    }
+    
 }

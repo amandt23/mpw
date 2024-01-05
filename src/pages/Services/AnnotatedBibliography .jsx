@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 const AnnotatedBibliography = () => {
 
 
@@ -327,7 +327,7 @@ const AnnotatedBibliography = () => {
                     <h2>Why Choose Our Annotated Bibliography Services</h2>
                     <p>Elevate Your Academic Work with Trusted, Expert-Driven Bibliography Services Tailored to Your Research Needs in the UK.</p>
                 </div>
-                <PriceCard details={AnnotedPrice} />
+                <Price details={AnnotedPrice} />
 
 
               
@@ -360,7 +360,7 @@ const AnnotatedBibliography = () => {
                   
                 </div>
 
-                <ReviewComponent reviews={annotatedReview} /> 
+                <Review reviews={annotatedReview} /> 
 
               
             </div>

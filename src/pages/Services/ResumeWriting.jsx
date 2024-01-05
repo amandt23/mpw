@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 const ResumeWriting = () => {
@@ -330,7 +330,7 @@ const ResumeWriting = () => {
                     <p> Experience unparalleled expertise and dedication with our Professional Resume Builders – your gateway to career success.</p>
                 </div>
 
-                <PriceCard details={ResumeWritingPrice} />
+                <Price details={ResumeWritingPrice} />
             </div>
 
 
@@ -355,7 +355,7 @@ const ResumeWriting = () => {
                     <h2>Client Reviews - Showcasing Our Resume Writing Excellence</h2>
                     <p> Our clients' success stories reflect our commitment to quality, expertise in CV writing, and unmatched professional guidance.</p>
                 </div>
-                <ReviewComponent reviews={ ResumeWritingReview} /> 
+                <Review reviews={ ResumeWritingReview} /> 
                
 
                

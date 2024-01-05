@@ -11,7 +11,7 @@
 }
 .headerwrap{
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     gap: 30px;
     margin-bottom: 20px;
@@ -67,7 +67,7 @@
     display: flex;
     column-gap: 53px;
     row-gap: 10px;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
 }
 
@@ -442,6 +442,9 @@ button.pulse-button {
         font-size: 20px;
         margin-top: 50px;
     }
+    .headerCard {
+        margin-right: 0px;
+    }
 }
 
 
@@ -457,6 +460,7 @@ button.pulse-button {
     }
     .headerwrap {
         flex-direction: column;
+        align-items: center;
     }
 
     .headerCard {
@@ -479,7 +483,7 @@ button.pulse-button {
     }
 
     .header {
-        padding: 115px 50px;
+        padding: 115px 25px 20px;
     }
     .RightContentBottom {
         width: 80%;
@@ -487,6 +491,9 @@ button.pulse-button {
     }
     .RightContentBottom p {
         max-width: 100%;
+    }
+    .headerTop h1 {
+        font-size: 52px;
     }
 }
 
@@ -496,6 +503,8 @@ button.pulse-button {
         width: 75%;
 
     }
+    #totalInput {
+        font-size: 18px;
     .topnavBar {
         padding: 0px 20px;
     }
@@ -542,20 +551,29 @@ button.pulse-button {
         max-width: 100%;
     }
     .header {
-        padding: 115px 20px;
+        padding: 115px 20px 20px;
     }
-
-
-
-}
+    .disclimar p {
+        font-size: 15px;
+    }
+    .disclimar {
+        padding: 10px 0px 10px 20px;
+    }
+    .footer {
+        gap: 20px;
+    }
+    .fRight {
+        padding-top: 15px;
+    }
+    .footerBottomPay p {
+        font-size: 20px;
+    }
+}}
 
 @media (max-width: 470px) {
-
-    /* .headerBottom {
-        margin-left: -17px;
-    } */
-
-    
+    .footer {
+        gap: 10px;
+    }
 
     .headerCardBott button {
         display: flex;

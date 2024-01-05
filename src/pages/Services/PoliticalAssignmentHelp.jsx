@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 const PoliticalAssignmentHelp = () => {
@@ -327,7 +327,7 @@ const PoliticalAssignmentHelp = () => {
                     <h2>Discover the Excellence of Our Political Assignment Help</h2>
                     <p>Harness the power of expertise and experience in political science for unparalleled academic support.</p>
                 </div>
-                <PriceCard details={PoliticalAssignmentPrice} />
+                <Price details={PoliticalAssignmentPrice} />
             </div>
 
 
@@ -353,7 +353,7 @@ const PoliticalAssignmentHelp = () => {
                     <h2>Client Reviews - Political Assignment Help</h2>
                     <p>Our clients' testimonials reflect the unparalleled expertise and exceptional support offered by My Perfect Writing.</p>
                 </div>
-                <ReviewComponent reviews={PoliticalAssignmentReview} /> 
+                <Review reviews={PoliticalAssignmentReview} /> 
             </div>
 
             {/* place order section  */}

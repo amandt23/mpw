@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 const PublicRelationsAssignmentHelp = () => {
@@ -325,7 +325,7 @@ const PublicRelationsAssignmentHelp = () => {
                     <h2>Why Choose Our Public Relations Assignment Help?</h2>
                     <p>Experience unparalleled academic PR support with our dedicated, expert-led services tailored for UK students and professionals.</p>
                 </div>
-                <PriceCard details={PublicRelationsPrice} />
+                <Price details={PublicRelationsPrice} />
             </div>
 
 
@@ -351,7 +351,7 @@ const PublicRelationsAssignmentHelp = () => {
                     <h2>What Our Clients Say</h2>
                     <p> Read how our Public Relations Assignment Help has empowered students and professionals from prestigious universities with expert, bespoke academic solutions.</p>
                 </div>
-                <ReviewComponent reviews={PublicRelationsReview} /> 
+                <Review reviews={PublicRelationsReview} /> 
             </div>
 
             {/* place order section  */}

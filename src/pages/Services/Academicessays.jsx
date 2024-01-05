@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 
 const Academicessays = () => {
@@ -322,7 +322,7 @@ const Academicessays = () => {
                     <h2>Why Choose Our Academic Essays Service</h2>
                     <p>Crafting Exceptional Academic Essays for Students, Academic Professionals, and Researchers.</p>
                 </div>
-                <PriceCard details={AcademicPrice} />
+                <Price details={AcademicPrice} />
 
                
             </div>
@@ -349,7 +349,7 @@ const Academicessays = () => {
                     <h2>What Our Clients Say About Our Academic Essay Services</h2>
                     <p>Real Feedback from Students and Academics Across the UK and Beyond, Reflecting Our Dedication to Excellence in Academic Essay Writing</p>
                 </div>
-                <ReviewComponent reviews={AcademicEssaysReview} /> 
+                <Review reviews={AcademicEssaysReview} /> 
 
             </div>
 

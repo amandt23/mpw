@@ -22,6 +22,7 @@
     font-weight: 700;
     line-height: normal;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .faqTop p {
@@ -192,6 +193,9 @@
     .faq-quetion h4,
     .faq-q-right h4 {
         font-size: 23px;
+    }
+    .faqTop {
+        width: 90%;
     }
    
 }

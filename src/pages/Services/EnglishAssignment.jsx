@@ -12,8 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
 
 const EnglishAssignment = () => {
   
@@ -327,7 +327,7 @@ const EnglishAssignment = () => {
           <h2>Why Choose Our English Assignment Help?</h2>
           <p>Elevate Your Academic Success with Expert English Essay Aid and Comprehensive University Assignment Guidance in Britain.</p>
         </div>
-        <PriceCard details={EnglishAssignmentPrice} />
+        <Price details={EnglishAssignmentPrice} />
       </div>
 
       {/* Faqs sectin  */}
@@ -350,7 +350,7 @@ const EnglishAssignment = () => {
           <h2>What Our Clients Say</h2>
           <p>Real Feedback from Students and Academics, Showcasing the Impact of Our Custom English Assignment Solutions and Expert UK-Based Tutors.</p>
         </div>
-        <ReviewComponent reviews={EnglishAssignmentReview} /> 
+        <Review reviews={EnglishAssignmentReview} /> 
 
       </div>
 

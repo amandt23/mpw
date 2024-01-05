@@ -12,9 +12,8 @@ const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
 const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const ReviewComponent = React.lazy(() => import('./ReviewComponent'));
-const PriceCard = React.lazy(() => import('./PriceCard'));
-
+const Price = React.lazy(() => import('../../components/Price/Price'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
 
 const NursingAssn = () => {
 
@@ -332,7 +331,7 @@ const NursingAssn = () => {
                     <h2>Why Choose Our Peer Responses Service</h2>
                     <p>Expert-driven, reliable peer response services enhancing your online learning and discussion experiences.</p>
                 </div>
-                <PriceCard details={PeerResponsePrice} />
+                <Price details={PeerResponsePrice} />
 
               
             </div>
@@ -359,7 +358,7 @@ const NursingAssn = () => {
                     <h2>What Our Clients Say About Our Peer Responses Service</h2>
                     <p>Real feedback from students and professionals across the UK, reflecting the excellence and reliability of our services.</p>
                 </div>
-                <ReviewComponent reviews={PeerResponseReview} /> 
+                <Review reviews={PeerResponseReview} /> 
 
                
             </div>
