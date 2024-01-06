@@ -71,8 +71,9 @@ const Card = ({ lecturer }) => {
                         <path d="M12.4404 28.3624H4.00293V4.92487H23.6904V18.9874M17.1279 25.5499L19.9404 28.3624L25.5654 23.6749M9.62793 16.1749H18.0654M9.62793 21.7999H12.4404M9.62793 10.5499H18.0654" stroke="black" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <div className="orders-values">
+                         <p>Total Orders</p>
                         <p>{lecturer.totalOrders}</p>
-                        <p>Total Orders</p>
+                        
                     </div>
                 </div>
             </div>
