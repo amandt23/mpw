@@ -368,6 +368,7 @@
     text-decoration: none;
     color: inherit;
     width: 32%;
+    border-radius: 20px;
     /* overflow: hidden; */
 }
 @media (max-width: 1050px) {
@@ -469,7 +470,6 @@
     }
     .blog-card {
         border-radius: 20px 20px 20px 20px;
-        border: 1px solid #666;
         height: auto;
     }
     .blog-info p {

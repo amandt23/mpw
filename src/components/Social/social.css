@@ -115,3 +115,13 @@
     background-color: #05764e;
 
 }
+@media (max-width:767px){
+    .cards {
+        display: flex;
+        margin-top: 170px;
+        justify-content: center;
+        column-gap: 71px;
+        row-gap: 110px;
+        margin: 130px 40px 16px 40px;
+    }
+}
