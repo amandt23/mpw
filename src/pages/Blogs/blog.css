@@ -196,9 +196,7 @@
     column-gap: 7.5px;
     align-items: center;
 }
-.allBlogs{
-    /* margin-left: 190px; */
-}
+
 
 .blog-all-tags {
     display: flex;

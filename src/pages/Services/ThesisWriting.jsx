@@ -1,21 +1,20 @@
-import React, { useState, Suspense} from 'react'
-import { Helmet } from 'react-helmet';
-
-import lecturersData from '../../data.json';
-import faqs from '../../faqs.json';
-import reviews from '../../review.json';
-import price from '../../pricecard.json';
+import React, { useState } from 'react'
+import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Card from '../../components/CardCrousel/Card';
+import lecturersData from '../../data.json';
+import reviews from '../../review.json';
+import Social from '../../components/Social/Social';
+import faqs from '../../faqs.json';
+import PlaceOrder from '../../components/PlaceOrder/PlaceOrder';
+import { Helmet } from 'react-helmet';
 import headerData from '../../header.json';
-
-const Carousel = React.lazy(() => import("react-multi-carousel"));
-const Card = React.lazy(() => import('../../components/CardCrousel/Card'));
-const Social = React.lazy(() => import('../../components/Social/Social'));
-const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
-const FAQsSection = React.lazy(() => import('./FAQsSection'));
-const Review = React.lazy(() => import('../../components/Reviews/Review'));
-const Price = React.lazy(() => import('../../components/Price/Price'));
-const Header = React.lazy(() => import('../../components/Header/Header'));
+import "react-multi-carousel/lib/styles.css";
+import FAQsSection from './FAQsSection';
+import Review from '../../components/Reviews/Review';
+import price from '../../pricecard.json';
+import Price from '../../components/Price/Price';
+import Header from '../../components/Header/Header';
 
 const ThesisWriting = () => {
 
@@ -181,7 +180,7 @@ const ThesisWriting = () => {
 
             {/* Header section */}
         
-         <Suspense fallback={<div>Loading...</div>}>
+       
          <Header header={ThesisWritingData} />
 
             {/* writers section */}
@@ -242,7 +241,7 @@ const ThesisWriting = () => {
 
             {/* place order section  */}
             <PlaceOrder />
-         </Suspense>
+       
 
             
 

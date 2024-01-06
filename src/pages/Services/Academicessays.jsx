@@ -1,9 +1,4 @@
 import React, { useState } from 'react'
-import { FaRegCheckCircle } from "react-icons/fa";
-// review
-import { MdPrivacyTip } from "react-icons/md";
-import { FaEye } from "react-icons/fa";
-
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from '../../components/CardCrousel/Card';

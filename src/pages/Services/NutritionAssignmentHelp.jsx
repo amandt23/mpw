@@ -183,7 +183,6 @@ const  NutritionAssignmentHelp = () => {
 </script>
 </Helmet>
 
-         <Suspense fallback={<div>Loading...</div>}>
                   {/* Header section */}
             <Header header={NutritionAssignmentHeaderData } />
             {/* writers section */}
@@ -242,7 +241,7 @@ const  NutritionAssignmentHelp = () => {
 
             {/* place order section  */}
             <PlaceOrder />
-        </Suspense>
+      
 
             {/* Discussion section  */}
             <div className='writing'>
