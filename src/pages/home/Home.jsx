@@ -1,8 +1,9 @@
-import React, {lazy} from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet'
 import price from '../../pricecard.json';
 import reviews from '../../review.json';
 import headerData from '../../header.json';
+
 const Header = React.lazy(() => import('../../components/Header/Header'));
 const MyTeam = React.lazy(() => import('../../components/CardCrousel/MyTeam'));
 const Price = React.lazy(() => import('../../components/Price/Price'));

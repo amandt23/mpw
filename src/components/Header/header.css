@@ -270,7 +270,7 @@
     display: flex;
     /* align-items: center; */
     gap: 22px;
-    max-width: 100%;
+    width: 100%;
     justify-content: space-around;
 
 }
@@ -379,7 +379,7 @@
     font-weight: 400;
     line-height: normal;
     /* max-width: 660px; */
-    max-width: 63%;
+    width: 100%;
 }
 .RightContentBottom{
     display: flex;
@@ -427,13 +427,13 @@ button.pulse-button {
         font-size: 20.829px;
     }
     .RightContentBottom p {
-        max-width: 58%;
+        width: 100%;
     }
 }
 
 @media (max-width: 1400px){
     .RightContentBottom p {
-        max-width: 63%;
+        width: 100%;
     }
 }
 @media (max-width: 1299px){
@@ -490,7 +490,7 @@ button.pulse-button {
         
     }
     .RightContentBottom p {
-        max-width: 100%;
+        width: 100%;
     }
     .headerTop h1 {
         font-size: 52px;
@@ -504,7 +504,7 @@ button.pulse-button {
 
     }
     #totalInput {
-        font-size: 18px;
+        font-size: 18px;}
     .topnavBar {
         padding: 0px 20px;
     }
@@ -515,7 +515,7 @@ button.pulse-button {
     }
 
     .RightContentBottom p {
-        max-width: 100%;
+        width: 100%;
         font-size: 13px;
     }
 
@@ -568,7 +568,7 @@ button.pulse-button {
     .footerBottomPay p {
         font-size: 20px;
     }
-}}
+}
 
 @media (max-width: 470px) {
     .footer {
@@ -579,7 +579,7 @@ button.pulse-button {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 20px;
+        /* width: 20px; */
         padding: 10px 15px;
         border-radius: 10.528px;
     }

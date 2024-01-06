@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../components/FAQS/faqs.css'
 const FAQItem = ({ item, isOpen, toggle }) => {
     return (
       <div className="faq-item">

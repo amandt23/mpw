@@ -58,8 +58,8 @@ const MidSection = () => {
                 </div>
                 <div className="Midmain">
                     <div className="midNavWrap">
-                    <FontAwesomeIcon className='icon-burger' icon={faBars} onClick={handleToggleSidebar} />
-                    <nav className={`midNav ${isVisible ? 'visibleMidNav' : ''}`}>
+                    {/* <FontAwesomeIcon className='icon-burger' icon={faBars} onClick={handleToggleSidebar} /> */}
+                    <nav className={`midNav`}>
                         <ul>
                             <li><a onClick={() => { setActiveTab('academic'); setIsVisible(false) }} href="#academic"><h3>Academic</h3></a></li>
                             <li><a onClick={() => { setActiveTab('creative'); setIsVisible(false) }} href="#creative"><h3>Creative Writing</h3></a></li>

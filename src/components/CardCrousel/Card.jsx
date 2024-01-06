@@ -19,6 +19,9 @@ const Card = ({ lecturer }) => {
                         <p>{lecturer.university}</p>
                     </div>
                     <div className="right-stars">
+                        <div className="rating-head">
+                            <span>Rating:</span>
+                        </div>
                         <RiStarSFill className='Card-star-Icon' />
                         <RiStarSFill className='Card-star-Icon' />
                         <RiStarSFill className='Card-star-Icon' />

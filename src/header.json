@@ -93,6 +93,7 @@
              "subheading_1": "<p><strong>Why Choose Our Dissertation Writing Service?: </strong> Experience unparalleled value with our flat-rate pricing, comprehensive support, and commitment to academic integrity.</p>",
              "subheading_2": "<p><strong>Our Commitment to Quality: </strong> At My Perfect Writing, quality is our cornerstone. We ensure each dissertation meets the highest academic standards.</p>"
 
+
         }
     ],
     "dissertation_assignment":[
@@ -243,6 +244,150 @@
              "subheading_2": " <p><strong>Our Commitment to Quality: </strong> Ensuring the highest standards of academic integrity with every response we craft.</p>"
 
         }
+    ],
+    "philosophy_assignment":[
+        {
+            "heading":"Philosophy Assignment Help in UK",
+            "desc":"Expert support for students, academic professionals, and researchers seeking excellence in philosophy studies.",
+            "offer_1": "Fixed pricing at £6.99/page, regardless of deadlines",
+            "offer_2":"No charges for add-on services",
+            "offer_3":"Complimentary plagiarism/AI detection reports",
+    
+             "subheading_1": "<p><strong>Benefits of Our Philosophy Assignment Help </strong> Unlock academic success with affordable, transparent pricing and comprehensive support tailored to your unique needs in philosophy studies.</p>",
+             "subheading_2": "<p><strong>Our Commitment to Quality </strong> Ensuring the highest standards of academic integrity and excellence through meticulous research and detailed plagiarism checks.</p>"
+
+        }
+    ],
+    "political_assignment":[
+        {
+            "heading":"Expert Political Assignment Help in the UK",
+            "desc":"Empowering Students, Academic Professionals, and Researchers with Specialised Assistance in Political Studies.",
+            "offer_1": "Fixed £6.99/Page Pricing for All Deadlines",
+            "offer_2":"Complimentary Plagiarism/AI Detection Reports",
+            "offer_3":"No Additional Charges for Add-On Services",
+    
+             "subheading_1": "<p><strong>Why Choose Our Political Assignment Help? </strong>Enjoy unbeatable prices, assured quality, and timely support tailored to your academic needs.</p>",
+             "subheading_2": "<p><strong>Our Commitment to Quality: </strong> Guaranteed excellence in every page, reflecting deep political insights and thorough research.</p>"
+
+        }
+    ],
+    "proof_reading_service":[
+        {
+
+            "heading":"My Perfect Writing - Premier Proofreading Service in the UK",
+            "desc":"Tailored Proofreading for Students, Academic Professionals, and Researchers.",
+            "offer_1": "Fixed Pricing at £6.99/Page",
+            "offer_2":"No Additional Charges for Add-On Services",
+            "offer_3":"Complimentary Plagiarism/AI Detection Reports",
+    
+             "subheading_1": "<p><strong>Why Choose Our Proofreading Service? </strong>Enhance your academic work with reliable, budget-friendly proofreading, ensuring clarity and precision in every page.</p>",
+             "subheading_2": "<p><strong>Our Commitment to Quality: </strong>We guarantee top-tier proofreading, upholding academic integrity with our consistent pricing and comprehensive plagiarism checks.</p>"
+        }
+    ],
+    "psychology_assignment":[
+        {
+            "heading":"Psychology Assignment Help in UK - Excellence in Every Paper",
+            "desc":"Your Gateway to Academic Excellence in Religious Studies for Students, Academic Professionals, and Researchers",
+            "offer_1": "Fixed Pricing at £6.99/Page",
+            "offer_2":"No Additional Charges for Add-On Services",
+            "offer_3":"Complimentary Plagiarism/AI Detection Reports",
+    
+             "subheading_1": "<p><strong>Why Choose Our Psychology Assignment Help? </strong>Whether you're grappling with complex theories or tight deadlines, our service offers unrivalled support. Benefit from our transparent pricing, comprehensive plagiarism checks, and an unwavering commitment to quality, tailored specifically for psychology students.</p>",
+             "subheading_2": "<p><strong>Our Commitment to Quality: </strong> At My Perfect Writing, we don't just promise quality; we deliver it. Each psychology assignment undergoes rigorous quality checks, ensuring you receive top-tier academic support every time.</p>"
+
+        }
+    ],
+    "public_relations":[
+        {
+            "heading":"Public Relations Assignment Help in UK",
+            "desc":"Expert Guidance for Students, Academics, and Researchers in Public Relations.",
+            "offer_1": "Fixed £6.99/Page Rate",
+            "offer_2":"Complimentary Add-ons",
+            "offer_3":"Free Plagiarism Reports",
+    
+             "subheading_1": "<p><strong>Why Choose Our Service? </strong>Unlock academic success with our consistent pricing, extensive support, and commitment to excellence in Public Relations assignments.</p>",
+             "subheading_2": "<p><strong>Our Quality Promise: </strong> Every assignment undergoes rigorous quality checks to ensure top-notch content for your academic pursuits.</p>"
+
+        }
+    ],
+    "religion_assignment":[
+        {
+            "heading":"Religion Assignment Help in UK",
+            "desc":"Your Gateway to Academic Excellence in Religious Studies for Students, Academic Professionals, and Researchers",
+            "offer_1": "Fixed Pricing at £6.99",
+            "offer_2":"Free Plagiarism/AI Detection Reports",
+            "offer_3":"No Extra Charges for Add-On Services",
+    
+             "subheading_1": "<p><strong>Benefits of Our Religion Assignment Help: </strong>Expert Guidance, Timely Delivery, and Tailored Support for Diverse Religious Studies Topics</p>",
+             "subheading_2": "<p><strong>Our Commitment to Quality: </strong> Ensuring Excellence with Every Assignment through Rigorous Quality Checks and Expert Review</p>"
+
+        }
+    ],
+    "research_paper":[
+        {
+            "heading":"Research Papers Service in UK – Tailored Academic Support",
+            "desc":"Empowering Students, Academic Professionals, and Researchers with Comprehensive and Customised Research Paper Assistance",
+            "offer_1": "Fixed £6.99/Page Pricing",
+            "offer_2":"Free Add-On Services",
+            "offer_3":"Complimentary plagiarism/AI detection reports",
+    
+             "subheading_1": "<p><strong>Benefits of Our Research Papers Service: </strong>Experience affordable, transparent pricing with our fixed-rate system. Benefit from our no-extra-cost policy for essential add-ons and receive free, detailed plagiarism and AI analysis reports for every paper.</p>",
+             "subheading_2": "<p><strong>Our Commitment to Quality: </strong>At My Perfect Writing, we uphold the highest standards of academic excellence. Each paper is meticulously crafted to meet your specific research needs, ensuring quality and integrity in every word.</p>"
+
+        }
+    ],
+    "resume_writing":[
+        {
+            "heading":"Expert Resume Writing Service in UK",
+            "desc":" Tailored Resumes for Students, Academic Professionals, and Researchers – Elevate Your Career Aspirations!",
+            "offer_1": "Fixed £6.99/Page Pricing, Regardless of Deadline",
+            "offer_2":"No Extra Charges for Add-On Services",
+            "offer_3":"Complimentary Plagiarism/AI Detection Reports",
+    
+             "subheading_1": "<p><strong>Benefits of Our Resume Writing Service: </strong> Expertise at your fingertips. Enjoy seamless, high-quality thesis assistance, ensuring top grades and academic success.</p>",
+             "subheading_2": "<p><strong>Our Commitment to Quality: </strong> Experience unparalleled convenience and quality with our fixed-rate, comprehensive service – your key to professional success.</p>"
+
+        }
+    ],
+    "social_work":[
+        {
+            "heading":"Social Work Assignment Help in UK: Your Academic Ally",
+            "desc":"Empowering Students, Academic Professionals, and Researchers with Expert-Led Assignment Support.",
+            "offer_1": "Fixed Pricing at £6.99/Page",
+            "offer_2":"No Extra Charges for Add-On Services",
+            "offer_3":"Complimentary Plagiarism/AI Detection Reports",
+    
+             "subheading_1": "<p><strong>Why Choose Our Social Work Assignment Help? </strong>Experience unparalleled academic support with transparent pricing, comprehensive service offerings, and a commitment to academic integrity.</p>",
+             "subheading_2": "<p><strong>Our Quality Commitment: </strong> Upholding the highest academic standards, we ensure each assignment reflects in-depth research, critical analysis, and academic rigor.</p>"
+
+        }
+    ],
+    "sociology_assignment":[
+        {
+            "heading":"Sociology Assignment Help in the UK - Your Academic Success Partner",
+            "desc":"Expert assistance for students, academic professionals, and researchers seeking excellence in sociology studies.",
+            "offer_1": "Fixed-pricing at £6.99/page, regardless of deadlines",
+            "offer_2":"No charges for add-on services",
+            "offer_3":"Complimentary plagiarism/AI detection reports",
+    
+             "subheading_1": "<p><strong>Benefits of Our Sociology Assignment Help: </strong>Unlock academic success with tailored, cost-effective solutions for all your sociology assignments.</p>",
+             "subheading_2": "<p><strong>Our Commitment to Quality: </strong> Ensuring top-tier academic integrity and excellence in every sociology assignment delivered.</p>"
+
+        }
+    ],
+    "thesis_writing":[
+        {
+            "heading":"Thesis Writing Service in UK - My Perfect Writing",
+            "desc":"Tailored Excellence in Academic Writing for Students, Academic Professionals, and Researchers.",
+            "offer_1": "Fixed Pricing at £6.99/Page",
+            "offer_2":"No Additional Charges for Add-ons",
+            "offer_3":"Complimentary Plagiarism/AI Detection Reports",
+    
+             "subheading_1": "<p><strong>Benefits of Our Thesis Writing Service: </strong> Expertise at your fingertips. Enjoy seamless, high-quality thesis assistance, ensuring top grades and academic success.</p>",
+             "subheading_2": "<p><strong>Our Commitment to Quality: </strong> Unwavering dedication to delivering exceptional theses that meet the highest academic standards.</p>"
+
+        }
     ]
+
 
 }

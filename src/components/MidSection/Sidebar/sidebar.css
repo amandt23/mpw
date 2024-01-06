@@ -38,6 +38,15 @@
        }
 
 }
+@media(max-width:620px){
+    .sidebar ul {
+        flex-direction: column;
+    }
+    .sidebar ul li {
+        padding: 15px 15px;
+        font-size: 20px;
+    }
+}
 @media(max-width:450px){
     .sidebar ul li {
         padding: 15px 15px;

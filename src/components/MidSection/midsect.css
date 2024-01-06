@@ -218,6 +218,10 @@
         margin: 0px 40px;
     
     }
+    .sidebar ul li {
+        padding: 15px 15px;
+        font-size: 23.688px;
+    }
 }
 @media (max-width: 767px){
     .midNav ul li{
@@ -230,39 +234,62 @@
     .MidtopContents p {
         font-size: 17px;
     }
+    .sidebar ul li {
+        padding: 15px 15px;
+        font-size: 23.688px;
+    }
+    .midNav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
     .icon-burger {
         padding: 15px 0;
          display: block;
          color: #fff; 
     }
-
-    /* .midNav {
-        display: none;
-    } */
-
-    .midNav.visibleMidNav {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        display: none;
-        border-radius: none;
-        box-shadow: none;
-
+    .MidnavContents {
+        flex-direction: column;
+        overflow: hidden;
+        width: 64%;
     }
-    .midNav{
+    .sidebar{
+        width: 100%;
+    }
+    .sidebar ul {
+        flex-direction: column;
+       
+    }
+
+
+    .midNavWrap {
+        overflow-x: scroll;
+        width: 140%;
+    }
+    .MidnavContents{
+        width: 90%;
+    }
+
+    
+    .midNav {
         box-shadow: none;
+        width: 140%;
+        overflow-x: auto;
+    }
+    .midNav {
+        display: flex;
+        justify-content:space-between;
     }
 
     .midNav ul {
         list-style-type: none;
         display: flex;
-        flex-direction: column;
         row-gap: 20px;
-        justify-content: space-evenly;
+        padding: 17px 0;
+        justify-content: space-between;
         align-items: center;
     }
     .midNavWrap{
@@ -270,4 +297,9 @@
     }
 
 
+}
+@media (max-width:500px){
+    .MidnavContents{
+        width: 63%;
+    }
 }
