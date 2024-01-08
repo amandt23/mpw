@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 const ThesisWriting = () => {
 
@@ -182,6 +183,7 @@ const ThesisWriting = () => {
         
        
          <Header header={ThesisWritingData} />
+         <LazyHydrate whenVisible>
 
             {/* writers section */}
             <div className="myteam">
@@ -241,6 +243,8 @@ const ThesisWriting = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+            </LazyHydrate>
+           <LazyHydrate whenIdle>
        
 
             
@@ -357,6 +361,7 @@ const ThesisWriting = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

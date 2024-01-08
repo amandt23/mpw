@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 const LiteratureAssignment = () => {
  
@@ -185,6 +186,7 @@ const LiteratureAssignment = () => {
     
                   {/* Header section */}
             <Header header={LiteratureAssignmentHeaderData } />
+            <LazyHydrate whenVisible>
       {/* writers section */}
       <div className="myteam">
         <div className="topSection">
@@ -237,12 +239,15 @@ const LiteratureAssignment = () => {
 
       {/* place order section  */}
       <PlaceOrder />
+      </LazyHydrate>
+      <LazyHydrate whenIdle>
+       
    
 
       {/* Discussion section  */}
       <div className='writing'>
         <div className="wTop">
-          <h2>Understanding Academic Essays: A Core Aspect of Our Literature Assignment Help in UK</h2>
+          <h2>My Perfect Writing- Top Essay Writing Service in UK</h2>
           <p>Dive into the intricacies of academic essays with our Literature Assignment Help, offering expert guidance tailored to the UK's educational standards.</p>
         </div>
 
@@ -520,6 +525,7 @@ const LiteratureAssignment = () => {
             We do not endorse or condone any type of plagiarism.</p>
         </div>
       </div>
+      </LazyHydrate>
     </>
   )
 }

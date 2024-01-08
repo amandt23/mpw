@@ -178,14 +178,14 @@ const Academicessays = () => {
   }`}
                 </script>
             </Helmet>
-            <LazyHydrate whenIdle>
+            
             {/* Header section */}
             <Header header={academicHeaderData} />
           
             
 
           
-           
+            <LazyHydrate whenVisible>
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
@@ -244,7 +244,7 @@ const Academicessays = () => {
             {/* place order section  */}
             <PlaceOrder />
             </LazyHydrate>
-
+            <LazyHydrate whenIdle>
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="wTop">
@@ -408,6 +408,7 @@ const Academicessays = () => {
                        
                     </div>
                 </div>
+              
 
                 <div className="notice">
                     <div className="noticeContent">
@@ -425,6 +426,7 @@ const Academicessays = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

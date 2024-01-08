@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 const DissertionAssignment = () => {
 
@@ -184,6 +185,7 @@ const DissertionAssignment = () => {
      
                   {/* Header section */}
             <Header header={DissertationAssignmentHeaderData } />
+            <LazyHydrate whenVisible>
     
       {/* writers section */}
       <div className="myteam">
@@ -240,6 +242,8 @@ const DissertionAssignment = () => {
 
       {/* place order section  */}
       <PlaceOrder />
+      </LazyHydrate>
+      <LazyHydrate whenIdle>
     
 
       {/* Discussion section  */}
@@ -457,6 +461,7 @@ const DissertionAssignment = () => {
 
         </div>
       </div>
+      </LazyHydrate>
     </>
   )
 }

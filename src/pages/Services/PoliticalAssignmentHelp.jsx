@@ -15,6 +15,8 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
+
 
 
 const PoliticalAssignmentHelp = () => {
@@ -182,6 +184,7 @@ const PoliticalAssignmentHelp = () => {
           
                   {/* Header section */}
             <Header header={PoliticalAssignmentHeaderData } />
+            <LazyHydrate whenVisible>
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
@@ -237,6 +240,9 @@ const PoliticalAssignmentHelp = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+            </LazyHydrate>
+           <LazyHydrate whenIdle>
+   
       
 
             {/* Discussion section  */}
@@ -324,6 +330,7 @@ const PoliticalAssignmentHelp = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

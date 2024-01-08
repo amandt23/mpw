@@ -15,7 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
-
+import LazyHydrate from 'react-lazy-hydration';
 
 const LiteratureReview = () => {
 
@@ -185,6 +185,7 @@ const LiteratureReview = () => {
           
                   {/* Header section */}
             <Header header={LiteratureReviewHeaderData } />
+            <LazyHydrate whenVisible>
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
@@ -244,6 +245,8 @@ const LiteratureReview = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+            </LazyHydrate>
+           <LazyHydrate whenIdle>
     
 
             {/* Discussion section  */}
@@ -402,6 +405,7 @@ const LiteratureReview = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 const DiscussionPostpage = () => {
 
@@ -184,6 +185,7 @@ const DiscussionPostpage = () => {
            
                   {/* Header section */}
             <Header header={DiscussionPostpageHeaderData} />
+            <LazyHydrate whenVisible>
      
       {/* writers section */}
       <div className="myteam">
@@ -238,6 +240,8 @@ const DiscussionPostpage = () => {
 
       {/* place order section  */}
       <PlaceOrder />
+      </LazyHydrate>
+      <LazyHydrate whenIdle>
     
 
       {/* Discussion section  */}
@@ -453,6 +457,7 @@ const DiscussionPostpage = () => {
 
         </div>
       </div>
+      </LazyHydrate>
     </>
   )
 }

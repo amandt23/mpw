@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 const AnnotatedBibliography = () => {
 
@@ -185,6 +186,7 @@ const AnnotatedBibliography = () => {
           
             {/* Header section */}
             <Header header={annotatedHeaderData} />
+            <LazyHydrate whenVisible>
            
             {/* writers section */}
          
@@ -251,7 +253,8 @@ const AnnotatedBibliography = () => {
 
             {/* place order section  */}
             <PlaceOrder />
-           
+            </LazyHydrate>
+            <LazyHydrate whenIdle>
             {/* Discussion section  */}
             <div className='writing'>
                 <div className="wTop">
@@ -383,6 +386,7 @@ const AnnotatedBibliography = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

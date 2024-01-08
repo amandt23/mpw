@@ -14,6 +14,7 @@ import Social from '../../components/Social/Social';
 import Review from '../../components/Reviews/Review';
 import PlaceOrder from '../../components/PlaceOrder/PlaceOrder';
 import MyWriting from '../../components/MyPerfectWritting/MyWriting';
+import LazyHydrate from 'react-lazy-hydration';
 
 
 
@@ -194,6 +195,7 @@ const Home = () => {
                 </script>
                   {/* header Section */}     
             <Header header={homeHeaderData} />
+            <LazyHydrate whenVisible>
             <MyTeam />
             {/* pricecard Section */}
             <div className="price " id="pricing-section">
@@ -216,7 +218,10 @@ const Home = () => {
             <Review reviews={HomeReview}/>
             </div>
             <PlaceOrder />
+            </LazyHydrate>
+             <LazyHydrate whenIdle>
             <MyWriting />
+            </LazyHydrate>
 
         </>
     )

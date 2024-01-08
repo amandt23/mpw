@@ -95,12 +95,7 @@
 
 }
 
-.faqTop {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* justify-content: center; */
-}
+
 
 .faqTop h3 {
     color: #21383E;
@@ -120,10 +115,7 @@
     max-width: 770px;
 }
 
-.faqBottom {
-    /* margin-top: 31px; */
-   
-}
+ 
 
 .faqLeft h3 {
     color: #21383E;

@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 
 const ReligionAssignmentHelpinUK = () => {
@@ -184,6 +185,7 @@ const ReligionAssignmentHelpinUK = () => {
 
               {/* Header section */}
               <Header header={ReligionAssignmentData} />
+              <LazyHydrate whenVisible>
 
             {/* writers section */}
             <div className="myteam">
@@ -240,6 +242,8 @@ const ReligionAssignmentHelpinUK = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+            </LazyHydrate>
+           <LazyHydrate whenIdle>
         
 
             {/* Discussion section  */}
@@ -443,6 +447,7 @@ const ReligionAssignmentHelpinUK = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

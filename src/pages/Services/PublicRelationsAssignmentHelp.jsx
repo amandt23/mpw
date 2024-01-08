@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 
 const PublicRelationsAssignmentHelp = () => {
@@ -183,6 +184,7 @@ const PublicRelationsAssignmentHelp = () => {
 
             {/* Header section */}
             <Header header={PublicRelationsData} />
+            <LazyHydrate whenVisible>
 
 
             {/* writers section */}
@@ -240,6 +242,9 @@ const PublicRelationsAssignmentHelp = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+            </LazyHydrate>
+           <LazyHydrate whenIdle>
+      
       
 
             {/* Discussion section  */}
@@ -325,6 +330,7 @@ const PublicRelationsAssignmentHelp = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

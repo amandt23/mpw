@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const AboutUs = () => {
     return (
@@ -44,7 +45,10 @@ const AboutUs = () => {
                                 <span>Welcome to My Perfect Writing, the cradle of academic excellence and your ultimate pit stop for a roller coaster ride through the world of learning and creativity! We’re not just an Essay Writing Service in UK; we're your academic allies, transforming your caffeinated cram sessions into a carnival of insights, ideas, and top-notch grades.</span>
                             </div>
                             <div class="welcomrightImage">
-                                <img src="./images/about4.png" alt='about-us-image' />
+                            <LazyLoadImage
+                               alt="about-us-image"
+                               src="./images/about4.png" 
+                             />
                             </div>
                         </div>
 
@@ -62,7 +66,11 @@ const AboutUs = () => {
                                     <span>Born out of a blend of ambition and innovation in 2020, My Perfect Writing burst onto the UK academic scene, ready to shake things up! 💥 We were the new kids on the block in the bustling world of essay and dissertation services, but what we lacked in years, we made up for with our pioneering fixed-pricing system, ensuring affordability and transparency in every pixel of our service. Our mission was crystal clear: to sprinkle a touch of academic magic on every student's journey, ensuring quality doesn’t have to break the bank!</span>
                                 </div>
                                 <div class="welcomrightImage">
-                                    <img src="./images/about1.png" alt="Our Story" />
+                                   <LazyLoadImage 
+                                     src="./images/about1.png" 
+                                     alt="Our Story" 
+                                  />
+
                                 </div>
                             </div>
                         </div>
@@ -79,7 +87,10 @@ const AboutUs = () => {
                                 <span>At <strong>My Perfect Writing</strong>, we're on a relentless quest to transform essay writing services in the UK into a symphony of success and support, crafting a world where every student’s academic potential is recognised and nurtured to flourish.</span>
                             </div>
                             <div class="rightImage">
-                                <img src="./images/about2.png" alt="Welcome to Myperfectwords.com" />
+                             <LazyLoadImage
+                               alt="Welcome to Myperfectwords.com"
+                               src="./images/about2.png"  
+                            />
                             </div>
                         </div>
 
@@ -95,32 +106,38 @@ const AboutUs = () => {
                             <h2>Meet the Brains Behind the Brilliance!</h2>
                             <div class="membersWrapper">
                                 <div class="singleMember">
-                                    <img src="./images/team/img1.jpg" alt="Benjamin" />
+                                <LazyLoadImage 
+                                   src="./images/team/img1.jpg" 
+                                   alt="Benjamin" 
+                                />
+
                                     <p>Olivia Turner</p>
                                     <span>Chief Academic Officer (PhD in English Literature, University of Oxford)</span>
                                 </div>
                                 <div class="singleMember">
-                                    <img src="./images/team/img2.jpg" alt="Lillith" />
+                                <LazyLoadImage  
+                                  src="./images/team/img2.jpg" 
+                                  alt="Lillith" />
                                     <p>Ethan Davis</p>
                                     <span>Senior Essay Specialist (MA in Creative Writing, University of Cambridge)</span>
                                 </div>
                                 <div class="singleMember">
-                                    <img src="./images/team/img3.jpg" alt="Bryan" />
+                                  <LazyLoadImage  src="./images/team/img3.jpg" alt="Bryan" />
                                     <p>Charlotte Johnson</p>
                                     <span>Head of Research and Development (PhD in Educational Psychology, Imperial College London)</span>
                                 </div>
                                 <div class="singleMember">
-                                    <img src="./images/team/img4.jpg" alt="Dustin" />
+                                   <LazyLoadImage  src="./images/team/img4.jpg" alt="Dustin" />
                                     <p>Dustin</p>
                                     <span>Customer Support Representative</span>
                                 </div>
                                 <div class="singleMember">
-                                    <img src="./images/team/img5.jpg" alt="Nova" />
+                                   <LazyLoadImage  src="./images/team/img5.jpg" alt="Nova" />
                                     <p>Noah Wilson</p>
                                     <span>Lead Thesis and Dissertation Expert (PhD in History, London School of Economics)</span>
                                 </div>
                                 <div class="singleMember">
-                                    <img src="./images/team/img6.jpeg" alt="Scarlett" />
+                                  <LazyLoadImage  src="./images/team/img6.jpeg" alt="Scarlett" />
                                     <p>Isabella White</p>
                                     <span>Assignment Maestro (MSc in Academic Practice, University College London)</span>
                                 </div>
@@ -131,19 +148,19 @@ const AboutUs = () => {
                                 <div class="editorialWrapper">
                                     <div class="editorial-writer">
                                         <div class="editorial-content">
-                                            <img src="./images/team/board/img1.jpg" alt="Rylee Willow" />
+                                           <LazyLoadImage  src="./images/team/board/img1.jpg" alt="Rylee Willow" />
                                             <a href="#" class="editorial-name">Prof. Amelia Brown</a>
                                             <p class="editorial-level">DPhil in Modern Languages</p>
                                             <span>, University of Oxford</span>
                                         </div>
                                         <div class="editorial-content">
-                                            <img src="./images/team/board/img2.jpg" alt="Chris Henry" />
+                                           <LazyLoadImage  src="./images/team/board/img2.jpg" alt="Chris Henry" />
                                             <a href="#" class="editorial-name">Dr. Oliver Smith</a>
                                             <p class="editorial-level">PhD in Comparative Literature</p>
                                             <span>King’s College London</span>
                                         </div>
                                         <div class="editorial-content">
-                                            <img src="./images/team/board/img3.jpg" alt="Melisa Cronin" />
+                                           <LazyLoadImage  src="./images/team/board/img3.jpg" alt="Melisa Cronin" />
                                             <a href="#" class="editorial-name">Dr. Emily Taylor</a>
                                             <p class="editorial-level">EdD in Higher Education Management</p>
                                             <span>University of Bath</span>
@@ -157,25 +174,25 @@ const AboutUs = () => {
                                 <div class="editorialWrapper">
                                     <div class="editorial-writer">
                                         <div class="editorial-content">
-                                            <img src="./images/team/helphub/img1.jpg" alt="Rylee Willow" />
+                                           <LazyLoadImage  src="./images/team/helphub/img1.jpg" alt="Rylee Willow" />
                                             <a href="#" class="editorial-name">Kate Sharmin</a>
                                             <p class="editorial-level">Senior Support Specialist </p>
                                             <span>Customer Relationship Management</span>
                                         </div>
                                         <div class="editorial-content">
-                                            <img src="./images/team/helphub/img2.jpg" alt="Chris Henry" />
+                                          <LazyLoadImage  src="./images/team/helphub/img2.jpg" alt="Chris Henry" />
                                             <a href="#" class="editorial-name">Grace Mitchell</a>
                                             <p class="editorial-level">Chief Quality Officer </p>
                                             <span>Academic Quality Control & Assurance</span>
                                         </div>
                                         <div class="editorial-content">
-                                            <img src="./images/team/helphub/img3.jpg" alt="Melisa Cronin" />
+                                           <LazyLoadImage  src="./images/team/helphub/img3.jpg" alt="Melisa Cronin" />
                                             <a href="#" class="editorial-name">Emma Taylor</a>
                                             <p class="editorial-level">Head of Sales</p>
                                             <span>Strategic Sales & Market Expansion</span>
                                         </div>
                                         <div class="editorial-content">
-                                            <img src="./images/team/helphub/img4.jpg" alt="Melisa Cronin" />
+                                           <LazyLoadImage  src="./images/team/helphub/img4.jpg" alt="Melisa Cronin" />
                                             <a href="#" class="editorial-name">Jack White</a>
                                             <p class="editorial-level">Dispute Resolution Specialist</p>
                                             <span>Conflict Management & Resolution</span>
@@ -199,7 +216,7 @@ const AboutUs = () => {
                         </div>
                         <div class="hiringExpertsWrapper">
                             <div class="hiringExpertsLeft">
-                                <img src="./images/about3.png" alt="writing Experts" />
+                              <LazyLoadImage  src="./images/about3.png" alt="writing Experts" />
                             </div>
                             <div class="hiringSteps">
                                 <ul>
@@ -244,13 +261,13 @@ const AboutUs = () => {
                                     <span>Embark on a literary adventure with My Perfect Writing, where each step is a stride towards excellence in essay assistance!</span>
                                 </div>
                                 <div class="writingProcessImage">
-                                    <img src="./images/about5.png" alt="Our Writing Process" />
+                                  <LazyLoadImage  src="./images/about5.png" alt="Our Writing Process" />
                                 </div>
                             </div>
                             <div class="writingProcessSteps">
                                 <div class="singleStep">
                                     <div class="stepIcon">
-                                        <img width="39" height="27" src="https://myperfectwords.com/new-land/images/writing-step-1.svg" alt="Check Your Requirements" />
+                                        <LazyLoadImage  width="39" height="27" src="https://myperfectwords.com/new-land/images/writing-step-1.svg" alt="Check Your Requirements" />
                                     </div>
                                     <div class="stepDescription">
                                         <p><span>Step 1:</span>Decoding Your Needs</p>
@@ -259,7 +276,7 @@ const AboutUs = () => {
                                 </div>
                                 <div class="singleStep">
                                     <div class="stepIcon">
-                                        <img width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-2.svg" alt="Discuss Them With You" />
+                                       <LazyLoadImage  width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-2.svg" alt="Discuss Them With You" />
                                     </div>
                                     <div class="stepDescription">
                                         <p><span>Step 2:</span>A Tête-à-Tête with Your Writer</p>
@@ -268,7 +285,7 @@ const AboutUs = () => {
                                 </div>
                                 <div class="singleStep">
                                     <div class="stepIcon">
-                                        <img width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-3.svg" alt="Conduct Relevant Research" />
+                                      <LazyLoadImage  width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-3.svg" alt="Conduct Relevant Research" />
                                     </div>
                                     <div class="stepDescription">
                                         <p><span>Step 3:</span>Diving Deep into Research</p>
@@ -277,7 +294,7 @@ const AboutUs = () => {
                                 </div>
                                 <div class="singleStep">
                                     <div class="stepIcon">
-                                        <img width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-4.svg" alt="Outline &amp; Write Your Essay" />
+                                      <LazyLoadImage  width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-4.svg" alt="Outline &amp; Write Your Essay" />
                                     </div>
                                     <div class="stepDescription">
                                         <p><span>Step 4:</span>Crafting and Structuring</p>
@@ -286,7 +303,7 @@ const AboutUs = () => {
                                 </div>
                                 <div class="singleStep">
                                     <div class="stepIcon">
-                                        <img width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-5.svg" alt="Quality Assurance Check" />
+                                       <LazyLoadImage  width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-5.svg" alt="Quality Assurance Check" />
                                     </div>
                                     <div class="stepDescription">
                                         <p><span>Step 5:</span>Quality Assurance Waltz</p>
@@ -295,7 +312,7 @@ const AboutUs = () => {
                                 </div>
                                 <div class="singleStep">
                                     <div class="stepIcon">
-                                        <img width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-6.svg" alt="Submit and Revise Your Essay" />
+                                       <LazyLoadImage  width="39" height="39" src="https://myperfectwords.com/new-land/images/writing-step-6.svg" alt="Submit and Revise Your Essay" />
                                     </div>
                                     <div class="stepDescription">
                                         <p><span>Step 6:</span>The Grand Finale and Revisions</p>
@@ -308,7 +325,7 @@ const AboutUs = () => {
                             <div class="qualityEthics">
                                 <div class="qualityEthicsWrapper">
                                     <div class="qualityEthicsLeft">
-                                        <img src="./images/about7.png" alt="Commitment to Quality &amp; Ethics" />
+                                       <LazyLoadImage  src="./images/about7.png" alt="Commitment to Quality &amp; Ethics" />
                                     </div>
                                     <div class="qualityEthicsText">
                                         <h2>Commitment to Quality and Ethics</h2>
@@ -323,7 +340,7 @@ const AboutUs = () => {
                                         <span>At My Perfect Writing, our eyes are set on the horizon, dreaming big and aiming high to revolutionise academic support across the UK and beyond. We’re on a thrilling journey, steadfast in our mission to empower every student with top-notch writing assistance and unwavering support. The future is bright, and we're just getting started!</span>
                                     </div>
                                     <div class="communityOutreachImage">
-                                        <img src="./images/about6.png" alt="Commitment to Quality &amp; Ethics" />
+                                      <LazyLoadImage  src="./images/about6.png" alt="Commitment to Quality &amp; Ethics" />
                                     </div>
                                 </div>
                             </div>

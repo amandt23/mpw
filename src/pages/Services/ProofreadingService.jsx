@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 
 
@@ -189,6 +190,7 @@ const ProofreadingService = () => {
        
                   {/* Header section */}
             <Header header={ProofReadingHeaderData } />
+            <LazyHydrate whenVisible>
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
@@ -244,6 +246,9 @@ const ProofreadingService = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+            </LazyHydrate>
+           <LazyHydrate whenIdle>
+   
        
 
             {/* Discussion section  */}
@@ -402,6 +407,7 @@ const ProofreadingService = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

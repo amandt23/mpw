@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 
 const PsychologyAssignmentHelp = () => {
@@ -184,6 +185,7 @@ const PsychologyAssignmentHelp = () => {
         
                   {/* Header section */}
             <Header header={PsychologyAssignmentHeaderData} />
+            <LazyHydrate whenVisible>
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
@@ -239,6 +241,8 @@ const PsychologyAssignmentHelp = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+            </LazyHydrate>
+           <LazyHydrate whenIdle>
       
 
             {/* Discussion section  */}
@@ -347,6 +351,7 @@ const PsychologyAssignmentHelp = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

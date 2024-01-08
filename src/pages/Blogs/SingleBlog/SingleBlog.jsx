@@ -9,6 +9,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 import SingleBlogSkeleton from '../../../components/LoadingSkeleton/SingleBlog/SingleBlogSkeleton';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import { FacebookShareButton,  TwitterShareButton } from 'react-share';
 
@@ -111,7 +112,7 @@ const SingleBlog = () => {
 
                     <div className="mr-black">
                         <span className="black-written">Written By</span>
-                        <img className="blacky-img" src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].authorimage}`} alt="blog-image"/>
+                        <LazyLoadImage className="blacky-img" src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].authorimage}`} alt="blog-image"/>
                         {/* <img className="blacky-img" src={blog1Profile} alt="blog-image"/> */}
                         <span className="me-blacky">{singleBlog[0].authorname}</span>
                     </div>
@@ -128,15 +129,15 @@ const SingleBlog = () => {
                 <div className="hero-right col-7">
                     <div className="right-banner">
                         <div className="righbanner-img">
-                            <img className="left-banner-img" src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].image}`} alt="blog-image"/>
+                         <LazyLoadImage className="left-banner-img" src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].image}`} alt="blog-image"/>
                         </div>
                         <div className="lab-report">
                         <div className="report-box">
-                         <img src="../images/publish-icon.svg" alt=""/>
+                         <LazyLoadImage src="../images/publish-icon.svg" alt=""/>
                          <h6 className="report-date">Published on: <span>{singleBlog[0].creation_date}</span></h6>
                        </div>
                        <div className="report-box">
-                         <img src="../images/last-update.svg" alt=""/>
+                        <LazyLoadImage src="../images/last-update.svg" alt=""/>
                          <h6 className="report-date">
                           {singleBlog[0].updation_date && singleBlog[0].updation_date !== '0000-00-00' ? (
                          <>
@@ -153,7 +154,7 @@ const SingleBlog = () => {
                                 <h6 className="report-date">Word Count:  <span >{wordsLength}</span></h6>
                             </div>
                             <div className="report-box">
-                                <img src="../images/eye.svg" alt=""/>
+                              <LazyLoadImage src="../images/eye.svg" alt=""/>
                                 <h6 className="report-date"><span >{singleBlog[0].readingtime}</span></h6>
                             </div>
                         </div>
@@ -185,7 +186,7 @@ const SingleBlog = () => {
                            
                             <div className="struggling-box">
                                 {/* <h3>Struggling With your essay</h3> */}
-                                <img className="struggle-img" src="../images/struggle.png" alt=""/>
+                                <LazyLoadImage className="struggle-img" src="../images/struggle.png" alt=""/>
                                 {/* <h4>Top-className Writter are here!</h4> */}
                                 <a className="strug-btn" target='blank' href="https://myperfectwriting.co.uk/portal/public/login">Place Order</a>
                             </div>
@@ -193,21 +194,21 @@ const SingleBlog = () => {
                             <div className="people-read">
                                 <h4>People also read</h4>
                                 <div className="read-box">
-                                    <img className="readbox-img" src="../images/publish-icon.svg" alt=""/>
+                                  <LazyLoadImage className="readbox-img" src="../images/publish-icon.svg" alt=""/>
                                     <Link target='blank' className='Link' to={`/blog/${singleBlog[2][0].blog_single_title}`}>
                                     <span>{singleBlog[2][0].blogtitle}</span>
                                    </Link>
                                    
                                 </div>
                                 <div className="read-box">
-                                    <img className="readbox-img" src="../images/publish-icon.svg" alt=""/>
+                                  <LazyLoadImage className="readbox-img" src="../images/publish-icon.svg" alt=""/>
                                     <Link target='blank' className='Link' to={`/blog/${singleBlog[2][1].blog_single_title}`}>
                                     <span>{singleBlog[2][1].blogtitle}</span>
                                    </Link>
                                    
                                 </div>
                                 <div className="read-box">
-                                    <img className="readbox-img" src="../images/publish-icon.svg" alt=""/>
+                                  <LazyLoadImage className="readbox-img" src="../images/publish-icon.svg" alt=""/>
                                     <Link target='blank' className='Link' to={`/blog/${singleBlog[2][2].blog_single_title}`}>
                                       <span>{singleBlog[2][2].blogtitle}</span>
                                    </Link>

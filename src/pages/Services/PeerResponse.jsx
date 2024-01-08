@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 const NursingAssn = () => {
 
@@ -185,6 +186,7 @@ const NursingAssn = () => {
           
                   {/* Header section */}
             <Header header={PeerResponseHeaderData } />
+            <LazyHydrate whenVisible>
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
@@ -243,6 +245,9 @@ const NursingAssn = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+            </LazyHydrate>
+           <LazyHydrate whenIdle>
+
        
 
             {/* Discussion section  */}
@@ -402,6 +407,7 @@ const NursingAssn = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

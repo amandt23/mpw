@@ -4,6 +4,7 @@ import '../../components/FAQS/faqs.css'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { CiCircleCheck } from "react-icons/ci";
 import { Helmet } from 'react-helmet';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const WhyUs = () => {
 
@@ -180,8 +181,8 @@ const WhyUs = () => {
                         </div>
                     </div>
                     <div className="whyUsLeftImages">
-                        <img src="./images/aboutUs1.jpg" alt="why-us-image" />
-                        <img src="./images/aboutUs2.jpg" alt="why-us-image" />
+                     <LazyLoadImage src="./images/aboutUs1.jpg" alt="why-us-image" />
+                     <LazyLoadImage src="./images/aboutUs2.jpg" alt="why-us-image" />
                     </div>
 
                 </div>

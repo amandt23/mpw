@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './header.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const Header = ({header}) => {
     // const [counter, setCounter] = useState(1)
@@ -36,7 +38,11 @@ const Header = ({header}) => {
 
                  <div class="headerBottom">
                   <div class="headerLeft">
-                <img src="./images/headerImg.png" alt="headerImage" />
+                  <LazyLoadImage 
+                    src="./images/headerImg.png" // Your image path
+                    alt="headerImage" // Alt text for the image
+                   />
+
             </div>
                 
                  <div className="headerRight">

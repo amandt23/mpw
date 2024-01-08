@@ -15,6 +15,7 @@ import Review from '../../components/Reviews/Review';
 import price from '../../pricecard.json';
 import Price from '../../components/Price/Price';
 import Header from '../../components/Header/Header';
+import LazyHydrate from 'react-lazy-hydration';
 
 
 const CVWriting = () => {
@@ -185,6 +186,7 @@ const CVWriting = () => {
            
                   {/* Header section */}
             <Header header={CvWritingHeaderData} />
+            <LazyHydrate whenVisible>
             {/* writers section */}
             <div className="myteam">
                 <div className="topSection">
@@ -242,6 +244,8 @@ const CVWriting = () => {
 
             {/* place order section  */}
             <PlaceOrder />
+            </LazyHydrate>
+            <LazyHydrate whenIdle>
         
 
             {/* Discussion section  */}
@@ -478,6 +482,7 @@ const CVWriting = () => {
 
                 </div>
             </div >
+            </LazyHydrate>
         </>
     )
 }

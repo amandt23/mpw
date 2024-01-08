@@ -1,6 +1,7 @@
 import React from 'react'
 import './blog.css'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const BlogCard = ({blog}) => {
     return (
@@ -9,7 +10,7 @@ const BlogCard = ({blog}) => {
     
         <div key={blog.id} className="blog-card">
             <div className="big-blog-Img">
-                <img className='list-card-img' src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${blog.image}`} alt="blog-image" />
+              <LazyLoadImage className='list-card-img' src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${blog.image}`} alt="blog-image" />
             </div>
             <div className="big-blog-desc list-card">
                
