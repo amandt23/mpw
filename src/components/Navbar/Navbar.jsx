@@ -4,7 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from 'react-router-dom';
-import logo from '../../BlogImages/logo.png'
+import logo from '../../BlogImages/logo.svg'
 
 
 const Navbar = () => {
@@ -29,8 +29,8 @@ const Navbar = () => {
   return (
 
     <div class="topnavBar">
-
-      <div className="navLeft">
+      <div className="navbarWrap">
+        <div className="navLeft">
 
         <Link to="/">
           <img width="309px" height="102px" src={logo} alt="MyPerfectWriting" />
@@ -39,7 +39,7 @@ const Navbar = () => {
 
       <div className={`navLinks ${isNavVisible ? 'visible' : ''}`}>
         <RxCross2 className='crossIcon' onClick={toggleNav} />
-        <a onClick={handleScrollToPrice} className='aLink' >Pricing</a>
+        <a  className='aLink' href='/#priceEmpty' >Pricing</a>
         <div className="dropdown dropdown1">
           <a href="#" >Company</a>
           <IoMdArrowDropdown className='navArroIcon' />
@@ -176,8 +176,11 @@ const Navbar = () => {
           </div>
 
         </div>
-        <RxHamburgerMenu onClick={toggleNav} className='hamburgur' style={{ color: "white", fontSize: "50px" }} />
+        <RxHamburgerMenu onClick={toggleNav} className='hamburgur' style={{ color: "black", fontSize: "50px" }} />
       </div>
+      </div>
+
+      
     </div>
 
 

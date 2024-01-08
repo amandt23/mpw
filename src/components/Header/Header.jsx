@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './header.css'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-
 const Header = ({header}) => {
     // const [counter, setCounter] = useState(1)
     const [numberOfPages, setNumberOfPages] = useState(1);
@@ -29,23 +28,12 @@ const Header = ({header}) => {
     }
     return (
         <div class="header">
-            <div className="headerwrap">
-                <div className="upper">
-                    <div class="headerTop">
+            <div className="headerTop">
+            <div class="headerTop">
                     <h1>{heading}</h1>
                     <p>{desc}</p>
                     </div>
-
-                 <div class="headerBottom">
-                  <div class="headerLeft">
-                  <LazyLoadImage 
-                    src="./images/headerImg.png" // Your image path
-                    alt="headerImage" // Alt text for the image
-                   />
-
-            </div>
-                
-                 <div className="headerRight">
+                    <div className="headerRight">
                         <div className="headerRightTop mainHeader">
                             <div className="rightContents">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39" fill="none">
@@ -87,20 +75,21 @@ const Header = ({header}) => {
                                 <p>{offer_3}</p>
                             </div>
                         </div>
-                        <a href="https://myperfectwriting.co.uk/portal/public/login">
-                            <button className='rightBTN pulse-button'>Get Started Today!</button>
-                        </a>
+                       
                        
                     </div>
-                </div>
-            </div>
+                    <div className="headerwrap">
+            
+                <div className="upper">
 
-           
-            <div class="headerCard">
+                 <div class="headerBottom">
+                 <div class="headerCard">
                         <div className="headerCardContents">
 
-                            <p>Do Not Trust Us; Test Us</p>
-                            <p><span className='blinking-price'>(£6.99/Page For Everyone)</span> </p>
+                            <span className='headerCardTru'>Do Not Trust Us; Test Us</span>
+                            <p><span className='blinking-price'>(£6.99/Page: The Only Fixed Essay Writing 
+Service With Exceptional Quality.)</span> </p>
+                            <div className="headerContent">
                             <div class="headerInputs">
                                 <div class="inputContents">
                                     <label for="Academic Level">Academic Level</label>
@@ -123,20 +112,46 @@ const Header = ({header}) => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="headerCardBott">
+                            <div className="headerCardBott">
+                            <p id='totalInput'>£ {totalAmount.toFixed(2)}</p>
                             <button id='totalBtn'>Total Price</button>
                             {/* <input id='totalInput' readOnly value={totalAmount.toFixed(2)} type="number" /> */}
-                            <p id='totalInput'>£ {totalAmount.toFixed(2)}</p>
+                            
                         </div>
+                            </div>
+                           
+                        </div>
+                       
                     </div>
+                
+                 
+                </div>
             </div>
-            <div className="RightContentBottom">
-                {/* Dynamic subheadings */}
-                <div dangerouslySetInnerHTML={{ __html: subheading_1 }} />
-               <div dangerouslySetInnerHTML={{ __html: subheading_2 }} />
 
+           
+            
+                    <div class="headerLeft">
+                <LazyLoadImage src="./images/bannerImg.webp" alt="headerImage" />
             </div>
+            </div>
+            <div className="bottomHead">
+            
+                    <a href="https://myperfectwriting.co.uk/portal/public/login">
+                            <button className='rightBTN pulse-button'>Get Started Today!</button>
+                        </a>
+            </div>
+            <div class="RightContentBottom">
+                <div className='RightSlideContent'><p><strong>Service Benefits: </strong> Unlock academic success with My Perfect Writing! Our transparent pricing and inclusive services ensure you get the best value for your investment. Experience stress-free submissions with our reliable and efficient essay writing service, tailored specifically for the UK’s educational standards</p> 
+                <p><strong>Commitment to Quality: </strong> At My Perfect Writing, quality is at the forefront of our services. Each essay is meticulously crafted by our team of experienced writers, ensuring adherence to the highest academic standards. Trust us to deliver excellence, ensuring your academic journey is nothing short of perfect.</p>     
+                </div>
+               
+                    </div>
+           
+            </div>
+           
+            
+            
+            
             
             
             

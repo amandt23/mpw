@@ -21,7 +21,7 @@
     padding-top: 17px;
 }
 
-.fLeft p {
+.fLeft h4 {
     color: #FFF;
     font-size: 29.734px;
     font-style: normal;
@@ -29,16 +29,16 @@
     line-height: normal;
 }
 
+
 .fLeft p {
     padding-top: 11px;
-    color: #AEAEAE;
+    color: #fff;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     max-width: 465px;
-
 }
 
 .Btns label {

@@ -117,7 +117,7 @@
 
  
 
-.faqLeft h3 {
+/* .faqLeft h3 {
     color: #21383E;
     text-align: center;
     font-size: 35px;
@@ -125,7 +125,7 @@
     font-weight: 600;
     line-height: normal;
     margin-bottom: 6px;
-}
+} */
 
 .faqLeft hr {
     max-width: 431px;

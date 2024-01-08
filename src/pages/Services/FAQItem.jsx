@@ -18,7 +18,7 @@ const FAQItem = ({ item, isOpen, toggle }) => {
 </svg>
           
           {/* ... Your SVGs and question text */}
-          <h4>{item.question}</h4>
+          <h3>{item.question}</h3>
           {/* ... Your arrow SVG */}
         </div>
           {/* <div className="arrowDwon"> */}

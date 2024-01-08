@@ -197,6 +197,7 @@ const Home = () => {
             <Header header={homeHeaderData} />
             <LazyHydrate whenVisible>
             <MyTeam />
+            <div id="priceEmpty" style={{paddingBottom:"60px", backgroundColor:"#F2F2F2"}}></div>
             {/* pricecard Section */}
             <div className="price " id="pricing-section">
             <div className="pricTop">

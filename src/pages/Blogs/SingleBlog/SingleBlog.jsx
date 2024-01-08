@@ -119,7 +119,7 @@ const SingleBlog = () => {
                     <h1>{singleBlog[0].blogtitle}</h1>
                     <p>{singleBlog[0].abstract}</p>
                     <div className="tag-box">
-                        <h4>Tags:</h4>
+                        <p>Tags:</p>
                         <a className="tag-btn" target='blank' href="#">{singleBlog[0].tag1}</a>
                         <a className="tag-btn" target='blank' href="#">{singleBlog[0].tag2}</a>
                         <a className="tag-btn" target='blank' href="#">{singleBlog[0].tag3}</a>
@@ -134,11 +134,11 @@ const SingleBlog = () => {
                         <div className="lab-report">
                         <div className="report-box">
                          <LazyLoadImage src="../images/publish-icon.svg" alt=""/>
-                         <h6 className="report-date">Published on: <span>{singleBlog[0].creation_date}</span></h6>
+                         <p className="report-date">Published on: <span>{singleBlog[0].creation_date}</span></p>
                        </div>
                        <div className="report-box">
                         <LazyLoadImage src="../images/last-update.svg" alt=""/>
-                         <h6 className="report-date">
+                         <p className="report-date">
                           {singleBlog[0].updation_date && singleBlog[0].updation_date !== '0000-00-00' ? (
                          <>
                          Last updated on: <span>{singleBlog[0].updation_date}</span>
@@ -146,16 +146,16 @@ const SingleBlog = () => {
                       ) : (
                        'Last Updated on: ' + singleBlog[0].creation_date
     )}
-  </h6>
+  </p>
 </div>
 
 
                             <div className="report-box">
-                                <h6 className="report-date">Word Count:  <span >{wordsLength}</span></h6>
+                                <p className="report-date">Word Count:  <span >{wordsLength}</span></p>
                             </div>
                             <div className="report-box">
                               <LazyLoadImage src="../images/eye.svg" alt=""/>
-                                <h6 className="report-date"><span >{singleBlog[0].readingtime}</span></h6>
+                                <p className="report-date"><span >{singleBlog[0].readingtime}</span></p>
                             </div>
                         </div>
                         
@@ -170,7 +170,7 @@ const SingleBlog = () => {
                         <div className="article-left article-stick">
                            
                             <div className="article-media">
-                                <h4>Share this article</h4>
+                                <p>Share this article</p>
                                
                                 <div className="icons">
                                 <a className="social-icons" target='blank' href={`https://twitter.com/intent/tweet?url=${url}`}>
@@ -192,7 +192,7 @@ const SingleBlog = () => {
                             </div>
                            
                             <div className="people-read">
-                                <h4>People also read</h4>
+                                <h2>People also read</h2>
                                 <div className="read-box">
                                   <LazyLoadImage className="readbox-img" src="../images/publish-icon.svg" alt=""/>
                                     <Link target='blank' className='Link' to={`/blog/${singleBlog[2][0].blog_single_title}`}>
@@ -238,7 +238,18 @@ const SingleBlog = () => {
                            
                         </div>
                         <div className="arthor-bio">
-                            <h4>Author’s Bio</h4>
+                            <div className="authorName">
+                            <h2>Author’s Bio  </h2>
+                            <div className="mr-black">
+                            
+                            <LazyLoadImage className="blacky-img" src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].authorimage}`} alt="blog-image"/>
+                        <span className="me-blacky">{singleBlog[0].authorname}</span>
+                        {/* <img className="blacky-img" src={blog1Profile} alt="blog-image"/> */}
+                        
+                    </div>
+                            
+                            </div>
+                            
                              <p> {singleBlog[0].authorbio}</p>
                         </div>
                     </div>

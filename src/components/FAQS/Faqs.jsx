@@ -113,7 +113,7 @@ const Faqs = () => {
                                             </defs>
                                         </svg>
                                         <div className="faq-quetion">
-                                            <h4>{item.question}</h4>
+                                            <h3>{item.question}</h3>
                                         </div>
                                     </div>
 
@@ -150,7 +150,7 @@ const Faqs = () => {
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            <h4>{item.question}</h4>
+                                            <h3>{item.question}</h3>
                                         </div>
 
                                         {/* <div className="arrowDwon"> */}

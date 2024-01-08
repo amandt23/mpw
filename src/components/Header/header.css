@@ -4,27 +4,35 @@
     box-sizing: border-box;
 }
 .header {
-    padding: 125px 100px 20px;
+    padding: 140px 100px 20px;
     box-shadow: 0px 11.84375px 5.26389px 0px rgba(60, 52, 101, 0.47);
     background: linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%);
 
 }
+.headerTop{
+    max-width: 1440px;
+    margin: auto;
+}
+
 .headerwrap{
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
+
     gap: 30px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .mainHeader {
     display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .headerRightTop {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .header .headerwrap .headerTop {
@@ -34,12 +42,13 @@
 }
 
 .headerTop h1 {
-    color: #21383E;
+    color: #0E101A;
     font-size: 62px;
     font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-bottom: 25px;
+    width: 70%;
 
 }
 
@@ -72,27 +81,29 @@
 }
 
 .headerCard {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     /* background-color: blue; */
     border-radius: 32.575px;
-    box-shadow: 0px 0px 9.30717px 0px #21383E;
+    background: #f2f9ff ;
+    box-shadow: 0px 0px 9.30717px 0px #21383E;    
+    /* border: 1px solid #2D940A; */
     /* margin-bottom: 60px; */
-    margin-right: 85px;
-    width: 100%;
-    max-width: 530px;
+    /* margin-right: 85px; */
+    /* width: 100%; */
+    /* max-width: 530px; */
     /* max-height: 500px; */
     /* margin-top: -80px; */
 }
 
 .headerCardContents {
     padding: 40px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    width: 90%;
+    align-items: center; */
+    /* width: 90%; */
 
 }
 
@@ -122,8 +133,10 @@
 
 .headerCardContents .upperInputs {
     border-radius: 4.654px;
-    border: 1.163px solid #605454;
-    background: #F6F4F4;
+    /* border: 1.163px solid #605454; */
+    border: none;
+    /* background: #F6F4F4; */
+    background: linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%);
     color: rgba(131, 125, 125, 0.80);
     font-size: 18.614px;
     font-style: normal;
@@ -172,10 +185,10 @@
     line-height: normal;
 }
 
-.headerCard h4 {
+.headerCard .headerCardTru {
     color: #21383E;
-    text-align: center;
-    font-size: 25.305px;
+    /* text-align: center; */
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -183,7 +196,7 @@
 
 .headerCard p {
     color: #21383E;
-    text-align: center;
+    /* text-align: center; */
     font-size: 20.556px;
     font-style: normal;
     font-weight: 500;
@@ -198,6 +211,7 @@
     margin-top: 25px;
     justify-content: center;
     align-items: center;
+    /* background: linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%); */
 }
 
 .counter {
@@ -246,8 +260,10 @@
 
 #counterInput {
     border-radius: 4.654px;
-    border: 1.163px solid #605454;
-    background: #F6F4F4;
+    /* border: 1.163px solid #605454; */
+    border: none;
+    /* background: #F6F4F4; */
+    background: linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%);
     color: rgba(131, 125, 125, 0.80);
     font-size: 18.614px;
     font-style: normal;
@@ -264,20 +280,24 @@
 
 .headerCardBott {
     padding: 15px 80px;
-    border-radius: 0px 0px 32.575px 32.575px;
-    background: linear-gradient(177deg, #303A4F 2.72%, #21383E 69.5%, #10141F 139.12%);
+    /* border-radius: 0px 0px 32.575px 32.575px; */
+    /* background: linear-gradient(177deg, #303A4F 2.72%, #21383E 69.5%, #10141F 139.12%); */
     box-shadow: 0px 0px 9.30717px 0px #21383E;
     display: flex;
+    flex-direction: column;
     /* align-items: center; */
     gap: 22px;
     width: 100%;
     justify-content: space-around;
+    border-radius: 15.006px;
+    /* border: 1px solid #2D940A; */
+    /* background: #FFF; */
 
 }
 
 .headerCardBott button {
     border-radius: 92.664px;
-    background: #528975;
+    background: rgb(51, 114, 11);
     font-size: 19px;
     outline: none;
     border: none;
@@ -299,11 +319,12 @@
     /* width: 295px; */
     padding: 17px 50px;
     border-radius: 10.528px;
-    border: 0.993px solid #605454;
-    background: #F6F4F4;
+    /* border: 0.993px solid #605454; */
+    /* background: #F6F4F4; */
+    background:linear-gradient(107deg, #DDE1E2 3.78%, #D7D7D7 99.61%) ;
     color: #01593A;
     text-align: center;
-    font-size: 25.554px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -311,6 +332,7 @@
 }
 
 .headerBottom .headerRight {
+    /* display: none; */
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -319,6 +341,12 @@
     padding: 20px 40px;
     border-radius: 30px;
 }
+.headerContent{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    margin-top: 30px;
+}
 
 /* services section css  */
 
@@ -326,10 +354,10 @@
 
 .headerRight p {
     /* color: #21383E; */
-    color: black;
-    font-size: 25.829px;
+    color: #000;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -338,11 +366,27 @@
     margin-top: 10px;
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 15px;
+    background-color: #F2F9FF;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out all;
+    display: flex;
+    color: #1176CA;
+    padding: 15px;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+.rightContents:hover{
+    transform: translateY(-7px);
 }
 
-.rightContents .fixedP {
-    margin-left: -7px;
+ 
+.bottomHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rightContents .noAdd {
@@ -351,16 +395,17 @@
 
 .rightBTN {
     border-radius: 49.489px;
-    background: #305F63;
-    padding: 20px 50px;
+    /* background: #305F63; */
+    background: rgb(51, 114, 11);
+    padding: 25px 80px;
     color: #FFF;
     font-size: 22.854px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     border: none;
-    margin-top: 60px;
-    margin-bottom: 20px;
+    align-items: center;
+    margin: 30px 0px;
     transition: transition 0.3s ease-in-out;
 }
 
@@ -368,31 +413,57 @@
     transform: scale(1.1);
 }
 
-.RightContentBottom p {
-    margin-bottom: 20px;
-}
 
 .RightContentBottom p {
     /* color: #68797E; */
-    font-size: 16px;
+    color: #000;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     /* max-width: 660px; */
     width: 100%;
+    white-space: nowrap;
+    animation: headText 50s linear infinite;
 }
 .RightContentBottom{
     display: flex;
-    flex-direction: column;
-    align-items: start;
+    /* flex-direction: column; */
+    align-items: center;
     /* box-shadow: 0px 0px 9.30717px 0px #21383E; */
     /* padding: 20px 40px; */
-    border-radius: 30px;
-    width: 100%;
+    border-radius: 12px;
+    /* width: 50%; */
     /* margin: auto; */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    background:#b3cde3; 
+    /* background: #FFF; */
+    padding: 15px 10px;
+
+    
 
 }
+.RightSlideContent{
+    /* overflow: hidden; */
+    
+    display: flex;
+    gap: 300px;
+    align-items: center;
+}
+@keyframes headText {
+    from {
+      transform: translateX(70%);
+    }
+  
+    to {
+      transform: translateX(-100%);
+    }
+  }
 
 
 
@@ -449,6 +520,11 @@ button.pulse-button {
 
 
 @media (max-width: 1120px) {
+    
+    
+    .headerTop h1 {
+        width: 90%;
+    }
     .headerBottom {
         flex-direction: column;
         /* row-gap: 30px; */
@@ -479,7 +555,7 @@ button.pulse-button {
     .header .headerTop {
         padding-top: 20px;
         padding-left: 0px;
-        max-width: 1080px;
+        /* max-width: 1080px; */
     }
 
     .header {
@@ -500,11 +576,14 @@ button.pulse-button {
 @media (max-width: 550px) {
     .headerCardContents {
         padding: 29px;
-        width: 75%;
+        /* width: 75%; */
 
     }
+    .mainHeader{
+        flex-direction: column;
+    }
     #totalInput {
-        font-size: 18px;}
+        font-size: 30px;}
     .topnavBar {
         padding: 0px 20px;
     }
@@ -519,6 +598,9 @@ button.pulse-button {
         font-size: 13px;
     }
 
+    .headerContent{
+        flex-direction: column;
+    }
 
     
 

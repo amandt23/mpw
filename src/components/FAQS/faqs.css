@@ -152,10 +152,10 @@
   
 
 }
-.faq-quetion h4{
+.faq-quetion h3{
     font-size: 23px;
 }
-.faq-q-right h4{
+.faq-q-right h3{
     font-size: 23px;
 }
 @media (max-width:1499px){
@@ -164,8 +164,8 @@
     }
 }
 @media (max-width: 1299px){
-    .faq-quetion h4,
-    .faq-q-right h4 {
+    .faq-quetion h3,
+    .faq-q-right h3 {
         font-size: 20px;
     }
     .faqBottom {
@@ -173,8 +173,8 @@
     }
 }
 @media (max-width: 1099px){
-    .faq-quetion h4,
-    .faq-q-right h4 {
+    .faq-quetion h3,
+    .faq-q-right h3 {
         font-size: 18px;
     }
     .faqBottom {
@@ -190,8 +190,8 @@
         /* margin-bottom: 800px; */
         width: 100%;
     }
-    .faq-quetion h4,
-    .faq-q-right h4 {
+    .faq-quetion h3,
+    .faq-q-right h3 {
         font-size: 23px;
     }
     .faqTop {
@@ -203,8 +203,8 @@
     .faqs {
         padding: 20px;
     }
-    .faq-quetion h4,
-    .faq-q-right h4 {
+    .faq-quetion h3,
+    .faq-q-right h3 {
         font-size: 20px;
     }
     .faq-answer {
@@ -228,8 +228,8 @@
    
 }
 @media (max-width: 500px) {
-    .faq-quetion h4, 
-    .faq-q-right h4 {
+    .faq-quetion h3, 
+    .faq-q-right h3 {
         font-size: 15px;
     }
     .faq-answer {

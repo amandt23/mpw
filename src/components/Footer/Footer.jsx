@@ -37,7 +37,7 @@ const Footer = () => {
         <>
             <div ref={topRef} className="footer">
             <div className="BottomLogo">
-                        <img  width="309px" height="102px" src="images/logo.png" alt="MyPerfectWriting" />
+                        <img  width="309px" height="102px" src="images/logo.svg" alt="MyPerfectWriting" />
                         
                     </div>
                 
@@ -101,8 +101,8 @@ const Footer = () => {
 
                 </div>
                 <div className="fLeft">
-                    <p><strong>DONT MISS OUT</strong></p>
-                    <p>Sign up for the latest beauty news, product samples and coupons</p>
+                    <p><strong>Join for exclusive deals.</strong></p>
+                    {/* <p>Sign up for the latest beauty news, product samples and coupons</p> */}
                     <div className="Btns">
                         <label htmlFor="">Email Address *</label>
                         <input placeholder='Enter you Email Address' type="text" />

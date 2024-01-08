@@ -50,7 +50,7 @@
   font-weight: 500;
   line-height: normal;
 }
-.paperBtn:hover{
+.paperBtn button:hover{
   transform: scale(1.1);
 }
 .wTop {
@@ -247,7 +247,7 @@
 
 .notice h2 {
   color: #000;
-  font-size: 20px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -261,7 +261,7 @@
 .notice p {
   /* padding-bottom: 10px; */
   color: #000;
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -331,7 +331,7 @@
   align-items: center;
   white-space: nowrap;
   overflow: hidden;
-  animation: slideText 30s linear infinite;
+  animation: slideText 50s linear infinite;
 
 }
 
