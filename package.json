@@ -34,7 +34,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build-stats": "react-scripts build --stats"
+    "build-stats": "react-scripts build --stats",
+    "purgecss": "node ./src/scripts/purgecss.js",
+    "postbuild": "npm run purgecss"
   },
   "eslintConfig": {
     "extends": [
@@ -55,6 +57,10 @@
     ]
   },
   "devDependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "purgecss": "^5.0.0",
     "source-map-explorer": "^2.5.3",
     "webpack-bundle-analyzer": "^4.10.1"
   }

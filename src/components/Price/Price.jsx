@@ -25,7 +25,8 @@ const Price = ({details}) => {
 
                 <div className="priceRightCard">
                     {/* <div className="card"> */}
-                    <p className='pricerightservice'>Essay Writing Service in <span className='priceRightCard-price'>£6.99/Page</span> - Including</p>
+                    <span className='pricesale'>£7.99/Page</span>
+                    <p className='pricerightservice'>Essay Writing Service in <span className='priceRightCard-price'>£3.99/Page</span> - Including</p>
                     <div className="cardContents">
                         <div className="cardOneSect">
                             <div className="cardOneLeft">

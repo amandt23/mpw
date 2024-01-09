@@ -61,8 +61,8 @@ const Footer = () => {
                             <ul>
                                 <li><a href="/dissertation-writing-service">Dissertation writing</a></li>
                                 <li><a href="/research-papers-service">Research paper writing</a></li>
-                                <li><a href="#">Term paper writing</a></li>
-                                <li><a href="#">College essay writing</a></li>
+                                <li><a href="/research-papers-service">Term paper writing</a></li>
+                                <li><a href="/thesis-writing-service">College essay writing</a></li>
                                 <li><a href="/thesis-writing-service">Thesis writing service</a></li>
                             </ul>
                         </div>
@@ -169,7 +169,7 @@ const Footer = () => {
                     <p><strong>Others:</strong> </p>
                     <li><Link to="blog">Blog</Link></li>
                     <li><Link to="contact-us">Contact Us</Link></li>
-                    <li><Link to="about-our-service">About Us</Link></li>
+                    {/* <li><Link to="about-our-service">About Us</Link></li> */}
                     <li><Link to="#">FAQs</Link></li>
                     <li><Link to="why-us">Why Us</Link></li>
                 </ul>

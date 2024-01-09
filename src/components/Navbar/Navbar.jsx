@@ -15,15 +15,7 @@ const Navbar = () => {
     setIsNavVisible(!isNavVisible);
   };
 
-  const handleScrollToPrice = () => {
-    // Scroll to the position 220px from the top
-    if (window.location.pathname === '/') {
-    window.scrollTo({
-      top: 1470,
-      behavior: 'smooth',
-    });
-  } 
-  };
+  
 
 
   return (
@@ -44,7 +36,7 @@ const Navbar = () => {
           <a href="#" >Company</a>
           <IoMdArrowDropdown className='navArroIcon' />
           <div className="dropdown-content">
-            <Link to="about-our-service">About Us</Link>
+            {/* <Link to="about-our-service">About Us</Link> */}
             <Link to="why-us">Why us</Link>
           </div>
         </div>

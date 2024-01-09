@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Helmet } from 'react-helmet'
 import price from '../../pricecard.json';
 import reviews from '../../review.json';
 import headerData from '../../header.json';
-
-import Header from '../../components/Header/Header';
-import MyTeam from '../../components/CardCrousel/MyTeam';
-import Price from '../../components/Price/Price';
-import Faqs from '../../components/FAQS/Faqs';
-import OnlineAcademic from '../../components/onlineAcademic/OnlineAcademic';
-import MidSection from '../../components/MidSection/MidSection';
-import Social from '../../components/Social/Social';
-import Review from '../../components/Reviews/Review';
-import PlaceOrder from '../../components/PlaceOrder/PlaceOrder';
-import MyWriting from '../../components/MyPerfectWritting/MyWriting';
 import LazyHydrate from 'react-lazy-hydration';
+import LoadingComponent from './LoadingComponent';
+
+const Header = React.lazy(() => import('../../components/Header/Header'));
+const MyTeam = React.lazy(() => import('../../components/CardCrousel/MyTeam'));
+const Price = React.lazy(() => import('../../components/Price/Price'));
+const Faqs = React.lazy(() => import('../../components/FAQS/Faqs'));
+const OnlineAcademic = React.lazy(() => import('../../components/onlineAcademic/OnlineAcademic'));
+const MidSection = React.lazy(() => import('../../components/MidSection/MidSection'));
+const Social = React.lazy(() => import('../../components/Social/Social'));
+const Review = React.lazy(() => import('../../components/Reviews/Review'));
+const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
+const MyWriting = React.lazy(() => import('../../components/MyPerfectWritting/MyWriting'));
+
+
 
 
 
@@ -193,11 +196,16 @@ const Home = () => {
                   }
 `}
                 </script>
-                  {/* header Section */}     
+                  {/* header Section */}    
+            <Suspense fallback={<LoadingComponent />}>
             <Header header={homeHeaderData} />
             <LazyHydrate whenVisible>
             <MyTeam />
-            <div id="priceEmpty" style={{paddingBottom:"60px", backgroundColor:"#F2F2F2"}}></div>
+            <div id="priceEmpty"
+           
+             >
+
+             </div>
             {/* pricecard Section */}
             <div className="price " id="pricing-section">
             <div className="pricTop">
@@ -223,6 +231,7 @@ const Home = () => {
              <LazyHydrate whenIdle>
             <MyWriting />
             </LazyHydrate>
+            </Suspense>
 
         </>
     )

@@ -37,20 +37,20 @@ const Privacy = () => {
 
                     <div className="termTop">
                         <h1>Privacy Policy</h1>
-                        <p>This Privacy Policy sets forth the standards and protocols under which MyPerfectWriting (&ldquo;the Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) processes and handles personal data collected from users (&ldquo;you&rdquo;, &ldquo;your&rdquo;) of our services and website, myperfectwriting.co.uk. It is imperative that you read this document meticulously to ensure a comprehensive understanding of our practices concerning your personal data.</p>
+                        <p>This Privacy Policy sets forth the standards and protocols under which MyPerfectWriting ("the Company", "we", "us") processes and handles personal data collected from users ("you", "your") of our services and website, <a href="support@myperfectwriting.co.uk">support@myperfectwriting.co.uk</a>. It is imperative that you read this document meticulously to ensure a comprehensive understanding of our practices concerning your personal data.</p>
                         <p>This Privacy Policy is intrinsically linked to and is to be interpreted in conjunction with our Terms and Conditions. It applies universally to all users utilising our services, irrespective of the manner or platform of access.</p>
                     </div>
                     <hr />
 
-                    <div>
+                    <div className='termSection'>
 
 
                         <h2>Section 2: Definitions and Interpretation</h2>
-                        <p><strong>2.1 Personal Data</strong><br /> &ldquo;Personal Data&rdquo; constitutes any information that pertains to an identifiable individual and includes, but is not limited to, name, contact details, and any other information submitted to us.</p>
-                        <p><strong>2.2 Processing of Personal Data</strong><br /> &ldquo;Processing&rdquo; encompasses a wide array of operations performed on personal data, ranging from collection and storage to alteration and erasure.</p>
-                        <p><strong>2.3 Data Subject</strong><br /> The &ldquo;Data Subject&rdquo; refers to any natural person whose personal data is being processed. In the context of this Privacy Policy, it refers to you, the customer.</p>
-                        <p><strong>2.4 Consent</strong><br /> &ldquo;Consent&rdquo; implies a voluntary, explicit, and well-informed agreement by the Data Subject to allow the processing of their personal data.</p>
-                        <p><strong>2.5 Website</strong><br /> The term &ldquo;Website&rdquo; refers exclusively to the online platform operated by MyPerfectWriting, accessible at myperfectwriting.co.uk.</p>
+                        <p><strong>2.1 Personal Data</strong><br /> "Personal Data" constitutes any information that pertains to an identifiable individual and includes, but is not limited to, name, contact details, and any other information submitted to us.</p>
+                        <p><strong>2.2 Processing of Personal Data</strong><br /> "Processing" encompasses a wide array of operations performed on personal data, ranging from collection and storage to alteration and erasure.</p>
+                        <p><strong>2.3 Data Subject</strong><br /> The "Data Subject" refers to any natural person whose personal data is being processed. In the context of this Privacy Policy, it refers to you, the customer.</p>
+                        <p><strong>2.4 Consent</strong><br /> "Consent" implies a voluntary, explicit, and well-informed agreement by the Data Subject to allow the processing of their personal data.</p>
+                        <p><strong>2.5 Website</strong><br /> The term "Website" refers exclusively to the online platform operated by MyPerfectWriting, accessible at <a href="support@myperfectwriting.co.uk">support@myperfectwriting.co.uk</a>.</p>
                         <h2>Section 3: Data Collection and Usage</h2>
                         <p><strong>3.1 General Data Collection</strong><br /> Upon accessing the Website, we automatically collect log information and place cookies on your device to monitor your activity and preferences. Registered users may be required to provide additional personal data, such as contact details and demographic information.</p>
                         <p><strong>3.2 Purpose of Data Collection</strong><br /> The collected data is utilised for various purposes, including but not limited to, account management, order processing, user interaction, and service enhancement.</p>
@@ -140,9 +140,9 @@ const Privacy = () => {
                         <p>The Privacy Policy is subject to periodic reviews and amendments. Any changes instituted will be communicated through the Company's Website and, where applicable, via direct communication channels such as email. Continual use of the Website subsequent to such amendments is deemed as acceptance of the revised policy terms.</p>
                         <p><strong>Inquiries and Communications</strong></p>
                         <p>For any queries or comments regarding this Privacy Policy or related data practices, please contact us through the following means:</p>
-                        <p>Email: <u>support@myperfectwriting.co.uk</u></p>
-                        <p>Postal Address: 124 City Road, London, United Kingdom, EC1V 2NX</p>
-                        <p><em>This Privacy Policy was last updated on October 25, 2023.</em></p>
+                        <p><strong>Email:</strong> <a href="support@myperfectwriting.co.uk">support@myperfectwriting.co.uk</a></p>
+                        <p> <strong>Postal Address:</strong> 124 City Road, London, United Kingdom, EC1V 2NX</p>
+                        <p><em>This Privacy Policy was last updated on JAN 9, 2024.</em></p>
                     </div>
 
                 </div>

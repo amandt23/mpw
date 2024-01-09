@@ -13,7 +13,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "138.jpg"
+      "image": "138.webp"
     },
     {
       "name": "Prof. John Smith",
@@ -28,7 +28,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 96,
-      "image": "slideImg2.png"
+      "image": "slideImg2.webp"
     },
     {
       "name": "Dr. Sarah Johnson",
@@ -43,7 +43,7 @@
       "english": 95,
       "poetry": 94,
       "classics": 93,
-      "image": "slideImg7.jpeg"
+      "image": "slideImg7.webp"
     },
     {
       "name": "Dr. Alex Thompson",
@@ -58,7 +58,7 @@
       "english": 98,
       "poetry": 97,
       "classics": 96,
-      "image": "slideImg4.jpg"
+      "image": "slideImg4.webp"
     },
     {
       "name": "Prof. Linda White",
@@ -73,7 +73,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 94,
-      "image": "191.jpg"
+      "image": "191.webp"
     },
     {
       "name": "Dr. Richard Green",
@@ -88,7 +88,7 @@
       "english": 96,
       "poetry": 95,
       "classics": 93,
-      "image": "slideImg3.jpg"
+      "image": "slideImg3.webp"
     },
     {
       "name": "Dr. Emma Brown",
@@ -103,7 +103,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "157.jpg"
+      "image": "157.webp"
     },
     {
       "name": "Prof. Mark Davies",
@@ -118,7 +118,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 94,
-      "image": "slideImg9.jpg"
+      "image": "slideImg9.webp"
     }
   ],
   "lectures2": [
@@ -135,7 +135,7 @@
       "english": 91,
       "poetry": 96,
       "classics": 94,
-      "image": "008.jpg"
+      "image": "008.webp"
     },
     {
       "name": "James Patel",
@@ -150,7 +150,7 @@
       "english": 91,
       "poetry": 96,
       "classics": 94,
-      "image": "001.jpg"
+      "image": "001.webp"
     },
     {
       "name": "Sarah Jenkins",
@@ -165,7 +165,7 @@
       "english": 96,
       "poetry": 85,
       "classics": 80,
-      "image": "007.jpg"
+      "image": "007.webp"
     },
     {
       "name": "Oliver Smith",
@@ -180,7 +180,7 @@
       "english": 96,
       "poetry": 95,
       "classics": 92,
-      "image": "004.jpg"
+      "image": "004.webp"
     }
   ],
   "PeerSection": [
@@ -197,7 +197,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 95,
-      "image": "010.jpg"
+      "image": "010.webp"
     },
     {
       "name": "Prof. James Smith",
@@ -212,7 +212,7 @@
       "english": 97,
       "poetry": 94,
       "classics": 96,
-      "image": "006.jpg"
+      "image": "006.webp"
     },
     {
       "name": "Dr. Sarah Johnson",
@@ -227,7 +227,7 @@
       "english": 98,
       "poetry": 97,
       "classics": 95,
-      "image": "011.jpg"
+      "image": "011.webp"
     },
     {
       "name": "Prof. Robert Wilson",
@@ -242,7 +242,7 @@
       "english": 96,
       "poetry": 95,
       "classics": 97,
-      "image": "018.jpg"
+      "image": "018.webp"
     }
   ],
   "PeerBiblography": [
@@ -259,7 +259,7 @@
       "english": 98,
       "poetry": 95,
       "classics": 90,
-      "image": "047.jpg"
+      "image": "047.webp"
     },
     {
       "name": "James O'Connell",
@@ -274,7 +274,7 @@
       "english": 97,
       "poetry": 94,
       "classics": 92,
-      "image": "035.jpg"
+      "image": "035.webp"
     },
     {
       "name": "Emily Patel",
@@ -289,7 +289,7 @@
       "english": 96,
       "poetry": 93,
       "classics": 91,
-      "image": "070.jpg"
+      "image": "070.webp"
     },
     {
       "name": "Oliver Khan",
@@ -304,7 +304,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 90,
-      "image": "017.jpg"
+      "image": "017.webp"
     }
   ],
   "academicEssay": [
@@ -321,7 +321,7 @@
       "english": 98,
       "poetry": 95,
       "classics": 90,
-      "image": "054.jpg"
+      "image": "054.webp"
     },
     {
       "name": "James O'Connell",
@@ -336,7 +336,7 @@
       "english": 97,
       "poetry": 94,
       "classics": 92,
-      "image": "019.jpg"
+      "image": "019.webp"
     },
     {
       "name": "Emily Patel",
@@ -351,7 +351,7 @@
       "english": 96,
       "poetry": 93,
       "classics": 91,
-      "image": "020.jpg"
+      "image": "020.webp"
     },
     {
       "name": "Oliver Khan",
@@ -366,7 +366,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 90,
-      "image": "005.jpg"
+      "image": "005.webp"
     }
   ],
   "letratureReview": [
@@ -384,7 +384,7 @@
       "english": 93,
       "poetry": 92,
       "classics": 80,
-      "image": "066.jpg"
+      "image": "066.webp"
     },
     {
       "name": "Prof. John Smith",
@@ -400,7 +400,7 @@
       "english": 88,
       "poetry": 96,
       "classics": 90,
-      "image": "024.jpg"
+      "image": "024.webp"
     },
     {
       "name": "Sarah Johnson",
@@ -416,7 +416,7 @@
       "english": 95,
       "poetry": 96,
       "classics": 89,
-      "image": "021.jpg"
+      "image": "021.webp"
     },
     {
       "name": "David Brown",
@@ -432,7 +432,7 @@
       "english": 88,
       "poetry": 96,
       "classics": 90,
-      "image": "025.jpg"
+      "image": "025.webp"
     }
   ],
  
@@ -451,7 +451,7 @@
       "english": 88,
       "poetry": 91,
       "classics": 90,
-      "image": "176.jpg"
+      "image": "176.webp"
     },
     {
       "name": "Prof. John Smith",
@@ -467,7 +467,7 @@
       "english": 95,
       "poetry": 96,
       "classics": 99,
-      "image": "181.jpg"
+      "image": "181.webp"
     },
     {
       "name": "Sarah Johnson",
@@ -483,7 +483,7 @@
       "english": 98,
       "poetry": 99,
       "classics": 80,
-      "image": "175.jpg"
+      "image": "175.webp"
     },
     {
       "name": "David Brown",
@@ -499,7 +499,7 @@
       "english": 88,
       "poetry": 99,
       "classics": 90,
-      "image": "182.jpg"
+      "image": "182.webp"
     }
   ],
   "tesisWriting": [
@@ -517,7 +517,7 @@
       "english": 94,
       "poetry": 94,
       "classics": 90,
-      "image": "187.jpg"
+      "image": "187.webp"
     },
     {
       "name": "Professor Liam Smith",
@@ -533,7 +533,7 @@
       "english": 98,
       "poetry": 91,
       "classics": 80,
-      "image": "184.jpg"
+      "image": "184.webp"
     },
     {
       "name": "Dr. Sarah Davies",
@@ -549,7 +549,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 90,
-      "image": "180.jpg"
+      "image": "180.webp"
     },
     {
       "name": "Dr. Oliver Bennett",
@@ -565,7 +565,7 @@
       "english": 98,
       "poetry": 99,
       "classics": 80,
-      "image": "194.jpg"
+      "image": "194.webp"
     }
   ],
 
@@ -584,7 +584,7 @@
       "english": 88,
       "poetry": 98,
       "classics": 90,
-      "image": "185.jpg"
+      "image": "185.webp"
     },
     {
       "name": "Prof. James Smith",
@@ -600,7 +600,7 @@
       "english": 98,
       "poetry": 99,
       "classics": 80,
-      "image": "195.jpg"
+      "image": "195.webp"
     },
     {
       "name": "Dr. Sarah Johnson",
@@ -616,7 +616,7 @@
       "english": 92,
       "poetry": 99,
       "classics": 90,
-      "image": "186.jpg"
+      "image": "186.webp"
     },
     {
       "name": "Prof. Michael Brown",
@@ -632,7 +632,7 @@
       "english": 96,
       "poetry": 93,
       "classics": 87,
-      "image": "198.jpg"
+      "image": "198.webp"
     }
   ],
   "CVWriting": [
@@ -650,7 +650,7 @@
       "english": 88,
       "poetry": 92,
       "classics": 87,
-      "image": "188.jpg"
+      "image": "188.webp"
     },
     {
       "name": "Prof. Aiden Smith",
@@ -666,7 +666,7 @@
       "english": 94,
       "poetry": 89,
       "classics": 82,
-      "image": "197.jpg"
+      "image": "197.webp"
     },
     {
       "name": "Sarah Johnson",
@@ -682,7 +682,7 @@
       "english": 91,
       "poetry": 83,
       "classics": 85,
-      "image": "187.jpg"
+      "image": "187.webp"
     },
     {
       "name": "Oliver Brown",
@@ -698,7 +698,7 @@
       "english": 87,
       "poetry": 88,
       "classics": 93,
-      "image": "198.jpg"
+      "image": "198.webp"
     }
   ],
   "resumeWriting": [
@@ -716,7 +716,7 @@
       "english": 88,
       "poetry": 92,
       "classics": 87,
-      "image": "189.jpg"
+      "image": "189.webp"
     },
     {
       "name": "Oliver Smith",
@@ -732,7 +732,7 @@
       "english": 89,
       "poetry": 91,
       "classics": 88,
-      "image": "200.jpg"
+      "image": "200.webp"
     },
     {
       "name": "Amelia Brown",
@@ -748,7 +748,7 @@
       "english": 90,
       "poetry": 93,
       "classics": 89,
-      "image": "191.jpg"
+      "image": "191.webp"
     },
     {
       "name": "Liam Williams",
@@ -764,7 +764,7 @@
       "english": 91,
       "poetry": 94,
       "classics": 90,
-      "image": "202.jpg"
+      "image": "202.webp"
     }
   ],
   "proofReading": [
@@ -783,7 +783,7 @@
       "english": 92,
       "poetry": 94,
       "classics": 91,
-      "image": "193.jpg"
+      "image": "193.webp"
     },
     {
       "name": "Prof. James O'Neill",
@@ -800,7 +800,7 @@
       "english": 93,
       "poetry": 96,
       "classics": 94,
-      "image": "203.jpg"
+      "image": "203.webp"
     },
     {
       "name": "Dr. Sarah Johnson",
@@ -817,7 +817,7 @@
       "english": 94,
       "poetry": 92,
       "classics": 93,
-      "image": "223.jpg"
+      "image": "223.webp"
     },
     {
       "name": "Dr. Henry Walsh",
@@ -834,7 +834,7 @@
       "english": 91,
       "poetry": 95,
       "classics": 92,
-      "image": "204.jpg"
+      "image": "204.webp"
     }
   ],
   "editingFormating": [
@@ -852,7 +852,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 90,
-      "image": "207.jpg"
+      "image": "207.webp"
     },
     {
       "name": "Prof. James Bennett",
@@ -868,7 +868,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 92,
-      "image": "205.jpg"
+      "image": "205.webp"
     },
     {
       "name": "Dr. Sarah Hughes",
@@ -884,7 +884,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "208.jpg"
+      "image": "208.webp"
     },
     {
       "name": "Mr. Oliver Thompson",
@@ -900,7 +900,7 @@
       "english": 95,
       "poetry": 93,
       "classics": 90,
-      "image": "211.jpg"
+      "image": "211.webp"
     }
   ],
 
@@ -918,7 +918,7 @@
       "english": 98,
       "poetry": 97,
       "classics": 96,
-      "image": "209.jpg"
+      "image": "209.webp"
     },
     {
       "name": "Prof. Oliver Harris",
@@ -933,7 +933,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 94,
-      "image": "212.jpg"
+      "image": "212.webp"
     },
     {
       "name": "Dr. Sarah Johnson",
@@ -948,7 +948,7 @@
       "english": 95,
       "poetry": 94,
       "classics": 93,
-      "image": "210.jpg"
+      "image": "210.webp"
     },
     {
       "name": "Dr. Alex Thompson",
@@ -963,7 +963,7 @@
       "english": 98,
       "poetry": 97,
       "classics": 96,
-      "image": "214.jpg"
+      "image": "214.webp"
     }
   ],
   "philosphy_lecturers": [
@@ -981,7 +981,7 @@
       "english": 95,
       "poetry": 96,
       "classics": 94,
-      "image": "217.jpg"
+      "image": "217.webp"
     },
     {
       "name": "Prof. Henry Wallace",
@@ -997,7 +997,7 @@
       "english": 97,
       "poetry": 98,
       "classics": 94,
-      "image": "216.jpg"
+      "image": "216.webp"
     },
     {
       "name": "Dr. Sarah Johnson",
@@ -1013,7 +1013,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 94,
-      "image": "218.jpg"
+      "image": "218.webp"
     },
     {
       "name": "Dr. Oliver Bennett",
@@ -1029,7 +1029,7 @@
       "english": 95,
       "poetry": 98,
       "classics": 92,
-      "image": "216.jpg"
+      "image": "216.webp"
     }
   ],
 
@@ -1048,7 +1048,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 95,
-      "image": "221.jpg"
+      "image": "221.webp"
     },
     {
       "name": "Prof. Aaron Smith",
@@ -1064,7 +1064,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 94,
-      "image": "230.jpg"
+      "image": "230.webp"
     },
     {
       "name": "Sophia Johnson",
@@ -1080,7 +1080,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 94,
-      "image": "226.jpg"
+      "image": "226.webp"
     },
     {
       "name": "Michael Davies",
@@ -1096,7 +1096,7 @@
       "english": 99,
       "poetry": 96,
       "classics": 92,
-      "image": "228.jpg"
+      "image": "228.webp"
     }
   ],
   "history_lecturers": [
@@ -1114,7 +1114,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "224.jpg"
+      "image": "224.webp"
     },
     {
       "name": "Prof. John Smith",
@@ -1130,7 +1130,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 93,
-      "image": "227.jpg"
+      "image": "227.webp"
     },
     {
       "name": "Ms. Sarah Johnson",
@@ -1146,7 +1146,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "222.jpg"
+      "image": "222.webp"
     },
     {
       "name": "Dr. Alex Brown",
@@ -1162,7 +1162,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 92,
-      "image": "229.jpg"
+      "image": "229.webp"
     }
   ],
   "geography_lecturers": [
@@ -1180,7 +1180,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "270.jpg"
+      "image": "270.webp"
     },
     {
       "name": "James Taylor",
@@ -1196,7 +1196,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 93,
-      "image": "256.jpg"
+      "image": "256.webp"
     },
     {
       "name": "Emily Johnson",
@@ -1212,7 +1212,7 @@
       "english": 96,
       "poetry": 94,
       "classics": 92,
-      "image": "261.jpg"
+      "image": "261.webp"
     },
     {
       "name": "Oliver Williams",
@@ -1228,7 +1228,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "266.jpg"
+      "image": "266.webp"
     }
   ],
   "dissertion_lecturers": [
@@ -1246,7 +1246,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "235.jpg"
+      "image": "235.webp"
     },
     {
       "name": "Professor John Smith",
@@ -1262,7 +1262,7 @@
       "english": 99,
       "poetry": 96,
       "classics": 94,
-      "image": "215.jpg"
+      "image": "215.webp"
     },
     {
       "name": "Sarah Johnson",
@@ -1278,7 +1278,7 @@
       "english": 97,
       "poetry": 96,
       "classics": 94,
-      "image": "236.jpg"
+      "image": "236.webp"
     },
     {
       "name": "Dr. Mark Allen",
@@ -1294,7 +1294,7 @@
       "english": 96,
       "poetry": 92,
       "classics": 95,
-      "image": "213.jpg"
+      "image": "213.webp"
     }
   ],
   "sociology_lecturers": [
@@ -1312,7 +1312,7 @@
       "english": 98,
       "poetry": 97,
       "classics": 96,
-      "image": "264.jpg"
+      "image": "264.webp"
     },
     {
       "name": "Professor John Smith",
@@ -1328,7 +1328,7 @@
       "english": 95,
       "poetry": 94,
       "classics": 93,
-      "image": "263.jpg"
+      "image": "263.webp"
     },
     {
       "name": "Dr. Sarah Johnson",
@@ -1344,7 +1344,7 @@
       "english": 97,
       "poetry": 96,
       "classics": 95,
-      "image": "265.jpg"
+      "image": "265.webp"
     },
     {
       "name": "Dr. Michael Brown",
@@ -1360,7 +1360,7 @@
       "english": 98,
       "poetry": 97,
       "classics": 95,
-      "image": "272.jpg"
+      "image": "272.webp"
     }
   ],
   "public_relations_lecturers": [
@@ -1378,7 +1378,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 97,
-      "image": "267.jpg"
+      "image": "267.webp"
     },
     {
       "name": "Prof. James Smith",
@@ -1394,7 +1394,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 96,
-      "image": "274.jpg"
+      "image": "274.webp"
     },
     {
       "name": "Dr. Sarah Johnson",
@@ -1410,7 +1410,7 @@
       "english": 98,
       "poetry": 95,
       "classics": 94,
-      "image": "280.jpg"
+      "image": "280.webp"
     },
     {
       "name": "Mr. David Williams",
@@ -1426,7 +1426,7 @@
       "english": 97,
       "poetry": 90,
       "classics": 92,
-      "image": "276.jpg"
+      "image": "276.webp"
     }
   ],
   "social_work_lecturers": [
@@ -1444,7 +1444,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "268.jpg"
+      "image": "268.webp"
     },
     
     {
@@ -1461,7 +1461,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 93,
-      "image": "277.jpg"
+      "image": "277.webp"
     },
     {
       "name": "Dr. Sophie Johnson",
@@ -1477,7 +1477,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "287.jpg"
+      "image": "287.webp"
     },
     {
       "name": "Mr. Alex Thomson",
@@ -1493,7 +1493,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 92,
-      "image": "281.jpg"
+      "image": "281.webp"
     }
   ],
   "religious_lecturers": [
@@ -1511,7 +1511,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "288.jpg"
+      "image": "288.webp"
     },
     
     {
@@ -1528,7 +1528,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 93,
-      "image": "290.jpg"
+      "image": "290.webp"
     },
     {
       "name": "Sarah Johnson",
@@ -1544,7 +1544,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "291.jpg"
+      "image": "291.webp"
     },
     {
       "name": "Dr. Mark Lewis",
@@ -1560,7 +1560,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 93,
-      "image": "292.jpg"
+      "image": "292.webp"
     }
   ],
   "psychology_assignment_lecture": [
@@ -1578,7 +1578,7 @@
       "english": 98,
       "poetry": 95,
       "classics": 94,
-      "image": "293.jpg"
+      "image": "293.webp"
     },
     
     {
@@ -1595,7 +1595,7 @@
       "english": 96,
       "poetry": 94,
       "classics": 90,
-      "image": "299.jpg"
+      "image": "299.webp"
     },
     {
       "name": "Ms. Ava Smith",
@@ -1611,7 +1611,7 @@
       "english": 97,
       "poetry": 93,
       "classics": 91,
-      "image": "295.jpg"
+      "image": "295.webp"
     },
     {
       "name": "Mr. Ethan Johnson",
@@ -1627,7 +1627,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 92,
-      "image": "304.jpg"
+      "image": "304.webp"
     }
   ],
 
@@ -1646,7 +1646,7 @@
       "english": 98,
       "poetry": 95,
       "classics": 90,
-      "image": "318.jpg"
+      "image": "318.webp"
     },
     
     {
@@ -1663,7 +1663,7 @@
       "english": 96,
       "poetry": 93,
       "classics": 90,
-      "image": "319.jpg"
+      "image": "319.webp"
     },
     {
       "name": "Ms. Sarah Bennett",
@@ -1679,7 +1679,7 @@
       "english": 97,
       "poetry": 94,
       "classics": 91,
-      "image": "317.jpg"
+      "image": "317.webp"
     },
     {
       "name": "Mr. Liam Smith",
@@ -1695,7 +1695,7 @@
       "english": 98,
       "poetry": 92,
       "classics": 90,
-      "image": "258.jpg"
+      "image": "258.webp"
     }
   ],
   "nursing_assignment_lecture": [
@@ -1713,7 +1713,7 @@
       "english": 98,
       "poetry": 95,
       "classics": 97,
-      "image": "237.jpg"
+      "image": "237.webp"
     },
     
     {
@@ -1730,7 +1730,7 @@
       "english": 96,
       "poetry": 93,
       "classics": 94,
-      "image": "250.jpg"
+      "image": "250.webp"
     },
     {
       "name": "Sarah Bennett",
@@ -1746,7 +1746,7 @@
       "english": 97,
       "poetry": 98,
       "classics": 96,
-      "image": "240.jpg"
+      "image": "240.webp"
     },
     {
       "name": "Oliver Thompson",
@@ -1762,7 +1762,7 @@
       "english": 90,
       "poetry": 92,
       "classics": 95,
-      "image": "239.jpg"
+      "image": "239.webp"
     }
   ],
   "criminal_justice_assignment_lecture": [
@@ -1780,7 +1780,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "237.jpg"
+      "image": "237.webp"
     },
     
     {
@@ -1797,7 +1797,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 93,
-      "image": "241.jpg"
+      "image": "241.webp"
     },
     {
       "name": "Dr. Sarah Khan",
@@ -1813,7 +1813,7 @@
       "english": 98,
       "poetry": 95,
       "classics": 92,
-      "image": "251.jpg"
+      "image": "251.webp"
     },
     {
       "name": "Mr. Oliver Smith",
@@ -1829,7 +1829,7 @@
       "english": 96,
       "poetry": 94,
       "classics": 90,
-      "image": "245.jpg"
+      "image": "245.webp"
     }
   ],
   "nutrition_assignment_help": [
@@ -1847,7 +1847,7 @@
       "english": 98,
       "poetry": 95,
       "classics": 90,
-      "image": "253.jpg"
+      "image": "253.webp"
     },
     
     {
@@ -1864,7 +1864,7 @@
       "english": 97,
       "poetry": 96,
       "classics": 91,
-      "image": "247.jpg"
+      "image": "247.webp"
     },
     {
       "name": "Dr. Sophia Khan",
@@ -1880,7 +1880,7 @@
       "english": 98,
       "poetry": 94,
       "classics": 90,
-      "image": "244.jpg"
+      "image": "244.webp"
     },
     {
       "name": "Dr. James Taylor",
@@ -1896,7 +1896,7 @@
       "english": 95,
       "poetry": 93,
       "classics": 92,
-      "image": "252.jpg"
+      "image": "252.webp"
     }
   ],
   "political_assignment_help": [
@@ -1914,7 +1914,7 @@
       "english": 98,
       "poetry": 96,
       "classics": 94,
-      "image": "296.jpg"
+      "image": "296.webp"
     },
     
     {
@@ -1931,7 +1931,7 @@
       "english": 97,
       "poetry": 95,
       "classics": 93,
-      "image": "310.jpg"
+      "image": "310.webp"
     },
     {
       "name": "Dr. Sarah Johnson",
@@ -1947,7 +1947,7 @@
       "english": 96,
       "poetry": 94,
       "classics": 92,
-      "image": "303.jpg"
+      "image": "303.webp"
     },
     {
       "name": "Mr. Alex Thompson",
@@ -1963,7 +1963,7 @@
       "english": 95,
       "poetry": 93,
       "classics": 90,
-      "image": "309.jpg"
+      "image": "309.webp"
     }
    
   ]

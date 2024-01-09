@@ -20,6 +20,26 @@
     line-height: normal;
     margin-bottom: 20px;
 }
+.pricesale{
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-23%);
+    color: #f73131;
+    /* position: relative; */
+}
+.pricesale::after{
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 4px;
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
 
 .pricTop p {
     /* color: #68797E; */
@@ -91,11 +111,12 @@
 }
 
 .priceRightCard {
+    position: relative;
     border-radius: 27.07px;
     background: white;
     box-shadow: 0px 0px 19.33555px 0px #000;
     /* max-width: 730px; */
-    padding: 33px 29px 22px 19px;
+    padding: 47px 29px 22px 19px;
     max-height: 925px;
     margin-top: 32px;
     transition: transform 0.3s ease-in-out;
@@ -193,8 +214,10 @@
 }
 .cardOneRight .cardOneRightFree ,
 .allFeatures .cardOneRightFree{
-    animation: borderPulse 1000ms infinite ease-out;
-    text-decoration-line: none;
+    /* animation: borderPulse 1000ms infinite ease-out; */
+    text-decoration-line: none; 
+    color: #ee5e24;
+    font-weight: 600;
 }
 
 
@@ -214,6 +237,7 @@
     margin-top: 2px;
 }
 .priceRightCard-price {
+    color: #01593A;
     font-size: 22px;
     font-weight: 600;
     background-color: rgb(203 195 0);

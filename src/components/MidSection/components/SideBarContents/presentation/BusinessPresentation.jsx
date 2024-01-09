@@ -1,18 +1,18 @@
-import React from 'react'
+import React, { Suspense } from 'react';
 import { RiStarSFill } from "react-icons/ri";
 import pdf from '../../../../../pdf/presentation/'
-import { Worker } from '@react-pdf-viewer/core';
-// Import the main component
-import { Viewer } from '@react-pdf-viewer/core';
 
 // Import the styles
 import '@react-pdf-viewer/core/lib/styles/index.css';
+const Viewer = React.lazy(() => import('@react-pdf-viewer/core').then(module => ({ default: module.Viewer })));
+const Worker = React.lazy(() => import('@react-pdf-viewer/core').then(module => ({ default: module.Worker })));
 
 // Your render function
 <Viewer fileUrl="/path/to/document.pdf" />;
 
 const BusinessPresentation = () => {
   return (
+    <Suspense fallback={<div>Loading PDF Viewer...</div>}>  
     <div className="sidbarContents">
             <div className="Sidecard">
             <div className="HeadContents date">
@@ -81,6 +81,7 @@ const BusinessPresentation = () => {
             </div>
             <div class="vertical-line"></div>
             <div className="pdf-container">
+          
                 {/* <embed className="pdf" src={pdf} type="application/pdf" /> */}
                 <Worker className="pdf" workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
                     <div
@@ -91,8 +92,10 @@ const BusinessPresentation = () => {
                         <Viewer fileUrl={pdf} />
                     </div>
                 </Worker>
+              
             </div>
         </div>
+        </Suspense>
   )
 }
 

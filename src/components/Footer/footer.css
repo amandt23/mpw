@@ -127,6 +127,14 @@
     font-weight: 600;
     line-height: normal;
     margin-top: 7px;
+    transition: 0.3s ease-in-out all;
+}
+.rSection ul li:hover{
+    color: #FFF;
+    transform: translateX(8px);
+}
+.rSection ul li:hover a{
+    color: #FFF;
 }
 
 .RContents {

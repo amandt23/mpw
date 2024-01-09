@@ -6,7 +6,7 @@ const Header = ({header}) => {
     // const [counter, setCounter] = useState(1)
     const [numberOfPages, setNumberOfPages] = useState(1);
 
-    const pricePerPage = 6.99;
+    const pricePerPage = 3.99;
     const totalAmount = numberOfPages * pricePerPage;
 
      // Destructuring the header data
@@ -85,13 +85,13 @@ const Header = ({header}) => {
                  <div class="headerBottom">
                  <div class="headerCard">
                         <div className="headerCardContents">
-
                             <span className='headerCardTru'>Do Not Trust Us; Test Us</span>
                             <p><span className='blinking-price'>(£6.99/Page: The Only Fixed Essay Writing 
 Service With Exceptional Quality.)</span> </p>
                             <div className="headerContent">
                             <div class="headerInputs">
                                 <div class="inputContents">
+                                   
                                     <label for="Academic Level">Academic Level</label>
                                     <input className='upperInputs' placeholder="Any" type="text" />
                                 </div>
@@ -113,6 +113,7 @@ Service With Exceptional Quality.)</span> </p>
                                 </div>
                             </div>
                             <div className="headerCardBott">
+                            <span>£7.99</span>
                             <p id='totalInput'>£ {totalAmount.toFixed(2)}</p>
                             <button id='totalBtn'>Total Price</button>
                             {/* <input id='totalInput' readOnly value={totalAmount.toFixed(2)} type="number" /> */}
@@ -121,7 +122,11 @@ Service With Exceptional Quality.)</span> </p>
                             </div>
                            
                         </div>
-                       
+                       <div className="priceOff">
+                        {/* <img src="./images/priceoff.svg" alt="" /> */}
+                        <span>50%</span>
+                        <span>OFF</span>
+                       </div>
                     </div>
                 
                  
@@ -131,7 +136,7 @@ Service With Exceptional Quality.)</span> </p>
            
             
                     <div class="headerLeft">
-                <LazyLoadImage src="./images/bannerImg.webp" alt="headerImage" />
+                <LazyLoadImage src="./images/bannerimg.webp" alt="headerImage" />
             </div>
             </div>
             <div className="bottomHead">
