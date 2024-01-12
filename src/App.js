@@ -62,12 +62,12 @@ function App() {
       <Router>
         <ScrollToTop />
         <Navbar />
-        {
+        {/* {
           loading 
           ? <div className="loading"></div>
-          :
+          : */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home/>} />
           <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
           <Route path="/refund-policy" element={<RefundPolicy />} />
           <Route path="/cookies-policy" element={<CookiePolicy />} />
@@ -180,10 +180,9 @@ function App() {
           />
           
           
-          
         </Routes>
         
-        }
+        
         <Footer />
       </Router>
         {/* <SingleBlog /> */}

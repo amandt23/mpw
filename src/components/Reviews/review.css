@@ -196,6 +196,35 @@
     justify-content: space-between;
     
 }
+/* Styles for filled star */
+.filled-star {
+    color: green; /* Fill color for full star */
+  }
+  
+  /* Styles for half-filled star */
+  .half-filled-star {
+    position: relative;
+    color: transparent;
+  }
+  
+  .half-filled-star::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    color: green; /* Fill color for half star */
+    width: 50%; /* Adjust as necessary for half-fill effect */
+    overflow: hidden;
+  }
+  .sect2stars span{
+    font-size: 22px;
+  }
+  
+  
+  /* Styles for unfilled star */
+  .unfilled-star {
+    color: grey; /* Color for empty star */
+  }
+  
 
 
 .sec1 h3 {
