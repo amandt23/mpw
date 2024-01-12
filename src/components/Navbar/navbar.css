@@ -185,7 +185,7 @@
     transform: rotate(180deg);
 }
 
-.dropdown:hover {
+/* .dropdown:hover {
     color: white;
     text-decoration: underline;
     text-underline-offset: 10px;
@@ -193,7 +193,7 @@
     border-radius: 30px;
 
 
-}
+} */
 
 .navArroIcon {
     color: white;
@@ -508,7 +508,7 @@
 }
 @media (max-width: 1120px) {
     .topnavBar {
-        padding: 0px 50px;
+        padding: 0px 25px;
     }
 }
 

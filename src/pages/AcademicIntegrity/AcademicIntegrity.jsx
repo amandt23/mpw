@@ -100,7 +100,7 @@ const AcademicIntegrity = () => {
                             <h2>SERVICE PROVIDING</h2>
                             <p>
                                 You will not use the Product in any manner that harasses the Expert or the Company. You will respect the privacy of the Company and the Experts and you will not make any unwelcome, rude or abusive communications or interact with the Experts in any unlawful, disrespectful, offensive, harmful or detrimental manner.
-                                If you ever believe that the Expert has violated the law or is threatening or endangering you in any way, please contact us immediately <a href="support@myperfectwriting.co.uk">support@myperfectwriting.co.uk</a>
+                                If you ever believe that the Expert has violated the law or is threatening or endangering you in any way, please contact us immediately <a href="https://www.myperfectwriting.co.uk">myperfectwriting.co.uk</a>
                                 you understand that when ordering services you will be exposed to content from the experts who are not under our direct supervision or control and that we are not responsible for the content or communications provided by them.you further understand and acknowledge that you may be exposed to content that is inaccurate, offensive,indecent, or objectionable, and you agree to waive, and hereby do waive, any legal or equitable rights orremedies you have or may have against us with respect thereto. you agree to indemnify and hold us, and ourofficers, directors, employees, agents, affiliates, and/or licensors, harmless to the fullest extent allowed bylaw regarding all matters related to your use of the products.
                                 You are solely responsible for all information that you submit or transmit through the Website (“Information”).
                                 Once you submit your information via our Website it cannot always be withdrawn. You assume all risks associated with your Information, including anyone else’s reliance on its quality, accuracy, or reliability, or any disclosure by you of information that makes you personally identifiable.
@@ -374,7 +374,7 @@ const AcademicIntegrity = () => {
                             <p>These Terms are the complete and exclusive statement of the agreement between you and the Company concerning the Services and/or any information or other materials available on, through, or in connection with the Services. These Terms replace and supersede any prior or contemporaneous oral or written agreement and any other communications between you and the Company.</p>
                             <h2>CONTACT US</h2>
                             <p>If you have questions about these Terms, you may contact us:</p>
-                            <p><a href="support@myperfectwriting.co.uk">support@myperfectwriting.co.uk</a></p>
+                            <p><a href="https://www.myperfectwriting.co.uk">myperfectwriting.co.uk</a></p>
                              
                             <p><strong>Online Academic Services LTD</strong></p>
                             <p><strong> 124 City Road, London, EC1V 2NX United Kingdom</strong></p>

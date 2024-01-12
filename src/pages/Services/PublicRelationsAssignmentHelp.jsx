@@ -174,7 +174,7 @@ const PublicRelationsAssignmentHelp = () => {
       "name": "What is the cost for a custom public relations campaign assignment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer affordable, fixed pricing at £6.99/page for our customized public relations assignment solutions in the UK."
+        "text": "We offer affordable, fixed pricing at £7.99/page for our customized public relations assignment solutions in the UK."
       }
     }]
   }`}

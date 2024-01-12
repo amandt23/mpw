@@ -7,9 +7,9 @@
 
 .why-us {
     max-width: 1450px;
-    padding: 180px 30px 80px;
+    padding: 160px 30px 80px;
     display: flex;
-    column-gap: 100px;
+    column-gap: 80px;
     justify-content: space-between;
 
 }
@@ -25,7 +25,8 @@
 }
 
 .whyUsTop h2 {
-    color: #1276CE;
+    /* color: #1276CE; */
+    color: #015934;
     font-size:40px;
     font-style: normal;
     font-weight: 700;
@@ -38,7 +39,7 @@
 }
 
 .whyUsRight p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 22px;
     line-height: 30px;
     color: #21383E;

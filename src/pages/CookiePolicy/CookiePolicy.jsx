@@ -38,7 +38,7 @@ const CookiePolicy = () => {
 
                     <div className="termTop">
                         <h1>Cookies Policy For My Perfect Writing</h1>
-                        <p>This Cookies Policy serves as an integral part of our Terms and Conditions and Privacy Policy, collectively forming the agreement between you and My Perfect Writing, accessible via <a href="support@myperfectwriting.co.uk">support@myperfectwriting.co.uk</a>. By utilising our services and interacting with the banners on our website, you explicitly consent to the use of cookies in accordance with the stipulations outlined in this policy.
+                        <p>This Cookies Policy serves as an integral part of our Terms and Conditions and Privacy Policy, collectively forming the agreement between you and My Perfect Writing, accessible via <a href="https://www.myperfectwriting.co.uk">myperfectwriting.co.uk</a>. By utilising our services and interacting with the banners on our website, you explicitly consent to the use of cookies in accordance with the stipulations outlined in this policy.
                             <br />This document aims to elucidate the nature of cookies, the various types utilised by our website, and the purposes they serve. It also provides guidance on how you can manage your cookie preferences.</p>
                     </div>
                     <hr />
@@ -70,7 +70,7 @@ const CookiePolicy = () => {
                         <p>Please note that restricting cookies may impact your ability to use certain features of our website, and some services may not function as intended.</p>
                  
                         <h2>Contact Information</h2>
-                        <p>For inquiries or further clarification regarding our Cookies Policy, feel free to contact us at <b><a href="support@myperfectwriting.co.uk">support@myperfectwriting.co.uk</a></b></p>
+                        <p>For inquiries or further clarification regarding our Cookies Policy, feel free to contact us at <b><a href="https://www.myperfectwriting.co.uk">myperfectwriting.co.uk</a></b></p>
                   
                     </div>
                     

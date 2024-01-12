@@ -169,7 +169,7 @@ const Footer = () => {
                     <p><strong>Others:</strong> </p>
                     <li><Link to="blog">Blog</Link></li>
                     <li><Link to="contact-us">Contact Us</Link></li>
-                    {/* <li><Link to="about-our-service">About Us</Link></li> */}
+                    <li><Link to="about-our-service">About Us</Link></li>
                     <li><Link to="#">FAQs</Link></li>
                     <li><Link to="why-us">Why Us</Link></li>
                 </ul>

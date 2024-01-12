@@ -8,7 +8,7 @@ import CookiePolicy from "./pages/CookiePolicy/CookiePolicy";
 import AcademicIntegrity from "./pages/AcademicIntegrity/AcademicIntegrity";
 import Home from "./pages/home/Home";
 import Blog from "./pages/Blogs/Blog";
-// import AboutUs from "./pages/AboutUs/AboutUs";
+import AboutUs from "./pages/AboutUs/AboutUs";
 import SingleBlog from "./pages/Blogs/SingleBlog/SingleBlog";
 import WhyUs from "./pages/WhyUs/WhyUs";
 import Privacy from "./pages/PrivacyPolicy/Privacy";
@@ -45,13 +45,27 @@ import NursingAssignmentHelpinUK from "./pages/Services/NursingAssignmentHelpinU
 import CriminalJusticeAssignmentHelp from "./pages/Services/CriminalJusticeAssignmentHelp";
 import NutritionAssignmentHelp from "./pages/Services/NutritionAssignmentHelp";
 import DiscussionPostpage from "./pages/Services/DiscussionPostpage";
+import { useEffect, useState } from "react";
 
 function App() {
+ 
+  const [loading, setLoading] = useState(true);
+  useEffect(()=>{
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  },[]);
+
+
   return (
     <>
       <Router>
         <ScrollToTop />
         <Navbar />
+        {
+          loading 
+          ? <div className="loading"></div>
+          :
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
@@ -61,7 +75,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:title" element={<SingleBlog />} />
           {/* <Route path="/singl-blog" element={<SingleBlog />} /> */}
-          {/* <Route path="/about-our-service" element={<AboutUs />} /> */}
+          <Route path="/about-our-service" element={<AboutUs />} />
           <Route path="/why-us" element={<WhyUs />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/contact-us" element={<ContactUs />} />
@@ -168,9 +182,11 @@ function App() {
           
           
         </Routes>
+        
+        }
         <Footer />
-        {/* <SingleBlog /> */}
       </Router>
+        {/* <SingleBlog /> */}
     </>
   );
 }

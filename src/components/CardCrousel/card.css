@@ -1,28 +1,11 @@
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
 
-/* .card {
-    background: #F3F6FB;
-    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.40);
-    width: fit-content;
-    padding: 10px;
-    margin: 10px 0px;
-    margin-bottom: 60px;
-    width: 400px;
-    height: 90%;
-} */
 .card {
     background: #F3F6FB;
-    /* box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.40); */
     width: -moz-fit-content;
     width: fit-content;
     padding: 20px 10px;
     margin: 10px 0px;
     margin-bottom: 60px;
-    /* width: 308px; */
     width: 400px;
     height: 90%;
     border-radius: 20px;
@@ -35,12 +18,8 @@ button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
     width: 55px;
     height: 55px;
 }
-/* li.react-multi-carousel-item.react-multi-carousel-item--active{
-    height: 100%;
-} */
 .card:hover{
     transform: scale(1.02);
-    /* box-shadow: 0 2px 16px rgba(54,127,211,.24); */
     box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.40)
 }
 .react-multi-carousel-item{
@@ -113,8 +92,6 @@ hr {
     margin: 0 auto;
     border: 1px solid #7A7A7A;
     width: 100%;
-
-    /* margin-top: 9px; */
 }
 
 .hr-bott {
@@ -256,7 +233,7 @@ hr {
 
 .myteam {
     background: #F2F2F2;
-    padding-bottom: 160px;
+    /* padding-bottom: 160px; */
 }
 
 .myteam .topSection {
@@ -305,9 +282,6 @@ hr {
 
 
 @media (max-width:1199px){
-    /* li.react-multi-carousel-item.react-multi-carousel-item--active{
-        width: 440px !important;
-    } */
     .card {
         margin-bottom: 60px;
         width: 380px;
@@ -315,9 +289,6 @@ hr {
     }
 }
 @media (max-width:1099px){
-    /* li.react-multi-carousel-item.react-multi-carousel-item--active{
-        width: 440px !important;
-    } */
     .card {
         margin-bottom: 60px;
         width: 400px;
@@ -333,13 +304,11 @@ hr {
     }
     .myteam {
         background: #F2F2F2;
-        padding-bottom: 50px;
     }
 }
 @media (max-width:767px){
     .myteam {
         background: #F2F2F2;
-        padding-bottom: 50px;
     }
     .topSection h2 {
         font-size: 35px;

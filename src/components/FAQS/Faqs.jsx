@@ -28,6 +28,7 @@ const Faqs = () => {
 
     const [openIndex, setOpenIndex] = useState(null);
     const [openIndex2, setOpenIndex2] = useState(null);
+    
 
 
     const toggleFAQ = (index) => {

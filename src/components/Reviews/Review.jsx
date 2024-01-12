@@ -5,7 +5,6 @@ import { FaEye } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
 
 const Review = ({reviews}) => {
-
        
     return (
 <>

@@ -1,0 +1,699 @@
+.aboutUsContainer .aboutUsHeading {
+    text-align: center;
+    color: #21383E;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 160px;
+    text-transform: capitalize;
+}
+.aboutUsContainer{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:0 15px;
+}
+
+.welcomSec {
+    padding: 30px 0;
+}
+
+.welcomContainer {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.welcomflex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcomeWrapper {
+    max-width: 1266px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.welcomtextLeft {
+    /* max-width: 691px; */
+    /* background-color: red; */
+    width: 100%;
+    /* padding-top: 40px; */
+}
+
+
+.ourstorytextLeft h2,
+.textLeft h2,
+.ourTeamWrapper h2,
+.hiringHead h2,
+.writingProcessText h2,
+.qualityEthicsText h2  {
+    color: #1B1A2E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 18px;
+    text-transform: capitalize;
+}
+
+.welcomtextLeft span {
+    display: block;
+    color: #546B8E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%;
+    /* max-width: 490px; */
+    text-align: center;
+    width: 100%;
+}
+
+
+.welcomrightImage img {
+    display: block;
+    max-width: 670px;
+    width: 100%;
+    max-height: 440px;
+    height: 100%;
+    /* margin-top: -80px; */
+}
+
+
+/* our story css  */
+.OurStorycontainer {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.ourStoryWrapper {
+    border-radius: 20px;
+    background: #F0F7FF;
+    padding: 60px 0;
+}
+
+.flex-r {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.ourwelcomeWrapper {
+    max-width: 1266px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.ourStory .ourstorytextLeft,
+.ourMission .ourstorytextLeft {
+    max-width: 550px;
+}
+
+.ourstorytextLeft {
+    max-width: 571px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.ourstorytextLeft h2 {
+    padding-bottom: 18px;
+}
+
+.ourstorytextLeft span,
+.textLeft span {
+    display: block;
+    color: #546B8E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%;
+    max-width: 490px;
+    width: 100%;
+}
+
+
+/* our mission css  */
+.Missioncontainer {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.welcomeWrapper {
+    max-width: 1266px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Missionflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textLeft {
+    max-width: 471px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.textLeft h2 {
+    padding-bottom: 18px;
+}
+
+/* .textLeft span {
+    display: block;
+    color: #546B8E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%;
+    max-width: 490px;
+    width: 100%;
+} */
+
+.ourMission .rightImage img {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    max-height: 387px;
+    height: 100%;
+}
+
+.rightImage img {
+    display: block;
+    max-width: 401px;
+    width: 100%;
+    max-height: 252px;
+    height: 100%;
+}
+
+
+/* our team css  */
+.OurTeamcontainer {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+.ourTeamWrapper {
+    border-radius: 20px;
+    background: #F0F7FF;
+    padding: 70px 0;
+}
+
+.ourTeamWrapper h2 {
+    text-align: center;
+}
+
+
+.membersWrapper {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    padding-top: 70px;
+    max-width: 865px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.singleMember {
+    max-width: 32%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singleMember img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 100px;
+}
+
+.singleMember p {
+    color: #1B1A2E;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+.singleMember span {
+    display: block;
+    color: #546B8E;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.editorial-section {
+    padding-top: 120px;
+}
+.ourTeamWrapper h2 {
+    text-align: center;
+}
+.editorial-writer {
+    max-width: 1015px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.editorial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+    width: 100%;
+}
+.editorial-content img {
+    border-radius: 50%;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.editorial-content a {
+    padding-top: 15px;
+    color: #1B1A2E;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 26px;
+    display: block;
+    text-decoration: none;
+}
+
+.editorial-content p {
+    color: #546B8E;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+.editorial-content span {
+    color: #5E5E5E;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    display: block;
+}
+
+
+ /* hiring section css  */
+ .hiringExperts {
+    padding: 100px 0 0;
+}
+.Hiringcontainer {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.hiringHead h2 {
+    padding-bottom: 20px;
+}
+.hiringHead p {
+    color: #546B8E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    padding-bottom: 20px;
+    line-height: 150%;
+}
+.hiringHead p:last-child {
+    padding-bottom: 0px;
+}
+.hiringExpertsWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #C8D9EE;
+    /* max-width: 1056px; */
+    width: 100%;
+    margin: 0 auto;
+}
+.hiringExpertsLeft img {
+    display: block;
+    /* max-width: 562px;
+    max-height: 474px; */
+    width: 100%;
+    height: 100%;
+}
+.hiringSteps {
+    max-width: 480px;
+    width: 100%;
+    
+}
+.hiringSteps ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.hiringSteps ul li {
+    position: relative;
+    color: #1B1A2E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 170%;
+}
+.hiringSteps ul li::before {
+    content: "\2022";
+    color: #1176CA;
+    font-weight: bold;
+    display: inline-block;
+    width: 10px;
+}
+.hiringSteps ul li b {
+    color: #1176CA;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+/* our writing process  */
+.writingProcess {
+    padding-top: 100px;
+}
+.writingcontainer {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.writingProcessHead {
+    max-width: 1066px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.writingProcessText {
+    max-width: 430px;
+    width: 100%;
+}
+.writingProcessText h2 {
+    padding-bottom: 18px;
+}
+.writingProcessText span {
+    display: block;
+    color: #546B8E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%;
+}
+.writingProcessImage img {
+    max-width: 472px;
+    max-height: 462px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.writingProcessSteps {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    row-gap: 55px;
+    padding-bottom: 100px;
+}
+.singleStep {
+    max-width: 44%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 15px;
+}
+.stepIcon img {
+    display: block;
+}
+.stepDescription p {
+    color: #1B1A2E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 108.5%;
+    padding-bottom: 14px;
+}
+.stepDescription p span {
+    color: #1176CA;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 108.5%;
+    display: inline-block;
+}
+.stepDescription p~span {
+    color: #546B8E;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 165%;
+    display: block;
+}
+
+/* commitment to quality section  */
+
+.qualityEthics {
+    border-radius: 20px;
+    background: #F0F7FF;
+    padding: 34px 0;
+}
+.qualityEthicsWrapper {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+.qualityEthicsLeft img {
+    display: block;
+    max-width: 545px;
+    max-height: 342px;
+    width: 100%;
+    height: 100%;
+}
+.qualityEthicsText {
+    max-width: 643px;
+    width: 100%;
+}
+.qualityEthicsText h2 {
+    padding-bottom: 18px;
+}
+.qualityEthicsText span {
+    color: #546B8E;
+    display: block;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%;
+    max-width: 590px;
+    width: 100%;
+}
+.communityOutreach {
+    padding: 100px 0;
+}
+.communityOutreachWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1266px;
+    width: 100%;
+    margin: 0 auto;
+}
+.communityOutreachText {
+    max-width: 590px;
+    width: 100%;
+}
+.communityOutreachText h3 {
+    color: #1B1A2E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 18px;
+}
+.communityOutreachText span {
+    display: block;
+    color: #546B8E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%;
+}
+.communityOutreachImage img {
+    display: block;
+    max-width: 568px;
+    max-height: 507px;
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 767px){
+    .aboutUsContainer .aboutUsHeading {
+        font-size: 44px;
+    }
+    .welcomSec {
+        padding: 20px 0;
+    }
+    .hiringExpertsWrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .hiringSteps,
+    .writingProcessText,
+    .singleStep,
+    .welcomtextLeft,
+    .welcomtextLeft span,
+    .ourstorytextLeft span,
+    .ourStory .ourstorytextLeft,
+    .ourMission .ourstorytextLeft,
+    .textLeft,
+    .textLeft span,
+    .communityOutreachText,
+    .qualityEthicsText,
+    .qualityEthicsText span {
+        max-width: none;
+        width: 100%;
+    }
+    .writingProcessHead,
+    .qualityEthicsWrapper,
+    .communityOutreachWrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .welcomeWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .ourwelcomeWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .welcomeWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .ourMissionWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+  
+    .ourstorytextLeft h2,
+    .textLeft h2,
+    .ourTeamWrapper h2,
+    .hiringHead h2,
+    .writingProcessText h2,
+    .qualityEthicsText h2,
+    .qualityEthicsText h2 {
+        font-size: 28px;
+    }
+    .ourStoryWrapper {
+        padding: 30px 0;
+    }
+
+}
+
+
+
+/* our story media  */
+@media(max-width: 550px) {
+    .welcomeWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .ourwelcomeWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .welcomeWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .ourMissionWrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .singleMember {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .editorial-writer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .editorial-content {
+        max-width: 100%;
+    }
+    
+}

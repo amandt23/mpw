@@ -38,7 +38,7 @@ const RefundPolicy = () => {
 
                     <div className="termTop">
                         <h1>Refunds And Cancellations</h1>
-                        <p>This document elucidates the comprehensive Refunds and Cancellations Policy of My Perfect Writing, accessible via <a href="support@myperfectwriting.co.uk">support@myperfectwriting.co.uk</a>. By engaging with our services, you implicitly agree to the terms and conditions outlined herein. These policies are crafted with due diligence to ensure clarity and fairness in our transactions, and we encourage our clients to peruse this document thoroughly to understand the stipulations associated with order cancellations, late deliveries, quality disputes, and refunds.</p>
+                        <p>This document elucidates the comprehensive Refunds and Cancellations Policy of My Perfect Writing, accessible via <a href="https://www.myperfectwriting.co.uk">myperfectwriting.co.uk</a>. By engaging with our services, you implicitly agree to the terms and conditions outlined herein. These policies are crafted with due diligence to ensure clarity and fairness in our transactions, and we encourage our clients to peruse this document thoroughly to understand the stipulations associated with order cancellations, late deliveries, quality disputes, and refunds.</p>
                     </div>
                     <hr />
 

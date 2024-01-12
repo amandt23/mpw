@@ -11,8 +11,8 @@ const WhyUs = () => {
     const faqData = [
         { question: 'Is it possible to get last-minute assignment help?', answer: 'Absolutely! My Perfect Writing understands the pressures of academic life, offering urgent academic writing help for those tight deadlines. Our team is ready to provide quick and efficient assignment support, ensuring timely submissions without compromising on quality.' },
         { question: 'Can I Pick the Best of Your Wordsmiths for My Paper?', answer: 'Absolutely, young chap! At My Perfect Writing, we believe in empowering our clients. You can most certainly select the best writer from our dazzling array of literary maestros. Each of our writers is a virtuoso in their own right, ready to craft your paper with precision, creativity, and an unwavering commitment to excellence.' },
-        { question: 'Is it Truly Possible to Get a Ph.D. Masterpiece at the Same Rate of £6.99/Page as a High School Essay?', answer: 'Indubitably! We operate on a fixed pricing system of only £6.99 per page, regardless of the academic level. Whether it’s a high school essay or a Ph.D. dissertation, our prices remain as steady as a British Bulldog. No wobbles, no waffles. Just straightforward, transparent pricing for top-notch academic writing!' },
-        { question: 'If My Deadline is Looming in Two Hours, Will I Still Pay the Same Rate?', answer: 'Fear not, for our rates are as fixed as the North Star! Even if your paper is due in a mere two hours, our rate remains a steadfast £6.99 per page. With My Perfect Writing, you’re guaranteed lightning-fast delivery without any compromise on quality or a hike in price. Now, isn’t that just the bee’s knees?' },
+        { question: 'Is it Truly Possible to Get a Ph.D. Masterpiece at the Same Rate of £7.99/Page as a High School Essay?', answer: 'Indubitably! We operate on a fixed pricing system of only £7.99 per page, regardless of the academic level. Whether it’s a high school essay or a Ph.D. dissertation, our prices remain as steady as a British Bulldog. No wobbles, no waffles. Just straightforward, transparent pricing for top-notch academic writing!' },
+        { question: 'If My Deadline is Looming in Two Hours, Will I Still Pay the Same Rate?', answer: 'Fear not, for our rates are as fixed as the North Star! Even if your paper is due in a mere two hours, our rate remains a steadfast £7.99 per page. With My Perfect Writing, you’re guaranteed lightning-fast delivery without any compromise on quality or a hike in price. Now, isn’t that just the bee’s knees?' },
 
     ];
 
@@ -80,9 +80,9 @@ const WhyUs = () => {
                             <p>Native English Maestros: Our writers are as British as a cuppa, ensuring your essay is packed with local charm and wit.</p>
                             <p>Choose My Perfect Writing, and revel in the assurance of academic grandeur!</p>
                             <h2>Start Your Odyssey of Unparalleled Academic Brilliance!</h2>
-                            <p>(Add Icon) Dive into the World of My Perfect Writing: Ready to turn the page to stellar grades and academic prowess? Click that enchanting ‘Order Your Essay’ button and let the magic begin!
-                                (Add Icon) Choose Quality, Choose Success: Fancy a paper that’s more polished than the Crown Jewels? Say ‘no’ to the humdrum and ‘yes’ to unrivalled quality with My Perfect Writing.
-                                (Add Icon) Decisions, Decisions…: Contemplating whether a PhD-level masterpiece can really be the same price as a high school essay? Spoiler alert: it can’t. But we’ve got the crème de la crème of writers ready for you, at a price that won’t break the bank.
+                            <p> Dive into the World of My Perfect Writing: Ready to turn the page to stellar grades and academic prowess? Click that enchanting ‘Order Your Essay’ button and let the magic begin!
+                                Choose Quality, Choose Success: Fancy a paper that’s more polished than the Crown Jewels? Say ‘no’ to the humdrum and ‘yes’ to unrivalled quality with My Perfect Writing.
+                                Decisions, Decisions…: Contemplating whether a PhD-level masterpiece can really be the same price as a high school essay? Spoiler alert: it can’t. But we’ve got the crème de la crème of writers ready for you, at a price that won’t break the bank.
                             </p>
                         </div>
                         <p><strong>Other assurances offered by Myperfectwriting.com include:</strong></p>
@@ -137,7 +137,7 @@ const WhyUs = () => {
 
                                         <div className="WhyUsfaq-container">
                                             {faqData.map((item, index) => (
-                                                <div key={index} className="whyUsfaq-item">
+                                                <div key={index} className="whyUsfaq-item faq-item">
                                                     <div className="faq-question" onClick={() => toggleFAQ(index)}>
                                                         <div className="faq-q-right">
 

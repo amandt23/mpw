@@ -33,10 +33,10 @@ const Navbar = () => {
         <RxCross2 className='crossIcon' onClick={toggleNav} />
         <a  className='aLink' href='/#priceEmpty' >Pricing</a>
         <div className="dropdown dropdown1">
-          <a href="#" >Company</a>
+          <a className='aLink' href="#" >Company</a>
           <IoMdArrowDropdown className='navArroIcon' />
           <div className="dropdown-content">
-            {/* <Link to="about-our-service">About Us</Link> */}
+            <Link to="about-our-service">About Us</Link>
             <Link to="why-us">Why us</Link>
           </div>
         </div>
