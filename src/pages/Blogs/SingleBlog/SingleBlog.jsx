@@ -16,47 +16,41 @@ import { FacebookShareButton,  TwitterShareButton } from 'react-share';
 
 const SingleBlog = () => {
     const { title } = useParams();
-    //console.log(title);
-    // getting current url of blog
     const shareUrl = "https://myperfectwriting.co.uk/blog/Online-Education-and-the-Rise-of-Remote-Learning";
-
     const [singleBlog, setSingleBlog] = useState();
     const [loading, setLoading] = useState(true);
     const [wordsLength, setWordsLength] = useState(0);
     const [url, setUrl] = useState("");
-
-    const decodedTitle = decodeURIComponent(title.replace(/-/g, ' '));
-
+    
 
     useEffect(() => {
-        const encodedTitle = encodeURIComponent(decodedTitle);
-        const apiUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getBlogByTitle&title=${encodedTitle}`;
-        // console.log(apiUrl);
+        const fetchData = async () => {
+          try {
+            const decodedTitle = title.replace(/-/g, ' ');
+const encodedTitle = encodeURIComponent(decodedTitle);
+const proxyUrl = 'https://thingproxy.freeboard.io/fetch/';
+const targetUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getBlogByTitle&title=${title}`;
+
+        console.log("single title "+title)
+            
+            const response = await axios.get(proxyUrl + targetUrl);
+            console.log(response);
+            const data = response.data;
+            console.log(data);
+            setLoading(false);
+            setSingleBlog(data);
+            let text = data[0].blogtext.trim();
+            const words = text.split(/\s+/);
+            setWordsLength(words.length);
+            setUrl("https://myperfectwriting.co.uk/blog/" + data[0].blog_single_title);
+          } catch (error) {
+            console.error('Error fetching blogs:', error);
+          }
+        };
     
-        axios.get(apiUrl)
-            .then((response) => {
-                const data = response.data; // Extract the array of client data
-                setSingleBlog(data);
-               console.log("data", data);
-               let text = data[0].blogtext.trim();
-  
-            // Split the text into an array of words using one or more spaces as the delimiter
-             const words = text.split(/\s+/);
-             setWordsLength(words.length);
+        fetchData();
+      }, [title]);
 
-             setUrl("https://myperfectwriting.co.uk/blog/" + data[0].blog_single_title
-             )
-
-                console.log("new url "+url)
-
-            })
-            .catch((error) => {
-                console.error("Error fetching client data:", error);
-            })
-            .finally(() => {
-                setLoading(false); // Set loading to false regardless of success or failure
-            });
-    }, [title]);
     
     if (loading) {
         return <SingleBlogSkeleton />;

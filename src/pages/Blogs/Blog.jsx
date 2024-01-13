@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './blog.css'
 import BlogCard from './BlogCard'
-import { Link } from 'react-router-dom'
 import axios from 'axios'
 import CardSkeleton from '../../components/LoadingSkeleton/CardSkeleton'
 import { Helmet } from 'react-helmet'
@@ -11,21 +10,22 @@ const Blog = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Function to fetch data from the API using Axios
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getAllBlogs');
+        const proxyUrl = 'https://thingproxy.freeboard.io/fetch/';
+        const targetUrl = 'https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getAllBlogs';
+        
+        const response = await axios.get(proxyUrl + targetUrl);
+        console.log(response);
         setBlogs(response.data); // Assuming data is an array of blogs
-        setLoading(false)
+        setLoading(false);
       } catch (error) {
         console.error('Error fetching blogs:', error);
       }
     };
 
-    fetchData(); // Call the fetchData function when the component mounts
-  }, []); // Empty dependency array ensures useEffect runs once when the component mounts
-
-  console.log("blogs al", blogs);
+    fetchData();
+  }, []);
 
   return (
 <>
