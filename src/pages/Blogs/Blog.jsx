@@ -10,22 +10,25 @@ const Blog = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    // Function to fetch data from the API using Axios
     const fetchData = async () => {
       try {
-        const proxyUrl = 'https://thingproxy.freeboard.io/fetch/';
-        const targetUrl = 'https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getAllBlogs';
-        
-        const response = await axios.get(proxyUrl + targetUrl);
-        console.log(response);
+        const axiosInstance = axios.create({
+          mode: 'no-cors', // Add no-cors mode here
+        });
+  
+        const response = await axiosInstance.get('https://www.myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getAllBlogs');
         setBlogs(response.data); // Assuming data is an array of blogs
         setLoading(false);
       } catch (error) {
         console.error('Error fetching blogs:', error);
       }
     };
-
-    fetchData();
-  }, []);
+  
+    fetchData(); // Call the fetchData function when the component mounts
+  }, []); // Empty dependency array ensures useEffect runs once when the component mounts
+  
+  
 
   return (
 <>
@@ -47,12 +50,12 @@ const Blog = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://myperfectwriting.co.uk/"
+        "item": "https://www.myperfectwriting.co.uk/"
     }, {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://myperfectwriting.co.uk/blog"
+        "item": "https://www.myperfectwriting.co.uk/blog"
     }]
 }`}
 </script>

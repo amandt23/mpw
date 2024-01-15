@@ -16,41 +16,42 @@ import { FacebookShareButton,  TwitterShareButton } from 'react-share';
 
 const SingleBlog = () => {
     const { title } = useParams();
-    const shareUrl = "https://myperfectwriting.co.uk/blog/Online-Education-and-the-Rise-of-Remote-Learning";
+    //console.log(title);
+    // getting current url of blog
+    const shareUrl = "https://www.myperfectwriting.co.uk/blog/Online-Education-and-the-Rise-of-Remote-Learning";
+
     const [singleBlog, setSingleBlog] = useState();
     const [loading, setLoading] = useState(true);
     const [wordsLength, setWordsLength] = useState(0);
     const [url, setUrl] = useState("");
-    
+
+    const decodedTitle = decodeURIComponent(title.replace(/-/g, ' '));
+
 
     useEffect(() => {
-        const fetchData = async () => {
-          try {
-            const decodedTitle = title.replace(/-/g, ' ');
-const encodedTitle = encodeURIComponent(decodedTitle);
-const proxyUrl = 'https://thingproxy.freeboard.io/fetch/';
-const targetUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getBlogByTitle&title=${title}`;
-
-        console.log("single title "+title)
-            
-            const response = await axios.get(proxyUrl + targetUrl);
-            console.log(response);
-            const data = response.data;
-            console.log(data);
-            setLoading(false);
-            setSingleBlog(data);
-            let text = data[0].blogtext.trim();
-            const words = text.split(/\s+/);
-            setWordsLength(words.length);
-            setUrl("https://myperfectwriting.co.uk/blog/" + data[0].blog_single_title);
-          } catch (error) {
-            console.error('Error fetching blogs:', error);
-          }
-        };
+      const encodedTitle = encodeURIComponent(decodedTitle);
+      const apiUrl = `https://www.myperfectwriting.co.uk/mpwblogportal/controller/blogs.php?action=getBlogByTitle&title=${encodedTitle}`;
+      
+      const axiosInstance = axios.create({
+        mode: 'no-cors',
+      });
     
-        fetchData();
-      }, [title]);
-
+      axiosInstance.get(apiUrl)
+        .then((response) => {
+          const data = response.data;
+          setSingleBlog(data);
+          let text = data[0].blogtext.trim();
+          const words = text.split(/\s+/);
+          setWordsLength(words.length);
+          setUrl("https://www.myperfectwriting.co.uk/blog/" + data[0].blog_single_title);
+        })
+        .catch((error) => {
+          console.error("Error fetching client data:", error);
+        })
+        .finally(() => {
+          setLoading(false);
+        });
+    }, [title]);
     
     if (loading) {
         return <SingleBlogSkeleton />;
@@ -64,7 +65,7 @@ const targetUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs
                 <title>{singleBlog[0].pagetitle}</title>
                 <meta name="description" content={singleBlog[0].metadescription} />
 
-                <link rel="canonical" href={`https://myperfectwriting.co.uk/blog/${singleBlog[0].blogtitle}`}/>
+                <link rel="canonical" href={`https://www.myperfectwriting.co.uk/blog/${singleBlog[0].blogtitle}`}/>
 
             
                 {/* setting shema in head for seo  */}
@@ -106,7 +107,7 @@ const targetUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs
 
                     <div className="mr-black">
                         <span className="black-written">Written By</span>
-                        <LazyLoadImage className="blacky-img" src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].authorimage}`} alt="blog-image"/>
+                        <LazyLoadImage className="blacky-img" src={`https://www.myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].authorimage}`} alt="blog-image"/>
                         {/* <img className="blacky-img" src={blog1Profile} alt="blog-image"/> */}
                         <span className="me-blacky">{singleBlog[0].authorname}</span>
                     </div>
@@ -123,7 +124,7 @@ const targetUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs
                 <div className="hero-right col-7">
                     <div className="right-banner">
                         <div className="righbanner-img">
-                         <LazyLoadImage className="left-banner-img" src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].image}`} alt="blog-image"/>
+                         <LazyLoadImage className="left-banner-img" src={`https://www.myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].image}`} alt="blog-image"/>
                         </div>
                         <div className="lab-report">
                         <div className="report-box">
@@ -182,7 +183,7 @@ const targetUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs
                                 {/* <h3>Struggling With your essay</h3> */}
                                 <LazyLoadImage className="struggle-img" src="../images/struggle.png" alt=""/>
                                 {/* <h4>Top-className Writter are here!</h4> */}
-                                <a className="strug-btn" target='blank' href="https://myperfectwriting.co.uk/portal/public/login">Place Order</a>
+                                <a className="strug-btn" target='blank' href="https://www.myperfectwriting.co.uk/portal/public/login">Place Order</a>
                             </div>
                            
                             <div className="people-read">
@@ -236,7 +237,7 @@ const targetUrl = `https://myperfectwriting.co.uk/mpwblogportal/controller/blogs
                             <h2>Author’s Bio  </h2>
                             <div className="mr-black">
                             
-                            <LazyLoadImage className="blacky-img" src={`https://myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].authorimage}`} alt="blog-image"/>
+                            <LazyLoadImage className="blacky-img" src={`https://www.myperfectwriting.co.uk/mpwblogportal/blogimages/${singleBlog[0].authorimage}`} alt="blog-image"/>
                         <span className="me-blacky">{singleBlog[0].authorname}</span>
                         {/* <img className="blacky-img" src={blog1Profile} alt="blog-image"/> */}
                         

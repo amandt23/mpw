@@ -11,7 +11,7 @@ const MyTeam = React.lazy(() => import('../../components/CardCrousel/MyTeam'));
 const Price = React.lazy(() => import('../../components/Price/Price'));
 const Faqs = React.lazy(() => import('../../components/FAQS/Faqs'));
 const OnlineAcademic = React.lazy(() => import('../../components/onlineAcademic/OnlineAcademic'));
-const MidSection = React.lazy(() => import('../../components/MidSection/MidSection'));
+// const MidSection = React.lazy(() => import('../../components/MidSection/MidSection'));
 const Social = React.lazy(() => import('../../components/Social/Social'));
 const Review = React.lazy(() => import('../../components/Reviews/Review'));
 const PlaceOrder = React.lazy(() => import('../../components/PlaceOrder/PlaceOrder'));
@@ -216,7 +216,7 @@ const Home = () => {
             </div>
             <Faqs />
             <OnlineAcademic />
-            <MidSection />
+            {/* <MidSection /> */}
             <Social />
             {/* Review section */}
             <div className="review">
